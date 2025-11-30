@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Próximamente - pelixplus</title>
+    <link rel="icon" type="image/png" href="icono.png">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <button class="hamburger" id="hamburger-btn">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <a href="index.html" class="logo-link">
+                <h1 class="logo">pelixplus</h1>
+            </a>
+            <nav class="main-nav">
+                <div class="dropdown">
+                    <a href="index.html" class="main-nav-link dropbtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/></svg>
+                        <span>Inicio</span>
+                        <svg class="dropdown-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="series.html">Series</a>
+                        <a href="anime.html">Anime</a>
+                        <a href="accion.html">Acción</a>
+                        <a href="lanzamientos.html">Lanzamientos</a>
+                        <a href="todos.html">Todos</a>
+                        <a href="documental.html">Documental</a>
+                        <a href="proximamente.html">Próximamente</a>
+                    </div>
+                </div>
+                <a href="favoritos.html" class="main-nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/></svg>
+                    <span>Favoritos</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="proximamente-page-section" class="movie-section">
+            <h2 class="section-title">Próximamente</h2>
+            <div id="proximamente-grid" class="movie-grid-full"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 pelixplus. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="peliculas.js"></script>
+    <script src="proximamente.js"></script>
+</body>
+</html>

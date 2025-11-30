@@ -1,0 +1,236 @@
+<O!DCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pelixplus - Tu plataforma de películas</title>
+    <!-- Favicon 100% funcional -->
+    <link rel="icon" type="image/png" sizes="32x32" href="icono.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icono.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icono.png">
+    <link rel="shortcut icon" href="icono.png">
+
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script>
+        // --- Modo Mantenimiento para Netlify (Mejorado) ---
+        document.addEventListener('DOMContentLoaded', function() {
+            // Primero, verificar si el navegador se considera a sí mismo 'offline'.
+            if (!navigator.onLine) {
+                alert("Parece que no tienes conexión a internet. Por favor, revisa tu red.");
+                return; // No continuar si no hay conexión.
+            }
+
+            // Parámetro único para evitar problemas de caché.
+            const cacheBuster = new Date().getTime();
+            
+            fetch(`maintenance.flag?v=${cacheBuster}`)
+                .then(response => {
+                    // Si el archivo existe (estado 200), redirigir.
+                    if (response.ok && !window.location.pathname.includes('mantenimiento.html')) {
+                        window.location.href = 'mantenimiento.html';
+                    }
+                })
+                .catch(error => {
+                    // Este error puede ocurrir si no hay internet o si un bloqueador de anuncios interfiere.
+                    console.error('Fallo la revisión de mantenimiento. Puede ser un problema de red o un bloqueador de anuncios.', error);
+                    // Opcional: Informar al usuario sobre el posible problema.
+                    // Descomenta la siguiente línea si quieres que aparezca una alerta.
+                    // alert("No se pudo verificar el estado del sitio. Si tienes un bloqueador de anuncios, prueba desactivarlo para esta página.");
+                });
+        });
+    </script>
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="container">
+            <!-- Menú Hamburguesa -->
+            <button class="hamburger" id="hamburger-btn">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <!-- Logo -->
+            <a href="index.html" class="logo-link">
+                <h1 class="logo">pelixplus</h1>
+            </a>
+            
+            <!-- Navegación Principal para PC -->
+            <nav class="main-nav">
+                <!-- Menú Desplegable de Inicio -->
+                <div class="dropdown">
+                    <a href="index.html" class="main-nav-link dropbtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/></svg>
+                        <span>Inicio</span>
+                        <svg class="dropdown-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>
+                    </a>
+                    <div class="dropdown-content">
+                        
+                        <a href="series.html">Series</a>
+                        <a href="accion.html">Acción</a>
+                        <a href="lanzamientos.html">Lanzamientos</a>
+                        <a href="todos.html">Todos</a>
+                        <a href="documental.html">Documental</a>
+                        <a href="proximamente.html">Próximamente</a>
+                    
+                    </div>
+                </div>
+
+                <a href="javascript:void(0);" class="main-nav-link" onclick="document.getElementById('search-input').focus();">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
+                    <span>Buscar</span>
+                </a>
+                <a href="favoritos.html" class="main-nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/></svg>
+                    <span>Favoritos</span>
+                </a>
+                <a href="todos.html" class="main-nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zM2.5 10a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM9 2.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zM10.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM9 10.5A1.5 1.5 0 0 1 10.5 9h3A1.5 1.5 0 0 1 15 10.5v3A1.5 1.5 0 0 1 13.5 15h-3A1.5 1.5 0 0 1 9 13.5v-3zM10.5 10a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/></svg>
+                    <span>Todos</span>
+                </a>
+            </nav>
+
+            
+            <form class="search-form" id="search-form" action="javascript:void(0);">
+                <input type="text" class="search-input" id="search-input" name="q" placeholder="Buscar películas...">
+                <button type="submit" class="search-button" id="search-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </button>
+                
+                <div class="live-search-results" id="live-search-results"></div>
+            </form>
+        </div>
+    </header>
+
+    
+    <nav class="side-nav" id="side-menu">
+
+        <div class="nav-submenu" id="side-nav-submenu">
+            <a href="#" class="nav-link submenu-toggle">
+                Inicio
+                <svg class="dropdown-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>
+            </a>
+            <div class="submenu-content">
+                <a href="terror.html" class="nav-link">Terror</a>
+                <a href="series.html" class="nav-link">Series</a>
+                <a href="accion.html" class="nav-link">Acción</a>
+                <a href="anime.html" class="nav-link">Anime</a>
+                <a href="lanzamientos.html" class="nav-link">Lanzamientos</a>
+                <a href="documental.html" class="nav-link">Documental</a>
+            </div>
+        </div>
+        <a href="favoritos.html" class="nav-link">Mis Favoritos</a>
+    </nav>
+
+    <main class="container">
+        
+        <section id="hero-section" class="hero-section" style="display: flex;">
+        
+            <div class="hero-controls">
+                <button class="hero-nav-btn prev" aria-label="Anterior">&#10094;</button>
+                <button class="hero-nav-btn next" aria-label="Siguiente">&#10095;</button>
+            </div>
+            <div class="hero-indicators">
+            
+            </div>
+        </section>
+
+
+        <!-- Contenedor para los resultados de la búsqueda -->
+        <section id="live-search-container" class="movie-section" style="display: none;">
+            <h2 id="live-search-title" class="section-title">Resultados de Búsqueda</h2>
+            <div id="live-search-grid" class="movie-grid-full"></div>
+        </section>
+
+        <!-- Contenedor principal para las secciones de contenido -->
+        <div id="main-content-sections">
+            <section id="continue-watching-section" class="movie-section" style="display: none;">
+                <div class="section-title-container">
+                    <h2 class="section-title">Seguir Viendo</h2>
+                </div>
+                <div id="continue-watching-grid" class="movie-grid"></div>
+            </section>
+            <section id="recomendaciones-section" class="movie-section" style="display: none;">
+                <div class="section-header">
+                    <h2 class="section-title">Te podría gustar</h2>
+                </div>
+                <div id="recomendaciones-grid" class="movie-grid"></div>
+                <p id="no-recomendaciones" class="no-content-message" style="display: none;">No hay recomendaciones disponibles.</p>
+            </section>
+
+            <!-- NUEVO: Sección de Historial de Vistas -->
+            <section id="view-history-section" class="movie-section" style="display: none;">
+                <div class="section-title-container">
+                    <h2 class="section-title">Historial de Vistas</h2>
+                </div>
+                <div id="view-history-grid" class="movie-grid"></div>
+            </section>
+            <section id="lanzamientos-recientes" class="movie-section"></section>
+            <section id="tendencias" class="movie-section">
+                <div class="section-header">
+                    <h2 class="section-title">Tendencias de la Semana</h2>
+                    <a href="todos.html" class="view-all-link">Ver todo</a>
+                </div>
+            </section>
+            <section id="recientemente-añadido" class="movie-section">
+                <div class="section-header">
+                    <h2 class="section-title">Recientemente Añadido</h2>
+                    <a href="todos.html" class="view-all-link">Ver todo</a>
+                </div>
+            </section>
+            <section id="series" class="movie-section"></section>
+            <section id="todo-lo-nuevo-2025" class="movie-section"></section>
+            <section id="accion" class="movie-section"></section>
+            <section id="drama" class="movie-section"></section>
+            <section id="aventura" class="movie-section"></section>
+            <section id="terror" class="movie-section"></section>
+            <section id="anime" class="movie-section"></section>
+            <section id="documental" class="movie-section"></section>            
+            <section id="proximamente-section" class="movie-section"></section>
+        </div>
+    </main>
+
+    <!-- Barra de Navegación Inferior (Solo para Móvil) -->
+    <nav class="bottom-nav">
+        <a href="index.html" class="bottom-nav-link">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/></svg>
+            <span>Inicio</span>
+        </a>
+        <!-- AJUSTE: El onclick ahora activa la clase 'mobile-active' y luego enfoca el input -->
+        <a href="javascript:void(0);" class="bottom-nav-link" onclick="
+            const searchForm = document.getElementById('search-form');
+            searchForm.classList.toggle('mobile-active');
+            if (searchForm.classList.contains('mobile-active')) { document.getElementById('search-input').focus(); }
+        " title="Buscar">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
+            <span>Buscar</span>
+        </a>
+        <a href="favoritos.html" class="bottom-nav-link" title="Mis Favoritos">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16"><path d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/></svg>
+            <span>Favoritos</span>
+        </a>
+        <!-- NUEVO: Enlace a "Todos" para completar la navegación móvil -->
+        <a href="todos.html" class="bottom-nav-link" title="Ver Todo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zM2.5 10a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM9 2.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zM10.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM9 10.5A1.5 1.5 0 0 1 10.5 9h3A1.5 1.5 0 0 1 15 10.5v3A1.5 1.5 0 0 1 13.5 15h-3A1.5 1.5 0 0 1 9 13.5v-3zM10.5 10a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/></svg>
+            <span>Todos</span>
+        </a>
+    </nav>
+
+    <footer class="footer">
+        <p>&copy; 2025 CineStelar. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Scripts al final del body para un rendimiento óptimo -->
+    <!-- El atributo 'defer' asegura que se ejecuten en orden después de analizar el HTML -->
+    <script src="peliculas.js" defer></script>
+    <script src="proximamente.js" defer></script>
+    <script src="script.js" defer></script>
+</body>
+</html>

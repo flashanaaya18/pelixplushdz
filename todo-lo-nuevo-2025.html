@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-lo-nuevo-2025 - pelixplus</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body data-page="lanzamientos">
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="back-link">‹ Volver</a>
+            <div class="page-title-container">
+                <h1 class="logo">todo-lo-nuevo-2025</h1>
+                <p class="page-subtitle">Explora el contenido más nuevo añadido a nuestro catálogo.</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="view-controls">
+            <div class="filter-sort-controls">
+                <div class="control-group">
+                    <label for="genre-filter">Género:</label>
+                    <select id="genre-filter">
+                        <option value="all">Todos</option>
+                        <!-- Opciones de género se llenarán dinámicamente -->
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label for="sort-by">Ordenar por:</label>
+                    <select id="sort-by">
+                        <option value="popularity">Popularidad</option>
+                        <option value="release_date_desc">Más Recientes</option>
+                        <option value="rating_desc">Mejor Calificación</option>
+                        <option value="title_asc">Título (A-Z)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="layout-toggle">
+                <button id="grid-view-btn" class="layout-btn active" title="Vista de Cuadrícula"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM9 2.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zM10.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM9 10.5A1.5 1.5 0 0 1 10.5 9h3A1.5 1.5 0 0 1 15 10.5v3A1.5 1.5 0 0 1 13.5 15h-3A1.5 1.5 0 0 1 9 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"/></svg></button>
+                <button id="list-view-btn" class="layout-btn" title="Vista de Lista"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg></button>
+            </div>
+        </div>
+        <div id="todo-lo-nuevo-2025-grid" class="search-results-grid grid-view">
+            <!-- Las películas se inyectan aquí -->
+        </div>
+    </main>
+
+    <!-- Ventana Modal (Añadida para funcionalidad directa) -->
+    <div id="movie-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-main-content">
+                <div class="modal-poster-container">
+                    <img id="modal-poster" src="" alt="Póster de la película" style="display: none;">
+                    <video id="modal-video" controls style="display: none;"></video>
+                    <div id="terabox-container" class="terabox-container" style="display: none;"></div>
+                </div>
+                <div class="modal-info">
+                    <div class="modal-title-row"><h2 id="modal-title"></h2><button id="report-button" class="report-button" title="Reportar contenido no funcional"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></button></div>
+                    <div id="modal-details" class="modal-details"></div>
+                    <div id="modal-seasons-container" class="seasons-container" style="display: none;"></div>
+                    <div id="modal-source-buttons" class="source-buttons"></div>
+                    <div id="modal-cast" class="modal-cast"></div>
+                    <div class="modal-tabs"><button class="modal-tab-button active" data-tab="description-tab">Descripción</button><button class="modal-tab-button" data-tab="recommendations-tab">Recomendaciones</button></div>
+                    <div id="description-tab" class="modal-tab-content" style="display: block;"><p id="modal-description"></p><div class="rating-section"><div class="average-rating"><span class="star-icon">★</span><span id="modal-rating-avg"></span></div><div id="user-rating-stars" class="user-rating-stars"></div><p id="rating-votes" class="rating-votes"></p></div></div>
+                    <div id="recommendations-tab" class="modal-tab-content"><div class="recommendations-carrusel"><button class="rec-flecha izquierda">&#10094;</button><div id="recommendations-grid" class="recommendations-grid"></div><button class="rec-flecha derecha">&#10095;</button></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 peliXx. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="peliculas.js"></script>
+    <!-- CORRECCIÓN: Cargar el script principal ANTES del script de la página -->
+    <script src="script.js"></script>
+    <!-- El script específico de esta página se carga al final -->
+    <script src="todo-lo-nuevo-2025.js"></script>
+</body>
+</html>

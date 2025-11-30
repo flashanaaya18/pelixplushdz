@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles - PelixPlus</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- Contenedor principal con fondo dinámico -->
+    <div class="detail-backdrop" id="detail-backdrop">
+        <div class="container">
+            <!-- BOTÓN DE REGRESAR -->
+            <a href="index.html" class="back-to-home-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                <span>Volver al inicio</span>
+            </a>
+
+            <!-- Grid principal que divide póster e información -->
+            <div class="detail-grid-container">
+                <!-- Columna Izquierda: Póster -->
+                <div class="detail-poster-wrapper">
+                    <img id="detail-poster-img" src="" alt="Póster de la película" class="detail-poster-img">
+                </div>
+
+                <!-- Columna Derecha: Información -->
+                <div class="detail-info-wrapper">
+                    <h2 id="detail-title" class="detail-info-title">Cargando...</h2>
+                    <div id="detail-meta" class="detail-info-meta">
+                        <!-- Metadatos (año, calificación, etc.) se insertarán aquí -->
+                    </div>
+                    
+                    <div class="detail-info-section">
+                        <h3 class="detail-section-title">Géneros</h3>
+                        <div id="detail-genres" class="genres-pills">
+                            <!-- Géneros se insertarán aquí -->
+                        </div>
+                    </div>
+
+                    <div class="detail-info-section">
+                        <h3 class="detail-section-title">Sinopsis</h3>
+                        <p id="detail-description" class="detail-info-description">Cargando descripción...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenido secundario con sistema de pestañas -->
+    <main class="container detail-main-body">
+        <div class="detail-tabs-container">
+            <!-- Pestañas de Navegación -->
+            <div class="detail-tabs">
+                <button class="detail-tab-button active" data-tab="player-tab">Ver Online</button>
+                <button class="detail-tab-button" data-tab="cast-tab">Reparto</button>
+                <button class="detail-tab-button" data-tab="recommendations-tab">Te podría gustar</button>
+            </div>
+
+            <!-- Contenido de las Pestañas -->
+            <div class="detail-tab-content active" id="player-tab">
+                <section class="detail-player-section">
+                    <div class="source-buttons" id="detail-source-buttons">
+                        <!-- Botones de fuente (idioma/calidad) -->
+                    </div>
+                    <div id="detail-seasons-container" class="seasons-container" style="display: none;">
+                        <!-- Temporadas y episodios para series -->
+                    </div>
+                    <div class="detail-poster-container" id="detail-poster-container">
+                        <!-- El reproductor de video/iframe se insertará aquí -->
+                    </div>
+                </section>
+            </div>
+
+            <div class="detail-tab-content" id="cast-tab">
+                <section id="detail-cast-section" class="detail-cast-section">
+                     <div id="detail-cast" class="cast-grid">
+                        <!-- El reparto se insertará aquí -->
+                     </div>
+                </section>
+            </div>
+
+            <div class="detail-tab-content" id="recommendations-tab">
+                <section class="recommendations-container">
+                    <div class="recommendations-carrusel">
+                        <button class="rec-flecha izquierda" aria-label="Anterior"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button>
+                        <div class="recommendations-grid" id="recommendations-grid">
+                            <!-- Recomendaciones se insertarán aquí -->
+                        </div>
+                        <button class="rec-flecha derecha" aria-label="Siguiente"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 pelixplus. Todos los derechos reservados.</p>
+    </footer>
+
+    <!--
+      IMPORTANTE:
+      Asegúrate de tener un archivo 'peliculas.js' que defina la variable 'peliculas'.
+      Tu archivo 'detalle.js' depende de él para funcionar.
+    -->
+    <script src="peliculas.js"></script>
+    <script src="detalle.js"></script>
+</body>
+</html>
