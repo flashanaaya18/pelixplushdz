@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Series de TV - PelixplushdHD</title>
+    <title>Series - PelixplushdHD</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -81,11 +81,20 @@
     <div id="menu-overlay" class="menu-overlay"></div>
 
     <main>
-        <div class="hero-container"
-            style="height: 40vh; min-height: 300px; background-image: linear-gradient(rgba(0,0,0,0.5), #141414), url('https://image.tmdb.org/t/p/original/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg'); background-color: #000;">
+        <div id="hero-section" class="hero-container"
+            style="height: 40vh; min-height: 300px; background-image: linear-gradient(rgba(0,0,0,0.5), #141414), url('https://imgs.search.brave.com/CSj2ORDH_jm5LKncUPPcTPJ6nYbLCPwAw8LNxhPLR5g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2VzLmgtY2Ru/LmNvL2ZvdG9lcy9p/bWFnZXMvc2VyaWVz/LXRlbGV2aXNpb24v/MjAtc2VyaWVzLWFj/dHVhbGVzLXBhcmEt/dG9kYS1sYS1mYW1p/bGlhL3N0cmFuZ2Vy/LXRoaW5ncy1zZXJp/ZS1uZXRmbGl4LzEy/NTQzODQ5NS0xLWVz/bC1FUy9zdHJhbmdl/ci10aGluZ3Mtc2Vy/aWUtbmV0ZmxpeC5q/cGc_Y3JvcD0wLjg0/Mzc1eHc6MXhoO2Nl/bnRlcix0b3A'); background-color: #000;">
             <div class="hero-content">
-                <h1 class="hero-title">Series de TV</h1>
+                <h1 class="hero-title">Series Pelixplushd</h1>
                 <p class="hero-description">Maratonea tus series favoritas sin límites.</p>
+            </div>
+        </div>
+
+        <!-- Search Overlay -->
+        <div id="live-search-container" class="search-overlay" style="display:none;">
+            <div class="container">
+                <h2 id="live-search-title">Resultados</h2>
+                <div id="active-filter-container"></div>
+                <div id="live-search-grid" class="movie-grid-full"></div>
             </div>
         </div>
 
