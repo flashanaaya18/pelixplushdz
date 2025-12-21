@@ -5406,6 +5406,101 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Una Pequeña Confusión",
+    "titulo_original": "Una Pequeña Confusión",
+    "poster": "https://image.tmdb.org/t/p/w500/iiDtK3q42RGtHKTdLqQuzKWMYht.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8U1xsLUtWSN8WlH0xzwYGZxHMUi.jpg",
+    "descripcion": "En esta comedia llena de eventos, dos parejas que buscan tener hijos recurren a la inseminación artificial como último recurso. La ciencia no falla y la prueba da positivo, pero los humanos sí: “Una pequeña confusión” (nada pequeña) provoca que la doctora (Diana Bovio) intercambie accidentalmente las muestras de esperma. Ahora… cada futura mamá lleva el bebé de un completo extraño. Este ligero cambio de planes trastoca las vidas de Lola y Cuauh (Ana de la Reguera y Cristo Fernández), una pareja progresista de clase media con espíritu libre, y de Iñigo y Majo (Juanpa Zurita y Vico Escorcia), un dúo joven y conservador que vive en una burbuja de privilegio.",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Ariel Winograd",
+    "reparto": [
+      {
+        "name": "Ana de la Reguera",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hE8W86SKgIzoVsukTnL0VeGeYwB.jpg"
+      },
+      {
+        "name": "Juanpa Zurita",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kVWholhVRM5CwVO1WZ8DRIr8CQV.jpg"
+      },
+      {
+        "name": "Vico Escorcia",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tdzmSPh2MmS0nT9AbgQTlkKHvpN.jpg"
+      },
+      {
+        "name": "Cristo Fernández",
+        "profile_path": "https://image.tmdb.org/t/p/w185/irx5BVVLSQWY9m5NrhqyxPekwIY.jpg"
+      },
+      {
+        "name": "Diana Bovio",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fIHf1qsPzVhtnDBFGY1muc9AikB.jpg"
+      },
+      {
+        "name": "María E. Sandoval",
+        "profile_path": null
+      },
+      {
+        "name": "Meteora Fontana",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fNbA0hmZE7DIEfexVvOoTXPxAli.jpg"
+      },
+      {
+        "name": "César Brindis",
+        "profile_path": null
+      },
+      {
+        "name": "Lucía Tinajero",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tX1ihpax5SwHVR9LXv3Z9N81kd.jpg"
+      },
+      {
+        "name": "Mercedes Hernández",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2pC5Lv1eiItvAxeEe8KTbRlM1wY.jpg"
+      },
+      {
+        "name": "Mario Zaragoza",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3d6BX9epH4Yfk0g4cNY3IgZx24V.jpg"
+      },
+      {
+        "name": "Norma Reyna",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wXrgKUxzi0TAeUwOyaZ8cFyq20k.jpg"
+      }
+    ],
+    "calificacion": 7.5,
+    "votos": 80,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T13:36:46.191257",
+    "tmdb_id": 1304594,
+    "popularidad": 3.87,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "107 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/ljyxex3s65ap",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "una-pequena-confusion-2024"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Under Ninja",
     "titulo_original": "アンダーニンジャ",
     "poster": "https://image.tmdb.org/t/p/w500/gONIQR41CveZehtUa25YuFUcj9G.jpg",

@@ -3740,6 +3740,101 @@ const peliculas2 = [
     "id": "los-feos-2024"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "Mamá Reinventada",
+    "titulo_original": "Mamá Reinventada",
+    "poster": "https://image.tmdb.org/t/p/w500/vUZSqIesoLoX9Z8ByHwm8xUCaTg.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rx7aw7NGnIuCYorPBWeNPrgOMAc.jpg",
+    "descripcion": "Marina decide llevar a Patricia, su mamá, a vivir con ella, quien cree que debe comportarse como la viuda que ahora es. Al vivir con Marina se da cuenta de que le quedan muchas cosas por hacer. Ambas encuentran un nuevo mundo que explorar.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Bonnie Cartas",
+    "reparto": [
+      {
+        "name": "Erika Buenfil",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mubVd46RN2Lz5C7sMBXQZCckEyT.jpg"
+      },
+      {
+        "name": "Michelle Renaud",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rba0NmnEsHA6LQtiUspjCQDEAoe.jpg"
+      },
+      {
+        "name": "Nicolasa Ortíz Monasterio",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1U791LXpmGCZUVaxCZi6dI5AFyA.jpg"
+      },
+      {
+        "name": "Hernán Mendoza",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yU4nRJhLXr4eZdujCX1ZsPNFIpC.jpg"
+      },
+      {
+        "name": "Patricio José",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pXsOl6z9MvEA9CObgHijZwAKk5F.jpg"
+      },
+      {
+        "name": "Luz María Jerez",
+        "profile_path": null
+      },
+      {
+        "name": "Gabriela Platas",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kU9Qpq7uLHsEQR4ECZsl3D0KsXD.jpg"
+      },
+      {
+        "name": "Gilda Gómez",
+        "profile_path": null
+      },
+      {
+        "name": "Luz María Sánchez",
+        "profile_path": null
+      },
+      {
+        "name": "Issa Mondragón",
+        "profile_path": null
+      },
+      {
+        "name": "Ximena Portela",
+        "profile_path": null
+      },
+      {
+        "name": "Eva Daniela",
+        "profile_path": null
+      }
+    ],
+    "calificacion": 8.6,
+    "votos": 29,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-20T21:32:40.363346",
+    "tmdb_id": 1294949,
+    "popularidad": 2.66,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "95 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/8okh5e29xpoc",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "mama-reinventada-2025"
+  },
+  {
     "tipo": "serie",
     "titulo": "Monstruo: La historia de Jeffrey Dahmer",
     "titulo_original": "DAHMER - Monster: The Jeffrey Dahmer Story",
