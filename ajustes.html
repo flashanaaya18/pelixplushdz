@@ -145,6 +145,38 @@
             </section>
 
             <section class="setting-group">
+                <h2>Personalización de Inicio</h2>
+                <div class="setting-item">
+                    <span>Mostrar "Seguir Viendo"</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="show-continue-watching-toggle" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="setting-item">
+                    <span>Mostrar "Tendencias"</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="show-trending-toggle" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="setting-item">
+                    <span>Mostrar "Añadido Recientemente"</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="show-recently-added-toggle" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="setting-item">
+                    <span>Mostrar "Recomendado para ti"</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="show-recommendations-toggle" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </section>
+
+            <section class="setting-group">
                 <h2>Datos y Almacenamiento</h2>
                 <div class="setting-item">
                     <span>Limpiar caché automáticamente al iniciar</span>
@@ -164,6 +196,15 @@
                 <div class="setting-item">
                     <span>Limpiar caché de la aplicación</span>
                     <button id="clear-cache-btn" class="btn-setting">Limpiar</button>
+                </div>
+                <div class="setting-item">
+                    <span>Exportar mis datos (favoritos, historial)</span>
+                    <button id="export-data-btn" class="btn-setting">Exportar</button>
+                </div>
+                <div class="setting-item">
+                    <span>Importar mis datos</span>
+                    <button id="import-data-btn" class="btn-setting">Importar</button>
+                    <input type="file" id="import-data-input" accept=".json" style="display: none;">
                 </div>
                 <div class="setting-item danger-zone">
                     <span>Restablecer todos los datos de la app</span>

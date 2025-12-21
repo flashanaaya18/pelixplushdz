@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Buscar Contenido - PelixplushdHD</title>
+    <title>Buscar Contenido Latino - PelixplushdHD</title>
     <meta name="description"
-        content="Busca y encuentra tus películas y series favoritas en el catálogo de PelixplushdHD. Resultados instantáneos, filtros avanzados y más.">
+        content="Busca y encuentra tus películas y series favoritas en español latino. Catálogo especializado en contenido mexicano y latinoamericano.">
     <link rel="canonical" href="https://pelixplushd.netlify.app/buscar.html" />
     <link rel="icon" type="image/png" sizes="32x32" href="icono.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,13 +14,185 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="estilos.css?v=4">
+    <style>
+        .external-search-container {
+            display: none;
+            text-align: center;
+            margin-top: 3rem;
+            padding: 2.5rem;
+            background: linear-gradient(135deg, rgba(25, 55, 109, 0.9), rgba(10, 25, 47, 0.95));
+            border-radius: 20px;
+            border: 1px solid rgba(0, 91, 187, 0.3);
+            box-shadow: 0 10px 30px rgba(0, 91, 187, 0.1);
+        }
+        
+        .latino-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #005bbb, #00aaff);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        
+        .language-filter {
+            background: #333;
+            color: white;
+            border: 1px solid #444;
+            padding: 8px 15px;
+            border-radius: 20px;
+            outline: none;
+            font-size: 0.9rem;
+        }
+        
+        .external-search-btn {
+            padding: 14px 32px;
+            border: none;
+            border-radius: 30px;
+            color: white;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 1.1rem;
+            min-width: 220px;
+            margin: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .external-search-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
+        
+        .external-search-btn.latino {
+            background: linear-gradient(135deg, #005bbb, #00aaff);
+        }
+        
+        .external-search-btn.latino:hover {
+            background: linear-gradient(135deg, #0066cc, #00bbff);
+        }
+        
+        .external-search-btn.mexico {
+            background: linear-gradient(135deg, #006847, #00a86b);
+        }
+        
+        .external-search-btn.mexico:hover {
+            background: linear-gradient(135deg, #007a55, #00c078);
+        }
+        
+        .search-autoredirect {
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(0, 91, 187, 0.1);
+            border-radius: 10px;
+            color: #aaa;
+            font-size: 0.9rem;
+            border-left: 4px solid #005bbb;
+        }
+        
+        .search-autoredirect i {
+            color: #005bbb;
+            margin-right: 8px;
+        }
+        
+        .no-results-container {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        .no-results-title {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+        
+        .no-results-subtitle {
+            color: #aaa;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+        
+        .search-highlight {
+            color: #00aaff;
+            font-weight: bold;
+        }
+        
+        .latino-icon {
+            color: #005bbb;
+            margin-right: 5px;
+        }
+        
+        .loading-latino {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: rgba(0, 91, 187, 0.1);
+            border-radius: 20px;
+            color: #00aaff;
+            font-size: 0.9rem;
+            animation: pulse 1.5s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 0.6; }
+            50% { opacity: 1; }
+            100% { opacity: 0.6; }
+        }
+        
+        .language-options {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .language-option {
+            background: rgba(0, 91, 187, 0.2);
+            border: 1px solid rgba(0, 91, 187, 0.3);
+            padding: 8px 15px;
+            border-radius: 20px;
+            color: #00aaff;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .language-option.active {
+            background: #005bbb;
+            color: white;
+            border-color: #005bbb;
+        }
+        
+        .language-option:hover {
+            background: rgba(0, 91, 187, 0.3);
+        }
+        
+        .latino-warning {
+            display: inline-block;
+            background: rgba(0, 91, 187, 0.1);
+            border: 1px solid rgba(0, 91, 187, 0.3);
+            padding: 10px 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #00aaff;
+        }
+    </style>
 </head>
 
 <body>
 
     <!-- Navbar -->
     <header class="navbar" id="main-header">
-        <a href="index.html" class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span></span>plushd</a>
+        <a href="index.html" class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span></span>plushd <span class="latino-badge">LATINO</span></a>
         <nav class="desktop-nav">
             <a href="index.html">Inicio</a>
             <a href="series.html">Series</a>
@@ -29,9 +201,8 @@
             <a href="ajustes.html">Ajustes</a>
         </nav>
         <div class="nav-actions">
-            <!-- Barra de búsqueda del header (oculta en móvil si es redundante, o mantenida) -->
             <form id="header-search-form" class="search-bar" action="javascript:void(0);">
-                <input type="text" id="header-search-input" placeholder="Buscar...">
+                <input type="text" id="header-search-input" placeholder="Buscar en español latino...">
                 <button type="submit"><i class="fas fa-search"></i></button>
             </form>
             <button id="hamburger-btn" class="mobile-toggle"><i class="fas fa-bars"></i></button>
@@ -41,7 +212,7 @@
     <!-- Mobile Menu -->
     <aside id="side-menu" class="mobile-menu">
         <div class="mobile-menu-header">
-            <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span>plushd</span></div>
+            <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span>plushd</span> <span class="latino-badge">LATINO</span></div>
             <button id="close-side-menu-btn"><i class="fas fa-times"></i></button>
         </div>
         <nav class="mobile-nav-links">
@@ -51,12 +222,12 @@
             <a href="favoritos.html"><i class="fas fa-heart"></i> Favoritos</a>
             <a href="ajustes.html"><i class="fas fa-cog"></i> Ajustes</a>
             <div class="mobile-categories">
-                <span>Categorías</span>
+                <span>Categorías Latino</span>
                 <div class="category-tags">
-                    <a href="accion.html">Acción</a>
-                    <a href="comedia.html">Comedia</a>
-                    <a href="drama.html">Drama</a>
-                    <a href="anime.html">Anime</a>
+                    <a href="accion.html">Acción Latino</a>
+                    <a href="comedia.html">Comedia Mexicana</a>
+                    <a href="drama.html">Drama Latino</a>
+                    <a href="anime.html">Anime Doblado</a>
                 </div>
             </div>
         </nav>
@@ -67,11 +238,15 @@
 
         <!-- Search Hero Section -->
         <div class="search-hero" style="text-align: center; margin-bottom: 2rem; padding: 0 1rem;">
-            <h1 class="section-title" style="border: none; justify-content: center; margin-bottom: 1rem;">Explora
-                nuestro catálogo</h1>
+            <h1 class="section-title" style="border: none; justify-content: center; margin-bottom: 1rem;">
+                <i class="fas fa-globe-americas latino-icon"></i> Busca Contenido Latino
+            </h1>
+            <p style="color: #00aaff; margin-bottom: 1.5rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                <i class="fas fa-info-circle"></i> Especializados en contenido español latino y mexicano
+            </p>
 
             <div class="search-page-input-container" style="position: relative; max-width: 600px; margin: 0 auto;">
-                <input type="text" id="search-page-input" placeholder="Escribe una película, serie o género..."
+                <input type="text" id="search-page-input" placeholder="Busca películas y series en español latino..."
                     style="width: 100%; padding: 15px 20px; border-radius: 30px; border: none; background: #222; color: white; font-size: 1.1rem; outline: none; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
                 <button id="clear-search-btn"
                     style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); color: #888; display: none;">
@@ -79,41 +254,113 @@
                 </button>
             </div>
 
-            <!-- Filtros -->
+            <!-- Filtros Mejorados -->
             <div class="search-filters"
                 style="display: flex; gap: 10px; justify-content: center; margin-top: 1.5rem; flex-wrap: wrap;">
-                <select id="genre-filter"
-                    style="background: #333; color: white; border: 1px solid #444; padding: 8px 15px; border-radius: 20px; outline: none;">
+                <select id="genre-filter" class="language-filter">
                     <option value="all">Todos los Géneros</option>
                     <!-- Opciones se llenan con JS -->
                 </select>
-                <select id="sort-by"
-                    style="background: #333; color: white; border: 1px solid #444; padding: 8px 15px; border-radius: 20px; outline: none;">
+                
+                <select id="language-filter" class="language-filter">
+                    <option value="all">Todos los Idiomas</option>
+                    <option value="latino" selected>Español Latino</option>
+                    <option value="mexico">Español México</option>
+                    <option value="espanol">Español Castellano</option>
+                    <option value="subtitulado">Subtitulado</option>
+                </select>
+                
+                <select id="sort-by" class="language-filter">
                     <option value="popularity">Más Populares</option>
                     <option value="release_date_desc">Más Recientes</option>
                     <option value="rating_desc">Mejor Calificación</option>
                     <option value="title_asc">A-Z</option>
                 </select>
             </div>
+            
+            <!-- Opciones rápidas de idioma -->
+            <div class="language-options">
+                <div class="language-option active" data-language="latino">
+                    <i class="fas fa-globe-americas"></i> Latino
+                </div>
+                <div class="language-option" data-language="mexico">
+                    <i class="fas fa-flag"></i> México
+                </div>
+                <div class="language-option" data-language="espanol">
+                    <i class="fas fa-language"></i> Español
+                </div>
+            </div>
         </div>
 
         <!-- Contenedor para los resultados -->
         <div id="search-results-container" style="padding: 0 4%;">
             <div id="loader" class="loader" style="display: none; text-align: center; margin: 40px 0;">
-                <i class="fas fa-spinner fa-spin" style="font-size: 3rem; color: var(--primary);"></i>
+                <i class="fas fa-spinner fa-spin" style="font-size: 3rem; color: #00aaff;"></i>
+                <p style="margin-top: 15px; color: #00aaff;">Buscando contenido latino...</p>
             </div>
 
-            <p id="search-placeholder" class="no-content-message"
-                style="text-align: center; color: #888; font-size: 1.1rem; margin-top: 3rem;">
-                Comienza a escribir para descubrir contenido increíble.
-            </p>
+            <!-- Mensaje de búsqueda inicial -->
+            <div id="search-placeholder" class="no-results-container">
+                <h2 class="no-results-title">
+                    <i class="fas fa-globe-americas latino-icon"></i> Contenido Latino
+                </h2>
+                <p class="no-results-subtitle">Busca películas y series en español latino mexicano</p>
+                <div style="margin-top: 30px; color: #666; max-width: 500px; margin-left: auto; margin-right: auto;">
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 20px;">
+                        <div style="background: rgba(0, 91, 187, 0.1); padding: 15px; border-radius: 10px;">
+                            <i class="fas fa-film" style="color: #005bbb; font-size: 1.5rem; margin-bottom: 10px;"></i>
+                            <p style="font-size: 0.9rem; margin: 0;">Cine Mexicano</p>
+                        </div>
+                        <div style="background: rgba(0, 91, 187, 0.1); padding: 15px; border-radius: 10px;">
+                            <i class="fas fa-tv" style="color: #005bbb; font-size: 1.5rem; margin-bottom: 10px;"></i>
+                            <p style="font-size: 0.9rem; margin: 0;">Series Latino</p>
+                        </div>
+                        <div style="background: rgba(0, 91, 187, 0.1); padding: 15px; border-radius: 10px;">
+                            <i class="fas fa-microphone" style="color: #005bbb; font-size: 1.5rem; margin-bottom: 10px;"></i>
+                            <p style="font-size: 0.9rem; margin: 0;">Doblaje Latino</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Contenedor de resultados -->
             <div id="movies-results-container" style="display: none;">
                 <div class="section-title-container">
-                    <h2 class="section-title">Resultados</h2>
-                    <span id="results-count" style="color: #666; font-size: 0.9rem;"></span>
+                    <h2 class="section-title">
+                        <i class="fas fa-globe-americas latino-icon"></i> Resultados Latino
+                    </h2>
+                    <span id="results-count" style="color: #00aaff; font-size: 0.9rem; font-weight: 500;"></span>
                 </div>
                 <div id="results-grid" class="movie-grid-full"></div>
+            </div>
+
+            <!-- Contenedor de búsqueda externa (oculto inicialmente) -->
+            <div id="external-search-container" class="external-search-container">
+                <h3 style="margin-bottom: 1rem; color: #fff; font-size: 1.5rem;">
+                    <i class="fas fa-globe-americas"></i> Buscar en Fuentes Latino
+                </h3>
+                <p style="margin-bottom: 1.5rem; color: #aaa; line-height: 1.5;">
+                    No encontramos <span class="search-highlight" id="external-search-term"></span> en nuestro catálogo latino.
+                    <br>Buscando en fuentes especializadas en contenido español latino:
+                </p>
+                
+                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 25px;">
+                    <button id="search-latino-btn" class="external-search-btn latino">
+                        <i class="fas fa-globe-americas"></i> Buscar Latino
+                    </button>
+                    
+                    <button id="search-mexico-btn" class="external-search-btn mexico">
+                        <i class="fas fa-flag"></i> Buscar México
+                    </button>
+                </div>
+                
+                <div class="latino-warning">
+                    <i class="fas fa-info-circle"></i> Priorizamos contenido con doblaje latino y audio español México
+                </div>
+                
+                <div class="search-autoredirect">
+                    <i class="fas fa-clock"></i> Buscando automáticamente en <span id="countdown">5</span> segundos...
+                </div>
             </div>
         </div>
     </main>
@@ -121,10 +368,15 @@
     <footer class="main-footer">
         <div class="footer-content">
             <div class="brand logo">
-                <img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span>plushd</span>
+                <img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span>plushd</span> <span class="latino-badge">LATINO</span>
             </div>
-            <div class="links"><a href="#">DMCA</a><a href="#">Contacto</a></div>
-            <div class="copyright">&copy; 2025 Pelixplushd.</div>
+            <div class="links">
+                <a href="#"><i class="fas fa-language"></i> Contenido Latino</a>
+                <a href="#"><i class="fas fa-flag"></i> Cine Mexicano</a>
+            </div>
+            <div class="copyright">
+                <i class="fas fa-globe-americas"></i> 2025 Pelixplushd - Especialistas en contenido latino
+            </div>
         </div>
     </footer>
 
@@ -142,7 +394,7 @@
     <script src="buscar.js?v=4"></script>
 
     <script>
-        // Toggle Mobile Menu (Logic duplicated/ensured here)
+        // Toggle Mobile Menu
         document.addEventListener('DOMContentLoaded', () => {
             const toggleBtn = document.getElementById('hamburger-btn');
             const closeBtn = document.getElementById('close-side-menu-btn');
@@ -157,6 +409,29 @@
             if (toggleBtn) toggleBtn.addEventListener('click', toggleMenu);
             if (closeBtn) closeBtn.addEventListener('click', toggleMenu);
             if (overlay) overlay.addEventListener('click', toggleMenu);
+            
+            // Opciones de idioma rápidas
+            const languageOptions = document.querySelectorAll('.language-option');
+            const languageFilter = document.getElementById('language-filter');
+            
+            languageOptions.forEach(option => {
+                option.addEventListener('click', () => {
+                    // Remover clase active de todos
+                    languageOptions.forEach(opt => opt.classList.remove('active'));
+                    // Añadir clase active al clickeado
+                    option.classList.add('active');
+                    // Actualizar filtro de idioma
+                    const language = option.dataset.language;
+                    if (languageFilter) {
+                        languageFilter.value = language;
+                        // Disparar evento change si hay un input de búsqueda
+                        const searchInput = document.getElementById('search-page-input');
+                        if (searchInput && searchInput.value.trim()) {
+                            languageFilter.dispatchEvent(new Event('change'));
+                        }
+                    }
+                });
+            });
         });
     </script>
 </body>

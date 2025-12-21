@@ -47,7 +47,16 @@ function initializeSettings() {
     const showRatingsToggle = document.getElementById('show-ratings-toggle');
     const compactModeToggle = document.getElementById('compact-mode-toggle');
     const autoCacheClearToggle = document.getElementById('auto-cache-clear-toggle');
+    const exportDataBtn = document.getElementById('export-data-btn');
+    const importDataBtn = document.getElementById('import-data-btn');
+    const importDataInput = document.getElementById('import-data-input');
     const appVersionSpan = document.getElementById('app-version');
+
+    // Nuevos toggles de personalización de inicio
+    const showContinueWatchingToggle = document.getElementById('show-continue-watching-toggle');
+    const showTrendingToggle = document.getElementById('show-trending-toggle');
+    const showRecentlyAddedToggle = document.getElementById('show-recently-added-toggle');
+    const showRecommendationsToggle = document.getElementById('show-recommendations-toggle');
 
     const APP_VERSION = '4.6';
 
@@ -179,6 +188,19 @@ function initializeSettings() {
         const autoCacheClear = localStorage.getItem('settings_auto_cache_clear') !== 'false'; // Activado por defecto
         if (autoCacheClearToggle) autoCacheClearToggle.checked = autoCacheClear;
 
+        // Personalización de Inicio
+        const showContinueWatching = localStorage.getItem('settings_show_continue_watching') !== 'false';
+        if (showContinueWatchingToggle) showContinueWatchingToggle.checked = showContinueWatching;
+
+        const showTrending = localStorage.getItem('settings_show_trending') !== 'false';
+        if (showTrendingToggle) showTrendingToggle.checked = showTrending;
+
+        const showRecentlyAdded = localStorage.getItem('settings_show_recently_added') !== 'false';
+        if (showRecentlyAddedToggle) showRecentlyAddedToggle.checked = showRecentlyAdded;
+
+        const showRecommendations = localStorage.getItem('settings_show_recommendations') !== 'false';
+        if (showRecommendationsToggle) showRecommendationsToggle.checked = showRecommendations;
+
         // Versión de la App
         if (appVersionSpan) appVersionSpan.textContent = APP_VERSION;
     }
@@ -294,6 +316,28 @@ function initializeSettings() {
         });
     }
 
+    // Eventos para personalización de inicio
+    if (showContinueWatchingToggle) {
+        showContinueWatchingToggle.addEventListener('change', () => {
+            localStorage.setItem('settings_show_continue_watching', showContinueWatchingToggle.checked);
+        });
+    }
+    if (showTrendingToggle) {
+        showTrendingToggle.addEventListener('change', () => {
+            localStorage.setItem('settings_show_trending', showTrendingToggle.checked);
+        });
+    }
+    if (showRecentlyAddedToggle) {
+        showRecentlyAddedToggle.addEventListener('change', () => {
+            localStorage.setItem('settings_show_recently_added', showRecentlyAddedToggle.checked);
+        });
+    }
+    if (showRecommendationsToggle) {
+        showRecommendationsToggle.addEventListener('change', () => {
+            localStorage.setItem('settings_show_recommendations', showRecommendationsToggle.checked);
+        });
+    }
+
     if (clearHistoryBtn && window.dataManager) {
         clearHistoryBtn.addEventListener('click', () => {
             if (confirm('¿Estás seguro de que quieres limpiar tu historial de "Seguir Viendo"? Esta acción no se puede deshacer.')) {
@@ -339,6 +383,62 @@ function initializeSettings() {
                 window.showNotification('Todos los datos han sido restablecidos. La página se recargará.', 'success');
                 setTimeout(() => location.reload(true), 1500);
             }
+        });
+    }
+
+    // Lógica de Exportar / Importar
+    if (exportDataBtn && window.dataManager) {
+        exportDataBtn.addEventListener('click', () => {
+            try {
+                const data = localStorage.getItem(window.dataManager.DATA_KEY);
+                if (!data) {
+                    window.showNotification('No hay datos para exportar.', 'warning');
+                    return;
+                }
+                const blob = new Blob([data], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `pelixplushd_backup_${new Date().toISOString().split('T')[0]}.json`;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+                window.showNotification('Datos exportados correctamente.', 'success');
+            } catch (error) {
+                window.showNotification('Error al exportar los datos.', 'error');
+                console.error('Error exporting data:', error);
+            }
+        });
+    }
+
+    if (importDataBtn && importDataInput && window.dataManager) {
+        importDataBtn.addEventListener('click', () => {
+            importDataInput.click();
+        });
+
+        importDataInput.addEventListener('change', (event) => {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    const importedData = JSON.parse(e.target.result);
+                    // Validación simple
+                    if (importedData && importedData.version && importedData.favorites) {
+                        localStorage.setItem(window.dataManager.DATA_KEY, JSON.stringify(importedData));
+                        window.showNotification('Datos importados con éxito. La página se recargará.', 'success');
+                        setTimeout(() => window.location.reload(), 2000);
+                    } else {
+                        window.showNotification('El archivo de importación no es válido.', 'error');
+                    }
+                } catch (error) {
+                    window.showNotification('Error al leer el archivo. Asegúrate de que sea un JSON válido.', 'error');
+                    console.error('Error importing data:', error);
+                }
+            };
+            reader.readAsText(file);
         });
     }
 

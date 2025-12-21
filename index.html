@@ -10,9 +10,118 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="estilos.css">
     <link rel="manifest" href="manifest.json">
+    <style>
+        /* Estilos para el Page Loader para asegurar su funcionamiento */
+        .page-loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #141414;
+            z-index: 9999;
+            display: none;
+            /* Oculto por defecto */
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .page-loader.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .page-loader .loader-logo {
+            font-size: 2rem;
+            font-weight: 900;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .page-loader .loader-logo span {
+            color: #e50914;
+        }
+
+        .page-loader .loader-bar {
+            width: 150px;
+            height: 4px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 2px;
+            overflow: hidden;
+            position: relative;
+            animation: loading-bar-animation 1.5s infinite;
+        }
+
+        @keyframes loading-bar-animation {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(150px); }
+        }
+    </style>
 </head>
 
 <body>
+    <!-- Country Selector Modal -->
+    <div id="country-selector-modal" class="country-modal-overlay">
+        <div class="country-modal-content">
+            <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span>plushd</span></div>
+            <h2>Elige tu región</h2>
+            <p>Selecciona tu país para personalizar el contenido y las recomendaciones.</p>
+            <div class="country-list">
+                <div class="country-item" data-country="MX">
+                    <img src="https://flagcdn.com/w40/mx.png" alt="Bandera de México">
+                    <span>México</span>
+                </div>
+                <div class="country-item" data-country="AR">
+                    <img src="https://flagcdn.com/w40/ar.png" alt="Bandera de Argentina">
+                    <span>Argentina</span>
+                </div>
+                <div class="country-item" data-country="CO">
+                    <img src="https://flagcdn.com/w40/co.png" alt="Bandera de Colombia">
+                    <span>Colombia</span>
+                </div>
+                <div class="country-item" data-country="CL">
+                    <img src="https://flagcdn.com/w40/cl.png" alt="Bandera de Chile">
+                    <span>Chile</span>
+                </div>
+                <div class="country-item" data-country="PE">
+                    <img src="https://flagcdn.com/w40/pe.png" alt="Bandera de Perú">
+                    <span>Perú</span>
+                </div>
+                <div class="country-item" data-country="VE">
+                    <img src="https://flagcdn.com/w40/ve.png" alt="Bandera de Venezuela">
+                    <span>Venezuela</span>
+                </div>
+                <div class="country-item" data-country="EC">
+                    <img src="https://flagcdn.com/w40/ec.png" alt="Bandera de Ecuador">
+                    <span>Ecuador</span>
+                </div>
+                <div class="country-item" data-country="BO">
+                    <img src="https://flagcdn.com/w40/bo.png" alt="Bandera de Bolivia">
+                    <span>Bolivia</span>
+                </div>
+                <div class="country-item" data-country="PY">
+                    <img src="https://flagcdn.com/w40/py.png" alt="Bandera de Paraguay">
+                    <span>Paraguay</span>
+                </div>
+                <div class="country-item" data-country="UY">
+                    <img src="https://flagcdn.com/w40/uy.png" alt="Bandera de Uruguay">
+                    <span>Uruguay</span>
+                </div>
+                <div class="country-item" data-country="ES">
+                    <img src="https://flagcdn.com/w40/es.png" alt="Bandera de España">
+                    <span>España</span>
+                </div>
+                <div class="country-item" data-country="US">
+                    <img src="https://flagcdn.com/w40/us.png" alt="Bandera de Estados Unidos">
+                    <span>EE.UU. (Latino)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Global Page Loader -->
     <div id="page-loader" class="page-loader">
         <div class="loader-content">
@@ -55,8 +164,7 @@
     </header>
 
     <!-- Side Menu (Mobile) -->
-    <div id="side-menu" class="mobile-menu"
-        style="background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.95)), url('https://imgs.search.brave.com/gItV65AZpNINdoMPT7FycrI2KsNe7xYd0_sHJaCW4Zw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXIuZm9yZnVu/LmNvbS9mZXRjaC9l/Yy9lYzc3NGMxMDhk/NDFiMjk0YWQ1M2Fk/YjQwZjhiZGExNi5q/cGVn'); background-size: cover; background-position: center;">
+    <div id="side-menu" class="mobile-menu">
         <div class="mobile-menu-header">
             <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span></span>plushd</div>
             <button id="close-side-menu-btn" class="close-btn">&times;</button>
@@ -126,6 +234,16 @@
                 </div>
                 <div id="recomendaciones-grid" class="horizontal-scroll"></div>
                 <p id="no-recomendaciones" style="display:none;"></p>
+            </section>
+
+            <!-- NUEVO: Sección Mejores Películas (API) -->
+            <section id="mejores-peliculas-section" class="content-row">
+                <div class="section-title-container">
+                    <h2 class="section-title">🏆 Mejores Películas</h2>
+                </div>
+                <div class="carrusel-contenedor">
+                    <div id="mejores-peliculas-grid" class="movie-grid"></div>
+                </div>
             </section>
 
             <!-- Dynamic Categories -->

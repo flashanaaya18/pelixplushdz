@@ -1487,6 +1487,105 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "El gran diluvio",
+    "titulo_original": "대홍수",
+    "poster": "https://image.tmdb.org/t/p/w500/qIzSyT2AmDxkcQ0zOAeTbtZR9EQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3jMN1k8b0Ptd9eMoeftUyDGJdCh.jpg",
+    "descripcion": "En el que podría ser el último día en la Tierra, una lucha a vida o muerte en un piso inundado se convierte en la única esperanza de supervivencia de la humanidad.",
+    "año": 2025,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "aventura",
+      "drama"
+    ],
+    "generos_lista": [
+      "Ciencia ficción",
+      "Aventura",
+      "Drama"
+    ],
+    "director": "김병우",
+    "reparto": [
+      {
+        "name": "김다미",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nRGhwfuWqcTMoTmnhK4XmcRkZ6B.jpg"
+      },
+      {
+        "name": "박해수",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hFt7Cj8sx1VYIwm18lYmq5kS7Pw.jpg"
+      },
+      {
+        "name": "권은성",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sao2dAm3LGAg25fp9YxjFoNGLtb.jpg"
+      },
+      {
+        "name": "전혜진",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7PliJIOzUei41vyE9FaIWvFMNzC.jpg"
+      },
+      {
+        "name": "박병은",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8lDiEHjbBxPD8VNu1kGifMXhPUn.jpg"
+      },
+      {
+        "name": "이학주",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gajjcFdyWx49Mlca4JwTVe3zr87.jpg"
+      },
+      {
+        "name": "전유나",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pBT0lG8fE7EYyEi2I7foFNEBEsC.jpg"
+      },
+      {
+        "name": "박미현",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cykvf76gDVlIhxFKO9xX7VY1HxW.jpg"
+      },
+      {
+        "name": "이동찬",
+        "profile_path": "https://image.tmdb.org/t/p/w185/duOrQOEbjjbtMFrm7MbFrV0Ft3E.jpg"
+      },
+      {
+        "name": "권민경",
+        "profile_path": "https://image.tmdb.org/t/p/w185/l8bPmt2SsLFHFeu6eYioDgWMtIZ.jpg"
+      },
+      {
+        "name": "Kim Dong‑young",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7y3B0CvOB61EIGMMRx1oM7tlRL5.jpg"
+      },
+      {
+        "name": "김강빈",
+        "profile_path": "https://image.tmdb.org/t/p/w185/qBOxRyaXPfshr60QZfNHCLgC1oj.jpg"
+      }
+    ],
+    "calificacion": 6.0,
+    "votos": 100,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T13:59:19.064309",
+    "tmdb_id": 982843,
+    "popularidad": 417.25,
+    "tagline": "El último día en la Tierra. La única opción para sobrevivir.",
+    "trailer": "",
+    "success": true,
+    "duracion": "109 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://fastream.to/embed-xgmmu6i5zx4a.html",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-gran-diluvio-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "El Jefe de Kingstown",
     "titulo_original": "El Jefe de Kingstown",
     "poster": "https://www25.pelisplushd.to/poster/el-jefe-de-kingstown-thumb.jpg",
@@ -3437,6 +3536,116 @@ const peliculas2 = [
       }
     ],
     "id": "la-mas-fan-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "La peor vuelta al mundo",
+    "titulo_original": "La peor vuelta al mundo",
+    "poster": "https://image.tmdb.org/t/p/w500/a2M1Lw4jIEyHmUfQusD7OTEYK9M.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3jun6V4bkYQ6GzMNXzPCXVi2wBN.jpg",
+    "descripcion": "Sin tener idea de lo que implica darle la vuelta al mundo, Juanpa Zurita convence a Disney+ de que lo puede lograr con un pequeño avión de un solo motor y el legendario piloto Matt Guthmiller. Recorriendo 8 destinos, 4 continentes, con 8 invitados famosos para no fracasar solo, y el poco presupuesto que le sacó a Disney… era inevitable que esto terminara en un desastre.",
+    "año": 2025,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "reality"
+    ],
+    "generos_lista": [
+      "Reality"
+    ],
+    "director": "",
+    "reparto": [
+      {
+        "name": "Juanpa Zurita",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kVWholhVRM5CwVO1WZ8DRIr8CQV.jpg"
+      },
+      {
+        "name": "Matt Guthmiller",
+        "profile_path": null
+      }
+    ],
+    "calificacion": 8.5,
+    "votos": 2,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T14:04:51.992471",
+    "tmdb_id": 304354,
+    "popularidad": 1.01,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=_2l_r6l1Co8",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "La peor vuelta al mundo",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://fastream.to/embed-c7muzu1qeccp.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://fastream.to/embed-g6hjyodegdws.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://fastream.to/embed-dhuthn9hu0wb.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://fastream.to/embed-x2vqbfkan8y1.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://fastream.to/embed-yytfja6d8v4b.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://fastream.to/embed-g25bwb9k3ydv.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://fastream.to/embed-a9wjcbclsm6h.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://fastream.to/embed-4ji6jnx1u91f.html",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 8,
+    "tipo_serie": "Reality",
+    "ultima_emision": "2025-11-07",
+    "plataforma": "pelicula",
+    "id": "la-peor-vuelta-al-mundo-2025"
   },
   {
     "tipo": "pelicula",
@@ -5406,6 +5615,101 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Una Pequeña Confusión",
+    "titulo_original": "Una Pequeña Confusión",
+    "poster": "https://image.tmdb.org/t/p/w500/iiDtK3q42RGtHKTdLqQuzKWMYht.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8U1xsLUtWSN8WlH0xzwYGZxHMUi.jpg",
+    "descripcion": "En esta comedia llena de eventos, dos parejas que buscan tener hijos recurren a la inseminación artificial como último recurso. La ciencia no falla y la prueba da positivo, pero los humanos sí: “Una pequeña confusión” (nada pequeña) provoca que la doctora (Diana Bovio) intercambie accidentalmente las muestras de esperma. Ahora… cada futura mamá lleva el bebé de un completo extraño. Este ligero cambio de planes trastoca las vidas de Lola y Cuauh (Ana de la Reguera y Cristo Fernández), una pareja progresista de clase media con espíritu libre, y de Iñigo y Majo (Juanpa Zurita y Vico Escorcia), un dúo joven y conservador que vive en una burbuja de privilegio.",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Ariel Winograd",
+    "reparto": [
+      {
+        "name": "Ana de la Reguera",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hE8W86SKgIzoVsukTnL0VeGeYwB.jpg"
+      },
+      {
+        "name": "Juanpa Zurita",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kVWholhVRM5CwVO1WZ8DRIr8CQV.jpg"
+      },
+      {
+        "name": "Vico Escorcia",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tdzmSPh2MmS0nT9AbgQTlkKHvpN.jpg"
+      },
+      {
+        "name": "Cristo Fernández",
+        "profile_path": "https://image.tmdb.org/t/p/w185/irx5BVVLSQWY9m5NrhqyxPekwIY.jpg"
+      },
+      {
+        "name": "Diana Bovio",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fIHf1qsPzVhtnDBFGY1muc9AikB.jpg"
+      },
+      {
+        "name": "María E. Sandoval",
+        "profile_path": null
+      },
+      {
+        "name": "Meteora Fontana",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fNbA0hmZE7DIEfexVvOoTXPxAli.jpg"
+      },
+      {
+        "name": "César Brindis",
+        "profile_path": null
+      },
+      {
+        "name": "Lucía Tinajero",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tX1ihpax5SwHVR9LXv3Z9N81kd.jpg"
+      },
+      {
+        "name": "Mercedes Hernández",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2pC5Lv1eiItvAxeEe8KTbRlM1wY.jpg"
+      },
+      {
+        "name": "Mario Zaragoza",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3d6BX9epH4Yfk0g4cNY3IgZx24V.jpg"
+      },
+      {
+        "name": "Norma Reyna",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wXrgKUxzi0TAeUwOyaZ8cFyq20k.jpg"
+      }
+    ],
+    "calificacion": 7.5,
+    "votos": 80,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T13:36:46.191257",
+    "tmdb_id": 1304594,
+    "popularidad": 3.87,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "107 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/ljyxex3s65ap",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "una-pequena-confusion-2024"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Under Ninja",
     "titulo_original": "アンダーニンジャ",
     "poster": "https://image.tmdb.org/t/p/w500/gONIQR41CveZehtUa25YuFUcj9G.jpg",
@@ -5599,5 +5903,148 @@ const peliculas2 = [
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-05-13",
     "id": "will-trent-agente-especial-2023"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Y llegaron de noche",
+    "titulo_original": "Y llegaron de noche",
+    "poster": "https://image.tmdb.org/t/p/w500/gH3BkTA4BoP6TXZ09ZHs0EpwMWu.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wgdQFnjjoDnFxQlQiDNotCknONY.jpg",
+    "descripcion": "Una comedia en el lugar de trabajo sobre los desamparados que accidentalmente hicieron la mejor película de Drácula que jamás hayas visto: la versión en español del clásico de 1931..",
+    "año": 2024,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Bob Fisher",
+    "reparto": [
+      {
+        "name": "Eugenio Derbez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6o1w3mYF947N6TTakQXcs3NNy4w.jpg"
+      },
+      {
+        "name": "Sofía Niño de Rivera",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2HQwPzOCZFagkFGBnSN3T1SD4Yx.jpg"
+      },
+      {
+        "name": "AJ Vaage",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2WQ9tnmVIpuL3Drcw6dOyx4wTpT.jpg"
+      },
+      {
+        "name": "Yare Santana",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9E6uEr23wEU3Ww2GbKk9Mu5Rnhf.jpg"
+      },
+      {
+        "name": "Federico Espejo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pEk7se4BS3lBcJ1Lv57OvQOp69o.jpg"
+      },
+      {
+        "name": "Laura Ferreti",
+        "profile_path": null
+      },
+      {
+        "name": "Diana Bovio",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fIHf1qsPzVhtnDBFGY1muc9AikB.jpg"
+      },
+      {
+        "name": "Manuel 'Flaco' Ibáñez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rBJnQ0FrST8ffs9yMxiQaPbmW6G.jpg"
+      },
+      {
+        "name": "Jerry Velazquez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ndY1tq565YyhuAYPRKPWLiedETW.jpg"
+      },
+      {
+        "name": "Daniel Raymont",
+        "profile_path": "https://image.tmdb.org/t/p/w185/qe1J4MwhvJuTmlFghcLne8tEBaL.jpg"
+      },
+      {
+        "name": "Jason Alexander",
+        "profile_path": "https://image.tmdb.org/t/p/w185/qRezZ2yhM2bmBERt7jVcxo8RVSA.jpg"
+      },
+      {
+        "name": "Sebastian Kahuna",
+        "profile_path": "https://image.tmdb.org/t/p/w185/joFUyoIiKHAdFhq1dC9IhhqSkJR.jpg"
+      }
+    ],
+    "calificacion": 7.1,
+    "votos": 24,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T14:29:02.244187",
+    "tmdb_id": 272570,
+    "popularidad": 0.91,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://playerwish.com/e/gqur26b1sx4u",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://playerwish.com/e/ggqaoyqvi2a9",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://playerwish.com/e/s756dw910ufy",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://playerwish.com/e/ijpgtt0qwvxy",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://playerwish.com/e/9oafv7f9y0rg",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://playerwish.com/e/2tzu99sbj74b",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://playerwish.com/e/6nb3q2ccyix9",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 7,
+    "tipo_serie": "Miniseries",
+    "ultima_emision": "2024-10-24",
+    "plataforma": "vix",
+    "id": "y-llegaron-de-noche-2024"
   }
 ];

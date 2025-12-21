@@ -221,6 +221,43 @@ function applyGlobalSettings() {
     if (compactMode) document.body.classList.add('compact-mode');
 }
 
+// --- LÓGICA DEL SELECTOR DE PAÍS OBLIGATORIO ---
+function setupCountrySelector() {
+    const modal = document.getElementById('country-selector-modal');
+    if (!modal) return;
+
+    const countryItems = document.querySelectorAll('.country-item');
+    const savedCountry = localStorage.getItem('user_country');
+
+    // Si ya hay un país guardado, no hacemos nada.
+    if (savedCountry) {
+        modal.style.display = 'none';
+        return;
+    }
+
+    // Si no hay país, mostramos el modal.
+    modal.classList.add('visible');
+    document.body.style.overflow = 'hidden'; // Bloquear scroll
+
+    countryItems.forEach(item => {
+        item.addEventListener('click', () => {
+            const countryCode = item.dataset.country;
+            
+            // Guardar permanentemente
+            localStorage.setItem('user_country', countryCode);
+
+            // También lo guardamos en la configuración de la app para que sea consistente
+            localStorage.setItem('settings_country', countryCode);
+
+            // Ocultar el modal y recargar la página para aplicar cambios
+            modal.style.opacity = '0';
+            modal.style.transition = 'opacity 0.3s ease';
+            
+            setTimeout(() => window.location.reload(), 300);
+        });
+    });
+}
+
 // Función principal que se ejecuta después de cargar el DOM
 document.addEventListener('DOMContentLoaded', async () => {
     // Ocultar loader si está activo (por si venimos de atrás o carga lenta)
@@ -231,6 +268,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Aplicar ajustes visuales inmediatamente
     applyGlobalSettings();
+
+    // NUEVO: Configurar y verificar el selector de país obligatorio
+    setupCountrySelector();
 
     console.log("=== INICIANDO CARGA DE PELÍCULAS ===");
 
@@ -361,6 +401,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     // --- Variables y Elementos del DOM ---
     const hamburgerBtn = document.getElementById('hamburger-btn');
     const sideMenu = document.getElementById('side-menu');
+
+    // Aplicar fondo global al menú lateral (para que salga en todas las páginas)
+    if (sideMenu) {
+        sideMenu.style.backgroundImage = "linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.95)), url('https://imgs.search.brave.com/gItV65AZpNINdoMPT7FycrI2KsNe7xYd0_sHJaCW4Zw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXIuZm9yZnVu/LmNvbS9mZXRjaC9l/Yy9lYzc3NGMxMDhk/NDFiMjk0YWQ1M2Fk/YjQwZjhiZGExNi5q/cGVn')";
+        sideMenu.style.backgroundSize = "cover";
+        sideMenu.style.backgroundPosition = "center";
+    }
+
     const searchForm = document.getElementById('search-form');
     const searchButton = document.getElementById('search-button');
     const searchInput = document.getElementById('search-input');
@@ -766,16 +814,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // --- Function to create movie cards ---
     window.createMovieCard = (pelicula, showDescription = true, highlightQuery = '') => {
-        const tarjeta = document.createElement('div');
+        const tarjeta = document.createElement('a');
         tarjeta.className = 'movie-card';
         tarjeta.dataset.movieId = pelicula.id;
+        tarjeta.href = `detalles.html?id=${encodeURIComponent(pelicula.id)}`;
 
         if (pelicula.esta_roto || reportedItems.has(pelicula.id)) {
             tarjeta.classList.add('is-broken');
         }
-
-        // Hacer toda la tarjeta clicable (sin usar <a>)
-        tarjeta.style.cursor = 'pointer';
 
         const tipoTag = `<div class="card-tag tag-tipo tag-${pelicula.tipo || 'pelicula'}">${(pelicula.tipo || 'pelicula').toUpperCase()}</div>`;
         const edadTag = pelicula.clasificacion_edad ? `<div class="card-tag tag-edad ${pelicula.clasificacion_edad.includes('+18') ? 'tag-fire' : ''}">${pelicula.clasificacion_edad}</div>` : '';
@@ -811,14 +857,12 @@ document.addEventListener('DOMContentLoaded', async () => {
             ${favoriteButton}
         `;
 
-        // Hacer clic en la tarjeta abre los detalles con animación
+        // Hacer clic en la tarjeta abre los detalles con el loader
         tarjeta.addEventListener('click', (e) => {
-            // Evitar que se active si se hace clic en el botón de favoritos
-            if (!e.target.closest('.card-favorite-btn')) {
-                if (pelicula && pelicula.id) {
-                    window.showPageLoader(`detalles.html?id=${encodeURIComponent(pelicula.id)}`);
-                }
-            }
+            // El botón de favoritos tiene su propio listener con stopPropagation,
+            // por lo que este código no se ejecuta si se hace clic en el corazón.
+            e.preventDefault();
+            window.showPageLoader(tarjeta.href);
         });
 
         const favBtn = tarjeta.querySelector('.card-favorite-btn');
@@ -882,9 +926,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             ? (item.currentTime / item.duration) * 100
             : 10;
 
-        const tarjeta = document.createElement('div');
+        const tarjeta = document.createElement('a');
         tarjeta.className = 'movie-card continue-watching-card';
-        tarjeta.style.cursor = 'pointer';
+        tarjeta.href = `detalles.html?id=${encodeURIComponent(pelicula.id)}`;
 
         let title = pelicula.titulo;
         if (item.type === 'serie' && item.season && item.episode) {
@@ -911,16 +955,17 @@ document.addEventListener('DOMContentLoaded', async () => {
             </div>
         `;
 
-        // Hacer clic en la tarjeta redirige a detalles.html con animación
+        // Hacer clic en la tarjeta redirige a detalles.html usando el loader
         tarjeta.addEventListener('click', (e) => {
             // No redirigir si se hace clic en el botón de eliminar
-            if (!e.target.closest('.remove-continue-watching')) {
-                window.showPageLoader(`detalles.html?id=${encodeURIComponent(pelicula.id)}`);
-            }
+            // (el botón de eliminar tiene su propio listener con stopPropagation)
+            e.preventDefault();
+            window.showPageLoader(tarjeta.href);
         });
 
         const removeBtn = tarjeta.querySelector('.remove-continue-watching');
         removeBtn.addEventListener('click', (e) => {
+            e.preventDefault(); // Prevenir la navegación del enlace <a>
             e.stopPropagation();
             removeFromContinueWatching(pelicula.id);
         });
@@ -931,6 +976,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     function loadContinueWatching() {
         const continueWatchingSection = document.getElementById('continue-watching-section');
         if (!continueWatchingSection || !continueWatchingGrid) return;
+
+        // NUEVO: Verificar si la sección debe mostrarse
+        if (localStorage.getItem('settings_show_continue_watching') === 'false') {
+            continueWatchingSection.style.display = 'none';
+            return;
+        }
 
         let items = dataManager.getContinueWatching();
         console.log('📺 Cargando "Seguir Viendo":', items);
@@ -1169,6 +1220,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         const trendingSection = document.getElementById('tendencias');
         if (!trendingSection) return;
 
+        // NUEVO: Verificar si la sección debe mostrarse
+        if (localStorage.getItem('settings_show_trending') === 'false') {
+            trendingSection.style.display = 'none';
+            return;
+        }
+
         trendingSection.innerHTML = '';
 
         const titleContainer = document.createElement('div');
@@ -1207,6 +1264,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     const renderRecomendaciones = () => {
         if (!recomendacionesSection || !recomendacionesGrid || !noRecomendacionesMessage) return;
 
+        // NUEVO: Verificar si la sección debe mostrarse
+        if (localStorage.getItem('settings_show_recommendations') === 'false') {
+            recomendacionesSection.style.display = 'none';
+            return;
+        }
+
         const viewHistory = dataManager.getViewHistory();
         if (viewHistory.length === 0) {
             recomendacionesSection.style.display = 'none';
@@ -1241,6 +1304,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     function renderRecentlyAddedSection() {
         const recentlyAddedSection = document.getElementById('recientemente-añadido');
         if (!recentlyAddedSection) return;
+
+        // NUEVO: Verificar si la sección debe mostrarse
+        if (localStorage.getItem('settings_show_recently_added') === 'false') {
+            recentlyAddedSection.style.display = 'none';
+            return;
+        }
 
         // Intentar usar el grid definido en HTML para mantener el encabezado y estilos
         let grid = document.getElementById('recientemente-añadido-grid');
@@ -1327,6 +1396,71 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         });
     };
+
+    // --- NUEVO: Cargar y renderizar las mejores películas desde TMDB ---
+    async function fetchAndRenderTopRatedMovies() {
+        const container = document.getElementById('mejores-peliculas-section');
+        const grid = document.getElementById('mejores-peliculas-grid');
+
+        if (!container || !grid) {
+            console.warn('Contenedor para "Mejores Películas" no encontrado.');
+            return;
+        }
+
+        // Mostrar un loader simple mientras carga
+        grid.innerHTML = '<div class="loader-bar" style="margin: 2rem auto; animation: none; background: var(--primary);"></div>';
+
+        try {
+            const url = `https://api.themoviedb.org/3/movie/top_rated?api_key=${TMDB_API_KEY}&language=es-ES&page=1`;
+            const response = await fetch(url);
+            if (!response.ok) {
+                throw new Error(`Error de red: ${response.status}`);
+            }
+            const data = await response.json();
+
+            if (data.results && data.results.length > 0) {
+                grid.innerHTML = ''; // Limpiar el loader
+                
+                const carruselContenedor = grid.parentElement;
+                if (carruselContenedor && !carruselContenedor.querySelector('.carrusel-flecha')) {
+                    carruselContenedor.insertAdjacentHTML('afterbegin', `
+                        <button class="carrusel-flecha izquierda" aria-label="Anterior">&#10094;</button>
+                        <button class="carrusel-flecha derecha" aria-label="Siguiente">&#10095;</button>
+                    `);
+                    
+                    const flechaIzquierda = carruselContenedor.querySelector('.izquierda');
+                    const flechaDerecha = carruselContenedor.querySelector('.derecha');
+                    
+                    flechaIzquierda.addEventListener('click', () => grid.scrollBy({ left: -grid.clientWidth * 0.8, behavior: 'smooth' }));
+                    flechaDerecha.addEventListener('click', () => grid.scrollBy({ left: grid.clientWidth * 0.8, behavior: 'smooth' }));
+                }
+
+                data.results.slice(0, 20).forEach(item => { // Limitar a 20 para el carrusel
+                    const peliculaData = {
+                        id: `tmdb-${item.id}`,
+                        tmdbId: item.id,
+                        tipo: 'pelicula',
+                        titulo: item.title,
+                        descripcion: item.overview,
+                        poster: item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : 'https://via.placeholder.com/180x270/333333/ffffff?text=No+Image',
+                        año: (item.release_date || '').split('-')[0] || 'N/A',
+                        calificacion: item.vote_average,
+                        esTmdb: true
+                    };
+
+                    const card = createMovieCard(peliculaData);
+                    card.href = `detalles.html?tmdb=${item.id}&type=movie`; // Sobrescribir el href para que apunte a TMDB
+                    grid.appendChild(card);
+                });
+                container.style.display = 'block';
+            } else {
+                container.style.display = 'none';
+            }
+        } catch (error) {
+            console.error('Error al cargar las mejores películas:', error);
+            container.style.display = 'none';
+        }
+    }
 
     // --- Hero Section Logic ---
     const setupHeroSection = () => {
@@ -1532,6 +1666,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     scrolling="no" 
                     allowfullscreen
                     allow="autoplay; encrypted-media"
+                    sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
                 ></iframe>
             `;
             teraboxContainer.style.display = 'block';
@@ -2038,6 +2173,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             renderFavorites();
             renderViewHistory();
             renderRecomendaciones();
+            fetchAndRenderTopRatedMovies();
             setupHeroSection();
         }
 
