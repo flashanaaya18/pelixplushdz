@@ -1,0 +1,14 @@
+# Configuración de redirecciones y encabezados para Netlify
+
+# Regla para asegurar que el sitemap se sirva como XML
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+
+# Regla de fallback para aplicaciones de una sola página (SPA)
+# El status 200! fuerza la regla y evita que se aplique a archivos existentes como el sitemap.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

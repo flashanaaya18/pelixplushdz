@@ -1,0 +1,24112 @@
+const peliculas = [
+  {
+    "tipo": "pelicula",
+    "titulo": "  Toy Story 2",
+    "poster": "https://image.tmdb.org/t/p/w300/eVGu0zsezaSCuN67zgNhzjeNI9Z.jpg",
+    "descripcion": "En una inesperada aventura que trasciende los límites de la habitación infantil, los queridos juguetes de Andy enfrentan su desafío más complejo cuando su dueño parte hacia campamento. La aparente tranquilidad se rompe cuando Woody, el vaquero de confianza, es sustraído por Al McWhiggin, un obsesivo comerciante reconocido por reunir piezas de colección invaluablees. Este secuestro desencadena una misión de rescate donde Buzz Lightyear demuestra su valía como líder estratégico, coordinando a los demás juguetes en una operación que pondrá a prueba su ingenio y coraje. La travesía los lleva a través de entornos urbanos desconocidos, desde transitadas aceras hasta enormes centros comerciales, donde cada esquina esconde nuevos peligros y revelaciones sorprendentes. Mientras Woody descubre perturbadoras verdades sobre su pasado como figura de culto televisivo, el equipo de rescate enfrenta obstáculos que superan todo lo imaginado: desde cruzar peligrosas calles hasta infiltrarse en el apartamento fuertemente custodiado del coleccionista. La operación para recuperar a Woody se convierte en una carrera contra el tiempo, donde la lealtad y la amistad son puestas a prueba mediante situaciones que mezclan el suspense con momentos de genuino humor. Esta emocionante búsqueda demuestra hasta dónde pueden llegar estos peculiares héroes cuando la amistad está en juego, desarrollándose como una de las operaciones de rescate de juguetes más memorables del cine animado. A través de escenarios domésticos transformados en paisajes épicos y encuentros con nuevos personajes que cambiarán sus perspectivas, la historia explora temas de identidad y pertenencia mientras mantiene un ritmo vibrante que cautivará a espectadores de todas las edades, consolidándose como una experiencia única en el rescate de juguetes valiosos del cine animado..Toy Story 2 - Histoire de jouets 2 - 1999 FR Příběh hraček 2 Toy Story 2: Príbeh hracek 反斗奇兵2 Toy Story 2 - Woody e Buzz alla Riscossa 토이 스토리 2 Žaislų istorija 2 Disney Pixar Klassiker 3: Toy Story 2 Toy Story II saga toy story",
+    "categoria": [
+      "anime"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-24T20:46:12.866390",
+    "tamaño": "N/A",
+    "año": 1999,
+    "calificacion": 8.7,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/4c6u7rlgkprb",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "toy-story-2-1999",
+    "descargas": [
+      "https://dintezuvio.com/embed/4c6u7rlgkprb"
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": " Las Aventuras de Bo Peep",
+    "poster": "https://image.tmdb.org/t/p/w300/AalqLzjXlEwSrneNyvaW5aGv3Nk.jpg",
+    "descripcion": "En el vibrante universo animado de \"Las Aventuras de Bo Peep\", la valiente pastora de porcelana protagoniza un emocionante regreso que desvela los misterios de su prolongada ausencia desde su última aparición en la franquicia. La narrativa se desarrolla a través de escenarios nunca antes explorados, donde Bo Peep demuestra una adaptabilidad sorprendente al mundo moderno fuera de la habitación de Andy. Su viaje la lleva desde ferias de pueblo abandonadas hasta peligrosas travesías urbanas, revelando cómo desarrolló habilidades de supervivencia excepcionales y formó nuevas alianzas con juguetes marginados. El conflicto central surge cuando Bo Peep debe enfrentar dilemas morales sobre la lealtad versus la libertad, mientras equilibra su naturaleza independiente con los lazos que alguna vez la unieron a sus antiguos compañeros. A través de encuentros con personajes excéntricos y situaciones cómicas impredecibles, la trama profundiza en las motivaciones que moldearon su transformación de una figura decorativa a una líder audaz. Los espectadores descubrirán las circunstancias que la llevaron a elegir un camino nómada y cómo sus experiencias forjaron una perspectiva única sobre lo que significa ser un juguete en un mundo en constante evolución. Esta comedia familiar responde preguntas cruciales sobre el paradero de Bo Peep mediante secuencias dinámicas que entrelazan pasado y presente, mostrando momentos decisivos que definieron su nuevo propósito. El relato mantiene un ritmo ágil mientras explora temas de identidad y pertenencia, todo ambientado en escenarios visualmente creativos que amplían la mitología del universo de los juguetes. La historia culmina con revelaciones que conectan elegantemente su jornada personal con el destino colectivo de aquellos que alguna vez consideró su familia, estableciendo las bases para futuras interacciones dentro del ecosistema juguetero..Toy Story 4: Lamp Life Toy Story - La Vie En Lumiere Las aventuras de Bo Peep Історія іграшок: Життя лампи Історія іграшок 4: Життя лампи Toy Story: Lamp Life Przygody nocnej lampki Жизнь лампы Vida de Candeeiro Vita da lampada Pixar - La vie en lumière saga toy story",
+    "categoria": [
+      "anime"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-24T21:09:15.255622",
+    "tamaño": "N/A",
+    "año": 2020,
+    "calificacion": 8.8,
+    "votos": 60000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/wt1ivyt9e6vt",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "las-aventuras-de-bo-peep-2020",
+    "descargas": [
+      "https://dintezuvio.com/embed/wt1ivyt9e6vt"
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "1 Million Followers",
+    "poster": "https://image.tmdb.org/t/p/w300/fGINjf8jdJ5t4kqESNE3OMaVBSc.jpg",
+    "descripcion": "Una chica de un pueblo pequeño que es invitada por un popular influencer a una mansión en Tailandia donde las hermosas. Las cosas dan un giro oscuro cuando descubren quién es el patrocinador de este evento..One Million Followers 1 Million ",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-03T22:15:36.609234",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2024,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/iz2h5dp2ql76",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/iz2h5dp2ql76"
+      }
+    ],
+    "id": "1-million-followers-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "31 Minutos: Calurosa Navidad",
+    "poster": "https://image.tmdb.org/t/p/w300/dv9UrOoicRiMGkzr2oj2YwSFY2K.jpg",
+    "descripcion": "Al periodista estrella de 31 Minutos, Juan Carlos Bodoque se le es encomendada la tarea de ir a recoger al Polo Norte los regalos de navidad de todo el pueblo de Titirilquén, sin embargo, la tentación al juego se hará presente en la misión de Bodoque. Mientras que Mario Hugo intenta montar un show navideño en el estudio de 31 minutos, pero todo termina saliendo mal..",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "aventura",
+      "comedia",
+      "familia",
+      "musica"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-30T00:59:18.055641",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 9.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/7jul2zdil6wl",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/7jul2zdil6wl"
+      }
+    ],
+    "id": "31-minutos-calurosa-navidad-2025"
+  },
+  {
+    "id": "365-dias-2020",
+    "tipo": "pelicula",
+    "titulo": "365 días",
+    "poster": "https://image.tmdb.org/t/p/w300/jz8T3hrU6GuMqSuQ4Rbd4MJUeaq.jpg",
+    "descripcion": "",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "romance"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T01:07:13.218140",
+    "tamaño": "N/A",
+    "año": 2020,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "clasificacion_edad": "+18",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/k5z2cfg4qs3l"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/k5z2cfg4qs3l",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/k5z2cfg4qs3l"
+      }
+    ],
+    "idioma": "latino"
+  },
+  {
+    "id": "50-segundos-el-caso-fernando-baez-sosa-2025",
+    "tipo": "serie",
+    "titulo": "50 segundos: El caso Fernando Báez Sosa",
+    "poster": "https://image.tmdb.org/t/p/w300/voMljae3BXWo63qnM9QikVJpUK.jpg",
+    "descripcion": "Esta serie documental explora el caso de Fernando Báez Sosa, cuyo asesinato a golpes por parte de un grupo de jóvenes quedó grabado en video, hecho que conmocionó a la Argentina..",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental",
+      "drama"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-21T14:39:30.057896",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 7.9,
+    "votos": 70900,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dinisglows.com/embed/gi1tl8zcosii"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dinisglows.com/embed/hqdw01krz231"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dinisglows.com/embed/vawn5h1uu39n"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "A Cinderella Christmas Ball",
+    "poster": "https://image.tmdb.org/t/p/w300/cErYtATJg6mPFPx1JxwIc4L7ZlU.jpg",
+    "descripcion": "Sigue a Chelsea Jones, una instructora de baile, mientras viaja al pequeño país europeo de Havenshire en busca de su herencia durante las vacaciones de Navidad..Royal Christmas Ball A Royal Christmas Ball",
+    "categoria": [
+      "comedia"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "romance"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-30T22:25:13.091743",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 7.0,
+    "votos": 8000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/r954baci3lke",
+        "calidad": "1080"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/r954baci3lke"
+      }
+    ],
+    "id": "a-cinderella-christmas-ball-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "A Ilha dos Ilús",
+    "poster": "https://image.tmdb.org/t/p/w500/azL93T4sQgKnxhel3VPHQuz9xP7.jpg",
+    "descripcion": "",
+    "año": 2023,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "animación"
+    ],
+    "director": "Paulo GC Miranda",
+    "reparto": [
+      "Carloz Magno",
+      "Kelly Priscilla",
+      "Mckeidy Lisita"
+    ],
+    "calificacion": 8.7,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:11:37.107199",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/rp1potfzuhyc?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "a-ilha-dos-ilus-2023"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "A propósito de Llewyn Davis",
+    "poster": "https://image.tmdb.org/t/p/w500/iQLwlcN6IyvWR50HJfmh6ClZKab.jpg",
+    "descripcion": "La vida de un joven cantante de folk en el universo de Greenwich Village en 1961. Llewyn Davis está en una encrucijada. Con su guitarra a cuestas acurrucado contra el frio de un invierno implacable en Nueva York, el joven lucha por ganarse la vida como músico y hace frente a obstáculos que parecen insuperables – comenzando por aquellos creados por él mismo. Sobrevive gracias a la ayuda de sus amigos o de desconocidos a cambio de pequeños trabajos. De los cafés del Village a un club desierto de Chicago, sus desventuras lo llevan a una audición para el gigante de la música Bud Grossman – antes de volver al lugar de donde viene...",
+    "año": 2013,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "música"
+    ],
+    "director": "Joel Coen",
+    "reparto": [
+      "Oscar Isaac",
+      "Carey Mulligan",
+      "Justin Timberlake",
+      "Ethan Phillips",
+      "Robin Bartlett"
+    ],
+    "calificacion": 7.2,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:44:01.980735",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/xad858me8vm4?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "a-proposito-de-llewyn-davis-2013"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Afterburn (Zona cero)",
+    "poster": "https://image.tmdb.org/t/p/w300/soZdshVi2nQpCWqQkS8qumUNNqO.jpg",
+    "descripcion": "Un grupo de cazadores de tesoros postapocalípticos busca reliquias antiguas en una Tierra que ha quedado casi medio destruida por una enorme erupción solar..Cazadores Del Fin Del Mundo Aardekütid Világvége után Истлевшее",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "ciencia",
+      "comedia",
+      "ficcion"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T16:55:16.962572",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 7.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/v66yhbzo61ke",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/v66yhbzo61ke"
+      }
+    ],
+    "id": "afterburn-zona-cero-2025"
+  },
+  {
+    "id": "agents-2024",
+    "tipo": "pelicula",
+    "titulo": "Agents",
+    "poster": "https://ww4.pelisplushd.to/poster/agents-thumb.jpg",
+    "descripcion": "er Agents Online Latino, Español, Subtituladas Gratis | Cuevana3. When the chief of the Secret Intelligence Agency is suspended due to a false implication in a failed mission, his son takes matters in his own hands to restore his father's honor.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2024,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "Accion"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T20:42:21.063194",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://goodstream.uno/video/embed/b2ivr7tc19ct"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://goodstream.uno/video/embed/b2ivr7tc19ct"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Agárralo como puedas",
+    "poster": "https://image.tmdb.org/t/p/w300/Mu73AnUmBpSI8W0bNCgaCVwzOa.jpg",
+    "descripcion": "En la vibrante ciudad de Los Angeles, el legendario pero torpe teniente Frank Drebin Jr. regresa al servicio activo cuando un misterioso asesinato sacude los cimientos del mundo tecnológico. La víctima, un influyente magnate de Silicon Valley, aparece en circunstancias que apuntan hacia una conspiración mucho más compleja de lo que las autoridades están dispuestas a admitir. Mientras Frank se sumerge en esta investigación de alto perfil, su propia unidad policial enfrenta la amenaza inminente de ser desmantelada por los altos mandos, añadiendo presión adicional a su ya caótica carrera. La trama se complica cuando Drebin conoce a una perspicaz escritora especializada en casos criminales, cuya aguda inteligencia contrasta marcadamente con los métodos poco ortodoxos del teniente. Juntos forman una improbable alianza que los lleva a través de un laberinto de pistas falsas y situaciones peligrosamente hilarantes. Desde persecuciones automovilísticas que terminan en desastrosos accidentes hasta infiltraciones en exclusivos eventos sociales que se convierten en caos absoluto, cada paso en su investigación se transforma en una aventura impredecible. Mientras siguen el rastro del asesino, descubren que el crimen está conectado con una red de corrupción que alcanza las más altas esferas del poder. La investigación de crímenes de alto perfil se convierte en una carrera contra el tiempo, donde Frank deberá utilizar su peculiar estilo de resolver casos para desentrañar la verdad. Con giros inesperados en cada esquina y un humor que desafía toda lógica, esta reinvención de la clásica franquicia promete mantener a los espectadores entre la risa y el suspenso, demostrando que a veces los métodos más absurdos pueden llevar a las soluciones más brillantes en la resolución de casos policiales cómicos..총알탄 사나이 Çılpaq Silah L'agent fait la farce Una pallottola spuntata",
+    "categoria": [
+      "comedia"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "comedia",
+      "crimen"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-01T16:22:36.304170",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/f3zxfwankzjg",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/f3zxfwankzjg"
+      }
+    ],
+    "id": "agarralo-como-puedas-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Ahora me ves 3",
+    "poster": "https://image.tmdb.org/t/p/w300//Aspr0HcItNVbgLC8cV0ZAO0EBcc.jpg",
+    "descripcion": "Los Cuatro Jinetes regresan junto a una nueva generación de ilusionistas en una extraordinaria aventura que contiene giros asombrosos, sorpresas alucinantes y trucos de magia nunca vistos en la gran pantalla.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-05T00:23:41.970856",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2021,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://hlswish.com/e/1omj63c8va9b",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://hlswish.com/e/1omj63c8va9b"
+      }
+    ],
+    "id": "ahora-me-ves-3-2021"
+  },
+  {
+    "id": "al-interior-2007",
+    "tipo": "pelicula",
+    "titulo": "Al interior",
+    "poster": "https://ww4.pelisplushd.to/poster/al-interior-thumb.jpg",
+    "descripcion": "Una mujer embarazada y viuda (Alysson Paradis), cuyo novio ha fallecido recientemente, pasa la noche de navidad a solas, completamente afligida por la pérdida del padre de su bebé, cuando una extraña (Béatrice Dalle) se presenta en su casa...",
+    "categoria": [
+      "terror"
+    ],
+    "año": 2007,
+    "duracion": "1h",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "calificacion": 6.7,
+    "votos": 2312,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://streamwish.to/e/wi0f7300ylui"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/wi0f7300ylui"
+      }
+    ]
+  },
+  {
+    "id": "al-rescate-de-fondo-de-bikini-la-pelicula-de-arenita-mejillas-2024",
+    "tipo": "pelicula",
+    "titulo": "Al rescate de Fondo de Bikini: La película de Arenita Mejillas",
+    "poster": "https://ww5.pelisplushd.to/poster/al-rescate-de-fondo-de-bikini-la-pelicula-de-arenita-mejillas-thumb.jpg",
+    "descripcion": "Cuando de pronto sacan a Fondo de Bikini del océano, la ardilla científica Arenita Mejillas y su amigo Bob Esponja emprenden un viaje a Texas para salvar su hogar.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-16T02:59:40.187909",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 5.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/0r56hvbtwr52"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/0r56hvbtwr52"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Altered",
+    "poster": "https://image.tmdb.org/t/p/w500/6QlAcGRaUrgHcZ4WTBh5lsPnzKx.jpg",
+    "descripcion": "En un presente alternativo, los humanos mejorados genéticamente dominan la sociedad. Los marginados Leon y Chloe luchan por la justicia contra los políticos corruptos que se aprovechan de la disparidad genética, arriesgándolo todo para desafiar al sistema opresor.",
+    "año": 2025,
+    "categoria": [
+      "todo-lo-nuevo-2025"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "acción"
+    ],
+    "director": "Timo Vuorensola",
+    "reparto": [
+      "Tom Felton",
+      "Aggy K. Adams",
+      "Elizaveta Bugulova",
+      "Игорь Жижикин",
+      "Richard Brake"
+    ],
+    "calificacion": 6.431,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T01:35:41.538856",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/9s6zospfge9r",
+        "calidad": "1080p"
+      },
+      {
+        "idioma": "subtitulado",
+        "url": "https://streamwish.to/e/c8clf2wr74l7",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "altered-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Amenaza en el aire",
+    "poster": "https://image.tmdb.org/t/p/w300/8T6nkYb4W8BIeafmFffyfsRciTL.jpg",
+    "descripcion": "En las gélidas alturas de Alaska, una aeronave privada se convierte en el escenario de una peligrosa confrontación aérea. El experimentado piloto Mark se enfrenta al vuelo más desafiante de su carrera cuando acepta transportar a una enigmática oficial militar y su crucial testigo protegido. Mientras sobrevuelan los imponentes picos montañosos, la aparente misión rutinaria se transforma en una lucha por la supervivencia donde las lealtades se desdibjan y cada pasajero esconde oscuros secretos. La teniente general encargada de la custodia demuestra poseer habilidades que van más allá del protocolo militar estándar, mientras el testigo clave contra la organización criminal manifiesta un comportamiento peculiar que genera crecientes sospechas. A medida que la nave avanza entre turbulentas corrientes de aire, las tensiones aumentan exponencialmente dentro de la cabina. La situación se complica cuando evidencias perturbadoras sugieren que entre los ocupantes existe al menos un infiltrado con intenciones mortales. En este escenario de suspenso aéreo, la claustrofóbica atmósfera se intensifica con cada minuto de vuelo. A miles de metros sobre el terreno inhóspito, las opciones de escape se reducen dramáticamente mientras se desarrolla un mortal juego de engaños. El piloto debe emplear toda su pericia para mantener el control de la aeronave mientras intenta discernir quiénes son sus aliados y quiénes sus enemigos en esta crítica travesía por los cielos de Alaska, donde cada decisión podría determinar la supervivencia de todos los ocupantes en este thriller de acción aérea que mantiene en vilo hasta el desenlace final..",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "crimen",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-30T16:41:07.645196",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 7.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "crunchyroll",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/uc834gmwcx7n",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/uc834gmwcx7n"
+      }
+    ],
+    "id": "amenaza-en-el-aire-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Americana",
+    "poster": "https://image.tmdb.org/t/p/w300/83Gis9pOKCvAdaKXCNChey4IZyL.jpg",
+    "descripcion": "En las áridas llanuras de Dakota del Sur, donde el polvo se mezcla con los sueños rotos, una prenda de vestir extraordinaria desencadena una espiral de caos. Una camisa de diseño único, tejida con materiales imposibles de conseguir legalmente, aparece en el mercado clandestino de un pueblo fronterizo olvidado por el tiempo. Este objeto aparentemente mundano esconde un valor incalculable que atrae a cazadores de fortunas, traficantes profesionales y habitantes desesperados por escapar de su realidad. Mientras las facciones criminales se infiltran en la comunidad, tres figuras marginales se ven arrastradas hacia el epicentro del conflicto: un exmilitar que busca redención, una contrabandista con su propio código de honor y un granjero cuya tierra esconde secretos ancestrales. La tensión crece conforme cada facción despliega sus recursos para localizar la prenda, transformando las calles polvorientas en un campo de batalla improvisado. La búsqueda de esta prenda esquiva en el mercado negro desata lealtades traicionadas y alianzas inesperadas bajo el sol inclemente de las praderas. El escenario western se convierte en el telón de fondo perfecto para este thriller criminal donde las reglas las escriben aquellos con menos que perder. Las balas comienzan a silbar cuando los intereses de forasteros y lugareños chocan violentamente, demostrando que en la frontera moderna, la ley del más fuerte sigue predominando. El suspense se intensifica con cada confrontación, llevando a los personajes a enfrentamientos que pondrán a prueba sus límites morales y su instinto de supervivencia en un territorio donde la justicia siempre lleva retraso..",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "crimen",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-30T16:59:44.318073",
+    "tamaño": "N/A",
+    "año": 2023,
+    "calificacion": 7.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/by932sw9m3dl",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/by932sw9m3dl"
+      }
+    ],
+    "id": "americana-2023"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Amor de mentira",
+    "poster": "https://image.tmdb.org/t/p/w300/ySOA8dU0dG19Uz7GIRgC2wwsdtt.jpg",
+    "descripcion": "Kim Woo Joo, un hombre algo narcisista y racional, regenta la histórica panadería de su familia. Un día, trabajando con la diseñadora Yoo Me Ri, ella le pide matrimonio repentinamente. Yoo Me Ri atraviesa dificultades en su vida, incluyendo la ruptura de su compromiso y un contrato fraudulento de su nueva casa. Por esa época, recibe la buena noticia de que ha ganado un premio especial para recién casados: una casa adosada de lujo. Su problema es que ya ha roto su compromiso, por eso le propone matrimonio a Kim Woo Joo, el cual tiene el mismo nombre que su ex prometido. Así es como comienzan su falsa vida de recién casados durante 90 días..宇宙Marry Me？ 宇宙嫁给我 宇宙Marry Me？ Marry Me in the Universe هل تتزوجني؟ 宇宙Marry Me？ Would You Marry Me?",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T22:50:28.797304",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/ainnciyv080s"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/nvclbmhqsft9"
+          }
+        ]
+      }
+    ],
+    "id": "amor-de-mentira-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Amor erizo",
+    "poster": "https://image.tmdb.org/t/p/w500/p9qkaojS4utXZqMSf52baeU8gqi.jpg",
+    "descripcion": "Alicia y Eduardo se casaron enamorados, compraron una casa preciosa y adoptaron a dos erizos adorables mientras esperaban ser padres... Luego se preguntaron si eso era realmente lo que querían.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "romance"
+    ],
+    "director": "P.J. Ruiz",
+    "reparto": [
+      "Patricia Barreto",
+      "Óscar Meza",
+      "Cindy Díaz",
+      "Alicia Mercado",
+      "Montserrat Brugué"
+    ],
+    "calificacion": 7.0,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:40:22.346933",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/3m1len99q393?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "amor-erizo-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Angry Birds 2: La película",
+    "poster": "https://image.tmdb.org/t/p/w300/jUDA7p8rKlby7aBD1D0PxovKufZ.jpg",
+    "descripcion": "En las vibrantes islas tropicales donde habitan las aves, una inesperada amenaza se cierne sobre el paraíso. Red, el emblemático pájaro carmesí con un temperamento explosivo, se enfrenta a su mayor desafío cuando el cielo se oscurece con proyectiles helados. Junto a sus inseparables compañeros Chuck, el veloz pájaro amarillo cuya energía parece inagotable, y Bomb, el impredecible pájaro negro con tendencias explosivas, descubrirán que su eterna rivalidad con los astutos cerdos verdes debe transformarse en una alianza forzosa. La trama se desarrolla cuando Zeta, una formidable pájaro que gobierna un gélido archipiélago polar, decide expandir su territorio congelado. Su arma principal son esferas de hielo capaces de convertir cualquier paisaje en un desierto helado, lo que representa el conflicto principal de la película. La supervivencia de ambas comunidades depende de que aves y cerdos superen sus diferencias históricas y unan fuerzas en una misión que los llevará a territorios inexplorados. La expedición hacia la fortaleza de hielo de Zeta se convierte en una aventura llena de obstáculos donde el ingenio y el trabajo en equipo serán cruciales. Los protagonistas deberán navegar por paisajes glaciares traicioneros y enfrentarse a ingeniosas trampas mientras descubren que su enemiga posee motivaciones más complejas de lo que aparentaba. Esta emocionante aventura animada combina secuencias de acción trepidantes con momentos de comedia genuina, explorando temas de cooperación y comprensión mutua a través de coloridos personajes que deberán evolucionar para salvar sus hogares..愤怒的小鸟2 Angry Birds 2 - Der Film Angry Birds 2 앵그리버드 더 무비 2 Angry Birds filmen 2",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "sin info",
+    "reparto": [
+      "CALIDAD HD"
+    ],
+    "favorito": false,
+    "genero": [],
+    "idioma": "Latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T13:23:19.177605",
+    "tamaño": "N/A",
+    "año": 2019,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/db870pzqb268",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/db870pzqb268"
+      }
+    ],
+    "id": "angry-birds-2-la-pelicula-2019"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Angry Birds. La película",
+    "poster": "https://image.tmdb.org/t/p/w300/byaV6Y90rViDtxgYMDhULwu71z2.jpg",
+    "descripcion": "En una paradisíaca isla tropical habitada exclusivamente por aves incapaces de volar, la armonía reina entre sus coloridos habitantes. Sin embargo, esta aparente perfección oculta profundas divisiones sociales, especialmente para Red, un cardenal de temperamental carácter que vive aislado en la playa tras un incidente con un pastel. Su soledad compartida con Chuck, el veloz canario amarillo que se mueve a velocidades supersónicas, y Bomb, el inquieto pájaro negro con tendencias explosivas, los convierte en los marginados de esta comunidad aviar. La llegada inesperada de una embarcación liderada por el intrigante Rey Cerdo cambiará para siempre el frágil equilibrio de la isla. Mientras el resto de las aves reciben con entusiasmo a estos visitantes porcinos, organizando festividades y mostrando sus tecnologías más preciadas, Red mantiene una actitud de profunda desconfianza. Sus sospechas lo llevarán a emprender un peligroso viaje hasta la montaña del legendario Mighty Eagle, el mítico guardián de las aves, en busca de respuestas. Lo que descubrirán estos atípicos héroes será una conspiración mucho más elaborada de lo que imaginaban, donde la aparente amabilidad de los cerdos esconde oscuras intenciones que amenazan la existencia misma de su hogar. La supervivencia de la comunidad aviar dependerá de la capacidad de estos inadaptados para unir fuerzas y desentrañar los planes secretos de los invasores porcinos antes de que sea demasiado tarde, en una aventura que pondrá a prueba sus habilidades únicas y forjará una amistad improbable entre los más improbables protectores de la isla..愤怒的小鸟 Kurjad linnud film Angry Birds le film 憤怒鳥大電影 앵그리버드 더 무비 Angry Birds filmen Angry Birds Film Angry Birds 1 愤怒鸟 Angry Birds Angry Birds 01 Angry Birds Movie the The Angry Birds The Angry Birds Movie 3D",
+    "categoria": [
+      "anime"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura",
+      "comedia"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-30T13:19:08.729278",
+    "tamaño": "N/A",
+    "año": 2016,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/yxppfi2s8wcr",
+        "calidad": "108'p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "108'p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/yxppfi2s8wcr"
+      }
+    ],
+    "id": "angry-birds-la-pelicula-2016"
+  },
+  {
+    "id": "asesinos-de-aliens-del-espacio-sideral-2025",
+    "tipo": "pelicula",
+    "titulo": "Asesinos de aliens del espacio sideral",
+    "poster": "https://www.pelisplus.do/poster/asesinos-de-aliens-del-espacio-sideral-thumb.jpg",
+    "descripcion": "",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T17:21:32.852029",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.3,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/aum500g9s8xl"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/aum500g9s8xl"
+      }
+    ]
+  },
+  {
+    "id": "ataque-13-2025",
+    "tipo": "pelicula",
+    "titulo": "Ataque 13",
+    "poster": "https://www.pelisplus.do/poster/13-1419027-thumb.jpg",
+    "descripcion": "Jin es la nueva de la escuela y no teme enfrentarse a su despiadada capitana de voleibol. Pero cuando la chica aparece muerta, su espíritu regresa para ajustar cuentas.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "terror",
+      "suspenso"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T16:52:07.096926",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 5.2,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "clasificacion_edad": "n",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/l8arjusl0goh"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/l8arjusl0goh"
+      }
+    ]
+  },
+  {
+    "id": "attack-on-titan-el-ataque-final-2024",
+    "tipo": "pelicula",
+    "titulo": "Attack on Titan: EL ATAQUE FINAL",
+    "poster": "https://ww4.pelisplushd.to/poster/attack-on-titan-el-ataque-final-thumb.jpg",
+    "descripcion": "Película recopilatoria para cines de los dos últimos episodios especiales de la última temporada de \"Ataque a los Titanes\". La humanidad vivía en paz tras los enormes muros construidos para protegerse de la amenaza de unas criaturas monstruosas llamadas Titanes. Su siglo de paz se vio truncado por un ataque a su ciudad que dejó huérfano de madre a un niño, Eren Yeager, que juró vengarse de los titanes. Años después de unirse a la Tropa de Reconocimiento, Eren se enfrenta a un enemigo mortal y acaba adquiriendo una habilidad especial que revela una nueva verdad sobre el mundo que conoce... Tras aventurarse más allá de los muros y separarse de sus camaradas, Eren, motivado por sus nuevos conocimientos del mundo, planea el \"Retumbar\", un terrorífico plan para erradicar a todo ser vivo del mundo. Con el destino del mundo pendiendo de un hilo, un variopinto grupo de antiguos camaradas y enemigos de Eren lucha por detener su letal misión. La única pregunta es: ¿lo conseguirán?",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2024,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "accion"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T20:44:10.168640",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://player.cuevana3.eu/player.php?h=rxPRsRSX4IlkyS1F21W5j7DjqxgaqR6gzMvCX2oGGB2unQT6wbqPGR.2E495YaTI"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/t5muv0kc3h89",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://player.cuevana3.eu/player.php?h=rxPRsRSX4IlkyS1F21W5j7DjqxgaqR6gzMvCX2oGGB2unQT6wbqPGR.2E495YaTI"
+      },
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/t5muv0kc3h89"
+      }
+    ]
+  },
+  {
+    "id": "autos-mota-y-rocanrol-2025",
+    "tipo": "pelicula",
+    "titulo": "Autos, mota y rocanrol",
+    "poster": "https://ww4.pelisplushd.to/poster/autos-mota-y-rocanrol-thumb.jpg",
+    "descripcion": "Justino y Eduardo querían organizar una carrera de coches y un pequeño concierto... pero todo salió mal y terminaron haciendo el mayor concierto de rock en la historia de México.",
+    "categoria": [
+      "accion"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "musica",
+      "historia"
+    ],
+    "calificacion": 8.9,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T19:00:40.526457",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/ix3d15tqnsqp"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/ix3d15tqnsqp"
+      }
+    ]
+  },
+  {
+    "id": "avatar-el-camino-del-agua-2022",
+    "tipo": "pelicula",
+    "titulo": "Avatar: El Camino del Agua",
+    "poster": "https://rosariocine.com.ar/webfiles/rosariocine/productos/4974/1.jpg",
+    "descripcion": "Jake Sully y Neytiri luchan para proteger su familia y su hogar en Pandora mientras enfrentan nuevas amenazas.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2022,
+    "duracion": "3h 12m",
+    "director": "James Cameron",
+    "reparto": [
+      "Sam Worthington",
+      "Zoe Saldana",
+      "Sigourney Weaver"
+    ],
+    "favorito": false,
+    "genero": [
+      "Aventura"
+    ],
+    "calificacion": 8.7,
+    "votos": 3000,
+    "calidad": "4K",
+    "tamaño": "4.5 GB",
+    "fuentes": [
+      {
+        "idioma": "Latino",
+        "url": "https://streamwish.to/e/vzhv0w0a1dst"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/tm90i47csvws",
+        "calidad": "HD"
+      }
+    ],
+    "descargas": [
+      "https://dintezuvio.com/embed/tm90i47csvws"
+    ],
+    "idioma": "latino"
+  },
+  {
+    "id": "avengers-endgame-2019",
+    "tipo": "pelicula",
+    "titulo": "Avengers: Endgame",
+    "poster": "https://ww4.pelisplushd.to/poster/avengers-endgame-thumb.jpg",
+    "descripcion": "Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.",
+    "categoria": [
+      "accion"
+    ],
+    "año": 2019,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "Aventura",
+      "Ciencia ficción",
+      "Acción"
+    ],
+    "calificacion": 10.0,
+    "votos": 3000,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://streamwish.to/e/dbkwvt3o765h"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/dbkwvt3o765h"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Aún Estoy Aquí",
+    "poster": "https://image.tmdb.org/t/p/w300/pnhi5LYyTY1p9cgug0XwC13xVtk.jpg",
+    "descripcion": "En el Brasil de 1971, bajo el yugo de un régimen militar que ahoga las libertades, la vida de Elisa da un giro trágico cuando su esposo desaparece tras un operativo gubernamental. Sumida en la incertidumbre y con dos hijos a su cargo, esta mujer debe hallar la fortaleza para reconstruir los pedazos de su existencia. La narrativa se desarrolla en los barrios opresivos de São Paulo, donde el miedo se entrelaza con la resistencia cotidiana. Mientras las calles reverberan con protestas silenciadas, Elisa se ve forzada a abandonar su identidad anterior y adoptar oficios que jamás imaginó, desde costurera en talleres clandestinos hasta mensajera de comunicaciones secretas. Cada decisión que toma está impregnada del riesgo de ser descubierta, pero también de la esperanza de reunir a su familia. La trama explora cómo el amor maternal se convierte en un arma contra la opresión, transformando a una mujer común en el pilar invisible de su hogar. A través de encuentros con personajes que oscilan entre la complicidad y la solidaridad, la historia revela las complejidades de sobrevivir en una época donde la confianza es un lujo peligroso. El camino de Elisa no es solo una huida, sino una búsqueda de justicia en un sistema diseñado para borrar la verdad. Esta historia conmovedora sobre la resistencia femenina durante la dictadura brasileña muestra cómo, incluso en los momentos más oscuros, el espíritu humano encuentra formas de persistir y desafiar al olvido..I'm Still Here Je Suis Toujours là Für immer hier Ainda Estou Aqui Je suis toujours là Je suis encore là Aún estoy aquí Hələ Burdayam Wciąż tu jestem Olen yhä täällä Io sono ancora qui Я все еще здесь I Am Still Here 아임 스틸 히어 Я все ще тут 我生如是繼續 至死方休",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "historia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T00:55:06.652832",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 9.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "crunchyroll",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/v07voos7vjw2",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/v07voos7vjw2"
+      }
+    ],
+    "id": "aun-estoy-aqui-2025"
+  },
+  {
+    "id": "bad-boys-hasta-la-muerte-2024",
+    "tipo": "pelicula",
+    "titulo": "Bad Boys: Hasta la muerte",
+    "poster": "https://ww4.pelisplushd.to/poster/bad-boys-hasta-la-muerte-thumb.jpg",
+    "descripcion": "Ver Bad Boys: Hasta la muerte Online Latino, Español, Subtituladas Gratis | Cuevana3. Tras escuchar falsas acusaciones sobre su excapitán y mentor Mike y Marcus deciden investigar el asunto incluso volverse los más buscados de ser necesarios",
+    "categoria": [
+      "accion"
+    ],
+    "año": 2024,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://vidhidepro.com/v/wy2w7lkpk98c"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/v/5i993ksx957d",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://vidhidepro.com/v/wy2w7lkpk98c"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Bad Influencer",
+    "poster": "https://image.tmdb.org/t/p/w300/jexSSiOClrAddGm6PiuLmRvWpXg.jpg",
+    "descripcion": "Una madre soltera —y falsificadora de bolsos de lujo— se ve obligada a colaborar con una influencer egocéntrica para vender sus bolsos y salir de sus deudas..Bad Influencer",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "crimen",
+      "drama"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-03T21:33:56.873913",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/4e9njdriul8r"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/jdmj93nvravh"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/wiw9ufpi7jnu"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/kmz8rj7ojn44"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/aa5fc6gss4a1"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/mxjmw6ihf10m"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/2ccx586kuc1x"
+          }
+        ]
+      }
+    ],
+    "id": "bad-influencer-2025"
+  },
+  {
+    "id": "baila-vini-2025",
+    "tipo": "pelicula",
+    "titulo": "Baila, Vini",
+    "poster": "https://ww4.pelisplushd.to/poster/baila-vini-thumb.jpg",
+    "descripcion": "Vini Jr. lo tiene todo: talento, resiliencia y audacia. Sigue su inspirador recorrido (y sus bailes) hasta la cima del fútbol mundial.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "documental"
+    ],
+    "favorito": false,
+    "genero": [
+      "documental"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "plataforma": "netflix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/n0r5fz8wwkte"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/n0r5fz8wwkte"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/n0r5fz8wwkte"
+      },
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/n0r5fz8wwkte"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Bala perdida",
+    "poster": "https://image.tmdb.org/t/p/w300/dpEGQKgOeDo9GmmKDnEWjTLTi4u.jpg",
+    "descripcion": "En el vibrante y caótico barrio donde reside Hank Thompson, un simple favor para su excéntrico vecino Russ se convierte en una pesadilla inesperada. Lo que parecía una inocente solicitud para cuidar a un gato durante un par de días desencadena una serie de eventos que sumergen a Hank en un submundo criminal tan absurdo como peligroso. De repente, se ve acosado por una colorida galería de mafiosos, cada uno más excéntrico y amenazante que el anterior, todos exigiendo algo que él no puede entregar porque desconoce por completo qué buscan. Mientras intenta navegar este laberinto de amenazas, Hank debe emplear su ingenio y astucia para mantener a raya a estos siniestros personajes. La situación se complica cuando descubre que el felino a su cargo podría ser la pieza clave de un misterio mucho mayor. Entre persecuciones hilarantes y encuentros fortuitos con gánsters de opereta, nuestro protagonista se verá obligado a descifrar un enigma que parece entrelazar destinos de manera inverosímil. El suspense se intensifica conforme Hank se acerca a la verdad, encontrándose atrapado en una red de intrigas donde la comedia se mezcla con el peligro constante. Su lucha por sobrevivir lo lleva por caminos insospechados, desentrañando gradualmente los hilos de esta trama criminal que amenaza con envolverlo por completo. En este juego del gato y el ratón, tendrá que demostrar que incluso un ciudadano común puede convertirse en el héroe improbable de su propia historia de supervivencia urbana..偷天盗日 Pris au piège Atrapado robando Dopaden při činu Κλέφτης από σπόντα Rajtakapva Una scomoda circostanza: Caught Stealing Пойман с поличным Złodziej z przypadku Apanhado a Roubar Пойман с поличным คนเดือดขวางทางโจร ضبط بالسرقة",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "crimen",
+      "suspenso"
+    ],
+    "idioma": "Latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T01:02:21.106689",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/yevmfd1y1jsf",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/yevmfd1y1jsf"
+      }
+    ],
+    "id": "bala-perdida-2025"
+  },
+  {
+    "id": "belen-2025",
+    "tipo": "pelicula",
+    "titulo": "Belén",
+    "poster": "https://image.tmdb.org/t/p/w300/vPqzo4AVGNRzMNrhnQoONcD0m0a.jpg",
+    "descripcion": "En la provincia de Tucumán, Argentina, siguen Julieta, una joven acusada de infanticidio, y Soledad Deza, la audaz abogada que lo arriesga todo para asumir su caso altamente controvertido y que sienta precedentes. A medida que se desarrolla el juicio, la difícil situación de Julieta se convierte en un punto álgido en la batalla contra un sistema legal conservador, lo que provoca una oleada de indignación y una creciente ola de solidaridad que trasciende las fronteras..",
+    "categoria": [
+      "todo-lo-nuevo-2025"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-20T20:56:42.831518",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 7.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/3qtw1wfqif0y"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/3qtw1wfqif0y"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Ben Gen 10",
+    "poster": "https://image.tmdb.org/t/p/w500/nxWAw5kaYjSH8EIcUz6VtHj8jyd.jpg",
+    "descripcion": "Cuando Ben conoce a un joven Generator Rex que huye de una Providencia hostil, debe superar una serie de malentendidos y derrotar al mago oscuro Hex para salvar el mundo.",
+    "año": 2021,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "animación"
+    ],
+    "director": "Henrique Jardim",
+    "reparto": [
+      "Tara Strong",
+      "Montserrat Hernandez",
+      "David Kaye",
+      "Travis Willingham",
+      "Daryl Sabara"
+    ],
+    "calificacion": 6.143,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T01:52:06.992334",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/ywpowm30fcgg?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "ben-gen-10-2021"
+  },
+  {
+    "id": "black-panther-wakanda-forever-2022",
+    "tipo": "pelicula",
+    "titulo": "Black Panther: Wakanda Forever",
+    "poster": "https://ww5.pelisplushd.to/poster/black-panther-wakanda-forever-thumb.jpg",
+    "descripcion": "Ver Black Panther: Wakanda Forever Online Latino, Español, Subtituladas Gratis | Cuevana3. Tras la muerte del rey T'Challa, la reina Ramonda (Angela Bassett) y sus subditos: Shuri (Letitia Wright), M'Baku (Winston Duke), Okoye (Danai Gurira) y las Dora Milaje (incluyendo a Florence Kasumba), luchan por proteger su nación de las potencias mundiales que aprovechan la debilidad de Wakanda sin Black Panther. Mientras los wakandeses se esfuerzan por afrontar su futuro inminente, los héroes deben unirse con la ayuda de la Perra de Guerra Nakia (Lupita Nyong'o) y Everett Ross (Martin Freeman) y crear un nuevo camino para el reino del vibranium.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-16T02:45:17.290213",
+    "tamaño": "N/A",
+    "año": 2022,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://goodstream.uno/video/embed/w6h38a3odmpf"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://goodstream.uno/video/embed/w6h38a3odmpf"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Black Phone 2",
+    "poster": "https://image.tmdb.org/t/p/w300/zOg5AGbEv4wkhMUr205GoNAUi3n.jpg",
+    "descripcion": "Ambientada en 1982, cuatro años después de que Finney Blake lograra matar al secuestrador y asesino en serie conocido como \"The Grabber\". Finney, ahora marcado por el trauma, junto a su hermana menor Gwen, que tiene habilidades psíquicas, comienzan a tener visiones relacionadas con asesinatos ocurridos en un campamento cristiano en las Montañas Rocosas. Decididos a descubrir la verdad, viajan junto con Ernesto, un amigo, al campamento donde trabajó su madre, que también tenía dones psíquicos y fue víctima del asesino..Untitled \"The Black Phone\" Sequel 闇黑電話 2 黑色电话2 The Black Phone 2 接駁靈聲2 Điện thoại đen 2 สายหลอน ซ่อนวิญญาณ 2",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "suspenso",
+      "terror"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-25T14:55:13.898822",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 7.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/l15dqok55rla",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/l15dqok55rla"
+      }
+    ],
+    "id": "black-phone-2-2025"
+  },
+  {
+    "id": "black-widow-2021",
+    "tipo": "pelicula",
+    "titulo": "Black Widow",
+    "poster": "https://ww4.pelisplushd.to/poster/black-widow-thumb.jpg",
+    "descripcion": "Ver Black Widow Online Latino, Español, Subtituladas Gratis | Cuevana3. Natasha Romanoff, también conocida como Black Widow, se enfrenta a lo más oscuro de sus cuentas pendientes cuando surge una peligrosa conspiración que tiene lazos con su pasado. Perseguida por una fuerza que no se detendrá ante nada para derribarla, debe lidiar con su historia como espía y con las relaciones rotas que dejó a su paso mucho antes de convertirse en parte de los Vengadores",
+    "categoria": [
+      "accion"
+    ],
+    "año": 2021,
+    "duracion": "2h 13m",
+    "director": " Cate Shortland",
+    "reparto": [
+      "Aventura Ciencia ficción"
+    ],
+    "favorito": false,
+    "genero": [
+      "Aventura",
+      "Ciencia ficción"
+    ],
+    "calificacion": 10.0,
+    "votos": 5888,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "fuentes": [
+      {
+        "idioma": "español latino ",
+        "url": "https://streamwish.to/e/1echh34m2w8a"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino ",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/1echh34m2w8a"
+      }
+    ]
+  },
+  {
+    "id": "blanca-nieves-2025",
+    "tipo": "pelicula",
+    "titulo": "Blanca Nieves",
+    "poster": "https://www.pelisplus.do/poster/blanca-nieves-thumb.jpg",
+    "descripcion": "Una adaptación en vivo del clásico cuento de hadas sobre una hermosa joven princesa que, mientras es acosada por una reina celosa, busca refugio en la casa de siete enanos en la campiña alemana.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "familia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T22:27:49.016511",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 7.1,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/s16rof7lomd7"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/s16rof7lomd7"
+      }
+    ]
+  },
+  {
+    "id": "blancanieves-y-el-cazador-2012",
+    "tipo": "pelicula",
+    "titulo": "Blancanieves y el cazador",
+    "poster": "https://ww4.pelisplushd.to/poster/blancanieves-y-el-cazador-thumb.jpg",
+    "descripcion": "Blancanieves es la única mujer que supera en belleza a la malvada reina Ravenna, y esta última hará todo lo posible por seguir siendo la más bella del reino. Pero no puede imaginar que la muchacha escapó de sus garras y que ahora amenaza su dominio con la ayuda de Eric el Cazador.",
+    "categoria": [
+      "accion"
+    ],
+    "año": 2012,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "aventura"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/huuearbl8xb3"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/huuearbl8xb3"
+      }
+    ]
+  },
+  {
+    "id": "blancanieves-y-los-siete-enanitos-1937",
+    "tipo": "pelicula",
+    "titulo": "Blancanieves y los siete enanitos",
+    "poster": "https://ww4.pelisplushd.to/poster/blancanieves-y-los-siete-enanitos-thumb.jpg",
+    "descripcion": "La malvada madrastra de Blancanieves decide deshacerse de ella porque no puede soportar que la belleza de la joven sea superior a la suya. Sin embargo, Blancanieves consigue salvarse y se refugia en la cabaña de los siete enanitos. A pesar de todo, su cruel madrastra consigue encontrarla y la envenena con una manzana. Pero la princesa no está muerta, sólo dormida, a la espera de que un príncipe azul la rescate..",
+    "categoria": [
+      "anime"
+    ],
+    "año": 1937,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "disney",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dood.to/e/6lf7dyo0wf1q"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/6j5slvhgbeau",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dood.to/e/6lf7dyo0wf1q"
+      },
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/6j5slvhgbeau"
+      }
+    ]
+  },
+  {
+    "id": "bob-esponja-un-heroe-fuera-del-agua-2015",
+    "tipo": "pelicula",
+    "titulo": "Bob Esponja: Un héroe fuera del agua",
+    "poster": "https://ww4.pelisplushd.to/poster/bob-esponja-un-heroe-fuera-del-agua-thumb.jpg",
+    "descripcion": "Bob Esponja emprende un viaje para recuperar una receta que ha robado un pirata; para ello lo trae a nuestra dimensión en 3D.",
+    "categoria": [
+      "accion"
+    ],
+    "año": 2015,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "familia",
+      "aventura"
+    ],
+    "calificacion": 10.0,
+    "votos": 14000,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://streamwish.to/e/y4o5rlp815iv"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/y4o5rlp815iv"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Bridget Jones: Loca por él",
+    "poster": "https://image.tmdb.org/t/p/w300/9K4xBef7N7YZTnke23FiNTHBGNU.jpg",
+    "descripcion": "En el vibrante Londres contemporáneo, Bridget Jones atraviesa una etapa de transición vital marcada por la pérdida. Cuatro años después de quedar viuda, esta mujer de mediana edad navega entre las responsabilidades maternales y un vacío existencial que parece insondable. Sus días transcurren entre el cuidado de sus hijos y los encuentros con su círculo más íntimo, donde destaca la presencia constante de su antiguo amante Daniel Cleaver, cuya reaparición añade capas de complejidad a su ya complicado universo emocional. La protagonista se debate entre los fantasmas del pasado y las expectativas de un futuro que se resiste a materializarse. El entorno familiar ejerce una presión sutil pero constante sobre Bridget, empujándola hacia una reinvención personal que aún no logra concretar. Mientras intenta recomponer las piezas de su identidad, se ve inmersa en situaciones que oscilan entre lo cómico y lo profundamente conmovedor, reflejando la dualidad de su proceso de duelo. La dinámica con sus amistades más cercanas sirve como contrapunto a sus reflexiones internas, creando un tapiz de relaciones humanas tan auténtico como impredecible. La narrativa explora con maestría los matices del reencuentro con uno mismo después de una pérdida significativa, mostrando cómo los lazos afectivos pueden convertirse simultáneamente en anclas y salvavidas. A medida que Bridget se adentra en este viaje de autodescubrimiento, las situaciones cotidianas adquieren una profundidad inesperada, revelando las múltiples facetas de una mujer que busca reconciliarse con la vida. El proceso de superar la viudez se entrelaza con momentos de genuina comedia romántica, creando un equilibrio narrativo que captura la esencia misma de la condición humana. La historia profundiza en cómo las relaciones del pasado pueden influir en el presente, mientras Bridget enfrenta el desafío de redefinir su lugar en el mundo y explorar nuevas posibilidades afectivas..BJ單身日記：戀上小鮮肉 Бриджит Джонс. Без ума от мальчишки Tiểu Thư Jones: Suy Vì Anh",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "drama",
+      "romance"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-29T21:14:53.567397",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.0,
+    "votos": 80000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/veyrpv6xn1rj",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/veyrpv6xn1rj"
+      }
+    ],
+    "id": "bridget-jones-loca-por-el-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Brute 1976",
+    "poster": "https://image.tmdb.org/t/p/w300/jrbYuJNMRPzdQ5RZ2FGKfQbD1Qz.jpg",
+    "descripcion": "En 1976, un grupo está en el desierto para una sesión fotográfica. Se encuentran con un pueblo abandonado llamado Savage. Pero no están solos. Una familia de psicópatas enmascarados han reclamado Savage como suyo..",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-25T22:04:46.511076",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.7,
+    "votos": 9000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/1lvv28ghzkup",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/1lvv28ghzkup"
+      }
+    ],
+    "id": "brute-1976-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Buenas noticias",
+    "poster": "https://image.tmdb.org/t/p/w300/zER9LQ7bWpuMRxtVeZ4toDc7PnM.jpg",
+    "descripcion": "En la década de 1970, el secuestro de un avión desata una carrera contrarreloj. Un grupo de personas se vuelca en salvar al pasaje, pero, entre estrategias y secretos, se pone en marcha una operación clandestina..Gut Nuiuseu 굿뉴스",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "historia",
+      "misterio",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-25T22:01:26.116354",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 9.7,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/vwdqfop31wjc",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/vwdqfop31wjc"
+      }
+    ],
+    "id": "buenas-noticias-2025"
+  },
+  {
+    "id": "bugonia-2025",
+    "tipo": "pelicula",
+    "titulo": "Bugonia",
+    "poster": "https://ww4.pelisplushd.to/poster/bugonia-thumb.jpg",
+    "descripcion": "Dos jóvenes, obsesionados con las conspiraciones, secuestran a la poderosa directora ejecutiva de una importante empresa, convencidos de que es una extraterrestre que pretende destruir el planeta Tierra.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "crimen"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T17:29:42.078374",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/sae4afi7fw8s"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/sae4afi7fw8s"
+      }
+    ]
+  },
+  {
+    "id": "bunker-2025",
+    "tipo": "pelicula",
+    "titulo": "Bunker",
+    "poster": "https://ww4.pelisplushd.to/poster/bunker-1149953-thumb.jpg",
+    "descripcion": "It charts the fallout when a nuclear threat forces six people into a malfunctioning underground bunker. Tensions soon rise as they fight to stay alive. With oxygen and the trust in each other quickly running out, they learn that a more sinister plan is afoot",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion"
+    ],
+    "calificacion": 7.8,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T17:05:39.618564",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/flmwdumi6tnb"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/flmwdumi6tnb"
+      }
+    ]
+  },
+  {
+    "id": "burning-butterflies-2024",
+    "tipo": "pelicula",
+    "titulo": "Burning Butterflies",
+    "poster": "https://image.tmdb.org/t/p/w300/7MVwpdRprhVzxTsgaRuqNP34za2.jpg",
+    "descripcion": "Burning Butterflies es un terror lovecraftiano con elementos de jump-scare y gore. La trama explora la incertidumbre y el absurdo de la vida que despliega una realidad muy oscura..",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "teeror suspenso"
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-21T17:56:14.677235",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 8.8,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/jo2paepqwufu"
+      }
+    ],
+    "descargas": [
+      "https://dintezuvio.com/embed/jo2paepqwufu"
+    ]
+  },
+  {
+    "id": "camina-o-muere-2025",
+    "tipo": "pelicula",
+    "titulo": "Camina o muere",
+    "poster": "https://www.pelisplus.do/poster/camina-o-muere-thumb.jpg",
+    "descripcion": "Un grupo de adolescentes compite en un concurso anual conocido como \"La Larga Marcha\", en el que deben mantener una cierta velocidad al caminar o recibir un disparo.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "suspenso",
+      "terror"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T17:28:47.862354",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 9.1,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/wz1f43d00d0n"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/wz1f43d00d0n"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Campanilla y la Leyenda de la Bestia",
+    "poster": "https://image.tmdb.org/t/p/w300/14Yjf8xW2uWkZ3ZhagbrKMXbe70.jpg",
+    "descripcion": "En el corazón del Valle de las Hadas, donde la magia y la naturaleza convergen, Campanilla descubre que existen misterios que desafían toda lógica conocida. Mientras explora territorios inexplorados más allá de los límites de Pixie Hollow, se topa con huellas gigantescas que despiertan el temor en la comunidad de hadas. Las leyendas ancestrales hablan de una criatura temible conocida como NeverBeast, un ser cuyos colmillos y imponente figura han generado mitos aterradores transmitidos por generaciones. Sin embargo, la curiosidad innata de Campanilla la impulsa a investigar más allá de las apariencias, desafiando los prejuicios establecidos. Lo que comienza como una aventura prohibida se transforma en un viaje de descubrimiento cuando Campanilla encuentra al NeverBeast, descubriendo que detrás de su fachada intimidante se esconde un guardián esencial para el equilibrio del ecosistema. Mientras intenta demostrar la verdadera naturaleza de esta criatura, se enfrenta al escepticismo de sus compañeras hadas, particularmente de las guardianas responsables de la seguridad del valle. La trama se desarrolla entre paisajes fantásticos y encuentros con otras criaturas mágicas, revelando secretos ancestrales sobre la simbiosis entre diferentes especies del mundo feérico. Esta historia de amistad improbable explora cómo los lazos genuinos pueden formarse cuando superamos los prejuicios iniciales, demostrando que el valor y la bondad pueden habitar en las formas más inesperadas. A través de encuentros emocionantes y momentos de tensión creciente, Campanilla y su nuevo aliado demuestran que las apariencias engañan y que las leyendas a menudo ocultan verdades más complejas, especialmente cuando se trata de comprender la verdadera naturaleza de las bestias legendarias en el mundo de la animación fantástica..Campanita y la Leyenda de la Bestia de Nunca Jamas Tinker Bell e o Monstro da Terra do Nunca Zvonilka 6: Zvonilka a tvor Netvor Klokkeblomst og Legenden om Ønskedyret Campanilla y La Leyenda de la Bestia Clochette et la Créature Légendaire Tinker Bell y la Bestia de Nunca Jamás Tinker bell y la criatura de nunca jamas Sininho e a Lenda do Monstro do Nunca Tinker Bell: The Legend of the Neverbeast",
+    "categoria": [
+      "anime"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T13:27:39.501288",
+    "tamaño": "N/A",
+    "año": 2014,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/t40ag3ly75hb",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/t40ag3ly75hb"
+      }
+    ],
+    "id": "campanilla-y-la-leyenda-de-la-bestia-2014"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Candy Land",
+    "poster": "https://image.tmdb.org/t/p/w300/eSOkqebUL4mZWS6hyxFZaDGen1R.jpg",
+    "descripcion": "Remy, una joven aparentemente ingenua y devota, se ve expulsada de su culto religioso. Sin lugar a donde acudir, se sumerge en el mundo subterráneo de las trabajadoras sexuales de las paradas de camiones. Bajo la atenta mirada de su matriarca y un enigmático representante de la ley local, Remy navega entre su tenso sistema de creencias y el código para encontrar su verdadera vocación en la vida..糖果区域",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "suspenso",
+      "terror"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-27T20:20:33.905720",
+    "tamaño": "N/A",
+    "año": 2022,
+    "calificacion": 9.6,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "clasificacion_edad": "+18",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/e09r7zzmhjm5",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/e09r7zzmhjm5"
+      }
+    ],
+    "id": "candy-land-2022"
+  },
+  {
+    "id": "capitana-marvel-2019",
+    "tipo": "pelicula",
+    "titulo": "Capitana Marvel",
+    "poster": "https://ww4.pelisplushd.to/poster/capitana-marvel-thumb.jpg",
+    "descripcion": "Capitana Marvel es, en sus orígenes, Carol Susan Jane Danvers, la hermana mayor de tres hermanos criados en una familia tradicional de Boston. Durante años tuvo que soportar el machismo de su padre hasta cumplir los 18, donde se alistó en la Fuerza Aérea de Estados Unidos, para convertirse en piloto.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2019,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura"
+    ],
+    "calificacion": 6.8,
+    "votos": 200000,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T18:48:06.433808",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/od3x03kwadeb"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/od3x03kwadeb"
+      }
+    ]
+  },
+  {
+    "id": "capitan-america-brave-new-world-2024",
+    "tipo": "pelicula",
+    "titulo": "Capitán América: Brave New World",
+    "poster": "https://image.tmdb.org/t/p/w300/xVwP4GCbEfO66JSSyonnAhU3Fad.jpg",
+    "descripcion": "Ver Capitán América: Brave New World Online Latino, Español, Subtituladas Gratis | Cuevana3. Cuarta de la franquicia del Capitán América, la primera con Sam Wilson (Anthony Mackie), ex paracaidista del ejército reconvertido en Vengador como Falcon, llevando el uniforme y el escudo en lugar del retirado Steve Rogers (Chris Evans). Sam tendrá que estar a la altura de su nuevo papel de líder mientras una nueva amenaza expande sus ocultos tentáculos a nivel internacional, llegando a las más altas esferas de la política, como el presidente de los Estados Unidos, el antiguo general Thaddeus \"Thunderbolt\" Ross (Harrison Ford).",
+    "categoria": [
+      "accion"
+    ],
+    "año": 2024,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "Acción Aventura Fantasía Top"
+    ],
+    "favorito": false,
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Fantasía"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://goodstream.uno/video/embed/zlojb35sp1hb"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/r2r8mr5ej92x",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://goodstream.uno/video/embed/zlojb35sp1hb"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Capitán América: El primer vengador",
+    "poster": "https://image.tmdb.org/t/p/w300/i5eSA5DK5iAv53SB4yv57bN56o6.jpg",
+    "descripcion": "En el corazón del Nueva York de la Segunda Guerra Mundial, Steve Rogers encarna la persistencia frente a la adversidad. Aunque su constitución física le impide alistarse, su determinación llama la atención del científico Abraham Erskine, quien lo selecciona para el proyecto supersoldado. La transformación mediante el suero experimental convierte al frágil joven en el epítome de la perfección física, creando al primer super soldado estadounidense. Sin embargo, cuando un agente enemigo sabotea el laboratorio, el programa queda paralizado, dejando a Rogers como el único de su clase. Relegado inicialmente a espectáculos de propaganda, el ahora Capitán América demuestra su valía cuando rescata a un escuadrón de elite capturado por HYDRA, la organización nazi de investigación avanzada. Armado con su emblemático escudo de vibranium y acompañado por la agente Peggy Carter y el inventor Howard Stark, Rogers se enfrenta al misterioso Johann Schmidt, cuyo obsesivo interés por la mitología nórdica lo ha llevado a descubrir el Teseracto, un artefacto de poder cósmico. La búsqueda del origen del escudo del Capitán América se entrelaza con esta carrera contra el tiempo, donde Schmidt, transformado en el temible Cráneo Rojo, amenaza con desatar un arsenal capaz de dominar el mundo. La narrativa explora cómo Steve Rogers se convierte en Capitán América a través de escenas de entrenamiento intensivo y momentos cruciales de desarrollo del personaje. En un épico enfrentamiento final a bordo de una aeronave avanzada, Rogers debe sacrificar todo para evitar una catástrofe global, culminando en un acto heroico que lo congela en el hielo durante décadas. Este desenlace sella el legado del primer Vengador, estableciendo los cimientos para futuras alianzas mientras espera su redescubrimiento en el mundo moderno..Marvel's Captain America - The First Avenger 캡틴 아메리카: 퍼스트 어벤져 Capitaine America - Le premier vengeur Capitão América: O Primeiro Vingador Capitán América: El primer vengador Capitão América O Primeiro Vingador Первый мститeль Капитан Америка Первый мститeль Marvel Studios' Captain America: The First Avenger Captain America: Kẻ Báo Thù Đầu Tiên 마블 퍼스트 어벤져 קפטן אמריקה 1 Captain America - The First Avenger",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion aventura ciencia ficcion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-23T14:06:36.412838",
+    "tamaño": "N/A",
+    "año": 2011,
+    "calificacion": 9.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/2zk8o15sdlo3",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "capitan-america-el-primer-vengador-2011",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/2zk8o15sdlo3"
+      }
+    ]
+  },
+  {
+    "id": "capitan-america-el-soldado-de-invierno-2014",
+    "tipo": "pelicula",
+    "titulo": "Capitán América: El soldado de invierno",
+    "poster": "https://subus.sbs/p/v2/w1/z2gzkt9OxKNOibzpXOmakhVhD0S53FZsx6SIqSmNt0.webp",
+    "descripcion": "El soldado de invierno Online: Capitán América, Viuda Negra y un nuevo aliado, Falcon, se enfrentan a un enemigo inesperado mientras intentan sacar a la luz una conspiración que pone en riesgo al mundo. Recuerda que ver Capitán América",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2014,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "ACCION"
+    ],
+    "calificacion": 10.0,
+    "votos": 2000000,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T15:27:45.827457",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "cine",
+    "fuentes": [
+      {
+        "idioma": "LATINO",
+        "url": "https://nuuuppp.sbs/watch/l1jB0G4LD1RFlcyPfxDeia9QBAbdLUzdk7kz7n7kz7br5GD2s?h="
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "LATINO",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://nuuuppp.sbs/watch/l1jB0G4LD1RFlcyPfxDeia9QBAbdLUzdk7kz7n7kz7br5GD2s?h="
+      }
+    ]
+  },
+  {
+    "id": "capitan-america-un-nuevo-mundo-2025",
+    "tipo": "pelicula",
+    "titulo": "Capitán América: Un nuevo mundo",
+    "poster": "https://ww4.pelisplushd.to/poster/capitan-america-un-nuevo-mundo-thumb.jpg",
+    "descripcion": "Tras reunirse con el recientemente electo presidente de los Estados Unidos Thaddeus Ross, Sam se encuentra en medio de un conflicto internacional. Debe descubrir la razón de un nefasto complot mundial antes de que el verdadero artífice detrás del mismo haga que el mundo entero entre en caos.",
+    "categoria": [
+      "accion"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://streamwish.to/e/glps3i1lokv9"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/glps3i1lokv9"
+      }
+    ]
+  },
+  {
+    "id": "captains-of-the-world-2023",
+    "tipo": "serie",
+    "titulo": "Captains of the World",
+    "poster": "https://www.pelisplus.do/poster/captains-of-the-world-thumb.jpg",
+    "descripcion": "De los vestuarios al campo, esta docuserie ofrece acceso exclusivo a las 32 selecciones que luchan por alcanzar la gloria futbolística en la Copa Mundial de la FIFA 2022.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T23:38:30.311111",
+    "tamaño": "N/A",
+    "año": 2023,
+    "calificacion": 7.1,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/3t3s6f6f3zcn"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/am7ad6d3d8d5"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/2nsszjphq9e9"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/ohsqia6ycixt"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/5qqhub9fdzcu"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/ys0zhbuf29k0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Caramelo",
+    "poster": "https://image.tmdb.org/t/p/w300//ur3H6g9xmrLQX2Ioh9z3P904ZSC.jpg",
+    "descripcion": "Tras recibir un diagnóstico que cambiará su vida, un prometedor chef halla consuelo, risa y esperanza gracias a la inesperada compañía de un amigo de cuatro patas.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "drama",
+      "familia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-05T01:12:11.119269",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/cxlto0bjb146",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/cxlto0bjb146"
+      }
+    ],
+    "id": "caramelo-2025"
+  },
+  {
+    "id": "carretera-sin-retorno-2007",
+    "tipo": "pelicula",
+    "titulo": "Carretera sin retorno",
+    "poster": "https://image.tmdb.org/t/p/w300/jfA02o3Q8MrWukpxzoTwq18IiDv.jpg",
+    "descripcion": "El 13 de marzo de 1997, el mayor avistamiento de OVNIS jamás recordado por el hombre tuvo lugar en el desierto de Arizona, EEUU. Se le llamó \"Las Luces de Fénix\" y fue presenciado por miles de ciudadanos. Ésta es una historia basada en las sesiones reales de hipnosis de los testigos, y en cómo seis personas desaparecidas en una carretera abandonada encontraron algo más que luces en el cielo..O Segredo do Céu Night Skies - Die Begegnung 나이트 스카이스",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "drama terror misterio"
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-21T19:14:31.141481",
+    "tamaño": "N/A",
+    "año": 2007,
+    "calificacion": 9.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/l5aa5nmrhisr"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/l5aa5nmrhisr"
+      }
+    ]
+  },
+  {
+    "id": "cars-2-2011",
+    "tipo": "pelicula",
+    "titulo": "Cars 2",
+    "poster": "https://ww4.pelisplushd.to/poster/cars-2-thumb.jpg",
+    "descripcion": "El coche de carreras de estrellas Lightning McQueen y su amigo mater en el extranjero para competir en la carrera del Gran Premio Mundial. Pero el camino al campeonato se vuelve rocoso cuando Mater se ve atrapado en una intrigante aventura propia: el espionaje internacional.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2011,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "familia"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T23:59:42.592196",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/es4wkk68c36c"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/es4wkk68c36c"
+      }
+    ]
+  },
+  {
+    "id": "cars-3-2017",
+    "tipo": "pelicula",
+    "titulo": "Cars 3",
+    "poster": "https://ww4.pelisplushd.to/poster/cars-3-thumb.jpg",
+    "descripcion": "La elegante corredora Cruz Ramirez ayudará al veterano campeón Rayo McQueen a regresar a la pista enfrentando a una nueva generación de corredores de alta tecnología. Pronto, Rayo McQueen demostrará que sigue siendo el mejor del mundo.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2017,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura"
+    ],
+    "calificacion": 6.9,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T00:01:39.534316",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "disney+",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/cy0xcl9ohspm"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/cy0xcl9ohspm"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "casi familia",
+    "poster": "https://www.pelisplus.do/poster/casi-familia-thumb.jpg",
+    "descripcion": "Un padre brasileño da con la horma de su zapato cuando conoce al suegro argentino de su hija… y un viaje a Bariloche se convierte en un escenario de ego cultural lleno de roces.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T21:39:14.977393",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/jqryr7vjxmqd"
+      }
+    ],
+    "id": "casi-familia-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/jqryr7vjxmqd"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "celda 211",
+    "poster": "https://ww4.pelisplushd.to/poster/celda-211-thumb.jpg",
+    "descripcion": "Atrapado en un motín en prisión, un abogado de derechos humanos se hace pasar por recluso para sobrevivir, hasta que el caos y una pérdida personal revelan su lado más oscuro.",
+    "categoria": [
+      "series"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "crimen",
+      "drama"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "netflix",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/x2easp8k8dnl"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/5bovlhfs3e2c"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/k3eqlc8ysuzl"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/nkflioghxc42"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/ydgb9fkuoqeh"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/bd144l0k08up"
+          }
+        ]
+      }
+    ],
+    "id": "celda-211-2025"
+  },
+  {
+    "id": "chainsaw-man-la-pelicula-arco-de-reze-2025",
+    "tipo": "pelicula",
+    "titulo": "Chainsaw Man la película -Arco de Reze",
+    "poster": "https://ww4.pelisplushd.to/poster/chainsaw-man-la-pelicula-arco-de-reze-thumb.jpg",
+    "descripcion": "En una brutal guerra entre demonios, cazadores y enemigos secretos, una misteriosa chica llamada Reze ha entrado en el mundo de Denji, y él enfrenta su batalla más mortal hasta ahora, impulsado por el amor en un mundo donde la supervivencia no conoce reglas.",
+    "categoria": [
+      "accion"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [],
+    "favorito": false,
+    "calificacion": 0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "Subtitulado",
+        "url": "https://streamwish.to/e/w66sow55en4o"
+      }
+    ],
+    "genero": [],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "Subtitulado",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/w66sow55en4o"
+      }
+    ]
+  },
+  {
+    "id": "chespirito-sin-querer-queriendo-2025",
+    "tipo": "serie",
+    "titulo": "Chespirito: Sin querer queriendo",
+    "poster": "https://ww4.pelisplushd.to/poster/chespirito-sin-querer-queriendo-thumb.jpg",
+    "descripcion": "Desde su infancia hasta su consagración en las décadas de los 50 a los 80, sigue la vida y carrera del actor, comediante y productor mexicano Roberto Gómez Bolaños, conocido por ser el creador de El Chavo del 8, El Chapulín Colorado y Chespirito.",
+    "categoria": [
+      "series"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "plataforma": "hbo max",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/56ntlqbqfiw6"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/da80f6k9uasa"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/u3eq2by5tx9y"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/rx2spplokb5n"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/bw9j5441fi1t"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/tkc0meio6969"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/oqdjg13a1vd6"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/gn8xfjro18j5"
+          }
+        ]
+      }
+    ],
+    "idioma": "latino"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Christmas Under the Northern Lights",
+    "poster": "https://image.tmdb.org/t/p/w300/5GGWK9BTu3rMv4IxucJsvrELAXa.jpg",
+    "descripcion": "Un autor que visita un pequeño pueblo durante la Navidad disfruta de las impresionantes vistas de la zona y de la aurora boreal gracias a un atractivo guía local..Sleigh Bells and Sugar Plums Sleigh Bells and Sugarplums",
+    "categoria": [
+      "comedia"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "pelicula",
+      "romance",
+      "tv"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T22:29:24.150125",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 7.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/ll1058qdsowo",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/ll1058qdsowo"
+      }
+    ],
+    "id": "christmas-under-the-northern-lights-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Chui lung",
+    "poster": "https://image.tmdb.org/t/p/w300/tZvXCBLEtiMj3UZ5SI0Hau13DET.jpg",
+    "descripcion": "El año es 1963, un inmigrante ilegal llamado Ho (Donnie Yen) se cuela en Hong Kong, gobernado por los británicos. Equipado con agallas y habilidades de combate, se sumerge en el mundo subterráneo entrando en constante conflicto con sus rivales. Después de muchos adversarios, por bonachón queda físicamente lisiado en un fatal encuentro con su ex-jefe de la mafia . Y se convierte en un monstruo más atroz que todos los policías más corruptos y despiadados traficantes de drogas..Chui lung Chasing the Dragon 추룡 CHASING THE DRAGON* Chasing the Dragon 追龍 (2017) Chasing the Dragon (2017) 追龙 Chasing the Dragon I",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "crimen",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T17:09:18.452556",
+    "tamaño": "N/A",
+    "año": 2017,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/ifq2eu57d3e9",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/ifq2eu57d3e9"
+      }
+    ],
+    "id": "chui-lung-2017"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "coco",
+    "poster": "https://ww4.pelisplushd.to/poster/coco-thumb.jpg",
+    "descripcion": "A pesar de la desconcertante prohibición de la generación de música de su familia, Miguel sueña con convertirse en un músico consumado como su ídolo, Ernesto de la Cruz. Desesperado por demostrar su talento, Miguel se encuentra en la deslumbrante y colorida Tierra de los Muertos siguiendo una misteriosa cadena de eventos. En el camino, se encuentra con el encantador y tramposo Héctor. Juntos, realizan un viaje extraordinario para descubrir la historia real detrás de la familia de Miguel.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2017,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "familia"
+    ],
+    "calificacion": 8.2,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T22:58:20.117531",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/0sasfe6hmxn5"
+      }
+    ],
+    "id": "coco-2017",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/0sasfe6hmxn5"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "colonia 75",
+    "poster": "https://ww4.pelisplushd.to/poster/colonia-75-thumb.jpg",
+    "descripcion": "La verdadera historia de Vera Brandes, icono adolescente de la escena musical de Colonia en los años 70, que lo arriesgó todo para organizar el mayor concierto en solitario de la historia de la música: el legendario Concierto de Colonia de Keith Jarrett.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "historia",
+      "musica"
+    ],
+    "calificacion": 7.9,
+    "votos": 12333,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://vidhidepro.com/v/67mxax9eguq5"
+      }
+    ],
+    "id": "colonia-75-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "subtitulado",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://vidhidepro.com/v/67mxax9eguq5"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "como entrenar a tu dragon",
+    "poster": "https://ww4.pelisplushd.to/poster/como-entrenar-a-tu-dragon-1087192-thumb.jpg",
+    "descripcion": "En la agreste isla de Berk, donde vikingos y dragones han sido enemigos acérrimos durante generaciones, Hipo se distingue, desafiando siglos de tradición al entablar amistad con Desdentao, un temido dragón Furia Nocturna. Su improbable vínculo revela la verdadera naturaleza de los dragones, desafiando los cimientos de la sociedad vikinga.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "familia"
+    ],
+    "calificacion": 9.9,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T19:56:16.340178",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/gn80wtefutmp"
+      }
+    ],
+    "id": "como-entrenar-a-tu-dragon-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/gn80wtefutmp"
+      }
+    ]
+  },
+  {
+    "id": "corazones-jovenes-2024",
+    "tipo": "pelicula",
+    "titulo": "Corazones Jóvenes",
+    "poster": "https://image.tmdb.org/t/p/w300/9dkwCoJFcNRxuXf6W2f3dm1JaTl.jpg",
+    "descripcion": "Young Hearts, ópera prima de Anthony Schatteman, es una historia de amor adolescente tierna y luminosa, inspirada en su propia infancia. Elías, de 14 años, se enamora de su nuevo vecino, Alexander, y descubre por primera vez lo que significa amar de verdad. Sus relaciones con amigos y familia solo le generan más dudas. Una delicada película de crecimiento que aporta una mirada fresca y emotiva al cine familiar, con una maravillosa historia de amor queer. (Endimaris).Corações Jovens Νεανικές καρδιές Młode serca 盛夏心動 Jonge Harten Inimi Tinere",
+    "categoria": [
+      "drama"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "romance"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-21T15:14:51.102571",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 8.7,
+    "votos": 6000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://dinisglows.com/embed/urfno5r53fpp"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/urfno5r53fpp"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Countdown: Canelo vs. Crawford",
+    "poster": "https://image.tmdb.org/t/p/w300/ayaEyFsQsVhuQhUAxhiepqzZJHO.jpg",
+    "descripcion": "Entra en los campos de entrenamiento y la vida personal de Canelo Álvarez y Terence Crawford mientras se preparan para su enfrentamiento único en la vida de peso súper mediano..Countdown: Canelo vs. Crawford",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-26T19:16:31.068072",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 7.0,
+    "votos": 60000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/9qc82h8nwfv3"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/k5w1tf3m3xij"
+          }
+        ]
+      }
+    ],
+    "id": "countdown-canelo-vs-crawford-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Crazy Racing",
+    "poster": "https://image.tmdb.org/t/p/w500/i99kjvBWWwH1qtUDt3TBIFz6gAz.jpg",
+    "descripcion": "",
+    "año": 2021,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "familia",
+      "animación"
+    ],
+    "director": "Zhu Guo-Yang",
+    "reparto": [
+      "Li Hui-Xian",
+      "Si Xi",
+      "Ye Jia-Lin",
+      "Luo Ji-Shang",
+      "Yang Zhuo"
+    ],
+    "calificacion": 6.0,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:02:11.678646",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/v46xh0rga7ez?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "crazy-racing-2021"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Criada Prohibida",
+    "poster": "https://image.tmdb.org/t/p/w300/6QgSlS0IV9jlDadjdVrrN4quqEM.jpg",
+    "descripcion": "La tarea de Daisy como nueva empleada doméstica de una familia rica es cuidar a un niño, pero, sin saberlo, está siendo observada por el padre del niño. Cuando surge la tentación, la vida de la familia y de Daisy comienza a desmoronarse..",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-03T22:13:12.003067",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2021,
+    "calificacion": 6.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/5qi092aoshgp",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/5qi092aoshgp"
+      }
+    ],
+    "id": "criada-prohibida-2021"
+  },
+  {
+    "id": "crutch-2025",
+    "tipo": "serie",
+    "titulo": "Crutch",
+    "poster": "https://ww4.pelisplushd.to/poster/crutch-thumb.jpg",
+    "descripcion": "Francois 'Frank' Crutchfield or 'Crutch' to those who know him well, is a Harlem widower whose empty-nest plans are put on hold after his millennial son and free-spirited daughter move back home.",
+    "categoria": [
+      "series"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "calificacion": 2.5,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/dlmdj10ux5pr"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/s5o0egy982xb"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/h07ol268xku0"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/wfstkq8949y0"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/cb6gzke06cez"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/48wanq8ljaan"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/bbjywck83wq7"
+          },
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/dvkf2eipl73g"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cuando-los-amos-duermen-2023",
+    "tipo": "pelicula",
+    "titulo": "Cuando los amos duermen",
+    "poster": "https://ww4.pelisplushd.to/poster/cuando-los-amos-duermen-thumb.jpg",
+    "descripcion": "Víctor es un vampiro que solo se alimenta de la sangre de gente malvada, y cuyos terrenos han sido cuidados por la familia de Samuel, generación tras generación, con entrega y devoción. Sin embargo, todo está a punto de cambiar: mientras la frustración de Samuel y su mujer Lourdes crece ante la imposibilidad de tener un bebé, un enigmático vampiro llega de visita.",
+    "categoria": [
+      "terror"
+    ],
+    "año": 2023,
+    "duracion": "1h 35m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "calificacion": 3.7,
+    "votos": 400,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "\"https://streamwish.to/e/vaj1hhzztrxd"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "\"https://streamwish.to/e/vaj1hhzztrxd"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Culiacanazo: Herederos del narco",
+    "poster": "https://image.tmdb.org/t/p/w300/bNWwoubAL02nTQegpvJOlwU3Pzx.jpg",
+    "descripcion": "Docuserie sobre el intento de capturar al infame narco Ovidio Guzmán, hijo de \"El Chapo\", y la trágica violencia que desató la operación..",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "crimen",
+      "documental"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-26T17:24:49.369567",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 9.0,
+    "votos": 90000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/bik84l4l0isj"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/zsxbkoo4e6e3"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/5yx72nkagrcd"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/fvzeozpdthjl"
+          }
+        ]
+      }
+    ],
+    "id": "culiacanazo-herederos-del-narco-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Culpa nuestra",
+    "poster": "https://image.tmdb.org/t/p/w300/6kmi6vmp6iOn4KzI7WfnVtAeJhU.jpg",
+    "descripcion": "La boda de Jenna y Lion propicia el tan deseado reencuentro entre Noah y Nick tiempo después de su ruptura. La incapacidad de Nick para perdonar a Noah se alza como una barrera insalvable. Él, heredero de las empresas de su abuelo y ella, empezando su vida laboral, se resisten a alimentar una llama que aún sigue viva. Pero una vez que sus caminos se han vuelto a cruzar, ¿será el amor más fuerte que el rencor? Secuela de \"Culpa tuya\"..Culpa Nuestra 우리의 잘못 Our Fault Nossa Culpa",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "romance"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-24T21:48:23.769607",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 7.8,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://dintezuvio.com/embed/bwr320b2yhmp",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "culpa-nuestra-2025",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/bwr320b2yhmp"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "culpa tuya",
+    "poster": "https://image.tmdb.org/t/p/w300/1jvCVdlgInyItAUEvvvCakm1Yxz.jpg",
+    "descripcion": "En la compleja red de relaciones que teje la familia Leister, Noah y Nick enfrentan una prueba definitiva a su conexión emocional. Mientras él se sumerge en demandantes responsabilidades laborales, ella inicia su travesía universitaria, abriendo ambos sus mundos a nuevas interacciones sociales que amenazan con distanciar sus caminos. La aparición inesperada de una expareja de Nick, movida por resentimientos acumulados y ansias de retaliación, introduce un elemento de caos en su dinámica. Simultáneamente, la misteriosa reaparición de la madre de Nick añade capas de complejidad, con motivaciones ambiguas que generan suspicacias y tensiones adicionales. El tejido familiar comienza a deshilacharse bajo la presión de estas intrusiones externas, revelando fisuras que trascendían la esfera romántica. Cada encuentro con figuras del pasado desencadena revelaciones inesperadas, forzando a la pareja a confrontar no solo sus sentimientos mutuos, sino también lealtades familiares en conflicto. En este panorama de desconfianza creciente, ambos deben navegar entre compromisos profesionales, responsabilidades académicas y las maquinaciones de quienes parecen decididos a sabotear su unión. La pregunta crucial persiste en cada decisión que toman: ¿podrá el amor sobrevivir cuando tantas fuerzas conspiran para erosionar sus cimientos? A medida que las crisis se intensifican, Noah y Nick descubren que las amenazas más peligrosas no siempre provienen de extraños, sino de aquellos más cercanos a sus círculos íntimos, donde los secretos mejor guardados pueden alterar irrevocablemente el curso de sus vidas..Culpa Tuya – Deine Schuld Your Fault تو مقصری تقصیر توست אשמתי 2 我的错误 我的过错",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "romance"
+    ],
+    "idioma": "español",
+    "calidad": "1080p",
+    "addedDate": "2025-11-24T23:03:23.288180",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 6.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://dintezuvio.com/embed/8i99pka51zbi",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "culpa-tuya-2024",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/8i99pka51zbi"
+      }
+    ]
+  },
+  {
+    "id": "como-entrenar-a-tu-dragon-3-2019",
+    "tipo": "pelicula",
+    "titulo": "Cómo entrenar a tu dragón 3",
+    "poster": "https://image.tmdb.org/t/p/w300/bCYRgsT0Kndh23a6kHazBdXWCn1.jpg",
+    "descripcion": "",
+    "categoria": [
+      "anime"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T01:15:00.572530",
+    "tamaño": "N/A",
+    "año": 2019,
+    "calificacion": 8.6,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/cudb4xnww7pv"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/cudb4xnww7pv"
+      }
+    ]
+  },
+  {
+    "id": "de-vuelta-a-la-accion-2025",
+    "tipo": "pelicula",
+    "titulo": "De vuelta a la acción",
+    "poster": "https://image.tmdb.org/t/p/w300/mAvyQ2X3767LwXE2htvAd22ucd3.jpg",
+    "descripcion": "",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "comedia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T01:45:35.559730",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/2eko8q0ahlhc"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/2eko8q0ahlhc"
+      }
+    ]
+  },
+  {
+    "id": "deadpool-2016",
+    "tipo": "pelicula",
+    "titulo": "Deadpool",
+    "poster": "https://subus.sbs/p/v2/w1/MpxlaJ6LPFMB53vLgajVyyK0FXyKBQye6Vp6vlI.webp",
+    "descripcion": "Basado en el anti-héroe menos convencional de la Marvel, Deadpool narra el origen de un ex-operativo de la fuerzas especiales llamado Wade Wilson, reconvertido a mercenario, y que tras ser sometido a un cruel experimento adquiere poderes de curación rápida, adoptando Wade entonces el alter ego de Deadpool. Armado con sus nuevas habilidades y un oscuro y retorcido sentido del humor, Deadpool intentará dar caza al hombre que casi destruye su vida.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2016,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "marvel"
+    ],
+    "calificacion": 10.0,
+    "votos": 2000,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T15:43:03.977852",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "clasificacion_edad": "+18",
+    "plataforma": "cine",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://nuuuppp.sbs/watch/NaBhPctOdQT0DUR4odnw0zqs7kz7tOYaTGfZshLUBETzOc?h="
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://nuuuppp.sbs/watch/NaBhPctOdQT0DUR4odnw0zqs7kz7tOYaTGfZshLUBETzOc?h="
+      }
+    ]
+  },
+  {
+    "id": "deathstalker-2025",
+    "tipo": "pelicula",
+    "titulo": "Deathstalker",
+    "poster": "https://ww4.pelisplushd.to/poster/deathstalker-thumb.jpg",
+    "descripcion": "Una anciana bruja le encarga al guerrero Deathstalker que obtenga y una los tres poderes de la creación –un cáliz, un amuleto y una espada– para que el malvado mago Munkar no los obtenga y los use con fines nefastos. Después de obtener la espada, Deathstalker se une a otros viajeros que van al Gran Torneo para determinar el guerrero más fuerte. El falso rey mantiene a la verdadera princesa en cautiverio y planea matar a Deathstalker, y Deathstalker debe luchar para liberar a la princesa.",
+    "categoria": [
+      "lanzamientos recientes"
+    ],
+    "año": 2025,
+    "duracion": "1h 39m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "fantasia"
+    ],
+    "calificacion": 7.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://streamwish.to/e/0n284gi77vnd"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/0n284gi77vnd"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Debanhi: ¿Quién mató a nuestra hija?",
+    "poster": "https://image.tmdb.org/t/p/w300/1XhDyC09f6AusPcom6KTXqepOqI.jpg",
+    "descripcion": "Explora el caso de la joven mexicana Debanhi Escobar, cuyo cuerpo fue encontrado en la cisterna de un hotel en Monterrey, Nuevo León, tras desaparecer el 8 de abril de 2022. La docuserie que consta de cuatro episodios, se centra en la búsqueda de justicia por parte de sus padres, Mario y Dolores Escobar, quienes no creen en las versiones oficiales y sostienen que su hija fue asesinada y su cuerpo fue plantado..",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "crimen",
+      "documental"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-26T19:13:48.885041",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 7.9,
+    "votos": 8000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/sp12vya65k5x"
+          }
+        ]
+      }
+    ],
+    "id": "debanhi-quien-mato-a-nuestra-hija-2025"
+  },
+  {
+    "id": "demon-slayer-kimetsu-no-yaiba-castillo-infinito-2025",
+    "tipo": "pelicula",
+    "titulo": "Demon Slayer: Kimetsu no Yaiba Castillo infinito",
+    "poster": "https://ww4.pelisplushd.to/poster/demon-slayer-kimetsu-no-yaiba-castillo-infinito-thumb.jpg",
+    "descripcion": "Tanjirō Kamado es un chico que se unió a una organización dedicada a cazar demonios después de que su hermana menor, Nezuko, fuera convertida. Mientras los miembros de la organización y los Pilares participaban en un programa de entrenamiento grupal, como preparación para la inminente batalla contra los demonios, Muzan Kibutsuji aparece en la Mansión Ubuyashiki. Con el jefe de la organización en peligro, Tanjirō y los Pilares corren hacia la mansión, pero son arrastrados a un espacio misterioso por obra de Kibutsuji. El lugar al que han caído Tanjirō y los cazadores es el bastión de los demonios: el Castillo Infinito. Así, el campo de batalla queda establecido para dar fin a la guerra entre humanos y demonios.",
+    "categoria": [
+      "anime"
+    ],
+    "año": 2025,
+    "duracion": "2h 34m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "historia"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "latino español",
+        "url": "https://dinisglows.com/v/9yicnzopvd30"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/v/9yicnzopvd30"
+      }
+    ]
+  },
+  {
+    "id": "depredador-tierras-salvajes-2025",
+    "tipo": "pelicula",
+    "titulo": "Depredador: Tierras salvajes",
+    "poster": "https://ww4.pelisplushd.to/poster/depredador-tierras-salvajes-thumb.jpg",
+    "descripcion": "En el futuro, en un planeta remoto, un joven Depredador, marginado de su clan, encuentra un aliado inesperado en Thia y se embarca en un peligroso viaje en busca del adversario definitivo.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "ciencia ficcion"
+    ],
+    "calificacion": 7.1,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T19:08:37.991282",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/l6leoefbiwd0"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/l6leoefbiwd0"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Desastre en familiaDesastre en familia",
+    "poster": "https://image.tmdb.org/t/p/w300/4xElszx6rphaMQHoX4T5CCCM2cV.jpg",
+    "descripcion": "Un viaje familiar se convierte en una divertida pesadilla luego de que los 4 miembros del grupo terminen cambiando cuerpos entre sí. Ahora deberán descubrir cómo regresar a la normalidad mientras se hacen pasar por el cuerpo que habitan, descubriendo que la vida de cada miembro... no es como la imaginaban..",
+    "categoria": [
+      "todo-lo-nuevo-2025"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "drama",
+      "familiaa"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-06T01:05:17.970981",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 7.9,
+    "votos": 90000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/tiyghihv4yfe",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/tiyghihv4yfe"
+      }
+    ],
+    "id": "desastre-en-familiadesastre-en-familia-2025"
+  },
+  {
+    "id": "destino-final-lazos-de-sangre-2025",
+    "tipo": "pelicula",
+    "titulo": "Destino final lazos de sangre",
+    "poster": "https://www.pelisplus.do/poster/destino-final-lazos-de-sangre-thumb.jpg",
+    "descripcion": "Atragantada por una violenta pesadilla recurrente, la estudiante universitaria Stefanie regresa a casa para encontrar a la única persona que podría romper el ciclo y salvar a su familia de la horrible muerte que inevitablemente les espera a todos.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "terror",
+      "misterio"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T21:43:04.870620",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.1,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/88fbveymnsgy"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/88fbveymnsgy"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Dinero Sucio",
+    "poster": "https://image.tmdb.org/t/p/w300/seubRxVLyzvcCfY909dAl6l9eL6.jpg",
+    "descripcion": "Dos detectives, que luchan con sus propias necesidades, sucumben a la tentación al manejar una gran cantidad de dinero en efectivo..Dirty Money",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "crimen",
+      "drama"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-24T23:15:12.104317",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 6.8,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/1kyvzrm1waq5",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "dinero-sucio-2024",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/1kyvzrm1waq5"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Doctor Strange en el multiverso de la locura",
+    "poster": "https://image.tmdb.org/t/p/w300/xu0RftYPT4crY4ZSf9SMa5UM8dr.jpg",
+    "descripcion": "En un universo donde las fronteras de la realidad se desdibujan, el Hechicero Supremo se embarca en una travesía sin precedentes a través de dimensiones alternativas. La existencia de múltiples realidades paralelas, alguna vez teoría abstracta, se convierte en un laberinto tangible que desafía toda lógica conocida. Cuando una fuerza enigmática comienza a corroer los cimientos del multiverso, Stephen Strange debe unirse a aliados inesperados mientras antiguas colaboraciones resurgen bajo circunstancias extraordinarias. El viaje a través de estos reinos multidimensionales revela paisajes oníricos donde las leyes de la física se reinterpretan y criaturas de pesadilla acechan entre pliegues dimensionales. Cada realidad alternativa presenta sus propias reglas y peligros, exigiendo al mago adaptar sus artes místicas de formas innovadoras. La búsqueda por identificar la naturaleza de esta amenaza multiversal lleva al equipo a través de escenarios que desafían la cordura, desde ciudades invertidas hasta desiertos de energía pura. Mientras profundizan en los misterios del multiverso, descubren que este adversario posee una conexión íntima con las mismas fuerzas que tejen la realidad. Las batallas se libran no solo en planos físicos, sino en reinos mentales y espirituales donde la percepción misma se convierte en campo de batalla. La exploración de realidades alternativas se vuelve cada vez más peligrosa cuando comprenden que algunas dimensiones deberían haber permanecido ocultas, y que cada decisión tomada resuena a través de incontables líneas temporales. La supervivencia del multiverso pende de un hilo mientras Strange emplea hechicería creativa nunca antes vista, forjando caminos a través de dimensiones inexploradas donde la magia y la locura se entrelazan. Esta odisea cósmica prueba los límites de la resistencia humana frente a fenómenos que desafían toda comprensión, en un conflicto donde las reglas de la realidad se reescriben constantemente..Doctor Strange 2 Доктор Стрэндж 2 Doctor Strange v multivesmíre šialenstva Doctor Strange 2: El multiverso de la locura মহাবিশ্বের পাগলামিতে অদ্ভুত চিকিৎসক จอมเวทย์มหากาฬ ในมัลติเวิร์สมหาภัย Marvel Studios' Doctor Strange in the Multiverse of Madness Doctor Strange en el Multiverso de la Locura de Marvel Studios Doktors Streindžs neprāta multivisumā Doctor Strange in the Multitude of Madness 3D 닥터 스트레인지 2 Ο Δόκτωρ Στρέιντζ στο πολυσύμπαν της τρέλας Doktor Streync 2: Multikainatın Dəliliklərində 奇异博士2：疯狂多元宇宙 Doutor Estranho no Multiverso da Loucura Phù Thủy Tối Thượng 2: Đa Vũ Trụ Hỗn Loạn Բժիշկ Սթրենջը Խելագարության Բազմաշխարհում Stellar Vortex დოქტორი სტრეინჯი სიგიჟის მრავალსამყაროში დოქტორი სტრეინჯი სიგიჟის მულტივერსში 마블 닥터 스트레인지: 대혼돈의 멀티버스 닥터 스트레인지 대혼돈의 멀티버스 Doctor Strange în Multiversul Nebuniei Doctor Strange 2 - Doctor Strange in the Multiverse of Madness Doktor Strange w multiwersum obłędu דר מוזר 2 במימדי השיגעון Doktor Strange hullumeelsuse multiversumis Doctor Strange: Đa Vũ Trụ Hỗn Loạn Doctor Strange 2: Doctor Strange in the Multiverse of Madness Dr strange 2",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "fantasia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-24T23:35:31.865420",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 699999.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/myvnj43lg9tg",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "doctor-strange-en-el-multiverso-de-la-locura-2025",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/myvnj43lg9tg"
+      }
+    ]
+  },
+  {
+    "id": "doin-it-2025",
+    "tipo": "pelicula",
+    "titulo": "Doin' It",
+    "poster": "https://www.pelisplus.do/poster/doin-it-thumb.jpg",
+    "descripcion": "Después de que la adolescente Maya es atrapada en una posición sexualmente comprometedora, su madre traslada a la familia de regreso a la India para que Maya pueda aprender la disciplina adecuada. Años más tarde, regresa a los EE. UU. para encontrar financiación para su aplicación enfocada en adolescentes y consigue un trabajo como maestra de secundaria sustituta para poder investigar su demostración objetivo. Pero cuando el director le asigna la tarea de enseñar educación sexual, Maya —que todavía es virgen— emprende una búsqueda con su mejor amiga para compensar la experiencia de la escuela secundaria que perdió.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T17:17:54.438098",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": false,
+    "esta_roto": false,
+    "clasificacion_edad": "+18",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/hqfo5cohc3h5"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://nuuuppp.sbs/watch/zzYVhLINOq60SyMlYKB8MQJIUZhu81z7CUOpebOv9bg?h="
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/hqfo5cohc3h5"
+      },
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://nuuuppp.sbs/watch/zzYVhLINOq60SyMlYKB8MQJIUZhu81z7CUOpebOv9bg?h="
+      }
+    ]
+  },
+  {
+    "id": "dora-y-la-busqueda-del-sol-dorado-2025",
+    "tipo": "pelicula",
+    "titulo": "Dora y la Búsqueda del Sol Dorado",
+    "poster": "https://ww4.pelisplushd.to/poster/dora-y-la-busqueda-del-sol-dorado-thumb.jpg",
+    "descripcion": "Dora, Diego y sus nuevos amigos se adentran en la traicionera selva amazónica para descubrir el legendario tesoro de Sol Dorado antes de que fuerzas malvadas se apoderen de su inmenso poder.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "aventura"
+    ],
+    "calificacion": 10.0,
+    "votos": 3000,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/8pxnzxsztw4a"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/8pxnzxsztw4a"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Dossier 137",
+    "poster": "https://ww5.pelisplushd.to/poster/dossier-137-thumb.jpg",
+    "descripcion": "Stéphanie, a police officer working for Internal Affairs, is assigned to a case involving a young man severely wounded during a tense and chaotic demonstration in Paris. While she finds no evidence of illegitimate police violence, the case takes a personal turn when she discovers the victim is from her hometown.",
+    "categoria": [
+      "todo-lo-nuevo-2025"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "crimen",
+      "drama"
+    ],
+    "idioma": "latino ",
+    "calidad": "1080p",
+    "addedDate": "2025-12-05T22:20:48.188198",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/14hjb0ld2jb8",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/14hjb0ld2jb8"
+      }
+    ],
+    "id": "dossier-137-2025"
+  },
+  {
+    "id": "dragon-ball-daima-2024",
+    "tipo": "serie",
+    "titulo": "Dragon Ball DAIMA",
+    "poster": "https://ww4.pelisplushd.to/poster/dragon-ball-daima-thumb.jpg",
+    "descripcion": "Ver Dragon Ball DAIMA Temporada 1 Episodio 1 en Latino, Español, Subtituladas Online Gratis | Cuevana3. En esta historia, Goku, Vegeta, Bulma y otros personajes de la serie se vuelven más jóvenes de lo normal. Sin embargo, esto difiere de una historia similar del anime Dragon Ball GT, en la que Goku vuelve a ser un niño tras el final de la serie original.",
+    "categoria": [
+      "dragon ball"
+    ],
+    "año": 2024,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion"
+    ],
+    "calificacion": 7.9,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T00:12:18.106654",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://goodstream.uno/video/embed/fkd751rrhvzh"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://goodstream.uno/video/embed/mo6nc94d0m8x"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://goodstream.uno/video/embed/avnxshnmgv36"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://goodstream.uno/video/embed/125km3mioyen"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://goodstream.uno/video/embed/b02v58e86v6g"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://goodstream.uno/video/embed/j14mih6pv0wv"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://goodstream.uno/video/embed/zjnuccip2nno"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://goodstream.uno/video/embed/oeptucq9rs0r"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://goodstream.uno/video/embed/00xgo3mdpnat"
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://goodstream.uno/video/embed/h9r677o3nm6v"
+          },
+          {
+            "episodio": 11,
+            "titulo": "Episodio 11",
+            "url": "https://goodstream.uno/video/embed/ejyecrrp6vxu"
+          },
+          {
+            "episodio": 12,
+            "titulo": "Episodio 12",
+            "url": "https://goodstream.uno/video/embed/2qdu3ewtmcls"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Dragon Ball GT: 100 años después",
+    "poster": "https://image.tmdb.org/t/p/w300/2u09FiAuyMdS6EzOi7FH0ULciys.jpg",
+    "descripcion": "Un siglo ha transcurrido desde las legendarias hazañas de los Guerreros Z en Dragon Ball GT, sumiendo al mundo en una era donde las proezas épicas han quedado reducidas a meras leyendas. En este nuevo contexto histórico, emerge la figura de Goku Jr., un joven estudiante marcado por una timidez que oculta su extraordinario linaje como descendiente directo del gran Son Goku. La frágil salud de su abuela Pan, última testigo viviente de aquellas batallas cósmicas, desencadena una crisis existencial que obliga al muchacho a confrontar sus miedos más profundos. La desesperación por salvar a su querida abuela impulsa a Goku Jr. a embarcarse en una travesía que parecería imposible: la búsqueda de las míticas Esferas del Dragón, artefactos ancestrales que muchos consideran simples fábulas. Su periplo lo lleva a través de paisajes transformados por el paso del tiempo, desde las ruinas de lo que alguna vez fue la Corporación Cápsula hasta territorios naturales que esconden peligros evolucionados. Cada paso en esta odisea representa un desafío monumental para el joven, cuya naturaleza apacible choca constantemente con la hostilidad del mundo que lo rodea. A medida que avanza en su búsqueda de las esferas del dragón para salvar a Pan, el nieto de Goku se ve forzado a enfrentar criaturas mutantes y fenómenos naturales que ponen a prueba sus límites físicos y emocionales. Estos encuentros peligrosos actúan como catalizadores, despertando progresivamente el poder latente que yace en su sangre Saiyan. Sin entrenamiento previo ni mentor que lo guíe, cada confrontación se convierte en una lección brutal sobre el verdadero significado de la herencia que carga. La transformación del personaje de Goku Jr. se desarrolla orgánicamente a través de estas experiencias traumáticas, revelando destellos de un potencial que podría igualar el de sus antepasados. El viaje del tataranieto de Goku se convierte así en un proceso de autodescubrimiento donde.Bola de drac GT: Cent anys després Dragon Ball GT – The Movie: Son-Goku Jr. Bola de Drac GT: 100 anys després Dragon Ball GT Movie 01 - L'Ultima Battaglia Dragon Ball GT 100 años despues Dragon Ball GT: 100 Years After Dragon Ball GT: A Hero's Legacy Dragon Ball GT: O Legado de um Herói Dragon Ball GT - S2 - A Hero`s Legacy.",
+    "categoria": [
+      "dragon ball"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "fantasia"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-05T01:36:42.338342",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 1997,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/pm05z0cstqpu",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/pm05z0cstqpu"
+      }
+    ],
+    "id": "dragon-ball-gt-100-anos-despues-1997"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Dragon Ball Super: Broly",
+    "poster": "https://image.tmdb.org/t/p/w300/f03YksE4NggUjG75toz4H1YAGRf.jpg",
+    "descripcion": "En el período de calma posterior al épico Torneo de Fuerza, la Tierra disfruta de una paz inusual mientras los guerreros más poderosos del universo reflexionan sobre los increíbles combatientes que aún existen en otros reinos. Gokú, impulsado por una sed insaciable de superación, dedica cada momento a perfeccionar sus habilidades marciales, mientras Vegeta observa atentamente este desarrollo. La tranquilidad se rompe abruptamente con la llegada de un misterioso luchador cuyas energías nunca antes detectadas alertan a ambos saiyajines. Broly emerge como un enigma viviente, un guerrero saiyajin cuya mera existencia desafía toda lógica histórica. Según los registros conocidos, la raza saiyajin fue aniquilada por completo durante la catastrófica destrucción del planeta Vegeta, lo que convierte su aparición en un misterio que desconcierta incluso a los más sabios. Este enfrentamiento entre tres descendientes de un linaje guerrero extinto revela trayectorias vitales radicalmente diferentes, cada uno moldeado por circunstancias únicas y destinos divergentes. La situación se complica con la reaparición inesperada de Freezer, quien ha regresado desde las profundidades del infierno con sus propios designios siniestros. El emperador galáctico se encuentra atrapado en medio del choque titánico entre estos tres poderosos saiyajines, añadiendo capas de peligro e imprevisibilidad al conflicto. Lo que comienza como un encuentro casual se transforma rápidamente en una confrontación cataclísmica que pone a prueba los límites del poder saiyajin, mientras revelaciones impactantes sobre el pasado resurgen para desafiar todo lo que Gokú y Vegeta creían saber sobre su herencia. El destino de la Tierra pende de un hilo mientras estas fuerzas colosales chazan en una batalla que redefinirá para siempre el concepto de poder en el universo..DRAGON BALL SUPER: BROLY Dragon Ball Super - Broly Dragon Ball Super: Broly - Il Film Doragon bôru chô: Burorî - Dragon Ball Super: Broly Dragon Ball 20th Movie Commemoration Project Dragon Ball Super: The Movie Dragon Ball Super: The Story of an Unknown Saiyan",
+    "categoria": [
+      "dragon ball"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion",
+      "anime",
+      "aventura",
+      "ciencia",
+      "comedia",
+      "fantasia",
+      "ficcion"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-05T01:34:30.250962",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2019,
+    "calificacion": 7.0,
+    "votos": 9000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/2b91gh120iva",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/2b91gh120iva"
+      }
+    ],
+    "id": "dragon-ball-super-broly-2019"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Dragon Ball Super: Super Hero",
+    "poster": "https://image.tmdb.org/t/p/w300/gPwXtxnEgppVaMsrpPNajw1K7LH.jpg",
+    "descripcion": "En un mundo donde las amenazas resurgen de las cenizas del pasado, la organización criminal Ejército Red Ribbon renace con una visión tecnológica aterradora. Los científicos supervivientes han perfeccionado su legado malévolo creando a Gamma 1 y Gamma 2, androides de combate que paradójicamente se presentan como protectores de la humanidad. Bajo la fachada de superhéroes, estos seres artificiales inician una campaña de hostigamiento contra Piccolo y Gohan, quienes se convierten en sus principales objetivos. Mientras la Tierra enfrenta esta nueva crisis, los androides justicieros despliegan capacidades de combate que desafían las leyes de la física, planteando un dilema moral: ¿pueden máquinas creadas con propósitos siniestros realmente convertirse en guardianes del planeta? La respuesta se complica cuando las intenciones del Nuevo Ejército Red Ribbon comienzan a revelarse, mostrando que detrás de los Gamma se esconde un plan mucho más siniestro que amenaza con reescribir el futuro de la civilización. Ante la inminente amenaza de los androides definitivos, Piccolo y Gohan se ven forzados a superar sus límites habituales. El escenario se transforma en un campo de batalla donde las lealtades se ponen a prueba y las identidades se redefinen. En este conflicto que cuestiona la naturaleza misma del heroísmo, el destino del planeta pende de un hilo mientras se desarrolla un enfrentamiento que podría determinar si la justicia verdadera reside en los seres orgánicos o en las creaciones artificiales..Dragon Ball Super - Rise of Gods Dragon Ball Super 2 Dragon Ball Super: Superhero Doragon Bōru Sūpā: Sūpā Hīrō ドラゴンボール超：スーパーヒーロー dragon ball super hero",
+    "categoria": [
+      "dragon ball"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion"
+    ],
+    "idioma": "latino  japones",
+    "calidad": "1080p",
+    "addedDate": "2025-12-03T16:34:59.520850",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2022,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/5wtc1kmg8vyo",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/5wtc1kmg8vyo"
+      }
+    ],
+    "id": "dragon-ball-super-super-hero-2022"
+  },
+  {
+    "id": "dragon-ball-z-garlic-junior-inmortal-devolvedme-a-mi-gohan-1989",
+    "tipo": "pelicula",
+    "titulo": "Dragon Ball Z: Garlic Junior inmortal (Devolvedme a mi Gohan",
+    "poster": "https://ww4.pelisplushd.to/poster/dragon-ball-z-garlic-junior-inmortal-devolvedme-a-mi-gohan-thumb.jpg",
+    "descripcion": "Garlick y Kami Sama compitieron hace mucho por ser el Dios de la Tierra. Garlick salió derrotado y ahora su hijo Garlick Jr. desea conseguir lo que su padre no pudo. Para ello necesita la vida eterna y comienza a reunir las bolas de dragón, pero descubre que una de ellas está en poder de Gohan, así que decide secuestrarlo..",
+    "categoria": [
+      "dragon ball"
+    ],
+    "año": 1989,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T00:09:36.388143",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dood.to/e/2d2prbxl5no3"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dood.to/e/2d2prbxl5no3"
+      }
+    ]
+  },
+  {
+    "id": "dragon-ball-z-la-batalla-de-los-dioses-2013",
+    "tipo": "pelicula",
+    "titulo": "Dragon Ball Z: La batalla de los dioses",
+    "poster": "https://ww4.pelisplushd.to/poster/dragon-ball-z-la-batalla-de-los-dioses-thumb.jpg",
+    "descripcion": "La historia se sitúa varios años después de la batalla con Majin Buu. Bils, el Dios de la destrucción que mantenía el equilibrio del universo, se ha despertado de un largo sueño. Al escuchar rumores sobre un saiyajin que ha vencido a Freezer, Bils parte a la búsqueda de Goku. Emocionado por el hecho de que haya aparecido un oponente tan poderoso tras tanto tiempo, Goku ignora las advertencias de Kaito y decide enfrentarse a él..",
+    "categoria": [
+      "dragon ball"
+    ],
+    "año": 2013,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T00:07:23.942688",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dood.to/e/vfio72zrlim4"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dood.to/e/vfio72zrlim4"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Dragon Ball Z: The History of Trunks",
+    "poster": "https://image.tmdb.org/t/p/w300/wmvQymtrEnjuEppy5JIjzlrYcmj.jpg",
+    "descripcion": "En una realidad distópica donde la Tierra ha sucumbido al caos, la humanidad enfrenta su aniquilación bajo el yugo de dos seres artificiales imbatibles. Los androides N°17 y N°18, libres de las restricciones de su creador, han convertido el planeta en su patio de recreo personal, eliminando sistemáticamente a los defensores del mundo. En este paisaje desolado, dos guerreros cargados de cicatrices físicas y emocionales representan la última esperanza de resistencia. Gohan, quien en su juventud prometía superar incluso la leyenda de su padre, ahora carga con las secuelas de un combate catastrófico que le costó su brazo dominante. Junto a él, Trunks, el hijo del otrora temible Príncipe de los Saiyajins, ha madurado en la adversidad, perfeccionando sus habilidades en un mundo donde cada amanecer podría ser el último. La dinámica entre mentor y discípulo se entrelaza con la desesperación de una batalla imposible de ganar. Gohan, lastrado por su discapacidad, entrena incansablemente al joven híbrido saiyajin, transmitiéndole técnicas de combate adaptadas a su realidad desesperada. Sus incursiones contra las máquinas asesinas siguen patrones meticulosos, aunque rara vez logran más que retrasar temporalmente la destrucción. La búsqueda de métodos para vencer a los androides se ha convertido en una obsesión que consume sus vidas, explorando antiguas leyendas y tecnologías olvidadas. En este futuro alternativo sin héroes legendarios, la resistencia humana se mide en pequeños actos de valentía contra un poder abrumador. La narrativa de supervivencia en este mundo postapocalíptico explora hasta dónde pueden llegar dos guerreros cuando toda esperanza parece perdida, creando una épica diferente dentro del universo Dragon Ball donde cada decisión tiene consecuencias catastróficas..Dragon Ball Z Special 02 - The History of Trunks Dragon Ball Z - The History Of Trunks Bola de Drac Z: En Son Gohan i en Trunks Dragon Ball Z: Un futuro diferente Dragon Ball Z Los dos guerreros del futuro Gohan y Trunks Dragon Ball Z - Doragon bôru zetto: Zetsubô e no hankô!! Nokosareta chô senshi - Gohan to Torankusu Dragon Ball Z - The History of Trunks Dragon Ball Z - L'histoire de Trunks Dragon Ball Z - TV Special 3 - L'Histoire de Trunks Dragon Ball Z: Gohan y Trunks Dragon Ball Z: Gohan and Trunks Dragon Ball Z - Téléfilm 02 - L'histoire De Trunks",
+    "categoria": [
+      "dragon ball"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-03T16:38:28.236858",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 1993,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/2t5dnx5u1f0a",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/2t5dnx5u1f0a"
+      }
+    ],
+    "id": "dragon-ball-z-the-history-of-trunks-1993"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Drop: Amenaza anónima",
+    "poster": "https://ww5.pelisplushd.to/poster/drop-amenaza-anonima-thumb.jpg",
+    "descripcion": "Violet, una madre viuda en su primera cita en años, llega a un restaurante de lujo y se siente aliviada al descubrir que su cita, Henry, es más encantador y guapo de lo que esperaba. Sin embargo su química comienza a deteriorarse cuando Violet empieza a ser molestada y aterrorizada por una serie de mensajes anónimos que llegan a su teléfono.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "misterio",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-30T01:06:28.074486",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.9,
+    "votos": 80000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/ac6slx2ph4sg",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/ac6slx2ph4sg"
+      }
+    ],
+    "id": "drop-amenaza-anonima-2025"
+  },
+  {
+    "id": "dune-2-2024",
+    "tipo": "pelicula",
+    "titulo": "Dune 2",
+    "poster": "https://ww4.pelisplushd.to/poster/dune-2-thumb.jpg",
+    "descripcion": "El filme nos vuelve a trasladar al planeta Arrakis, justo después en el punto en el que había finalizado la historia:en el momento en el que Paul Atreides (Timothée Chalamet) une fuerzas con los guerreros nómadas Freman (Javier Bardem), tras derrotar en duelo a uno de sus guerreros más valientes. El filme comienza en el mismo punto en el que lo hace el segundo tomo de la saga escrita por el novelista Frank Herbert.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2024,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "ciencia ficcion"
+    ],
+    "calificacion": 8.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T00:30:24.777114",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://goodstream.uno/video/embed/balk6c5vc1sj"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://goodstream.uno/video/embed/balk6c5vc1sj"
+      }
+    ]
+  },
+  {
+    "id": "east-of-wall-2025",
+    "tipo": "pelicula",
+    "titulo": "East of Wall",
+    "poster": "https://ww4.pelisplushd.to/poster/east-of-wall-thumb.jpg",
+    "descripcion": "Tras la muerte de su marido, Tabatha, una joven entrenadora de caballos se enfrenta a la inseguridad económica y a un dolor no resuelto mientras da refugio a un grupo de adolescentes descarriadas en su rancho en ruinas de Badlands.",
+    "categoria": [
+      "todos"
+    ],
+    "año": 2025,
+    "duracion": "1h 37m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "western"
+    ],
+    "calificacion": 7.9,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "fuentes": [
+      {
+        "idioma": "castellano",
+        "url": "https://streamwish.to/e/v8w61a09uhdm"
+      },
+      {
+        "idioma": "subtitulado",
+        "url": "https://streamwish.to/e/misgcukfdgmq"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "castellano",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/v8w61a09uhdm"
+      },
+      {
+        "calidad": "HD",
+        "idioma": "subtitulado",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/misgcukfdgmq"
+      }
+    ]
+  },
+  {
+    "id": "el-amateur-operacion-venganza-2025",
+    "tipo": "pelicula",
+    "titulo": "El amateur: Operación venganza",
+    "poster": "https://www.pelisplus.do/poster/el-amateur-operacion-venganza-thumb.jpg",
+    "descripcion": "Charlie Heller es un brillante pero introvertido decodificador de la CIA que trabaja en una oficina en el sótano de la sede de Langley. Su vida cambia radicalmente cuando su esposa muere en un ataque terrorista en Londres. Cuando sus supervisores se niegan a tomar cartas en el asunto, él mismo toma las riendas y se embarca en un peligroso viaje por todo el mundo para localizar a los responsables. Su inteligencia puede ser el arma definitiva para llevar a cabo su venganza.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "suspenso"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T22:20:58.702134",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.1,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/spv5u3qx42pn"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/spv5u3qx42pn"
+      }
+    ]
+  },
+  {
+    "id": "el-caso-eloa-un-secuestro-en-directo-2025",
+    "tipo": "pelicula",
+    "titulo": "El caso Eloá: Un secuestro en directo",
+    "poster": "https://image.tmdb.org/t/p/w300/iiXW7L30x4U89VEyTRmxkIM0lrN.jpg",
+    "descripcion": "El caso de una adolescente secuestrada por su exnovio en uno de los secuestros más impactantes de todo Brasil..",
+    "categoria": [
+      "todo-lo-nuevo-2025"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental",
+      "crimen"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-20T21:03:45.096760",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/n755k9bfs796"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/n755k9bfs796"
+      }
+    ]
+  },
+  {
+    "id": "el-chavo-del-ocho-0",
+    "tipo": "serie",
+    "titulo": "El Chavo del Ocho",
+    "poster": "https://www.pelisplus.do/poster/el-chavo-del-ocho-thumb.jpg",
+    "descripcion": "Descripción no encontrada.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T19:50:09.920829",
+    "tamaño": "N/A",
+    "año": 0,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": true,
+    "plataforma": "pelicula",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dood.to/e/2jykt0nnwgqr"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dood.to/e/c5c0bharlbg6"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dood.to/e/dzrlve9giwgt"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dood.to/e/q4fbvccapmzn"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dood.to/e/28iyp8mjhtmd"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dood.to/e/pr69mw0t0u5t"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dood.to/e/7fb86g2gxal6"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dood.to/e/hin7as72k7y8"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://dood.to/e/qo9sxvu68845"
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://dood.to/e/osb316iafnw8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El contable 2",
+    "poster": "https://image.tmdb.org/t/p/w300/njqLGG2djaHCe4bAG0ZhN9Z4x4t.jpg",
+    "descripcion": "Cuando el contable forense Wolff se ve arrastrado de vuelta al mundo del crimen organizado tras el brutal asesinato de un colega del pasado, descubre que los métodos convencionales resultan insuficientes frente a esta nueva amenaza. La investigación inicial revela patrones contables imposibles y transacciones fantasma que apuntan hacia una organización criminal mucho más sofisticada de lo que imaginaba. Ante la creciente peligrosidad del caso, Wolff se ve forzado a tender un puente hacia su hermano Brax, un mercenario con habilidades letales con quien mantenía una relación fracturada por años de distanciamiento. La colaboración forzada entre el meticuloso contable y su impredecible hermano se desarrolla bajo la supervisión de la tenaz agente federal Marybeth Medina, cuya experiencia en crimen financiero resulta crucial para desentrañar los hilos de esta trama criminal. Juntos descubren que el asesinato inicial era solo la punta del iceberg de una conspiración que se extiende por los niveles más altos del poder económico. La investigación de crímenes contables complejos los lleva a enfrentarse con una red de sicarios profesionales que operan desde las sombras, eliminando metódicamente a cualquiera que se acerque a la verdad. A medida que profundizan en el caso, el trío se convierte en el blanco principal de esta organización despiadada, obligándolos a emplear tácticas cada vez más arriesgadas para sobrevivir. La búsqueda de respuestas los lleva a través de un laberinto de corporaciones fachada y cuentas offshore, donde cada descubrimiento los acerca más al epicentro de la conspiración, pero también incrementa el peligro que enfrentan. En este thriller de suspense financiero, la contabilidad se convierte en un arma mortal y los números esconden secretos por los que alguien está dispuesto a matar..Solomon The Accountant² El contable² El Contador 2 El Contador 2 暗算2",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "crimen",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-29T21:52:10.195957",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.0,
+    "votos": 9000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/41ashbe89bsl",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/41ashbe89bsl"
+      }
+    ],
+    "id": "el-contable-2-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El cuadro robado",
+    "poster": "https://image.tmdb.org/t/p/w300/1D8on0AKvFxBGgyW05PW30Bn24N.jpg",
+    "descripcion": "André Masson, subastador de la famosa casa de subastas Scottie's, recibe un día una carta según la cual se había descubierto en Mulhouse, en casa de un joven trabajador, un cuadro de Egon Schiele. Muy escéptico, acude allí y tiene que afrontar los hechos: la obra es auténtica, una obra maestra desaparecida desde 1939, saqueada por los nazis. André ve este descubrimiento como el pináculo de su carrera, pero también es el comienzo de una pelea que podría ponerla en peligro. Afortunadamente, contará con la ayuda de su ex esposa y colega Bertina, y de su caprichosa becaria Aurore....Auction The Stolen Painting",
+    "categoria": [
+      "comedia"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "idioma": "español",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T22:12:44.966623",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://dintezuvio.com/embed/3edfwcptpt6v",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/3edfwcptpt6v"
+      }
+    ],
+    "id": "el-cuadro-robado-2024"
+  },
+  {
+    "id": "el-descubridor-de-leyendas-2024",
+    "tipo": "pelicula",
+    "titulo": "El descubridor de leyendas",
+    "poster": "https://image.tmdb.org/t/p/w300/jvrSYRtgHTu3oqJN1X7LWZoekB6.jpg",
+    "descripcion": "",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "fantasia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T15:10:10.037204",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 8.8,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/mhz3n2now7k2"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/mhz3n2now7k2"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El diario de Greg: ¡Esto es el colmo!",
+    "poster": "https://image.tmdb.org/t/p/w500/xg6hPJGl130XkJgwWpBagMHojWz.jpg",
+    "descripcion": "Cuando la despreocupación de Greg choca con las desorbitadas expectativas de su padre, este le presiona para que cambie de actitud. Tras rozar varias veces el desastre con hilarantes resultados, Greg recibe un ultimátum de su padre que podría hacerle dejar atrás sus días de \"pringao\" para siempre.",
+    "año": 2025,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "animación",
+      "familia",
+      "comedia"
+    ],
+    "director": "Matt Danner",
+    "reparto": [
+      "Aaron D. Harris",
+      "Chris Diamantopoulos",
+      "Erica Cerra",
+      "Hunter Dillon",
+      "Jude Zarzaur"
+    ],
+    "calificacion": 7.4,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T01:44:40.801322",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/0lwk8sivaegk?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "el-diario-de-greg-esto-es-el-colmo-2025"
+  },
+  {
+    "id": "el-dia-que-la-tierra-exploto-una-pelicula-de-looney-tunes-2024",
+    "tipo": "pelicula",
+    "titulo": "El día que la Tierra explotó: Una película de Looney Tunes",
+    "poster": "https://ww4.pelisplushd.to/poster/el-dia-que-la-tierra-exploto-una-pelicula-de-looney-tunes-thumb.jpg",
+    "descripcion": "orky y el Pato Lucas, la clásica pareja de dibujos animados, se convierten en héroes improbables cuando sus travesuras en la fábrica de chicles local destapan un complot secreto de control mental alienígena. Contra todo pronóstico, los dos están decididos a salvar su ciudad y el mundo.",
+    "categoria": [
+      "anime"
+    ],
+    "año": 2024,
+    "duracion": "1h 31m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [],
+    "calificacion": 7.6,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://habetar.com/e/mh0v5ojslm5z"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://habetar.com/e/mh0v5ojslm5z"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El Encanto de la Sirena",
+    "poster": "https://image.tmdb.org/t/p/w300/wqzIXix00y0mRbGPhreDvIaQdg1.jpg",
+    "descripcion": "El Dr. Eric Prince, arqueólogo, hace un espectacular descubrimiento en una pequeña isla caribeña que demuestra la existencia de una sociedad prehistórica antigua y avanzada. Durante su excavación, conoce a la misteriosa y bella Aurora Bey..El encanto de la sirena El encanto de la sirena",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [],
+    "calidad": "HD",
+    "addedDate": "2025-11-22T19:08:09.204701",
+    "tamaño": "N/A",
+    "año": 2023,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/audf3hr3thns"
+      }
+    ],
+    "id": "el-encanto-de-la-sirena-2023",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/audf3hr3thns"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El encanto del champán",
+    "poster": "https://image.tmdb.org/t/p/w300/yey6ihLZVwx2sjMXhObUyFusqyX.jpg",
+    "descripcion": "Una directiva decidida va a París con la intención de adquirir una marca de champán antes de Navidad... y se enamora por accidente del heredero de este imperio burbujeante..Шампанские проблемы",
+    "categoria": [
+      "comedia"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "romance"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T21:39:31.879374",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.9,
+    "votos": 8000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/jr0uwogu604c",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/jr0uwogu604c"
+      }
+    ],
+    "id": "el-encanto-del-champan-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El entrenador",
+    "poster": "https://image.tmdb.org/t/p/w300/24zTubOP9RCJGVTpUxpQ92JxflC.jpg",
+    "descripcion": "Comedia en formato de falso documental que combina fútbol, humor e intriga internacional. El modesto St Peter’s Celtic, un equipo amateur, debe enfrentarse al vigente campeón en la primera ronda de la FAI Cup. Su temperamental segundo entrenador, viral tras un incidente en el sorteo, intenta formar un equipo competitivo mientras lidia con un equipo de rodaje y una investigación por amaño de partidos. Inspirada en una exitosa serie irlandesa, El entrenador mezcla sátira deportiva, caos mediático y apuestas ilegales en un relato tan divertido como imprevisible..",
+    "categoria": [
+      "comedia"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "idioma": "español",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T22:56:57.836388",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://dintezuvio.com/embed/07yxigopssvc",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/07yxigopssvc"
+      }
+    ],
+    "id": "el-entrenador-2025"
+  },
+  {
+    "id": "el-escuadron-suicida-2021",
+    "tipo": "pelicula",
+    "titulo": "El Escuadrón Suicida",
+    "poster": "https://ww4.pelisplushd.to/poster/el-escuadron-suicida-thumb.jpg",
+    "descripcion": "Ver El Escuadrón Suicida Online Latino, Español, Subtituladas Gratis | Cuevana3. Relanzamiento de Escuadrón Suicida, los personajes de DC Cómics. Un equipo de anti-héroes, formado por un grupo de villanos encarcelados que deciden tomar misiones de alto riesgo a cambio de conmutar parte de sus condenas. Esta película de acción y fantasía está basada en los cómics creados por John Ostrander para DC Cómics.",
+    "categoria": [
+      "accion"
+    ],
+    "año": 2021,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/i6y5y3z187x7"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/i6y5y3z187x7"
+      }
+    ]
+  },
+  {
+    "id": "el-grillo-y-la-hormiga-2023",
+    "tipo": "pelicula",
+    "titulo": "El grillo y la hormiga",
+    "poster": "https://ww4.pelisplushd.to/poster/el-grillo-y-la-hormiga-thumb.jpg",
+    "descripcion": "Ket, un grillo que toca la guitarra, dirige una banda para entretener a los despreocupados bichos. Cerca vive Antoinette, heredera del hormiguero donde la música está prohibida y solo se permite la disciplina y el trabajo duro. Se conocen por casualidad y entre ellos surge una relación de afecto. La hormiguita intenta advertir a los grillos de la llegada del invierno, pero no lo consigue. Cuando Antheodor, una hormiga demasiado ambiciosa, secuestra a Antoinette, son Ket y sus amigos quienes acuden a rescatarla.",
+    "categoria": [
+      "anime"
+    ],
+    "año": 2023,
+    "duracion": "1h 22m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "familia"
+    ],
+    "calificacion": 7.2,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://hgplaycdn.com/e/71euzakkg6kb"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://hgplaycdn.com/e/71euzakkg6kb"
+      }
+    ]
+  },
+  {
+    "id": "el-hijo-de-chucky-2004",
+    "tipo": "serie",
+    "titulo": "El hijo de Chucky",
+    "poster": "https://ww4.pelisplushd.to/poster/el-hijo-de-chucky-thumb.jpg",
+    "descripcion": "Chucky y Tiffany son resucitados por su inocente hija, Glenda, y llegan a Hollywood, donde se está rodando una película sobre la ola de asesinatos de los muñecos asesinos.",
+    "categoria": [
+      "terror"
+    ],
+    "año": 2004,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "calificacion": 9.0,
+    "votos": 3000,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "pelicula",
+    "temporadas": [],
+    "esta_roto": true
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El hijo de mil hombres",
+    "poster": "https://image.tmdb.org/t/p/w500/yfkecTToGVoq7hUE1xlay7ccM9e.jpg",
+    "descripcion": "En un pequeño pueblo, un pescador solitario que sueña con tener un hijo siente una luz etérea que lo conecta con otras personas y sus secretos mejor guardados.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama"
+    ],
+    "director": "Daniel Rezende",
+    "reparto": [
+      "Rodrigo Santoro",
+      "Rebeca Jamir",
+      "Miguel Martines",
+      "Johnny Massaro",
+      "Marcello Escorel"
+    ],
+    "calificacion": 7.231,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:45:17.045395",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/dnf0nqk5ch3c?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "el-hijo-de-mil-hombres-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El increíble Hulk",
+    "poster": "https://image.tmdb.org/t/p/w300/p4NYZXVtgKf6aiH65QzzkUVJcsd.jpg",
+    "descripcion": "En la vorágine de una existencia marcada por la fuga perpetua, el brillante científico Bruce Banner emprende una odisea global en pos de la redención. Su búsqueda desesperada de un antídoto que domine la bestia interior se ve constantemente amenazada por dos fuerzas implacables: la maquinaria militar que lo persigue y la tormenta emocional que lleva dentro. Entre los recuerdos que atormentan su mente, la figura de Betty Ross emerge como un faro de humanidad en su caótico mundo, impulsando su regreso a la civilización que una vez abandonó. Este retorno coincide con la aparición de una amenaza aún más monstruosa. Emil Blonsky, un agente de élite transformado por una exposición extrema a la misma radiación que creó a Hulk, ha perdido para siempre su forma humana. Atrapado en una existencia deforme, Blonsky canaliza su amargura hacia Banner, desatando una vendetta personal que convierte los rascacielos neoyorquinos en campo de batalla. La ciudad se transforma así en el escenario definitivo donde se decidirá el destino de dos seres extraordinarios. La confrontación final entre estos titanes modernos representa mucho más que un simple combate: es la materialización de dos caminos opuestos frente a la misma maldición. Mientras Banner lucha por preservar su humanidad contra la bestia que habita en él, Blonsky abraza completamente su monstruosidad. Este épico enfrentamiento en el corazón de Manhattan determinará si la ciencia podrá redimir a los monstruos que creó, o si el mundo deberá aceptar la existencia de estas fuerzas sobrehumanas entre nosotros..Hulk: El hombre increíble 无敌浩克 MCU-02 - Der unglaubliche Hulk El Incréible Hulk Hulk 2 - L'Incroyable Hulk L'Incredibile Hulk",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "ciencia",
+      "ficcion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-23T13:42:58.234202",
+    "tamaño": "N/A",
+    "año": 2008,
+    "calificacion": 9.7,
+    "votos": 800000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/xb2bqm0t48c6",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "el-increible-hulk-2008",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/xb2bqm0t48c6"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El jardín secreto",
+    "poster": "https://image.tmdb.org/t/p/w500/ku9JHB6c59UKUXjxV8lPoU89f6N.jpg",
+    "descripcion": "Tras la muerte de sus padres, Mary, una niña británica nacida en la India, es enviada a Inglaterra a vivir con un tío suyo. Se trata de un personaje huraño y distante que vive en una gran mansión gótica, gobernada por una estricta ama de llaves, la señora Medlock. Mary descubre un gran jardín, cerrado y abandonado durante años, que se convertirá en un mágico refugio para ella y sus dos nuevos amigos: Colin, un inválido caprichoso, y Dickon, ingenuo y lleno de bondad. Mientras disfrutan del jardín, se establece entre ellos una sólida y especial relación que cambiará su destino para siempre.",
+    "año": 1993,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "familia",
+      "fantasía"
+    ],
+    "director": "Agnieszka Holland",
+    "reparto": [
+      "Kate Maberly",
+      "Heydon Prowse",
+      "Andrew Knott",
+      "Maggie Smith",
+      "Irène Jacob"
+    ],
+    "calificacion": 7.422,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:33:41.000965",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/ovqh41oxq9hy?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "el-jardin-secreto-1993"
+  },
+  {
+    "id": "el-lobo-de-wall-street-2019",
+    "tipo": "pelicula",
+    "titulo": "El lobo de Wall Street",
+    "poster": "https://image.tmdb.org/t/p/w300/jTlIYjvS16XOpsfvYCTmtEHV10K.jpg",
+    "descripcion": "",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "crimen",
+      "drama"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T00:58:23.272307",
+    "tamaño": "N/A",
+    "año": 2019,
+    "calificacion": 6.1,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "clasificacion_edad": "+18",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/i47ezy013svi"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/i47ezy013svi"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "El Pacificador",
+    "poster": "https://image.tmdb.org/t/p/w300/hE3LRZAY84fG19a18pzpkZERjTE.jpg",
+    "descripcion": "La historia de origen de Peacemaker, un hombre que cree en la paz a cualquier precio, no importa cuántas personas tenga que matar para conseguirla..Peacemaker",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "comedia",
+      "familia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-24T17:48:48.862719",
+    "tamaño": "N/A",
+    "año": 2022,
+    "calificacion": 8.5,
+    "votos": 800000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/raa84h43jhev"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/s45oci7pxmwx"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/87kxw3evd5zd"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/ghkk6xx74319"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/abpy0nqgltfr"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/24z9t15k4ux7"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/6j6gvoh40tny"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dintezuvio.com/embed/8itbf1bun99b"
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/l8kcewyb6aui"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/wk7fx9eymdm5"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/28uftpb65ns5"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/lwxsq9i0d76e"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/7lmfm5cdihlw"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/y44ipnelqiyv"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/g3fn76sowljp"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dintezuvio.com/embed/a0rt0k9zf6iw"
+          }
+        ]
+      }
+    ],
+    "id": "el-pacificador-2022",
+    "clasificacion_edad": "18"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El Padrino",
+    "poster": "https://image.tmdb.org/t/p/w300/iVZ3JAcAjmguGPnRNfWFOtLHOuY.jpg",
+    "descripcion": "En el corazón del Nueva York de los años 40 late el pulso de la Cosa Nostra, donde Don Vito Corleone ejerce su influencia como patriarca de una de las cinco familias criminales más poderosas. Conocido en los círculos clandestinos como El Padrino, este hombre construye su imperio sobre códigos de honor y lealtad inquebrantable. Su legado familiar recae sobre tres herederos varones: el impulsivo Sonny, el sereno Michael y el débil Freddie, este último exiliado a Las Vegas por su ineptitud para los asuntos del clan. La estabilidad de este mundo subterráneo se fractura cuando Don Corleone se niega a participar en el lucrativo negocio de estupefacientes, desencadenando una guerra sangrienta entre las facciones rivales. La trama de la familia Corleone se desarrolla como un complejo drama de crimen organizado donde las traiciones se suceden en medio de violentos enfrentamientos. Michael, inicialmente ajeno a los negocios familiares, se ve arrastrado progresivamente hacia este torbellino de poder y venganza. Los conflictos entre familias mafiosas escalan hasta puntos de no retorno, marcando el destino de cada personaje en este oscuro universo. La transformación de Michael Corleone constituye uno de los arcos narrativos más fascinantes, evolucionando desde el hijo que rechazaba el legado criminal hasta convertirse en el nuevo cerebro de la organización. Esta saga criminal explora cómo las dinámicas de poder moldean los lazos familiares en un mundo donde la lealtad y la supervivencia se entrelazan inevitablemente..O Poderoso Chefão Der Pate - Teil 1 Der Pate - Teil I Der Pate - Teil I - The Godfather EL PADRINO Le Parrain 1 Ο Νονός پدرخوانده Il Padrino 대부 El padrino De Peetvader Ojciec Chrzestny O Padrinho Крестный отец 教父 Godfather the 01 Godfather The Godfather The Mario Puzo's The Godfather The Godfather 1 The Godfather Part 1 The Godfather Part I The Godfather Part 1 The Godfather: Part I The Godfather: The Coppola Restoration",
+    "categoria": [
+      "populares"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "crimen",
+      "drama"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-01T18:03:33.682509",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 1972,
+    "calificacion": 8.0,
+    "votos": 8000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/cf15ph7i3da4",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/cf15ph7i3da4"
+      }
+    ],
+    "id": "el-padrino-1972"
+  },
+  {
+    "id": "el-planeta-de-los-simios-nuevo-reino-2025",
+    "tipo": "pelicula",
+    "titulo": "El planeta de los simios: Nuevo reino",
+    "poster": "https://ww5.pelisplushd.to/poster/el-planeta-de-los-simios-nuevo-reino-thumb.jpg",
+    "descripcion": "300 años después del reinado de César, un nuevo líder tiránico construye su imperio esclavizando a otros clanes de primates, un joven simio llamado Noa emprende un viaje desgarrador que lo hará cuestionar todo lo que sabía sobre el pasado y tomar decisiones que definirán el futuro tanto de simios como humanos.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "ciencia ficcion",
+      "accion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-16T03:03:55.973353",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/ryohovtezjpa"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/ryohovtezjpa"
+      }
+    ]
+  },
+  {
+    "id": "el-protegido-2000",
+    "tipo": "pelicula",
+    "titulo": "El protegido",
+    "poster": "https://ww4.pelisplushd.to/poster/el-protegido-thumb.jpg",
+    "descripcion": "Philadelphia. Año 1961. Un niño de color acaba de nacer en unos grandes almacenes. Un médico acude a ver como se encuentran tanto la madre como el bebé, y horrorizado le pregunta a la mujer si se le ha caído el niño, ya que tiene tanto los brazos como las piernas fracturadas. Philadelphia. Año 2000. Un hombre llamado David Dunn está en el expreso que va de Nueva York a Philadelphia camino de su casa después de una entrevista de trabajo en la ciudad de los rascacielos. En el tren entabla conversación con una atractiva mujer, pero ésta cree que quiere ligar y se cambia de asiento. Un momento después se produce un dramático accidente..",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2000,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "ciencia ficcion"
+    ],
+    "calificacion": 7.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T00:27:30.513842",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dood.to/e/eocnbr5oafrp"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dood.to/e/eocnbr5oafrp"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El pádel es nuestro",
+    "poster": "https://image.tmdb.org/t/p/w300/6KFOfT40Kh0SJEEq1tuuowPEXG9.jpg",
+    "descripcion": "Ellos lo amaban. Sus esposas lo odiaban… hasta que ellas también empezaron a jugar. ¿Quién ganará esta batalla en la cancha (y en la casa)?.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-26T14:38:49.251850",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 9.0,
+    "votos": 70000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/yhiid9e0x7lv",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "el-padel-es-nuestro-2025",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/yhiid9e0x7lv"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "El refugio atómico",
+    "poster": "https://image.tmdb.org/t/p/w300/8Svzawg7u679VHxdKriCkm722w7.jpg",
+    "descripcion": "Tras refugiarse en un búnker de lujo para millonarios, dos familias deben hacer frente a la herida que las separó mientras crece la amenaza de un conflicto global sin precedentes..Der Milliardärsbunker Бункер миллиардеров Billionaires’ Bunker",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "ciencia",
+      "drama",
+      "ficcion"
+    ],
+    "idioma": "español",
+    "calidad": "1080p",
+    "addedDate": "2025-12-02T00:54:18.761733",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2024,
+    "calificacion": 9.0,
+    "votos": 9000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/rwdhwk9ay6di"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/upy9wlvmrg0v"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/8zo2eo6iy4k1"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/l3vv98f78s8h"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/f0bkdimjggqt"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/dzpke8bckztb"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/j0aktqhm3awf"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dintezuvio.com/embed/qjibjvt9030f"
+          }
+        ]
+      }
+    ],
+    "id": "el-refugio-atomico-2024"
+  },
+  {
+    "id": "el-regreso-de-la-momia-2001",
+    "tipo": "pelicula",
+    "titulo": "El regreso de la momia",
+    "poster": "https://image.tmdb.org/t/p/w300/x5CeEQ2iq9A20LbU0K4Q1TMxFDs.jpg",
+    "descripcion": "",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T01:44:03.815287",
+    "tamaño": "N/A",
+    "año": 2001,
+    "calificacion": 9.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/iktujq8dl5i8"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/iktujq8dl5i8"
+      }
+    ]
+  },
+  {
+    "id": "el-rey-leon-1994",
+    "tipo": "pelicula",
+    "titulo": "El rey león",
+    "poster": "https://ww4.pelisplushd.to/poster/el-rey-leon-thumb.jpg",
+    "descripcion": "El príncipe león Simba y su padre son el blanco de su amargado tío, que quiere ascender al trono.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 1994,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "familia",
+      "animacion"
+    ],
+    "calificacion": 7.0,
+    "votos": 5500,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T23:03:46.053783",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/jc7q5judaist"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/jc7q5judaist"
+      }
+    ]
+  },
+  {
+    "id": "el-rey-leon-2-el-tesoro-de-simba-1998-1998",
+    "tipo": "pelicula",
+    "titulo": "El rey león 2: El tesoro de Simba (1998)",
+    "poster": "https://ww4.pelisplushd.to/poster/el-rey-leon-2-el-tesoro-de-simba-thumb.jpg",
+    "descripcion": "Kiara, la hija primogénita de Simba y heredera de los dominios del clan, va en busca de aventuras por el Serengeti. Escapando de sus cuidadores, Timón y Pumba, Kiara se adentra en las tierras oscuras, que se sitúan fuera de los límites establecidos para ella. Allí conoce a Kovu, un joven cachorro elegido para seguir las huellas de Scar. Alcanzar la paz entre los habitantes de las tierras oscuras y los del territorio de Simba depende de Kiara y Kovu. Pero... ¿llegará a encontrar el amor una manera de unir dos mundos tan diferentes?.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 1998,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura"
+    ],
+    "calificacion": 6.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T23:06:17.809001",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dood.to/e/oj4gak0kihqo"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/tejoeo75dfc1",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dood.to/e/oj4gak0kihqo"
+      }
+    ]
+  },
+  {
+    "id": "el-rey-leon-3-hakuna-matata-2004-2004",
+    "tipo": "pelicula",
+    "titulo": "El rey león 3: Hakuna matata (2004)",
+    "poster": "https://ww4.pelisplushd.to/poster/el-rey-leon-3-hakuna-matata-thumb.jpg",
+    "descripcion": "La diversión reina en esta nueva película en al que Timón y su simpático amigo Pumba son los grandes héroes de la Sabana. El Rey León 3 nos traslada al pasado, antes de que comenzase la historia de Simba, e incluso mucho más atrás. En esta nueva comedia de aventuras, Timón y Pumba te descubrirán sus orígenes, cuándo se conocieron y cómo ayudaron a Simba a salvar el Seregeti. Su historia incluye algunos de los grandes momentos de El Rey León, que ahora resultarán un poco diferentes desde su punto de vista. Por ejemplo, os sorprenderá conocer la verdad sobre cómo se desarrolló el trascendental momento en el que Simba fue presentado al reino animal..",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2004,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia"
+    ],
+    "calificacion": 8.9,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T23:08:04.620584",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dood.to/e/6j7q4c9a0yc2"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/fcocm0w3n3z9",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dood.to/e/6j7q4c9a0yc2"
+      }
+    ],
+    "idioma": "latino"
+  },
+  {
+    "id": "el-vengador-toxico-2025",
+    "tipo": "pelicula",
+    "titulo": "El Vengador Toxico",
+    "poster": "https://ww4.pelisplushd.to/poster/the-toxic-avenger-thumb.jpg",
+    "descripcion": "Un chico ingenuo se transforma en un poderoso superhéroe después de ser arrojado a una tina de desechos tóxicos.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "comedia",
+      "ciencia ficcion"
+    ],
+    "calificacion": 6.3,
+    "votos": 2000,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T01:53:41.164097",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/fd5urhuzom9x"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/fd5urhuzom9x"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El último refugio",
+    "poster": "https://image.tmdb.org/t/p/w300/lkVRlzOaLNczHy3HnXDCE0mMalk.jpg",
+    "descripcion": "La guerra civil arde en la República Centroafricana. Linn (35) lidera un equipo de trabajadores humanitarios que trabajan incansablemente para salvar vidas en un hospital de campaña improvisado fuera del enorme campo de refugiados. De repente, un hombre desesperado entra en la clínica. Es musulmán y está siendo perseguido y en grave peligro. Afuera, la turba y la milicia cristiana que quieren entregar al hombre musulmán para que lo maten crecen. Basada en la historia real del drama que se desarrolló durante 15 intensas horas en el hospital de campo de Médicos Sin Fronteras en Bangui en la víspera de Navidad de 2013..Foer Moerket",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "belica",
+      "drama",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-25T21:06:19.162290",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 7.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://dintezuvio.com/embed/bnx0ohis73r4",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/bnx0ohis73r4"
+      }
+    ],
+    "id": "el-ultimo-refugio-2025"
+  },
+  {
+    "id": "eleanor-la-grande-2025",
+    "tipo": "pelicula",
+    "titulo": "Eleanor la grande",
+    "poster": "https://ww4.pelisplushd.to/poster/eleanor-la-grande-thumb.jpg",
+    "descripcion": "Tras la muerte de su mejor amiga, Eleanor Morgenstein, de 94 años, intenta reconstruir su vida volviendo a Nueva York tras vivir décadas en Florida",
+    "categoria": [
+      "aventura"
+    ],
+    "año": 2025,
+    "genero": [
+      "drama"
+    ],
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://streamwish.to/e/92tq3a71xqje"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "subtitulado",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/92tq3a71xqje"
+      }
+    ]
+  },
+  {
+    "id": "elementos-2023",
+    "tipo": "pelicula",
+    "titulo": "Elementos",
+    "poster": "https://ww4.pelisplushd.to/poster/elementos-thumb.jpg",
+    "descripcion": "En una ciudad en la que conviven el fuego, el agua, la tierra y el aire, una joven llena de fuego y un tipo que fluye descubrirán lo mucho que tienen en común.",
+    "categoria": [
+      "todos"
+    ],
+    "año": 2023,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "disney",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/joxlfh8et900"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/joxlfh8et900"
+      }
+    ]
+  },
+  {
+    "id": "elijo-creer-el-camino-del-campeon-2023",
+    "tipo": "pelicula",
+    "titulo": "Elijo Creer: El Camino del Campeón",
+    "poster": "https://ww4.pelisplushd.to/poster/elijo-creer-el-camino-del-campeon-thumb.jpg",
+    "descripcion": "Con un emotivo relato de Ricardo Darín, este documental narra el camino a la victoria de \"La Scaloneta\", la selección argentina de fútbol que, acompañada por las cábalas y la fe de un país entero, pudo alzar la Copa del Mundo de Qatar 2022.",
+    "categoria": [
+      "documental"
+    ],
+    "año": 2023,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental",
+      "futbool"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "apple tv",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/dm98lz8hx3d1"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/dm98lz8hx3d1"
+      }
+    ]
+  },
+  {
+    "id": "elio-2025",
+    "tipo": "pelicula",
+    "titulo": "Elio",
+    "poster": "https://ww4.pelisplushd.to/poster/elio-thumb.jpg",
+    "descripcion": "Con una imaginación desbordante y una enorme obsesión por los extraterrestres, Elio, de 11 años, es transportado al espacio. Pero es identificado por error como el embajador galáctico de la tierra.",
+    "categoria": [
+      "todos"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion"
+    ],
+    "calificacion": 8.1,
+    "votos": 3000,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/izkmpkph3o9o"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/izkmpkph3o9o"
+      }
+    ]
+  },
+  {
+    "id": "en-defensa-del-paraiso-2016",
+    "tipo": "pelicula",
+    "titulo": "En Defensa del Paraíso",
+    "poster": "https://image.tmdb.org/t/p/w300/nU1wjVRbtW8gKdlyD9myPOqSFeZ.jpg",
+    "descripcion": "",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "familia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-20T23:30:51.238852",
+    "tamaño": "N/A",
+    "año": 2016,
+    "calificacion": 7.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/jnf1ok5jmgs6"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/jnf1ok5jmgs6"
+      }
+    ]
+  },
+  {
+    "id": "en-suenos-2025",
+    "tipo": "pelicula",
+    "titulo": "En sueños",
+    "poster": "https://image.tmdb.org/t/p/w300/z2v3lNAA2ymrZuKof4J2vqFIBdw.jpg",
+    "descripcion": "",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "familia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T15:06:58.871480",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.8,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/g5mn92b4z3uj"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/g5mn92b4z3uj"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Escapando de Alemania",
+    "poster": "https://image.tmdb.org/t/p/w500/gagrb3LhpEghQUNPugocT0PdZtp.jpg",
+    "descripcion": "En 1939, el ejército de Hitler estaba cerrando fronteras, y ochenta y cinco misioneros estadounidenses se encontraban en Alemania sirviendo a su iglesia. La huida de estos misioneros de la Alemania nazi es uno de los acontecimientos más dramáticos ocurridos en la historia moderna de la iglesia.",
+    "año": 2024,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "historia",
+      "drama",
+      "bélica"
+    ],
+    "director": "T.C. Christensen",
+    "reparto": [
+      "Paul Wuthrich",
+      "Sebastian Michael Barr",
+      "David McConnell",
+      "Landon Henneman",
+      "Brad Witbeck"
+    ],
+    "calificacion": 6.0,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:43:12.676091",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/y7ck40xjzagu?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "escapando-de-alemania-2024"
+  },
+  {
+    "id": "estado-electrico-2025",
+    "tipo": "pelicula",
+    "titulo": "Estado eléctrico",
+    "poster": "https://ww4.pelisplushd.to/poster/estado-electrico-thumb.jpg",
+    "descripcion": "De la mano de un robot, un contrabandista y su ocurrente compañero, una adolescente huérfana emprende un inolvidable viaje en busca de su hermano menor desaparecido.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "ciencia ficcion"
+    ],
+    "calificacion": 9.1,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T20:10:58.120225",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/dkmtmhwgdfvj"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/dkmtmhwgdfvj"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Evie",
+    "poster": "https://image.tmdb.org/t/p/w300/phioqPyfv128dcMU4LscwygtDLN.jpg",
+    "descripcion": "De niña, la joven Evie se pierde en los mitos y leyendas del mar. Mientras juega y explora el cabo, encuentra un collar maldito que ha sido arrastrado por el mar..",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "suspenso",
+      "terror"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-22T23:18:32.921746",
+    "tamaño": "N/A",
+    "año": 2023,
+    "calificacion": 0.0,
+    "votos": 70000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/wd6ux65tm9pz"
+      },
+      {
+        "idioma": "subtitulado",
+        "url": "https://dintezuvio.com/embed/ofnmc1g0pxtd"
+      }
+    ],
+    "id": "evie-2023",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/wd6ux65tm9pz"
+      },
+      {
+        "calidad": "HD",
+        "idioma": "subtitulado",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/ofnmc1g0pxtd"
+      }
+    ]
+  },
+  {
+    "id": "f1-la-pelicula-2025",
+    "tipo": "pelicula",
+    "titulo": "F1 la película",
+    "poster": "https://ww4.pelisplushd.to/poster/f1-la-pelicula-thumb.jpg",
+    "descripcion": "El piloto legendario Sonny Hayes es convencido de salir de su retiro para liderar a un equipo de la Fórmula 1 en dificultades y ser mentor de un joven piloto talentoso, mientras se busca una última oportunidad de gloria.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "Accion drama"
+    ],
+    "favorito": false,
+    "genero": [
+      "Accion",
+      "drama"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T19:50:50.578656",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/ynqtmjhc62bh"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/ynqtmjhc62bh"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "familia peluche",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjFjZDZkZTctNDBiMy00YzJlLWFkYTAtYzRiYmZjNzgwYTgxXkEyXkFqcGc@._V1_.jpg",
+    "descripcion": "",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-18T16:30:08.716007",
+    "tamaño": "N/A",
+    "año": 2002,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dinisglows.com/embed/tqukz5s9k3qq"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dinisglows.com/embed/0yxabgf5xe1i"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dinisglows.com/embed/xttahjsr8z9u"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dinisglows.com/embed/w7tutoif2akw"
+          }
+        ]
+      }
+    ],
+    "id": "familia-peluche-2002"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Fantasmagoría",
+    "poster": "https://image.tmdb.org/t/p/w300/7TA8HJFBZ5GBdiiH1lQ1co6TM5L.jpg",
+    "descripcion": "Un grupo de personas, lideradas por un par de científicos, se aíslan en una casa con la intención de demostrar que serán capaces de crear un fantasma con el poder de sus mentes..",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-22T23:13:36.920922",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 9.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://dintezuvio.com/embed/jnjzaoi3qjvx"
+      }
+    ],
+    "id": "fantasmagoria-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/jnjzaoi3qjvx"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Firecracker",
+    "poster": "https://image.tmdb.org/t/p/w300/sgfIriFtNYvt1Nukmo1vGWp9zTm.jpg",
+    "descripcion": "Cuando un robo sale terriblemente mal y deja a un rehén en peligro, un trío improbable se encuentra luchando por su vida y su cordura en la noche de las hogueras..",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-30T16:53:07.167101",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/gzn8hq1hmzrc",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/gzn8hq1hmzrc"
+      }
+    ],
+    "id": "firecracker-2024"
+  },
+  {
+    "id": "first-moon-2025",
+    "tipo": "pelicula",
+    "titulo": "First Moon",
+    "poster": "https://image.tmdb.org/t/p/w300/uJ13k79tpmsFDhXX2YUAlsRFzDT.jpg",
+    "descripcion": "Una joven camarera es secuestrada por una secta religiosa, que está empeñada en curarla de un virus de hombre lobo de transmisión sexual... o matarla en el proceso. Escapará antes de la primera luna llena?.",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "terror suspenso"
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-21T19:01:38.233720",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 9.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/ylw6adwql9nw"
+      },
+      {
+        "idioma": "LATINO",
+        "url": "https://dintezuvio.com/embed/ylw6adwql9nw"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/ylw6adwql9nw"
+      },
+      {
+        "calidad": "HD",
+        "idioma": "LATINO",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/ylw6adwql9nw"
+      }
+    ]
+  },
+  {
+    "id": "five-nights-at-freddys-2023",
+    "tipo": "pelicula",
+    "titulo": "Five Nights at Freddy's",
+    "poster": "https://ww4.pelisplushd.to/poster/five-nights-at-freddys-thumb.jpg",
+    "descripcion": "Ver Five Nights at Freddy's Online Latino, Español, Subtituladas Gratis | Cuevana3. Un guardia de seguridad con problemas comienza a trabajar en Freddy Fazbear's Pizza. Mientras pasa su primera noche en el trabajo, se da cuenta de que el turno de noche en Freddy's no será tan fácil de superar.",
+    "categoria": [
+      "todos"
+    ],
+    "año": 2023,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/irxqawtz1a3g\""
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/irxqawtz1a3g\""
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Five Nights at Freddy's 2",
+    "poster": "https://image.tmdb.org/t/p/w300//bYdANgEjbb3L1k1KpprAeZ6a5HN.jpg",
+    "descripcion": "Un año después de la pesadilla sobrenatural en Freddy Fazbear's Pizza, las historias sobre lo ocurrido allí se han convertido en una leyenda local extravagante, inspirando el primer Fazfest del pueblo. Sin saber la verdad, Abby se escapa para reencontrarse con Freddy, Bonnie, Chica y Foxy, lo que desencadena una serie de eventos aterradores que revelarán oscuros secretos sobre el verdadero origen de Freddy's y desatarán un horror olvidado durante décadas.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "suspenso",
+      "terror"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-05T00:55:03.313567",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/s2u3qg4493k1",
+        "calidad": "1080p"
+      },
+      {
+        "idioma": "subtitulos",
+        "url": "https://dinisglows.com/v/hxk7ma40b1ap",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "five-nights-at-freddys-2-2025"
+  },
+  {
+    "id": "fortnite-x-the-simpsons-2025",
+    "tipo": "serie",
+    "titulo": "Fortnite x the Simpsons",
+    "poster": "https://subus.sbs/p/v2/w1/rrgmJUiNq2kTzd7y4NBRgnG7J0PKr.webp",
+    "descripcion": "Los universos de Springfield y Fortnite convergen. Homer, usando una potente energía alienígena, t...",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T15:05:05.947482",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": true,
+    "plataforma": "cine",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://nuuuppp.sbs/watch/vBup7kz7RX1o6AvzAbRjSf5Q4uvDrD9koKnyxg0y7kz7Z7J7kz7I?h="
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://nuuuppp.sbs/watch/XETX3jz3DPtAQpoGWxXv5RQJ3jz3dxLnC3Gj7kz7IwbpIUURkGOQ?h="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Frankie y los monstruos",
+    "poster": "https://image.tmdb.org/t/p/w300/kXsI6DluqNnBfJenlXNuIpiPTOU.jpg",
+    "descripcion": "En un castillo-laboratorio situado en lo alto de la pequeña ciudad de Tarados de Arriba, el más loco de los profesores locos despierta monstruosas creaciones a la Casi-Vida... para luego olvidarse rápidamente de ellas. ¿Quién cuida del castillo? ¿Quién cuida de los monstruos? ¿Quién les enseña a no ser monstruosos, para que la gente del pueblo no forme una turba enfurecida y queme el castillo? Frankie, la primera creación del profesor, un ser diminuto, de cabeza calva cubierta de un mosaico de puntadas, y ojos hipnóticos, hace todo el trabajo, pero el profesor ni siquiera se fija en él. Pero ahora, un destartalado espectáculo de fenómenos ha llegado a la ciudad, y su propietario, Boniface Buscamonstruos, necesita desesperadamente una nueva atracción para atraer a las multitudes. Pronto llega a la puerta del castillo y promete a Frankie fama, fortuna y amor..Cabeza de puntada Frankie e os Monstros Skrímslasveitin",
+    "categoria": [
+      "comedia"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura",
+      "comedia",
+      "familia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T22:15:07.641738",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.0,
+    "votos": 8000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/yjjr5no7463q",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/yjjr5no7463q"
+      }
+    ],
+    "id": "frankie-y-los-monstruos-2025"
+  },
+  {
+    "id": "freaky-tales-2025",
+    "tipo": "pelicula",
+    "titulo": "Freaky Tales",
+    "poster": "https://ww4.pelisplushd.to/poster/freaky-tales-thumb.jpg",
+    "descripcion": "Cuatro historias interconectadas ambientadas en 1987 en Oakland, California, relatan el amor por la música, el cine, la gente, los lugares y los recuerdos más allá de nuestro universo conocido.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "Accion",
+      "comedia",
+      "crimen"
+    ],
+    "calificacion": 8.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T20:01:18.312546",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/wnx5vmb4uj9s"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/wnx5vmb4uj9s"
+      }
+    ]
+  },
+  {
+    "id": "frozen-2-2019",
+    "tipo": "pelicula",
+    "titulo": "Frozen 2",
+    "poster": "https://ww4.pelisplushd.to/poster/frozen-2-thumb.jpg",
+    "descripcion": "¿Por qué Elsa nació con poderes mágicos? La respuesta la está llamando y amenazando su reino. Junto con Anna, Kristoff, Olaf y Sven, se embarcará en un peligroso, pero extraordinario viaje. En Frozen: Una Aventura Congelada, Elsa temía que sus poderes fueran demasiado para el mundo. En Frozen 2, ella debe esperar que sean suficientes. Del equipo ganador del Óscar®, los directores Jennifer Lee y Chris Buck, y el productor Peter Del Vecho; con las voces originales en inglés de Idina Menzel, Kristen Bell, Jonathan Groff y Josh Gad; y la música de los compositores Kristen Anderson-Lopez y Robert Lopez, ganadores del premio de la Academia, llega Frozen 2, la nueva película animada de Disney.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2019,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "familia",
+      "animacion"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T23:17:50.434525",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/27rasz7h4251"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/27rasz7h4251"
+      }
+    ]
+  },
+  {
+    "id": "frozen-fever-2015",
+    "tipo": "pelicula",
+    "titulo": "Frozen Fever",
+    "poster": "https://ww4.pelisplushd.to/poster/frozen-fever-thumb.jpg",
+    "descripcion": "Llega el cumpleaños de Anna, y Elsa y Kristoff están decididos a brindarle la mejor celebración de su vida, pero cuando Elsa se resfría, sus poderes helados pueden poner la fiesta – y algo más – en riesgo..",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2015,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura"
+    ],
+    "calificacion": 8.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T23:13:38.188245",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dood.to/e/rg9hkbi7xuxt"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/2rft5hr1yjmq",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dood.to/e/rg9hkbi7xuxt"
+      }
+    ],
+    "idioma": "latino"
+  },
+  {
+    "id": "furiosa-de-la-saga-mad-max-2025",
+    "tipo": "pelicula",
+    "titulo": "Furiosa: De la Saga Mad Max",
+    "poster": "https://ww4.pelisplushd.to/poster/furiosa-de-la-saga-mad-max-thumb.jpg",
+    "descripcion": "Mientras el mundo se derrumba, la joven Furiosa es secuestrada del Lugar Verde de Muchas Madres y cae en manos de una Horda de Motociclistas liderada por el Señor de la Guerra Dementus. Recorriendo la tierra baldía llega a la Ciudadela, presidida por Inmortan Joe. Mientras los dos tiranos luchan por el dominio de la zona, Furiosa deberá sobrevivir a muchas pruebas buscando volver a casa",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "ciencia ficcion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-16T02:32:25.349473",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/5ie2855keeoo"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/5ie2855keeoo"
+      }
+    ]
+  },
+  {
+    "id": "furioza-2-2025",
+    "tipo": "pelicula",
+    "titulo": "Furioza 2",
+    "poster": "https://ww4.pelisplushd.to/poster/furioza-2-thumb.jpg",
+    "descripcion": "Tras un asesinato, Golden asume el mando de la implacable banda de hinchas violentos Furioza y busca expandir su poder más allá de la frontera.",
+    "categoria": [
+      "accion"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "crimen",
+      "suspenso"
+    ],
+    "calificacion": 6.7,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T19:14:13.901299",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/84rmapr02ytz"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/84rmapr02ytz"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Game of Thrones",
+    "poster": "https://image.tmdb.org/t/p/w300/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+    "descripcion": "Juego de Tronos es una serie de televisión de drama y fantasía creada para la HBO por David Benioff y D. B. Weiss. Es una adaptación de la saga de novelas de fantasía Canción de Hielo y Fuego de George R. R. Martin. La primera de las novelas es la que da nombre a la serie. La serie, ambientada en los continentes ficticios de Westeros y Essos al final de un verano de una decada de duración, entrelaza varias líneas argumentales. La primera sigue a los miembros de varias casas nobles inmersos en una guerra civil por conseguir el Trono de Hierro de los Siete Reinos. La segunda trata sobre la creciente amenaza de un inminente invierno y sobre las temibles criaturas del norte. La tercera relata los esfuerzos por reclamar el trono de los últimos miembros exiliados de una dinastía destronada. A pesar de sus personajes moralmente ambiguos, la serie profundiza en los problemas de la jerarquía social, religión, lealtad, corrupción, sexo, guerra civil, crimen y castigo..权利的游戏 Game of Thrones - Das Lied von Eis und Feuer صراع العروش Le Throne de fer Game of Thrones სამეფო კარის თამაშები Παιχνίδι Του Στέμματος Trónok harca بازی تاج و تخت Sostų žaidimas มหาศึกชิงบัลลังก์ Taht Oyunları A Song of Ice and Fire GoT",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-03T22:00:01.292571",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2011,
+    "calificacion": 8.0,
+    "votos": 7000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/joa31h2z467m"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/vq4obahoknwf"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/3vsrcch31bhp"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/lg1f284h61io"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/a57l1bn9pjy0"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/tryouzly50sn"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/xxx4dimxs02c"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dintezuvio.com/embed/orwt26l4iuvi"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://dintezuvio.com/embed/z0luw18g7cxr"
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://dintezuvio.com/embed/f4zv71w5cref"
+          }
+        ]
+      }
+    ],
+    "id": "game-of-thrones-2011"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Gangnam Zombie",
+    "poster": "https://image.tmdb.org/t/p/w300/wj2ktqf6hSgZG0MwIrkAarKGRBV.jpg",
+    "descripcion": "En el corazón del distrito más opulento de Seúl, una amenaza silenciosa comienza a desencadenar el caos entre los rascacielos relucientes y las boutiques de lujo. Gangnam, símbolo de prosperidad y modernidad, se convierte en el epicentro de una pesadilla viviente cuando sus habitantes empiezan a manifestar transformaciones grotescas. Lo que inicialmente parecían síntomas de una enfermedad común pronto revelan su verdadera naturaleza: una mutación que despoja a las personas de su humanidad, convirtiéndolas en entidades violentas e irracionales. Entre el pánico colectivo y la desesperación, emerge un grupo diverso de supervivientes que deberá navegar por este nuevo paisaje urbano convertido en campo de batalla. Estos individuos, unidos por el instinto de conservación, descubren que los protocolos de emergencia convencionales han colapsado y que las instituciones que alguna vez representaron seguridad ahora son centros de contagio. Las calles antes inundadas de vida nocturna y comercio exclusivo se transforman en pasadizos peligrosos donde cada esquina esconde una nueva amenaza. La narrativa explora las dinámicas de supervivencia urbana cuando las comodidades modernas dejan de existir y los valores sociales se ponen a prueba frente al horror. Los protagonistas deben emplear su ingenio y recursos limitados mientras buscan rutas de escape a través de una ciudad que se desmorona. Esta representación del apocalipsis zombi en Gangnam examina cómo el tejido social se resquebraja cuando el lujo y el estatus pierden todo significado ante la lucha primordial por la existencia, planteando interrogantes sobre la fragilidad de la civilización frente a catástrofes imprevistas..江南僵尸 คังนัมซอมบี้ 屍控江南",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "drama",
+      "terror"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-24T23:21:03.940888",
+    "tamaño": "N/A",
+    "año": 2023,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/wgpwhap36zsq",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "gangnam-zombie-2023",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/wgpwhap36zsq"
+      }
+    ]
+  },
+  {
+    "id": "garfield-fuera-de-casa-2024",
+    "tipo": "pelicula",
+    "titulo": "Garfield: Fuera de casa",
+    "poster": "https://ww5.pelisplushd.to/poster/garfield-fuera-de-casa-thumb.jpg",
+    "descripcion": "Garfield, el famoso gato que odia los lunes y es amante de la lasaña, está a punto de vivir una salvaje aventura al aire libre. Tras un inesperado reencuentro con su padre, el desaliñado gato callejero Vic, Garfield y su amigo canino Odie se ven obligados a abandonar su mimada vida para unirse a Vic en un divertidísimo atraco de alto riesgo.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-16T03:07:17.294850",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 8.1,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/bgc03495fu9a"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/bgc03495fu9a"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Ghost in the Shell 2.0",
+    "poster": "https://image.tmdb.org/t/p/w500/43jRjr03YunTNv58msgegZdNYHq.jpg",
+    "descripcion": "La teniente Motoko Kusanagi pertenece a la Seccion 9, un grupo de fuerzas especiales del gobierno. Esta vez su mision sera capturar a un Hacker bastante peligroso que se llama a si mismo el Marionetista. Pero las cosas se complican cuando se descubre que este Hacker es en realidad una Inteligencia Artificial que vive en la Red.",
+    "año": 2008,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "acción",
+      "animación",
+      "crimen",
+      "ciencia ficción"
+    ],
+    "director": "Mamoru Oshii",
+    "reparto": [
+      "Atsuko Tanaka",
+      "Akio Otsuka",
+      "Koichi Yamadera",
+      "大木民夫",
+      "Tessyo Genda"
+    ],
+    "calificacion": 7.4,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T01:46:44.654171",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/8yaaxq9pjjip?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "ghost-in-the-shell-20-2008"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Ghosters Phantom Patrol",
+    "poster": "https://image.tmdb.org/t/p/w500/bnH959xxnRLCy59XVRJ32BTvtQU.jpg",
+    "descripcion": "",
+    "año": 2023,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "aventura"
+    ],
+    "director": "Milko Davis",
+    "reparto": [
+      "Leon Mayfield",
+      "Heath C. Heine",
+      "Elvis Sharp",
+      "Mandy Groves",
+      "Arthur Gazarian"
+    ],
+    "calificacion": 0.0,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:35:17.553317",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/sbzn49egxkvu?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "ghosters-phantom-patrol-2023"
+  },
+  {
+    "id": "gigantes-de-acero-2011",
+    "tipo": "pelicula",
+    "titulo": "Gigantes de Acero",
+    "poster": "https://image.tmdb.org/t/p/w300/gqjKG4Z24pjYxcOfCd9p6WAnYlG.jpg",
+    "descripcion": "",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "ciencia ficcion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T01:17:38.838113",
+    "tamaño": "N/A",
+    "año": 2011,
+    "calificacion": 8.5,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/o8aajaw58izb"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/o8aajaw58izb"
+      }
+    ]
+  },
+  {
+    "id": "godzilla-x-kong-el-nuevo-imperio-2024",
+    "tipo": "pelicula",
+    "titulo": "Godzilla x Kong: El Nuevo Imperio",
+    "poster": "https://ww4.pelisplushd.to/poster/godzilla-y-kong-el-nuevo-imperio-thumb.jpg",
+    "descripcion": "Dos antiguos titanes, Godzilla y Kong, se enfrentan en una batalla épica mientras los humanos desentrañan sus orígenes entrelazados y su conexión con los misterios de la Isla Calavera.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2024,
+    "duracion": "1h 55m",
+    "director": "Adam Wingard",
+    "reparto": [
+      "Rebecca Hall",
+      "Brian Tyree Henry",
+      "Dan Stevens"
+    ],
+    "es_nuevo": true,
+    "favorito": true,
+    "genero": [
+      "Acción"
+    ],
+    "calificacion": 7.5,
+    "votos": 1800,
+    "calidad": "1080p",
+    "tamaño": "1.8 GB",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/5a748ahgndus"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/5a748ahgndus"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Goldilocks and the Three Bears: Death & Porridge",
+    "poster": "https://image.tmdb.org/t/p/w300/w3xZSNGOCgoXOMtyhjcZM99oqOw.jpg",
+    "descripcion": "Ricitos de Oro y los tres osos viven juntos en una casa aislada en el bosque. Cuando un grupo de amigos entra en su casa, Ricitos de Oro, líder de la manada, decide deshacerse de los intrusos..",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "suspenso",
+      "terror"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-27T20:03:12.484321",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/wexg7zf2t0n5",
+        "calidad": "HD"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/wexg7zf2t0n5"
+      }
+    ],
+    "id": "goldilocks-and-the-three-bears-death-porridge-2024"
+  },
+  {
+    "id": "good-fortune-2025",
+    "tipo": "pelicula",
+    "titulo": "Good Fortune",
+    "poster": "https://image.tmdb.org/t/p/w300/kDLQP1bbaFBTpOSM2fuPu3yBqxA.jpg",
+    "descripcion": "",
+    "categoria": [
+      "todo-lo-nuevo-2025"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "fantasia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-21T14:27:44.164586",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/ms39hloxavab"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/ms39hloxavab"
+      }
+    ]
+  },
+  {
+    "id": "grandes-heroes-2014",
+    "tipo": "pelicula",
+    "titulo": "Grandes héroes",
+    "poster": "https://ww5.pelisplushd.to/poster/big-hero-6-thumb.jpg",
+    "descripcion": "Con todo el sentimiento y el humor que el público espera de Walt Disney Animation Studios, Grandes héroes es una comedia de aventuras cargada de acción sobre el prodigio de la robótica Hiro Hamada, quien se ve envuelto en una peligrosa conspiración y debe transformar a su compañero más íntimo —un robot llamado Baymax— y a su diverso grupo de amigos en una banda de héroes de última tecnología.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "aventura"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T15:18:47.886361",
+    "tamaño": "N/A",
+    "año": 2014,
+    "calificacion": 9.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/kqoh44ii601b"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/kqoh44ii601b"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Green Book",
+    "poster": "https://image.tmdb.org/t/p/w300/od2A7qPtpimcYfqfKXkpHqoKyuS.jpg",
+    "descripcion": "En el convulso escenario estadounidense de los años sesenta, Tony Vallelonga, un rudo italoamericano conocido como \"Tony Lip\", acepta un trabajo inusual como guardaespaldas y conductor para el refinado pianista Don Shirley. Su misión: garantizar la seguridad del músico durante una extensa gira de conciertos por los profundos estados sureños, territorios donde las tensiones raciales alcanzan puntos críticos. La herramienta esencial para esta travesía será la Guía Verde, un directorio que señala los escasos establecimientos que aceptan clientela afroamericana en medio de un paisaje segregacionista. El virtuosismo musical de Shirley contrasta radicalmente con el carácter temperamental de Tony, creando una dinámica donde los prejuicios iniciales chocan contra la necesidad mutua de protección y compañía. A medida que atraviesan carreteras polvorientas y ciudades hostiles, ambos hombres descubren facetas inesperadas el uno del otro, forjando un vínculo que trasciende las barreras sociales. Los incidentes de discriminación y los desafíos logísticos se convierten en pruebas diarias que exigirán toda su capacidad de adaptación y comprensión. Esta experiencia transformadora no solo redefine su percepción sobre las diferencias culturales, sino que les revela las complejidades de la condición humana en un territorio dividido. El viaje musical por el sur profundo se convierte en una lección de vida donde la supervivencia depende de su creciente complicidad, demostrando cómo el respeto puede florecer incluso en los suelos más áridos de la intolerancia. Cada concierto representa no solo un triunfo artístico, sino un pequeño avance contra los estereotipos establecidos..Zeljonaja kniga Zelenaja kniga グリーンブック：2018 幸福綠皮書 Green Book: Una Amistad sin Fronteras Green Book: Una Amistad sin Fronteras Green Book: Una Amistad sin Fronteras Green Book: Una Amistad sin Fronteras Կանաչ Գիրք 绿皮书",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "historia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-25T22:30:00.630941",
+    "tamaño": "N/A",
+    "año": 2018,
+    "calificacion": 7.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/b47sqbo8yxxa",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/b47sqbo8yxxa"
+      }
+    ],
+    "id": "green-book-2018"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Guadalupe: Madre de la Humanidad",
+    "poster": "https://image.tmdb.org/t/p/w300/dx5fRdZJlw56DmYtDykeF2oFyLa.jpg",
+    "descripcion": "Documental sobre las misteriosas apariciones de la Virgen en México y sus efectos a nivel mundial..",
+    "categoria": [
+      "documental"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-24T14:48:19.863974",
+    "tamaño": "N/A",
+    "año": 2023,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "crunchyroll",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/8e3x629aylik",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "guadalupe-madre-de-la-humanidad-2023",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/8e3x629aylik"
+      }
+    ]
+  },
+  {
+    "id": "guardianes-de-la-galaxia-2014",
+    "tipo": "pelicula",
+    "titulo": "Guardianes de la galaxia",
+    "poster": "https://ww4.pelisplushd.to/poster/guardianes-de-la-galaxia-thumb.jpg",
+    "descripcion": "Ver Guardianes de la galaxia Online Latino, Español, Subtituladas Gratis | Cuevana3. Peter Quill, debe mantener una incomoda alianza con Gamora, Drax, Rocket y Groot para asegurar un artefacto que pone en peligro a toda la galaxia no caiga en las manos del temible Ronan el Acusador.",
+    "categoria": [
+      "accion"
+    ],
+    "año": 2014,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "aventura",
+      "ciencia",
+      "ficción"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino ",
+        "url": "\"https://streamwish.to/e/5uumdbn9bdmy"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino ",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "\"https://streamwish.to/e/5uumdbn9bdmy"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "halo-2022",
+    "poster": "https://image.tmdb.org/t/p/w342/zfBMkRvJ1M859881quboW3mnwEr.jpg",
+    "descripcion": "En el año 2552, los humanos del planeta Madrigal han estado luchando por independizarse de la Tierra, pero un encuentro fatal con Alien Covenant complica las cosas. El Jefe Maestro John 117 y sus supersoldados «Spartans» se unen a la lucha. Después de la batalla, el Jefe Maestro se dirige a su planeta natal de Reach con un sobreviviente de Madrigal y un objeto misterioso que descubrió en el planeta. Pero una orden controvertida hace que John cuestione su misión y a sí mismo..Halo the Series Halo The Series: Declassified",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "accion aventura"
+    ],
+    "favorito": false,
+    "genero": [],
+    "calidad": "HD",
+    "addedDate": "2025-11-22T15:38:51.075743",
+    "tamaño": "N/A",
+    "año": 2022,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 9,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/3j8x6amobbnv"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/h8yimlhvfx6m"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/azy6mruzh9ai"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/hoewt923i2d0"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/iy8mbhx0kqr5"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/131k8pa5575t"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/13iq7cgom71z"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://waaw.to/f/yb8b4hdpsQVW"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://dintezuvio.com/embed/g9frlj3hb8ko"
+          }
+        ]
+      }
+    ],
+    "id": "halo-2022"
+  },
+  {
+    "id": "hasta-el-limite-del-honor-2022",
+    "tipo": "pelicula",
+    "titulo": "HASTA EL LÍMITE DEL HONOR",
+    "poster": "https://ww4.pelisplushd.to/poster/hasta-el-limite-del-honor-thumb.jpg",
+    "descripcion": "Inicio de la Gran Guerra Patria. El teniente Adi Sharipov, junto con su pelotón, cubren la retirada del cuartel general del regimiento y permanecen rodeados detrás de las líneas enemigas. El enemigo empuja al escuadrón al pantano. El miedo a lo desconocido, el desaliento y la duda persiguen a los combatientes hasta que se dan cuenta de que la espera y la inacción destruirán al escuadrón más rápido que las balas enemigas.",
+    "categoria": [
+      "accion"
+    ],
+    "año": 2022,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "guerra"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/idyjk7yof9ki"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/idyjk7yof9ki"
+      }
+    ]
+  },
+  {
+    "id": "haul-out-the-holly-lit-up-2025",
+    "tipo": "pelicula",
+    "titulo": "Haul Out the Holly: Lit Up",
+    "poster": "https://ww4.pelisplushd.to/poster/haul-out-the-holly-lit-up-thumb.jpg",
+    "descripcion": "Evergreen Lane se prepara para otra Navidad llena de felicidad. Pero la llegada de una familia de festivos influencers desata una competición feroz en el vecindario.",
+    "categoria": [],
+    "año": 2025,
+    "genero": [
+      "comedia",
+      "romance"
+    ],
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/wex4n3hgktu3"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/wex4n3hgktu3"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Hechizo de cuampleaños",
+    "poster": "https://image.tmdb.org/t/p/w300/osf0EevXheOYSZVX70Pv5NpBA2o.jpg",
+    "descripcion": "En la inquietante localidad de Blackwood Falls, Jonny Baptiste enfrenta un destierro forzado a la residencia de su enigmática tía Hildie, cuyo pasado se entrelaza con secretos ancestrales. Durante la celebración de su decimoctavo aniversario, un ancestral hechizo de cuampleaños despierta en su sangre, desencadenando una metamorfosis sobrenatural que la conecta con fuerzas primitivas del bosque circundante. Mientras adolescentes comienzan a desaparecer misteriosamente en el instituto local, Jonny descubre que su transformación le otorga sentidos agudizados y una conexión espiritual con los patrones de desaparición. La trama de terror sobrenatural se intensifica cuando Jonny percibe que el responsable no es humano, sino una entidad que se alimenta de la juventud, vinculada a rituales que coinciden con su propia transformación. Su naturaleza míticamente salvaje emerge, guiándola a través de senderos ocultos y claros lunares donde la realidad se distorsiona. Mientras investiga las desapariciones de adolescentes en Blackwood Falls, debe equilibrar su humanidad menguante con los instintos ancestrales que ahora la dominan. En su búsqueda del perpetrador sobrenatural, Jonny descubre que su llegada a Blackwood Falls no fue accidental, sino parte de un designio mayor que conecta su linaje con las fuerzas oscuras que amenazan la comunidad. El misterio de las adolescentes desaparecidas se profundiza cuando evidencias sobrenaturales señalan que el secuestrador opera desde dimensiones paralelas, requiriendo que Jonny abrace completamente su naturaleza transformada para confrontar lo que acecha entre las sombras del bosque y los corredores de su nueva escuela..",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-27T20:14:08.666191",
+    "tamaño": "N/A",
+    "año": 2023,
+    "calificacion": 9.0,
+    "votos": 8000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/ar43w2766o85",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/ar43w2766o85"
+      }
+    ],
+    "id": "hechizo-de-cuampleanos-2023"
+  },
+  {
+    "id": "henry-danger-2014",
+    "tipo": "serie",
+    "titulo": "Henry Danger",
+    "poster": "https://image.tmdb.org/t/p/w300/onddStWYELFaz4BbV8kavU11oCo.jpg",
+    "descripcion": "",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "familia",
+      "action"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-20T23:01:32.908612",
+    "tamaño": "N/A",
+    "año": 2014,
+    "calificacion": 9.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dinisglows.com/embed/uqey3xntw1eb"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dinisglows.com/embed/33newu3paz0k"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dinisglows.com/embed/wik2yefobbrk"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dinisglows.com/embed/7jvacsazd07i"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dinisglows.com/embed/rk0t7r2jo8iv"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dinisglows.com/embed/mqyf7l6o4kej"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://dinisglows.com/embed/jr8ncsukcne2"
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://dinisglows.com/embed/1fs3oedis8cs"
+          },
+          {
+            "episodio": 11,
+            "titulo": "Episodio 11",
+            "url": "https://dinisglows.com/embed/99lwnot0abz4"
+          },
+          {
+            "episodio": 12,
+            "titulo": "Episodio 12",
+            "url": "https://dinisglows.com/embed/wrnjinlsf6lr"
+          },
+          {
+            "episodio": 13,
+            "titulo": "Episodio 13",
+            "url": "https://dinisglows.com/embed/sm352m8pinjw"
+          },
+          {
+            "episodio": 14,
+            "titulo": "Episodio 14",
+            "url": "https://dinisglows.com/embed/ttg2f8f4k3di"
+          },
+          {
+            "episodio": 15,
+            "titulo": "Episodio 15",
+            "url": "https://dinisglows.com/embed/jlgia3bme16s"
+          },
+          {
+            "episodio": 16,
+            "titulo": "Episodio 16",
+            "url": "https://dinisglows.com/embed/v5jyhm5mj2da"
+          },
+          {
+            "episodio": 17,
+            "titulo": "Episodio 17",
+            "url": "https://dinisglows.com/embed/3oui2giv7hx6"
+          },
+          {
+            "episodio": 18,
+            "titulo": "Episodio 18",
+            "url": "https://dinisglows.com/embed/8gtj2nxzv85f"
+          },
+          {
+            "episodio": 19,
+            "titulo": "Episodio 19",
+            "url": "https://dinisglows.com/embed/g1zkqmwlr90j"
+          },
+          {
+            "episodio": 20,
+            "titulo": "Episodio 20",
+            "url": "https://dinisglows.com/embed/salna8a62at7"
+          },
+          {
+            "episodio": 21,
+            "titulo": "Episodio 21",
+            "url": "https://dinisglows.com/embed/x2clk7ktjffw"
+          },
+          {
+            "episodio": 22,
+            "titulo": "Episodio 22",
+            "url": "https://dinisglows.com/embed/e4z5vrca0bvc"
+          },
+          {
+            "episodio": 23,
+            "titulo": "Episodio 23",
+            "url": "https://dinisglows.com/embed/kia3xvo0r3zd"
+          },
+          {
+            "episodio": 24,
+            "titulo": "Episodio 24",
+            "url": "https://dinisglows.com/embed/5m4bm0jd02qi"
+          },
+          {
+            "episodio": 25,
+            "titulo": "Episodio 25",
+            "url": "https://dinisglows.com/embed/ueeb5vqew7pe"
+          },
+          {
+            "episodio": 26,
+            "titulo": "Episodio 26",
+            "url": "https://dinisglows.com/embed/qgv7cj2u7mgi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "henry-danger-la-pelicula-2025",
+    "tipo": "pelicula",
+    "titulo": "Henry Danger: La Película",
+    "poster": "https://ww4.pelisplushd.to/poster/henry-danger-la-pelicula-thumb.jpg",
+    "descripcion": "Henry Hart se convierte en un héroe local en Dystopia después de dejar atrás Swellview. Cuando las trampas de la fama comienzan a pasar factura, se produce un giro con la presentación de Missy, una superfan que pone su mundo patas arriba.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "comedia"
+    ],
+    "calificacion": 7.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T22:06:10.472672",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/x41j9owq6hnl"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/x41j9owq6hnl"
+      }
+    ]
+  },
+  {
+    "id": "high-potential-detective-inesperada-2024",
+    "tipo": "serie",
+    "titulo": "High Potential: Detective Inesperada",
+    "poster": "https://ww5.pelisplushd.to/poster/high-potential-thumb.jpg",
+    "descripcion": "Morgan es una madre soltera con una mente excepcional, cuyo talento poco convencional para resolver crímenes la lleva a entablar una relación inusual e imparable con un detective experimentado que sigue las reglas al pie de la letra.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "crimen",
+      "misterio"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-18T23:57:40.540606",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 9.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/5es3o0r5sa8n"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/08jh7kr7wg24"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/z1dnb8ukmpnt"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/2lhnsuuwzzb2"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/wodhgyfv6050"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/5vtzouvuq31l"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/barjtjozs199"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/ghl2hpzhufyw"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://streamwish.to/e/xqs547l0tops"
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://streamwish.to/e/7z6bqwt1fsqq"
+          },
+          {
+            "episodio": 11,
+            "titulo": "Episodio 11",
+            "url": "https://streamwish.to/e/sbqhtztdd4zv"
+          },
+          {
+            "episodio": 12,
+            "titulo": "Episodio 12",
+            "url": "https://streamwish.to/e/86irv21bmkjv"
+          },
+          {
+            "episodio": 13,
+            "titulo": "Episodio 13",
+            "url": "https://streamwish.to/e/6cdg9nz8jnra"
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/fb2scnwe26gh"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/3ne6ch9tkdxa"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/iditwtkfhet7"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/ps0b6zihjppa"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/p17nasbwq6vz"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/to1aci3f9noo"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "src=\"https://streamwish.to/e/zof074ndi1ky\""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "higuita-el-camino-del-escorpion-2023",
+    "tipo": "pelicula",
+    "titulo": "Higuita: El camino del Escorpión",
+    "poster": "https://ww4.pelisplushd.to/poster/higuita-el-camino-del-escorpion-thumb.jpg",
+    "descripcion": "De orígenes humildes a leyenda del fútbol, este documental retrata el ascenso del colombiano René Higuita a través de su icónica carrera... y sus controversias personales.",
+    "categoria": [
+      "documental"
+    ],
+    "año": 2023,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental",
+      "futbool"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "netflix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/9krn5phi7dt1"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/9krn5phi7dt1"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Hombres de guerra",
+    "poster": "https://image.tmdb.org/t/p/w300/kGFCTeUwK41r7BfYjTJrahzNBBn.jpg",
+    "descripcion": "Gunner, un soldado de las fuerzas especiales que ha sido testigo del lado más oscuro del país y del combate, se ve obligado a volver al campo de batalla para salvar a su sobrina, que está retenida en Sudamérica. A medida que la lucha se intensifica, Gunner y su equipo descubren que la desaparición de la sobrina forma parte de una operación privada corrupta que les toca demasiado de cerca..Land of Grace",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "belica",
+      "crimen"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-30T17:01:51.430471",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 7.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [],
+    "id": "hombres-de-guerra-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Honey Don't!",
+    "poster": "https://image.tmdb.org/t/p/w300/fJm3kmd9NLZWypMas7g34oNFgbk.jpg",
+    "descripcion": "En el pintoresco y apacible pueblo de Maple Creek, la investigadora privada Honey O'Donahue se enfrenta a su caso más desconcertante cuando una sucesión de fallecimientos inexplicables comienza a perturbar la tranquilidad del lugar. Lo que inicialmente parecían tragedias aisladas pronto revela un patrón siniestro que conduce hacia la enigmática Iglesia del Redentor Eterno, una institución que guarda celosamente secretos ancestrales tras sus vitrales centenarios. Honey se verá inmersa en una intrincada red de pistas falsas y personajes excéntricos, donde cada nuevo descubrimiento profundiza el misterio en lugar de resolverlo. Mientras sigue el rastro de evidencias que conectan las muertes con rituales extraños y símbolos ocultos, la investigadora deberá navegar entre feligreses sospechosos y líderes religiosos de sonrisa fácil pero mirada esquiva. La trama se complica cuando descubre que la iglesia custodia un artefacto histórico vinculado a leyendas locales sobre maldiciones antiguas, desatando una carrera contra el tiempo para prevenir más tragedias. Esta comedia negra entreteje momentos hilarantes con giros inesperados, explorando las complejidades de un crimen organizado que se esconde tras las apariencias de devoción. A medida que Honey se adentra en el corazón del misterio, se encontrará desentrañando no solo los crímenes, sino también las complejas relaciones entre los habitantes del pueblo, donde nadie es exactamente lo que parece. El suspense crece con cada revelación, llevando a la protagonista a enfrentarse a peligros que jamás imaginó encontrar en su tranquila comunidad, todo mientras mantiene ese peculiar sentido del humor que la caracteriza, incluso en las situaciones más oscuras..Honey non! Милая не надо!",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "crimen"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-03T21:14:44.076562",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/gzgo2bj2cty9",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/gzgo2bj2cty9"
+      }
+    ],
+    "id": "honey-dont-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Hotel Costiera",
+    "poster": "https://image.tmdb.org/t/p/w300/biWik6unl9bLfpJVCNvjso2GhAE.jpg",
+    "descripcion": "El exmarine Daniel De Luca regresa a Italia, la tierra de su infancia, y se dedica a resolver problemas en uno de los hoteles más lujosos del mundo, situado en la espectacular costa de Positano..Costiera",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [],
+    "idioma": "español",
+    "calidad": "1080p",
+    "addedDate": "2025-11-23T23:39:03.199525",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/pusyp0zpr7l4"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/c06g7cku7lja"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/djkzewua3ysw"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/c5ercttftye0"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/hc6gh5pke8ev"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/fbnz04amh180"
+          }
+        ]
+      }
+    ],
+    "id": "hotel-costiera-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Humane",
+    "poster": "https://image.tmdb.org/t/p/w300/ffUU2c3qLtggje1kqwG1o45uFdM.jpg",
+    "descripcion": "A raíz de un colapso ambiental que está obligando a la humanidad a deshacerse del 20 % de su población, una cena familiar estalla en caos cuando un padre anuncia su plan de de enrolarse en el nuevo programa de eutanasia del gobierno..人道",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "ciencia",
+      "ficcion",
+      "terror"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-27T20:16:29.114090",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 9.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino ",
+        "url": "https://dintezuvio.com/embed/smmdl590g2pw",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino ",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/smmdl590g2pw"
+      }
+    ],
+    "id": "humane-2024"
+  },
+  {
+    "id": "icefall-2025",
+    "tipo": "pelicula",
+    "titulo": "Icefall",
+    "poster": "https://ww4.pelisplushd.to/poster/icefall-thumb.jpg",
+    "descripcion": "Después de un accidente aéreo en las remotas montañas de Alaska, un grupo de sobrevivientes debe enfrentarse a las implacables fuerzas de la naturaleza mientras luchan por encontrar un camino hacia la seguridad.",
+    "categoria": [
+      "accion"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [],
+    "favorito": false,
+    "calificacion": 0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "Subtitulado",
+        "url": "https://hgplaycdn.com/e/8q823wguroik"
+      }
+    ],
+    "genero": [],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "Subtitulado",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://hgplaycdn.com/e/8q823wguroik"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Infiltrada en el búnker",
+    "poster": "https://image.tmdb.org/t/p/w300/1hmZfIhKl84b4z40Vl9F06p4eWd.jpg",
+    "descripcion": "La historia de una mujer que se infiltró durante dos años en un laboratorio farmacéutico para exponer los graves casos de maltrato animal en este centro..Infiltrated in the Bunker",
+    "categoria": [
+      "documental"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental"
+    ],
+    "idioma": "español",
+    "calidad": "HD",
+    "addedDate": "2025-11-24T15:15:22.983105",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 7.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/i6fvyr53xnrr",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "infiltrada-en-el-bunker-2025",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/i6fvyr53xnrr"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Insane Like Me?",
+    "poster": "https://image.tmdb.org/t/p/w300/AiyAIRkyGD2R1XK4Jcf9JzLyJ3r.jpg",
+    "descripcion": "Veterano de combate regresa a casa después del servicio, condenado injustamente por la desaparición de su novia. Después de 9 años en asilo, es liberado, buscando la verdad y la venganza respecto a su destino..",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "terror misterio"
+    ],
+    "favorito": false,
+    "genero": [],
+    "calidad": "HD",
+    "addedDate": "2025-11-22T19:16:58.505979",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/3ivon0xep3aq"
+      }
+    ],
+    "id": "insane-like-me-2024",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/3ivon0xep3aq"
+      }
+    ]
+  },
+  {
+    "id": "intensamente-2015",
+    "tipo": "pelicula",
+    "titulo": "Intensamente",
+    "poster": "https://ww4.pelisplushd.to/poster/intensamente-thumb.jpg",
+    "descripcion": "Riley es una chica que disfruta o padece toda clase de sentimientos. Aunque su vida ha estado marcada por la Alegría, también se ve afectada por otro tipo de emociones. Lo que Riley no entiende muy bien es por qué motivo tiene que existir la Tristeza en su vida. Una serie de acontecimientos hacen que Alegría y Tristeza se mezclen en una peligrosa aventura que dará un vuelco al mundo de Riley..",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2015,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion"
+    ],
+    "calificacion": 7.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T23:43:12.351471",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dood.to/e/38on4vqtexa6"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/27dm5b83jlps",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dood.to/e/38on4vqtexa6"
+      },
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/27dm5b83jlps"
+      }
+    ]
+  },
+  {
+    "id": "intensamente-2-2024",
+    "tipo": "pelicula",
+    "titulo": "IntensaMente 2",
+    "poster": "https://ww4.pelisplushd.to/poster/intensamente-2-thumb.jpg",
+    "descripcion": "Riley, ahora adolescente, enfrenta una reforma en la Central de sus emociones. Alegría, Tristeza, Ira, Miedo y Asco deben adaptarse a la llegada de nuevas emociones: Ansiedad, Vergüenza, Envidia y Ennui.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2024,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion"
+    ],
+    "calificacion": 7.9,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T23:50:48.850024",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "Riley, ahora adolescente, enfrenta una reforma en la Central de sus emociones. Alegría, Tristeza, Ira, Miedo y Asco deben adaptarse a la llegada de nuevas emociones: Ansiedad, Vergüenza, Envidia y Ennui."
+      },
+      {
+        "idioma": "latino",
+        "url": "https://guxhag.com/e/ti216s0gx82o",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "Riley, ahora adolescente, enfrenta una reforma en la Central de sus emociones. Alegría, Tristeza, Ira, Miedo y Asco deben adaptarse a la llegada de nuevas emociones: Ansiedad, Vergüenza, Envidia y Ennui."
+      },
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://guxhag.com/e/ti216s0gx82o"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Interstellar",
+    "poster": "https://image.tmdb.org/t/p/w300/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "descripcion": "En un futuro donde la Tierra agoniza bajo el peso de una crisis alimentaria global y tormentas de polvo implacables, la humanidad enfrenta su extinción inminente. Cooper, un exingeniero de la NASA convertido en agricultor contra su voluntad, descubre por azar un proyecto secreto que representa la última esperanza de supervivencia. La organización ha encontrado un misterioso fenómeno cósmico cerca de Saturno: un portal espacio-temporal que conecta nuestro sistema solar con galaxias distantes. Este descubrimiento revolucionario sobre viajes interestelares ofrece la posibilidad de alcanzar mundos potencialmente habitables en otros brazos de la Vía Láctea. Cooper se une a una expedición pionera que cruzará el umbral cósmico, dejando atrás a su joven hija Murphy con la promesa de regresar. Al atravesar el agujero de gusano, la tripulación se enfrenta a realidades físicas que desafían toda comprensión humana del tiempo y el espacio. Cada planeta explorado presenta peligros inimaginables y dilemas morales que pondrán a prueba los límites de la supervivencia humana. Mientras tanto, en la Tierra, Murphy crece obsesionada con descifrar los patrones gravitacionales que su padre le legó, descubriendo que la respuesta para salvar a la humanidad podría estar en comprender la naturaleza misma de la realidad. La misión se transforma en una carrera contra el tiempo dilatado, donde las decisiones tomadas a años luz de distancia resonarán a través de generaciones. Los exploradores espaciales deberán elegir entre salvar a la especie humana o preservar los lazos que definen su propia humanidad, en una odisea que cuestiona los límites del amor frente a la inmensidad del cosmos..Interstellar Xing Ji Chuan Yue 星际启示录 Interstellar Bein kokhavim Interestelar",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      ":aventura",
+      "ciencia",
+      "drama",
+      "ficción"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-05T01:26:51.427975",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2925,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/xab4re61f03h",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/xab4re61f03h"
+      }
+    ],
+    "id": "interstellar-2925"
+  },
+  {
+    "id": "invasion-secreta-2023",
+    "tipo": "serie",
+    "titulo": "Invasión secreta",
+    "poster": "https://ww4.pelisplushd.to/poster/invasion-secreta-thumb.jpg",
+    "descripcion": "Nick Fury se entera de una invasión clandestina de la Tierra por parte de una facción de Skrulls. Fury se une a sus aliados, incluidos Everett Ross, Maria Hill y Talos, el Skrull que se ha ganado la vida en la Tierra. Juntos compiten contra el tiempo para frustrar una inminente invasión Skrull y salvar a la humanidad.",
+    "categoria": [
+      "series"
+    ],
+    "año": 2023,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "ciencia"
+    ],
+    "calificacion": 7.2,
+    "votos": 20000,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": true,
+    "plataforma": "disney",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/exe30mf75zqs"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/ae40ekzwmxqw"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/c9r5z5vtcuzf"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/dhz4oafchvgm"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/q33hml0zzsso"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/pej41jcb2oeu"
+          }
+        ]
+      }
+    ],
+    "idioma": "latino"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Iron Man",
+    "poster": "https://image.tmdb.org/t/p/w300/tFCTNx7foAsUQpgu2x1KjAJD1wT.jpg",
+    "descripcion": "En el corazón del desierto afgano, la vida del magnate armamentístico Tony Stark da un vuelco catastrófico cuando su convoy es emboscado y queda gravemente herido por una de sus propias municiones. Capturado por una facción terrorista que exige que construya armas devastadoras, Stark urde un plan audaz en secreto: diseña una poderosa armadura motorizada que le mantiene con vida y le concede una fuerza sobrehumana. Tras una espectacular fuga, regresa a Malibú transformado, con la determinación de redirigir el rumbo de su legado. Pero su nuevo propósito choca con la realidad corporativa: su empresa, dirigida en su ausencia por el astuto Obadiah Stane, sigue beneficiándose de la venta ilegal de tecnología avanzada a enemigos globales. Mientras perfecciona su armadura con aleaciones de última generación y sistemas de propulsión revolucionarios, Stark descubre que su antiguo mentor está detrás de su secuestro y del tráfico de armas. La batalla se traslada a las calles, enfrentando al recién nombrado Iron Man contra el monstruoso Iron Monger, una versión corrupta y gigantesca de su propia tecnología. Este enfrentamiento entre titanes de acero no es solo una lucha física, sino un duelo ideológico que cuestiona el uso ético de la innovación. La narrativa explora cómo un hombre forjado en metal busca convertirse en un guardián global, marcando el inicio de una nueva era para los superhéroes modernos donde la tecnología y la humanidad deben coexistir..Iron Man: el hombre de hierro Hombre De Hierro 아이언 맨 마블 아이언맨 Железный человeк Marvel Studios' Iron Man Iron Man: Người Sắt アイアンマン アイアンマン：2008 Iron Man 1 钢铁侠 သံမဏိလူသား",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "ciencia",
+      "ficcion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-23T14:10:50.769258",
+    "tamaño": "N/A",
+    "año": 2008,
+    "calificacion": 9.0,
+    "votos": 90000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/4pihlofyywy3",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "iron-man-2008",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/4pihlofyywy3"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Iron Man 2",
+    "poster": "https://image.tmdb.org/t/p/w300/ayyJVOV5I4MGjti7nIHC3mVCagR.jpg",
+    "descripcion": "En una realidad donde la identidad de Iron Man ha dejado de ser secreto, Tony Stark enfrenta las consecuencias de haber revelado su alter ego al mundo. Mientras el gobierno estadounidense ejerce presión para que comparta la tecnología del traje, el genio inventor se resiste firmemente, convencido de que este avance no está listo para ser militarizado. Paralelamente, un nuevo peligro emerge desde las sombras del pasado: Ivan Vanko, un brillante científico ruso que guarda un rencor heredado de su familia hacia los Stark. Armado con un traje equipado con látigos de energía, Vanko se transforma en Whiplash decidido a demostrar que la tecnología Stark puede ser superada. La trama se desarrolla mientras Stark lidia con otro desafío personal: el paladio en su reactor arc está envenenando gradualmente su organismo. Esta carrera contra el tiempo se intensifica cuando su rival empresarial, Justin Hammer, se alía con Vanko para crear un ejército de drones armados. La situación alcanza su punto crítico durante la Exposición Stark, donde Rhodey, amigo de Tony, se ve forzado a tomar el control de una de las armaduras modelo War Machine. La película explora fascinantes trajes de Iron Man mientras los protagonistas enfrentan una batalla tecnológica que amenaza con desestabilizar el equilibrio global de poder, llevando al espectador a través de espectaculares secuencias de acción y momentos de tensión dramática que redefinirán el legado del hombre de hierro..Iron Man II ไอรอน แมน 2 มหาประลัยคนเกราะเหล็ก Hombre De Hierro 2 마블 아이언맨 2 Marvel Studios' Iron Man 2 钢铁侠2 Iron Man 2: Người Sắt 2 သံမဏိလူသား ၂",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "ciencia",
+      "ficcion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-23T14:13:36.225173",
+    "tamaño": "N/A",
+    "año": 2010,
+    "calificacion": 8.0,
+    "votos": 8000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/uxllehf5by1z",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "iron-man-2-2010",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/uxllehf5by1z"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Iron Man 3",
+    "poster": "https://image.tmdb.org/t/p/w300/cW0fOIZONkgeiMJDYzqUcgl4MUn.jpg",
+    "descripcion": "En un mundo donde la tecnología y la amenaza se entrelazan, el genio inventor Tony Stark enfrenta su prueba más desafiante. Tras los eventos de Nueva York, la ansiedad y las pesadillas acechan al hombre detrás de la armadura de Iron Man. Pero cuando el misterioso y poderoso Mandarín inicia una serie de ataques terroristas a nivel mundial, Stark ve su vida destrozada: su hogar es reducido a escombros y aquellos que protege quedan en grave peligro. Sin su arsenal habitual y alejado de su zona de confort, debe recurrir únicamente a su astucia e ingenio para sobrevivir. La búsqueda del responsable lo lleva a enfrentar revelaciones inquietantes sobre su pasado y errores que ahora regresan para perseguirlo, en una trama que explora la resiliencia del héroe tras perderlo todo. Enfrentándose a enemigos formidables con recursos limitados, Stark descubre que su verdadera fuerza no reside en el metal que lo cubre, sino en la determinación inquebrantable de su espíritu. Esta aventura redefine lo que significa ser un protector en la era moderna, llevando al límite las capacidades humanas y tecnológicas. La batalla final no es solo por la victoria, sino por reencontrarse a sí mismo y redefinir su legado, demostrando que incluso sin la armadura, él es, y siempre será, Iron Man..Marvel's Iron Man 3 Залiзна людина 3 Caged Heat Iron Man Three ไอร่อน แมน 3 มหาประลัย คนเกราะเหล็ก Iron Man III Hombre De Hierro 3 마블 아이언맨 3 Жeлезный человeк 3 Marvel Studios' Iron Man 3 Iron Man 3 de Marvel Iron Man 3: Người Sắt 3 钢铁侠3 သံမဏိလူသား ၃",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "ciencia",
+      "ficcion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-23T14:27:39.642681",
+    "tamaño": "N/A",
+    "año": 2013,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/echf8s8442gw",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "iron-man-3-2013",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/echf8s8442gw"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "It (Eso)",
+    "poster": "https://image.tmdb.org/t/p/w300/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg",
+    "descripcion": "En la apacible localidad de Derry, Maine, una oscuridad ancestral se oculta bajo la superficie de la cotidianidad. Un ciclo de horror resurge cada veintisiete años, materializándose a través de una entidad que se alimenta del miedo infantil y adopta la forma de un payaso sonriente llamado Pennywise. Este ser maleable no solo personifica el terror de un payaso siniestro, sino que se transforma en las fobias más íntimas de sus víctimas, haciendo de Derry un escenario de pesadilla donde las pesadillas se vuelven tangibles. Un grupo de adolescentes marginados, autodenominados el Club de los Perdedores, se ve arrastrado al epicentro de esta tormenta sobrenatural. Cada uno de ellos carga con sus propias batallas personales: desde el acoso brutal de matones despiadados hasta la lucha por escapar de problemáticas domésticas. Estas experiencias los unen, forjando un lazo inquebrantable que se convertirá en su mayor fortaleza. Mientras investigan las misteriosas desapariciones que plagan su comunidad, descubren la aterradora verdad sobre la criatura que habita en las cloacas y su conexión con la sangrienta historia del pueblo. Su búsqueda de respuestas sobre cómo derrotar a un payaso del espacio se convierte en una lucha por la supervivencia, enfrentándose no solo a un monstruo, sino a la misma esencia del mal que corroe Derry. La confrontación final los obligará a superar sus miedos más profundos en una batalla que desafía la comprensión de la realidad, donde la amistad y el coraje serán sus únicas armas contra una fuerza que ha aterrorizado a generaciones..It - A Coisa It - A Coisa: Capítulo Um To It Es - Kapitel Eins Es Kapitel 1 It Eso 2017 Ça Chapitre 1 Oraşul bântuIT It Chapter One It: Chapter One It: Part 1 - The Loser's Club pennywise",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "suspenso",
+      "terror"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-05T01:30:38.675954",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2017,
+    "calificacion": 9.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/y83lls4plsh6",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/y83lls4plsh6"
+      }
+    ],
+    "id": "it-eso-2017"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "It: Bienvenidos a Derry",
+    "poster": "https://image.tmdb.org/t/p/w300/ckXiw9Ns4Bs32DGGtTCKdX41sau.jpg",
+    "descripcion": "Precuela de las películas de 'IT' basadas en las novelas de Stephen King. Comienza en la década de 1960, en la época previa a los acontecimientos de la película de 2017, y cuenta los orígenes del payaso Pennywise..It Derry It Serie ES: Welcome to Derry IT／Welcome to Derry \"Sore\" ga mietara owari. IT／Welcome to Derry If you see \"It\" it's the end. Оно: Добро пожаловать в Дерри Welcome to Derry: From the World of IT Welcome to Derry",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "misterio"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-26T19:07:49.871855",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/t15tpk1ggye5"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/qrshawc6vlmo"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/lh1m56of799e"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/zunmbgv1r0ha"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/b1799hzmr6f4"
+          }
+        ]
+      }
+    ],
+    "id": "it-bienvenidos-a-derry-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "jefes de estado",
+    "poster": "https://ww4.pelisplushd.to/poster/jefes-de-estado-thumb.jpg",
+    "descripcion": "El Primer Ministro del Reino Unido (Idris Elba) y el Presidente de los Estados Unidos (John Cena) mantienen una rivalidad pública que pone en peligro la alianza de sus países. Pero cuando se convierten en objetivos de un poderoso enemigo, se ven obligados a confiar el uno en el otro mientras emprenden una alocada carrera multinacional. Aliados con Noel, una brillante agente del MI6 (Priyanka Chopra Jonas), deben encontrar la forma de frustrar una conspiración que amenaza al mundo libre.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "comedia",
+      "suspenso"
+    ],
+    "calificacion": 7.9,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T19:30:14.546580",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/kae08c7v3pi5"
+      }
+    ],
+    "id": "jefes-de-estado-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/kae08c7v3pi5"
+      }
+    ]
+  },
+  {
+    "id": "juego-de-gemelas-1998",
+    "tipo": "pelicula",
+    "titulo": "Juego de gemelas",
+    "poster": "https://image.tmdb.org/t/p/w300/a3XOGrrAjl1wwiumtACWBufg6AL.jpg",
+    "descripcion": "",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T01:42:27.693826",
+    "tamaño": "N/A",
+    "año": 1998,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/9v3su8ad29g2"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/9v3su8ad29g2"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Juego de Ladrones 2: Pantera",
+    "poster": "https://image.tmdb.org/t/p/w300/cD5WrzWVjA5Q5rHNLoZ1DsZIOLR.jpg",
+    "descripcion": "Big Nick está buscando en Europa a Donnie, quien está envuelto en el peligroso mundo de los ladrones de diamantes y la infame mafia Panther, mientras planean un atraco masivo al mayor intercambio de diamantes del mundo..El Robo Perfecto: Pantera მძარცველებზე ნადირობა 2 Criminal Squad 2: Pantera - Den of Thieves Oğrulara Qarşı 2 لانه دزدان 2: پانترا 鑽石大劫案：極盜戰 贼巢2 Juego de Ladrones 2: Pantera 贼斗2 极盗战2 钻石大劫案：极盗战 贼巢2：绝密战境 极盗战线 Den of Thieves 2: Pantera",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "crimen",
+      "suspenso"
+    ],
+    "idioma": "latino,ingles",
+    "calidad": "HD",
+    "addedDate": "2025-11-29T18:18:57.262286",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/dfqk15gvg0xq",
+        "calidad": "HD"
+      }
+    ],
+    "id": "juego-de-ladrones-2-pantera-2025",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "",
+        "servidor": "",
+        "tamaño": "",
+        "url": "https://dintezuvio.com/embed/dfqk15gvg0xq"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Juego de ladrones. El atraco perfecto",
+    "poster": "https://image.tmdb.org/t/p/w300/AfybH6GbGFw1F9bcETe2yu25mIE.jpg",
+    "descripcion": "En el corazón de Los Ángeles, la Reserva Federal ejecuta diariamente un protocolo letal: la eliminación de 120 millones de dólares en efectivo del sistema monetario. Esta rutina financiera se convierte en el objetivo de un equipo de criminales veteranos que planean ejecutar el golpe definitivo antes de retirarse. Mientras la ciudad respira con normalidad, estos especialistas en delincuencia de alto nivel coordinan meticulosamente cada detalle para interceptar el transporte blindado que transporta el dinero condenado a la destrucción. Frente a esta amenaza se erige Nick, el temido líder de la brigada especial del Departamento del Sheriff, cuya reputación precede cada una de sus intervenciones. Conocido en los círculos policiales como \"El gran Nick\", este veterano oficial ha desarrollado instintos casi infalibles para anticipar movimientos criminales. Mientras los ladrones perfeccionan su estrategia para el atraco perfecto al banco federal, Nick y su equipo comienzan a detectar patrones sospechosos en la actividad delictiva de la ciudad. La operación se desarrolla como un complejo juego de ajedrez donde ambos bandos anticipan jugadas y contramovimientos. Los criminales confían en su experiencia colectiva y en la precisión de su planificación, mientras que las fuerzas del orden movilizan todos sus recursos tecnológicos y humanos. El enfrentamiento se convierte en una carrera contra el tiempo donde cada decisión podría determinar el éxito del robo millonario o su fracaso catastrófico. La ciudad se transforma en un tablero donde la estrategia policial para capturar ladrones profesionales se enfrenta a la ambición criminal en su expresión más audaz y peligrosa..El Robo Perfecto Den Of Thieves - UR Бърлога на крадци Covil de Ladrões À armes égales El Robo Perfecto 极盗战 贼巢 Dokonalá loupež Criminal Squad Juego de ladrones. El atraco perfecto Criminal Squad À armes égales Η ληστεία του αιώνα Bratstvo lopova Gengszterzsaruk Meurat ha'ganavim 덴 오브 시브스 Vagiu irstva El robo perfecto El robo perfecto Covil de Ladrões Fratia hotilor Bratstvo Lopova Охота на воров Roparsko gnezdo Dokonalá lúpež Den of Thieves (Unrated Version)",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "crimen",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-29T19:20:43.413064",
+    "tamaño": "N/A",
+    "año": 2018,
+    "calificacion": 8.0,
+    "votos": 900000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/s8dqqy0atqs3",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/s8dqqy0atqs3"
+      }
+    ],
+    "id": "juego-de-ladrones-el-atraco-perfecto-2018"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Juego sucio",
+    "poster": "https://image.tmdb.org/t/p/w300/70Na5MXfOsFlJvoX6oKYAwOhNN9.jpg",
+    "descripcion": "En el oscuro submundo del crimen organizado, un meticuloso ladrón profesional orquesta el atraco más ambicioso de su carrera. Parker, conocido por su precisión implacable, se alía con el versátil Grofield y el astuto Zen para conformar un equipo de especialistas en seguridad de alta gama. Su objetivo: infiltrar el corazón financiero de la poderosa mafia neoyorquina en una operación que redefine los límites del riesgo calculado. La trama se desarrolla entre rascacielos iluminados y callejones sombríos donde cada movimiento está vigilado por las temibles familias criminales que controlan la ciudad. El plan maestro de robo en Nueva York requiere una coordinación milimétrica mientras el grupo sortea sistemas de seguridad de última generación y guardias fuertemente armados. Lo que inicia como un golpe perfectamente planeado se complica cuando facciones rivales dentro del mundo del hampa descubren sus intenciones. Parker debe emplear todas sus habilidades para eludir las redes de vigilancia y contrarrestar las trampas tendidas por sus perseguidores, transformando el asalto en un peligroso duelo de astucias donde un solo error significa la muerte. En el desarrollo del atraco contra la mafia, las lealtades se someten a prueba cuando el equipo enfrenta dilemas inesperados que amenazan con fracturar su cohesión. Mientras la presión aumenta y el cerco se estrecha, cada miembro deberá decidir hasta dónde está dispuesto a llegar en este juego donde las apuestas incluyen no solo el botín sino sus propias vidas. El desenlace se teje entre giros traicioneros y decisiones críticas que determinarán si sobreviven para disfrutar su recompensa o se convierten en otra leyenda trágica del inframundo criminal..玩得很脏 脏局 盗亦有道 Jogo Sujo Juego sucio Нечесна гра",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "crimen"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-24T22:58:15.093514",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 6.8,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/vygk3a2w0tb4",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "juego-sucio-2025",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/vygk3a2w0tb4"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "juegos de niños",
+    "poster": "https://image.tmdb.org/t/p/w300/sWhglhFoGA0T7n5U6Yi0t8LBGjA.jpg",
+    "descripcion": "Ver la Película Juegos de niños online gratis en español.",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T18:35:59.911364",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://embed69.org/f/tt31425731/"
+      }
+    ],
+    "id": "juegos-de-ninos-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://embed69.org/f/tt31425731/"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "JUJUTSU KAISEN: Ejecución",
+    "poster": "https://image.tmdb.org/t/p/w500/a4QuZ6oW71zCpwVW08u3fHBxc6E.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "animación",
+      "acción"
+    ],
+    "director": "御所園翔太",
+    "reparto": [
+      "Junya Enoki",
+      "緒方恵美",
+      "Koji Yusa",
+      "Daisuke Namikawa",
+      "Yuma Uchida"
+    ],
+    "calificacion": 5.191,
+    "idioma": "subtitulado",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T01:20:35.691191",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/7tikj0sfs0lt",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "jujutsu-kaisen-ejecucion-2025"
+  },
+  {
+    "id": "jump-2023",
+    "tipo": "pelicula",
+    "titulo": "Jump",
+    "poster": "https://ww4.pelisplushd.to/poster/jump-thumb.jpg",
+    "descripcion": "A través del show realizado en el Auditorio Nacional de México, viviremos una experiencia visual y musical que mostrará la transformación y evolución de Rafa, Karen y Lesslie, invitando al espectador a reflexionar y recibir un mensaje claro sobre cambios positivos. Este detrás de cámara nos invita a vivir de cerca la gran aventura de experimentar el “JUMP Show”.",
+    "categoria": [
+      "todos"
+    ],
+    "año": 2023,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "musica",
+      "documental"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/2h0z47znrbls"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/2h0z47znrbls"
+      }
+    ]
+  },
+  {
+    "id": "jurassic-world-dominion-2022",
+    "tipo": "pelicula",
+    "titulo": "Jurassic World: Dominion",
+    "poster": "https://ww5.pelisplushd.to/poster/jurassic-world-dominion-thumb.jpg",
+    "descripcion": "Ver Jurassic World: Dominion Online Latino, Español, Subtituladas Gratis | Cuevana3. Esta nueva entrega transcurre cuatro años después de la destrucción de Isla Nublar vista en Jurassic World: El reino caído. Ahora, los dinosaurios conviven con los seres humanos en todo el mundo. Este frágil equilibrio cambiará el futuro y decidirá, de una vez por todas, si las personas seguirán siendo los principales depredadores en un planeta que comparten con los animales más temibles de la creación. Owen Grady (Chris Pratt), el experto en rapaces, regresa en una nueva aventura junto a Claire Dearing (Bryce Dallas Howard), la guía del parque. Esta tercera entrega de la saga Jurassic World, basada en los libros de Michael Crichton, la produce Steven Spielberg (Ready Player One, Los archivos del Pentágono).",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-16T02:41:39.066345",
+    "tamaño": "N/A",
+    "año": 2022,
+    "calificacion": 8.2,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://goodstream.uno/video/embed/p1pxtf3hk7i0"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://goodstream.uno/video/embed/p1pxtf3hk7i0"
+      }
+    ]
+  },
+  {
+    "id": "jurassic-world-renace-2025",
+    "tipo": "pelicula",
+    "titulo": "Jurassic World: Renace",
+    "poster": "https://ww4.pelisplushd.to/poster/jurassic-world-renace-thumb.jpg",
+    "descripcion": "Cinco años después de los acontecimientos de Jurassic World Dominion, Zora Bennett, una experta en operaciones encubiertas, es contratada para dirigir a un equipo de especialistas cuya misión es conseguir fabricar un medicamento hecho de ADN de tres criaturas más grandes para la raza humana.",
+    "categoria": [
+      "aventura"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "ciencia ficcion"
+    ],
+    "calificacion": 7.1,
+    "votos": 23000,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/8lpm34jk3nzq"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/8lpm34jk3nzq"
+      }
+    ]
+  },
+  {
+    "id": "ko-2025",
+    "tipo": "pelicula",
+    "titulo": "K.O",
+    "poster": "https://ww4.pelisplushd.to/poster/ko-thumb.jpg",
+    "descripcion": "Un exluchador se enfrenta a la violencia de los bajos fondos de Marsella para encontrar al hijo de un oponente al que, sin querer, mató años atrás en el ring",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "Aciion",
+      "drama",
+      "aventura"
+    ],
+    "calificacion": 7.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T19:59:23.022516",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/nkjg1hgu322z"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/nkjg1hgu322z"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Kaiju No. 8: Misión de reconocimiento",
+    "poster": "https://image.tmdb.org/t/p/w500/okYOor2hdF7EFjxs2TxSzwGeKEQ.jpg",
+    "descripcion": "En un Japón repleto de Kaiju, Kafka Hibino trabaja como limpiador de monstruos. Tras reencontrarse con su amiga de la infancia, Mina Ashiro, una joven promesa de las Fuerzas de Defensa que luchan contra los Kaiju, decide intentar cumplir su antiguo sueño de unirse a las Fuerzas... cuando de repente se transforma en el poderoso Kaiju nº 8. Con la ayuda de un colega más joven, Reno Ichikawa, Kafka oculta su identidad mientras lucha por cumplir el sueño de su vida: aprobar el examen de las Fuerzas de Defensa y así poder estar al lado de Mina. Pero cuando un misterioso Kaiju inteligente ataca una base de las Fuerzas de Defensa, Kafka se enfrenta a una decisión crucial en una situación desesperada... Película recopilatoria que ofrece un resumen repleto de acción de la primera temporada y un nuevo episodio original, \"El día libre de Hoshina\".",
+    "año": 2025,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "animación",
+      "acción",
+      "ciencia ficción"
+    ],
+    "director": "Shigeyuki Miya",
+    "reparto": [
+      "Masaya Fukunishi",
+      "Wataru Katoh",
+      "Fairouz Ai",
+      "Tessyo Genda",
+      "Kengo Kawanishi"
+    ],
+    "calificacion": 7.9,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T01:56:55.340559",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/22fmgk9k6oga?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "kaiju-no-8-mision-de-reconocimiento-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Kantara 2",
+    "poster": "https://image.tmdb.org/t/p/w500/ehQPboTPaIMkMUOoNOh8e7pZ5Rp.jpg",
+    "descripcion": "Durante el reinado de los Kadamba, el rey Vijayendra, gobernante de la ficticia tierra feudataria de Bangra, encuentra su destino final mientras se aventura en el místico bosque de Kantara. Testigo de ello, su hijo Rajashekara sella las fronteras de su reino. Más tarde, el príncipe Kulashekara las reabre mediante una brutal masacre. El protagonista, Berme, en busca de prosperidad, cruza la brecha y enciende un conflicto de fe, poder y destino entre el Reino y la Naturaleza.",
+    "categoria": [
+      "accion",
+      "drama",
+      "aventura",
+      "ciencia-ficcion",
+      "romance",
+      "musical"
+    ],
+    "duracion": "165 min",
+    "director": "Rishab Shetty",
+    "reparto": [
+      "Rishab Shetty",
+      "Rukmini Vasanth",
+      "Jayaram",
+      "Gulshan Devaiah",
+      "Ramitha Shailendra"
+    ],
+    "favorito": false,
+    "genero": [
+      "acción",
+      "drama",
+      "fantasía"
+    ],
+    "idioma": "KN",
+    "calidad": "1080p",
+    "addedDate": "2025-12-07T15:45:53.040807",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 7.0,
+    "votos": 40,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/auto-1083637",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "kantara-2-2025",
+    "descargas": [
+      "https://dintezuvio.com/embed/auto-1083637"
+    ]
+  },
+  {
+    "id": "karate-kid-leyendas-2025",
+    "tipo": "pelicula",
+    "titulo": "Karate Kid: Leyendas",
+    "poster": "https://ww4.pelisplushd.to/poster/karate-kid-leyendas-thumb.jpg",
+    "descripcion": "Tras una tragedia familiar, el prodigio del kung fu Li Fong se ve obligado a abandonar su hogar en Pekín y trasladarse a Nueva York con su madre. Li lucha por dejar atrás su pasado mientras intenta encajar con sus nuevos compañeros de clase y, aunque no quiere pelear, los problemas parecen encontrarle en todas partes. Cuando un nuevo amigo necesita su ayuda, Li se presenta a una competición de kárate, pero sus habilidades no son suficientes. El profesor de kung fu de Li, el Sr. Han, pide ayuda al Karate Kid original, Daniel LaRusso, y Li aprende una nueva forma de luchar, fusionando sus dos estilos en uno solo para el enfrentamiento definitivo de artes marciales.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "Accion",
+      "Aventura",
+      "Drama"
+    ],
+    "calificacion": 8.1,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T20:04:33.234843",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/blrp509qxyqw"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/blrp509qxyqw"
+      }
+    ]
+  },
+  {
+    "id": "karol-g-manana-fue-muy-bonito-2025",
+    "tipo": "pelicula",
+    "titulo": "Karol G: Mañana fue muy bonito",
+    "poster": "https://ww4.pelisplushd.to/poster/karol-g-manana-fue-muy-bonito-thumb.jpg",
+    "descripcion": "Karol G revela los secretos de su carrera en este repaso íntimo a su vida, mientras se enfrenta a una gira por estadios, el amor, la salud y la búsqueda de la grandeza.",
+    "categoria": [
+      "documental"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental",
+      "musica"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "plataforma": "netflix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/u1e8ai2angfv"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/u1e8ai2angfv"
+      }
+    ]
+  },
+  {
+    "id": "katak-la-pequena-ballena-2023",
+    "tipo": "pelicula",
+    "titulo": "Katak la pequeña ballena",
+    "poster": "https://ww4.pelisplushd.to/poster/katak-la-pequena-ballena-thumb.jpg",
+    "descripcion": "Mientras que todos sus compañeros se han vuelto blancos, Katak sigue siendo pequeño y gris. Para demostrar que ha crecido y cumplir el último deseo de su adorada abuela, Katak emprende un peligroso viaje al Gran Norte.",
+    "categoria": [
+      "anime"
+    ],
+    "año": 2023,
+    "duracion": "1h 22m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura"
+    ],
+    "calificacion": 6.1,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://guxhag.com/e/7e0o7kdfrh93"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://guxhag.com/e/7e0o7kdfrh93"
+      }
+    ]
+  },
+  {
+    "id": "kayara-la-princesa-inca-2025",
+    "tipo": "pelicula",
+    "titulo": "Kayara: La Princesa Inca",
+    "poster": "https://ww4.pelisplushd.to/poster/kayara-la-princesa-inca-thumb.jpg",
+    "descripcion": "Una joven inca sueña con unirse al grupo de mensajeros Chasqui, compuesto exclusivamente por hombres. Desafía las tradiciones y las normas de género para perseguir su ambición contra viento y marea.",
+    "categoria": [
+      "aventura"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura"
+    ],
+    "calificacion": 7.7,
+    "votos": 2000,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://voe.sx/e/dnfvjy6or2vp"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://voe.sx/e/dnfvjy6or2vp"
+      }
+    ]
+  },
+  {
+    "id": "keylor-navas-hombre-de-fe-2017-2017",
+    "tipo": "pelicula",
+    "titulo": "Keylor Navas: Hombre de Fe (2017)",
+    "poster": "https://ww4.pelisplushd.to/poster/keylor-navas-hombre-de-fe-thumb.jpg",
+    "descripcion": "Un niño de una zona rural de Costa Rica llamada Pérez Zeledón, encuentra en el fútbol su pasión y una vía para una vida mejor. En su camino por alcanzar sus metas deportivas y profesionales, y ayudar a su familia, se enfrentará a una ciudad desconocida y a retos que pondrán a prueba su carácter, pero que le harán descubrir la verdadera fortaleza que hay detrás de sus sueños..",
+    "categoria": [
+      "todos"
+    ],
+    "año": 2017,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dood.to/e/1l3nugibr843"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dood.to/e/1l3nugibr843"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Kill Bill. Volume 1",
+    "poster": "https://image.tmdb.org/t/p/w300/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
+    "descripcion": "En la violenta encrucijada entre el crimen organizado y la venganza personal, una antigua asesina profesional despierta de un letargo de cinco años con un implacable propósito. La Novia, como era conocida en los círculos mortales de la organización Escuadrón Asesino Víbora Mortal, había creído encontrar la redención al abandonar su sangriento oficio. Sin embargo, durante la íntima ceremonia de su boda en una capilla de El Paso, su pasado la alcanzó con brutal precisión. Bill, su anterior mentor y amante, lideró personalmente la masacre que dejó a todos los presentes sin vida, incluyendo al prometido que representaba su nueva vida. Tras sobrevivir milagrosamente a múltiples heridas de bala y un profundo coma, la protagonista resurge transformada en un vendaval de retaliación metódica. Su despertar en un hospital mexicano revela no solo fragmentos de metal alojados en su cráneo, sino también la desaparición del hijo que llevaba en su vientre durante el ataque. Esta revelación intensifica su determinación, iniciando una travesía transcontinental que la lleva desde Tokio hasta Los Ángeles. Su misión se centra en eliminar sistemáticamente a cada miembro del escuadrón que participó en aquel día fatídico, comenzando por Vernita Green y O-Ren Ishii. La búsqueda de venganza contra Bill se convierte en una obsesión que trasciende el dolor físico y las limitaciones humanas. Cada enfrentamiento despliega coreografías de violencia estilizada donde katanas relucen contra armas de fuego en duelos coreografiados con precisión mortal. La narrativa explora los límites de la resiliencia femenina frente a la traición, mientras la protagonista descubre que la verdadera batalla no solo yace en derrotar a sus antiguos compañeros, sino en confrontar los fantasmas emocionales que la atan a su pasado criminal..Kill Bill la venganza: Volumen I Ubiĭ Bil 杀死比尔：第一卷 Kill Bill. Volume 1 Kill Bill 1 Kiru Biru Nuzudyti Bila 1 Nogalinat Bilu: 1.dala Kill Bill: Volumul 1 Ubiti Bila prvi deo Ubit' Billa Убить Билла Bill'i Öldürmek: Bölüm 1 Vbyty Billa: Filʹm 1 Kill Bill Kill Bill 01 Kill Bill Vol 1 Kill Bill Volume1 Kill Bill: Volume 1",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "crimen"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-30T16:48:18.523708",
+    "tamaño": "N/A",
+    "año": 2003,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/bum616qjd24s",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/bum616qjd24s"
+      }
+    ],
+    "id": "kill-bill-volume-1-2003"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Kill Bill. Volume 2",
+    "poster": "https://image.tmdb.org/t/p/w300/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg",
+    "descripcion": "En la segunda entrega de esta épica búsqueda de venganza, la antigua asesina conocida como Mamba Negra continúa su implacable cruzada personal. Tras haber eliminado ya a varios objetivos de su lista, ahora se enfrenta a sus desafíos más complejos: la maestra artesana de armas letales Budd y la formidable instructora de artes marciales Pai Mei, cuya tutela marcó un antes y después en su formación como combatiente. El camino hacia el enfrentamiento definitivo revela progresivamente los secretos mejor guardados sobre su entrenamiento y las complejas relaciones que mantuvo con la organización criminal. El desenlace inevitable con Bill, el misterioso líder de la escuadra mortal y arquitecto de la masacre nupcial, constituye el núcleo emocional de esta narrativa. A través de recuerdos fragmentados que emergen durante su viaje, comprendemos la profundidad de su traición y la naturaleza simbiótica de su conexión. La búsqueda de venganza se transforma gradualmente en un viaje de autodescubrimiento donde los límites entre justicia y obsesión se difuminan peligrosamente. El desenlace final trasciende el mero conflicto físico para convertirse en un duelo psicológico donde cada revelación modifica el equilibrio de poder entre estos dos titanes del mundo criminal, llevando la historia hacia una resolución que redefine el significado de la redención a través de la confrontación..Kill Bill la venganza: Volumen II Ubiĭ Bil 2 Kill Bill: Vol. 2 Kill Bill. Volume 2 Kill Bill 2 Kill Bill - Volume 2 킬 빌 2 킬 빌 2부 Ubiti Bila drugi deo Ubit' Billa 2 Убить Билла 2 Bill'i Öldürmek: Bölüm 2 Vbyty Billa: Filʹm 2 Kill Bill - Vol. 2 Kill Bill 02 Kill Bill Vol 2 Kill Bill Volume2",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "crimen",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-30T16:46:29.604928",
+    "tamaño": "N/A",
+    "año": 2004,
+    "calificacion": 7.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/gbbepjluy08j",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/gbbepjluy08j"
+      }
+    ],
+    "id": "kill-bill-volume-2-2004"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Kill Bill: The Whole Bloody Affair",
+    "poster": "https://image.tmdb.org/t/p/w300/zomX76Pf3nUaTzRBk5BveLk1QPu.jpg",
+    "descripcion": "Una mujer yace inconsciente en el suelo de una capilla de El Paso, víctima de un brutal ataque que acabó con todos los invitados de su boda y con su futuro. Cuando despierta del coma años después, descubre que el niño que esperaba ya no está y que su vida ha sido arrebatada. Conocida solo como La Novia, emprende una búsqueda metódica y sangrienta para eliminar uno a uno a los miembros de la Escuadrón Asesina Víbora Mortal, el grupo de élite al que pertenecía. Su antiguo amante y líder, Bill, encabeza la lista, pero antes deberá enfrentarse a sus antiguos compañeros: Vernita Green, O-Ren Ishii, Budd y Elle Driver. El viaje la lleva desde los suburbios de Estados Unidos hasta los bulliciosos distritos de Tokio y los áridos paisajes de México, en una búsqueda implacable que mezcla artes marciales, el manejo de la katana y técnicas de combate letales. Esta épica historia de venganza cinematográfica explora los límites de la obsesión y la traición, donde cada enfrentamiento es un capítulo más en su sangriento camino hacia el enfrentamiento final. La narrativa se construye como un homenaje a géneros clásicos, fusionando elementos de samuráis con estética western, mientras la protagonista demuestra una determinación inquebrantable en su cruzada personal. El desenlace promete resolver el conflicto central que desencadenó la masacre, revelando verdades ocultas y consecuencias imprevistas en este thriller de acción y crimen..킬 빌: 더 홀 블러디 어페어",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "crimen"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T16:50:02.029414",
+    "tamaño": "N/A",
+    "año": 2011,
+    "calificacion": 7.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/9x98ovm1q859",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/9x98ovm1q859"
+      }
+    ],
+    "id": "kill-bill-the-whole-bloody-affair-2011"
+  },
+  {
+    "id": "kung-fu-panda-4-2024",
+    "tipo": "pelicula",
+    "titulo": "Kung Fu Panda 4",
+    "poster": "https://ww5.pelisplushd.to/poster/kung-fu-panda-4-thumb.jpg",
+    "descripcion": "Po se está preparando para convertirse en el líder espiritual de su Valle de la Paz, pero también necesita a alguien que ocupe su lugar como Guerrero Dragón. Como tal, entrenará a un nuevo practicante de kung fu para el lugar y se encontrará con un villano llamado Camaleón que evoca villanos del pasado",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T15:16:19.226361",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 9.1,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/wfa3hwqzfqqu"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/wfa3hwqzfqqu"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "La casa de muñecas de Gabby: La película",
+    "poster": "https://image.tmdb.org/t/p/w300/ruAIbycacQIIXeTf4xh1r1NjvJa.jpg",
+    "descripcion": "Gabby decide irse de viaje con su abuela Gigi rumbo a la maravillosa ciudad de Cat Francisco. Pero cuando la casa de muñecas de Gabby, su posesión más preciada, acaba en manos de Vera, una excéntrica dama obsesionada con los gatos, Gabby emprende una aventura por el mundo real para volver a reunir a sus mininos y salvar la casa de muñecas antes de que sea demasiado tarde..A Casa Mágica da Gabby: O Filme",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura",
+      "comedia",
+      "familia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-01T18:24:29.713442",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 8.99,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/u2c7s8evpziz",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/u2c7s8evpziz"
+      }
+    ],
+    "id": "la-casa-de-munecas-de-gabby-la-pelicula-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "La conductora",
+    "poster": "https://image.tmdb.org/t/p/w500/nDNvZhJeMSwi8UH8jbpZvLMUfjp.jpg",
+    "descripcion": "La conductora, un irreverente thriller de ritmo frenético, cuenta la historia de una mujer que, en su adolescencia, fue conductora de huidas en coche y que en el presente se ve obligada a revivir su desagradable pasado cuando un antiguo jefe le brinda la oportunidad de salvar la vida de su exnovio, quien nunca ha sido de fiar. La conductora está escrita y dirigida por Shawn Simmons y protagonizada por Samara Weaving en el papel principal de Edie, también conocida como Eenie Meanie.",
+    "año": 2025,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "suspense",
+      "acción",
+      "comedia"
+    ],
+    "director": "Shawn Simmons",
+    "reparto": [
+      "Samara Weaving",
+      "Karl Glusman",
+      "Andy Garcia",
+      "Steve Zahn",
+      "Jermaine Fowler"
+    ],
+    "calificacion": 6.359,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:26:08.120768",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/ifonkfk84s8h?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "la-conductora-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "La Cosecha",
+    "poster": "https://ww5.pelisplushd.to/poster/la-cosecha-936946-thumb.jpg",
+    "descripcion": "Durante siete alucinantes días, un pueblo sin nombre, en un tiempo y lugar indefinidos, desaparece. Walter Thirsk, un citadino devenido granjero, y Charles Kent, un desorientado señor feudal, son amigos de la infancia a punto de enfrentar una invasión del mundo exterior: el trauma de la modernidad.",
+    "categoria": [
+      "todo-lo-nuevo-2025"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama"
+    ],
+    "idioma": "ingles",
+    "calidad": "1080p",
+    "addedDate": "2025-12-05T22:16:00.558558",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://streamwish.to/e/m7qoecbj0x5z",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "la-cosecha-2025"
+  },
+  {
+    "id": "la-era-de-hielo-2002",
+    "tipo": "pelicula",
+    "titulo": "La era de hielo",
+    "poster": "https://ww5.pelisplushd.to/poster/la-era-de-hielo-thumb.jpg",
+    "descripcion": "La historia gira en torno a unos héroes bajo cero: un mamut lanudo, un tigre de dientes de sable, un perezoso y una combinación prehistórica de ardilla y rata, conocida como Scrat.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T15:03:08.143460",
+    "tamaño": "N/A",
+    "año": 2002,
+    "calificacion": 7.3,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/sd53rw2wy2vh"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/sd53rw2wy2vh"
+      }
+    ]
+  },
+  {
+    "id": "la-era-de-hielo-2-2006",
+    "tipo": "pelicula",
+    "titulo": "La era de hielo 2",
+    "poster": "https://ww5.pelisplushd.to/poster/la-era-de-hielo-2-thumb.jpg",
+    "descripcion": "Después de los hechos de la primera película, Manny, Sid, Diego y el resto de los animales tendran que dejar su hogar para evitar una inundación provocado por Scrat, quien busca poder agarrar su bellota. En el camino, Manny se encuentra que con Ellie, una mamut que se confunde con ser una mamut como una zarigüeya.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "Animacion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T14:57:01.182008",
+    "tamaño": "N/A",
+    "año": 2006,
+    "calificacion": 8.1,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/te50gvgltjk4"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/te50gvgltjk4"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "La guerra de los mundos",
+    "poster": "https://image.tmdb.org/t/p/w300/yvirUYrva23IudARHn3mMGVxWqM.jpg",
+    "descripcion": "Will Radford, un destacado analista de ciberseguridad, pasa sus días rastreando posibles amenazas a la seguridad nacional a través de un programa de vigilancia masiva. Un ataque de una entidad desconocida le lleva a cuestionarse si el gobierno le está ocultando algo a él... y al resto del mundo..War of the Worlds: Revival",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "ciencia",
+      "ficcion",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-01T15:42:47.511701",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/qe55jncm9j2x",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/qe55jncm9j2x"
+      }
+    ],
+    "id": "la-guerra-de-los-mundos-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "La hermanastra fea",
+    "poster": "https://image.tmdb.org/t/p/w300/4KjMMLHqKcAxNRTd5mhMDtNXW1P.jpg",
+    "descripcion": "Elvira lucha contra su hermosa hermanastra en un reino donde la belleza reina suprema. Ella recurre a medidas extremas para cautivar al príncipe, en medio de una despiadada competición por la perfección física..Ha'Akhot Ha'Mekho'eret Çirkin Ögey Bacı",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [],
+    "calidad": "HD",
+    "addedDate": "2025-11-22T23:03:40.192100",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.9,
+    "votos": 80000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/a9ftn50q6ywe"
+      }
+    ],
+    "id": "la-hermanastra-fea-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/a9ftn50q6ywe"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "la lego pelicula",
+    "poster": "https://image.tmdb.org/t/p/w300/lbctonEnewCYZ4FYoTZhs8cidAl.jpg",
+    "descripcion": "En el vibrante universo de construcción LEGO, Emmet transcurre sus días como un obrero meticuloso que sigue al pie de la letra los manuales de ensamblaje. Su existencia ordenada da un vuelco inesperado cuando es identificado erróneamente como el Maestro Constructor profetizado, una figura legendaria con habilidades extraordinarias para crear sin instrucciones. Esta confusión lo arrastra al epicentro de una cruzada épica contra el siniestro Lord Business, cuyo plan maquiavélico amenaza con paralizar para siempre la creatividad en todos los reinos de bloques. La búsqueda de la pieza de resistencia se convierte en una carrera contra el tiempo, donde Emmet deberá descubrir si posee el potencial que todos le atribuyen. Acompañado por un ecléctico grupo de aliados, incluyendo la astuta Wyldstyle y el impredecible Batman en formato LEGO, el improbable héroe explorará mundos tan diversos como el Salvaje Oeste y los mares piratas. Mientras Superman protege la metrópolis de Bricksburg, nuestro protagonista deberá superar desafíos de construcción que exigen romper con todas las normas establecidas. La batalla final no solo decidirá el destino de su ciudad, sino que planteará una reflexión sobre la esencia misma de la originalidad versus la uniformidad. Esta aventura cinematográfica de animación demuestra que hasta el personaje más ordinario puede descubrir habilidades extraordinarias cuando se enfrenta a circunstancias excepcionales, desafiando las convenciones preestablecidas en un universo donde la imaginación es el recurso más valioso..Uma Aventura LEGO LEGO Movie Le film LEGO The LEGO Movie 1 Lego príbeh LEGO film La Grande Aventure Lego Lego Seret Lego לגו Lego - Il film Lego filmas La Gran Aventura Lego Lego La gran aventura De Lego Film Marea aventura Lego Lego: The Piece of Resistance",
+    "categoria": [
+      "anime"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura",
+      "comedia",
+      "fantasia"
+    ],
+    "calidad": "1080p",
+    "addedDate": "2025-11-22T23:54:30.959703",
+    "tamaño": "N/A",
+    "año": 2014,
+    "calificacion": 8.9,
+    "votos": 90000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/4renbzhxstnc"
+      }
+    ],
+    "id": "la-lego-pelicula-2014",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/4renbzhxstnc"
+      }
+    ]
+  },
+  {
+    "id": "la-maldicion-de-chucky-2013",
+    "tipo": "pelicula",
+    "titulo": "La maldición de Chucky",
+    "poster": "https://ww4.pelisplushd.to/poster/la-maldicion-de-chucky-thumb.jpg",
+    "descripcion": "Tras la misteriosa muerte de su madre, Nica empieza a sospechar que la muñeca parlante y pelirroja con la que ha estado jugando su sobrina visitante puede ser la clave del reciente derramamiento de sangre y del caos.",
+    "categoria": [
+      "terror"
+    ],
+    "año": 2013,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "calificacion": 8.7,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/827db8wg8j93"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/827db8wg8j93"
+      }
+    ]
+  },
+  {
+    "id": "la-maldicion-del-collar-2024",
+    "tipo": "pelicula",
+    "titulo": "La maldición del collar",
+    "poster": "https://ww4.pelisplushd.to/poster/la-maldicion-del-collar-thumb.jpg",
+    "descripcion": "La familia Davis atraviesa tiempos difíciles en la década de 1960. Laura Davis se separa de su marido Frank debido a un temperamento impredecible fomentado por el alcohol. Cuando vuelve a trabajar como enfermera, sus hijas, Ellen, de 11 años, y Judy, de 16, se enfrentan a los cambios en la dinámica familiar. La trama se complica cuando Frank intenta recuperar a Laura con un hermoso collar antiguo, que resulta ser un conducto para el alma atormentada de un niño malvado de hace mucho tiempo, poniendo a Laura y a sus hijas en grave peligro.",
+    "categoria": [
+      "terror"
+    ],
+    "año": 2024,
+    "duracion": "1h 45m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "calificacion": 0.0,
+    "votos": 4000,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://streamwish.to/e/z2dqni5yzhsj"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/z2dqni5yzhsj"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "La mercancía más preciosa",
+    "poster": "https://image.tmdb.org/t/p/w500/ngUCHvHHhhrGU8gh6whb3fMtHYj.jpg",
+    "descripcion": "Un leñador y su esposa viven en un gran bosque. El frío, el hambre, la pobreza y la guerra que les rodea hacen que su vida sea muy dura. Un día, la mujer del leñador rescata a un bebé, una niña arrojada desde uno de los muchos trenes que atraviesan constantemente el bosque. Este bebé transformará sus vidas y la de todos aquellos que se crucen en su camino. Su historia revelará lo peor y lo mejor del corazón de los hombres.",
+    "año": 2024,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "animación",
+      "drama",
+      "historia"
+    ],
+    "director": "Michel Hazanavicius",
+    "reparto": [
+      "Dominique Blanc",
+      "Grégory Gadebois",
+      "Denis Podalydès",
+      "Jean-Louis Trintignant",
+      "Serge Hazanavicius"
+    ],
+    "calificacion": 7.6,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:04:07.069057",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/fot8f33xk4in?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "la-mercancia-mas-preciosa-2024"
+  },
+  {
+    "id": "la-mujer-de-la-fila-2025",
+    "tipo": "pelicula",
+    "titulo": "La mujer de la fila",
+    "poster": "https://ww4.pelisplushd.to/poster/la-mujer-de-la-fila-thumb.jpg",
+    "descripcion": "Andrea, una mujer de clase media, está atrapada en una pesadilla. Su hijo, Gustavo, es encarcelado injustamente. Para visitarlo tiene que hacer la fila afuera del penal, al igual que las demás mujeres, pero ella se siente muy diferente. Comienza a darse cuenta del difícil mundo que padecen los familiares de detenidos y, poco a poco, se va acercando a ellos, que la ayudan a enfrentar y sostenerse durante el tiempo que le lleva sacar a su hijo de la cárcel. Pero un giro inesperado obliga a Andrea a enfrentar el límite de su propio amor y fortaleza.",
+    "categoria": [
+      "accion"
+    ],
+    "año": 2025,
+    "genero": [
+      "drama"
+    ],
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/noe05mfxqx9b"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/noe05mfxqx9b"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "La mujer del camarote 10",
+    "poster": "https://image.tmdb.org/t/p/w300/lUJIBUjEab71fJ8U9gs0NouUJ18.jpg",
+    "descripcion": "A bordo de un lujoso yate por motivos de trabajo, una periodista ve como alguien cae al mar. Pero cuando nadie la cree, decide arriesgar su propia vida para descubrir la verdad..10号舱房的女人",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "crimen",
+      "misterio",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-25T22:09:03.530014",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.7,
+    "votos": 70000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/0cug0zbox4tf",
+        "calidad": "HD"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/0cug0zbox4tf"
+      }
+    ],
+    "id": "la-mujer-del-camarote-10-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "La novia",
+    "poster": "https://image.tmdb.org/t/p/w300/wF3YYWFgaO4Of2kwrfui9VIZH31.jpg",
+    "descripcion": "",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "misterio"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-04T20:58:57.166541",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 7.9,
+    "votos": 8999,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/5695944lfcwo"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/5gx81jden0qu"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/loq8r54cu34k"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/twbyyb3mdr36"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/zlvjsfzimpz5"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/17emfo5vk7sr"
+          }
+        ]
+      }
+    ],
+    "id": "la-novia-2025"
+  },
+  {
+    "id": "la-novia-de-chucky-1998",
+    "tipo": "pelicula",
+    "titulo": "La novia de Chucky",
+    "poster": "https://ww4.pelisplushd.to/poster/la-novia-de-chucky-thumb.jpg",
+    "descripcion": "Chucky, el muñeco poseído por un asesino en serie, descubre la pareja perfecta para matar y revivir en el cuerpo de otro muñeco.",
+    "categoria": [
+      "terror"
+    ],
+    "año": 1998,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "terror"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/7k3wuxm576ll"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/7k3wuxm576ll"
+      }
+    ]
+  },
+  {
+    "id": "la-ola-2025",
+    "tipo": "pelicula",
+    "titulo": "La Ola",
+    "poster": "https://image.tmdb.org/t/p/w300/srkHoeXw4SOzpODPhn3UX6BgdfV.jpg",
+    "descripcion": "",
+    "categoria": [
+      "todo lo nuevo 2025"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "musica",
+      "drama"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-21T14:23:55.147454",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8000.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/jy6l9meibgrm"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/jy6l9meibgrm"
+      }
+    ]
+  },
+  {
+    "id": "la-patrulla-canina-la-pelicula-2021",
+    "tipo": "pelicula",
+    "titulo": "La Patrulla Canina: La película",
+    "poster": "https://ww5.pelisplushd.to/poster/paw-patrol-la-pelicula-thumb.jpg",
+    "descripcion": "Ryder y los cachorros son llamados a Ciudad Aventura para evitar que el alcalde Humdinger convierta la bulliciosa metrópolis en un estado de caos.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "familia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-16T02:57:18.971596",
+    "tamaño": "N/A",
+    "año": 2021,
+    "calificacion": 7.1,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://vidhidepro.com/v/2zymrgr5eugm"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://vidhidepro.com/v/2zymrgr5eugm"
+      }
+    ]
+  },
+  {
+    "id": "la-tumba-del-rey-maldito-2023",
+    "tipo": "pelicula",
+    "titulo": "La Tumba del Rey Maldito",
+    "poster": "https://ww4.pelisplushd.to/poster/la-tumba-del-rey-maldito-thumb.jpg",
+    "descripcion": "Tres aventureros logran escapar del temible Pozo Fantasma de Jingjue, pero no salen ilesos: se infectan con una enfermedad mortal. Para salvarse, deben encontrar la mítica Perla de Haochen, escondida en la tumba del Rey Xian, que es la única capaz de romper la maldición de los ojos fantasmales. En su épica búsqueda, se enfrentan a trampas mortales en las tumbas antiguas.",
+    "categoria": [
+      "aventura"
+    ],
+    "año": 2023,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura"
+    ],
+    "calificacion": 6.7,
+    "votos": 2000,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://streamwish.to/e/w4bush12ayrl"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "subtitulado",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/w4bush12ayrl"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "la vieja guardia 2",
+    "poster": "https://ww4.pelisplushd.to/poster/la-vieja-guardia-2-thumb.jpg",
+    "descripcion": "Andy y su equipo de guerreros inmortales luchan con un propósito renovado y se enfrentan a un nueva y poderosa amenaza que pone en riesgo su misión de proteger a la humanidad.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "accion fantasia"
+    ],
+    "favorito": false,
+    "genero": [],
+    "calificacion": 8.9,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T19:48:00.832951",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/r5hm0790m91q"
+      }
+    ],
+    "id": "la-vieja-guardia-2-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/r5hm0790m91q"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Las Aventuras de Bo Peep",
+    "poster": "https://ww4.pelisplushd.to/poster/toy-story-vida-de-lampara-thumb.jpg",
+    "descripcion": "preguntas sobre dónde estaba Bo desde la última vez que la vimos en Toy Story 2. Cortometraje estrenado en Disney+",
+    "categoria": [
+      "anime"
+    ],
+    "año": 2020,
+    "duracion": "11 06 m",
+    "director": "0",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "ciencia ficcion"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/wt1ivyt9e6vt"
+      }
+    ],
+    "esta_roto": true,
+    "id": "toy-story-vida-de-lampara-2020",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/wt1ivyt9e6vt"
+      }
+    ]
+  },
+  {
+    "id": "las-aventuras-de-dog-man-2025",
+    "tipo": "pelicula",
+    "titulo": "Las aventuras de Dog Man",
+    "poster": "https://ww4.pelisplushd.to/poster/las-aventuras-de-dog-man-thumb.jpg",
+    "descripcion": "Cuando un fiel perro policía y su dueño humano se lesionan juntos en el trabajo, una cirugía descabellada pero que salva vidas los fusiona a los dos y nace Dog Man. El Hombre Perro ha jurado proteger y servir, y buscar, sentarse y darse la vuelta. A medida que Dog Man acepta su nueva identidad y se esfuerza por impresionar a su Jefe, debe detener los planes bastante malvados del supervillano felino Petey the Cat.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "familia"
+    ],
+    "calificacion": 8.1,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T20:40:47.781506",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/ng71pml74clu"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/ng71pml74clu"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Las guerreras k-pop",
+    "poster": "https://ww9.cuevana3.to/poster/las-guerreras-k-pop-thumb.jpg",
+    "descripcion": "Cuando no están llenando estadios, las superestrellas del k‑pop Rumi, Mira y Zoey usan sus superpoderes secretos para proteger a sus fans de amenazas sobrenaturales.",
+    "categoria": [
+      "anime"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      ":animación",
+      "acción",
+      "comedia",
+      "familia",
+      "fantasía",
+      "música"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-05T01:17:53.027949",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/z29kvn76xx9w",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/z29kvn76xx9w"
+      }
+    ],
+    "id": "las-guerreras-k-pop-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Las irresponsables",
+    "poster": "https://image.tmdb.org/t/p/w300/dhPhpZ2Hch3Bm2VcVHm6ZiUIHhc.jpg",
+    "descripcion": "Núria, Lila y Andrea se disponen a pasar un fin de semana juntas, fuera de la ciudad, en una casa inteligente, de lujo y llena de obras de arte que un amigo de Núria le ha dejado. Su grupo de WhatsApp arde repleto de buenas intenciones, pero la realidad es que a las tres les da mucha pereza…Todo cambia cuando una pregunta inocente las empuja a liberarse y a dejarse llevar por sus impulsos..",
+    "categoria": [
+      "todo-lo-nuevo-2025"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-06T01:03:11.984136",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 7.9,
+    "votos": 5600,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/z7al6hao5pq3",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/z7al6hao5pq3"
+      }
+    ],
+    "id": "las-irresponsables-2025"
+  },
+  {
+    "id": "las-nubes-2025",
+    "tipo": "pelicula",
+    "titulo": "Las Nubes",
+    "poster": "https://www.pelisplus.do/poster/las-nubes-thumb.jpg",
+    "descripcion": "Pablo Prieto, un hombre marcado por la violencia desde su infancia, se encuentra en una encrucijada cuando su pasado vuelve para perseguirlo. Después de salvar a un estudiante durante un asalto, se convierte en el líder de una banda de ladrones, solo para enfrentarse a la traición y al juicio de su antiguo protegido, ahora juez.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "suspenso"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T16:58:54.707852",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.1,
+    "votos": 690000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/fp85cgp0b6qj"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/fp85cgp0b6qj"
+      }
+    ]
+  },
+  {
+    "id": "las-ratas-una-historia-de-the-witcher-2025",
+    "tipo": "pelicula",
+    "titulo": "Las Ratas: Una historia de 'The Witcher'",
+    "poster": "https://image.tmdb.org/t/p/w300/7ML1ZEpWjR8IKEb2wpK3k4KMvhK.jpg",
+    "descripcion": "",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "fantasia",
+      "drama",
+      "aventura"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T16:58:45.825054",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/2l0ud37ixk4r"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/2l0ud37ixk4r"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Le Vourdalak",
+    "poster": "https://image.tmdb.org/t/p/w500/l6OhSVwmPLkt3yGzHe16m3AxPtX.jpg",
+    "descripcion": "Perdido en un bosque hostil, el marqués de Urfé, un noble emisario del rey de Francia, encuentra refugio en la casa de una extraña familia.",
+    "año": 2023,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "fantasía",
+      "terror",
+      "drama"
+    ],
+    "director": "Adrien Beau",
+    "reparto": [
+      "Ariane Labed",
+      "Kacey Mottet Klein",
+      "Grégoire Colin",
+      "Vassili Schneider",
+      "Claire Duburcq"
+    ],
+    "calificacion": 6.4,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:38:05.354108",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/d9drcx4y0g3z?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "le-vourdalak-2023"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Left-Handed Girl",
+    "poster": "https://image.tmdb.org/t/p/w500/xy1JERxBzMIEIlLt1mjKLTgrKLi.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama"
+    ],
+    "director": "Shih-Ching Tsou",
+    "reparto": [
+      "馬士媛",
+      "Janel Tsai",
+      "葉子綺",
+      "黃鐙輝",
+      "陳慕義"
+    ],
+    "calificacion": 7.6,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:36:52.825882",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/qgpce5mx6tcf?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "left-handed-girl-2025"
+  },
+  {
+    "id": "lefter-la-historia-de-un-maestro-del-futbol-2025",
+    "tipo": "pelicula",
+    "titulo": "Lefter: La historia de un maestro del fútbol",
+    "poster": "https://image.tmdb.org/t/p/w300/kPxiquXDXroiSJ6dmikbPISpIps.jpg",
+    "descripcion": "Un prodigio del fútbol salta a la fama y lucha contra los prejuicios y su conflicto interior en busca de la grandeza. Basada en la vida de Lefter, la leyenda turca..Lefter: The Story of the Ordinarius",
+    "categoria": [
+      "todo-lo-nuevo-2025"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "historia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-20T21:19:54.360509",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/w7uema14q3ar"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/w7uema14q3ar"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Lego DC Comics Super Heroes: The Flash",
+    "poster": "https://image.tmdb.org/t/p/w300/u27j3CiMEtNdDRleYwnruQ5Ktkm.jpg",
+    "descripcion": "En un giro del destino que desafía las leyes del tiempo, Barry Allen se encuentra atrapado en un ciclo temporal aparentemente infinito donde cada amanecer repite los mismos eventos del día anterior. Como Flash, el héroe más veloz de Ciudad Central, descubre que su capacidad para moverse a velocidades sobrehumanas no es suficiente para escapar de esta trampa temporal. Cada repetición del día trae consigo alteraciones impredecibles: en algunas realidades pierde su conexión con la Fuerza de Velocidad, en otras es expulsado de la Liga de la Justicia, y en los peores escenarios sus seres queridos desaparecen sin dejar rastro. Mientras el científico forense lucha por comprender los mecanismos detrás de este fenómeno, debe enfrentarse a versiones distorsionadas de sus aliados y enemigos. La ciudad que juró proteger se transforma ante sus ojos, presentando nuevos desafíos en cada iteración temporal. Flash pronto descubre que este bucle temporal no es un accidente natural, sino el resultado de una maquinación deliberada que amenaza con desestabilizar la realidad misma. La carrera contra el tiempo se convierte en la más importante de su vida, donde deberá descifrar pistas que se reconfiguran constantemente y encontrar la clave para restaurar el flujo natural del tiempo. En esta batalla donde cada decisión importa, Flash deberá usar no solo su velocidad, sino toda su inteligencia y determinación para prevenir que el mundo quede atrapado para siempre en este ciclo sin fin, demostrando que incluso el hombre más rápido necesita aprender cuándo detenerse y observar con atención los patrones que se esconden tras la apariencia del caos..Lego DC Comics Super Héros : The Flash Lego DC Comics Super Héroes: Flash LEGO DC Comics Super Heroes - The Flash LEGO DC Super Heroes: The Flash LEGO DCComics Super Heroes - The Flash",
+    "categoria": [
+      "anime"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-22T23:36:01.075094",
+    "tamaño": "N/A",
+    "año": 2018,
+    "calificacion": 8.9,
+    "votos": 80000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/3g8rjvmnrpwg"
+      }
+    ],
+    "id": "lego-dc-comics-super-heroes-the-flash-2018",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/3g8rjvmnrpwg"
+      }
+    ]
+  },
+  {
+    "id": "lego-disney-princess-villanos-unidos-2025",
+    "tipo": "pelicula",
+    "titulo": "Lego Disney Princess: Villanos Unidos",
+    "poster": "https://ww4.pelisplushd.to/poster/lego-disney-princess-villanos-unidos-thumb.jpg",
+    "descripcion": "Después de que Ariel, Moana, Tiana, Rapunzel y Blancanieves frustraran el plan de Gastón de apoderarse de todos sus reinos, éste llama a Úrsula, Jafar y la Reina Malvada para que le ayuden a acabar con las Princesas de una vez por todas. Las Princesas se enteran del plan de Gastón y reclutan a algunas de sus amigas con la ayuda del Espejo Mágico: Aurora, Bella y Cenicienta. Juntas, las Princesas se aliarán para un enfrentamiento definitivo entre el bien y el mal.",
+    "categoria": [
+      "anime"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia"
+    ],
+    "calificacion": 8.7,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "plataforma": "disney",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/6d1736120fpx"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/6d1736120fpx"
+      }
+    ]
+  },
+  {
+    "id": "lego-marvel-avengers-mision-demolicion-2024",
+    "tipo": "pelicula",
+    "titulo": "LEGO Marvel Avengers: Misión Demolición",
+    "poster": "https://ww4.pelisplushd.to/poster/lego-marvel-avengers-mision-demolicion-thumb.jpg",
+    "descripcion": "Un joven aspirante a héroe y fan de los superhéroes desata sin querer a un nuevo y poderoso villano que quiere librar al mundo de los Vengadores.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2024,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia"
+    ],
+    "calificacion": 6.8,
+    "votos": 20000,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T18:44:50.765747",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/ag89b5d2blkc"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/ag89b5d2blkc"
+      }
+    ]
+  },
+  {
+    "id": "lego-marvel-avengers-strange-tails-2025",
+    "tipo": "serie",
+    "titulo": "LEGO Marvel Avengers: Strange Tails",
+    "poster": "https://www.pelisplus.do/poster/lego-marvel-avengers-strange-tails-thumb.jpg",
+    "descripcion": "Ojo de Halcón y Los Vengadores han hecho que salvar el mundo parezca fácil. Pero ahora se enfrentan a su amenaza más salvaje: las redes sociales. Para salvar el mundo, un nuevo equipo debe ser reclutado para ayudar a nuestros héroes a enfrentarse a un influencer empeñado en la destrucción cataclísmica.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "familia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T22:45:11.689452",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/h3hkeygz8pf9"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/e3wpk2ifskpr"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lego-ninjago-la-pelicula-2017",
+    "tipo": "pelicula",
+    "titulo": "Lego Ninjago: La película",
+    "poster": "https://ww4.pelisplushd.to/poster/lego-ninjago-la-pelicula-thumb.jpg",
+    "descripcion": "En la película, la batalla por Ninjago City llama la atención del joven maestro constructor Lloyd (Ninja Verde) y de sus amigos, todos ellos ninjas secretos. Dirigidos por el maestro Wu deberán derrotar al malvado guerrero Garmadon, un tipo tremedamente malvado que a su vez es padre de Lloyd. Padre contra hijo e hijo contra padre, este épico enfrentamiento probará a un equipo de ninjas indisciplinados que deberán aprender a controlar sus egos y trabajar unidos si quieren acabar victoriosos.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2017,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://streamwish.to/e/jj78egc7195g"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/jj78egc7195g"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Lego Scooby-Doo! Blowout Beach Bash",
+    "poster": "https://image.tmdb.org/t/p/w300/oryn9TbZE1vmlFkcFLYfZkx8CyB.jpg",
+    "descripcion": "Cuando la Mystery Machine transporta a los famosos investigadores del misterio hacia las soleadas costas de Blowout Beach, anticipan días repletos de sol, arena y celebraciones. Sin embargo, la atmósfera festiva se ve abruptamente interrumpida por la aparición de unas apariciones espectrales que se autodenominan Los Piratas Fantasmas. Estas entidades sobrenaturales, armadas con espadas etéreas y portando un aura de leyenda marítima, comienzan a sembrar el caos en el paraíso costero, transformando la diversión en un escenario de confusión y sustos. La prometedora fiesta playera que todos esperaban disfrutar se convierte de inmediato en el escenario del más reciente y desconcertante caso para el experimentado equipo. Fred diseña elaboradas trampas utilizando elementos playeros, mientras Daphne documenta cada pista con su cámara, capturando evidencias entre castillos de arena y redes de pesca abandonadas. Velma, con su aguda perspicacia, analiza meticulosamente los patrones de aparición de estos espectros navales, buscando inconsistencias en su comportamiento sobrenatural. Mientras tanto, Shaggy y Scooby-Doo enfrentan un dilema constante entre seguir el rastro de deliciosos aperitivos playeros y escapar de las embestidas fantasmales, resultando en situaciones cómicas de persecuciones a través de quioscos de comida y embarcaderos. La tensión aumenta cuando descubren que los piratas parecen buscar algo específico en la costa, conectando las apariciones con una antigua historia local sobre un tesoro perdido. A medida que profundizan en este enigma costero, la pandilla debe descifrar si se enfrentan a auténticas apariciones del más allá o a criminales disfrazados que aprovechan las leyendas locales para sus propios fines. Cada descubrimiento los lleva más cerca de desentrañar la conexión entre las festividades modernas y los eventos históricos que dieron origen al mito pirata. Con el reloj en contra y la fiesta en peligro de cancelación permanente, deberán emplear todo su ingenio colectivo para restaurar la paz en.LEGO Scooby-Doo Mega fête à la plage de rêve Lego Scooby-Doo - Tajték-parti bingóparti Scooby-Doo! Grande festa in spiaggia LEGO Scooby-Doo Reventón en la playa Lego Scooby-Doo Intento de reventon en playa",
+    "categoria": [
+      "anime"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia",
+      "misterio"
+    ],
+    "calidad": "1080p",
+    "addedDate": "2025-11-22T23:51:37.776811",
+    "tamaño": "N/A",
+    "año": 2017,
+    "calificacion": 9.9,
+    "votos": 9000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/7tlmo51z0kru"
+      }
+    ],
+    "id": "lego-scooby-doo-blowout-beach-bash-2017",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/7tlmo51z0kru"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "LEGO Star Wars: La reconstrucción de la galaxia - Piezas del pasado",
+    "poster": "https://ww9.cuevana3.to/poster/lego-star-wars-la-reconstruccion-de-la-galaxia-piezas-del-pasado-thumb.jpg",
+    "descripcion": "Sig, Jedi Bob, Yesi, Servo, Dev y muchos más regresan para enfrentarse a la creciente amenaza de Solitus, un nuevo y poderoso enemigo huido de la Cárcel de la Fuerza, una dimensión donde se encuentran las piezas de LEGO sobrantes de las galaxias reconstruidas.",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion",
+      "aventura",
+      "ciencia",
+      "comedia",
+      "familia",
+      "fantasia",
+      "ficcion"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-02T00:29:19.813463",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 7.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/05pcwwn4usao"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/btfvrjaz9xb0"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/krsikbgex9jr"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/z0xfjy42n365"
+          }
+        ]
+      }
+    ],
+    "id": "lego-star-wars-la-reconstruccion-de-la-galaxia---piezas-del-pasado-2025"
+  },
+  {
+    "id": "lightyear-2022",
+    "tipo": "pelicula",
+    "titulo": "Lightyear",
+    "poster": "https://ww4.pelisplushd.to/poster/lightyear-thumb.jpg",
+    "descripcion": "Ver Lightyear Online Latino, Español, Subtituladas Gratis | Cuevana3. La película cuenta los orígenes de Buzz Lightyear, el héroe que inspiró el juguete, y nos da a conocer la historia de este legendario Guardián Espacial narrada como una apasionante aventura intergaláctica. \"El mundo de Buzz siempre me ha fascinado\", ha declarado el director Angus MacLane. \"En Toy Story se vislumbraba apenas la historia de este Guardián Espacial y siempre quise explorar ese mundo más a fondo. '¿Qué película vio Andy para desear tener un juguete de Buzz Lightyear?' Esta es la pregunta que formulé al presentar el proyecto de Lightyear y yo quería ver esa película. Y he tenido la suerte de hacerlo realidad\".",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2022,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura"
+    ],
+    "calificacion": 10.0,
+    "votos": 20000,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T15:55:10.468575",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "cine",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://nuuuppp.sbs/watch/23RrxECFPxRV7kz7f5zf8lZgMBUeHffz7y3jz3Lh57kz7mWIW23jz3o?h="
+      },
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/fo0jf0vcafhp",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://nuuuppp.sbs/watch/23RrxECFPxRV7kz7f5zf8lZgMBUeHffz7y3jz3Lh57kz7mWIW23jz3o?h="
+      }
+    ],
+    "idioma": "latino"
+  },
+  {
+    "id": "lilo-y-stitch-2025",
+    "tipo": "pelicula",
+    "titulo": "Lilo y Stitch",
+    "poster": "https://ww5.pelisplushd.to/poster/lilo-y-stitch-552524-thumb.jpg",
+    "descripcion": "Remake en imagen real de «Lilo & Stitch». Narra la historia de una niña hawaiana solitaria y un extraterrestre fugitivo que la ayuda a recomponer su rota familia.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "familia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-16T02:37:22.986442",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/an13m11owoxf"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/an13m11owoxf"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Loki",
+    "poster": "https://image.tmdb.org/t/p/w300/kAHPDqUUciuObEoCgYtHttt6L2Q.jpg",
+    "descripcion": "Loki, el impredecible villano Loki (Hiddleston) regresa como el Dios del engaño en una nueva serie tras los acontecimientos de Avengers.Marvel Studios' Loki",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "aventura",
+      "drama",
+      "fantasia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-23T00:12:20.925823",
+    "tamaño": "N/A",
+    "año": 2021,
+    "calificacion": 9.8,
+    "votos": 80000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/olvlmrm6u54u"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/tzlevlhmz37n"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/uht4l3c58p17"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/eew3aq5unieq"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/ueotzzfj5m0g"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/jw3be5j9b6od"
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/87ehfg4humpi"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/57bvhf9b4s00"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/nq8hgupfhduh"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/nudriyhz15cn"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/2b4hky15ykg0"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/noe7lo9av6d1"
+          }
+        ]
+      }
+    ],
+    "id": "loki-2021"
+  },
+  {
+    "id": "los-casi-idolos-de-bahia-colorada-2023",
+    "tipo": "pelicula",
+    "titulo": "Los (casi) ídolos de Bahía Colorada",
+    "poster": "https://image.tmdb.org/t/p/w300/h5A2Z1VdcwByZCGDNBta8MPDFNC.jpg",
+    "descripcion": "Un colorido pueblo mexicano. Dos medios hermanos. Romeo y Preciado se reencuentran para honrar la memoria de su papá en un rally de autos lleno de adrenalina y música de banda.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "musica"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T18:00:11.588640",
+    "tamaño": "N/A",
+    "año": 2023,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/wp34kl66pq3c"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/5xpqtwmbiepw",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/wp34kl66pq3c"
+      }
+    ],
+    "idioma": "latino"
+  },
+  {
+    "id": "los-4-fantasticos-primeros-pasos-2025",
+    "tipo": "pelicula",
+    "titulo": "Los 4 Fantásticos: Primeros pasos",
+    "poster": "https://ww4.pelisplushd.to/poster/los-4-fantasticos-primeros-pasos-thumb.jpg",
+    "descripcion": "Con un estruendoso trasfondo en un mundo retrofuturista inspirado en los años 60, la Primera Familia de Marvel enfrenta su desafío más intimidante hasta ahora. Obligados a equilibrar sus roles como héroes con la fuerza de su vínculo familiar, deben defender la Tierra de un voraz dios espacial llamado Galactus y su enigmático heraldo, Silver Surfer.",
+    "categoria": [
+      "aventura"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "ciencia ficcion",
+      "aventura"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/6222isvc59q3"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/6222isvc59q3"
+      }
+    ]
+  },
+  {
+    "id": "los-barbaros-2025",
+    "tipo": "pelicula",
+    "titulo": "Los bárbaros",
+    "poster": "https://ww4.pelisplushd.to/poster/los-barbaros-thumb.jpg",
+    "descripcion": "Durante la crisis económica de 2008, cuatro jóvenes ocupan un edificio en construcción en busca de un hogar.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T19:02:54.109384",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/0vs3c47g88d8"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/0vs3c47g88d8"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Los Cretinos",
+    "poster": "https://image.tmdb.org/t/p/w500/fAeHnC35RtbYLm5tRGLveLa0YvH.jpg",
+    "descripcion": "Cuando los villanos más malos y repugnantes se apoderan de la ciudad con un truquito, dos niños valientes se alían con una familia de animales mágicos para acabar con ellos.",
+    "año": 2025,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "animación",
+      "comedia",
+      "familia",
+      "fantasía"
+    ],
+    "director": "Phil Johnston",
+    "reparto": [
+      "Margo Martindale",
+      "Johnny Vegas",
+      "Maitreyi Ramakrishnan",
+      "Ryan Anderson Lopez",
+      "Emilia Clarke"
+    ],
+    "calificacion": 6.043,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T01:41:27.032347",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/bxmuug2od574",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "los-cretinos-2025"
+  },
+  {
+    "id": "los-feos-2024",
+    "tipo": "pelicula",
+    "titulo": "Los feos",
+    "poster": "https://ww5.pelisplushd.to/poster/los-feos-thumb.jpg",
+    "descripcion": "En una distopía futurista que impone cánones de belleza y cirugías cosméticas, una adolescente emprende un viaje peligroso para salvar a una amiga.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "ciencia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-16T02:54:21.242000",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/d792neb8kbuq"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/d792neb8kbuq"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "los increibles",
+    "poster": "https://imgs.search.brave.com/70bUvMfqoKiIiuWYa-DVXlN9po4L82FtFp8FaBMZ7VU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2hpcXVpcGVkaWEu/Y29tL2ltYWdlcy9k/aWJ1am9zLWRpc25l/eS1sb3MtaW5jcmVp/Ymxlcy1wLmpwZw",
+    "descripcion": "",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "aventura"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-18T20:17:49.194228",
+    "tamaño": "N/A",
+    "año": 2004,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/96o7e0xqjufh"
+      }
+    ],
+    "id": "los-increibles-2004",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/96o7e0xqjufh"
+      }
+    ]
+  },
+  {
+    "id": "los-pitufos-2021-2021-2021",
+    "tipo": "serie",
+    "titulo": "Los Pitufos 2021 (2021)",
+    "poster": "https://ww4.pelisplushd.to/poster/los-pitufos-2021-thumb.jpg",
+    "descripcion": "Azules y pequeños, con solo tres manzanas de altura, los Pitufos pueden ser difíciles de distinguir al principio. Sin embargo, cada Pitufo es un individuo distinto con su propia personalidad, ¡sus nombres lo dicen todo!.",
+    "categoria": [
+      "series"
+    ],
+    "año": 2021,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "",
+            "url": "https://dood.to/e/eklycqpefoze"
+          },
+          {
+            "episodio": 2,
+            "titulo": "",
+            "url": "https://dood.to/e/dy0ifiyf48x0"
+          },
+          {
+            "episodio": 3,
+            "titulo": "",
+            "url": "https://dood.to/e/b6ukdjfmcyh1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "los-renegados-del-diablo-2005",
+    "tipo": "pelicula",
+    "titulo": "Los renegados del diablo",
+    "poster": "https://ww4.pelisplushd.to/poster/los-renegados-del-diablo-thumb.jpg",
+    "descripcion": "Continuación de \"House of 1000 Corpses\". Una historia de asesinatos, locura y venganza. Los Firefly, la familia de homicidas, emprenden una sangrienta huida escapando de un sheriff con sed de venganza.",
+    "categoria": [
+      "terror"
+    ],
+    "año": 2005,
+    "duracion": "1h 50m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "terror",
+      "crimen"
+    ],
+    "calificacion": 6.9,
+    "votos": 3000,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "\"https://streamwish.to/e/fhcnxwdcx79k"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "\"https://streamwish.to/e/fhcnxwdcx79k"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Los Simpson: la buena, el malo y Loki",
+    "poster": "https://image.tmdb.org/t/p/w300/u10ZfFwbCMB4UrFy7OlHq08fBRr.jpg",
+    "descripcion": "Cuando el destierro eterno se convierte en su condena, Loki, la deidad nórdica de las mentiras, encuentra su camino hacia la ciudad más improbable del universo: Springfield. Lejos del esplendor dorado de Asgard, el maestro del engaño descubre un nuevo reino de caos donde su talento para la travesura se verá desafiado como nunca antes. En este escenario inesperado, forja una alianza impensable con Bart Simpson, un joven cuya fama por alterar el orden local es legendaria. Juntos, orquestan un carnaval de trastornos que sacude los cimientos de la ciudad, desatando un torbellino de situaciones hilarantes que pone a prueba incluso a las figuras más emblemáticas de la comunidad. Mientras el caos se propaga por las calles, desde la taberna de Moe hasta la planta nuclear, los héroes más insospechados de Springfield emergen para enfrentar esta amenaza interdimensional. Homero, armado con su ingeniosa simpleza y amor por los donuts, se encuentra en el epicentro de la confrontación, mientras que otros residentes revelan destellos de valentía inusual. Este choque entre la mitología cósmica y la cotidianidad suburbana crea un escenario donde las batallas épicas se resuelven con agudeza casera y ocurrencias absurdas, transformando la confrontación en un espectáculo de ingenio y humor que solo Springfield podría contener. La ciudad se convierte en el campo de batalla definitivo donde lo divino y lo mundano chocan en una danza de caos controlado, demostrando que a veces las mayores amenazas requieren soluciones extraordinariamente ordinarias..Les Simpson: Le Bon le Bart et le Loki Die Simpsons: Bart und Loki: Zwei Glorreiche Halunken Os Simpsons: O Bem o Bart e o Loki Les Simpson: Le Bon le Bart et le Loki Los Simpson: El Bueno el Bart y el Loki",
+    "categoria": [
+      "anime"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia",
+      "familia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-23T00:20:50.438047",
+    "tamaño": "N/A",
+    "año": 2021,
+    "calificacion": 8.7,
+    "votos": 80000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/xppi6ru75877"
+      }
+    ],
+    "id": "los-simpson-la-buena-el-malo-y-loki-2021",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/xppi6ru75877"
+      }
+    ]
+  },
+  {
+    "id": "los-simpson-la-pelicula-2007",
+    "tipo": "pelicula",
+    "titulo": "Los Simpson: La película",
+    "poster": "https://image.tmdb.org/t/p/w300/d9wHkwF9ttnNKuOoEIStve32jEk.jpg",
+    "descripcion": "",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T01:49:43.667741",
+    "tamaño": "N/A",
+    "año": 2007,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/sq5ge1w372oy"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/sq5ge1w372oy"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Los tipos malos: Malos comienzos",
+    "poster": "https://image.tmdb.org/t/p/w300/ycdB6a7XGLhJjpkBFaRTLsGKw7H.jpg",
+    "descripcion": "¿Cómo empezaron los Tipos Malos en el mundo del crimen? Descúbrelo en esta divertida serie precuela, ambientada antes de las películas..",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacioin"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-04T20:47:56.748641",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/rlvc0ra2poxw"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/nsmfee20bn7e"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/wnbjvb9v5b54"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/cgyz9qw5rmgh"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/pkdo39ep7nbj"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/z62mxyawsqv9"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/bbdy49v7gykf"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dintezuvio.com/embed/qorg7c9873tq"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://dintezuvio.com/embed/jqrz3om53b8h"
+          }
+        ]
+      }
+    ],
+    "id": "los-tipos-malos-malos-comienzos-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Los vengadores",
+    "poster": "https://image.tmdb.org/t/p/w300/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+    "descripcion": "En un mundo al borde del colapso, la Tierra enfrenta su prueba más devastadora cuando el dios asgardiano Loki desata una fuerza de invasión extraterrestre con un objetivo claro: la dominación global. Bajo el liderazgo del veterano estratega Nick Fury, la agencia SHIELD activa un protocolo de emergencia que reúne a las mentes y poderes más extraordinarios del planeta. La iniciativa \"Vengadores\" convoca a Tony Stark, el genio multimillonario tras la armadura de Iron Man; a Bruce Banner, cuyo alter ego como Hulk representa una fuerza de destrucción imparable; a Thor, el príncipe del reino místico de Asgard; y al supersoldado Capitán América, un símbolo viviente de la justicia. Mientras la ciudad de Nueva York se convierte en el epicentro de una batalla dimensional, estos héroes dispares deben superar sus profundas diferencias ideológicas y personales. La arrogancia tecnológica de Stark choca con el sentido del deber tradicional de Rogers, mientras que la naturaleza impulsiva de Thor contrasta con la lucha interna de Banner por controlar su monstruosa transformación. La amenaza de Loki y su ejército Chitauri pone a prueba no solo sus habilidades sobrenaturales, sino también su capacidad para funcionar como equipo cohesionado. En esta épica confrontación que define el destino de la humanidad, cada vengador deberá encontrar su lugar dentro del grupo mientras enfrentan portales interdimensionales y tecnología alienígena avanzada. La supervivencia del planeta depende de que estas leyendas vivas aprendan a combinar sus talentos únicos antes de que las fuerzas oscuras consuman la civilización humana. La batalla por Nueva York marcará un punto de inflexión en la historia moderna, donde lo sobrenatural se encuentra con lo científico en un choque de dimensiones sin precedentes..Marvel's The Avengers: Os Vingadores Os Vingadores Avengers 1 Les Avengers: le film Avengers 1 - Marvel's The Avengers Tasujad Los Vengadores Les Avengers Avengers Assemble 마블 어벤져스 어벤져스 Vengadores De Wrekers MCU 06 - The Avengers Avengers 3D ดิ อเวนเจอร์ส 1 Marvel Avengers Assemble Marvel Studios' The Avengers Marvel's The Avengers The Avengers 1 The Avengers 3D The Avengers: An IMAX 3D Experience MCU-06 - Avengers 1 - Marvel's The Avengers",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "ciencia",
+      "ficcion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-23T14:24:23.704467",
+    "tamaño": "N/A",
+    "año": 2012,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://haxloppd.com/e/gwqms1clstit",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "los-vengadores-2012",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://haxloppd.com/e/gwqms1clstit"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Love & Mercy",
+    "poster": "https://image.tmdb.org/t/p/w500/4jn0hDsl6lsv4qEc7aiLlgbaIjo.jpg",
+    "descripcion": "Biopic sobre el músico y compositor Brian Wilson, fundador de los Beach Boys, sobre su influencia en la música, y sus problemas nerviosos que propiciaron su relación con el controvertido terapeuta Dr. Eugene Landy.",
+    "año": 2015,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "drama",
+      "música",
+      "historia"
+    ],
+    "director": "Bill Pohlad",
+    "reparto": [
+      "Paul Dano",
+      "John Cusack",
+      "Elizabeth Banks",
+      "Paul Giamatti",
+      "Jake Abel"
+    ],
+    "calificacion": 7.087,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T01:58:32.281914",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/hj81fx9ze76s?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "love-mercy-2015"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "luca",
+    "poster": "https://ww4.pelisplushd.to/poster/luca-thumb.jpg",
+    "descripcion": "La historia se desarrolla en un hermoso pueblo al lado del mar en la Riviera Italiana. Es la del crecimiento de un niño que experimenta un verano inolvidable con helado, pasta e interminables viajes en scooter. Luca comparte estas aventuras con su nuevo mejor amigo, pero toda la diversión se ve amenazada por un gran secreto: es un monstruo marino de otro mundo ubicado justo debajo de la superficie del agua.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2021,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia"
+    ],
+    "calificacion": 7.9,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T22:56:30.459285",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/w55yumjmddr3"
+      }
+    ],
+    "id": "luca-2021",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/w55yumjmddr3"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Lupin",
+    "poster": "https://image.tmdb.org/t/p/w300/gZ2ocZUwqVetPz9AvVVhzrFrpPA.jpg",
+    "descripcion": "Inspirado por las aventuras de Arsène Lupin, el ladrón de guante blanco Assane Diop se propone vengar la injusticia sufrida por su padre a manos de una familia rica.",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "crimen",
+      "drama"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-04T20:39:37.148483",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2021,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/n9zq9boc28ra"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/lgfi9qa6okaf"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/2to6loyphr10"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/nvg19d8qh5w4"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/xtw9j3feu1pm"
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/d3o4sk5k43qh"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/02avwlbugitr"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/q56di3darulc"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/t63sxfw35bhu"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/u7ex9t5syq86"
+          }
+        ]
+      },
+      {
+        "temporada": 3,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/c504di5gmcx6"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/p3g68ovlzeca"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/jxzkr38o00qm"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/bur8siinb255"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/4kbg9mgmdzpj"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/pqgvtc6ypkdz"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/o0oa0f1ryhqg"
+          }
+        ]
+      }
+    ],
+    "id": "lupin-2021"
+  },
+  {
+    "id": "m3gan-2022",
+    "tipo": "pelicula",
+    "titulo": "M3GAN",
+    "poster": "https://ww4.pelisplushd.to/poster/m3gan-thumb.jpg",
+    "descripcion": "Cuando Gemma se convierte en la cuidadora de su sobrina huérfana de 8 años, Cady, Gemma no está segura ni preparada para ser madre. Bajo una intensa presión en el trabajo, Gemma decide emparejar su prototipo M3GAN con Cady en un intento de resolver ambos problemas, una decisión que tendrá consecuencias inimaginables.",
+    "categoria": [
+      "todos"
+    ],
+    "año": 2022,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "ciencia ficcion"
+    ],
+    "calificacion": 7.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/icsnv0umcplg"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/icsnv0umcplg"
+      }
+    ]
+  },
+  {
+    "id": "m3gan-20-2025",
+    "tipo": "pelicula",
+    "titulo": "M3GAN 2.0",
+    "poster": "https://ww4.pelisplushd.to/poster/m3gan-20-thumb.jpg",
+    "descripcion": "Secuela de ‘M3GAN’ (2023). Con el futuro de la existencia humana en juego, Gemma se da cuenta de que la única opción es resucitar a M3GAN y darle unas cuantas mejoras, haciéndola más rápida, más fuerte y más letal.",
+    "categoria": [
+      "todos"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "ficcion"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/ppqyzigj9pv5"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/ppqyzigj9pv5"
+      }
+    ]
+  },
+  {
+    "id": "malcriados-2023",
+    "tipo": "pelicula",
+    "titulo": "Malcriados",
+    "poster": "https://ww4.pelisplushd.to/poster/malcriados-thumb.jpg",
+    "descripcion": "Francisca ha criado a su hijo Alejandro, haciéndolo un niño mimado e irresponsable. Por otro lado, Gonzalo también ha criado a su hija Camila, convirtiéndola en una niña indiferente y caprichosa. Sus vidas cambiarán cuando se conozcan entre ellos.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2023,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "Comedia"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://dood.pm/e/eywlvm1hd8ao"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://dood.pm/e/eywlvm1hd8ao"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dood.pm/e/eywlvm1hd8ao"
+      },
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dood.pm/e/eywlvm1hd8ao"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "maldita suerte",
+    "poster": "https://es.web.img2.acsta.net/c_310_420/img/90/91/909108d598784b429b4bb4f984133685.jpg",
+    "descripcion": "Sam Greenfield es la persona con menos suerte del mundo. Cuando de repente se encuentra en la nunca antes vista Tierra de la Suerte, debe unirse a las criaturas mágicas que viven allí para poder cambiar su suerte.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [],
+    "favorito": false,
+    "calificacion": 0,
+    "votos": 0,
+    "calidad": "N/A",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "Latino",
+        "url": "https://streamwish.to/e/tqld35ocun1p"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/ez92qjfvft8z",
+        "calidad": "1080p"
+      },
+      {
+        "idioma": "subtitulado",
+        "url": "https://dintezuvio.com/embed/10dfyswq28jn",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "maldita-suerte-2025",
+    "genero": [],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "Latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/tqld35ocun1p"
+      }
+    ]
+  },
+  {
+    "id": "malefica-2014",
+    "tipo": "pelicula",
+    "titulo": "Maléfica",
+    "poster": "https://ww4.pelisplushd.to/poster/malefica-thumb.jpg",
+    "descripcion": "Es la historia jamás contada de Maléfica, la villana más querida de Disney, la mala de \"La Bella durmiente\", el clásico de 1959. La película relata los acontecimientos que endurecieron su corazón y la llevaron a lanzar una maldición sobre la pequeña Aurora..",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2014,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T15:49:39.371385",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "cine",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dood.to/e/thwxs4yu2ig6"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dood.to/e/thwxs4yu2ig6"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Manipulado",
+    "poster": "https://image.tmdb.org/t/p/w300/frwRfDaBCGjXjUlvER2P2n8oh2u.jpg",
+    "descripcion": "El afable Tae Jung es encarcelado injustamente por un crimen atroz. Pronto descubre que un misterioso personaje llamado Yo Han orquestó su caída. Impulsado por la venganza, Tae Jung se propone hacerle pagar..碎片都市 The.Manipulated",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "crimen"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-02T01:07:31.291648",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 9.9,
+    "votos": 87000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/g4ihuuhjxxqc"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/0wsife436iww"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/1stkqj2ulxks"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/bo0cwq5x4ckh"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/usmvi0gm0xw1"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/8kfioj102u0l"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/lauaewkn1ysv"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dintezuvio.com/embed/tumwwng6ap9y"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://dintezuvio.com/embed/o77ramosgi9m"
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://dintezuvio.com/embed/jsgrhumzmz24"
+          }
+        ]
+      }
+    ],
+    "id": "manipulado-2025"
+  },
+  {
+    "id": "marae-2024",
+    "tipo": "pelicula",
+    "titulo": "Maraé",
+    "poster": "https://image.tmdb.org/t/p/w300/jw5lampy4gLzwLVnm6vQH6zYuCX.jpg",
+    "descripcion": "Sigue a un grupo de surfistas en busca de olas en una isla misteriosa que ha desaparecido de todos los mapas..",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "terror suspenso"
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-21T18:22:02.804424",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 8.1,
+    "votos": 80000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/o7ngjo5jk2fr"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/o7ngjo5jk2fr"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Marco",
+    "poster": "https://image.tmdb.org/t/p/w300/6Nj8Y1A9lcReqZZvRHOSiO3iTl6.jpg",
+    "descripcion": "El hijo adoptivo de la familia Adattu, Marco, se embarca en una despiadada búsqueda de venganza después de que su hermano es brutalmente asesinado, encontrando solo traición, pérdida y una brutalidad inimaginable a cada paso..Marco Marco 2024",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "crimen",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T17:13:41.255292",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/vjnodvq0wyqg",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/vjnodvq0wyqg"
+      }
+    ],
+    "id": "marco-2024"
+  },
+  {
+    "id": "marines-2025",
+    "tipo": "serie",
+    "titulo": "MARINES",
+    "poster": "https://ww5.pelisplushd.to/poster/marines-thumb.jpg",
+    "descripcion": "Se adentra en la «fuerza preparada» del ejército estadounidense en el Pacífico. Con un acceso sin precedentes, la serie capta los rigurosos ejercicios de entrenamiento de la unidad junto a momentos personales de jóvenes marines trabajando y cuidándose los unos a los otros.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-16T02:49:48.010043",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "documental",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/pepmgrfisl80"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/4tl19j6p4yul"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/zpbe8126kde7"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/1s21i1px1aoi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "martin-2024",
+    "tipo": "pelicula",
+    "titulo": "Martin",
+    "poster": "https://image.tmdb.org/t/p/w300/rmCJCFrEwPC0u0Y1smihwDo4Cf1.jpg",
+    "descripcion": "",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "drama",
+      "suspenso"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-20T23:57:00.813606",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/zkt8w6a3ugzp"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/zkt8w6a3ugzp"
+      }
+    ]
+  },
+  {
+    "id": "marvel-zombies-2025",
+    "tipo": "serie",
+    "titulo": "Marvel Zombies",
+    "poster": "https://image.tmdb.org/t/p/w300/wofiHMsXxmp0lTafcBrgciSxBVx.jpg",
+    "descripcion": "La serie reinventa el Universo Marvel como una nueva generación de héroes que luchan contra un flagelo zombi en constante expansión",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-20T22:53:26.144942",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 9.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dinisglows.com/embed/w8druec99hmz"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dinisglows.com/embed/mfspo5bvm6fm"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dinisglows.com/embed/3pdkqxuzcgg3"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dinisglows.com/embed/knntyf36hm05"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "masameer-junior-2025",
+    "tipo": "pelicula",
+    "titulo": "Masameer Junior",
+    "poster": "https://ww4.pelisplushd.to/poster/masameer-junior-thumb.jpg",
+    "descripcion": "Tras una detestable lección sobre mala conducta, tres pequeños revoltosos de seis años emprenden la búsqueda de una «buena obra», pero desatan el caos a cada paso.",
+    "categoria": [
+      "aventura"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia"
+    ],
+    "calificacion": 7.3,
+    "votos": 2333,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/y3e2zugck1vu"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/y3e2zugck1vu"
+      }
+    ]
+  },
+  {
+    "id": "mascotas-al-rescate-2025",
+    "tipo": "pelicula",
+    "titulo": "Mascotas al Rescate",
+    "poster": "https://ww4.pelisplushd.to/poster/mascotas-al-rescate-thumb.jpg",
+    "descripcion": "En un tren a punto de salir de la estación, suena la alarma que obliga a todos los pasajeros a bajar. Pero entonces el tren arranca de manera imprevista, llevándose a bordo a los viajeros que no han tenido tiempo de descender: los animales de compañía. Asombrados, estos descubren que el tren está bajo el control de Hans, un tejón manipulador y rencoroso que busca vengarse de Rex, el perro policía que lo envió a la cárcel años atrás. Como los servicios de rescate no logran intervenir en el trayecto montañoso del tren, que avanza a toda velocidad, los animales de compañía solo pueden contar con Falcon, un mapache algo tramposo que hará todo lo posible por salvarlos.",
+    "categoria": [
+      "anime"
+    ],
+    "año": 2025,
+    "duracion": "2h 13m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "espanol latino",
+        "url": "https://hgplaycdn.com/e/q49vc9mg5x89"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "espanol latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://hgplaycdn.com/e/q49vc9mg5x89"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Me late que sí",
+    "poster": "https://image.tmdb.org/t/p/w300/2frfO6pr8i1Oh1iakIFRrLQGEK9.jpg",
+    "descripcion": "Un funcionario ordinario lleva años obsesionado con ganarse el sorteo Melate. Convencido de su mala suerte, está por renunciar a esa fantasía, cuando la urgente necesidad de dinero hace germinar una idea simple, y por ello, genial, que le permitirá “ganarse” el premio frente a millones de personas..",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-02T00:36:47.627340",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 8.0,
+    "votos": 8000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/u4hibn1ts6br"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/zkp30jerlhf3"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/h8x2zvxu8hq3"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/h3zrggpogir0"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/u72jimvo83q5"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/h9675s0occuu"
+          }
+        ]
+      }
+    ],
+    "id": "me-late-que-si-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Memorias de un caracol",
+    "poster": "https://image.tmdb.org/t/p/w300/itb0oMYkglNqMUkXE7mrDyFtwuL.jpg",
+    "descripcion": "En un mundo donde la lentitud se considera una virtud olvidada, la vida de Caracolia da un giro trágico cuando una tormenta inesperada la separa de su hermano gemelo y los deja huérfanos. Esta conmovedora historia de animación sigue el viaje emocional de una joven caracol que debe navegar por las complejidades de crecer sin su contraparte idéntica, enfrentándose a un sentimiento de desarraigo que parece perseguirla en cada paso. Mientras atraviesa paisajes surrealistas poblados por criaturas excéntricas, Caracolia descubre que su aparente desventaja -su naturaleza contemplativa- podría ser precisamente lo que necesita para reconstruir su identidad. A través de encuentros con personajes tan variados como una luciérnaga filósofa y una colonia de mariquitas viajeras, nuestra protagonista comienza a entender que el verdadero hogar no es un lugar físico, sino un estado mental. Las desventuras cómicas se entrelazan con momentos de profunda introspección dramática mientras Caracolia aprende a llevar su caparazón no como una carga, sino como un santuario personal. El camino hacia el autodescubrimiento está lleno de obstáculos inesperados y alegrías sorprendentes, revelando cómo incluso los seres más frágiles pueden encontrar fortaleza en su singularidad. Esta narrativa visualmente deslumbrante explora temas universales sobre la pertenencia y la autoaceptación, mostrando cómo las experiencias cotidianas más simples pueden convertirse en lecciones transformadoras. Mientras Caracolia avanza laboriosamente hacia un destino incierto, cada huella que deja atrás cuenta la historia de una metamorfosis interior, demostrando que el crecimiento personal no se mide por la velocidad del recorrido, sino por la profundidad de las enseñanzas obtenidas en el camino..蜗牛回忆录 Bir İlbizin Xatirələri Egy csiga emlékiratai",
+    "categoria": [
+      "anime"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia",
+      "drama",
+      "y"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-29T19:32:00.857888",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/suzhmtfsrml8",
+        "calidad": "HD"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/suzhmtfsrml8"
+      }
+    ],
+    "id": "memorias-de-un-caracol-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Mente Perturbada",
+    "poster": "https://image.tmdb.org/t/p/w300/e9o25YIQLkIJcFGYngV16UZkksU.jpg",
+    "descripcion": "Cuando regresa a Hong Kong para cuidar de su madre enferma, un hombre canadiense comienza a ver apariciones paranormales similares a las que vio en la infancia..",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-27T19:52:13.052374",
+    "tamaño": "N/A",
+    "año": 2023,
+    "calificacion": 7.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/52rmh12yts3g",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/52rmh12yts3g"
+      }
+    ],
+    "id": "mente-perturbada-2023"
+  },
+  {
+    "id": "merlina-2022",
+    "tipo": "serie",
+    "titulo": "Merlina",
+    "poster": "https://ww5.pelisplushd.to/poster/merlina-thumb.jpg",
+    "descripcion": "Inteligente, sarcástica y un poco muerta por dentro, Merlina Addams investiga una ola de asesinatos mientras hace nuevos amigos (y enemigos) en la Academia Nunca Más.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "ciencia",
+      "accion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T00:12:17.956473",
+    "tamaño": "N/A",
+    "año": 2022,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/8zmuibkfbdch"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/b2edgu3itqhn"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/3cackcmun7ag"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/1wyf6zrnt4ks"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/vs8en4x85w31"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/09aq60bhqw45"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/d4ldt7n3jkjw"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/kjmnp1dgqop8"
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/wtg4uftb3dpv"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/nkk0ams7bukq"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/os8yy0zrtswj"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/6sbmcmq1dwj5"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/6leoc7mqg2qi"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/mr2bu5p8y05r"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/w70pt1oyhryk"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/vuf62nt28fue"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mi-pobre-angelito-1990",
+    "tipo": "pelicula",
+    "titulo": "Mi pobre Angelito",
+    "poster": "https://image.tmdb.org/t/p/w300/rjc2a9N5pro1xGsSvvnJ1JDXRGm.jpg",
+    "descripcion": "",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T01:40:39.091542",
+    "tamaño": "N/A",
+    "año": 1990,
+    "calificacion": 7.8,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/omklc3yz66cr"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/omklc3yz66cr"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Mi querida ladrona",
+    "poster": "https://image.tmdb.org/t/p/w300/pGVJWu8g82nAnruDmQFp46ZXJxW.jpg",
+    "descripcion": "María trabaja como ayudante a domicilio para personas mayores. Su sueño es ver a su nieto convertirse en un gran pianista. Para pagar el piano, roba, aquí y allá, pequeñas sumas de dinero a las personas que cuida con devoción..La gazza ladra The Thieving Magpie Stealing Angel",
+    "categoria": [
+      "drama"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-22T23:32:05.416304",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 9.9,
+    "votos": 8000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://dintezuvio.com/embed/cpnkzwaxpn00"
+      }
+    ],
+    "id": "mi-querida-ladrona-2024",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/cpnkzwaxpn00"
+      }
+    ]
+  },
+  {
+    "id": "mi-villano-favorito-4-2024",
+    "tipo": "pelicula",
+    "titulo": "Mi villano favorito 4",
+    "poster": "https://ww4.pelisplushd.to/poster/mi-villano-favorito-4-thumb.jpg",
+    "descripcion": "Ver Mi villano favorito 4 Online Latino, Español, Subtituladas Gratis | Cuevana3. Gru y Lucy dan a luz a Gru Jr. y ahi Gru, con su hijo y una aprendiz robaran algo para detener a los nuevos villanos de turno.",
+    "categoria": [
+      "aventura"
+    ],
+    "año": 2024,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "aventura",
+      "accion"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://vidhidepro.com/v/wfedfjgfubbm"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://vidhidepro.com/v/wfedfjgfubbm"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Michael Jackson: La vida de un ídolo",
+    "poster": "https://image.tmdb.org/t/p/w300/liPl2d9qx2TWSDKaduUbwC0V1vY.jpg",
+    "descripcion": "En el documental que desvela las facetas más íntimas de una leyenda musical, \"Michael Jackson: La vida de un ídolo\" nos sumerge en el viaje humano y artístico del llamado Rey del Pop. A través del lente íntimo de David Gest, amigo de la infancia y productor, y la dirección de Andrew Eastel, esta producción ofrece una perspectiva única sobre los altibajos que definieron la existencia de Jackson. La narración se construye con testimonios nunca antes vistos, incluyendo el relato conmovedor de Katherine Jackson, quien por primera vez comparte su visión sobre la crianza de Michael en la industrial ciudad de Gary, Indiana. La cámara recorre desde los días formativos con los Jackson 5, donde el talento incipiente de Michael comenzaba a eclipsar los escenarios, hasta su metamorfosis en un fenómeno cultural global. El documental explora cómo se forjó el legado musical de Michael Jackson a través de décadas de innovación, mientras enfrentaba la intensa presión de la fama mundial. Se profundiza en los momentos cruciales que marcaron su carrera, incluyendo los desafíos personales y profesionales que surgieron tras los controvertidos juicios, mostrando la resiliencia familiar ante la adversidad. Este retrato biográfico documental captura también los instantes previos a su trágica partida en 2009, revelando aspectos desconocidos de sus últimos proyectos y aspiraciones. Las grabaciones exclusivas y archivos personales tejen un tapiz emocional que trasciende la figura pública para mostrar al hombre detrás del mito, haciendo de este documental una pieza esencial para comprender la complejidad detrás del genio artístico y el precio que pagó por su extraordinario legado en la industria del entretenimiento..Michael Jackson - The Life Of An Icon Michael Jackson: La vida de un ídolo",
+    "categoria": [
+      "documental"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "dicumental"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-30T00:45:26.001773",
+    "tamaño": "N/A",
+    "año": 2011,
+    "calificacion": 6.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino ",
+        "url": "https://dintezuvio.com/embed/paf3wfyanrfy",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino ",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/paf3wfyanrfy"
+      }
+    ],
+    "id": "michael-jackson-la-vida-de-un-idolo-2011"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Mickey 17",
+    "poster": "https://image.tmdb.org/t/p/w300/fjIHkLGIZdjKIKe252gSFt5QzVK.jpg",
+    "descripcion": "En la gélida inmensidad de Niflheim, donde el hielo perpetuo cubre paisajes alienígenas, Mickey Barnes desempeña el papel más ingrato en la misión de colonización humana. Como modelo de \"empleado prescindible\", su existencia consiste en realizar tareas mortales con la certeza de que, al morir, será reemplazado por un nuevo clon con sus memorias intactas. Pero cuando Mickey 17 sobrevive milagrosamente a lo que debería haber sido su final programado, descubre que Mickey 18 ya ha sido activado en la base principal. Esta revelación desencadena una situación sin precedentes en el protocolo de colonización: dos versiones del mismo individuo coexistiendo en el mismo espacio temporal. La convivencia forzada entre las dos iteraciones del mismo hombre se convierte en un duelo existencial lleno de tensiones. Mientras la colonia lucha por establecerse en este mundo hostil, ambos Mickeys desarrollan perspectivas radicalmente diferentes sobre su propósito. El original, curtido por experiencias cercanas a la muerte, cuestiona la ética de un sistema que trata la vida como material desechable. El recién llegado, imbuido de celo programático, insiste en que el ciclo de reemplazo debe continuar según lo establecido. Lo que comienza como una disputa personal pronto escala hasta amenazar la estabilidad de toda la misión colonial. En medio de tormentas de hielo y criaturas nativas desconocidas, los dos protagonistas se ven inmersos en una carrera contra el tiempo y entre ellos, donde la supervivencia física se entrelaza con preguntas fundamentales sobre la identidad. La batalla por el derecho a existir se desarrolla en un escenario donde la humanidad se enfrenta no solo a los peligros de un planeta extraño, sino también a las consecuencias imprevistas de su propia tecnología..מיקי 17 米奇17号 米奇17 미키17 Mickey 17 Mickey 17 Մայքի 17",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "aventura",
+      "ciencia",
+      "comedia",
+      "ficcion"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-29T21:42:56.316619",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/cd5igxpxbeso",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/cd5igxpxbeso"
+      }
+    ],
+    "id": "mickey-17-2025"
+  },
+  {
+    "id": "mimzy-mas-alla-de-la-imaginacion-2007",
+    "tipo": "pelicula",
+    "titulo": "Mimzy, más allá de la imaginación",
+    "poster": "https://image.tmdb.org/t/p/w300/yauc53aUXuJd9WIvReSpgcIg2ox.jpg",
+    "descripcion": "",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "ciencia ficcion",
+      "aventura"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T15:12:16.768305",
+    "tamaño": "N/A",
+    "año": 2007,
+    "calificacion": 7.7,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://dinisglows.com/embed/hzv4zfcyonnf"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/hzv4zfcyonnf"
+      }
+    ]
+  },
+  {
+    "id": "mirreyes-contra-godinez-las-vegas-2025",
+    "tipo": "pelicula",
+    "titulo": "Mirreyes contra Godínez: Las Vegas",
+    "poster": "https://ww4.pelisplushd.to/poster/mirreyes-contra-godinez-las-vegas-thumb.jpg",
+    "descripcion": "Tercera parte de la franquicia de cine \"Mirreyes vs. Godínez\". Estreno en Verano 2025.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "calificacion": 8.9,
+    "votos": 10000,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "vix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/71iz8xepnyid"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/71iz8xepnyid"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Mirreyes vs Godínez: A Special of Christmas",
+    "poster": "https://image.tmdb.org/t/p/w300//ywWxuqRI2QAohTWweSddbDmL4mX.jpg",
+    "descripcion": "Hay que cerrar un trato, y si fracasan, habrán traído sus romeritos en vano. En medio de la discusión, Genaro recibe una visita inesperada: el fantasma de Don Francisco, quien le enseñará el verdadero significado de la Navidad.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-06T00:55:19.181167",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://walterprettytheir.com/e/1uisvqgnbm0z",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://walterprettytheir.com/e/1uisvqgnbm0z"
+      }
+    ],
+    "id": "mirreyes-vs-godinez-a-special-of-christmas-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Misión imposible 6: Repercusion",
+    "poster": "https://image.tmdb.org/t/p/w300/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+    "descripcion": "En un mundo al borde del colapso nuclear, Ethan Hunt enfrenta su misión más personal cuando un letal trío de artefactos de plutonio desaparece del mercado negro. El antagonista Solomon Lane, escapando de su cautiverio, teje una red de caos junto a un despiadado traficante de armas conocido como John Lark. Mientras las agencias de inteligencia mundiales se culpan mutuamente, el equipo del FMI debe operar en la sombra para prevenir una catástrofe de proporciones globales. La carrera contra el tiempo lleva a Hunt por los tejados de París, los callejones de Berlín y las montañas de Cachemira, donde cada movimiento es vigilado por una inteligencia artificial llamada Éter. La tensión se intensifica cuando Hunt descobre que algunos de sus aliados más cercanos podrían estar manipulando el juego desde ambos lados. Con la necesidad de recuperar las ojivas nucleares perdidas, el agente deberá sacrificar todo lo que valora, incluidas sus propias lealtades. En medio de espectaculares secuencias de acción, desde persecuciones en motocicleta hasta enfrentamientos a bordo de helicópteros, la línea entre amigos y enemigos se desdibaja peligrosamente. La búsqueda de estos dispositivos nucleares robados se convierte en un viaje que redefine el significado del deber, donde las decisiones de Hunt tendrán repercusiones que cambiarán para siempre el futuro del FMI y la seguridad mundial..Misión: Imposible - Repercusión Missão: Impossível - Efeito Fallout MI-6 - Mission Impossible-Fallout Mission Impossible 6 - Fallout Misión imposible 6: Repercusión Mission Impossible - Fallout Nemoguca misija 6 Mission Impossible - Utóhatás Neįmanoma misija 6 Misión imposible 6: Repercusión Mission: Impossible - Yansimalar Місія неможлива: Фолаут M:I 6 - Mission Impossible M:I VI - Mission Impossible Mission Impossible - IM6 - Fallout Mission Impossible 6 Fallout Mission Impossible VI - Fallout Mission: Impossible VI Nhiệm vụ bất khả thi 6: Sụp đổ",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "suspenso"
+    ],
+    "idioma": "latino ",
+    "calidad": "1080p",
+    "addedDate": "2025-11-29T22:17:01.831335",
+    "tamaño": "N/A",
+    "año": 2018,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/725t5msipx1h",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/725t5msipx1h"
+      }
+    ],
+    "id": "mision-imposible-6-repercusion-2018"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Misión imposible III",
+    "poster": "https://image.tmdb.org/t/p/w300/uXThDsEdXfepDiDlsIvuUQJ82bl.jpg",
+    "descripcion": "En una vida que creía haber dejado atrás, el experimentado agente Ethan Hunt encuentra su frágil paz doméstica brutalmente interrumpida cuando las sombras de su pasado regresan con fuerza devastadora. Tras numerosas operaciones de alto riesgo que marcaron su carrera, había logrado establecer una existencia aparentemente normal junto a Julia, la mujer con quien planeaba compartir su futuro. Pero el secuestro de uno de sus propios protegidos -un agente que él mismo entrenó- desencadena una cadena de eventos que lo arrastran de vuelta al peligroso mundo del que intentó escapar. La búsqueda desesperada por rescatar a su colega lo enfrenta a Owen Davian, un despiadado traficante internacional cuyas operaciones ilegales abarcan desde el comercio de armas de destrucción masiva hasta el intercambio de información clasificada. Este peligroso enfrentamiento con el villano obliga a Hunt a recorrer escenarios globales, desde los canales venecianos hasta los rascacielos de Shanghai, en una carrera contra el tiempo donde cada decisión tiene consecuencias mortales. La tensa misión para rescatar al agente secuestrado se convierte en un complejo juego de estrategias donde la lealtad y la traición se entrelazan peligrosamente. Mientras los límites entre lo personal y lo profesional se desdibijan, Hunt debe emplear todas sus habilidades en combates cuerpo a cuerpo, persecuciones imposibles y elaborados engaños para desmantelar la red criminal. El conflicto con el temible traficante de armas se intensifica hasta niveles críticos, poniendo en juego no solo la vida de sus compañeros, sino también la frágil normalidad que tanto le costó construir. En este thriller de espionaje donde las identidades son fluidas y las alianzas cambian constantemente, cada movimiento podría ser el último en este mortal duelo de inteligencia y fuerza..MI-3 - Mission Impossible III M.I. 3 - Misión Imposible 3 Misión imposible III M:I III - vaarallinen tehtävä III Vaarallinen tehtävä III Mission Impossible - IM3 Mission Impossible 3 Mission Impossible 3 ミッション：インポッシブル3 미션 임파서블 3 미션임파서블 3 Neįmanoma misija III Місія неможлива 3 M:I:III Mission Impossible 03 Mission Impossible Iii Mission Impossible 3",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-29T21:59:19.974939",
+    "tamaño": "N/A",
+    "año": 2006,
+    "calificacion": 8.9,
+    "votos": 80000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/pu98nmvejgri",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/pu98nmvejgri"
+      }
+    ],
+    "id": "mision-imposible-iii-2006"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Misión Imposible: Nación secreta",
+    "poster": "https://image.tmdb.org/t/p/w300/dTuAIC7a7ncN4uEHtzjumLB7jje.jpg",
+    "descripcion": "En un mundo donde la FMI ha sido oficialmente desmantelada, Ethan Hunt se encuentra completamente aislado, convertido en un fugitivo perseguido por las mismas agencias que antes lo respaldaban. La amenaza emerge en forma del Sindicato, una organización clandestina compuesta por antiguos operativos de élite que operan desde las sombras. Estos individuos, entrenados en los métodos más sofisticados de inteligencia, ejecutan una campaña de caos global con ataques coordinados que desafían toda lógica. La trama de conspiración internacional se desarrolla a través de escenarios que van desde los pasadizos subterráneos de Londres hasta las bulliciosas calles de Casablanca, creando un tapiz de intriga transcontinental. Ante esta crisis sin precedentes, Hunt debe reconstruir su equipo confiando únicamente en sus instintos y lealtades probadas. La aparición de Ilsa Faust añade un elemento de incertidumbre estratégica: siendo una agente británica convertida en nómada, sus motivaciones permanecen envueltas en ambigüedad mientras demuestra poseer información vital sobre los planes del Sindicato. La búsqueda de estos terroristas de élite lleva al grupo a enfrentamientos donde el engaño se convierte en su única arma constante. Cada revelación sobre la verdadera naturaleza de esta nación secreta desentierra capas más profundas de decepción institucional, forzando al equipo a cuestionar cada alianza mientras el reloj avanza implacablemente. En esta carrera contra el cataclismo global, las habilidades de supervivencia de Hunt y sus compañeros serán puestas a prueba en escenarios que redefinirán los límites del sacrificio humano, desarrollándose una trama de espionaje internacional donde las fronteras entre héroe y villano se difuminan peligrosamente..Mission: Impossible - La nation Rogue 碟中谍5 MI-5 - Mission Impossible-Rogue Nation Mission Impossible - IM5 - Rogue Nation Mission Impossible - IM5 - Rogue Nation Mission: Impossible 5 Mission Impossible 5 - Rogue Nation Mission Impossible V - Rogue Nation ミッションインポッシブル５ ローグネイション 로그네이션 미션 임파서블: 로그네이션 Neįmanoma misija 5 Місія неможлива: Нація ізгоїв M:i 5 Mission Impossible 5 – Rogue Nation Mission Impossible Rogue Nation Mission: Impossible 5",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-29T22:02:15.683554",
+    "tamaño": "N/A",
+    "año": 2015,
+    "calificacion": 9.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/w9ejjgfyicy4",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/w9ejjgfyicy4"
+      }
+    ],
+    "id": "mision-imposible-nacion-secreta-2015"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Misión imposible: Protocolo fantasma (Misión imposible IV)",
+    "poster": "https://image.tmdb.org/t/p/w300/khlcsYHr7Hi4Tkymc7UGDvcUcx.jpg",
+    "descripcion": "",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-29T21:57:19.058418",
+    "tamaño": "N/A",
+    "año": 2011,
+    "calificacion": 8.0,
+    "votos": 90000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/dopow5ho420o",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/dopow5ho420o"
+      }
+    ],
+    "id": "mision-imposible-protocolo-fantasma-mision-imposible-iv-2011"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Misión: Imposible - Sentencia mortal parte uno",
+    "poster": "https://image.tmdb.org/t/p/w300/83sGKvCv2T2CulYbd40Aeduc7n2.jpg",
+    "descripcion": "En el corazón de una crisis global sin precedentes, Ethan Hunt se enfrenta al desafío que redefinirá los límites de su lealtad y capacidad. Una innovadora tecnología de destrucción masiva ha emergido en el mercado negro, desatando una carrera contrarreloj que atraviesa continentes. Junto a su equipo de élite del FMI, Hunt debe interceptar este artefacto antes de que facciones siniestras logren desbloquear su potencial catastrófico. La búsqueda los lleva desde los bulliciosos bazares de Estambul hasta los desolados paisajes montañosos de Cachemira, cada locación presentando obstáculos que prueban su ingenio y resistencia. Mientras la presión se intensifica, fantasmas del pasado de Ethan resurgen, encarnados en una organización en las sombras cuyos tentáculos se extienden por gobiernos y corporaciones. Este adversario, tan escurridizo como letal, parece anticipar cada movimiento del FMI, transformando cada avance en una trampa mortal. La línea entre aliados y enemigos se difumina cuando antiguos contactos reaparecen con agendas ocultas, forzando a Hunt a cuestionar cada alianza. El dispositivo en cuestión —capaz de alterar el equilibrio geopolítico mundial— se convierte en el centro de una compleja red de traiciones. Como las piezas del tablero se reorganizan constantemente, Ethan comprende que esta misión exigirá sacrificios que jamás imaginó. Con la humanidad pendiendo de un hilo, cada decisión carga el peso de consecuencias eternas, donde el precio del fracaso supera cualquier cálculo anterior. En este intrincado juego de espías y estrategias, la supervivencia depende de trascender los protocolos establecidos y desafiar lo aparentemente imposible..Mission: Impossible - Dead Reckoning Part 1 Misión: Imposible - Sentencia Mortal Parte I mision imposible 7 mision imposible vii dead reckoning parte 1",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "suspenso"
+    ],
+    "idioma": "latino ",
+    "calidad": "1080p",
+    "addedDate": "2025-11-29T22:19:39.246476",
+    "tamaño": "N/A",
+    "año": 2023,
+    "calificacion": 8.9,
+    "votos": 90000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/sbux5096pvby",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/sbux5096pvby"
+      }
+    ],
+    "id": "mision-imposible---sentencia-mortal-parte-uno-2023"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Misión: Imposible 2",
+    "poster": "https://image.tmdb.org/t/p/w300/12mI7kU22nJrmtAgGcDP8tbAz4a.jpg",
+    "descripcion": "En las imponentes costas australianas se desarrolla una carrera contrarreloj donde el destino de millones pende de un hilo. Ethan Hunt, el operativo más audaz del IMF, se enfrenta a su desafío más personal cuando la agencia le encarga neutralizar la amenaza de Chimera, un virus modificado genéticamente capaz de devastar poblaciones enteras. El cerebro detrás de esta conspiración resulta ser Sean Ambrose, antiguo colega convertido en mercenario despiadado, cuyo conocimiento de los protocolos de inteligencia lo convierte en un adversario impredecible. La misión lleva a Hunt por los acantilados escarpados de Sídney y los desiertos áridos del Outback, donde cada paso está minado por las trampas mortales de Ambrose. Para infiltrarse en la organización terrorista, el agente deberá confiar en Nyah Nordoff-Hall, una ladrona de élite cuyos lazos pasados con el villano crean un peligroso triángulo de desconfianza y atracción. Mientras Luther Stickell descifra los códigos de seguridad del virus desde su centro de operaciones móvil, el especialista en transporte Billy Baird garantiza las espectaculares fugas a través de persecuciones que desafían la gravedad. La tensión alcanza su clímax durante la conferencia biomédica global donde Ambrose planea liberar el patógeno, obligando a Hunt a ejecutar un asalto aerodinámico contra reloj. Esta entrega redefine los límites del espionaje moderno mediante escenas de combate cuerpo a cuerpo que fusionan artes marciales con acrobacias imposibles, todo mientras explora los sacrificios necesarios cuando el deber colisiona con el deseo humano..Mission: Impossible 2 Võimatu missioon II M.I. 2 - Misión Imposible 2 Misión:Imposible - 2 Vaarallinen tehtävä II Mi-2 - Mission impossible 2 Mission Impossible 2 Mission Impossible - IM2 Mission Impossible 2 Nemoguća misija II Mission Impossible 2 ミッションインポッシブル2 ミッション：インポッシブル2 미션 임파서블 2 Neįmanoma misija II Nemoguća misija II Görevimiz Tehlike 2 Місія неможлива 2 M:I-2 Mission Impossible 2",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-29T22:13:06.410315",
+    "tamaño": "N/A",
+    "año": 2000,
+    "calificacion": 9.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/17tcn8faoj5s",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/17tcn8faoj5s"
+      }
+    ],
+    "id": "mision-imposible-2-2000"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Mission: Impossible",
+    "poster": "https://image.tmdb.org/t/p/w300/hZSmObk21tNV3874sOM3Q1U5VVp.jpg",
+    "descripcion": "En el intrincado mundo del espionaje internacional, Ethan Hunt emerge como un operativo excepcional cuya destreza física y agudeza mental lo posicionan como el elemento clave del equipo de élite del FMI. Bajo el mando experimentado del veterano Jim Phelps, este grupo de especialistas se enfrenta a uno de los desafíos más complejos de sus carreras: interceptar la transacción clandestina de un dispositivo de almacenamiento comprometido que alberga archivos clasificados capaces de alterar el equilibrio geopolítico mundial. La narrativa se desarrolla a través de escenarios globales que van desde sofisticados salones diplomáticos hasta sombríos mercados negros, donde cada movimiento está calculado al milímetro y cualquier error podría desencadenar consecuencias catastróficas. La trama se intensifica cuando el dispositivo robado revela contener no solo secretos militares, sino evidencias de operaciones encubiertas que comprometen a altos funcionarios gubernamentales. Hunt y su equipo deberán descifrar complejos sistemas de seguridad, infiltrarse en organizaciones criminales internacionales y mantener su identidad en el más absoluto secreto mientras persiguen a traficantes de información dispuestos a subastar los datos al mejor postor. En este vertiginoso thriller de espionaje, las lealtades se ponen a prueba cuando descubren que la filtración podría originarse dentro de su propia organización, forzándolos a cuestionar cada alianza y a confiar únicamente en sus instintos más primarios. A medida que se desarrolla esta peligrosa misión de inteligencia, los agentes se ven inmersos en una carrera contra el tiempo donde la tecnología de vanguardia se combina con el combate cuerpo a cuerpo en escenas de acción meticulosamente coreografiadas. La búsqueda del dispositivo robado los lleva desde los canales de Venecia hasta los túneles del metro de Londres, enfrentándose a mercenarios profesionales cuyo único objetivo es asegurar la transferencia del material clasificado. En este universo donde nada es lo que parece, Hunt deberá emplear todas sus habilidades excepcionales para prevenir que información sensible caiga en manos equivocadas, demostrando por qué se ha convertido en.Mission Impossible Mission Impossible 1 MI-1 - Mission Impossible Misión Imposible Mission Impossible 1 Mission Impossible - IM1 Mission Impossible Nemoguća misija Mission Impossible 미션 임파서블 Mission Impossible 1 Миссия: Невыполнима 1 Mission Impossible Misija - Nemogoce Місія неможлива M:I-1 Mission Impossible Mission Impossible 01 Mission Impossible Mission Impossible I Mission: Impossible 1",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-29T22:09:30.286128",
+    "tamaño": "N/A",
+    "año": 1996,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/gkuatsze2c6t",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/gkuatsze2c6t"
+      }
+    ],
+    "id": "mission-impossible-1996"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Misterioso asesinato en la montaña",
+    "poster": "https://image.tmdb.org/t/p/w300/yfCPhG8z5eTmfYnKd4QWUgZ5vk4.jpg",
+    "descripcion": "Michel y Cathy, una pareja desgastada por el tiempo y las dificultades económicas, ya no se hablan. Hasta el día en que Michel, intentando esquivar a un oso en la carretera, choca contra un coche y mata a sus dos ocupantes. Con 2 muertos y 2 millones en billetes usados en el maletero, seguro que les dan ganas de volver a hablar. Y, sobre todo, de callar..MISTERIOSO ASESINATO EN LA MONTAÑA",
+    "categoria": [
+      "comedia"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "suspenso"
+    ],
+    "idioma": "español",
+    "calidad": "1080p",
+    "addedDate": "2025-11-30T22:43:01.577311",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 7.0,
+    "votos": 90000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://dintezuvio.com/embed/iefipw29xnsp",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/iefipw29xnsp"
+      }
+    ],
+    "id": "misterioso-asesinato-en-la-montana-2024"
+  },
+  {
+    "id": "moana-2016",
+    "tipo": "pelicula",
+    "titulo": "Moana",
+    "poster": "https://image.tmdb.org/t/p/w300/n7AJMME1l8xg3S7OKoFasW13N5l.jpg",
+    "descripcion": "",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura",
+      "comedia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T01:47:37.938613",
+    "tamaño": "N/A",
+    "año": 2016,
+    "calificacion": 7.3,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/ttcuhtwub65i"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/ttcuhtwub65i"
+      }
+    ]
+  },
+  {
+    "id": "moana-2-2024",
+    "tipo": "pelicula",
+    "titulo": "Moana 2",
+    "poster": "https://image.tmdb.org/t/p/w300/f4voSsbPTvaQwicwd1dyxICow6c.jpg",
+    "descripcion": "ras recibir una inesperada llamada de sus antepasados, Vaiana debe viajar a los lejanos mares de Oceanía y adentrarse en peligrosas aguas perdidas para vivir una aventura sin precedentes..Moana",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T01:02:09.633651",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 7.3,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/5e7shy6ho337"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/5e7shy6ho337"
+      }
+    ]
+  },
+  {
+    "id": "monster-island-2024",
+    "tipo": "pelicula",
+    "titulo": "Monster Island",
+    "poster": "https://image.tmdb.org/t/p/w300/x1JOs4xWNr1QYjDAXHxWw1NJ7Sq.jpg",
+    "descripcion": "Ambientada en el Pacífico, 1942. Un soldado japonés y un prisionero de guerra británico se encuentran varados en una isla desierta, perseguidos por una criatura mortal. Dos enemigos acérrimos deben unirse para sobrevivir a lo desconocido..オラン・イカン",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "terror fantasia accion suspenso"
+    ],
+    "favorito": false,
+    "genero": [
+      "terror",
+      "fantasia",
+      "accion",
+      "suspenso"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-21T18:04:45.664100",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 8.5,
+    "votos": 8000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/qtwuawbfbjnq"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/qtwuawbfbjnq"
+      }
+    ]
+  },
+  {
+    "id": "monstruos-sa-2001",
+    "tipo": "pelicula",
+    "titulo": "Monstruos, S.A.",
+    "poster": "https://image.tmdb.org/t/p/w300/8hMd1BIcCwISqxOdo1G4UXCEOI.jpg",
+    "descripcion": "",
+    "categoria": [
+      "anime"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T01:12:57.891719",
+    "tamaño": "N/A",
+    "año": 2001,
+    "calificacion": 6.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/j4adxyk552vk"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/j4adxyk552vk"
+      }
+    ]
+  },
+  {
+    "id": "moon-mi-amigo-panda-2025",
+    "tipo": "pelicula",
+    "titulo": "Moon, mi amigo panda",
+    "poster": "https://image.tmdb.org/t/p/w300/kCNgLDBj2Sd8VxfZjwWfLMfU4Yq.jpg",
+    "descripcion": "",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "familia",
+      "aventua"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-20T22:37:25.625759",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/qtspccu43nza"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/qtspccu43nza"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Mouseboat Massacre",
+    "poster": "https://image.tmdb.org/t/p/w300/ytXMH6LY6NE51asz40Iq34RVS74.jpg",
+    "descripcion": "Una joven que mientras enfrenta problemas de adiccion a sustancias malas empieza a ver a un raton-humano hibrido que empezará a afectar a su vida y de las personas que la rodean...",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-27T21:01:20.653168",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 9.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/7wpiyoco1682",
+        "calidad": "HD"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/7wpiyoco1682"
+      }
+    ],
+    "id": "mouseboat-massacre-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Muere, Hart",
+    "poster": "https://image.tmdb.org/t/p/w300/xz91Gre0w7tyl99jGEh5oGc8DQ7.jpg",
+    "descripcion": "El cómico estadounidense Kevin Hart quiere ser una estrella de acción, pero para conseguir un papel que cambie su vida, primero tiene que aprender a ser un héroe de acción..Die Hart ฮาร์ต อึดสุดพลัง Die Hart: The Movie תמות הארט: הסרט Die Hart - Il Film Hart: Duro de entrenar 終極哈特 猫胆虫威 动作巨星 Muere Hart 动作明星梦",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "comedia",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-24T23:30:18.900043",
+    "tamaño": "N/A",
+    "año": 2023,
+    "calificacion": 7.8,
+    "votos": 60000000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/kglch19kmrnp",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "muere-hart-2023",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/kglch19kmrnp"
+      }
+    ]
+  },
+  {
+    "id": "muerte-por-un-rayo-2025",
+    "tipo": "serie",
+    "titulo": "Muerte por un rayo:",
+    "poster": "https://ww4.pelisplushd.to/poster/death-by-lightning-thumb.jpg",
+    "descripcion": "Esta es la historia de James Garfield, quien, tras una infancia muy dura, llegó a convertirse en el vigésimo presidente de EE. UU., y de Charles Guiteau, el hombre que lo asesinó.",
+    "categoria": [
+      "series"
+    ],
+    "año": 2025,
+    "duracion": "51 m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "accion"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "",
+            "url": "https://streamwish.to/e/iusz44nwumrk"
+          },
+          {
+            "episodio": 2,
+            "titulo": "",
+            "url": "https://streamwish.to/e/eaiq4be98f8q"
+          },
+          {
+            "episodio": 3,
+            "titulo": "",
+            "url": "https://streamwish.to/e/i4nzd1e14e1l"
+          },
+          {
+            "episodio": 4,
+            "titulo": "",
+            "url": "https://streamwish.to/e/u0qws2gbgns3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mufasa-el-rey-leon-2024",
+    "tipo": "pelicula",
+    "titulo": "Mufasa: El rey león",
+    "poster": "https://ww4.pelisplushd.to/poster/mufasa-el-rey-leon-thumb.jpg",
+    "descripcion": "Ver Mufasa: El rey león Online Latino, Español, Subtituladas Gratis | Cuevana3. En esta precuela, Rafikiti es el encargado de contarle a Kiara, la joven hija de Nala y Simba, la leyenda de Mufasa. Esta historia, que cuenta con flashbacks acompañados del original humor de Timón y Pumba, narra cómo Mufasa, un león huérfano, vaga solo hasta que se topa con Taka, un descendiente de un linaje real.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2024,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "aventura",
+      "familia"
+    ],
+    "calificacion": 8.9,
+    "votos": 30000,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T23:10:10.198982",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/pobz58psaemb"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/udvssz9o15an"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/pobz58psaemb"
+      },
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/udvssz9o15an"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "My Mother's Wedding",
+    "poster": "https://image.tmdb.org/t/p/w500/feHTwv3BplNlLW3o9LtW2kqZLJg.jpg",
+    "descripcion": "Tres hermanas regresan a su casa para la tercera boda de su madre. Pero madre e hijas se ven obligadas a volver a visitar el pasado y confrontar el futuro, con la ayuda de un colorido grupo de invitados inesperados a la boda.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama"
+    ],
+    "director": "Kristin Scott Thomas",
+    "reparto": [
+      "Scarlett Johansson",
+      "Sienna Miller",
+      "Emily Beecham",
+      "Kristin Scott Thomas",
+      "Freida Pinto"
+    ],
+    "calificacion": 7.5,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:13:22.562349",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/zlchlufcioxn?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "my-mothers-wedding-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Nadie",
+    "poster": "https://image.tmdb.org/t/p/w300/uuFrRLw3i5cpJZMhiOjo5piZ0tj.jpg",
+    "descripcion": "En los suburbios aparentemente tranquilos de una ciudad cualquiera, Hutch Mansell encarna la figura del ciudadano común, un hombre que ha aprendido a absorber los golpes del destino sin inmutarse. Su existencia transcurre entre la rutina doméstica y un trabajo anodino, hasta que una intrusión nocturna pone a prueba su filosofía de vida. Cuando dos delincuentes violentos irrumpen en su hogar, Hutch opta por la no resistencia, creyendo firmemente que contener la confrontación protegerá a su familia de mayores males. Esta decisión tendrá consecuencias devastadoras en su entorno más cercano: su hija Blake, en plena adolescencia, manifiesta abiertamente su desilusión hacia la actitud paternal, mientras que su esposa Becca profundiza el distanciamiento emocional que ya carcomía su matrimonio. La trama de este thriller de acción se desarrolla explorando las complejidades de un hombre corriente atrapado en circunstancias extraordinarias. Lo que inicialmente parece ser la historia de un don nadie sometido se transforma gradualmente en un intenso drama sobre la redención personal y los límites de la paciencia. A medida que los eventos se precipitan, Hutch se verá forzado a confrontar aspectos de su pasado que había mantenido ocultos, revelando capas insospechadas de su carácter. La narrativa mantiene un ritmo creciente de suspense mientras examina hasta qué punto un hombre ordinario puede ser empujado antes de cruzar el umbral hacia la acción definitiva. Esta exploración del conflicto interno frente a las amenazas externas constituye el núcleo de una historia que cuestiona los conceptos tradicionales de heroísmo y supervivencia en el contexto contemporáneo, llevando al espectador a reflexionar sobre los mecanismos de defensa que cualquiera podría activar cuando todo parece perdido..Хэн ч биш Никто Ніхто 殺神NOBODY",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "crimen",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-27T19:41:18.035352",
+    "tamaño": "N/A",
+    "año": 2021,
+    "calificacion": 9.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/1kirpz1haku3",
+        "calidad": "HD"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/1kirpz1haku3"
+      }
+    ],
+    "id": "nadie-2021"
+  },
+  {
+    "id": "nadie-2-2025",
+    "tipo": "pelicula",
+    "titulo": "Nadie 2",
+    "poster": "https://ww4.pelisplushd.to/poster/nadie-2-thumb.jpg",
+    "descripcion": "Cuatro años después de enfrentarse involuntariamente a la mafia rusa, Hutch sigue manteniendo con la organización criminal una deuda de 30 millones de dólares que trata de saldar poco a poco con una serie interminable de golpes contra matones internacionales. Pese a disfrutar como siempre de la faceta más trepidante y física de su «trabajo», Hutch y su esposa Becca se sienten agotados y distanciados. Para intentar remediarlo, deciden llevarse a sus hijos de escapada al mismo lugar al que Hutch iba de vacaciones con su hermano Harry cuando eran pequeños.",
+    "categoria": [
+      "accion"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "Accion",
+      "suspenso"
+    ],
+    "calificacion": 8.1,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T19:19:03.227792",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/ynz4giw2bue5"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/ynz4giw2bue5"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Nadie sabe quién soy yo",
+    "poster": "https://image.tmdb.org/t/p/w300/7TNBs393l7pOKDZsk6q9BAiUTaD.jpg",
+    "descripcion": "Cuando una joven desempleada es confundida con la pareja de un millonario en coma, ella y sus amigas trabajarán juntas para mantener la farsa..",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-25T21:29:15.241643",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "vix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/ercgdfe9snnr",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/ercgdfe9snnr"
+      }
+    ],
+    "id": "nadie-sabe-quien-soy-yo-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Naruto La Película",
+    "poster": "https://image.tmdb.org/t/p/w300/e1VqLmhz2QpjfCMNGne8ETapBco.jpg",
+    "descripcion": "En las gélidas tierras del País de la Nieve se desarrolla una misión que pondrá a prueba las habilidades del equipo más impredecible de Konoha. Lo que comienza como un simple acompañamiento para el rodaje cinematográfico pronto revela su verdadera naturaleza: Yukie Fujikaze, la enigmática actriz que protagoniza la película, es en realidad la legítima heredera al trono, obligada a huir de su propio reino tras el golpe de estado orquestado por su ambicioso tío. Mientras el equipo de Kakashi se adentra en paisajes dominados por eternas ventiscas y majestuosas fortalezas de hielo, deberán enfrentarse a los temibles guerreros del tío usurpador, quienes emplean avanzadas armaduras tecnológicas que potencian sus habilidades ninja. La princesa rebelde se muestra reacia a reclamar su legítimo puesto, ocultando un profundo trauma relacionado con el trágico destino de su familia. Naruto, con su característica perseverancia, intentará hacerla entender la importancia de luchar por su pueblo oprimido, mientras Sasuke despliega su aguda percepción para detectar las constantes emboscadas y Sakura demuestra su creciente dominio médico. El viaje se transforma en una carrera contra el tiempo a través de glaciares traicioneros y antiguos templos ocultos, donde cada escena cinematográfica sirve como cobertura para una peligrosa operación de rescate político. La verdadera batalla no solo se librará con shurikens y jutsus, sino con la determinación de una princesa que debe reconciliarse con su pasado para poder forjar el futuro de toda una nación..Naruto Movie 1 - Geheimmission im Land des ewigen Schnees Naruto: Daikatsugeki! Yukihime Ninpocho Dattebayo! Naruto : Les chroniques ninja de la princesse des neiges 火影忍者剧场版：大活剧！雪姬忍法帖 대활극!! 설희인법첩 Naruto 1: Confronto Ninja no País da Neve! NARUTO: NINJA ĐẠI CHIẾN Ở TUYẾT QUỐC Naruto Film 1 - Naruto et la Princesse des neiges Naruto: It's the Snow Princess' Ninja Art Book! Naruto The Movie Naruto the Movie: Ninja Clash in the Land of Snow Naruto 1: Záchrana sněžné princezny Naruto - Geheimmission im Land des ewigen Schnees",
+    "categoria": [
+      "naruto"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion",
+      "aventura",
+      "comedia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-02T18:29:13.292334",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2004,
+    "calificacion": 9.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/74nzhy1lmgs7",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/74nzhy1lmgs7"
+      }
+    ],
+    "id": "naruto-la-pelicula-2004"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Naruto La Película 2: La Leyenda de la piedra de Gelel",
+    "poster": "https://image.tmdb.org/t/p/w300/itKMldwL6uhUZYO3X78NOFU4zzO.jpg",
+    "descripcion": "En las tierras desoladas donde antaño floreció una civilización ancestral, una expedición militar liderada por el carismático caballero Temujin busca los fragmentos dispersos de la legendaria Piedra de Gelel. Este cristal ancestral, capaz de manipular las fuerzas vitales de la naturaleza, promete un poder que trasciende la comprensión humana: sanar heridas mortales en instantes, hacer florecer bosques enteros en cuestión de horas y otorgar capacidades sobrehumanas. Mientras Naruto Uzumaki y sus compañeros Shikamaru y Sakura realizan una misión de rutina, su camino se cruza fatalmente con esta búsqueda cuando conocen a Haido, último descendiente del clan que originalmente dominó la energía de Gelel. La trama se desarrolla en imponentes fortalezas móviles y yermos paisajes donde yacen los vestigios de una guerra olvidada. Lo que comenzó como un descubrimiento benévolo se convirtió en la semilla de la destrucción cuando las ambiciones humanas corrompieron el propósito original de la piedra. Temujin, obsesionado con recrear el antiguo reino de su maestro, emplea un ejército de soldados mejorados y criaturas de sombra que amenazan con alterar el equilibrio mundial. Naruto deberá enfrentarse no solo a enemigos con habilidades sobrehumanas, sino también a profundas cuestiones sobre el verdadero precio del progreso y la naturaleza de la paz. Mientras los secretos del clan Gelel salen a la luz, revelando cómo su tecnología avanzada condujo a su propia caída, nuestro equipo de shinobis se ve inmerso en un conflicto que prueba sus lazos más allá del campo de batalla. La lucha culmina en una confrontación épica donde el destino de civilizaciones pasadas y futuras pende del filo de la espada, cuestionando si algún poder, por bienintencionado que sea, puede ser manejado sin caer en la corrupción..Naruto the Movie - Legend of the Stone of Gelel Naruto Movie 2 - La leggenda della pietra di Gelel 대격돌! 환상의 지하유적 Naruto 2: As Ruínas Fantasmas nos Confins da Terra! Naruto the Movie 2: Legend of the Stone of Gelel Naruto - The Movie 2: Die Legende des Steins von Gelel Naruto - Die Legende des Steins von Gelel Naruto le film : la légende de la pierre de Guelel",
+    "categoria": [
+      "naruto"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura",
+      "fantasia"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-02T18:43:55.210871",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2005,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/tspbqiyes7b3",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/tspbqiyes7b3"
+      }
+    ],
+    "id": "naruto-la-pelicula-2-la-leyenda-de-la-piedra-de-gelel-2005"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Naruto la Película: ¡La Gran Excitación! Pánico Animal en la Isla de la Luna",
+    "poster": "https://ww5.pelisplushd.to/poster/naruto-la-pelicula-la-gran-excitacion-panico-animal-en-la-isla-de-la-luna-thumb.jpg",
+    "descripcion": "",
+    "categoria": [
+      "naruto"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "acción",
+      "animación",
+      "aventura"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-02T17:59:33.368696",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2006,
+    "calificacion": 9.0,
+    "votos": 7000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/prb5zyt2uwvb",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/prb5zyt2uwvb"
+      }
+    ],
+    "id": "naruto-la-pelicula-la-gran-excitacion-panico-animal-en-la-isla-de-la-luna-2006"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Naruto Shippuden 1: La Muerte de Naruto",
+    "poster": "https://image.tmdb.org/t/p/w300/vaEX9f8ud7iF0G7EoyGxAyRNV1p.jpg",
+    "descripcion": "En el reino oculto del País de los Demonios, una antigua profecía se desata cuando las temibles bestias mitológicas que una vez sumieron al mundo en el caos resurgen de entre las sombras. La clave para contener esta amenaza inminente recae en Shion, la sacerdotisa del santuario cuyos extraordinarios dones la convierten en la última barrera contra la aniquilación. Mientras su poder de sellado representa la única esperanza para contener a estas entidades destructivas, su segunda habilidad —la capacidad de vislumbrar el destino fatal de cualquier ser humano— revela un futuro aciago para Naruto Uzumaki, el ninja designado como su protector. La misión de custodia se transforma en un dilema existencial cuando la visión profética de Shion anuncia la muerte inminente de Naruto durante su misión de protección. El único camino para evadir este destino sería abandonar su puesto, pero esta retirada dejaría a la sacerdotisa vulnerable ante las fuerzas oscuras que conspiran para eliminarla. Si Shion cae, los demonios quedarían libres para desatar su destrucción sobre el mundo, creando una encrucijada donde la supervivencia individual choca con la responsabilidad global. Desafiando las leyes del destino, Naruto toma la decisión que definirá el curso de los eventos: enfrentar la profecía mortal permaneciendo al lado de Shion. Esta determinación transforma su misión de protección en una carrera contra el tiempo, donde deberá confrontar no solo a las bestias ancestrales sino también al inexorable curso del futuro que se avecina. La narrativa explora la compleja dinámica entre estos dos personajes mientras navegan paisajes asolados por fuerzas sobrenaturales, donde cada decisión carga el peso de consecuencias cataclísmicas y donde el coraje de un joven ninja podría reescribir lo que el destino ha decretado como inevitable..Naruto Shippuden Movie 1 Naruto Shippuden: The Movie Naruto Shippuden The Movie Naruto Shippuden The Movie 1 Naruto Shippuden: Movie 1 劇場版 Naruto 疾風伝 나루토 질풍전 Naruto Shippuden Film 1 Naruto Shippuden : La Disparition de Naruto Naruto Shippuden : Un funeste présage Naruto Shippuden : La Mort de Naruto Naruto Shippuden: O Filme Naruto Shippuuden : Un funeste présage Naruto Šippuden 1 Naruto Shippuden",
+    "categoria": [
+      "naruto"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion",
+      "fantasia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-02T18:41:59.219644",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2007,
+    "calificacion": 7.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/1awumszxo2fe",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/1awumszxo2fe"
+      }
+    ],
+    "id": "naruto-shippuden-1-la-muerte-de-naruto-2007"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Naruto Shippuden 2: Kizuna",
+    "poster": "https://image.tmdb.org/t/p/w300/3JGx8nRdsMWB6crJtIqRBteK5V3.jpg",
+    "descripcion": "En medio de la aparente paz que reinaba en Konoha, una facción de shinobis desconocidos desata el caos con un ataque devastador que reduce la aldea a escombros. Las llamas consumen los emblemáticos edificios mientras el humo se eleva sobre lo que alguna vez fue el orgullo de la nación del fuego. Este asalto meticulosamente planeado revela grietas en las defensas de la aldea y despierta fantasmas de conflictos pasados, sembrando la semilla de lo que podría convertirse en un nuevo conflicto a escala mundial entre las naciones shinobi. En este panorama desolador, emerge una figura inesperada: Sasuke Uchiha, quien tras abandonar Konoha en su búsqueda de poder para vengar a su clan, regresa acompañado de sus leales compañeros. Su reaparición genera tensiones entre los defensores de la aldea, particularmente con Naruto Uzumaki, quien mantiene una conexión compleja con su antiguo amigo. Mientras los supervivientes buscan entre los escombros, ambos jóvenes deberán enfrentarse no solo a la amenaza externa, sino también a los demonios personales que los han perseguido desde su entrenamiento bajo el tutelaje de Kakashi Hatake. La trama se desarrolla en un escenario donde las lealtades serán puestas a prueba y las habilidades ninja llevadas al límite. La posibilidad de una guerra shinobi a gran escala se cierne sobre el mundo mientras facciones ocultas maniobran en las sombras. La película explora los lazos que unen a estos guerreros, las cicatrices que cargan y el precio de la redención en un universo donde el chakra fluye como fuente de poder y los jutsus definen el destino de naciones enteras..Gekijo-Ban Naruto Shippuuden: Kizuna Naruto Movie 5 Naruto Shippūden: Kizuna Naruto Shippūden: Bonds Naruto Shippuden Movie 2: Bonds 劇場版NARUTO-ナルト- 疾風伝 絆 Naruto Shippuden: Lazos Naruto Shippuden 2: Laços Naruto Shippuden - The Movie 2: Bonds Naruto Shippuuden : Les liens Naruto Shippuuden 2: Pouta Naruto Shippuden - Bonds Naruto Shippūden 2: Les Liens",
+    "categoria": [
+      "naruto"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion",
+      "fantasia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-02T18:31:21.969547",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2008,
+    "calificacion": 8.0,
+    "votos": 90000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/brnwt6xzoy51",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/brnwt6xzoy51"
+      }
+    ],
+    "id": "naruto-shippuden-2-kizuna-2008"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Naruto Shippuden 3: Los Herederos de la Voluntad de Fuego",
+    "poster": "https://image.tmdb.org/t/p/w300/zenbG1YRXC2Fs4UusjqZw5T4lNr.jpg",
+    "descripcion": "En un mundo donde las tensiones entre las aldeas ninja alcanzan su punto más álgido, una misteriosa ola de desapariciones amenaza con desencadenar un conflicto a escala global. Habitantes con habilidades únicas de Kekkei Genkai están desapareciendo sistemáticamente de cuatro grandes aldeas, dejando a Konoha como la única comunidad ninja no afectada por estos sucesos inexplicables. Esta circunstancia peculiar convierte inmediatamente a la Aldea Oculta de la Hoja en la principal sospechosa ante los ojos de las demás naciones shinobi. Mientras los rumores sobre una posible rebelión de Konoha se propagan como pólvora, las tensiones geopolíticas alcanzan niveles críticos. Las fronteras del País del Fuego comienzan a ser vulneradas por fuerzas militares de otras tierras, preparándose para lo que parece ser una invasión inminente. Ante esta delicada situación diplomática, el Señor Feudal emite un ultimátum irrevocable: la Quinta Hokage, Tsunade, debe identificar y capturar a los verdaderos responsables de las desapariciones para demostrar la inocencia de su aldea. El equipo conformado por Naruto Uzumaki y sus compañeros se enfrenta a una carrera contra el tiempo para resolver este complejo misterio que amenaza con desatar la Cuarta Gran Guerra Mundial Shinobi. Cada pista que descubren los lleva más profundamente hacia una conspiración que parece tener ramificaciones inesperadas y consecuencias devastadoras. Mientras investigan estos sucesos que involucran a los herederos de la voluntad de fuego, deberán navegar por un paisaje político cargado de desconfianza y acusaciones infundadas, donde cada movimiento en falso podría significar el colapso total de su aldea y el inicio de un conflicto que consumiría a todo el mundo ninja..Naruto Shippuden the Movie: The Will of Fire Naruto Shippuden 3: Inheritors of the Will of Fire Naruto Shippuuden 3: Inheritors of the Will of Fire Gekijōban Naruto Shippūden Hi no Ishi wo Tsugumono Naruto Shippûden : Les Héritiers De La Volontés Du Feu Naruto Shippuuden Movie 3: Inheritors of the Will of Fire Naruto Shippūden The Movie: Inheritors of the Will of Fire 劇場版 Naruto -ナルト- 疾風伝 火の意志を継ぐ者 불의 의지를 잇는 자 Naruto Shippuden 3: Herdeiros da Vontade de Fogo Naruto Shippuden - The Movie 3: Die Erben des Willens des Feuers Naruto Shippuuden 3: Dědicové Ohnivé vůle Naruto Shippuden - Die Erben des Willens des Feuers Gekijouban Naruto Shippuuden Hi no Ishi o Tsugu Mono",
+    "categoria": [
+      "naruto"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion",
+      "aventura",
+      "comedia",
+      "drama",
+      "fantasia"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-02T18:33:47.680591",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2009,
+    "calificacion": 7.0,
+    "votos": 70000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/33i3ppm8gnlt",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/33i3ppm8gnlt"
+      }
+    ],
+    "id": "naruto-shippuden-3-los-herederos-de-la-voluntad-de-fuego-2009"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Naruto Shippuden 4: La torre perdida",
+    "poster": "https://image.tmdb.org/t/p/w300/qjvBdP9L3pGCjDw33EkZN3ogLB9.jpg",
+    "descripcion": "En una misión de rutina para capturar a Mukade, un misterioso ninja renegado, Naruto Uzumaki y su equipo se ven arrastrados hacia una catástrofe temporal cuando el enemigo activa un antiguo artefacto prohibido. Una energía ancestral desgarra el tejido del tiempo, proyectando al joven shinobi dos décadas atrás, justo en el epicentro de una crisis que marcó la historia de Konoha. Atrapado en una era pasada, Naruto deberá colaborar con una generación anterior de héroes mientras la misteriosa Torre Chikara amenaza con desestabilizar el equilibrio mundial. El escenario temporal plantea un dilema único cuando Naruto se encuentra trabajando codo con codo con Minato Namikaze, el legendario Cuarto Hokage cuyo destino siempre había conocido pero cuya esencia desconocía por completo. Juntos, padre e hijo unen fuerzas sin revelar su verdadero vínculo, enfrentándose a un enemigo que posee la capacidad de manipular el flujo temporal. La torre perdida emerge como el epicentro de este conflicto temporal, desatando poderes que desafían las leyes naturales del mundo ninja. Mientras la línea temporal comienza a fracturarse, Naruto descubre que su viaje al pasado guarda sorprendentes conexiones con eventos que moldearán su propio futuro. La misión se transforma en una carrera contra el tiempo para restaurar el orden temporal antes que ambos periodos colapsen irreversiblemente. Esta aventura a través de las décadas revela secretos fundamentales sobre el legado de Konoha y los sacrificios que definieron el mundo que Naruto juró proteger, en una experiencia que redefine su comprensión sobre el honor, el deber y el verdadero significado del poder..劇場版Naruto-ナルト-疾風伝 ザ・ロストタワー Naruto Shippuden: La Torre Perdida Naruto Shippuden Movie 4: The Lost Tower Naruto Shippuden 4: A Torre Perdida Naruto Shippuden - The Movie 4: The Lost Tower Naruto Shippuuden 4: Ztracená věž Naruto Shippuden - The Lost Tower Naruto Shippuden 4 : La tour perdue",
+    "categoria": [
+      "naruto"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion",
+      "aventura"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-02T18:37:38.506165",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2010,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/xq5v8r6qxtux",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/xq5v8r6qxtux"
+      }
+    ],
+    "id": "naruto-shippuden-4-la-torre-perdida-2010"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Naruto Shippuden 5: Prisión de Sangre",
+    "poster": "https://image.tmdb.org/t/p/w300/3IdPC9SO1lyrxlMu3lCnH6aVbKh.jpg",
+    "descripcion": "En las profundidades de las montañas ocultas se alza una fortaleza temible conocida como la Prisión de Sangre, un complejo de máxima seguridad donde Naruto Uzumaki enfrenta su encarcelamiento más desafiante. Acusado falsamente del intento de asesinato contra el Raikage y de crímenes contra ninjas de aldeas aliadas, el joven shinobi debe navegar por este laberinto de hierro y oscuridad donde las técnicas de contención penal representan una amenaza constante. El capitán Mui, guardián implacable de esta instalación, emplea un jutsu de supresión único que drena progresivamente la energía vital de los reclusos, planteando un desafío sin precedentes para quienes buscan escapar de esta prisión de alta seguridad. Mientras el chakra de Naruto disminuye peligrosamente bajo los efectos del sello carcelario, sus compañeros emprenden una misión desesperada para desentrañar la conspiración que lo incriminó. La verdad sobre los asesinatos de los jonin se revela como parte de un complot más siniestro que amenaza el frágil equilibrio entre las aldeas ninja. En este escenario de suspense y acción constante, cada descubrimiento acerca a nuestro héroe y sus aliados a enfrentamientos decisivos dentro de los corredores infernales del complejo. La batalla para demostrar su inocencia se convierte en una carrera contra el tiempo, donde las habilidades únicas de Naruto y la determinación de sus amigos serán puestas a prueba en extremo mientras intentan desbaratar los planes del misterioso capitán y exponer las maquinaciones tras su encarcelamiento en esta fortaleza impregnada de terror y misterio..Наруто 8: Кровавая тюрьма Naruto Shippuden Movie 5: Blood Prison 劇場版 Naruto -ナルト- ブラッド・プリズン Naruto shipuden - La prison ensanglantée Naruto Shippuden 5: A Prisão de Sangue Naruto Shippuden - The Movie 5: Blood Prison Naruto: La prigione insanguinata 나루토 질풍전 극장판 5기-블러드 프리즌 Naruto Shippuuden 5: Krvavé vězení Naruto Shippuden - Blutgefaengnis Naruto Shippuden Film 5 - La Prison Ensanglantée Naruto le film: La Prison sanglante Naruto Shippuden : La prison de sang Prision de Sangre",
+    "categoria": [
+      "naruto"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion",
+      "comedia",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-02T18:40:03.080419",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2011,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/zj9ep33ckqm8",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/zj9ep33ckqm8"
+      }
+    ],
+    "id": "naruto-shippuden-5-prision-de-sangre-2011"
+  },
+  {
+    "id": "ne-zha-2-el-renacer-del-alma-2025",
+    "tipo": "pelicula",
+    "titulo": "Ne Zha 2: El Renacer del Alma",
+    "poster": "https://ww4.pelisplushd.to/poster/ne-zha-2-el-renacer-del-alma-thumb.jpg",
+    "descripcion": "Después de la catástrofe, aunque las almas de Nezha y Aobing fueron salvadas, sus cuerpos pronto serían destrozados. Taiyi Zhenren planeaba usar el loto de siete colores para reconstruir sus cuerpos.",
+    "categoria": [
+      "aventura"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/fp4ho8ahnmxt"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/fp4ho8ahnmxt"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Necaxa",
+    "poster": "https://image.tmdb.org/t/p/w300/tKiQ7H60U8hLCzCBQpzbHGfFGTm.jpg",
+    "descripcion": "El querido equipo de fútbol mexicano Club Necaxa se esfuerza por recuperar su lugar como uno de los mejores equipos de México, mientras que su dueña mexicoamericana Eva Longoria intenta darle nueva vida al equipo con la ayuda de sus amigos de alto perfil, incluidos los nuevos copropietarios Rob Mac y Ryan Reynolds..",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-24T21:33:03.928671",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 6.8,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/vxt4w69r93bx"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/51f0cxi9espp"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/ghcxbf65nrrf"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/37aamzpwkv1i"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/oi5t6wb2irhb"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/bbofwnjlc28a"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/cfv5drkqvsrm"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dintezuvio.com/embed/iml6ye7cmgii"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://dintezuvio.com/embed/l0bdr1ibf1ne"
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://dintezuvio.com/embed/1gsxzc1490k2"
+          }
+        ]
+      }
+    ],
+    "id": "necaxa-2025"
+  },
+  {
+    "id": "ninos-grandes-2-2013",
+    "tipo": "pelicula",
+    "titulo": "Niños grandes 2",
+    "poster": "https://image.tmdb.org/t/p/w300/5vLeJchL3zosBj10CJP1h54xyBs.jpg",
+    "descripcion": "",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T01:21:32.664297",
+    "tamaño": "N/A",
+    "año": 2013,
+    "calificacion": 9.5,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/cqjbpac29wzr"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/cqjbpac29wzr"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "No dormirás esta noche",
+    "poster": "https://image.tmdb.org/t/p/w300/klVYa71WolLPhtz0k6FbE4tRidt.jpg",
+    "descripcion": "Un niño es perseguido por pesadillas en las que un monstruo acecha dentro del armario. Para su alivio, su padre le ayuda a enfrentarse a sus miedos..Esta noche no dormirás Esta noche no dormirás",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "terror suspenso"
+    ],
+    "favorito": false,
+    "genero": [],
+    "calidad": "HD",
+    "addedDate": "2025-11-22T17:35:20.259012",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 9.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/acbga628pj49"
+      }
+    ],
+    "id": "no-dormiras-esta-noche-2024",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/acbga628pj49"
+      }
+    ]
+  },
+  {
+    "id": "no-manches-frida-2016",
+    "tipo": "pelicula",
+    "titulo": "No Manches Frida",
+    "poster": "https://ww4.pelisplushd.to/poster/no-manches-frida-thumb.jpg",
+    "descripcion": "Después de salir de la prisión, el ladrón de bancos Zequi se dispone a recuperar el dinero robado que fue enterrado por su cómplice, pero se horroriza al saber que un gimnasio de secundaria está ahora sobre el sitio donde el botín está escondido. Para infiltrarse en el edificio, Zequi consigue un trabajo como maestro sustituto para un grupo de estudiantes indisciplinados y, mientras intenta establecer el orden, se da cuenta de que la vida en la cárcel era más fácil que lidiar con estos jóvenes.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2016,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://streamwish.to/e/s2jrn51bk9nl"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/s2jrn51bk9nl"
+      }
+    ]
+  },
+  {
+    "id": "no-manches-frida-2-2019",
+    "tipo": "pelicula",
+    "titulo": "No Manches Frida 2",
+    "poster": "https://ww4.pelisplushd.to/poster/no-manches-frida-2-thumb.jpg",
+    "descripcion": "Zequi y Lucy están por casarse. Todo parece marchar color de rosa y están a un día de la boda cuando llega la despedida de soltero. A pesar de que él promete portarse bien y no excederse, las cosas se salen de control.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2019,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "\"https://streamwish.to/e/sq9jvf4yr9gd\""
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "\"https://streamwish.to/e/sq9jvf4yr9gd\""
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "No Tears in Hell",
+    "poster": "https://image.tmdb.org/t/p/w300/zPI3xK4a4oXUZVrxNWLc8Rck0Cd.jpg",
+    "descripcion": "En las gélidas profundidades de Alaska, donde la noche polar extiende su manto durante meses, se desarrolla una perturbadora historia de supervivencia perversa. La residencia de los Mercer, aparentemente un refugio contra las tormentas invernales, oculta prácticas que desafían toda moralidad. Eleanor Mercer y su adolescente Liam han perfeccionado un macabro sistema donde la hospitalidad se convierte en una trampa mortal para viajeros desprevenidos. Las víctimas son meticulosamente seleccionadas entre aquellos cuyas desapariciones no alertarán a las autoridades, transformando el concepto de hogar en una cámara de horrores. El ritual comienza con una aparente bondad: ofrecen calor y alimento a conductores varados por las ventiscas. Sin embargo, lo que parece caridad pronto revela su verdadera naturaleza siniestra. Los visitantes descubren demasiado tarde que han caído en una red de abuso sistemático antes de enfrentar su destino final. La dinámica entre madre e hijo muestra una escalofriante complicidad, donde los roles familiares convencionales se distorsionan hasta lo irreconocible. Mientras el exterior se congela, dentro de la casa se perpetúan atrocidades que convierten la supervivencia humana en un negocio macabro. Esta narrativa de terror y crimen explora los límites de la condición humana cuando se enfrenta al aislamiento extremo. La nieve que cubre todo no logra ocultar los secretos que yacen bajo la superficie, creando una atmósfera donde la desconfianza se vuelve tan penetrante como el frío. Los viajeros que buscan refugio temporal encuentran instead un destino irreversible, en una espiral descendente donde la compasión ha sido reemplazada por la depravación más absoluta..",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "terror crimen"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-27T20:11:52.881612",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 9.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/jz68186nzgma",
+        "calidad": "HD"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/jz68186nzgma"
+      }
+    ],
+    "id": "no-tears-in-hell-2025"
+  },
+  {
+    "id": "noche-de-chicas-2023",
+    "tipo": "serie",
+    "titulo": "Noche de chicas",
+    "poster": "https://ww4.pelisplushd.to/poster/noche-de-chicas-thumb.jpg",
+    "descripcion": "Una historia de amistad y venganza en la que ellas, por el peso de la herida abierta, no serán solo las víctimas, sino también los verdugos. Un viaje de autodescubrimiento de cinco amigas que tienen la posibilidad de hacer justicia por mano propia. Lola planeó durante meses su venganza, sin embargo, todo empieza a salir mal cuando sus amigas de la infancia vuelven ocasionalmente al pueblo sin previo aviso y pronto descubren su plan. Lola ahora solo tiene dos opciones: o las convence de que miren hacia otro lado o para que se unan a su plan.",
+    "categoria": [
+      "series"
+    ],
+    "año": 2023,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/orjsx3nzgnu9"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/rsvd8er305wi"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/qa1guxxiyqzc"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/g65z2jj6g8e4"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/lgw5sxrt89v5"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/rcnz43wmbv0n"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "norbert-2025",
+    "tipo": "pelicula",
+    "titulo": "Norbert",
+    "poster": "https://ww4.pelisplushd.to/poster/norbert-thumb.jpg",
+    "descripcion": "Norbert es un espía incompetente en una nación gris, burocrática y triste. Sus gobernantes sueñan con conquistar a su colorido vecino, un pequeño y alegre país donde todo funciona al revés en un caos total y absurdo, algo que hace terriblemente felices a sus habitantes. A pesar de su total inutilidad, Norbert se convertirá en una pieza clave para desbaratar los planes de su propio gobierno. Acompañado de sus estrafalarios compañeros, compartirá aventuras, diversión y peligros en un intento por salvar Colorlandia y lograr su propia felicidad.",
+    "categoria": [
+      "anime"
+    ],
+    "año": 2025,
+    "duracion": "1h 15m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "https://xenolyzb.com/e/s44bnyj26f63",
+        "url": "https://xenolyzb.com/e/s44bnyj26f63"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "https://xenolyzb.com/e/s44bnyj26f63",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://xenolyzb.com/e/s44bnyj26f63"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "nosotros los guapos",
+    "poster": "https://image.tmdb.org/t/p/w300/4UBNKLvpGotNQ8bo3ZuaWgmh6FV.jpg",
+    "descripcion": "Albertano y ‘El Vitor’ llegarán a la vecindad de Doña Cuca en donde buscarán superarse para cumplir sus sueños, pero se encontrarán con los divertidos obstáculos que los alejaran de ellos y descubrirán que juntos pueden llegar lejos. Pero la lucha por el amor de Rosita los hará también ser rivales de amores..",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "comedia"
+    ],
+    "favorito": false,
+    "genero": [],
+    "calidad": "HD",
+    "addedDate": "2025-11-22T16:34:49.259013",
+    "tamaño": "N/A",
+    "año": 2016,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://ok.ru/videoembed/3009552779806"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://ok.ru/videoembed/3009553173022"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://ok.ru/videoembed/3011374025246"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://ok.ru/videoembed/3009553304094"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://ok.ru/videoembed/3009553435166"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://ok.ru/videoembed/3009553631774"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://ok.ru/videoembed/3009553828382"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://ok.ru/videoembed/3009553893918"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://ok.ru/videoembed/3009554024990"
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://ok.ru/videoembed/3009554090526"
+          },
+          {
+            "episodio": 11,
+            "titulo": "Episodio 11",
+            "url": "https://ok.ru/videoembed/3009554221598"
+          },
+          {
+            "episodio": 12,
+            "titulo": "Episodio 12",
+            "url": "https://ok.ru/videoembed/3009554287134"
+          },
+          {
+            "episodio": 13,
+            "titulo": "Episodio 13",
+            "url": "https://ok.ru/videoembed/3009554352670"
+          },
+          {
+            "episodio": 14,
+            "titulo": "Episodio 14",
+            "url": "https://ok.ru/videoembed/3009554549278"
+          },
+          {
+            "episodio": 15,
+            "titulo": "Episodio 15",
+            "url": "https://ok.ru/videoembed/3009554680350"
+          },
+          {
+            "episodio": 16,
+            "titulo": "Episodio 16",
+            "url": "https://ok.ru/videoembed/3009554942494"
+          },
+          {
+            "episodio": 17,
+            "titulo": "Episodio 17",
+            "url": "https://ok.ru/videoembed/3009555073566"
+          },
+          {
+            "episodio": 18,
+            "titulo": "Episodio 18",
+            "url": "https://ok.ru/videoembed/3009555270174"
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://ok.ru/videoembed/2675727206926"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://ok.ru/videoembed/2675727272462"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://ok.ru/videoembed/2675727534606"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://ok.ru/videoembed/2675727665678"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://ok.ru/videoembed/2675727927822"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://ok.ru/videoembed/2675728058894"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://ok.ru/videoembed/2675728189966"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://ok.ru/videoembed/2675728452110"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://ok.ru/videoembed/2675728583182"
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://ok.ru/videoembed/2675728779790"
+          },
+          {
+            "episodio": 11,
+            "titulo": "Episodio 11",
+            "url": "https://ok.ru/videoembed/2675728976398"
+          },
+          {
+            "episodio": 12,
+            "titulo": "Episodio 12",
+            "url": "https://ok.ru/videoembed/2675729238542"
+          },
+          {
+            "episodio": 13,
+            "titulo": "Episodio 13",
+            "url": "https://ok.ru/videoembed/2675729369614"
+          }
+        ]
+      }
+    ],
+    "id": "nosotros-los-guapos-2016",
+    "idioma": "latino"
+  },
+  {
+    "id": "novocaine-sin-dolor-2025",
+    "tipo": "pelicula",
+    "titulo": "Novocaine sin dolor",
+    "poster": "https://ww4.pelisplushd.to/poster/novocaine-sin-dolor-thumb.jpg",
+    "descripcion": "Cuando la chica de sus sueños es secuestrada, un hombre común Nate convierte su incapacidad de no sentir dolor en una fortaleza inesperada en su lucha por recuperarla.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "Accion",
+      "comedia",
+      "suspenso"
+    ],
+    "calificacion": 8.1,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T20:13:21.257541",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/hjrhuta6uj2k"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/hjrhuta6uj2k"
+      }
+    ]
+  },
+  {
+    "id": "numero-desconocido-un-escandalo-de-ciberacoso-escolar-2025",
+    "tipo": "pelicula",
+    "titulo": "Número desconocido: Un escándalo de ciberacoso escolar",
+    "poster": "https://ww4.pelisplushd.to/poster/numero-desconocido-un-escandalo-de-ciberacoso-escolar-thumb.jpg",
+    "descripcion": "Mensajes vulgares y burlones llenan los teléfonos de una adolescente y su novio. ¿Quién los envía y por qué? Este documental lleno de giros revela la impactante respuesta.",
+    "categoria": [
+      "documental"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental"
+    ],
+    "calificacion": 7.0,
+    "votos": 2333,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T01:49:24.948906",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/72ji7w2tfn5b"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/72ji7w2tfn5b"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "oficina 749",
+    "poster": "https://ww5.pelisplushd.to/poster/749-thumb.jpg",
+    "descripcion": "En un futuro próximo, la Tierra enfrenta un desastre catastrófico causado por una criatura desconocida. Ma Shan, un joven marginado se une a la misteriosa Oficina 749 para enfrentar la crisis.",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "acccion",
+      "aventura",
+      "ciencia",
+      "ficcion"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-01T18:19:36.782829",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2024,
+    "calificacion": 7.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/32im9b0ml7ia",
+        "calidad": "1080p"
+      },
+      {
+        "idioma": "español",
+        "url": "https://dintezuvio.com/embed/n3wxy6cw3hia",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/32im9b0ml7ia"
+      },
+      {
+        "calidad": "1080p",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/n3wxy6cw3hia"
+      }
+    ],
+    "id": "oficina-749-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Oh, Hi!",
+    "poster": "https://image.tmdb.org/t/p/w300/8nBOFo78pKgzLipgGZhC8VA33wp.jpg",
+    "descripcion": "La primera escapada romántica de fin de semana de Iris e Isaac se tuerce de la forma más inesperada. Cuando la relación se desmorona, la desesperada esperanza de Iris de que la reticencia de su novio a comprometerse sea simplemente confusión la lleva a tomar medidas cada vez más desquiciadas para consolidar la relación..אה היי!",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "romance"
+    ],
+    "idioma": "español",
+    "calidad": "HD",
+    "addedDate": "2025-11-25T22:13:24.766827",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://dintezuvio.com/embed/6fcp6ht968mh",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/6fcp6ht968mh"
+      }
+    ],
+    "id": "oh-hi-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Ojalá me lo hubieras dicho",
+    "poster": "https://image.tmdb.org/t/p/w500/qKuos4fGcntgeXXgR3NAmTU0kOU.jpg",
+    "descripcion": "Al descubrir que su difunto padre guardó toda la vida el secreto de un amor prohibido, un joven misionero viaja de Filipinas a España para buscarlo.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama"
+    ],
+    "director": "Shaira Advincula",
+    "reparto": [
+      "Juan Karlos Labajo",
+      "JC Santos",
+      "RK Bagatsing",
+      "Rosanna Roces",
+      "Nonie Buencamino"
+    ],
+    "calificacion": 9.0,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:20:55.080067",
+    "plataforma": "pelicula",
+    "fuentes": [],
+    "id": "ojala-me-lo-hubieras-dicho-2025"
+  },
+  {
+    "id": "olaf-otra-aventura-congelada-de-frozen-2017",
+    "tipo": "pelicula",
+    "titulo": "Olaf Otra aventura congelada de Frozen",
+    "poster": "https://ww4.pelisplushd.to/poster/olaf-otra-aventura-congelada-de-frozen-2017--thumb.jpg",
+    "descripcion": "Olaf y Sven son ahora los protagonistas de esta aventura que cuenta las primeras navidades en Arendelle tras reabrir las puertas del reino. Cuando llega esta bonita época del año y los habitantes salen a disfrutar de sus costumbres individuales pero, Anna y Elsa se dan cuenta que, tras quedarse sin padres y pasar tanto tiempo encerradas en su hogar, no tienen tradiciones familiares propias. Así que Olaf se pone manos a la obra y con ayuda del reno Sven intentará llevar al palacio las mejores cosas de cada casa. Juntos recorrerán las calles de Arendelle salvando así las navidades de sus amigos..",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2017,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura"
+    ],
+    "calificacion": 7.9,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T23:15:57.815622",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dood.to/e/c4hhv6et9wj8"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dood.to/e/c4hhv6et9wj8"
+      }
+    ]
+  },
+  {
+    "id": "one-piece-2023",
+    "tipo": "serie",
+    "titulo": "ONE PIECE",
+    "poster": "https://ww4.pelisplushd.to/poster/one-piece-111110-thumb.jpg",
+    "descripcion": "Acompañado de su ecléctica tripulación, el joven pirata Monkey D. Luffy emprende un viaje en busca de un tesoro legendario.",
+    "categoria": [
+      "aventura"
+    ],
+    "año": 2023,
+    "duracion": "N/A",
+    "director": " Iñaki Godoy Mackenyu Emily Rudd Jacob Gibson Taz Skylar Vincent Regan Morgan Davies Aidan Scott Jeff Ward Aurora Aksnes",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Ciencia ficción",
+      "Fantasía"
+    ],
+    "calificacion": 8.3,
+    "votos": 1500,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "netflix",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/k5xgsukb4v03"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/rryg9fkbyoc0"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/21ydfvji0ce3"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/p40hhf5831dr"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/2jiy79hjjfbv"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/6xa68mcfhy43"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/6odfxwwxqopv"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/kbs9o4kqe5xg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "ONE PIECE FILM RED",
+    "poster": "https://image.tmdb.org/t/p/w300/4ovEtMHpv1UKDJB6Wq69DB4q8xG.jpg",
+    "descripcion": "En el vibrante mundo de ONE PIECE FILM RED, el escenario se prepara para un evento sin precedentes donde la música se entrelaza con el destino. Uta, la diva de renombre global cuyo talento vocal trasciende lo terrenal, se dispone a revelarse ante el mundo en su primer concierto en vivo. Multitudes de diversos orígenes convergen en el recinto: entusiastas piratas coreando su nombre, fuerzas navales evaluando cada movimiento, y la emblemática tripulación de Sombrero de Paja sumergiéndose en la experiencia sonora. Sin embargo, la celebración artística pronto da paso a revelaciones que alterarán equilibrios de poder, cuando se descubre el inquietante vínculo familiar que conecta a la cantante con el legendario Shanks. El desarrollo de la trama explora cómo la identidad oculta de Uta como descendiente de una figura tan influyente genera ondas expansivas en este universo marítimo. Mientras las melodías de la artista cautivan audiencias, tensiones subterráneas emergen entre facciones que ven en su linaje tanto una amenaza como una oportunidad. La Armada incrementa su vigilancia mientras los piratas presentes reconsideran sus lealtades, creando un ecosistema de suspense donde cada acorde musical podría desencadenar el caos. Esta producción cinematográfica de animación fusiona elementos de fantasía con secuencias de acción coreografiadas al ritmo de composiciones musicales únicas. A través de este concierto que sirve como catalizador, los personajes se ven arrastrados hacia una trama donde legados familiares y ambiciones personales chocan en espectáculo visual y auditivo. La narrativa profundiza en cómo la verdadera naturaleza del talento musical de Uta posee implicaciones que extienden más allá del entretenimiento, afectando dinámicas establecidas en el mundo pirata. Misterios sobre los orígenes de sus habilidades vocales y las motivaciones detrás de su revelación pública tejen una experiencia cinematográfica donde la aventura se desarrolla al compás de partituras memorables y enfrentamientos épicos.. ワンピース フィルム レッド 航海王：红 海贼王：红 One piece movie red One Piece Film: Red",
+    "categoria": [
+      "one piece"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion",
+      "aventura",
+      "fantasia"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-02T18:22:43.390363",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2022,
+    "calificacion": 8.0,
+    "votos": 8000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/u29pjqnpdg7x",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/u29pjqnpdg7x"
+      }
+    ],
+    "id": "one-piece-film-red-2022"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "One Piece Film Z",
+    "poster": "https://image.tmdb.org/t/p/w300/gLyelbsRYljP2iWiD5iubA02kBA.jpg",
+    "descripcion": "En las turbulentas aguas del Nuevo Mundo, una amenaza sin precedentes emerge cuando la Marina sufre el robo de su arma más temible: la Piedra Dyna, un artefacto ancestral cuyo poder destructivo rivaliza con las legendarias Armas Ancestrales. El responsable es Z, un formidable ex-Almirante de la Marina que ahora lidera su propia tripulación con la intención de reescribir el orden mundial. Su camino se cruza inevitablemente con la tripulación de los Piratas del Sombrero de Paja, quienes se ven arrastrados hacia este conflicto que amenaza con desestabilizar los cimientos del mundo. Mientras la Marina moviliza sus fuerzas para contrarrestar esta conspiración que hace temblar los pilares del Nuevo Mundo, los Sombreros de Paja deben navegar entre dos frentes peligrosos. Por un lado, el misterioso ex-Almirante Aokiji los persigue incansablemente a través de las traicioneras rutas marinas. Por otro, se preparan para el inevitable enfrentamiento contra Z y sus leales seguidores, cuya determinación iguala su poder destructivo. La tripulación de Monkey D. Luffy deberá emplear todas sus habilidades y trabajar en perfecta sincronía para enfrentarse a este enemigo cuya experiencia militar supera con creces cualquier obstáculo anterior. En este choque de ideologías y fuerzas titánicas, cada batalla redefine los límites del coraje y la lealtad. El destino del Nuevo Mundo pende de un hilo mientras estas fuerzas colisionan en un espectáculo de poder que determinará el futuro de la era pirata. La determinación de Z para ejecutar su visión radical contrasta con los sueños de Luffy y su tripulación, creando un conflicto donde solo los más fuertes sobrevivirán para ver el amanecer de un nuevo día en los mares..One Piece - Movie 12 - Z Ван-Пис: Фильм двенадцатый 원피스 극장판Z_2012 원피스 극장판Z One Piece Movie 12 - Film Z 원피스 12기-필름 제트 원피스 12기-필름 Z One Piece: Z One Piece Movie 12 Film Z วันพีซ ฟิล์ม แซด One Piece Z 海贼王剧场版12：最强之敌Z 원피스 극장판 필름 Z One Piece: Z",
+    "categoria": [
+      "one piece"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion",
+      "aventura"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-02T18:20:59.487117",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2012,
+    "calificacion": 9.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/igdh8h7y5llt",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/igdh8h7y5llt"
+      }
+    ],
+    "id": "one-piece-film-z-2012"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "One Piece Gold",
+    "poster": "https://image.tmdb.org/t/p/w300/whQELpxRLk2VyluC5XRjsXQh4DL.jpg",
+    "descripcion": "A bordo del Thousand Sunny, la tripulación de Sombrero de Paja avista una deslumbrante metrópolis flotante que domina el horizonte marino. Esta colosal embarcación dorada, bautizada como Gran Tesoro, extiende sus dominios a lo largo de diez kilómetros de pura extravagancia, donde rascacielos cubiertos de neones se alzan sobre aguas turquesas. El Gobierno Mundial ha conferido a este espectáculo arquitectónico el estatus de nación soberana, atrayendo a magnates, infantes de marina y corsarios hacia su promesa de indulgencia sin restricciones. Detrás de esta fachada de esplendor se encuentra el magnate Gildo Tesoro, cuyo control sobre la quinta parte de la riqueza global le ha permitido crear un refugio inexpugnable más allá de las leyes convencionales. Mientras Nami se maravilla ante las deslumbrantes luces de neón del casino más grande del mundo, Zoro mantiene la guardia ante la sospechosa tranquilidad que envuelve este paraíso artificial. La aparente inmunidad de Gran Tesoro frente a la intervención naval oculta un elaborado mecanismo de control, donde cada celebración encubre movimientos estratégicos en el tablero político mundial. Gildo Tesoro, movido por una ambición que trasciende la mera acumulación de capital, orquesta meticulosamente eventos que podrían alterar el equilibrio geopolítico para siempre. Las festividades iniciales dan paso a una compleja red de intrigas cuando los Sombrero de Paja descubren que la ciudad dorada funciona como una trampa monumental. Mientras Luffy se enfrenta a guardias con habilidades extraordinarias en los niveles inferiores del complejo, Robin desentierra secretos que conectan el pasado de Tesoro con vacíos legales en el sistema judicial mundial. La verdadera naturaleza de este santuario para millonarios revela cómo el entretenimiento extremo puede servir como cortina de humo para operaciones que desafían las fronteras de lo imaginable, poniendo a prueba los lazos de la tripulación en un juego donde las fichas son destinos humanos..One Piece Movie 13: GOLD 원피스 필름 골드 ワンピース フィルム ゴールド One Piece film 13 : Gold One Piece - Película 13 - Gold (2016) One Piece Film - Gold One Piece Movie 13 - Gold 海贼王之黄金城 ONE PIECE フィルムゴールド 원피스 13기-필름 골드 원피스 13기-필름 GOLD One Piece: GOLD One Piece: Gold วัน พีช ฟิล์ม โกลด์ One Piece Gold 海贼王剧场版13：黄金城 원피스 극장판 필름 골드",
+    "categoria": [
+      "one piece"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion",
+      "aventura",
+      "comedia"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-02T18:18:41.019894",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2016,
+    "calificacion": 7.0,
+    "votos": 7000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/pn5x4ohghvwi",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/pn5x4ohghvwi"
+      }
+    ],
+    "id": "one-piece-gold-2016"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "One Piece Película 8: La Saga de Alabasta",
+    "poster": "https://image.tmdb.org/t/p/w300/xdUr3hCslqkgqsgahpnXbIynOBe.jpg",
+    "descripcion": "En el vasto mundo de Grand Line, la princesa Vivi emprende una carrera contrarreloj para evitar el colapso total de su amado reino. Alabasta, una nación desértica otrora próspera, se encuentra al borde del abismo debido a una misteriosa sequía que ha avivado tensiones históricas. La joven soberana, acompañada por la peculiar tripulación de los Sombreros de Paja, deberá cruzar océanos traicioneros y enfrentarse a peligros inimaginables para alcanzar su tierra natal antes de que estalle un conflicto irreversible. Mientras la organización criminal Baroque Works siembra el caos entre la población, Monkey D. Luffy y sus compañeros demuestran que la verdadera fuerza reside en la lealtad inquebrantable. Cada miembro de la tripulación aporta habilidades únicas para superar obstáculos: desde las tácticas de combate de Zoro hasta la astucia de Nami para navegar por climas extremos. El viaje se convierte en una prueba de resistencia donde la amistad se enfrenta a conspiraciones que amenazan con destruir la monarquía ancestral. La travesía hacia el reino de Alabasta representa un punto crucial en la búsqueda del legendario tesoro One Piece, donde las batallas contra los agentes de Baroque Works revelan secretos que podrían alterar el equilibrio de poder en los mares. A medida que se aproximan al palacio real, descubren que la crisis ambiental es solo la punta de iceberg de una conspiración mucho más siniestra. Esta aventura épica demuestra cómo el destino de toda una nación puede depender del coraje de unos pocos valientes que desafían las probabilidades, marcando un antes y después en la cronología de los Sombreros de Paja..One Piece Movie 8 One Piece Movie 8 - Un'amicizia oltre i confini del mare One Piece - 8. Film: Abenteuer in Alabasta - Die Wüstenprinzessin 航海王 阿拉巴斯坦戰記：沙漠王女與海賊們 One Piece - Movie 8 - The Desert Princess and the Pirates Adventures In Alabasta One Piece: Episode of Alabaster - Sabaku no Ojō to Kaizoku Tachi One Piece - Episodio de Arabasta One Piece: Episode of Arabasta - Sabaku no Oujo to Kaizoku-tachi ONE PIECE エピソードオブアラバスタ 원피스 8기-사막의 공주와 해적들 One Piece Movie 08 The Desert Princess and the Pirates The Desert Princess and the Pirates วันพีซ ตอน เจ้าหญิงแห่งทะเลทรายและโจรสลัด One Piece - Abenteuer in Alabasta - Die Wüstenprinzessin 원피스 극장판 8기 海贼王剧场版8：沙漠公主与海盗们",
+    "categoria": [
+      "one piece"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "ciencia",
+      "ficcion"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-02T18:03:08.847580",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2007,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/eh7y08wb1hzg",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/eh7y08wb1hzg"
+      }
+    ],
+    "id": "one-piece-pelicula-8-la-saga-de-alabasta-2007"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "One Piece: Estampida",
+    "poster": "https://image.tmdb.org/t/p/w300/xyDaLADqd2BUUk0kRDtmaX3sjQV.jpg",
+    "descripcion": "En la vibrante Feria de Piratas, un evento legendario concebido exclusivamente para los señores de los mares, se desarrolla un escenario de caos y ambiciones desatadas. Luffy y su variopinta tripulación se ven inmersos en una competencia sin precedentes que reúne a corsarios de todos los rincones del mundo, incluyendo figuras temibles cuyos nombres susurran los mismos océanos. El incentivo que desata esta fiebre colectiva no es otro que el legado del mítico Gold Roger, un tesoro perdido que promete cambiar el equilibrio del poder marítimo. La trama se intensifica cuando el misterioso organizador del evento, Buena Festa, revela sus verdaderas intenciones detrás de este magno encuentro pirata. Lo que comenzó como una emocionante búsqueda del tesoro se transforma en una peligrosa trampa que pone a prueba las habilidades de combate de los participantes. En medio de este escenario, aparece Douglas Bullet, un antiguo miembro de los Piratas de Roger, cuya fuerza descomunal amenaza con sumir el mundo en un nuevo periodo de anarquía. El desenlace se desarrolla en una batalla colosal donde las alianzas entre corsarios se vuelven tan impredecibles como las mareas. Monkey D. Luffy deberá coordinar esfuerzos con rivales inesperados y antiguos conocidos para enfrentar esta amenaza sin precedentes. La supervivencia de todos los participantes dependerá de su capacidad para superar diferencias y unir fuerzas contra un enemigo cuyo poder rivaliza con las leyendas más temibles de los Grandes Mares..Gekijouban One Piece: Stampede One Piece Movie 14: Stampede วันพีซ เดอะมูพวี่ แสตมปีด 원피스 14기-STAMPEDE 원피스 극장판 14기-스탬피드 원피스: 스탬피드 원피스 14기-스탬피드 海贼王：狂热行动 One Piece Estampida ONE PIECE STAMPEDE One Piece - 13. Film - Stampede 航海王：狂热行动 ONE PIECE STAMPEDE One Piece - Stampede 海贼王剧场版14：狂热行动",
+    "categoria": [
+      "one piece"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion",
+      "aventura"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-02T18:11:03.440643",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2019,
+    "calificacion": 7.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/lsgb8cpgo7t4",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/lsgb8cpgo7t4"
+      }
+    ],
+    "id": "one-piece-estampida-2019"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "One Piece: Strong World",
+    "poster": "https://image.tmdb.org/t/p/w300/s5UuGv4LxDNkfVm3dG6GEIyGNFE.jpg",
+    "descripcion": "En las vastas extensiones del Grand Line, la tripulación del Sombrero de Paja se enfrenta a su adversario más formidable cuando Shiki, conocido como \"El León Dorado\", emerge de las sombras. Este legendario pirata, único en haber escapado de la inexpugnable prisión de Impel Down, ha urdido un plan catastrófico que amenaza con sumir el mundo en el caos absoluto. Tras un encuentro fortuito que sigue a sus hazañas en Thriller Bark, el destino de la tripulación da un giro inesperado cuando Nami es arrebatada por este temible antagonista. La desaparición de la navegante sumerge a Luffy y sus compañeros en una carrera contra el tiempo, llevándolos hacia los misteriosos cielos de las islas flotantes donde Shiki ha establecido su dominio. En este reino aéreo, el capitán del Sombrero de Paja deberá enfrentarse a bestias mutantes y paisajes surrealistas creados mediante los poderes de la Fruta del Diablo que posee el León Dorado. Mientras Zoro, Sanji y el resto de la tripulación se abren paso a través de estos territorios alienígenas, descubren la verdadera magnitud de la ambición de Shiki: reescribir la historia de la civilización mediante una tecnología ancestral perdida. La búsqueda para rescatar a Nami se convierte en una batalla por el futuro mismo del mundo, donde la determinación de Luffy y la lealtad de su tripulación serán puestas a prueba como nunca antes. Enfrentándose a ejércitos de animales modificados y las traicioneras condiciones de las islas flotantes, los Sombrero de Paja demuestran que su lazo trasciende cualquier peligro. Este enfrentamiento épico entre la nueva era de piratas y una leyenda del pasado determinará no solo el destino de su compañera, sino el equilibrio de poder en todos los mares..One Piece - 10. Film: Strong World One Piece - Movie 10 - Strong World One Piece Filme 10: Mundo Forte One Piece Movie 10 - Strong World 원피스 10기- 스트롱월드 원피스 극장판 10기-스트롱 월드 Strong World One Piece Movie 10 Strong World One Piece - Strong World 海贼王剧场版10：强者天下",
+    "categoria": [
+      "one piece"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion",
+      "aventura"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-02T18:07:05.618889",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2009,
+    "calificacion": 7.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/4e9dkvcp5ypz",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "one-piece-strong-world-2009"
+  },
+  {
+    "id": "oni-goroshi-ciudad-de-los-demonios-2025",
+    "tipo": "pelicula",
+    "titulo": "Oni-Goroshi: Ciudad de los demonios",
+    "poster": "https://ww4.pelisplushd.to/poster/oni-goroshi-ciudad-de-los-demonios-thumb.jpg",
+    "descripcion": "Un exasesino, acusado de matar a su familia y dado por muerto, no se detendrá ante nada hasta vengarse de los «demonios» enmascarados que recorren su ciudad.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T20:46:14.428321",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/4gjr5yh2p312"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/4gjr5yh2p312"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Paddington: Aventura en la selva",
+    "poster": "https://image.tmdb.org/t/p/w300/1ffZAucqfvQu36x1C49XfOdjuOG.jpg",
+    "descripcion": "En esta nueva aventura, el adorable oso Paddington emprende un viaje inolvidable junto a la familia Brown hacia las exuberantes tierras de Perú. Lo que comienza como una visita sentimental para reencontrarse con la querida tía Lucy en su hogar de acogida, rápidamente se transforma en una expedición llena de sorpresas cuando descubren que su pariente guarda un secreto ancestral. El misterio los arrastra desde las coloridas calles de Lima hasta las profundidades de la selva amazónica, donde la vegetación espesa esconde más de lo que aparenta. Mientras navegan por el impredecible río Amazonas, el grupo se enfrenta a desafíos que pondrán a prueba su ingenio y valentía. Paddington, con su característico sombrero rojo y su amor por las mermeladas, se convierte en el corazón de esta travesía, demostrando que incluso las criaturas más pequeñas pueden tener un impacto enorme. La expedición por la jungla peruana los lleva a descubrir ruinas antiguas y criaturas exóticas, mientras resuelven acertijos que han permanecido ocultos por generaciones. A medida que escalan las majestuosas montañas de los Andes, cada miembro de la familia Brown descubre fortalezas que no sabía que poseía, fortaleciendo sus lazos en el proceso. El viaje se convierte en una lección sobre la importancia de la familia, la amistad y la perseverancia ante lo desconocido. La búsqueda del tesoro perdido en la selva amazónica se entrelaza con momentos de comedia genuina y escenas conmovedoras, creando una experiencia cinematográfica que celebra la diversidad cultural y la belleza natural de Sudamérica..Paddington 3 패딩턴 3 Paddington 3: Paddington in Peru 帕丁顿熊3：秘鲁大冒险 Paddington na Amazónia Paddinqtonun macralari 3 Paddington ở Peru Paddington in Peru: Lost in the Jungle Paddington en Perú Paddington en Perú",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "aventura",
+      "comedia",
+      "familia"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-29T21:22:59.916591",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 8.9,
+    "votos": 8000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://yuguaab.com/e/dfxzldlwag58",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://yuguaab.com/e/dfxzldlwag58"
+      }
+    ],
+    "id": "paddington-aventura-en-la-selva-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "pandillas sw los Angeneles",
+    "poster": "https://ww4.pelisplushd.to/poster/pandillas-de-los-angeles-thumb.jpg",
+    "descripcion": "Attila es un médico que, tras cuidar al hijo de un mafioso, descubre el submundo criminal de Los Ángeles, lleno de violencia y disputas entre bandas.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2020,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "crimen",
+      "suspenso"
+    ],
+    "calificacion": 7.1,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T19:11:58.077514",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/blg57ph2edsg"
+      }
+    ],
+    "id": "pandillas-sw-los-angeneles-2020",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/blg57ph2edsg"
+      }
+    ]
+  },
+  {
+    "id": "pantera-negra-2018",
+    "tipo": "pelicula",
+    "titulo": "Pantera Negra",
+    "poster": "https://ww5.pelisplushd.to/poster/pantera-negra-thumb.jpg",
+    "descripcion": "Ver Pantera Negra Online Latino, Español, Subtituladas Gratis | Cuevana3. T’Challa regresa a su hogar en la apartada nación africana de Wakanda para servir como líder de su país. Tras suceder a su padre en el trono, pasa a convertirse en Pantera Negra, una sigilosa criatura de la noche, con agudos sentidos felinos y otras habilidades como súper fuerza e inteligencia, agilidad, estrategia o maestro del combate sin armas. Es bajo el liderazgo de T’Challa como Wakanda consigue convertirse en una de las naciones más ricas y tecnológicamente avanzadas del planeta.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "Aventura"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-16T02:43:36.921220",
+    "tamaño": "N/A",
+    "año": 2018,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://goodstream.uno/video/embed/10e9hgfv89e3"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://goodstream.uno/video/embed/10e9hgfv89e3"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Paranormal Movie",
+    "poster": "https://image.tmdb.org/t/p/w300/pAVGfrADDvKMgoZnJLSCiLBCCiG.jpg",
+    "descripcion": "Cuando Malcolm y Kisha por fin consiguen la residencia perfecta, creen haber alcanzado el pináculo de su vida en pareja. Sin embargo, la euforia inicial se desvanece rápidamente cuando fenómenos inexplicables comienzan a trastornar su cotidianidad. Lo que en un principio atribuyen a una propiedad encantada, pronto revela una verdad mucho más inquietante: la presencia sobrenatural no habita en las paredes de la mansión, sino que ha tomado posesión del cuerpo de Kisha. La transformación de su amada novia en un vehículo de fuerzas demoníacas sumerge a Malcolm en una espiral de desconcierto y terror. Desesperado por recuperar a la mujer que ama y restaurar la normalidad en su relación, Malcolm recurre a métodos poco convencionales para enfrentar esta crisis paranormal. La contratación de un sacerdote con métodos cuestionables desencadena una sucesión de situaciones hilarantes y aterradoras en igual medida. Mientras el ente maligno manifiesta su poder a través de Kisha, nuestro protagonista descubre que el verdadero desafío no solo consiste en exorcizar al invasor espiritual, sino en preservar su cordura ante eventos cada vez más absurdos. Esta comedia de terror explora hasta qué extremos puede llegar el amor cuando se enfrenta a lo sobrenatural, combinando elementos de susto genuino con momentos de comedia absurda. La batalla entre lo racional y lo paranormal se desarrolla a través de escenas donde el humor negro se entrelaza con situaciones tradicionalmente aterradoras, creando una experiencia única que cuestiona si algunos huéspes indeseados pueden llegar a ser más persistentes de lo imaginado..Inatividade Paranormal ¿Y dónde está el fantasma? Y Donde Esta el Fantasma Ghost Bastards (Putain de fantôme) Y dónde esta el fantasma A Haunted House Paranormal Movie",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "terror"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-28T13:35:28.875912",
+    "tamaño": "N/A",
+    "año": 2013,
+    "calificacion": 8.0,
+    "votos": 8000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/xnk9k1yy801i",
+        "calidad": "HD"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/xnk9k1yy801i"
+      }
+    ],
+    "id": "paranormal-movie-2013"
+  },
+  {
+    "id": "pati-2025",
+    "tipo": "serie",
+    "titulo": "Pati",
+    "poster": "https://ww4.pelisplushd.to/poster/pati-thumb.jpg",
+    "descripcion": "Pati cuida de sus hermanos y de una madre metida en líos de drogas y delincuencia. A pesar de todo, no deja de luchar por sus sueños.",
+    "categoria": [
+      "series"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "crimen",
+      "drama"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://player.cuevana3.eu/player.php?h=rxPRsRSX4IlkyS1F21W5j3H.EBmUnj9_FgJtyflUvlmd3PKCnBET0zw2WBKAZmwN"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/k53ekjg6gpxk"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://player.cuevana3.eu/player.php?h=rxPRsRSX4IlkyS1F21W5j4yuBKVl2EAL7YBeBRs4YiYwU.6NnhIx3Wc5jZfdOBJP"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://player.cuevana3.eu/player.php?h=rxPRsRSX4IlkyS1F21W5j8UlaW6Wv0NMJMWv0p7tZvVANkBpo2j9y1y12wJeYUAL"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://player.cuevana3.eu/player.php?h=rxPRsRSX4IlkyS1F21W5j5oXM4fG7nYDxjN0Go1KmlwIyK4C2ww38nBKw3n34Yd_"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://player.cuevana3.eu/player.php?h=rxPRsRSX4IlkyS1F21W5j9uwROtp2MheN.TuwD2vtwbXimxzjXndknoNwqTkT6Qf"
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://player.cuevana3.eu/player.php?h=rxPRsRSX4IlkyS1F21W5j0OMUhjyd6zFi5Z9Y.WGsWCGlJvjon9U6NsLh6lEqfRs"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://player.cuevana3.eu/player.php?h=rxPRsRSX4IlkyS1F21W5j3glrZzHFHqgF8a65.dSu4gwKg0RibuQxcrXmvtoMu19"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://player.cuevana3.eu/player.php?h=rxPRsRSX4IlkyS1F21W5jwBeSkiGQzFPnTHYA.h4QtHiVcXqyk5fRtWXWFYDbmIl"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://player.cuevana3.eu/player.php?h=rxPRsRSX4IlkyS1F21W5j9neLZPi2Ey9XUbAdYMo.BYoSlqDz666pmukZm8Uhyee"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/6kejirq91m3j"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://player.cuevana3.eu/player.php?h=rxPRsRSX4IlkyS1F21W5j.9thdku3f2Oa0Gxj1D6cI77FNoE7p5TA9V1DEvBVRI8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "PAW Patrol: Especial De Navidad",
+    "poster": "https://image.tmdb.org/t/p/w300//lCrXxulaDMWbDsBDr0R7PKsAKDG.jpg",
+    "descripcion": "Cuando Santa se enferma, Rubble intenta salvar la Navidad mientras compite contra el Alcalde Humdinger, quien planea robar todos los regalos.",
+    "categoria": [
+      "anime"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura",
+      "familia"
+    ],
+    "idioma": "ingles",
+    "calidad": "1080p",
+    "addedDate": "2025-12-05T01:01:11.049303",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2925,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": true,
+    "plataforma": "pelicula",
+    "fuentes": [],
+    "id": "paw-patrol-especial-de-navidad-2925"
+  },
+  {
+    "id": "pele-king-of-the-game-2023",
+    "tipo": "pelicula",
+    "titulo": "Pelé: King of the Game",
+    "poster": "https://ww4.pelisplushd.to/poster/pele-king-of-the-game-thumb.jpg",
+    "descripcion": "El chico de Minas Gerais... que se convirtió en el mejor futbolista de la historia del mundo. En una carrera que duró tres décadas, Pelé fue la cara del fútbol en todo el mundo. Héroe de Brasil y ícono en todo el mundo, por pura habilidad, gracia y carisma, fue la primera superestrella del fútbol moderno. Pelé hizo que el fútbol pareciera fácil. Convirtió el deporte que amaba en una obra de arte y el mundo se detenía cada vez que el balón estaba en sus pies. Con su muerte, el fútbol perdió a su Rey y el mundo perdió una leyenda. Pero su presencia siempre se sentirá y su influencia siempre se verá, dentro y fuera de la cancha. Sin Pelé no habría Bonito Juego. Él era... el rey del juego.",
+    "categoria": [
+      "documental"
+    ],
+    "año": 2023,
+    "duracion": "44:33",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://streamwish.to/e/x6mlj51zt99k"
+      },
+      {
+        "idioma": "español",
+        "url": "https://streamwish.to/e/k906clm18lfa"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "subtitulado",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/x6mlj51zt99k"
+      },
+      {
+        "calidad": "HD",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/k906clm18lfa"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Pequeña osa",
+    "poster": "https://image.tmdb.org/t/p/w500/qOsKJx4dvVopH5XI9IW97zWxZpM.jpg",
+    "descripcion": "Milagros es una osa que después de vivir muchas aventuras decide cumplir con su destino: preservar su especie y contar su historia para así crear conciencia sobre la conservación de la vida silvestre.",
+    "año": 2023,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "animación",
+      "comedia",
+      "aventura"
+    ],
+    "director": "Eduardo Schuldt",
+    "reparto": [
+      "Melany Segura",
+      "Nicole Valera",
+      "Ann Giraldo",
+      "Genaro Vásquez"
+    ],
+    "calificacion": 7.3,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:09:47.387308",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/6pm9i4okbgdb?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "pequena-osa-2023"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Pequeño gran Buzz",
+    "poster": "https://image.tmdb.org/t/p/w300/fyLKw1MzdpBsYtZxESLf4xqSSvR.jpg",
+    "descripcion": "En un vibrante mundo de animación familiar, la pandilla de juguetes liderada por el vaquero Woody enfrenta su mayor desafío cuando el pequeño Andy olvida accidentalmente a Buzz Lightyear en su hamburguesería favorita. Mientras los juguetes restantes organizan una misión de rescate contra reloj, el intrépido astronauta se encuentra atrapado en una situación peculiar: ha sido reclutado por el Grupo de Apoyo para Juguetes Abandonados. Esta peculiar congregación, formada por muñecos y artilugios olvidados, celebra sesiones terapéuticas donde Buzz debe participar bajo la atenta mirada de sus nuevos compañeros. La búsqueda de juguetes perdidos se convierte en una carrera contra el tiempo mientras Woody despliega todas sus estrategias para localizar a su compañero espacial. Mientras tanto, Buzz Lightyear descubre el destino de los juguetes olvidados y se ve obligado a fingir su adaptación al grupo mientras busca desesperadamente una ruta de escape. La comedia se desata cuando el astronauta intenta explicar su verdadera naturaleza como juguete de un niño amoroso, generando confusión entre los miembros del apoyo emocional para muñecos abandonados. La aventura se intensifica cuando Woody y sus amigos se infiltran en la hamburguesería durante la hora más concurrida, forzando a Buzz a tomar decisiones cruciales que pondrán a prueba su lealtad y amistad. Esta emocionante historia de animación familiar explora temas de pertenencia y camaradería mientras los personajes navegan entre situaciones cómicas y momentos de genuina tensión, creando un relato perfecto para quienes buscan películas de comedia familiar con mensajes positivos sobre la importancia de la amistad verdadera..Toy Story Toons: Small Fry Pixar Short Films Collection Volume 2 - Small Fry Toy Story Toons 2: Small Fry Pixar Shorts - Small Fry Toy Story Toons 2 Mini Buzz",
+    "categoria": [
+      "anime"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia",
+      "familia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-22T22:14:21.798865",
+    "tamaño": "N/A",
+    "año": 2011,
+    "calificacion": 8.8,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "documental",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/ybqz3jp0vfpa"
+      }
+    ],
+    "id": "pequeno-gran-buzz-2011",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/ybqz3jp0vfpa"
+      }
+    ]
+  },
+  {
+    "id": "pharrell-williams-pieza-por-pieza-2024",
+    "tipo": "pelicula",
+    "titulo": "Pharrell Williams: Pieza por pieza",
+    "poster": "https://ww4.pelisplushd.to/poster/pharrell-williams-pieza-por-pieza-thumb.jpg",
+    "descripcion": "Pharrell Williams: Pieza por Pieza es una experiencia cinematográfica única que invita al público a un vibrante viaje a través de la vida del ícono cultural Pharrell Williams. Narrada a través de la animación de LEGO®, sube el volumen de tu imaginación y sé testigo de la evolución de una de las mentes más innovadoras de la música.",
+    "categoria": [
+      "documental"
+    ],
+    "año": 2024,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "documental"
+    ],
+    "calificacion": 7.8,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "documental",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/87sp3kh76uys"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/87sp3kh76uys"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Pinocho",
+    "poster": "https://image.tmdb.org/t/p/w300/6kKrB0HNe7hRFFpB3QCWEd1ilY8.jpg",
+    "descripcion": "En un rincón polvoriento de un pueblo italiano, el solitario artesano Geppetto encuentra consuelo tallando madera bajo la luz de las velas. Su obra maestra, un títere al que llama Pinocho, trasciende la mera carpintería cuando un hechizo etéreo le infunde el don de la vida. La marioneta de madera, con sus articulaciones de madera crujiente y una curiosidad infinita, se enfrenta de inmediato a un mundo que anhela explorar. Su viaje lo lleva a través de paisajes encantados y encuentros peligrosos, desde las fauces de bestias míticas hasta los deslumbrantes espectáculos de carnaval que ocultan intenciones siniestras. Cada elección que toma Pinocho, guiado por su conciencia, el Grillo Parlante, tiene un peso tangible, haciendo que su nariz crezca con cada mentira, una manifestación física de su moral en desarrollo. La travesía para convertirse en un niño de verdad es un camino sembrado de pruebas. Debe navegar por las engañosas promesas del astuto Zorro y el Gato, resistir las tentaciones de la Tierra de los Juguetes y demostrar un valor profundo frente a monstruos marinos. Esta búsqueda de la humanidad real es el núcleo de su transformación, una prueba constante de su carácter. La narrativa se centra en la evolución de Pinocho desde una criatura ingenua y propensa a desviarse hacia un ser capaz de autosacrificio y amor genuino. Su destino final, la posibilidad de abandonar su cuerpo de madera, depende únicamente de que demuestre ser veraz, valiente y desinteresado, culminando en un emotivo reencuentro que pone a prueba la esencia misma de lo que significa ser real..Піноккіо Pinóquio Pinocho Pinokyo Pinocchio",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "aventura",
+      "drama",
+      "familia",
+      "fantasia"
+    ],
+    "idioma": "latino ",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T16:26:07.839574",
+    "tamaño": "N/A",
+    "año": 2019,
+    "calificacion": 7.9,
+    "votos": 70000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/aeh8d00lmd7f",
+        "calidad": "10800"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "10800",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/aeh8d00lmd7f"
+      }
+    ],
+    "id": "pinocho-2019"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Pinocho",
+    "poster": "https://image.tmdb.org/t/p/w300/371C5XVl0D0CQgjQLnKkqrFTI4s.jpg",
+    "descripcion": "Adaptación de imagen real del clásico animado de Disney 'Pinocho'..pinocho",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "aventura",
+      "familia",
+      "fantasia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T16:28:30.072905",
+    "tamaño": "N/A",
+    "año": 2022,
+    "calificacion": 7.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/e4pgj9nwo6p3",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/e4pgj9nwo6p3"
+      }
+    ],
+    "id": "pinocho-2022"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Pinocho de Guillermo del Toro",
+    "poster": "https://image.tmdb.org/t/p/w300/hVa3OCfwqFm6K3Sk6IF68cYr7uk.jpg",
+    "descripcion": "En un rincón olvidado de la Italia fascista, surge una historia de madera y anhelos humanos. El maestro tallador Geppetto, consumido por el dolor tras perder a su hijo, esculpe en un arrebato de desesperación una marioneta que bautiza como Pinocho. Pero esta no será una simple creación de hilos y madera: el espíritu del bosque, una enigmática entidad de azul zafiro, otorga al muñeco el don de la vida de manera espontánea. Así comienza el viaje extraordinario de esta singular marioneta que anhela comprender su propósito. Pinocho, con su naturaleza inocente e indestructible, descubre un mundo plagado de contradicciones. Su camino se cruza con Sebastian J. Cricket, un insecto erudito que asume el rol de su conciencia, y con la astuta y aventurera niña Spazzatura. Juntos se enfrentarán a los peligros de una sociedad que busca explotar la singularidad de Pinocho, desde un despiadado circo de fenómenos hasta los rigores de un campamento militar para jóvenes. Esta reinvención del clásico de Pinocho explora temas de amor paternal, pérdida y la búsqueda de la autenticidad en un mundo que rechaza la diferencia. La trama se desarrolla contra un telón de fondo donde la mortalidad y la obediencia ciega son puestas en tela de juicio, llevando al protagonista a un viaje trascendental que desafía su deseo de convertirse en un niño humano. La narrativa visual de Guillermo del Toro ofrece una experiencia cinematográfica única, fusionando la oscuridad poética con una fábula conmovedora sobre lo que realmente significa estar vivo..",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "animacion drama fantasia musica"
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "drama",
+      "fantasia",
+      "musica"
+    ],
+    "idioma": "latino ",
+    "calidad": "1080p",
+    "addedDate": "2025-11-30T16:30:40.346414",
+    "tamaño": "N/A",
+    "año": 2022,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/rn3wfnv48ii7",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/rn3wfnv48ii7"
+      }
+    ],
+    "id": "pinocho-de-guillermo-del-toro-2922"
+  },
+  {
+    "id": "pitufos-2025",
+    "tipo": "pelicula",
+    "titulo": "Pitufos",
+    "poster": "https://ww4.pelisplushd.to/poster/pitufos-thumb.jpg",
+    "descripcion": "Película musical de animación centrada en las icónicas creaciones de Peyo. Cuando Papá Pitufo es secuestrado de forma misteriosa por los malvados brujos Razamel y Gargamel, Pitufina lleva a los Pitufos a una misión al mundo real para salvarle. Con la ayuda de nuevos amigos, los Pitufos deberán descubrir qué define su destino para salvar el universo.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "familia"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T16:08:29.687770",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "cine",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://nuuuppp.sbs/watch/TxMS9EqeYCwSDeubK7Hweze8rxLF4u8Cmqw75DYc7nE?h="
+      },
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/4tp5yqdbnxum"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://nuuuppp.sbs/watch/TxMS9EqeYCwSDeubK7Hweze8rxLF4u8Cmqw75DYc7nE?h="
+      },
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/4tp5yqdbnxum"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Plan en familia",
+    "poster": "https://image.tmdb.org/t/p/w300/mBiylEUJgWikljJJNB61u7dDPON.jpg",
+    "descripcion": "Dan Morgan parece llevar una existencia completamente ordinaria, destacándose como un vendedor de automóviles de renombre mientras equilibra sus roles de esposo atento y padre dedicado. Sin embargo, esta fachada de normalidad oculta una identidad pasada como letal operativo de élite, un capítulo que creía firmemente enterrado. Cuando antiguos asociados emergen de las sombras con intenciones vengativas, el meticuloso mundo doméstico de Morgan se fractura irreversiblemente. Para proteger a su familia, que desconoce por completo sus habilidades mortíferas, se ve forzado a improvisar una escapada inmediata, transformando una simple salida en una huida desesperada por carreteras secundarias. Lo que comienza como un tenso viaje por carretera para salvar sus vidas rápidamente se convierte en una caótica aventura familiar, donde cada parada imprevista representa un nuevo peligro. Su esposa e hijos, inicialmente confundidos por la abrupta decisión, pronto empiezan a notar las inexplicables capacidades de Dan para evadir perseguidores y resolver conflictos con una precisión sobrehumana. Mientras el peligro se intensifica, los lazos familiares son puestos a prueba en escenarios que mezclan situaciones hilarantes con momentos de acción trepidante, revelando gradualmente la verdadera naturaleza del patriarca. La comedia surge de los absurdos intentos de Dan por mantener su doble vida mientras su familia, ingenua pero astuta, comienza a conectar las piezas de su misterioso pasado. Este viaje familiar lleno de acción los lleva a través de paisajes diversos, desde bulliciosas áreas urbanas hasta remotos caminos rurales, donde cada encuentro fortuito podría desenmascarar sus secretos. A medida que las amenazas del pasado cierran el cerco, la familia Morgan debe aprender a funcionar como un equipo cohesionado, descubriendo que sus peculiaridades individuales podrían ser su mayor ventaja para sobrevivir. La verdadera pregunta es si el amor familiar y las inesperadas habilidades domésticas podrán superar la entrenada eficiencia de un asesino profesional, en una carrera contra el tiempo donde el.خطة العائلة",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "comedia"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-24T23:08:10.523120",
+    "tamaño": "N/A",
+    "año": 2023,
+    "calificacion": 7.8,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filelions.to/v/3syep64vj8c9",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "plan-en-familia-2023",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://filelions.to/v/3syep64vj8c9"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Plan en familia 2",
+    "poster": "https://image.tmdb.org/t/p/w300/sxoN17pPyL6SiqD8F6DXmTPILwJ.jpg",
+    "descripcion": "Dan ha dejado atrás su pasado como asesino y lo único que quiere esta Navidad es pasar tiempo de calidad con sus hijos. Pero, al ver que su hija tiene otros planes, organiza un viaje familiar a Londres... y los pone a todos en la mira de un enemigo inesperado..",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "comedia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-24T23:09:51.196389",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 7.8,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/4khx40eff3rg",
+        "calidad": "4k"
+      }
+    ],
+    "id": "plan-en-familia-2-2025",
+    "descargas": [
+      {
+        "calidad": "4k",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/4khx40eff3rg"
+      }
+    ]
+  },
+  {
+    "id": "pluribus-2025",
+    "tipo": "serie",
+    "titulo": "Pluribus",
+    "poster": "https://ww4.pelisplushd.to/poster/pluribus-thumb.jpg",
+    "descripcion": "La persona más infeliz del planeta debe salvar al mundo de la felicidad.",
+    "categoria": [
+      "series"
+    ],
+    "año": 2025,
+    "duracion": "58 m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "aventura",
+      "familia"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "",
+            "url": "https://streamwish.to/e/5dwjeuc3ugig"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Temporada 1, Capitulo 1 - Episode 2",
+            "url": "https://habetar.com/e/bu5yqcsofx2b"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pokemon-detective-pikachu-2025",
+    "tipo": "pelicula",
+    "titulo": "Pokémon Detective Pikachu",
+    "poster": "https://ww4.pelisplushd.to/poster/pokemon-detective-pikachu-thumb.jpg",
+    "descripcion": "",
+    "categoria": [
+      "todos"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "fuentes": []
+  },
+  {
+    "id": "pokemon-los-secretos-de-la-selva-2020-2020",
+    "tipo": "pelicula",
+    "titulo": "Pokémon: Los secretos de la selva (2020)",
+    "poster": "https://ww4.pelisplushd.to/poster/pokemon-los-secretos-de-la-selva-thumb.jpg",
+    "descripcion": "En el Bosque de Okoya, Koko es un niño salvaje que ha sido criado como Pokémon por el Pokémon Mítico Zarude. Koko ha crecido sin dudar nunca de que es un Pokémon a pesar de que realmente no puede usar ningún tipo de movimiento. Ash Ketchum y Pikachu conocen a Koko y lo ayudan a proteger el Gran Árbol del científico corrupto Dr. Zed..",
+    "categoria": [
+      "todos"
+    ],
+    "año": 2020,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dood.to/e/0xs0fop53gcj"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dood.to/e/0xs0fop53gcj"
+      }
+    ]
+  },
+  {
+    "id": "power-rangers-1017",
+    "tipo": "pelicula",
+    "titulo": "Power Rangers",
+    "poster": "https://ww4.pelisplushd.to/poster/power-rangers-thumb.jpg",
+    "descripcion": "Cinco adolescentes normales deben convertirse en algo extraordinario cuando se enteran de que su pequeño pueblo de Angel Grove, y el mundo, está a punto de ser aniquilado por una amenaza alienígena. Elegidos por el destino, nuestros héroes descubren rápidamente que son los únicos que pueden salvar el planeta. Pero para hacerlo, tendrán que superar sus problemas de la vida real y, antes de que sea demasiado tarde, convertirse en los Power Rangers.",
+    "categoria": [
+      "accion"
+    ],
+    "año": 1017,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "Acción",
+      "Aventura",
+      "Ciencia ficción"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://streamwish.to/e/yi36q6m2mh5u"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/yi36q6m2mh5u"
+      }
+    ]
+  },
+  {
+    "id": "power-rangers-dino-fury-2021",
+    "tipo": "serie",
+    "titulo": "Power Rangers Dino",
+    "poster": "https://ww4.pelisplushd.to/poster/power-rangers-dino-fury-thumb.jpg",
+    "descripcion": "Cuando un ejército de poderosos seres alienígenas amenazan la vida tal como la conocemos, un nuevo equipo de Power Rangers, impulsado por el poder prehistórico de los dinosaurios, es reclutado para hacer frente a la amena",
+    "categoria": [
+      "series"
+    ],
+    "año": 2021,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "netflix",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dood.to/e/viord37sexhm"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dood.to/e/qhgbi589fu2g"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dood.to/e/z07rgef695ls"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "power-rangers-turbo-1997",
+    "tipo": "pelicula",
+    "titulo": "Power Rangers: Turbo",
+    "poster": "https://ww4.pelisplushd.to/poster/power-rangers-turbo-thumb.jpg",
+    "descripcion": "",
+    "categoria": [
+      "accion"
+    ],
+    "año": 1997,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "netflix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dood.to/e/9kv48wxps75q"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dood.to/e/9kv48wxps75q"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Primer Escuadrón",
+    "poster": "https://image.tmdb.org/t/p/w500/m4zltJFwn5Xye7KjQOzNytVW6S0.jpg",
+    "descripcion": "En 1942 el combate que mantiene Alemania con Rusia parece no tener fin y ambos países comenzarán a desarrollar unidades especializadas en la magia y el ocultismo. Nadya, una joven medium, se convertirá en la mejor arma del ejército ruso para solventar a su favor ‘el momento de la verdad’, el segundo decisivo en que una batalla se gana o se pierde.",
+    "categoria": [
+      "accion",
+      "comedia",
+      "anime",
+      "aventura",
+      "ciencia-ficcion",
+      "infantil",
+      "animacion"
+    ],
+    "duracion": "60 min",
+    "director": "芦野芳晴",
+    "reparto": [
+      "Sergei Aisman",
+      "Michael Beskorovainy",
+      "Elena Chebaturkina",
+      "Damir Eldarov",
+      "Olga Golovanova"
+    ],
+    "favorito": false,
+    "genero": [
+      "fantasía",
+      "animación",
+      "acción",
+      "ciencia ficción"
+    ],
+    "idioma": "RU",
+    "calidad": "1080p",
+    "addedDate": "2025-12-07T15:49:18.789071",
+    "tamaño": "N/A",
+    "año": 2009,
+    "calificacion": 6.3,
+    "votos": 127,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/auto-23527",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "primer-escuadron-2009",
+    "descargas": [
+      "https://dintezuvio.com/embed/auto-23527"
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Profe Infiltrado",
+    "poster": "https://image.tmdb.org/t/p/w300/dQb4ISbC8R9gkfcnQ1d4bNBuONS.jpg",
+    "descripcion": "Julián, un tipo bonachón que trabaja como repartidor de electrodomésticos robados, es capturado por la policía y obligado a infiltrarse como profesor de deportes en el Instituto Cuévano, la preparatoria privada en donde estudia la hija de su jefe..",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-26T19:42:46.324271",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/t2gmacdz9t09"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/e49wtpxeil2v"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/ee7p5dswhwzn"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/a36oflikt5rf"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/xkqbfmckfqcf"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/pzty40yi13n8"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/3flt1alw3aps"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dintezuvio.com/embed/2579w91fdbpo"
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/g0bswdgm1egr"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/wizlcgmtl5os"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/j47ppe0ml1oa"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/0muwcrp0t5wy"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/4vra7s4wap3y"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/2b4fcyegxisr"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/tv78dtwpgyy2"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dintezuvio.com/embed/9mzk3j2a4847"
+          }
+        ]
+      }
+    ],
+    "id": "profe-infiltrado-2024"
+  },
+  {
+    "id": "projecto-x-2025",
+    "tipo": "pelicula",
+    "titulo": "Projecto X",
+    "poster": "https://image.tmdb.org/t/p/w300/owF9NIcQOPFAOjp2pni8BsVlnRq.jpg",
+    "descripcion": "",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "crimen"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T01:24:28.529407",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.7,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "clasificacion_edad": "+18",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/gbce1vcjh4lw"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/gbce1vcjh4lw"
+      }
+    ]
+  },
+  {
+    "id": "putin-2025",
+    "tipo": "pelicula",
+    "titulo": "Putin",
+    "poster": "https://www.pelisplus.do/poster/putin-thumb.jpg",
+    "descripcion": "Un retrato de una figura política formidable, que revela los contrastes entre un tirano de puño de hierro y un hombre atormentado por el miedo, mostrando la complejidad de su poder y su vulnerabilidad.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "SUSPENSO"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T17:25:57.337866",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 9.1,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/zkrva7ooo68i"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/zkrva7ooo68i"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Que paso ayer 3",
+    "poster": "https://image.tmdb.org/t/p/w300/vtxuPWkdllLNLVyGjKYa267ntuH.jpg",
+    "descripcion": "En esta tercera entrega de la célebre saga cómica, el grupo de amigos se enfrenta a su aventura más personal cuando Alan, sumido en una profunda crisis emocional tras el fallecimiento de su padre, es convencido por Phil, Stu y Doug para ingresar en un exclusivo centro de bienestar emocional. Lo que prometía ser un tranquilo viaje terapéutico se transforma rápidamente en otro caótico capítulo cuando el impredecible Chow emerge inesperadamente, desencadenando una serie de eventos que pondrán a prueba los límites de su amistad. La road trip terapéutica se convierte en una carrera contra el tiempo a través de paisajes desérticos, donde los cuatro compañeros deberán enfrentarse no solo a peligrosos criminales sino también a sus propios demonios internos. Mientras navegan por esta travesía llena de giros inesperados, cada personaje revela facetas desconocidas de su personalidad, particularmente Alan, cuyo proceso de crecimiento personal se ve constantemente interrumpido por situaciones hilarantes y momentos de genuina conexión emocional. La búsqueda de sanación se entrelaza con secuencias de acción desenfrenada, encuentros con excéntricos personajes y esas conversaciones nocturnas que han caracterizado a la franquicia, creando un equilibrio perfecto entre comedia y momentos de auténtica profundidad. Los fans de la saga encontrarán en esta entrega todos los elementos que hicieron famosa a la franquicia, pero con un enfoque más maduro que explora la evolución de estos personajes que han crecido junto a su audiencia, demostrando que incluso en las circunstancias más absurdas, la amistad puede ser la mejor terapia..Se Beber Não Case! Parte 3 R3sacón בדרך לחתונה עוצרים בווגאס 3 Que paso ayer 3 A Ressaca - Parte III Malchishnik III Que Paso Ayer Parte III เมายกแก๊ง แฮงค์ยกก๊วน 3 Похмілля у Вегасі: Частина 3 The Hangover 3 The Hangover III",
+    "categoria": [
+      "todos"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "idioma": "Latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-27T18:54:56.922497",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "clasificacion_edad": "+18",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/mv1p15p23kwb",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/mv1p15p23kwb"
+      }
+    ],
+    "id": "que-paso-ayer-3-2025"
+  },
+  {
+    "id": "rafa-marquez-el-capitan-2024",
+    "tipo": "pelicula",
+    "titulo": "Rafa Márquez: El capitán",
+    "poster": "https://ww4.pelisplushd.to/poster/rafa-marquez-el-capitan-thumb.jpg",
+    "descripcion": "El defensor mexicano relata victorias y derrotas en el mundo del fútbol y más allá, revelando una mirada íntima a sus sueños, desvíos y determinación.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2024,
+    "duracion": "1h 22m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental"
+    ],
+    "calificacion": 10.0,
+    "votos": 1000,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "netflix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/u1amou6wv4dk"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/u1amou6wv4dk"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Ragnarok",
+    "poster": "https://image.tmdb.org/t/p/w300/8hnNdUFlUkjPWxKDyiE4Kn8h7Q5.jpg",
+    "descripcion": "En las profundidades del cosmos, el dios del trueno se encuentra atrapado en una realidad desconocida, desprovisto de su legendaria arma. Mientras el caos se desata en los reinos, Thor descubre que Asgard enfrenta su hora más oscura bajo el yugo de Hela, diosa de la muerte cuyo poder amenaza con reducir a escombros la cuna de la civilización asgardiana. El reloj avanza inexorablemente hacia el Ragnarok, la profecía ancestral que anuncia la aniquilación total, forzando al héroe a emprender una travesía intergaláctica contra el tiempo. En su camino se interpone el despiadado planeta Sakaar, donde el soberano excéntrico Gran Maestro rige un sangriento espectáculo de gladiadores. Arrojado a esta arena mortal, Thor se ve obligado a participar en combates que desafían su fuerza divina, encontrándose cara a cara con un antiguo aliado transformado en guerrero implacable: el colérico Hulk. Esta confrontación entre vengadores en Sakaar marca un giro crucial en su misión, donde cada golpe podría significar la diferencia entre la salvación y la eterna perdición. Mientras teje frágiles alianzas con guerreros inesperados y enfrenta traiciones que sacuden su confianza, el hijo de Odín debe desbloquear poderes latentes que nunca supo poseer. La épica batalla por Asgard contra Hela se convierte en una prueba de sacrificio y legado, donde el verdadero significado del liderazgo se revela mediante decisiones que alterarán el cosmos para siempre. El destino de Nueve Reinos pende de un hilo mientras thor en el planeta sakaar libra su lucha más personal antes del enfrentamiento final que redefinirá la mitología nórdica en el universo cinematográfico..MCU-17 - Thor 3 - Tag der Entscheidung Thor - Tag der Entscheidung Thor 3 - Ragnarok",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "ciencia",
+      "comedia",
+      "fantasia",
+      "ficcion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-22T23:44:51.409034",
+    "tamaño": "N/A",
+    "año": 2017,
+    "calificacion": 8.7,
+    "votos": 90000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/tjeq48a694t3"
+      },
+      {
+        "idioma": "español",
+        "url": "https://dintezuvio.com/embed/7eup8ertrh3z"
+      }
+    ],
+    "id": "ragnarok-2017",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/tjeq48a694t3"
+      },
+      {
+        "calidad": "HD",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/7eup8ertrh3z"
+      }
+    ]
+  },
+  {
+    "id": "ratatouille-2007",
+    "tipo": "pelicula",
+    "titulo": "Ratatouille",
+    "poster": "https://ww4.pelisplushd.to/poster/ratatouille-thumb.jpg",
+    "descripcion": "Remy es una simpática rata que sueña con convertirse en un gran chef francés a pesar de la oposición de su familia y del problema evidente que supone ser una rata en una profesión que detesta a los roedores. El destino lleva a Remy a las alcantarillas de París, donde su situación no puede ser mejor, ya que se encuentra justo debajo de un restaurante que se ha hecho famoso gracias a Auguste Gusteau, una estrella de la nouvelle cuisine. A pesar del peligro que representa ser un visitante poco común (y desde luego nada deseado) en los fogones de un exquisito restaurante francés, la pasión de Remy por la cocina pone patas arriba el mundo culinario parisino en una trepidante y emocionante aventura.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2007,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T22:53:39.119005",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/hvht3765gwru"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/hvht3765gwru"
+      }
+    ]
+  },
+  {
+    "id": "real-madrid-como-no-te-voy-a-querer-2025",
+    "tipo": "serie",
+    "titulo": "Real Madrid: Cómo no te voy a querer",
+    "poster": "https://ww4.pelisplushd.to/poster/real-madrid-como-no-te-voy-a-querer-thumb.jpg",
+    "descripcion": "En el Real Madrid la ambición y la exigencia de conquistar todos los títulos pone a prueba a directivos, cuerpo técnico y jugadores cada año. En la temporada 2023-24 el equipo se ha reforzado para formar una plantilla a la altura del desafío: completar una década que puede convertir al equipo en leyenda y escribir una nueva página dorada del club en la historia del fútbol. Sin embargo, apenas comenzada LaLiga, el equipo pierde a dos de sus jugadores más importantes para el resto de la temporada apurando los recursos de la defensa y multiplicando la dificultad del reto.",
+    "categoria": [
+      "series"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/xaj9747ahd4f"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://player.cuevana3.eu/player.php?h=rxPRsRSX4IlkyS1F21W5j4f_wNYWcK6xuqfODP9H8orJtkfKLG66RFlAr4G6zNTr"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/7cu91hwgwmqh"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://player.cuevana3.eu/player.php?h=rxPRsRSX4IlkyS1F21W5jwgk1CgjLaDQleOuCwe3Zru4Zgp.8Gci2wsFOBJ4quUi"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/9vfjdk4n2e8j"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/vxs03mmuiz0p"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "riesgo-bajo-cero-venganza-2025",
+    "tipo": "pelicula",
+    "titulo": "Riesgo bajo cero: Venganza",
+    "poster": "https://ww4.pelisplushd.to/poster/ice-road-vengeance-thumb.jpg",
+    "descripcion": "Mike viaja a Nepal para esparcir las cenizas de su hermano en el Everest. Cuando Mike y su guía se topan con mercenarios mientras viajan en un autobús se ven obligados a luchar para salvarse a sí mismos, a los pasajeros y al país.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "Accion",
+      "suspenso",
+      "drama"
+    ],
+    "calificacion": 7.1,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T19:23:19.818386",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/f7q4d886eyup"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/f7q4d886eyup"
+      }
+    ]
+  },
+  {
+    "id": "road-house-de-profesion-duro-2024",
+    "tipo": "pelicula",
+    "titulo": "Road House. De profesión: duro",
+    "poster": "https://image.tmdb.org/t/p/w300/lXJK3E3EPcT2i7mev2ilHlTIvTR.jpg",
+    "descripcion": "",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T01:35:26.656831",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 8.2,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": []
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Rob1n: El poseído",
+    "poster": "https://ww5.pelisplushd.to/poster/rob1n-thumb.jpg",
+    "descripcion": "Cuando un experto en robótica canaliza el dolor de perder a su hijo de 11 años en la construcción de 'Robin', un muñeco robótico completamente funcional, una serie de eventos horribles dejan en claro que Robin hará lo que sea necesario para tener a su creador para él solo.",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "suspenso",
+      "terror"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-27T20:42:58.193063",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "clasificacion_edad": "+18",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/lilo16xw2wdr",
+        "calidad": "HD"
+      },
+      {
+        "idioma": "subtitulado",
+        "url": "https://dintezuvio.com/embed/cc1syru8qdpq",
+        "calidad": "HD"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/lilo16xw2wdr"
+      },
+      {
+        "calidad": "HD",
+        "idioma": "subtitulado",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/cc1syru8qdpq"
+      }
+    ],
+    "id": "rob1n-el-poseido-2025"
+  },
+  {
+    "id": "rockstar-duki-desde-el-fin-del-mundo-2025",
+    "tipo": "pelicula",
+    "titulo": "Rockstar: DUKI desde el fin del mundo",
+    "poster": "https://ww4.pelisplushd.to/poster/rockstar-duki-desde-el-fin-del-mundo-thumb.jpg",
+    "descripcion": "La estrella del trap argentino Duki ofrece una mirada íntima a su carrera y pasado, desde sus primeras batallas de rap hasta su ascenso como creador de éxitos en este documental.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental",
+      "musica"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "plataforma": "netflix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/kz0fusg127xp"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/kz0fusg127xp"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Romeo + Julieta de William Shakespeare",
+    "poster": "https://image.tmdb.org/t/p/w300/eQkixOmHEldkmtW8Ecek41ulJsZ.jpg",
+    "descripcion": "En Verona Beach se suceden los enfrentamientos entre las dos familias más poderosas (los Montesco y los Capuleto), cuyo objetivo es conseguir el dominio de la ciudad. Fulgencio Capuleto organiza una fiesta a la que asiste, gracias a la mediación de su amigo Mercuccio, Romeo Montesco. Lo que los Capuleto pretenden es que su joven hija Julieta se comprometa con el arrogante Dave Paris, el hijo del gobernador. Pero, cuando Romeo y Julieta se miran, surgirá entre ellos desde el primer momento la chispa del amor. Adaptación moderna del clásico de Shakespeare.. Romeo & Julia Romeo and Juliet William Shakespeare's Romeo + Juliet Romeu e Julieta William Shakespeares Romeo und Julia Ромео і Джульєта Romeo og Julie Romeo",
+    "categoria": [
+      "drama"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "romance"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-22T23:28:09.213283",
+    "tamaño": "N/A",
+    "año": 1996,
+    "calificacion": 8.0,
+    "votos": 800000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/ilgpal9h50sr"
+      }
+    ],
+    "id": "romeo-julieta-de-william-shakespeare-1996",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/ilgpal9h50sr"
+      }
+    ]
+  },
+  {
+    "id": "sacudete-las-penas-2018-2018",
+    "tipo": "pelicula",
+    "titulo": "Sacudete Las Penas (2018)",
+    "poster": "https://ww4.pelisplushd.to/poster/sacudete-las-penas-thumb.jpg",
+    "descripcion": "",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2018,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama"
+    ],
+    "calificacion": 10.0,
+    "votos": 20000,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://dood.to/e/2l9w0aslhjjr"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dood.to/e/2l9w0aslhjjr"
+      }
+    ]
+  },
+  {
+    "id": "sangre-sudor-y-gloria-2013",
+    "tipo": "pelicula",
+    "titulo": "Sangre Sudor y Gloria",
+    "poster": "https://image.tmdb.org/t/p/w300/qDdUFk8kPn0LVHRWDihO4QpnqAX.jpg",
+    "descripcion": "",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "Accion",
+      "comedia",
+      "crimen"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T21:08:23.123926",
+    "tamaño": "N/A",
+    "año": 2013,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "clasificacion_edad": "+18",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/lisizqp4jale"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/k7dn3qlosk0i"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/lisizqp4jale"
+      },
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/k7dn3qlosk0i"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Sarah's Oil",
+    "poster": "https://image.tmdb.org/t/p/w500/Av1CK61z33v2OBFLD1yF5rdRxQ1.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama"
+    ],
+    "director": "Cyrus Nowrasteh",
+    "reparto": [
+      "Zachary Levi",
+      "Naya Desir-Johnson",
+      "Sonequa Martin-Green",
+      "Garret Dillahunt",
+      "Bridget Regan"
+    ],
+    "calificacion": 7.278,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:16:58.665153",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/3repepmqy6o4?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "sarahs-oil-2025"
+  },
+  {
+    "id": "screamboat-la-masacre-del-raton-2025",
+    "tipo": "pelicula",
+    "titulo": "Screamboat La Masacre Del Ratón",
+    "poster": "https://www.pelisplus.do/poster/screamboat-la-masacre-del-raton-thumb.jpg",
+    "descripcion": "Un travieso ratón acecha a un grupo de neoyorquinos en un viaje nocturno en ferry, desatando un caos asesino en un viaje relajante. ¿Podrá la variopinta tripulación del barco encontrar la manera de detener a esta criatura asesina?",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "teeror"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T21:33:17.527643",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "netflix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/omru2zmwfwqv"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/omru2zmwfwqv"
+      }
+    ]
+  },
+  {
+    "id": "seis-dias-caza-al-asesino-2024",
+    "tipo": "pelicula",
+    "titulo": "Seis días: Caza al asesino",
+    "poster": "https://image.tmdb.org/t/p/w300/vTaGbyHe0vJXbE2t90OVQZsE3G4.jpg",
+    "descripcion": "Ver la Película Seis días: Caza al asesino online gratis en español.",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "suspenso"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T19:37:12.737069",
+    "tamaño": "N/A",
+    "año": 2024,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/iih4qadomf8a"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/iih4qadomf8a"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Selena y Los Dinos",
+    "poster": "https://ww5.pelisplushd.to/poster/selena-y-los-dinos-thumb.jpg",
+    "descripcion": "La trayectoria de Selena Quintanilla, que pasó de actuar en eventos locales a convertirse en la «Reina de la Música Tejana» con su grupo familiar Selena y Los Dinos, culminando en giras por estadios con entradas agotadas, se narra a través de imágenes de archivo personales.",
+    "categoria": [
+      "documental"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental",
+      "musica"
+    ],
+    "idioma": "latino,ingles,español",
+    "calidad": "1080p",
+    "addedDate": "2025-12-05T15:56:04.881370",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/evshudpe1d7j",
+        "calidad": "1080p"
+      },
+      {
+        "idioma": "español",
+        "url": "https://streamwish.to/e/mbdcitwbu3nb",
+        "calidad": "1080p"
+      },
+      {
+        "idioma": "subtitulado ",
+        "url": "https://streamwish.to/e/bioml1vln1nw",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/evshudpe1d7j"
+      },
+      {
+        "calidad": "1080p",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/mbdcitwbu3nb"
+      },
+      {
+        "calidad": "1080p",
+        "idioma": "subtitulado ",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/bioml1vln1nw"
+      }
+    ],
+    "id": "selena-y-los-dinos-2025"
+  },
+  {
+    "id": "setan-alas-2023",
+    "tipo": "pelicula",
+    "titulo": "Setan Alas!",
+    "poster": "https://image.tmdb.org/t/p/w300/7j2gEvd2lWVkLlLJh2akuSY4ajV.jpg",
+    "descripcion": "5 estudiantes universitarios pasan su fin de semana en una típica villa antigua solo para descubrir que tienen que sobrevivir en una batalla de ingenio contra un terror todopoderoso absoluto que parece invicto. ¡Lucha por tu destino!..",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "ciencia ficcion terror"
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-21T17:50:46.441508",
+    "tamaño": "N/A",
+    "año": 2023,
+    "calificacion": 7.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/7yuvvpl1eqhs"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/7yuvvpl1eqhs"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Señal de muertes",
+    "poster": "https://image.tmdb.org/t/p/w300/dTm6CXCtwgGbpUN1stgVcPKnXDw.jpg",
+    "descripcion": "Wynne tiene que descifrar unas imágenes de su teléfono antes de que se produzca su muerte..",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "terror suspenso misterio drama"
+    ],
+    "favorito": false,
+    "genero": [],
+    "calidad": "HD",
+    "addedDate": "2025-11-22T19:27:40.185528",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/circqimokwbq"
+      }
+    ],
+    "id": "senal-de-muertes-2024",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/circqimokwbq"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Shadow Force",
+    "poster": "https://image.tmdb.org/t/p/w300/1PjZIyaMQGhSg8qPdtEZdYBBXah.jpg",
+    "descripcion": "Con una recompensa por sus cabezas, la pareja formada por Omar Sy y Kerry Washington, huye con su hijo para escapar de su antigua organización: una unidad de operaciones en la sombra que ha sido enviada para liquidarlos..幽冥部队 Теневая полиция Shadow Force: Die Letzte Mission Árnyékosztag למצוץ את הצללים Shadow Force: Sentencia de Muerte",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "acciondrama",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T17:03:49.491137",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 7.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/0j0yd28hqwkc",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/0j0yd28hqwkc"
+      }
+    ],
+    "id": "shadow-force-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "She-Hulk: Defensora de héroes",
+    "poster": "https://image.tmdb.org/t/p/w300/tGBZafCNpKo6l1B9tWKUaSS5MvD.jpg",
+    "descripcion": "La historia era simple: Jennifer Walters es una abogada acomplejada por su baja estatura, introvertida y tímida, pero con un talento innato para defender a sus clientes. Un día sufre un fatal accidente y su único pariente disponible para una transfusión de sangre es su primo Bruce Banner.She-Hulk : Avocate de Marvel Studios 女浩克 הענקית הירוקה She ハルク：ザ・アトーニー Mecenas She-Hulk Женщина-Халк ชี-ฮัลค์ ชี-ฮัลค์: ทนายสายลุย She-Hulk Marvel Studios' She-Hulk: Attorney at Law She Hulk abogada Hulka",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "action",
+      "aventure",
+      "comedia"
+    ],
+    "calidad": "1080p",
+    "addedDate": "2025-11-23T13:47:55.634397",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 7.9,
+    "votos": 8000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dinisglows.com/v/6cl36f3gf59v"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dinisglows.com/v/14cdsgiboc7t"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://filelions.to/v/837110vs8z72"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://hglink.to/e/de5adul14ixw"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://hglink.to/e/ozm8c8acfqxt"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://hglink.to/e/6oods8hskazp"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dinisglows.com/v/q4chev1fmteh"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://filelions.to/v/4uanxqf2j76t"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://dinisglows.com/v/9dbqu5guu8sy"
+          }
+        ]
+      }
+    ],
+    "id": "she-hulk-defensora-de-heroes-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Sin frenos",
+    "poster": "https://image.tmdb.org/t/p/w300/3IeuYKkzf7AyilTXOKYMqjMDht8.jpg",
+    "descripcion": "Un repartidor y una ama de casa de la alta sociedad chilena ingenua abren un hostal para inmigrantes, olvidando colgar el letrero de 'Se prohíbe el drama'. Pronto se encuentran con más secretos que camas, un romance más candente que su Wi-Fi gratuito, y un vecindario determinado a cerrarles las puertas..",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-04T20:54:10.599783",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/ufa3cq6elti6"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/cqhcn8n0d5gh"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/skcxfqwpi76d"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/g6j1dri2vd6d"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/9qj4x6c9bna6"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/ezzhemhubkor"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/y05yhg1gm1bb"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dintezuvio.com/embed/udxyzoph1x93"
+          }
+        ]
+      }
+    ],
+    "id": "sin-frenos-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Sneaks",
+    "poster": "https://image.tmdb.org/t/p/w500/oayXSQHQRk8VNavoXJw7lK1N6aI.jpg",
+    "descripcion": "Sneaks es la aventura conmovedora y cómica de un par de tenis únicos llamadas Ty y Maxine. Mientras que Ty no quiere experimentar la vida fuera de la comodidad de su zapato forrado de terciopelo, Maxine anhela la oportunidad de ver el mundo y vivir la vida en los pies de alguien en lugar de una existencia en un pedestal.",
+    "año": 2025,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "familia",
+      "comedia",
+      "aventura",
+      "animación"
+    ],
+    "director": "Rob Edwards",
+    "reparto": [
+      "Anthony Mackie",
+      "Martin Lawrence",
+      "Swae Lee",
+      "Young Miko",
+      "Chloe Bailey"
+    ],
+    "calificacion": 6.1,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T01:53:59.831311",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/a1gvwcrlvnvi?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "sneaks-2025"
+  },
+  {
+    "id": "sonic-3-la-pelicula-2024",
+    "tipo": "pelicula",
+    "titulo": "Sonic 3 - La película",
+    "poster": "https://ww5.pelisplushd.to/poster/sonic-3-la-pelicula-thumb.jpg",
+    "descripcion": "Ver Sonic 3 - La película Online Latino, Español, Subtituladas Gratis | Cuevana3. Sonic, Knuckles y Tails se reunirán para enfrentarse a un nuevo y poderoso adversario, Shadow, un misterioso villano con poderes nunca antes vistos. Con sus habilidades rebasadas en todos los sentidos, el Equipo Sonic deberá buscar una alianza improbable con la esperanza de detener a Shadow y proteger el planeta.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "Aventura"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-16T02:47:13.490050",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 8.1,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://goodstream.uno/video/embed/xu4v5be8ahxq"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://goodstream.uno/video/embed/xu4v5be8ahxq"
+      }
+    ]
+  },
+  {
+    "id": "sorpresa-en-navidad-2020",
+    "tipo": "pelicula",
+    "titulo": "Sorpresa en Navidad",
+    "poster": "https://ww4.pelisplushd.to/poster/sorpresa-en-navidad-thumb.jpg",
+    "descripcion": "Hayley planea pasar la Navidad con la nueva familia de su hermana, pero el festejo se complica cuando el hombre que la llevó a separarse de su ex llega inesperadamente.",
+    "categoria": [
+      "pelicula"
+    ],
+    "año": 2020,
+    "genero": [
+      "romance",
+      "drama"
+    ],
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/in06xrochdkg"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/in06xrochdkg"
+      }
+    ]
+  },
+  {
+    "id": "soy-eddie-2025",
+    "tipo": "pelicula",
+    "titulo": "Soy Eddie",
+    "poster": "https://image.tmdb.org/t/p/w300/x9DGdhgLONrgp4h36DpeWTCPsTO.jpg",
+    "descripcion": "",
+    "categoria": [
+      "lanzamientos-recientes",
+      "todo-lo-nuevo-2025",
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-21T14:56:20.877449",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.8,
+    "votos": 7000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/8s1xrnupzgq3"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/8s1xrnupzgq3"
+      }
+    ]
+  },
+  {
+    "id": "soy-luna-el-ultimo-concierto-2021",
+    "tipo": "pelicula",
+    "titulo": "Soy Luna: El último concierto",
+    "poster": "https://image.tmdb.org/t/p/w300/wKw7suet4zEZFOPul03qBEKriUV.jpg",
+    "descripcion": "",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "musica",
+      "documental"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-20T22:39:46.117186",
+    "tamaño": "N/A",
+    "año": 2021,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": true,
+    "fuentes": []
+  },
+  {
+    "id": "space-ranger-2024",
+    "tipo": "pelicula",
+    "titulo": "Space Ranger",
+    "poster": "https://ww4.pelisplushd.to/poster/space-ranger-thumb.jpg",
+    "descripcion": "A group of Space Rangers must protect the universe from extinction.",
+    "categoria": [
+      "aventura"
+    ],
+    "año": 2024,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "aventura"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://vidhidepro.com/v/syf1tmw570tw"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://vidhidepro.com/v/syf1tmw570tw"
+      }
+    ]
+  },
+  {
+    "id": "spider-man-a-traves-del-spider-verso-2023",
+    "tipo": "pelicula",
+    "titulo": "Spider-Man: A través del Spider-Verso",
+    "poster": "https://ww4.pelisplushd.to/poster/spider-man-a-traves-del-spider-verso-thumb.jpg",
+    "descripcion": "Después de reunirse con Gwen Stacy, Miles Morales, el amigable Spider-Man del vecindario de tiempo completo de Brooklyn, es catapultado a través del Multiverso, donde se encuentra con un equipo de Spider-People encargado de proteger su existencia. Pero cuando los héroes chocan sobre cómo manejar una nueva amenaza, Miles se enfrenta a las otras arañas y debe redefinir lo que significa ser un héroe para poder salvar a las personas que más ama.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2023,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "accion",
+      "aventura"
+    ],
+    "calificacion": 10.0,
+    "votos": 1200000,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T18:58:04.072370",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/kmhvjbuh398f"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/kmhvjbuh398f"
+      }
+    ]
+  },
+  {
+    "id": "spider-man-de-regreso-a-casa-2017",
+    "tipo": "pelicula",
+    "titulo": "Spider-Man: De Regreso a Casa",
+    "poster": "https://ww4.pelisplushd.to/poster/spider-man-de-regreso-a-casa-thumb.jpg",
+    "descripcion": "Peter Parker comienza a experimentar su recién descubierta identidad como el superhéroe Spider-Man (El Hombre Araña). Después de la experiencia vivida con los Vengadores, Peter regresa a casa, donde vive con su tía. Bajo la atenta mirada de su mentor Tony Stark, Peter intenta mantener una vida normal como cualquier joven de su edad, pero interrumpe en su rutina diaria el nuevo villano Vulture y, con él, lo más importante de la vida de Peter comenzará a verse amenazado.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2017,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "ciencia"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T19:02:41.056127",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/5g8y91pasq13"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/5g8y91pasq13"
+      }
+    ]
+  },
+  {
+    "id": "spider-man-lejos-de-casa-2019",
+    "tipo": "pelicula",
+    "titulo": "Spider-Man: Lejos de Casa",
+    "poster": "https://ww4.pelisplushd.to/poster/spider-man-lejos-de-casa-thumb.jpg",
+    "descripcion": "Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuando Nick Fury contacta con él para solicitarle ayuda para frenar el ataque de unas criaturas elementales que están causando el caos en el continente. En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2019,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "ciencia"
+    ],
+    "calificacion": 7.4,
+    "votos": 20000,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T18:52:34.152808",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/qsvbke54h7qh"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/qsvbke54h7qh"
+      }
+    ]
+  },
+  {
+    "id": "spider-man-lotus-2023",
+    "tipo": "pelicula",
+    "titulo": "Spider-Man: Lotus",
+    "poster": "https://ww4.pelisplushd.to/poster/spider-man-lotus-thumb.jpg",
+    "descripcion": "Tras la trágica muerte de su ex novia, aparentemente causada por su propio intento de salvarla, Peter Parker (Warden Wayne) persiste en su culpa del pasado, preguntándose si la maldición de su alter ego debería ser enterrada para siempre. Cuando recibe la noticia de que un niño con una enfermedad terminal ha solicitado conocer a Spider-Man, Peter contempla la decisión de consolarlo en sus últimos días.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2023,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "drana",
+      "ciencia"
+    ],
+    "calificacion": 7.5,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T19:00:45.524306",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/locb7okcphtq"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/locb7okcphtq"
+      }
+    ]
+  },
+  {
+    "id": "spider-man-sin-camino-a-casa-2021",
+    "tipo": "pelicula",
+    "titulo": "Spider-Man: Sin camino a casa",
+    "poster": "https://ww4.pelisplushd.to/poster/spider-man-sin-camino-a-casa-thumb.jpg",
+    "descripcion": "Peter Parker es desenmascarado y ya no puede separar su vida normal de los altos riesgos de ser un súper héroe. Cuando pide ayuda al Doctor Strange para recuperar su secreto, el hechizo crea un agujero en su mundo, liberando a los villanos más poderosos que han luchado con cualquier Spider-Man, en cualquier universo. Ahora Peter debe de superar su reto más grande, que no solo alterara su propio futuro pero el del multiverso, forzándolo a descubrir lo que realmente significa ser Spider-Man.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2021,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "ciencia ficcion"
+    ],
+    "calificacion": 10.0,
+    "votos": 3000000,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T18:55:53.917228",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/5aetniduaifo"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/5aetniduaifo"
+      }
+    ]
+  },
+  {
+    "id": "spider-man-un-nuevo-universo-2018",
+    "tipo": "pelicula",
+    "titulo": "Spider-Man: Un Nuevo Universo",
+    "poster": "https://ww4.pelisplushd.to/poster/spider-man-un-nuevo-universo-thumb.jpg",
+    "descripcion": "En un universo paralelo donde Peter Parker ha muerto, un joven de secundaria llamado Miles Morales es el nuevo Spider-Man. Sin embargo, cuando el líder mafioso Wilson Fisk (a.k.a Kingpin) construye el \"Super Colisionador\" trae a una versión alternativa de Peter Parker que tratará de enseñarle a Miles como ser un mejor Spider-Man. Pero no será el único Spider Man en entrar a este universo, 4 versiones alternas de Spidey aparecerán y buscarán regresar a su universo antes de que toda la realidad colapse.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2018,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "ficcion"
+    ],
+    "calificacion": 8.5,
+    "votos": 3000,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T18:30:09.656370",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "cine",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dsvplay.com/e/qow3nm2rndat"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/f87vv6caacjg",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dsvplay.com/e/qow3nm2rndat"
+      }
+    ],
+    "idioma": "latino"
+  },
+  {
+    "id": "spinal-tap-ii-the-end-continues-2025",
+    "tipo": "pelicula",
+    "titulo": "Spinal Tap II: The End Continues",
+    "poster": "https://ww4.pelisplushd.to/poster/spinal-tap-ii-the-end-continues-thumb.jpg",
+    "descripcion": "Concebida por los rockeros Guest, McKean, Reiner y Shearer, Spinal Tap II sigue a la banda más ruidosa y puntual de Inglaterra, que se reúne tras 15 años de parón para dar un último concierto.",
+    "categoria": [
+      "aventura"
+    ],
+    "año": 2025,
+    "genero": [
+      "musica",
+      "comedia"
+    ],
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://streamwish.to/e/39h4h1myleov"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "subtitulado",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/39h4h1myleov"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Stranger Things",
+    "poster": "https://image.tmdb.org/t/p/w300/lXS60geme1LlEob5Wgvj3KilClA.jpg",
+    "descripcion": "",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "ciencia",
+      "drama",
+      "fantasia",
+      "ficcion"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-29T20:31:49.252094",
+    "tamaño": "N/A",
+    "año": 20216,
+    "calificacion": 9.0,
+    "votos": 90000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/25qkt8hlcc9n"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/u5akd4acdvfa"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/ezyg2l4q52i2"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/4igg7dga460i"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/xnau5yqp7lm6"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/rizhpi8qntpp"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/pew2ukg1rb2y"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dintezuvio.com/embed/28qhx94j2sma"
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/1qqbixblqegf"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/efjipftyl2px"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/o2y0glrwp3qy"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/w8m88m5dkwg2"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/ckhxyl8y7hbo"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/nuwbx8msmfhd"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/9breeqmgqlro"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dintezuvio.com/embed/280h2sqmkr8a"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://dintezuvio.com/embed/lpyskgch55vr"
+          }
+        ]
+      },
+      {
+        "temporada": 3,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/dtqtqn87zz1w"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/x9dud913j2f2"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/712p6e2jn2ri"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/ewqi9g0lfzbs"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/57kdn8f374sm"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/2uvac18pubbx"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/lid57ellbrm9"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dintezuvio.com/embed/hohvuxpo4dlc"
+          }
+        ]
+      },
+      {
+        "temporada": 4,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/kvx6b12jbxoi"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/1ckhfb9us0k6"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/8bsoaweda4zf"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/x6rblxoc4rps"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/4xh2wxvdulzg"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/dbrmhnq2nx60"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/73gianexsp0h"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dintezuvio.com/embed/w41i1aiadas8"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://dintezuvio.com/embed/r5s60jdf4tay"
+          }
+        ]
+      },
+      {
+        "temporada": 5,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/cbmff86tey4g"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/5qig21489o2j"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/e6ihvkc32i03"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/niqup7vc6fkp"
+          }
+        ]
+      }
+    ],
+    "id": "stranger-things-20216"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Stream",
+    "poster": "https://image.tmdb.org/t/p/w300/az0k8pzdeqrrEO9iu8vL081bjA0.jpg",
+    "descripcion": "En un remoto complejo hotelero de montaña, aparentemente paradisíaco, la familia Walker busca desconectar de su agitada vida urbana. Lo que prometía ser unas vacaciones de ensueño pronto se transforma en una pesadilla sin retorno cuando descubren que el lujoso establecimiento es el escenario de un macabro torneo. Un grupo de asesinos sádicos ha convertido el hotel en su campo de juegos particular, donde compiten por infligir las torturas más creativas a los huéspedes atrapados. Mientras la nieve aísla completamente el resort, los Walker deben emplear todo su ingenio para sobrevivir a esta situación de terror en hotel de lujo que se desarrolla en tiempo real. Cada rincón del opulento edificio se convierte en una potencial trampa mortal, desde los majestuosos salones hasta las suites más exclusivas. Los asesinos, expertos en psicología del miedo, transforman las instalaciones de lujo en un laberinto de horror donde cada decisión podría ser la última. La familia descubrirá que su estadía en este hotel con asesinos sádicos no es casualidad, sino que forman parte de un siniestro juego orquestado para el entretenimiento de una élite oculta. Mientras luchan por mantener la cordura, deberán descifrar las reglas no escritas de esta competición mortal y encontrar la manera de volver la crueldad de sus captores en su contra. La supervivencia en este escenario de crímenes retorcidos contra huéspedes dependerá de su capacidad para anticiparse a los movimientos de estos psicópatas y encontrar una debilidad en su aparentemente perfecto sistema de terror..夺命假期",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "suspenso",
+      "terror"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-23T14:35:17.143277",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 8.8,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://dintezuvio.com/embed/m7n8llee1v8h",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "stream-2024",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "subtitulado",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/m7n8llee1v8h"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Sueño de fuga",
+    "poster": "https://image.tmdb.org/t/p/w300/uRRTV7p6l2ivtODWJVVAMRrwTn2.jpg",
+    "descripcion": "En las sombrías paredes de la penitenciaría de Shawshank, Andrew Dufresne enfrenta una condena perpetua por un crimen que jura no haber cometido. El sistema carcelario, diseñado para quebrantar almas, encuentra en él a un recluso atípico cuyo intelecto se convierte en su mayor arma de supervivencia. Mientras otros presos se desmoronan ante la brutalidad institucional, Andrew comienza una transformación silenciosa que alterará para siempre los cimientos del penal. A través de años de observación meticulosa, el condenado por homicidio teje relaciones estratégicas dentro del complejo ecosistema carcelario. Su camino se cruza con Red, el influyente intermediario capaz de conseguir cualquier objeto prohibido entre rejas. Esta conexión evoluciona hacia una lealtad improbable mientras Andrew despliega sus conocimientos contables para tejer una red de influencia que alcanza hasta las más altas esferas penitenciarias. La trama explora cómo un hombre privado de libertad construye pacientemente su camino hacia la redención dentro del universo opresivo del sistema penitenciario. Las reglas no escritas de la prisión, las corruptelas institucionalizadas y las jerarquías entre reclusos forman el telón de fondo donde se desarrolla esta historia de resistencia psicológica. Mientras las décadas transcurren tras los barrotes, Andrew demuestra que las verdaderas prisiones a menudo trascienden los muros de concreto, y que la esperanza puede florecer incluso en los suelos más áridos de la desesperación humana, revelando cómo la perseverancia puede triunfar sobre la injusticia en el ambiente más hostil imaginable..Rita Hayworth - nyckel till flykten 肖申克的救赎 Gaqceva shoushenkidan Şouşenkdən qaçış Искупление Шоушенком Shoushenkden Qacish Rastgari Dar Shawshank Homot Shel Tikva Shôshanku no sora ni Бекство из Шошенка 쇼생크 탈출 Les Évadés Skazani na Shawshank ショーシャンクの空に：1994 رستگاری در شاوشنگ 쇼생크탈출 Um Sonho de Liberdade 刺激1995 Փախուստ Շոուշենքից",
+    "categoria": [
+      "populares"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "crimen",
+      "drama"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-01T17:41:46.430453",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 1994,
+    "calificacion": 8.0,
+    "votos": 700,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/ia3jv3zo7u8k",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/ia3jv3zo7u8k"
+      }
+    ],
+    "id": "sueno-de-fuga-1994"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Sueños de trenes",
+    "poster": "https://image.tmdb.org/t/p/w500/aKvcYAt8VwZ246FM1HmXvYEV6gA.jpg",
+    "descripcion": "Un leñador introvertido pero afable se topa con el amor y la pérdida durante una época de cambios colosales en los EE. UU. de principios del siglo XX.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama"
+    ],
+    "director": "Clint Bentley",
+    "reparto": [
+      "Joel Edgerton",
+      "Clifton Collins Jr.",
+      "Felicity Jones",
+      "Alfred Hsing",
+      "David Paul Olsen"
+    ],
+    "calificacion": 7.348,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:39:18.362926",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/i18k433h4m4d?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "suenos-de-trenes-2025"
+  },
+  {
+    "id": "super-mario-bros-la-pelicula-2023",
+    "tipo": "pelicula",
+    "titulo": "Super Mario Bros. La película",
+    "poster": "https://ww4.pelisplushd.to/poster/super-mario-bros-la-pelicula-thumb.jpg",
+    "descripcion": "Mientras trabaja bajo tierra para arreglar una tubería de agua, los plomeros de Brooklyn Mario y su hermano Luigi son transportados por una misteriosa tubería y llegan a un nuevo mundo mágico. Pero cuando los hermanos se separan, Mario se embarca en una búsqueda épica para encontrar a Luigi. Con la ayuda de un residente del Reino Champiñón, Toad y algo de entrenamiento de la gobernante del Reino Champiñón, la Princesa Peach, Mario conocerá su propio poder.",
+    "categoria": [
+      "anime"
+    ],
+    "año": 2023,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "suspenso"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/6u5jto1igx1g"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/6u5jto1igx1g"
+      }
+    ]
+  },
+  {
+    "id": "superman-2025",
+    "tipo": "pelicula",
+    "titulo": "Superman",
+    "poster": "https://ww4.pelisplushd.to/poster/superman-1061474-thumb.jpg",
+    "descripcion": "En un mundo cínico que ha perdido la fe en la bondad, Superman lucha por reconciliar su herencia kryptoniana con su crianza humana en Smallville como Clark Kent. Mientras protege a la humanidad, encarna la verdad, la justicia y el estilo americano, desafiando una era que considera estos valores obsoletos. Reinicio del universo DC en cine bajo la supervisión y dirección de James Gunn.",
+    "categoria": [
+      "aventura"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "ciencia ficcion"
+    ],
+    "calificacion": 7.6,
+    "votos": 1900,
+    "calidad": "1080p",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/mwgm8bib7dwd"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/mwgm8bib7dwd"
+      }
+    ]
+  },
+  {
+    "id": "tadeo-el-explorador-perdido-2-el-secreto-del-rey-midas-2017",
+    "tipo": "pelicula",
+    "titulo": "Tadeo, el explorador perdido 2: El secreto del Rey Midas",
+    "poster": "https://ww5.pelisplushd.to/poster/tadeo-el-explorador-perdido-2-el-secreto-del-rey-midas-thumb.jpg",
+    "descripcion": "Tadeo Jones viaja hasta Las Vegas para asistir a la presentación del último descubrimiento de la arqueóloga Sara Lavroff: el papiro que demuestra la existencia del Collar de Midas, el mítico Rey que convertía en oro todo aquello que tocaba. Pero el feliz reencuentro se verá enturbiado cuando un malvado ricachón secuestra a Sara para poder encontrar el talismán y conseguir riquezas infinitas. Junto a sus amigos el loro Belzoni y su perro Jeff, Tadeo tendrá que hacer uso de su ingenio para rescatar a Sara, en un viaje por medio mundo, donde encontrará nuevos amigos ¡y nuevos villanos!",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-16T03:09:05.614831",
+    "tamaño": "N/A",
+    "año": 2017,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/oyj3kw0kzdc4"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/oyj3kw0kzdc4"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Ted",
+    "poster": "https://image.tmdb.org/t/p/w300/rf6k1sjGSVavqLhwyYoKeOuExez.jpg",
+    "descripcion": "En el corazón de Boston, John Bennett lleva una existencia completamente ordinaria hasta que su deseo infantil más profundo se materializa de la manera más inesperada. Teddy, el oso de peluche que una vez fue su confidente infantil, cobra vida permanente, transformándose en un compañero de piso con hábitos cuestionables y un vocabulario que haría ruborizar a un marinero. Esta comedia fantástica explora la complicada dinámica entre un hombre atrapado entre la madurez y los lazos de la infancia, y un juguete animado que rechaza categóricamente las convenciones sociales. La llegada de Lori, una mujer sofisticada con aspiraciones profesionales, marca un punto de inflexión en la vida de John, quien ahora debe equilibrar su lealtad hacia su amigo de felpa con las expectativas de una relación adulta. Teddy, con su afición por las fiestas desenfrenadas y su filosofía hedonista, se convierte en un obstáculo impredecible para la estabilidad que John anhela. Las travesuras del osito parlante escalan desde situaciones embarazosas en restaurantes exclusivos hasta encuentros comprometedores con figuras públicas, poniendo a prueba constantemente la paciencia de Lori. A medida que la relación de John se acerca a su punto de quiebre, ambos protagonistas se ven forzados a confrontar sus propias limitaciones. Mientras John lucha por establecer límites con su compañero de por vida, Teddy enfrenta la posibilidad de perder el único hogar que ha conocido. Esta peculiar amistad entre un hombre y su osito mágico demuestra que a veces los vínculos más improbables requieren los mayores sacrificios, especialmente cuando la lealtad choca contra el crecimiento personal en esta historia de madurez tardía y complicaciones mágicas..Ted 1 泰德 熊吉 熊麻吉 贱熊30 19곰 테드 Ted Ted Méďa Macík Ведмедик «Тед»",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "fantasia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-27T19:07:25.827845",
+    "tamaño": "N/A",
+    "año": 2012,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/wx133lp9xofb",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/wx133lp9xofb"
+      }
+    ],
+    "id": "ted-2012"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Ted 2",
+    "poster": "https://ww5.pelisplushd.to/poster/ted-2-thumb.jpg",
+    "descripcion": "Se trata de una secuela de la exitosa comedia escrita y dirigida por el cómico Seth MacFarlane. Recién casados Ted y Tami-Lynn deciden tener un bebé. John se ofrece en donar su esperma para que su mejor amigo pueda cumplir su sueño de tener un hijo, pero inesperadamente reciben una carta legal que dice que el estado no le permite ser padre ya que no está demostrado que sea una persona. Todos juntos tendrán que unir fuerzas para luchar por sus derechos en un tribunal de justicia.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [],
+    "idioma": "Latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-27T19:12:36.187144",
+    "tamaño": "N/A",
+    "año": 2015,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "clasificacion_edad": "+18",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filelions.to/v/essoie8hgn6x",
+        "calidad": "HD"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://filelions.to/v/essoie8hgn6x"
+      }
+    ],
+    "id": "ted-2-2025"
+  },
+  {
+    "id": "tee-yai-nacido-para-el-crimen-2025",
+    "tipo": "pelicula",
+    "titulo": "Tee Yai: Nacido para el crimen",
+    "poster": "https://image.tmdb.org/t/p/w300/wM125GkMUzSyjPzNqvx9j2UHYV7.jpg",
+    "descripcion": "Bangkok, década de 1980. Un astuto ladrón que da golpes audaces deja perplejos al público y las autoridades… hasta que un policía se propone atraparlo..Ti Yai Ruek Dao Chon Tee Yai Rerk Dao Jone Tee Yai: Nacido Para El Crimen (2025) 侠盗之星",
+    "categoria": [
+      "todo-lo-nuevo-2025"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "crimen",
+      "accion",
+      "drama"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-20T18:58:44.511184",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/0nap7n8kld6s"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/0nap7n8kld6s"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "telefono negro",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTVjMzNmZGYtOWU5NS00NDYzLThhZTktZGNlODIwYWVhMDRmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "descripcion": "Añade aquí la descripción de la película. Esta es una película de ejemplo para mostrar cómo añadir contenido con un video de TeraBox.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "2h 0m",
+    "director": "Director de Ejemplo",
+    "reparto": [
+      "Actor 1",
+      "Actriz 2"
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "calificacion": 7,
+    "votos": 100,
+    "calidad": "1080p",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "Latino",
+        "url": "https://xenolyzb.com/e/s33lynk20hjn"
+      }
+    ],
+    "id": "telefono-negro-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "Latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://xenolyzb.com/e/s33lynk20hjn"
+      }
+    ]
+  },
+  {
+    "id": "terrazza-sentimento-del-esplendor-al-horror-2025",
+    "tipo": "serie",
+    "titulo": "Terrazza Sentimento: Del esplendor al horror",
+    "poster": "https://image.tmdb.org/t/p/w300/uxntXFQ6SqY4celQejnUC9y6TQ3.jpg",
+    "descripcion": "na de las fiestas más exclusivas de Milán da un giro cuando una mujer denuncia una agresión sexual. Este documental narra la investigación posterior..Start Up Fall Down: From Billionaire to Convict",
+    "categoria": [
+      "todo-lo-nuevo-2025",
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "documental"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-21T14:47:37.095497",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.8,
+    "votos": 6000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dinisglows.com/embed/eve6646kcve1"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dinisglows.com/embed/t7gokt2c6ldx"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dinisglows.com/embed/8zedwjrouc8z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "terrifier-2016",
+    "tipo": "pelicula",
+    "titulo": "Terrifier",
+    "poster": "https://image.tmdb.org/t/p/w300/6PQqC4SbY910VvyVad6mvsboILU.jpg",
+    "descripcion": "En la inquietante noche de Halloween, cuando la ciudad se viste de festivas sombras, surge una presencia siniestra que transforma la celebración en una pesadilla viviente. Art, un payaso de mirada vacía y sonrisa desgarradora, emerge de la oscuridad portando herramientas de tortura y un humor macabro que desafía toda cordura. Dos jóvenes mujeres, después de una fiesta, se convierten en el blanco principal de este psicópata meticuloso, descubriendo que ningún refugio es lo suficientemente seguro cuando la muerte usa maquillaje de payaso. Mientras el reloj avanza hacia la madrugada, el asesino enmascarado ejecuta su cacería con precisión teatral, convirtiendo cada encuentro en una representación mortal. Las calles desoladas se transforman en escenarios de persecución claustrofóbica, donde los testigos se convierten en víctimas y los intentos de escape en trampas elaboradas. La brutalidad de Art no conoce límites ni piedad, demostrando por qué se ha convertido en el payaso psicópata más temido del cine de terror moderno. A través de escenarios que van desde apartamentos siniestros hasta edificios abandonados, la lucha por la supervivencia se intensifica con cada acto de violencia grotesca. Las protagonistas enfrentan no solo a un hombre, sino a la encarnación misma del terror puro, donde cada decisión podría ser su última. La tensión se mantiene en un equilibrio mortal mientras el dawn se aproxima, preguntándose quién sobrevivirá a esta noche donde la diversión se tiñe de sangre y los disfraces ocultan intenciones homicidas..Terrifier - Ein wirklich böser Clown",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T00:55:06.952551",
+    "tamaño": "N/A",
+    "año": 2016,
+    "calificacion": 9.1,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "clasificacion_edad": "+18",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/rhdhwdw4bzxp"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/rhdhwdw4bzxp"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Terrifier 2",
+    "poster": "https://image.tmdb.org/t/p/w300/yB8BMtvzHlMmRT1WmTQnGv1bcOK.jpg",
+    "descripcion": "En la inquietante noche de Halloween, el condado de Miles se convierte nuevamente en el escenario de pesadillas cuando Art the Clown emerge de entre los muertos, reanimado por una fuerza sobrenatural de naturaleza desconocida. Esta vez, su mirada siniestra se posa sobre Sienna, una adolescente que lucha por mantener la cordura mientras cuida de su vulnerable hermano menor. Las calles decoradas con calabazas y los disfraces inocentes pronto se tiñen de rojo sangre, transformando la festividad en una lucha desesperada por la supervivencia. Mientras la luna llena ilumina la ciudad, el payaso asesino despliega un repertorio de herramientas macabras que desafían toda lógica, persiguiendo a sus víctimas a través de lugares emblemáticos del pueblo. Sienna descubre que existe una conexión perturbadora entre su pasado familiar y la reaparición de este ser sobrenatural, un vínculo que podría explicar por qué se ha convertido en el objetivo principal de su sadismo. La búsqueda de respuestas la lleva a enfrentarse no solo al payaso psicópata, sino también a secretos familiares enterrados durante años. La cacería nocturna se intensifica cuando Art the Clown demuestra poseer habilidades que trascienden lo humano, desafiando constantemente las leyes de la realidad. El hermano menor de Sienna se convierte en pieza clave de este siniestro juego, donde cada esquina oculta potenciales amenazas y donde la línea entre la pesadilla y la realidad se desdibuja progresivamente. La lucha por sobrevivir al terror del payaso asesino se convierte en una carrera contra el tiempo antes de que el amanecer revele los horrores perpetrados durante la noche más larga del año..テリファー 2",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "suspenso",
+      "terror"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-27T19:48:09.672942",
+    "tamaño": "N/A",
+    "año": 2022,
+    "calificacion": 9.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "clasificacion_edad": "+18",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/1l13ewzll8fa",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/1l13ewzll8fa"
+      }
+    ],
+    "id": "terrifier-2-2022"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Terrifier 3",
+    "poster": "https://image.tmdb.org/t/p/w300/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
+    "descripcion": "En la gélida Nochebuena del condado de Miles, la tranquilidad navideña se rompe cuando Art el Payaso resurge con renovada sed de violencia. Mientras las familias decoran árboles e intercambian regalos, este ser sobrenatural teje su siniestra red a través de las calles nevadas, transformando símbolos de alegría en instrumentos de terror. Las luces centelleantes iluminarán escenas de pesadilla mientras el asesino de maquillaje blanquecino convierte cada hogar en potencial trampa mortal. La trama se desarrolla durante la víspera navideña, donde la sensación de seguridad familiar se desmorona progresivamente. Art aprovecha la intimidad de los hogares y la vulnerabilidad del sueño para ejecutar sus macabros designios, creando escenarios donde los villancicos se mezclan con gritos desgarradores. Sus víctimas, desprevenidos residentes que anticipaban una noche de celebración, descubren que ningún cerrojo puede detener la invasión de esta entidad burlona y sádica. A medida que la noche avanza, el payaso psicópata demuestra una creatividad grotesca al reinterpretar tradiciones navideñas, dejando a su paso un rastro de destrucción que mancha la nieve virgen. La ambientación combina elementos festivos con horror visceral, donde los adornos brillantes reflejan escenas de carnicería meticulosa. El condado se transforma en un laberinto de peligros donde la temporada de paz se convierte en una lucha por la supervivencia contra un enemigo que encuentra en la inocencia navideña su canvas perfecto para el caos absoluto..Terrifier 3 مرعب ۳ Ужасающий 3 断魂小丑3 Terrifier 3: Payaso siniestro Ужасяващо 3 Damien Leone's Terrifier 3 Aterrorizante 3",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "misterio",
+      "suspenso",
+      "terror"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-27T19:45:15.653967",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 9.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "clasificacion_edad": "+18",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/2j9r8nrtwkhd",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/2j9r8nrtwkhd"
+      }
+    ],
+    "id": "terrifier-3-2024"
+  },
+  {
+    "id": "terror-en-shelby-oaks-2025",
+    "tipo": "pelicula",
+    "titulo": "Terror En Shelby Oaks",
+    "poster": "https://ww4.pelisplushd.to/poster/terror-en-shelby-oaks-thumb.jpg",
+    "descripcion": "Doce años después de la desaparición de su hermana, líder de un equipo paranormal, Mia Brennan descubre una inquietante cinta que sugiere que el demonio de su infancia podría ser real. Decidida a encontrar respuestas, se adentra en una aterradora investigación que revela un horror oculto en las sombras.",
+    "categoria": [
+      "terror"
+    ],
+    "año": 2025,
+    "duracion": "1h 2m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "calificacion": 5.8,
+    "votos": 399,
+    "calidad": "HD",
+    "clasificacion_edad": "+18",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://streamwish.to/e/9g7vfjsbx8o8\""
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/9g7vfjsbx8o8\""
+      }
+    ]
+  },
+  {
+    "id": "the-amazing-spider-man-2021",
+    "tipo": "pelicula",
+    "titulo": "The Amazing Spider-Man",
+    "poster": "https://image.tmdb.org/t/p/w300/ww2YPsGe6Yd1nUHH6XVvfj4Rrin.jpg",
+    "descripcion": "",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T01:26:27.546427",
+    "tamaño": "N/A",
+    "año": 2021,
+    "calificacion": 8.8,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/4a8c5aaf5yyz"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/4a8c5aaf5yyz"
+      }
+    ]
+  },
+  {
+    "id": "the-book-2021",
+    "tipo": "pelicula",
+    "titulo": "The Book",
+    "poster": "https://image.tmdb.org/t/p/w300/qlOWxBek4G7Jw52ZBuCKzy4RlKm.jpg",
+    "descripcion": "Verónica es una joven periodista que necesita encontrar respuestas, necesita saber por qué dos de sus personas más queridas actuaron de la misma forma, e intuye que solo encontrará respuestas a su problema familiar rebuscando en sus orígenes. Su investigación le conduce hasta un misterioso libro que se encuentra atado con unas tijeras amarradas en su interior. A partir de ahí, Verónica debe enfrentarse a las fuerzas de la oscuridad en una batalla sin cuartel..El Libro",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "terror suspenso"
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-21T18:41:44.877051",
+    "tamaño": "N/A",
+    "año": 2021,
+    "calificacion": 8.8,
+    "votos": 900000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "clasificacion_edad": "n",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://dintezuvio.com/embed/tq4vsmszfcr1"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/tq4vsmszfcr1"
+      }
+    ]
+  },
+  {
+    "id": "the-boys-2019",
+    "tipo": "serie",
+    "titulo": "The Boys",
+    "poster": "https://ww5.pelisplushd.to/poster/the-boys-thumb.jpg",
+    "descripcion": "La serie tiene lugar en un mundo en el que los superhéroes representan el lado oscuro de la celebridad y la fama. Un grupo de vigilantes que se hacen llamar \"The Boys\" decide hacer todo lo posible por frenar a los superhéroes que están perjudicando a la sociedad, independientemente de los riesgos que ello conlleva.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "ciencia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T00:24:42.710023",
+    "tamaño": "N/A",
+    "año": 2019,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://voe.sx/e/28ah4ambmvgf"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://voe.sx/e/tspjc9xxevdv"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://voe.sx/e/hcqdhlmiz49u"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://voe.sx/e/ff8e4qvze74o"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://voe.sx/e/7bth1udp3v2y"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://voe.sx/e/xw65bjrcop7z"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dinisglows.com/embed/i5gbegscy598"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dinisglows.com/embed/w0q4tn0t0y3y"
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dinisglows.com/embed/fv9u574iftmv"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dinisglows.com/embed/e5ord999pkep"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dinisglows.com/embed/8kk0e9i7yo1k"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dinisglows.com/embed/6awt3ptruqty"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dinisglows.com/embed/46sbv8o0yykb"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dinisglows.com/embed/ixcswzywwuaf"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dinisglows.com/embed/43dpj5vnyxsj"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dinisglows.com/embed/behxbw9lom77"
+          }
+        ]
+      },
+      {
+        "temporada": 3,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dinisglows.com/embed/p5wm1oif6yn2"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dinisglows.com/embed/f8zp8ygd6o4h"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dinisglows.com/embed/3rbuhmq0bu1o"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dinisglows.com/embed/7mep2cnj2oqd"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dinisglows.com/embed/4af0dzzgm0jm"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dinisglows.com/embed/z4vm4mgw8hv4"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dinisglows.com/embed/ribmdxk0xy7u"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dinisglows.com/embed/c88sijol9she"
+          }
+        ]
+      },
+      {
+        "temporada": 4,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dinisglows.com/embed/19fxk7f4ha52"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dinisglows.com/embed/wcott4noqo74"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dinisglows.com/embed/49mxp1asgn0z"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dinisglows.com/embed/ojtfp5tvedx9"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dinisglows.com/embed/7gmln2f35y6y"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dinisglows.com/embed/7vry8we9g4f8"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dinisglows.com/embed/nqxmz8qmt1pq"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dinisglows.com/embed/xfpajgda0alr"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "the Dogs",
+    "poster": "https://ww4.pelisplushd.to/poster/the-dogs-thumb.jpg",
+    "descripcion": "Perseguidos por su padre, Cameron y su madre se mudan a una granja aislada donde Cameron ve y oye cosas que no son posibles. Comienza a cuestionarse todo lo que le rodea y debe descubrir los misterios antes de que le destrocen",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "misterio",
+      "suspenso",
+      "terror"
+    ],
+    "calificacion": 7.5,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T18:57:59.505516",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/ntmfycaelt7n"
+      }
+    ],
+    "id": "the-dogs-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/ntmfycaelt7n"
+      }
+    ]
+  },
+  {
+    "id": "the-haunted-world-of-el-superbeasto-2009",
+    "tipo": "pelicula",
+    "titulo": "The Haunted World of El Superbeasto",
+    "poster": "https://ww4.pelisplushd.to/poster/the-haunted-world-of-el-superbeasto-thumb.jpg",
+    "descripcion": "El film narra la retorcida historia de El Superbeasto (voz de Tom Papa), una especie de antiguo luchador enmascarado con fuerza sobrenatural, quien en estos momentos se dedica a la producción/dirección como estrella del Beastoworld Enterprise, pero que cuando puede pasa el tiempo luchando contra el mal junto a su Super-Sexy hermana, Suzi X (voz de Sheri Moon Zombie). Basado en el cómic de Rob Zombie, se trata de un film de animación que fue lanzado directamente a DVD con la calificación R.",
+    "categoria": [
+      "terror"
+    ],
+    "año": 2009,
+    "duracion": "1h",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia",
+      "terror"
+    ],
+    "calificacion": 5.9,
+    "votos": 3000,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://streamwish.to/e/w4ens7z4b12x"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/w4ens7z4b12x"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "The Last: Naruto la película",
+    "poster": "https://ww5.pelisplushd.to/poster/the-last-naruto-la-pelicula-thumb.jpg",
+    "descripcion": "La luna se acerca peligrosamente a la tierra! A menos que se haga algo, la luna se desintegrará bañando a la tierra con meteoritos gigantes. El reloj marca el final del mundo, ¿Podrá Naruto salvar a la tierra de esta crisis? ¡El capítulo final de Naruto se revela! Esta cinta llena el vacío que dejó el final del manga y va más allá de la historia original. La Villa Oculta entre las Hojas, la ubicación dónde se dio la predestinada batalla entre Naruto y Sasuke… dos años después mientras se acerca el festival de invierno Naruto se encuentra en Ichiraku Ramen disfrutando con sus amigos, Hinata le tejió una bufanda que demuestra su amor en cada puntada pero que todavía no se la ha entregado. Súbitamente aparece un hombre misterioso. Naruto sale al rescate pero el hombre huye dejando un perturbador mensaje…",
+    "categoria": [
+      "naruto"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animes",
+      "aventura"
+    ],
+    "idioma": "Latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-02T17:53:26.472308",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2014,
+    "calificacion": 9.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/xcohhb74jgyu",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/xcohhb74jgyu"
+      }
+    ],
+    "id": "the-last-naruto-la-pelicula-2014"
+  },
+  {
+    "id": "the-mighty-nein-2025",
+    "tipo": "serie",
+    "titulo": "The Mighty Nein",
+    "poster": "https://image.tmdb.org/t/p/w300/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg",
+    "descripcion": "Un grupo de marginados, criminales e inadaptados se ven abocados a salvar el continente cuando una reliquia arcana capaz de remodelar la realidad cae en manos equivocadas..Майти Найн Mighty Nein Critical Role: The Mighty Nein",
+    "categoria": [
+      "todo-lo-nuevo-2025"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "sci-fi"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-20T18:51:04.203919",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.8,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": false,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dinisglows.com/embed/n7zyuxi3q61s"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dinisglows.com/embed/eet3wuy1jxdc"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dinisglows.com/embed/n33881uxolzb"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "The Monkey",
+    "poster": "https://image.tmdb.org/t/p/w300/aPAzmD8YAErjz5GzQ1tgkTlv28S.jpg",
+    "descripcion": "En un hogar aparentemente normal de los años noventa, la inocencia infantil se ve truncada cuando los gemelos Ethan y Liam descubren un peculiar mono mecánico en el desván familiar. Lo que inicialmente parece un juguete vintage desata una cadena de sucesos macabros que desgarra el núcleo familiar con muertes inexplicables, marcando para siempre la psique de los hermanos. Dos décadas y media después, ambos han construido vidas separadas tratando de enterrar los traumas de su infancia, hasta que noticias sobre crímenes idénticos comienzan a resurgir. El patrón es inconfundible: cada víctima aparece con la misma melodía mecánica resonando en la habitación. La trama se desarrolla entre escenas de humor negro que contrastan con la tensión sobrenatural, donde el juguete maldito demuestra una inteligencia aterradora. Mientras la ciudad se sumerge en el pánico, los hermanos comprenden que deben reunirse para descifrar los secretos del artefacto demoníaco antes de que la espiral de violencia alcance a sus propias familias. La investigación los lleva por caminos oscuros donde descubren que el mono no actúa aleatoriamente, sino que sigue un ritual ancestral vinculado a su familia. En un clímax cargado de suspenso sobrenatural, los protagonistas deberán superar sus diferencias y confrontar el origen de esta maldición familiar que los persigue desde la niñez, desvelando por qué fueron elegidos como blancos de esta fuerza ancestral. El desenlace plantea si lograron romper el ciclo o simplemente desataron una amenaza mayor..Meymun O Macaco O Macaco 史蒂芬金之猴子 Le Singe The Monkey",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "terror"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-11-29T21:32:42.235519",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino ",
+        "url": "https://dintezuvio.com/embed/9jmckjrb9t0l",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino ",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/9jmckjrb9t0l"
+      }
+    ],
+    "id": "the-monkey-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "The Prank",
+    "poster": "https://image.tmdb.org/t/p/w300/6yPbPNCpUQUpTFB1PHWhfYWdjEZ.jpg",
+    "descripcion": "Ben y su holgazán amigo Tanner le hacen una broma a su profesor de física del instituto. Cuando ella no pasa un examen, le dan una lección a la exigente instructora acusándola falsamente de asesinato en las redes sociales..",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "crimen",
+      "suspenso",
+      "terror"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-22T23:24:01.153041",
+    "tamaño": "N/A",
+    "año": 2022,
+    "calificacion": 9.0,
+    "votos": 80000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/o4a209dzi3b8"
+      }
+    ],
+    "id": "the-prank-2022",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/o4a209dzi3b8"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "The Senior",
+    "poster": "https://image.tmdb.org/t/p/w500/sv3kE86knrukjpGTtLLfg246JFx.jpg",
+    "descripcion": "Hace 37 años, un hombre fue expulsado de su equipo universitario de fútbol por un altercado. Ahora, a los 59, todavía lleva esa carga, por lo que decide volver a la escuela para obtener su título y probar con el equipo para redimir su pasado.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama"
+    ],
+    "director": "Rod Lurie",
+    "reparto": [
+      "Michael Chiklis",
+      "Mary Stuart Masterson",
+      "Brandon Flynn",
+      "Rob Corddry",
+      "Todd Terry"
+    ],
+    "calificacion": 6.219,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:46:29.765625",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/5o68usao39cj?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "the-senior-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "The Shadow's Edge",
+    "poster": "https://image.tmdb.org/t/p/w500/o25Tk1FYQi2BLk0OEAvx2h69QvB.jpg",
+    "descripcion": "Unos astutos y traicioneros ladrones desafian a la Policía Judicial de Macao. La Policía, que se encontraba en una dura batalla, invita de nuevo al experto en rastreo Huang De Zhong, retirado desde hace muchos años, a unir fuerzas con la joven élite del Departamento de Investigación Criminal de la Policía Judicial. Bajo la colisión de las técnicas tradicionales de rastreo y la alta tecnología, la policía y los criminales luchan con ingenio y valentía, y se lanzan a un duelo entre el bien y el mal parecido al juego del gato y el ratón.",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "142 min",
+    "director": "Larry Yang",
+    "reparto": [
+      "Jackie Chan",
+      "张子枫",
+      "梁家輝",
+      "此沙",
+      "文俊辉"
+    ],
+    "favorito": false,
+    "genero": [
+      "acción",
+      "crimen",
+      "suspense"
+    ],
+    "idioma": "ZH",
+    "calidad": "1080p",
+    "addedDate": "2025-12-07T15:45:54.375750",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 6.5,
+    "votos": 145,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/auto-1419406",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "the-shadows-edge-2025",
+    "descargas": [
+      "https://dintezuvio.com/embed/auto-1419406"
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "The Smashing Machine",
+    "poster": "https://image.tmdb.org/t/p/w300/3qfyfrY4Sa0fUPVH0rcsfGZZNoY.jpg",
+    "descripcion": "A finales de los 90, el prometedor artista marcial mixto Mark Kerr aspira a convertirse en el mejor luchador del mundo. Sin embargo, también debe luchar contra su adicción a los opioides y una relación inestable con su novia Dawn..La Máquina: The Smashing Machine 神拳太保 Coração de Lutador: The Smashing Machine Coração de Lutador Zúzógép Le combattant",
+    "categoria": [
+      "todo-lo-nuevo-2025"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "hístoria"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-06T01:16:45.041477",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 6.9,
+    "votos": 7000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/cwhk1yux1ac1",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/cwhk1yux1ac1"
+      }
+    ],
+    "id": "the-smashing-machine-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "The Surrender",
+    "poster": "https://image.tmdb.org/t/p/w500/t45V9B1kSvwVpupWie1t9e1YWXe.jpg",
+    "descripcion": "Cuando el patriarca de la familia muere, una madre y una hija afligidas arriesgan sus vidas para llevar a cabo un brutal ritual de resurrección y resucitarlo de entre los muertos.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "terror"
+    ],
+    "director": "Julia Max",
+    "reparto": [
+      "Kate Burton",
+      "Colby Minifie",
+      "Neil Sandilands",
+      "Vaughn Armstrong",
+      "Mia Ellis"
+    ],
+    "calificacion": 5.0,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:27:40.064849",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://dintezuvio.com/embed/mlkgmnyrtrbc?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "the-surrender-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Thor",
+    "poster": "https://image.tmdb.org/t/p/w300/t16Ppp5Xn4QuKCCKOU6yaNHmis.jpg",
+    "descripcion": "En el majestuoso reino de Asgard, el príncipe Thor gobierna con arrogancia y poder, creyéndose invencible gracias a su legendario martillo Mjolnir. Su temperamento impulsivo lo lleva a violar una frágil tregua ancestral, desatando las hostilidades con los gigantes de hielo de Jotunheim. Como consecuencia de su imprudencia que amenaza con sumir a los Nueve Reinos en una guerra catastrófica, el todopoderoso Odín decreta un severo castigo: despojar a su heredero de sus habilidades divinas y desterrarlo al planeta Tierra, donde deberá convivir entre mortales como uno más de ellos. En nuestro mundo, el otrora dios del trueno debe adaptarse a una existencia completamente nueva, enfrentándose a la vulnerabilidad y descubriendo la verdadera naturaleza de la humanidad. Mientras tanto, en las dimensiones celestiales, una conspiración oscura se gesta cuando Loki, el hermano de Thor, revela su traicionera ambición por el trono. El dios del engaño desata a un destructor implacable sobre la Tierra, una entidad capaz de arrasar con todo a su paso. La transformación del guerrero arrogante en un protector genuino se pone a prueba cuando los humanos que ha llegado a valorar enfrentan una amenaza existencial. Sin sus poderes ancestrales pero con un corazón renovado, Thor debe demostrar que el verdadero heroísmo reside no en la fuerza bruta sino en el sacrificio desinteresado. Esta epopeya cósmica explora el viaje espiritual de un semidiós que descubre la esencia del valor auténtico mientras batallas legendarias entre reinos mitológicos amenazan con destruir el mundo que ha aprendido a amar..Thor 1 MCU-04 - Thor 1 Thor 雷神奇俠 Thor Mighty Thor 마블 토르 천둥의 신 MCU 5: Thor Tor Тор 3D 雷神索爾 Thor 01 Thor Thor 3D Thor God of Thunder.",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "fantasia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-23T14:20:05.360088",
+    "tamaño": "N/A",
+    "año": 2011,
+    "calificacion": 8.6,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "crunchyroll",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/oh3q1wdb6mjl",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "thor-2011",
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/oh3q1wdb6mjl"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "thunderdolts",
+    "poster": "https://ww4.pelisplushd.to/poster/thunderbolts-thumb.jpg",
+    "descripcion": "Un grupo de supervillanos poco convencional es reclutado para hacer misiones para el gobierno: Yelena Belova, Bucky Barnes, Red Guardian, Ghost, Taskmaster y John Walker. Después de verse atrapados en una trampa mortal urdida por Valentina Allegra de Fontaine, estos marginados deben embarcarse en una peligrosa misión que les obligará a enfrentarse a los recovecos más oscuros de su pasado.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "ciencia",
+      "ficcion"
+    ],
+    "calificacion": 8.1,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T20:07:26.101736",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/u1v0fmvdbkvf"
+      }
+    ],
+    "id": "thunderdolts-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/u1v0fmvdbkvf"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Tiempo de guerra",
+    "poster": "https://ww4.pelisplushd.to/poster/tiempo-de-guerra-thumb.jpg",
+    "descripcion": "Un pelotón de SEALs de la Marina estadounidense en la casa de una familia iraquí supervisa el movimiento de las fuerzas estadounidenses a través de territorio insurgente.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "guerra"
+    ],
+    "calificacion": 7.1,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T20:09:00.590024",
+    "tamaño": "N/A",
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/i1wnynhu8n9n"
+      }
+    ],
+    "id": "tiempo-de-guerra-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/i1wnynhu8n9n"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Todo vale",
+    "poster": "https://ww4.pelisplushd.to/poster/todo-vale-thumb.jpg",
+    "descripcion": "Un grupo de abogadas especialistas en divorcios abandona un bufete dominado por hombres para abrir su propio y exitoso despacho. Brillantes, feroces y emocionalmente complejas, lidian con separaciones de alto perfil, escándalos y lealtades cambiantes, tanto en los tribunales como en su círculo íntimo. En un mundo donde el dinero manda y el amor es un campo de batalla, estas mujeres no solo juegan, sino que cambian las reglas.",
+    "categoria": [
+      "series"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "comedia"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/kfvhva1arj21"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/vqsx1eryhm6n"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/xjbxws72ifyq"
+          }
+        ]
+      }
+    ],
+    "id": "todo-vale-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Toriko & One Piece & Dragon Ball Z",
+    "poster": "https://image.tmdb.org/t/p/w300/1azUShBxKqHUUJf61BIpnJTtAWO.jpg",
+    "descripcion": "La historia se centra en torno al “Tenkaichi Shokuôkai”, un torneo sin reglas, patrocinado por la Organización Internacional Gourmet de Toriko, que servirá para determinar al más poderoso de las tres franquicias (Dragon Ball, One Piece, Toriko)..Dream 9 Toriko & One Piece & Dragon Ball Z Chō Collaboration Special!! Goku contro Rubber (Dragon Ball VS One Piece) - Il torneo mondiale di abbuffate ドリーム9 トリコ&ワンピース&ドラゴンボールZ 超コラボスペシャル! 美食獵人 & ONE PIECE & 七龍珠Z 超夢幻合作特別篇！！ JUMP Super Anime Tour Special",
+    "categoria": [
+      "one piece"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "animacion",
+      "aventura",
+      "comedia",
+      "fantasia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-02T18:25:17.150465",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2013,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/g6c49fxgh1uq",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/g6c49fxgh1uq"
+      }
+    ],
+    "id": "toriko-one-piece-dragon-ball-z-2013"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Toy Story",
+    "poster": "https://ww4.pelisplushd.to/poster/toy-story-thumb.jpg",
+    "descripcion": "Un muñeco vaquero se siente profundamente amenazado y celoso cuando una nueva figura del hombre del espacio lo suplanta como juguete principal en el cuarto de un niño.",
+    "categoria": [
+      "anime"
+    ],
+    "año": 1995,
+    "duracion": "1h 21m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura",
+      "comedia"
+    ],
+    "calificacion": 8.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/96rza2gcnx61"
+      },
+      {
+        "idioma": "subtitulado",
+        "url": "https://streamwish.to/e/wnf7ntiisn9r"
+      },
+      {
+        "idioma": "español",
+        "url": "https://streamwish.to/e/dqs2dg8eotkn"
+      }
+    ],
+    "id": "toy-story-1995",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/96rza2gcnx61"
+      },
+      {
+        "calidad": "HD",
+        "idioma": "subtitulado",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/wnf7ntiisn9r"
+      },
+      {
+        "calidad": "HD",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/dqs2dg8eotkn"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Toy Story 3",
+    "poster": "https://ww4.pelisplushd.to/poster/toy-story-3-thumb.jpg",
+    "descripcion": "Los juguetes son entregados por error a una guardería en lugar del ático justo antes de que Andy se vaya a la universidad, y depende de Woody convencer a los otros juguetes de que no fueron abandonados y volver a casa.",
+    "categoria": [
+      "anime"
+    ],
+    "año": 2010,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/eqfpw8h9aoos"
+      }
+    ],
+    "id": "toy-story-3-2010",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/eqfpw8h9aoos"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Toy Story 4",
+    "poster": "https://ww4.pelisplushd.to/poster/toy-story-4-thumb.jpg",
+    "descripcion": "Cuando un nuevo juguete llamado «Forky» se une a Woody y a la pandilla, un viaje por carretera junto a viejos y nuevos amigos revela lo grande que puede ser el mundo para un juguete.",
+    "categoria": [
+      "anime"
+    ],
+    "año": 2019,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/ov2vkp075d71"
+      }
+    ],
+    "id": "toy-story-4-2019",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/ov2vkp075d71"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Toy Story, el tiempo perdido (2014)",
+    "poster": "https://ww4.pelisplushd.to/poster/toy-story-el-tiempo-perdido-thumb.jpg",
+    "descripcion": "Durante un día de juegos después de navidad, la pandilla de juguetes de Bonnie se encuentran en un territorio desconocido repleto de figuras de acción. La protagonista será Trixie, la triceratops, y será la responsable de que los juguetes regresen a su hogar..",
+    "categoria": [
+      "anime"
+    ],
+    "año": 2014,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/22igsbuj52qw"
+      }
+    ],
+    "id": "toy-story-el-tiempo-perdido-2014-2014",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/22igsbuj52qw"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Toy Story: De terror",
+    "poster": "https://ww4.pelisplushd.to/poster/toy-story-de-terror-thumb.jpg",
+    "descripcion": "Especial de TV para Halloween tipo mediometraje, producido por los estudios Pixar, basado en los personajes de la exitosa trilogía de Toy Story.",
+    "categoria": [
+      "anime"
+    ],
+    "año": 2013,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/ix1ejprmt8s8"
+      }
+    ],
+    "id": "toy-story-de-terror-2013",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/ix1ejprmt8s8"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Transformers",
+    "poster": "https://ww4.pelisplushd.to/poster/transformers-thumb.jpg",
+    "descripcion": "Ver Transformers Online Latino, Español, Subtituladas Gratis | Cuevana3. Optimus Prime, líder de los Autobots, narra el colapso del planeta natal de los Transformers, Cybertron. Quedó inhabitable por una guerra entre los Autobots y los Decepticons. Liderados por Megatron, los Decepticons buscan la Chispa Suprema para poder usarla para apoderarse del universo. Los Autobots quieren encontrar la Chispa Suprema para usarla para reconstruir Cybertron y finalizar la guerra. Megatron logró localizar la Chispa Suprema en la Tierra, pero se estrelló en el círculo ártico y se congeló en el hielo. Después de toparse con su cuerpo congelado en 1897, el explorador Capitán Archibaldo Witwicky accidentalmente activó el sistema de navegación de Megatron y en sus anteojos quedaron grabadas las coordenadas de la localización de la Chispa Suprema, un incidente que lo dejó ciego y mentalmente inestable.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2007,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "Aventura",
+      "Ciencia ficción"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://streamwish.to/e/mfgc22xntftr"
+      }
+    ],
+    "id": "transformers-2007",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/mfgc22xntftr"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Transformers: el lado oscuro de la luna",
+    "poster": "https://ww4.pelisplushd.to/poster/transformers-3-el-lado-oscuro-de-la-luna-thumb.jpg",
+    "descripcion": "Ver Transformers: el lado oscuro de la luna Online Latino, Español, Subtituladas Gratis | Cuevana3. En esta tercera entrega de la saga Transformers, los Autobots y los Decepticons se ven envueltos en una peligrosa carrera espacial en la Tierra entre los EE.UU. y Rusia, donde un acontecimiento amenaza con provocar una guerra tan grande que ni los propios transformers puede que sean capaces de salvar nuestro planeta. Y una vez más, como casi siempre, Sam Witwicky se encuentra involuntariamente en medio del conflicto.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2011,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "aventura",
+      "ciencia",
+      "ficción"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://streamwish.to/e/7v33wkie5hys"
+      }
+    ],
+    "id": "transformers-el-lado-oscuro-de-la-luna-2011",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/7v33wkie5hys"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Trol 2",
+    "poster": "https://ww5.pelisplushd.to/poster/trol-2-thumb.jpg",
+    "descripcion": "",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "drama"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-05T14:38:47.355460",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/27tc341hgd98",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/27tc341hgd98"
+      }
+    ],
+    "id": "trol-2-2025"
+  },
+  {
+    "id": "tron-ares-2025",
+    "tipo": "pelicula",
+    "titulo": "TRON: Ares",
+    "poster": "https://www.pelisplus.do/poster/tron-ares-thumb.jpg",
+    "descripcion": "Un programa altamente sofisticado llamado Ares es enviado del mundo digital al mundo real en una misión peligrosa, marcando el primer encuentro de la humanidad con seres de IA.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "ciencia ficcion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T17:05:52.045453",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 9.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/xia1gtftil23"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/xia1gtftil23"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Truth & Treason",
+    "poster": "https://ww4.pelisplushd.to/poster/truth-and-treason-thumb.jpg",
+    "descripcion": "expose the truth. With the Gestapo closing in, he must decide what it really means to be a good German.",
+    "categoria": [
+      "todos"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "historia",
+      "suspenso"
+    ],
+    "calificacion": 8.5,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://streamwish.to/e/ibzb3ygsqdrk"
+      }
+    ],
+    "id": "truth-treason-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "subtitulado",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/ibzb3ygsqdrk"
+      }
+    ]
+  },
+  {
+    "id": "the-murky-stream-2025",
+    "tipo": "serie",
+    "titulo": "Twisted Metal",
+    "poster": "https://ww4.pelisplushd.to/poster/twisted-metal-thumb.jpg",
+    "descripcion": "John Doe, un forastero charlatán sin recuerdos de su pasado, debe lograr entregar con éxito un misterioso paquete a través de un páramo postapocalíptico para obtener una oportunidad de tener una vida mejor.",
+    "categoria": [
+      "series"
+    ],
+    "año": 2023,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "comedia"
+    ],
+    "calificacion": 7.8,
+    "votos": 2000,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "hbo max",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/ksj78x2pb5vh"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/1xsmjqknr9xo"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/ne5y2oz8kb4z"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/q802wbm2srgs"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/9cjm6oqu2vrm"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/ymr3ki3rn3yi"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/1jysj5t32npr"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/p6e158te9xdt"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://streamwish.to/e/frmtec2icslc"
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://streamwish.to/e/eikovymwl80m"
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/5vwq12odl6np"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/52j4ioayni21"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/sqpsp1z4y552"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/33j7mg68g6el"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/9fif81fs7svg"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/ansr0tomm9eu"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/vtej3988daht"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/qwjep40b2aje"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://streamwish.to/e/0wj6y73nvxx5"
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://vidhidepro.com/v/qffarekoqd8q"
+          },
+          {
+            "episodio": 11,
+            "titulo": "Episodio 11",
+            "url": "https://streamwish.to/e/mouqq4c0rff7"
+          },
+          {
+            "episodio": 12,
+            "titulo": "Episodio 12",
+            "url": "https://streamwish.to/e/6wsnuidi9d64"
+          }
+        ]
+      }
+    ],
+    "estado_temporada": "nueva",
+    "clasificacion_edad": "18",
+    "es_reciente": false
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Un Día Cualquiera",
+    "poster": "https://image.tmdb.org/t/p/w300/mJSyDRmxwdpwBu2o1G2VdHv8fDZ.jpg",
+    "descripcion": "Un grupo de amigos van a pasar un fin de semana a una casa rural. Un lugar lejano y aparentemente tranquilo, donde nada es lo que parece, ni siquiera la amistad..",
+    "categoria": [
+      "terror"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "suspenso",
+      "terror"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-22T23:15:54.456554",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 7.8,
+    "votos": 699,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://dintezuvio.com/embed/giwuvboa7opc"
+      }
+    ],
+    "id": "un-dia-cualquiera-2024",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/giwuvboa7opc"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Un guía muy perdido",
+    "poster": "https://image.tmdb.org/t/p/w300/rGLOPU2BruPF4GmSyPLTbSVeR2p.jpg",
+    "descripcion": "Yann siempre ha soñado con recorrer el mundo, y cuando la prestigiosa guía Routard busca nuevos colaboradores, decide presentarse y consigue el puesto. Su primer destino es Marrakech, donde debe visitar decenas de lugares. Sin embargo, hay un detalle que lo complica todo: Yann nunca ha viajado antes. Lo que prometía ser una aventura profesional se convierte en un divertido y caótico viaje de descubrimiento personal..Le Routard",
+    "categoria": [
+      "comedia"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "idioma": "español",
+    "calidad": "1080p",
+    "addedDate": "2025-11-30T22:54:56.377279",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://dintezuvio.com/embed/ejqiz4lx9aox",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/ejqiz4lx9aox"
+      }
+    ],
+    "id": "un-guia-muy-perdido-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Un novio, dos novias",
+    "poster": "https://image.tmdb.org/t/p/w300/pofgUZkETInWRlyzFz82Kf6jOEZ.jpg",
+    "descripcion": "Adam es alérgico al romance, de alguna forma, termina comprometido con su primer amor y con la hija de su jefe. Ahora debe mantener en secreto su doble vida..Groom & Two Brides",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "romance"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T01:09:51.071572",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.0,
+    "votos": 8000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/cxnbf1qvnio0",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/cxnbf1qvnio0"
+      }
+    ],
+    "id": "un-novio-dos-novias-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Un vecino gruñón",
+    "poster": "https://image.tmdb.org/t/p/w300/6jE6HqtBqRUKuy98NMoWyZOHguR.jpg",
+    "descripcion": "",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T01:39:06.339369",
+    "tamaño": "N/A",
+    "año": 2022,
+    "calificacion": 7.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/mox5alnd4st5"
+      }
+    ],
+    "id": "un-vecino-grunon-2022",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/mox5alnd4st5"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Una batalla tras otra",
+    "poster": "https://image.tmdb.org/t/p/w300/sRiK0GwWAQ1qukvAgN3I9t5dGVq.jpg",
+    "descripcion": "Un ex revolucionario, tras años apartado de la lucha, se ve obligado a volver a la acción para enfrentar a viejos enemigos en un ambiente cargado de tensión política, racismo y violencia militar... Adaptación modernizada de la novela 'Vineland', de Thomas Pynchon (1990), sobre los movimientos radicales de los años sesenta..BC Project 一场又一场的战斗 The Battle of Baktan Cross Una batalla tras otra",
+    "categoria": [
+      "todo-lo-nuevo-2025"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "suspenso"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-20T19:09:16.246664",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.8,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/q6u44ootqzkb"
+      }
+    ],
+    "id": "una-batalla-tras-otra-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/q6u44ootqzkb"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Una Navidad muy Jonas Brothers",
+    "poster": "https://image.tmdb.org/t/p/w300/rQp9P3CigiN3bgNm0NkYoSl3bMv.jpg",
+    "descripcion": "Los Jonas Brothers tratan de llegar a casa a tiempo para pasar la Navidad con sus familias.. Un Noël chez les Jonas Brothers",
+    "categoria": [
+      "todo-lo-nuevo-2025"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "musica"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-20T21:22:24.989016",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/g23xa39xij6b"
+      }
+    ],
+    "id": "una-navidad-muy-jonas-brothers-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/g23xa39xij6b"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Una noche en Zoopolis",
+    "poster": "https://image.tmdb.org/t/p/w300/49s9HB9bXMjHkdw0asNs7m1rO5E.jpg",
+    "descripcion": "Una noche, un meteorito se estrella en el zoo de Colepepper desatando un virus que transforma a los animales en extraños y divertidísimos mutantes zombis babosos. Gracie, una joven loba estrafalaria, forma equipo con un rudo y temible puma para encontrar la forma de volver con su manada. Ahora, como el zoo está invadido deben idear un plan para que todos los animales vuelvan a la normalidad..动物园天启夜 Une nuit au zoo Zoopocalipse - Uma Aventura Animal Μία νύχτα με τα ζωόμπι Haláli állatok hajnala Ночь в зоопарке Zoochosis: The Movie Night of the Zoombies Night at the zoo Zoopocalipsis Mošķu ballīte",
+    "categoria": [
+      "comedia"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura",
+      "ciencia",
+      "comedia",
+      "ficcion",
+      "terror"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T22:34:24.979617",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/icaij4ecejdc",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/icaij4ecejdc"
+      }
+    ],
+    "id": "una-noche-en-zoopolis-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Una película de Minecraft",
+    "poster": "https://ww5.pelisplushd.to/poster/una-pelicula-de-minecraft-thumb.jpg",
+    "descripcion": "Henry, Natalie, Dawn y Garrett, cuatro inadaptados, son arrastrados a un misterioso portal hacia el extraño y cúbico mundo principal. Para volver a casa, tendrán que dominar este mundo con la ayuda de un artesano inesperado y experto llamado, Steve, mientras se embarcan en una búsqueda mágica.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "familia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-16T02:39:28.977608",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/140zfukhaplj"
+      }
+    ],
+    "id": "una-pelicula-de-minecraft-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/140zfukhaplj"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Under Fire",
+    "poster": "https://ww4.pelisplushd.to/poster/under-fire-thumb.jpg",
+    "descripcion": "Dos agentes encubiertos del FBI y la DEA revelan repentinamente sus verdaderas identidades durante un trato con un cártel, sin saber que el otro estaba trabajando en el mismo caso. Su sorpresa dura poco cuando una lluvia de balas de francotirador les deja inmovilizados y superados en armamento. Obligados a confiar el uno en el otro, los dos agentes deben jugar al gato y al ratón con un francotirador invisible cuyos motivos son tan misteriosos como letal es su puntería.",
+    "categoria": [
+      "accion"
+    ],
+    "año": 2025,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "comedia",
+      "suspenso"
+    ],
+    "calificacion": 10.0,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://streamwish.to/e/7jdxr2dpaqa3"
+      }
+    ],
+    "id": "under-fire-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/7jdxr2dpaqa3"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Uno equis dos",
+    "poster": "https://image.tmdb.org/t/p/w500/q42qOEkYYfe7cUy3EWUHYTbRUAJ.jpg",
+    "descripcion": "Chino y Josu, dos amigos de unos 40 años, han estado jugando a la quiniela juntos desde que se conocieron en la universidad. Este fin de semana, han acertado los primeros 12 resultados y, junto con sus parejas, Paula y Cris, deciden seguir el final de la jornada en la casa de campo de la familia de Chino. Al plan se une David, un compañero de trabajo de Cris que acaba de divorciarse. A medida que la posibilidad de hacerse ricos aumenta con cada nuevo resultado, los cinco se enfrentarán a las verdades ocultas de sus relaciones y a su verdadera identidad, en una escalada imparable y caótica de violencia y malas decisiones.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "director": "Alberto Utrera",
+    "reparto": [
+      "Paco León",
+      "Raúl Tejón",
+      "Stéphanie Magnin",
+      "Adam Jezierski",
+      "Kimberley Tell"
+    ],
+    "calificacion": 6.0,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:14:29.097875",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://streamwish.to/e/d84lq2q0iuc5",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "uno-equis-dos-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Vacaciones en Hawái",
+    "poster": "https://image.tmdb.org/t/p/w300/zK0tA15d6Ltr1FK7sEXv9zIpzEJ.jpg",
+    "descripcion": "En un inesperado giro de eventos, los icónicos juguetes de Andy se embarcan en su aventura más tropical hasta la fecha. Cuando Ken revela que su planeación para unas vacaciones hawaianas carece de coordinación y detalle, la responsabilidad recae sobre los hombros de Woody y Buzz Lightyear. Estos líderes naturales movilizan a toda la pandilla de juguetes en una misión secreta: crear la experiencia paradisíaca perfecta sin que los humanos sospechen su existencia. Mientras el sol brilla sobre la habitación infantil transformada en paraíso polinesio, cada juguete aporta sus habilidades únicas para recrear las maravillas de Hawái. Los soldados verdes establecen complejos sistemas de transporte entre \"playas\" de toallas amarillas, mientras que el Sr. Cara de Papa organiza espectáculos de luau con accesorios de cocina. Las aguas turquesas del océano son meticulosamente simuladas usando sábanas azules ondeantes y peces de bañera, creando un escenario que haría palidecer a cualquier resort de lujo. La búsqueda de unas vacaciones hawaianas perfectas se convierte en una operación militar precisa bajo el mando estratégico de Buzz, quien coordina las actividades con precisión espacial. Mientras tanto, Woody asegura que cada momento capte la esencia auténtica de la cultura polinesia, desde danzas tradicionales hasta banquetes con frutas de plástico. Esta comedia animada familiar explora hasta qué punto llegarían estos leales compañeros para cumplir los sueños vacacionales de sus dueños, demostrando que la verdadera magia de las vacaciones no está en el destino, sino en la compañía y la creatividad que transforman lo ordinario en extraordinario",
+    "categoria": [
+      "anime"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      "animacio comedia familia"
+    ],
+    "favorito": false,
+    "genero": [],
+    "calidad": "HD",
+    "addedDate": "2025-11-22T21:59:24.202333",
+    "tamaño": "N/A",
+    "año": 2011,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/kqwx5z8lwulu"
+      }
+    ],
+    "id": "vacaciones-en-hawai-2011",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/kqwx5z8lwulu"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Valiant One",
+    "poster": "https://image.tmdb.org/t/p/w300/njCc9bEut22FkxoRdPzcLkSa1np.jpg",
+    "descripcion": "",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "bwlica"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-21T00:02:08.348890",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/m5ct3bdc3ahf"
+      }
+    ],
+    "id": "valiant-one-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/m5ct3bdc3ahf"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Vampirina: Una Vampirina adolescente",
+    "poster": "https://ww5.pelisplushd.to/poster/vampirina-una-vampirina-adolescente-thumb.jpg",
+    "descripcion": "Vampi llega al internado para perseguir sus sueños..Vampirina",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "idioma": "latino",
+    "calidad": "1080p",
+    "addedDate": "2025-12-02T00:44:58.862810",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 9.0,
+    "votos": 80000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/tlw1tpbyfrnq"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/rrgn4my7920x"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/itdxvr8f6dmd"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/xyejujoqmcbb"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/f29b2vnfyy4m"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/0u9b8i0yreet"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/5g5zav0z9g1a"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dintezuvio.com/embed/0czz1kcuznrp"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://dintezuvio.com/embed/c1yle06vadwc"
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://dintezuvio.com/embed/jrisnb97tpc1"
+          },
+          {
+            "episodio": 11,
+            "titulo": "Episodio 11",
+            "url": "https://dintezuvio.com/embed/q3q7k8nh5kuw"
+          },
+          {
+            "episodio": 12,
+            "titulo": "Episodio 12",
+            "url": "https://dintezuvio.com/embed/em9yspzpj4y5"
+          },
+          {
+            "episodio": 13,
+            "titulo": "Episodio 13",
+            "url": "https://dintezuvio.com/embed/68cqvgjhpzje"
+          },
+          {
+            "episodio": 14,
+            "titulo": "Episodio 14",
+            "url": "https://dintezuvio.com/embed/5m7k8j0gfcsb"
+          },
+          {
+            "episodio": 15,
+            "titulo": "Episodio 15",
+            "url": "https://dintezuvio.com/embed/xyvf1kwe0zkc"
+          },
+          {
+            "episodio": 16,
+            "titulo": "Episodio 16",
+            "url": "https://dintezuvio.com/embed/hm6brvbyjttb"
+          }
+        ]
+      }
+    ],
+    "id": "vampirina-una-vampirina-adolescente-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Venganza Ancestral",
+    "poster": "https://ww4.pelisplushd.to/poster/venganza-ancestral-thumb.jpg",
+    "descripcion": "Cuando Alma regresa a casa para ayudar a su familia a que se reconozca su herencia nativa americana, todo lo que encuentra es el mundialmente famoso Clown Motel que se ha erigido en su tierra.",
+    "categoria": [
+      "terror"
+    ],
+    "año": 2023,
+    "duracion": "1 h 23m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "comedia"
+    ],
+    "calificacion": 7.6,
+    "votos": 0,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://streamwish.to/e/yuzczjgggjmq"
+      }
+    ],
+    "id": "venganza-ancestral-2023",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/yuzczjgggjmq"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Ver Bangkok Dog (2024) Online - Cuevana",
+    "poster": "https://image.tmdb.org/t/p/w300/jw0WIqKukzCJoxdYbxeKWyDqtla.jpg",
+    "descripcion": "Ver la Película Bangkok Dog online gratis en español.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T19:29:36.141907",
+    "tamaño": "N/A",
+    "año": 2025,
+    "plataforma": "pelicula",
+    "fuentes": [],
+    "id": "ver-bangkok-dog-2024-online---cuevana-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Ver Juegos de niños (2025) Online - Cuevana",
+    "poster": "https://image.tmdb.org/t/p/w300/sWhglhFoGA0T7n5U6Yi0t8LBGjA.jpg",
+    "descripcion": "Ver la Película Juegos de niños online gratis en español.",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T18:29:26.494464",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://embed69.org/f/tt31425731/"
+      }
+    ],
+    "id": "ver-juegos-de-ninos-2025-online---cuevana-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://embed69.org/f/tt31425731/"
+      }
+    ]
+  },
+  {
+    "tipo": "serie",
+    "titulo": "VGLY",
+    "poster": "https://image.tmdb.org/t/p/w300/SYvwtsk4vWPAtB0wlgLlecWCFc.jpg",
+    "descripcion": "Vgly y su crew están en lo más bajo de la escala social y sueñan con salir del anonimato, pero sin contactos, dinero, ni privilegios, tendrán que enfrentarse a su barrio y al mundo entero para triunfar en el mundo de la música..Ugly",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T17:34:44.614169",
+    "tamaño": "N/A",
+    "año": 2023,
+    "calificacion": 8.8,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dinisglows.com/embed/zs3on85zff2v"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dinisglows.com/embed/hncimbms8oy7"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dinisglows.com/embed/b9ypjnzrptd3"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dinisglows.com/embed/kk9bc5e8ysjb"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dinisglows.com/embed/313mx9ybjldx"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dinisglows.com/embed/r78rn9cjei9w"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dinisglows.com/embed/7yrvgg3d5ecn"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dinisglows.com/embed/paw4u4u4p0nl"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://dinisglows.com/embed/rig0p5vgb2ia"
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://dinisglows.com/embed/jgvnjw5sv8lw"
+          },
+          {
+            "episodio": 11,
+            "titulo": "Episodio 11",
+            "url": "https://dinisglows.com/embed/zz7n3a2tsbie"
+          },
+          {
+            "episodio": 12,
+            "titulo": "Episodio 12",
+            "url": "https://dinisglows.com/embed/13zhch9i154h"
+          },
+          {
+            "episodio": 13,
+            "titulo": "Episodio 13",
+            "url": "https://dinisglows.com/embed/37y2889i63ag"
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/l221u1p7lfxk"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/nhhrsembot63"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/3hyxrij0mor0"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/xtdne3uzofqh"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/04s4i13naq8n"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/r9k920ygo4tg"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/37n4ty7ftyf2"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dintezuvio.com/embed/mmkhf8n1onu7"
+          }
+        ]
+      }
+    ],
+    "id": "vgly-2023"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Violet Evergarden: Recuerdos",
+    "poster": "https://image.tmdb.org/t/p/w500/61DL5lwBWVuPbH7Mb7wAcvoYpXm.jpg",
+    "descripcion": "En este resumen de la conmovedora y premiada serie de animación, una antigua niña soldado con un trauma emocional empieza a trabajar como escritora de cartas.",
+    "año": 2021,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "drama",
+      "fantasía",
+      "animación",
+      "romance"
+    ],
+    "director": "Taichi Ishidate",
+    "reparto": [
+      "Yui Ishikawa",
+      "Daisuke Namikawa",
+      "Takehito Koyasu",
+      "Aya Endo",
+      "Koki Uchiyama"
+    ],
+    "calificacion": 8.56,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T01:49:26.906461",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/psl3k3r0lq7i?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "violet-evergarden-recuerdos-2021"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Vista virtual",
+    "poster": "https://image.tmdb.org/t/p/w300/5zfQWIiNWfLHXkwzSP9QYU0NSNX.jpg",
+    "descripcion": "",
+    "categoria": [
+      "drama"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "ciencia",
+      "drama",
+      "ficcion"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-21T13:40:04.559103",
+    "tamaño": "N/A",
+    "año": 2023,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://dinisglows.com/embed/t0hx3k9ixr44"
+      }
+    ],
+    "id": "vista-virtual-2023",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/t0hx3k9ixr44"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Voy a pasármelo mejor",
+    "poster": "https://ww4.pelisplushd.to/poster/voy-a-pasarmelo-mejor-thumb.jpg",
+    "descripcion": "1992. Los Pitus ya tienen quince años y este verano se van de campamento para aprender inglés. Eso sí, lo hacen como aprendimos inglés a principios de los noventa: en un campamento no muy lejos de nuestra casa y con profesores españoles cuyo acento dejaba bastante que desear. En esas semanas los tres amigos vivirán un montón de nuevas aventuras, sobre todo amorosas, que son siempre las aventuras más importantes, especialmente a los quince años. Ah, y también cantarán y bailarán un montón de canciones de la época. Ellos no lo saben, pero será el mejor verano de su vida.",
+    "categoria": [],
+    "año": 2025,
+    "genero": [
+      "comedia"
+    ],
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://streamwish.to/e/lblqgyhl96la"
+      }
+    ],
+    "id": "voy-a-pasarmelo-mejor-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/lblqgyhl96la"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "WALL·E",
+    "poster": "https://ww4.pelisplushd.to/poster/walle-thumb.jpg",
+    "descripcion": "En un futuro lejano, un pequeño robot recolector de residuos se embarca inadvertidamente en un viaje espacial que decidirá en última instancia el destino de la humanidad.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2008,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "familia"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-14T21:56:49.303821",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [],
+    "id": "walle-2008"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "War 2",
+    "poster": "https://image.tmdb.org/t/p/w300/j8Gl3S4L7LE8GIF1J1phZ2Cbo72.jpg",
+    "descripcion": "Desde las sombras más densas, la India desata a su arma más letal: el superagente Vikram. Un oficial de las Unidades Especiales, imparable, indestructible, implacable. Cuando entra en escena, el peligro es inevitable. Un Terminator atormentado por sus propios demonios, con un único propósito: volarle la cabeza a Kabir. Dos titanes. Un destino. Una persecución sin límites. El mundo entero se convierte en su sangriento y despiadado campo de batalla. En su camino, decisiones imposibles, donde cada elección tiene un precio muy alto. Esta no es solo una guerra. Es una explosión de acción brutal y emociones que desgarran el alma.War 2 వార్ 2 வார் 2",
+    "categoria": [
+      "accion"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura",
+      "suspenso"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T17:07:18.797444",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 7.9,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/c9lwlqxn7z7u",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/c9lwlqxn7z7u"
+      }
+    ],
+    "id": "war-2-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "We Need to Do Something",
+    "poster": "https://ww4.pelisplushd.to/poster/we-need-to-do-something-thumb.jpg",
+    "descripcion": "Buscando refugio de una tormenta, una familia se encuentra atrapada en un baño durante días sin señales de rescate y males incalculables acechando más allá de las paredes.",
+    "categoria": [
+      "terror"
+    ],
+    "año": 2021,
+    "duracion": "1h 30m",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [],
+    "calificacion": 5.3,
+    "votos": 0,
+    "calidad": "HD",
+    "clasificacion_edad": "+18",
+    "tamaño": "N/A",
+    "fuentes": [
+      {
+        "idioma": "español latino",
+        "url": "https://streamwish.to/e/zj6z2uuwp1in"
+      }
+    ],
+    "id": "we-need-to-do-something-2021",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "español latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/zj6z2uuwp1in"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Wicked",
+    "poster": "https://image.tmdb.org/t/p/w300/q1czoLwMaiUO1bznWuETCP5ueZj.jpg",
+    "descripcion": "En la fascinante Tierra de Oz, mucho antes de que los zapatos de rubí llegaran a ser legendarios, dos jóvenes destinadas a caminar por senderos opuestos se encuentran en los pasillos de la prestigiosa Universidad Shiz. Elphaba, cuya piel posee un tono esmeralda que la hace blanco de miradas y prejuicios, lucha por encontrar su lugar en un mundo que parece rechazarla desde el primer instante. Por otro lado, Glinda, nacida bajo el manto dorado del privilegio y la aceptación social, navega la vida académica con la seguridad de quien siempre ha sido el centro de atención. La historia de amistad universitaria en Oz comienza cuando estas almas dispares se ven forzadas a compartir espacio vital, desencadenando una relación que desafiará todas las convenciones establecidas. Mientras Elphaba comienza a descubrir indicios de habilidades mágicas que podrían alterar el equilibrio del reino, Glinda se enfrenta a las limitaciones de una existencia dedicada únicamente a la superficialidad. La compleja relación entre Elphaba y Glinda se desarrolla entre clases de hechicería y eventos sociales, creando un vínculo que oscila entre la rivalidad y la lealtad más profunda. A través de encuentros con personajes extraordinarios y la creciente tensión política en Oz, ambas jóvenes emprenderán viajes de autodescubrimiento que moldearán sus destinos de maneras imprevisibles. Este relato sobre los orígenes de la Bruja del Oeste explora cómo la magia, la ambición y la amistad pueden entrelazarse en una danza tan peligrosa como transformadora, sentando las bases para los eventos que eventualmente conducirán a la llegada de una famosa visitante del mundo exterior..Wicked: Parte 1 Wicked: Parte Um 위키드: 파트 1 Wicked Part 1 魔法坏女巫 Phù Thủy Xứ Oz: Phần 1 Злая: Часть первая Wicked - Parte 1 Shtrigat e Ozit - Pjesa 1 Të Liqtë מרשעת Wicked Teil 1 Злица",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "drama",
+      "fantasia",
+      "romance"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-30T00:06:22.849419",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 8.9,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/1i3dmy8fmlks",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/1i3dmy8fmlks"
+      }
+    ],
+    "id": "wicked-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Wifi Ralph",
+    "poster": "https://ww5.pelisplushd.to/poster/wifi-ralph-thumb.jpg",
+    "descripcion": "Seis años después de salvar el arcade del ataque de los Cybugs y de la venganza de Turbo,5​ la historia se centrará en las aventuras de Ralph en el espacio de datos de Internet cuando un enrutador Wi-Fi se conecta en la sala de juegos, ya que debe encontrar una pieza de reemplazo para fijar Sugar Rush. A lo largo del camino, Ralph y su mejor amiga Vanellope von Schweetz encuentran nuevas costumbres, mundos y personajes, como el algoritmo de moda Yesss, las princesas de Disney, los superhéroes de Marvel y personajes de Star Wars, y más personajes de videojuegos como Mario y Sonic the Hedgehog.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "2018"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-16T03:01:54.213034",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 6.2,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/czrd7mqgiey6"
+      }
+    ],
+    "id": "wifi-ralph-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/czrd7mqgiey6"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Wildcat",
+    "poster": "https://image.tmdb.org/t/p/w500/h893ImjM6Fsv5DFhKJdlZFZIJno.jpg",
+    "descripcion": "Un antiguo escuadrón de operaciones especiales se reúne para una última misión: un robo de alto riesgo para rescatar a la hija pequeña de su comandante.",
+    "año": 2025,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "acción",
+      "suspense",
+      "crimen"
+    ],
+    "director": "James Nunn",
+    "reparto": [
+      "Kate Beckinsale",
+      "Lewis Tan",
+      "Alice Krige",
+      "Charles Dance",
+      "Rasmus Hardiker"
+    ],
+    "calificacion": 5.875,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T01:25:40.099024",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/hng7a64s3kjv",
+        "calidad": "1080"
+      },
+      {
+        "idioma": "subtitulado",
+        "url": "https://streamwish.to/e/7z4xag1wbgpn",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "wildcat-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Wildcat (2021)",
+    "poster": "https://image.tmdb.org/t/p/w500/gptrYvgSS5wjck3XbLYItnAvat8.jpg",
+    "descripcion": "",
+    "año": 2021,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "misterio",
+      "suspense",
+      "drama",
+      "bélica"
+    ],
+    "director": "Jonathan W. Stokes",
+    "reparto": [
+      "Georgina Campbell",
+      "Luke Benward",
+      "Mido Hamada"
+    ],
+    "calificacion": 6.2,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T01:32:22.577942",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/4kfo0n503nc7",
+        "calidad": "1080p"
+      },
+      {
+        "idioma": "subtitulado",
+        "url": "https://streamwish.to/e/7lijdan2r1bc",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "wildcat-2021-2021"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Yoroï",
+    "poster": "https://ww5.pelisplushd.to/poster/yoroi-thumb.jpg",
+    "descripcion": "After a gruelling final tour, Aurélien decides to settle in Japan with his wife Nanako, who is pregnant with their first child. As the young couple move into a traditional house in the Japanese countryside, Aurélien discovers an ancient suit of armour in a well, which is about to awaken strange creatures known as Yokaïs.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-12-05T14:42:18.559874",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 7.0,
+    "votos": 8000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/cs44ia7ch4zd",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/cs44ia7ch4zd"
+      }
+    ],
+    "id": "yoroi-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Your Host",
+    "poster": "https://www.pelisplus.do/poster/your-host-thumb.jpg",
+    "descripcion": "Four friends get trapped in a sadistic game show, forced to outwit a twisted serial killer while racing against time. Every move brings them closer to freedom or a gruesome fate.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "terror"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-17T15:28:07.684000",
+    "tamaño": "N/A",
+    "año": 2024,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/8jkkpl9cyiug"
+      }
+    ],
+    "id": "your-host-2024",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/8jkkpl9cyiug"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Zombies 4: Un verano entre vampiros",
+    "poster": "https://image.tmdb.org/t/p/w300/6EHx7lOm1jvNTr6lqRxiqmnFFDt.jpg",
+    "descripcion": "",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "aventura",
+      "comedia",
+      "familia",
+      "musica",
+      "romance"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-20T22:47:01.167332",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/uepgf2oq3xmd"
+      }
+    ],
+    "id": "zombies-4-un-verano-entre-vampiros-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/uepgf2oq3xmd"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Zootopia",
+    "poster": "https://image.tmdb.org/t/p/w300/i3WnZpJkQYXXbSGplEGmyoyeskM.jpg",
+    "descripcion": "La metrópoli Zootopía es una ciudad de mamíferos, donde muchos animales viven y se desarrollan. Allí, la optimista agente Judy Hopps se convierte en la primera conejita de un cuerpo policial compuesto por animales duros y enormes. Judy está decidida a demostrar su valentía y se mete en un caso con Nick Wilde, un zorro parlanchín y estafador.",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "año": 2016,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura"
+    ],
+    "calificacion": 8.9,
+    "votos": 0,
+    "calidad": "HD",
+    "addedDate": "2025-11-13T23:01:07.553399",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/2km2zwze9b8k"
+      }
+    ],
+    "id": "zootopia-2016",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/2km2zwze9b8k"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Zootopia 2",
+    "poster": "https://image.tmdb.org/t/p/original/LrMBxFwnsMgXTnaWqHYinn3vDN.jpg",
+    "descripcion": "Para evitar ir al programa de \"Compañeros en Crisis\", los policías Judy Hopps y Nick Wilde aceptan realizar el caso de la llegada de un reptil a Zootopia, poniéndo a prueba su relación.",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "animacion",
+      "aventura",
+      "comedia",
+      "familia",
+      "misterio"
+    ],
+    "idioma": "ingles",
+    "calidad": "HD",
+    "addedDate": "2025-12-02T00:21:36.422504",
+    "tamaño": "N/A",
+    "tmdb_id": null,
+    "año": 2025,
+    "calificacion": 9.9,
+    "votos": 9000,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://hlswish.com/e/j8tjgk2gfma1",
+        "calidad": "1080p"
+      },
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/sjnitayf0ww3",
+        "calidad": "1080p"
+      },
+      {
+        "idioma": "subtitulado",
+        "url": "https://streamwish.to/e/mubupbm2lo68",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "subtitulado",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://waaw.to/f/MyPZJTQLKlvX"
+      }
+    ],
+    "id": "zootopia-2-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "¡Células en acción!",
+    "poster": "https://ww4.pelisplushd.to/poster/cells-at-work-thumb.jpg",
+    "descripcion": "Junto a otros 37 billones de células, un torpe glóbulo rojo y un incansable glóbulo blanco trabajan juntos para proteger la salud de su humana en esta comedia científica.",
+    "categoria": [
+      "aventura"
+    ],
+    "año": 2024,
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "accion",
+      "aventura"
+    ],
+    "calificacion": 7.8,
+    "votos": 4000,
+    "calidad": "HD",
+    "tamaño": "N/A",
+    "es_nuevo": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/2c4hw0ad30rg"
+      }
+    ],
+    "id": "celulas-en-accion-2024",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://streamwish.to/e/2c4hw0ad30rg"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "¡Hola, Frida!",
+    "poster": "https://image.tmdb.org/t/p/w500/fh8qIKgIwaeuDZ215JF4ylugMZs.jpg",
+    "descripcion": "Adaptación libre animada del libro infantil Frida c'est moi, que retrata la infancia de Frida Kahlo en Coyoacán, México. A través de una narrativa vibrante, ¡HOLA, FRIDA! sigue a una niña curiosa y soñadora que enfrenta los desafíos de su entorno con una imaginación desbordante.",
+    "año": 2025,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "animación",
+      "familia",
+      "historia"
+    ],
+    "director": "Karine Vézina",
+    "reparto": [
+      "Olivia Ruiz",
+      "Emma Rodriguez",
+      "Rebeca Gonzales",
+      "Léo Côté",
+      "Sophie Faucher"
+    ],
+    "calificacion": 6.9,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:05:30.293078",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://dintezuvio.com/embed/5eoz7t5lsvwa?autoplay=1&controls=0",
+        "calidad": "1080p"
+      }
+    ],
+    "id": "hola-frida-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "¡Qué Huevos, Sofía!",
+    "poster": "https://image.tmdb.org/t/p/w300/hhfWpdNmPwU1VV7zhNA1nOMbHkH.jpg",
+    "descripcion": "En el caótico entorno corporativo de InnoCorp, Sofía emerge como una empleada corriente que accidentalmente desencadena una rebelión laboral cuando descubre los vergonzosos secretos de su supervisor. El Sr. Harrington, un jefe pomposo obsesionado con el control micromanagement, implementa absurdas políticas de oficina que incluyen reuniones sobre reuniones y prohibiciones de plantas decorativas. Entre el zumbido constante de las máquinas de café y el interminable crujir de ruedas de sillas giratorias, el equipo descubre que su incompetente líder ha estado ocultando errores catastróficos en los informes trimestrales. Mientras las tensiones aumentan en este ambiente de comedia laboral, Sofía y sus colegas Marta y Carlos idean un plan elaborado que involucra memes virales de oficina y sabotaje estratégico de la máquina de agua. La trama se desarrolla durante la preparación del importante evento corporativo \"Innovation Day\", donde Harrington planea presentar ideas robadas como propias. Los empleados descubren evidencia de que su jefe ha estado fingiendo logros profesionales mediante ingeniosas manipulaciones de datos y reuniones ficticias con clientes internacionales. La narrativa alcanza su clímax cuando el equipo debe decidir entre exponer la verdad arriesgando sus empleos o permitir que la farsa continúe. A través de situaciones hilarantes que incluyen intercambios de identidades, documentos confidenciales mezclados accidentalmente y presentaciones de power point deliberadamente absurdas, la historia explora las dinámicas de poder en entornos laborales disfuncionales. El desenlace revela sorpresas sobre las verdaderas capacidades de cada personaje cuando las circunstancias los obligan a superar sus propias limitaciones profesionales..",
+    "categoria": [
+      "aventura"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "calidad": "HD",
+    "addedDate": "2025-11-19T01:30:35.061163",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 0.0,
+    "votos": 0,
+    "es_nuevo": true,
+    "es_reciente": true,
+    "esta_roto": false,
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dinisglows.com/embed/fx1opps6d693"
+      }
+    ],
+    "id": "que-huevos-sofia-2025",
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dinisglows.com/embed/fx1opps6d693"
+      }
+    ]
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "¿que paso ayer?",
+    "poster": "https://image.tmdb.org/t/p/w300/uluhlXubGu1VxU63X9VHCLWDAYP.jpg",
+    "descripcion": "En el vibrante corazón de Las Vegas, una celebración de despedida de soltero se transforma en un enigma caótico cuando cuatro amigos despiertan sin memoria de los eventos nocturnos. Phil, Stu, Alan y el prometido Doug habían llegado a la ciudad del juego para una última aventura antes de la boda, pero el amanecer revela consecuencias imprevistas. La lujosa suite del hotel se ha convertido en un escenario surrealista: ventanas destruidas, muebles dañados y dos habitantes inesperados —un tigre de Bengala merodeando por el baño y un bebé llorando en el armario. La verdadera crisis estalla al descubrir que Doug ha desaparecido sin dejar rastro. Con solo cuarenta y ocho horas antes de la ceremonia nupcial, el trío restante inicia una carrera contrarreloj para reconstruir los fragmentos de esa noche perdida. Cada pista los arrastra más profundamente into un laberinto de situaciones absurdas: desde un encuentro imprevisto con el legendario Mike Tyson hasta un matrimonio improvisado en una capilla de drive-thru. Mientras recorven casinos, hospitales y comisarías, deben enfrentarse a un prestamista despiadado, resolver el misterio de un automóvil de policía en su posesión y descifrar cómo adquirieron un tigre salvaje. Esta búsqueda desesperada por localizar al novio desaparecido antes de la boda se convierte en un viaje de autodescubrimiento, donde cada revelación supera a la anterior en extravagancia. El grupo deberá descifrar enigmas que parecen sacados de una pesadilla, mientras lidian con las consecuencias de decisiones que no recuerdan haber tomado, en una aventura que redefine los límites de la amistad y la responsabilidad.. ¿Qué pasó ayer? Hangover Part 1 The Hangover - UR Se Beber Não Case Hangover 1 The ¿Qué pasó ayer? ¿Qué pasó ayer? Pohmakas Resacón en Las Vegas ¿Qué pasó ayer? Very Bad Trip Masnaposak Másnaposak Una notte da leoni 행오버 ¿Qué pasó ayer? ¿Qué pasó ayer? Kac Vegas Se Beber Não Case! Baksmällan ¿Qué pasó ayer? Hangover The Hangover the 01 Hangover The Perico Resacón en las Vegas The Hangover 2009 The Hangover: Theatrical Version Una Notte Da Leoni",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-27T18:38:43.202779",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.9,
+    "votos": 6000,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "clasificacion_edad": "+18",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/pyvyuhq3fl7m",
+        "calidad": "HD"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "HD",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/pyvyuhq3fl7m"
+      }
+    ],
+    "id": "que-paso-ayer-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "¿Que paso ayer? 2",
+    "poster": "https://image.tmdb.org/t/p/w300/u8B1a1AEhZ0k2mvPvzOYSJDnlge.jpg",
+    "descripcion": "En la vibrante Bangkok, el grupo de amigos más caótico regresa para celebrar la boda de Stu en un lujoso complejo tailandés. A diferencia del salvaje viaje a Las Vegas que casi destruye sus vidas, Stu ha planeado meticulosamente una celebración prenupcial segura: un brunch con tortitas y café, manteniéndose completamente alejado del alcohol. Sin embargo, el destino tiene otros planes cuando, dos noches antes de la ceremonia, el cauteloso Stu cede ante la presión y acepta tomar \"solo una cerveza\" en botellas cerradas. Lo que comienza como una inocente celebración se transforma rápidamente en una aventura descontrolada por los exóticos escenarios de Tailandia, donde el caos se desata sin límites. Phil, con su carisma arrollador, y Alan, con su peculiar visión del mundo, se ven inmersos en situaciones que desafían toda lógica. Mientras exploran mercados flotantes y templos ancestrales, cada giro inesperado los sumerge más profundamente en un torbellino de complicaciones que amenazan con arruinar la tan esperada boda. El viaje a Bangkok se convierte en una prueba de amistad y supervivencia, donde los recuerdos de Las Vegas palidecen ante las nuevas locuras que enfrentan. Entre encuentros con coloridos personajes locales y escapadas por la jungla urbana, el grupo descubre que las consecuencias de sus acciones en Tailandia superan cualquier cosa que hayan experimentado antes, llevando su amistad al límite mientras corren contra el reloj para llegar a la ceremonia..Hangover Part 2 Very bad trip 2 Se Beber Não Case! Parte 2 Hangover 2 The 醉后大丈夫2 Qué paso ayer? Parte 2 ¿Qué pasó ayer? 2 Tømmermænd i Thailand Resacón 2 ¡Ahora en Tailandia! Very bad trip 2 Másnaposok 2. בדרך לחתונה עוצרים בווגאס 2 Una notte da leoni 2 행오버 2 Que Paso Ayer 2 ¿Qué pasó ayer? Parte II Kac Vegas w Bangkoku A Ressaca - Parte II Мальчишник 2: Из Вегаса в Бангкок Baksmällan del II Que Paso Ayer Parte II Felekten Bir Gece 2 Felekten Bir Gece Daha 醉後大丈夫2 Hangover the 02 Hangover Part II The The Hangover 2 The Hangover Part 2",
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "comedia"
+    ],
+    "idioma": "latino",
+    "calidad": "HD",
+    "addedDate": "2025-11-27T18:53:16.576057",
+    "tamaño": "N/A",
+    "año": 2025,
+    "calificacion": 8.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": false,
+    "esta_roto": false,
+    "clasificacion_edad": "+18",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dintezuvio.com/embed/gg3d1oh4gstt",
+        "calidad": "1080p"
+      }
+    ],
+    "descargas": [
+      {
+        "calidad": "1080p",
+        "idioma": "latino",
+        "formato": "MP4",
+        "servidor": "Directo",
+        "url": "https://dintezuvio.com/embed/gg3d1oh4gstt"
+      }
+    ],
+    "id": "que-paso-ayer-2-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "¿Qué pasaría si...?",
+    "poster": "https://image.tmdb.org/t/p/w300/skIHk6QOhFKto99XIDnUIOcRO1U.jpg",
+    "descripcion": "",
+    "categoria": [
+      "series"
+    ],
+    "duracion": "N/A",
+    "director": "N/A",
+    "reparto": [
+      ""
+    ],
+    "favorito": false,
+    "genero": [
+      "action",
+      "adventure",
+      "animacion"
+    ],
+    "calidad": "1080p",
+    "addedDate": "2025-11-19T17:04:42.866663",
+    "tamaño": "N/A",
+    "año": 2921,
+    "calificacion": 10.0,
+    "votos": 0,
+    "es_nuevo": false,
+    "es_reciente": true,
+    "esta_roto": false,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dinisglows.com/embed/ir6yecqxv5aq"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dinisglows.com/embed/ntm5mxxounce"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dinisglows.com/embed/c2iuu8lof0e5"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dinisglows.com/embed/r98ewkiqm1ar"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dinisglows.com/embed/cgpqoyqoyfwc"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dinisglows.com/embed/3tv9j7q6p00m"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dinisglows.com/embed/zlky0kmavlot"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dinisglows.com/embed/at69hv9n8bw5"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://dinisglows.com/embed/p02u8krxxx5s"
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dinisglows.com/embed/p0hjw4mh5nbp"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dinisglows.com/embed/rw4lbldnusw8"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dinisglows.com/embed/tkodhl6013dy"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dinisglows.com/embed/9kipjf2imcu1"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dinisglows.com/embed/jkle4en2gteo"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dinisglows.com/embed/jqe1qc6azjii"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dinisglows.com/embed/bv63kchfa3q4"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dinisglows.com/embed/e2psskl1g454"
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://dinisglows.com/embed/pxl7qwmfa7bh"
+          }
+        ]
+      },
+      {
+        "temporada": 3,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dinisglows.com/embed/uv0561yj83xj"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dinisglows.com/embed/vwkaegmrbjt4"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dinisglows.com/embed/9emhx27w0jex"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dinisglows.com/embed/nqz6vod8mni5"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dinisglows.com/embed/15gccjbaq6q1"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dinisglows.com/embed/uq6wxzg93qjm"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dinisglows.com/embed/he5yuv8f36hb"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://dinisglows.com/embed/ykqj8e8j5z24"
+          }
+        ]
+      }
+    ],
+    "id": "que-pasaria-si-2921"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "恐龙飞车",
+    "poster": "https://image.tmdb.org/t/p/w500/i99kjvBWWwH1qtUDt3TBIFz6gAz.jpg",
+    "descripcion": "",
+    "año": 2021,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "familia",
+      "animación"
+    ],
+    "director": "Zhu Guo-Yang",
+    "reparto": [
+      "Li Hui-Xian",
+      "Si Xi",
+      "Ye Jia-Lin",
+      "Luo Ji-Shang",
+      "Yang Zhuo"
+    ],
+    "calificacion": 6.0,
+    "idioma": "Español",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-07T02:00:32.960321",
+    "plataforma": "pelicula",
+    "fuentes": [],
+    "id": "kong-long-fei-che-2021"
+  }
+];

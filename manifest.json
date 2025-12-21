@@ -1,0 +1,23 @@
+{
+  "name": "Pelixplushd",
+  "short_name": "Pelixplushd",
+  "description": "Disfruta de películas, series y animes en HD gratis en tu Smart TV y dispositivos móviles.",
+  "categories": ["entertainment", "movies", "tv", "video"],
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#141414",
+  "theme_color": "#141414",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "fondo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "fondo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

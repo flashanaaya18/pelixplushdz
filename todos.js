@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const tarjeta = document.createElement('div');
         tarjeta.className = 'movie-card';
         tarjeta.dataset.peliculaId = content.id;
+        tarjeta.classList.toggle('is-broken', content.esta_roto); // Apply broken status
 
         const hasVideo = content.videoUrl || content.teraboxId || (content.fuentes && content.fuentes.length > 0) || (content.temporadas && content.temporadas.length > 0);
         const playIcon = hasVideo ? `<div class="play-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>` : '';
@@ -48,7 +49,9 @@ document.addEventListener('DOMContentLoaded', () => {
         tarjeta.innerHTML = `
             ${playIcon}
             <div class="favorite-icon ${content.favorito ? 'favorited' : ''}">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"/></svg>
+                <button class="card-favorite-btn ${content.favorito ? 'favorited' : ''}" data-movie-id="${content.id}" title="Añadir a Favoritos">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"/></svg>
+                </button>
             </div>
             <img src="${content.poster}" alt="Póster de ${content.titulo}" onerror="this.src='https://via.placeholder.com/180x270/333333/ffffff?text=No+Image'">
             <div class="movie-card-content">
@@ -81,13 +84,21 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        const favoriteIcon = tarjeta.querySelector('.favorite-icon');
-        favoriteIcon.addEventListener('click', (e) => {
+        // Use the global dataManager for favorite toggling
+        const favoriteButton = tarjeta.querySelector('.card-favorite-btn');
+        favoriteButton.addEventListener('click', (e) => {
             e.stopPropagation();
-            content.favorito = !content.favorito;
-            favoriteIcon.classList.toggle('favorited', content.favorito);
-            const favoriteIds = peliculas.filter(p => p.favorito).map(p => p.id);
-            localStorage.setItem('favoriteMovies', JSON.stringify(favoriteIds));
+            const movieId = content.id;
+            let favorites = window.dataManager.getFavorites();
+            
+            if (favorites.includes(movieId)) {
+                favorites = favorites.filter(id => id !== movieId);
+                favoriteButton.classList.remove('favorited');
+            } else {
+                favorites.push(movieId);
+                favoriteButton.classList.add('favorited');
+            }
+            window.dataManager.saveFavorites(favorites);
         });
 
         return tarjeta;

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Animes Colecciones - PelixplushdHD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="fondo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fondo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css?v=3">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#141414">
+</head>
+
+<body data-page="Animes">
+
+    <header id="main-header" class="navbar">
+        <div class="logo-container">
+            <a href="index.html" class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span></span>plushd</a>
+        </div>
+
+        <nav class="desktop-nav">
+            <a href="index.html">Inicio</a>
+            <a href="peliculas.html">Películas</a>
+            <a href="series.html">Series</a>
+            <a href="animes1.html">Anime</a>
+            <a href="ajustes.html">Ajustes</a>
+        </nav>
+
+        <div class="nav-actions">
+            <div class="search-bar">
+                <form id="search-form">
+                    <input type="text" id="search-input" placeholder="Buscar..." autocomplete="off">
+                    <button type="submit" id="search-button"><i class="fas fa-search"></i></button>
+                </form>
+                <div id="live-search-results" class="search-results-dropdown"></div>
+            </div>
+
+            <button id="install-btn" class="mobile-toggle" style="display: none; margin-right: 10px;" title="Instalar App">
+                <i class="fas fa-download"></i>
+            </button>
+
+            <button id="hamburger-btn" class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <aside id="side-menu" class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span>plushd</span></div>
+            <button id="close-side-menu-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <nav class="mobile-nav-links">
+            <a href="index.html" class=""><i class="fas fa-home"></i> Inicio</a>
+            <a href="series.html" class=""><i class="fas fa-tv"></i> Series</a>
+            <a href="ajustes.html"><i class="fas fa-cog"></i> Ajustes</a>
+            <a href="lanzamientos.html" class=""><i class="fas fa-fire"></i> Estrenos</a>
+            <a href="favoritos.html" class=""><i class="fas fa-heart"></i> Favoritos</a>
+            <a href="accion.html"><i class="fas fa-fist-raised"></i> Acción</a>
+            <a href="terror.html"><i class="fas fa-ghost"></i> Terror</a>
+            <div class="mobile-categories">
+                <span>Categorías</span>
+                <div class="category-tags">
+                    <a href="comedia.html">Comedia</a>
+                    <a href="drama.html">Drama</a>
+                    <a href="anime.html">Anime</a>
+                    <a href="animes1.html" class="active">Colecciones</a>
+                    <a href="documental.html">Docu</a>
+                </div>
+            </div>
+        </nav>
+    </aside>
+    <div id="menu-overlay" class="menu-overlay"></div>
+
+    <main>
+        <div class="hero-container"
+            style="height: 40vh; min-height: 300px; background-image: linear-gradient(rgba(0,0,0,0.5), #141414), url('https://wallpapercave.com/wp/1JSgzAQ.jpg'); background-color: #000;">
+            <div class="hero-content">
+                <h1 class="hero-title">Colecciones Anime</h1>
+                <p class="hero-description">Disfruta de las mejores sagas completas: Naruto, Dragon Ball, One Piece y
+                    más.</p>
+            </div>
+        </div>
+
+        <div class="content-container" style="margin-top: -60px; position: relative; z-index: 20;">
+
+            <!-- Sección para Animes Populares -->
+            <section id="animes-populares-section" class="content-row">
+                <div class="section-title-container">
+                    <h2 class="section-title">Animes Populares</h2>
+                </div>
+                <!-- Usamos movie-grid para scroll horizontal, estilo carrusel -->
+                <div class="carrusel-contenedor">
+                    <div id="animes-populares-grid" class="movie-grid"></div>
+                </div>
+            </section>
+
+            <!-- Sección para Naruto -->
+            <section id="naruto-section" class="content-row">
+                <div class="section-title-container">
+                    <h2 class="section-title">Naruto</h2>
+                </div>
+                <div class="carrusel-contenedor">
+                    <div id="naruto-grid" class="movie-grid"></div>
+                </div>
+            </section>
+
+            <!-- Sección para Dragon Ball -->
+            <section id="dragon-ball-section" class="content-row">
+                <div class="section-title-container">
+                    <h2 class="section-title">Dragon Ball</h2>
+                </div>
+                <div class="carrusel-contenedor">
+                    <div id="dragon-ball-grid" class="movie-grid"></div>
+                </div>
+            </section>
+
+            <!-- Sección para One Piece -->
+            <section id="one-piece-section" class="content-row">
+                <div class="section-title-container">
+                    <h2 class="section-title">One Piece</h2>
+                </div>
+                <div class="carrusel-contenedor">
+                    <div id="one-piece-grid" class="movie-grid"></div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span>plushd</span></div>
+                <p>La mejor plataforma de streaming para tus películas, series y animes favoritos. Disfruta de contenido
+                    en alta calidad de forma gratuita.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="peliculas.html">Películas</a></li>
+                    <li><a href="series.html">Series</a></li>
+                    <li><a href="ajustes.html">Ajustes</a></li>
+                    <li><a href="animes1.html">Anime</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacidad</a></li>
+                    <li><a href="#">Términos</a></li>
+                    <li><a href="#">DMCA</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Pelixplushd. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <div class="bottom-nav">
+        <a href="index.html" class="nav-item"><i class="fas fa-home"></i><span>Inicio</span></a>
+        <a href="peliculas.html" class="nav-item"><i class="fas fa-film"></i><span>Cine</span></a>
+        <a href="buscar.html" class="nav-item"><i class="fas fa-search"></i><span>Buscar</span></a>
+        <a href="favoritos.html" class="nav-item"><i class="fas fa-heart"></i><span>Favoritos</span></a>
+        <a href="ajustes.html" class="nav-item"><i class="fas fa-cog"></i><span>Ajustes</span></a>
+    </div>
+
+    <!-- Modal -->
+    <div id="movie-modal" class="modal-overlay">
+        <div class="modal-container">
+            <button class="close-button">&times;</button>
+            <div class="modal-content-scroll">
+                <div class="modal-video-box">
+                    <img id="modal-poster" src="" alt="" style="display:none;">
+                    <video id="modal-video" controls style="display:none;"></video>
+                    <div id="terabox-container" style="display:none;"></div>
+                </div>
+                <div class="modal-info">
+                    <div class="modal-header-info">
+                        <h2 id="modal-title">Título</h2>
+                        <div class="modal-actions">
+                            <button id="modal-fav-btn" class="action-btn"><i class="far fa-heart"></i></button>
+                            <div class="rating-badge"><i class="fas fa-star"></i> <span id="modal-rating-avg">0.0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="modal-details" class="meta-tags"></div>
+                    <div class="tabs-ui">
+                        <button class="tab-btn active" data-tab="info">Info</button>
+                        <button class="tab-btn" data-tab="sources">Fuentes</button>
+                    </div>
+                    <div id="tab-info" class="tab-content active">
+                        <p id="modal-description" class="synopsis"></p>
+                    </div>
+                    <div id="tab-sources" class="tab-content">
+                        <div id="modal-source-buttons" class="sources-list"></div>
+                        <div id="modal-seasons-container" class="seasons-container"></div>
+                    </div>
+                    <div id="modal-cast" style="display:none;"></div>
+                    <div id="recommendations-tab" style="display:none;">
+                        <div id="recommendations-grid"></div>
+                    </div>
+                    <div id="rating-tab" style="display:none;">
+                        <div id="user-rating-stars"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+    <script src="script.js?v=3"></script>
+    <script src="animes1.js?v=3"></script>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('main-header');
+            if (window.scrollY > 50) header.classList.add('scrolled');
+            else header.classList.remove('scrolled');
+        });
+        const toggleBtn = document.getElementById('hamburger-btn');
+        const closeBtn = document.getElementById('close-side-menu-btn');
+        const sideMenu = document.getElementById('side-menu');
+        const overlay = document.getElementById('menu-overlay');
+        function toggleMenu() {
+            sideMenu.classList.toggle('active');
+            overlay.classList.toggle('active');
+            document.body.style.overflow = sideMenu.classList.contains('active') ? 'hidden' : '';
+        }
+        if (toggleBtn) toggleBtn.addEventListener('click', toggleMenu);
+        if (closeBtn) closeBtn.addEventListener('click', toggleMenu);
+        if (overlay) overlay.addEventListener('click', toggleMenu);
+
+        // Tab switching logic for modal (reused)
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const parent = btn.closest('.tabs-ui');
+                const container = parent.parentElement;
+                parent.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                container.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                btn.classList.add('active');
+                const tabId = btn.dataset.tab;
+                if (tabId === 'info') container.querySelector('#tab-info').classList.add('active');
+                if (tabId === 'sources') container.querySelector('#tab-sources').classList.add('active');
+            });
+        });
+
+        // Lógica para instalar la PWA
+        let deferredPrompt;
+        const installBtn = document.getElementById('install-btn');
+
+        window.addEventListener('beforeinstallprompt', (e) => {
+            // Prevenir que el navegador muestre el prompt automáticamente
+            e.preventDefault();
+            deferredPrompt = e;
+            // Mostrar el botón de instalar
+            if (installBtn) installBtn.style.display = 'inline-block';
+        });
+
+        if (installBtn) {
+            installBtn.addEventListener('click', async () => {
+                if (deferredPrompt) {
+                    deferredPrompt.prompt();
+                    const { outcome } = await deferredPrompt.userChoice;
+                    deferredPrompt = null;
+                    installBtn.style.display = 'none';
+                }
+            });
+        }
+
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js');
+        }
+    </script>
+</body>
+
+</html>

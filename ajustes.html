@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ajustes - Pelixplushd</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="fondo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fondo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css?v=4">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#141414">
+</head>
+
+<body data-page="Ajustes">
+
+    <header id="main-header" class="navbar">
+        <div class="logo-container">
+            <a href="index.html" class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span></span>plushd</a>
+        </div>
+        <nav class="desktop-nav">
+            <a href="index.html">Inicio</a>
+            <a href="peliculas.html">Películas</a>
+            <a href="series.html">Series</a>
+            <a href="animes1.html">Anime</a>
+            <a href="ajustes.html" class="active">Ajustes</a>
+        </nav>
+        <div class="nav-actions">
+            <button id="hamburger-btn" class="mobile-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <aside id="side-menu" class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span>plushd</span></div>
+            <button id="close-side-menu-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <nav class="mobile-nav-links">
+            <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
+            <a href="peliculas.html"><i class="fas fa-film"></i> Películas</a>
+            <a href="series.html"><i class="fas fa-tv"></i> Series</a>
+            <a href="animes1.html"><i class="fas fa-dragon"></i> Anime</a>
+            <a href="ajustes.html" class="active"><i class="fas fa-cog"></i> Ajustes</a>
+            <a href="favoritos.html"><i class="fas fa-heart"></i> Favoritos</a>
+        </nav>
+    </aside>
+    <div id="menu-overlay" class="menu-overlay"></div>
+
+    <main>
+        <div class="ajustes-container">
+            <h1><i class="fas fa-cog"></i> Ajustes y Configuración</h1>
+
+            <section class="setting-group">
+                <h2>Apariencia</h2>
+                <div class="setting-item">
+                    <span>Modo Claro / Oscuro</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="theme-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="setting-item">
+                    <span>Reducir Animaciones (Mejora rendimiento)</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="motion-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="setting-item">
+                    <span>Efecto Ambilight por defecto (Modo Cine)</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="ambilight-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </section>
+
+            <section class="setting-group">
+                <h2>Reproducción</h2>
+                <div class="setting-item">
+                    <span>Reproducción Automática (Siguiente episodio)</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="autoplay-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="setting-item">
+                    <span>Saltar intros automáticamente</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="skip-intro-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="setting-item">
+                    <span>País (para idioma por defecto)</span>
+                    <select id="country-select" class="btn-setting" style="background: #333; border: 1px solid #444;">
+                        <option value="auto">Automático</option>
+                        <option value="ES">España</option>
+                        <option value="MX">México</option>
+                        <option value="US">EE.UU. (Subtitulado)</option>
+                        <option value="AR">Argentina</option>
+                        <option value="CO">Colombia</option>
+                    </select>
+                </div>
+                <div class="setting-item">
+                    <span>Idioma de audio preferido</span>
+                    <select id="preferred-lang-select" class="btn-setting" style="background: #333; border: 1px solid #444;">
+                        <option value="any">Cualquiera</option>
+                        <option value="latino">Latino</option>
+                        <option value="castellano">Castellano</option>
+                        <option value="subtitulado">Subtitulado</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="setting-group">
+                <h2>Personalización</h2>
+                <div class="setting-item">
+                    <span>Tamaño de Subtítulos</span>
+                    <select id="subtitle-size-select" class="btn-setting" style="background: #333; border: 1px solid #444;">
+                        <option value="100%">Normal</option>
+                        <option value="75%">Pequeño</option>
+                        <option value="125%">Grande</option>
+                        <option value="150%">Muy Grande</option>
+                    </select>
+                </div>
+                <div class="setting-item">
+                    <span>Mostrar Calificaciones en Portadas</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="show-ratings-toggle" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="setting-item">
+                    <span>Modo Compacto (Más contenido)</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="compact-mode-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </section>
+
+            <section class="setting-group">
+                <h2>Datos y Almacenamiento</h2>
+                <div class="setting-item">
+                    <span>Limpiar caché automáticamente al iniciar</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="auto-cache-clear-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="setting-item">
+                    <span>Limpiar historial de "Seguir Viendo"</span>
+                    <button id="clear-history-btn" class="btn-setting">Limpiar</button>
+                </div>
+                <div class="setting-item">
+                    <span>Limpiar todos los Favoritos</span>
+                    <button id="clear-favorites-btn" class="btn-setting">Limpiar</button>
+                </div>
+                <div class="setting-item">
+                    <span>Limpiar caché de la aplicación</span>
+                    <button id="clear-cache-btn" class="btn-setting">Limpiar</button>
+                </div>
+                <div class="setting-item danger-zone">
+                    <span>Restablecer todos los datos de la app</span>
+                    <button id="reset-all-btn" class="btn-setting btn-danger">Restablecer App</button>
+                </div>
+            </section>
+
+            <section class="setting-group">
+                <h2>Acerca de</h2>
+                <div class="setting-item">
+                    <span>Versión de la App</span>
+                    <span id="app-version">4.0</span>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-bottom">
+            <p>&copy; 2025 Pelixplushd. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item"><i class="fas fa-home"></i><span>Inicio</span></a>
+        <a href="buscar.html" class="nav-item"><i class="fas fa-search"></i><span>Buscar</span></a>
+        <a href="favoritos.html" class="nav-item"><i class="fas fa-heart"></i><span>Favoritos</span></a>
+        <a href="ajustes.html" class="nav-item active"><i class="fas fa-cog"></i><span>Ajustes</span></a>
+    </nav>
+
+    <div id="notification-container" class="toast-container"></div>
+
+    <script src="script.js?v=4"></script>
+    <script src="ajustes.js?v=4"></script>
+</body>
+
+</html>

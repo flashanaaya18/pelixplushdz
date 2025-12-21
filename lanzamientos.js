@@ -18,15 +18,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Carga los favoritos desde el dataManager del script principal
     const loadFavorites = () => {
-        // Asumimos que `dataManager` y `peliculas` están disponibles globalmente desde script.js y peliculas.js
-        const favoriteIds = dataManager.getFavorites();
-        peliculas.forEach(p => {
+        // CORRECCIÓN: Se utiliza la base de datos global 'window.peliculas' que ya está
+        // procesada y unificada por script.js. Esto simplifica el código y asegura
+        // que se use la fuente de datos correcta.
+        const allPeliculas = window.peliculas || [];
+        const favoriteIds = window.dataManager.getFavorites();
+        allPeliculas.forEach(p => {
             p.favorito = favoriteIds.includes(p.id);
         });
         // Filtra solo las películas de la categoría 'lanzamientos-recientes'
         // CORRECCIÓN: Excluye contenido roto.
         // CORRECCIÓN: Se ajusta el filtro para que funcione si 'categoria' es un array.
-        lanzamientos = peliculas.filter(p => {
+        lanzamientos = allPeliculas.filter(p => {
             if (p.esta_roto) return false;
             const categorias = Array.isArray(p.categoria) ? p.categoria.map(c => c.toLowerCase()) : [String(p.categoria).toLowerCase()];
             return categorias.includes('lanzamientos-recientes');
@@ -65,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // 1. Filtrar por género
         const selectedGenre = genreFilter.value;
-        if (selectedGenre !== 'all') {
+        if (selectedGenre !== 'all' && window.normalizeText) {
             peliculasFiltradas = peliculasFiltradas.filter(p => p.genero && normalizeText(p.genero).includes(selectedGenre));
         }
 
@@ -116,5 +119,11 @@ document.addEventListener('DOMContentLoaded', () => {
         renderLanzamientos();
     };
 
-    init();
+    // --- CORRECCIÓN: INICIALIZACIÓN BASADA EN EVENTOS ---
+    // En lugar de ejecutarse inmediatamente, esperamos a que script.js
+    // nos avise que todo está listo (incluyendo dataManager).
+    document.addEventListener('app-ready', () => {
+        console.log("Evento 'app-ready' recibido en lanzamientos.js. Inicializando...");
+        init();
+    });
 });

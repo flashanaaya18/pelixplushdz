@@ -1,111 +1,116 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Asegurarse de que las variables globales (peliculas, createMovieCard, etc.) de script.js estén disponibles
-    if (typeof peliculas === 'undefined' || typeof createMovieCard === 'undefined') {
-        console.error("El script principal (script.js) o los datos (peliculas.js) no se han cargado correctamente.");
+    const gridContainer = document.getElementById('todo-lo-nuevo-2025-grid-new');
+    const genreFilter = document.getElementById('genre-filter');
+    const sortBy = document.getElementById('sort-by');
+
+    // Check if critical elements exist
+    if (!gridContainer || !genreFilter || !sortBy) {
+        console.error('Missing critical elements in todo-lo-nuevo-2025.html');
         return;
     }
 
-    const grid = document.getElementById('todo-lo-nuevo-2025-grid');
-    const genreFilter = document.getElementById('genre-filter');
-    const sortBy = document.getElementById('sort-by');
-    const gridViewBtn = document.getElementById('grid-view-btn');
-    const listViewBtn = document.getElementById('list-view-btn');
+    let movies2025 = [];
 
-    // 1. Filtrar el contenido que es del año 2025
-    let content2025 = peliculas.filter(item => item.año === 2025);
-
-    // Función para renderizar el contenido
-    const renderContent = (items) => {
-        grid.innerHTML = '';
-        if (items.length === 0) {
-            grid.innerHTML = '<p class="no-results-message">No se encontró contenido del 2025 que coincida con los filtros.</p>';
-            return;
+    // Wait for movies to be loaded
+    const checkMoviesLoaded = setInterval(() => {
+        if (window.peliculas && window.peliculas.length > 0) {
+            clearInterval(checkMoviesLoaded);
+            init2025Page();
         }
-        items.forEach(item => {
-            // Usamos la función global createMovieCard de script.js
-            const card = createMovieCard(item, grid.classList.contains('list-view'));
-            grid.appendChild(card);
-        });
-    };
+    }, 100);
 
-    // Función para poblar el filtro de géneros
-    const populateGenres = () => {
+    // Timeout to stop checking after 10 seconds
+    setTimeout(() => clearInterval(checkMoviesLoaded), 10000);
+
+    function init2025Page() {
+        // Filter movies for 2025
+        movies2025 = window.peliculas.filter(p => p.año == 2025);
+
+        // Populate genre filter
         const genres = new Set();
-        content2025.forEach(item => {
-            if (Array.isArray(item.genero)) {
-                item.genero.forEach(g => genres.add(g));
-            } else if (item.genero) {
-                genres.add(item.genero);
+        movies2025.forEach(p => {
+            if (Array.isArray(p.genero)) {
+                p.genero.forEach(g => genres.add(g));
+            } else if (p.genero) {
+                genres.add(p.genero);
             }
         });
 
-        genres.forEach(genre => {
+        // Sort genres alphabetically
+        const sortedGenres = Array.from(genres).sort();
+
+        // Add options to select
+        sortedGenres.forEach(genre => {
             const option = document.createElement('option');
-            option.value = genre;
-            option.textContent = genre;
+            value = genre.toLowerCase();
+            option.value = value;
+            option.textContent = value.charAt(0).toUpperCase() + value.slice(1);
             genreFilter.appendChild(option);
         });
-    };
 
-    // Función para filtrar y ordenar
-    const filterAndSort = () => {
-        let filtered = [...content2025];
+        // Initial render
+        filterAndRenderMovies();
 
-        // Filtrado por género
+        // Event listeners
+        genreFilter.addEventListener('change', filterAndRenderMovies);
+        sortBy.addEventListener('change', filterAndRenderMovies);
+    }
+
+    function filterAndRenderMovies() {
         const selectedGenre = genreFilter.value;
+        const sortValue = sortBy.value;
+
+        // Filter
+        let filteredMovies = movies2025;
         if (selectedGenre !== 'all') {
-            filtered = filtered.filter(item => 
-                (Array.isArray(item.genero) && item.genero.includes(selectedGenre)) || item.genero === selectedGenre
-            );
+            filteredMovies = filteredMovies.filter(p => {
+                if (Array.isArray(p.genero)) {
+                    return p.genero.some(g => g.toLowerCase() === selectedGenre);
+                }
+                return p.genero && p.genero.toLowerCase() === selectedGenre;
+            });
         }
 
-        // Ordenamiento
-        const sortValue = sortBy.value;
-        const viewCounts = window.dataManager ? window.dataManager.getViewCounts() : {};
-
-        filtered.sort((a, b) => {
+        // Sort
+        filteredMovies.sort((a, b) => {
             switch (sortValue) {
                 case 'popularity':
-                    return (viewCounts[b.id] || 0) - (viewCounts[a.id] || 0);
+                    // Assuming 'votos' or 'popularidad' exists, otherwise default to rating
+                    return (b.popularidad || 0) - (a.popularidad || 0);
                 case 'release_date_desc':
-                    const dateA = a.addedDate ? new Date(a.addedDate) : new Date(a.año, 0, 1);
-                    const dateB = b.addedDate ? new Date(b.addedDate) : new Date(b.año, 0, 1);
+                    // If addedDate exists use it, otherwise fall back to year (which is same) or ID
+                    const dateA = new Date(a.addedDate || 0);
+                    const dateB = new Date(b.addedDate || 0);
                     return dateB - dateA;
                 case 'rating_desc':
                     return (b.calificacion || 0) - (a.calificacion || 0);
                 case 'title_asc':
-                    return a.titulo.localeCompare(b.titulo);
+                    return (a.titulo || '').localeCompare(b.titulo || '');
                 default:
                     return 0;
             }
         });
 
-        renderContent(filtered);
-    };
+        renderGrid(filteredMovies);
+    }
 
-    // Event Listeners para los controles
-    genreFilter.addEventListener('change', filterAndSort);
-    sortBy.addEventListener('change', filterAndSort);
+    function renderGrid(movies) {
+        gridContainer.innerHTML = '';
 
-    gridViewBtn.addEventListener('click', () => {
-        grid.classList.remove('list-view');
-        grid.classList.add('grid-view');
-        gridViewBtn.classList.add('active');
-        listViewBtn.classList.remove('active');
-        filterAndSort(); // Re-renderizar con el layout correcto
-    });
+        if (movies.length === 0) {
+            gridContainer.innerHTML = '<div class="no-results" style="width:100%; text-align:center; padding: 50px;">No se encontraron películas con estos criterios.</div>';
+            return;
+        }
 
-    listViewBtn.addEventListener('click', () => {
-        grid.classList.remove('grid-view');
-        grid.classList.add('list-view');
-        listViewBtn.classList.add('active');
-        gridViewBtn.classList.remove('active');
-        filterAndSort(); // Re-renderizar con el layout correcto
-    });
-
-    // Inicialización
-    if (grid) {
-        populateGenres();
-        filterAndSort(); // Renderizado inicial
+        movies.forEach(movie => {
+            // Use the global createMovieCard function from script.js
+            if (window.createMovieCard) {
+                const card = window.createMovieCard(movie);
+                gridContainer.appendChild(card);
+            } else {
+                // Fallback if createMovieCard is not available (should not happen)
+                console.error('createMovieCard function not found');
+            }
+        });
     }
 });

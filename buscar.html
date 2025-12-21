@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Buscar Contenido - PelixplushdHD</title>
+    <meta name="description"
+        content="Busca y encuentra tus películas y series favoritas en el catálogo de PelixplushdHD. Resultados instantáneos, filtros avanzados y más.">
+    <link rel="canonical" href="https://pelixplushd.netlify.app/buscar.html" />
+    <link rel="icon" type="image/png" sizes="32x32" href="icono.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css?v=4">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar" id="main-header">
+        <a href="index.html" class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span></span>plushd</a>
+        <nav class="desktop-nav">
+            <a href="index.html">Inicio</a>
+            <a href="series.html">Series</a>
+            <a href="lanzamientos.html">Estrenos</a>
+            <a href="favoritos.html">Mi Lista</a>
+            <a href="ajustes.html">Ajustes</a>
+        </nav>
+        <div class="nav-actions">
+            <!-- Barra de búsqueda del header (oculta en móvil si es redundante, o mantenida) -->
+            <form id="header-search-form" class="search-bar" action="javascript:void(0);">
+                <input type="text" id="header-search-input" placeholder="Buscar...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <button id="hamburger-btn" class="mobile-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <aside id="side-menu" class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span>plushd</span></div>
+            <button id="close-side-menu-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <nav class="mobile-nav-links">
+            <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
+            <a href="series.html"><i class="fas fa-tv"></i> Series</a>
+            <a href="lanzamientos.html"><i class="fas fa-fire"></i> Estrenos</a>
+            <a href="favoritos.html"><i class="fas fa-heart"></i> Favoritos</a>
+            <a href="ajustes.html"><i class="fas fa-cog"></i> Ajustes</a>
+            <div class="mobile-categories">
+                <span>Categorías</span>
+                <div class="category-tags">
+                    <a href="accion.html">Acción</a>
+                    <a href="comedia.html">Comedia</a>
+                    <a href="drama.html">Drama</a>
+                    <a href="anime.html">Anime</a>
+                </div>
+            </div>
+        </nav>
+    </aside>
+    <div id="menu-overlay" class="menu-overlay"></div>
+
+    <main class="content-container" style="padding-top: 100px; min-height: 80vh;">
+
+        <!-- Search Hero Section -->
+        <div class="search-hero" style="text-align: center; margin-bottom: 2rem; padding: 0 1rem;">
+            <h1 class="section-title" style="border: none; justify-content: center; margin-bottom: 1rem;">Explora
+                nuestro catálogo</h1>
+
+            <div class="search-page-input-container" style="position: relative; max-width: 600px; margin: 0 auto;">
+                <input type="text" id="search-page-input" placeholder="Escribe una película, serie o género..."
+                    style="width: 100%; padding: 15px 20px; border-radius: 30px; border: none; background: #222; color: white; font-size: 1.1rem; outline: none; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+                <button id="clear-search-btn"
+                    style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); color: #888; display: none;">
+                    <i class="fas fa-times-circle" style="font-size: 1.2rem;"></i>
+                </button>
+            </div>
+
+            <!-- Filtros -->
+            <div class="search-filters"
+                style="display: flex; gap: 10px; justify-content: center; margin-top: 1.5rem; flex-wrap: wrap;">
+                <select id="genre-filter"
+                    style="background: #333; color: white; border: 1px solid #444; padding: 8px 15px; border-radius: 20px; outline: none;">
+                    <option value="all">Todos los Géneros</option>
+                    <!-- Opciones se llenan con JS -->
+                </select>
+                <select id="sort-by"
+                    style="background: #333; color: white; border: 1px solid #444; padding: 8px 15px; border-radius: 20px; outline: none;">
+                    <option value="popularity">Más Populares</option>
+                    <option value="release_date_desc">Más Recientes</option>
+                    <option value="rating_desc">Mejor Calificación</option>
+                    <option value="title_asc">A-Z</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Contenedor para los resultados -->
+        <div id="search-results-container" style="padding: 0 4%;">
+            <div id="loader" class="loader" style="display: none; text-align: center; margin: 40px 0;">
+                <i class="fas fa-spinner fa-spin" style="font-size: 3rem; color: var(--primary);"></i>
+            </div>
+
+            <p id="search-placeholder" class="no-content-message"
+                style="text-align: center; color: #888; font-size: 1.1rem; margin-top: 3rem;">
+                Comienza a escribir para descubrir contenido increíble.
+            </p>
+
+            <div id="movies-results-container" style="display: none;">
+                <div class="section-title-container">
+                    <h2 class="section-title">Resultados</h2>
+                    <span id="results-count" style="color: #666; font-size: 0.9rem;"></span>
+                </div>
+                <div id="results-grid" class="movie-grid-full"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="brand logo">
+                <img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span>plushd</span>
+            </div>
+            <div class="links"><a href="#">DMCA</a><a href="#">Contacto</a></div>
+            <div class="copyright">&copy; 2025 Pelixplushd.</div>
+        </div>
+    </footer>
+
+    <div class="bottom-nav">
+        <a href="index.html" class="nav-item"><i class="fas fa-home"></i><span>Inicio</span></a>
+        <a href="lanzamientos.html" class="nav-item"><i class="fas fa-fire"></i><span>Estrenos</span></a>
+        <a href="buscar.html" class="nav-item active"><i class="fas fa-search"></i><span>Buscar</span></a>
+        <a href="favoritos.html" class="nav-item"><i class="fas fa-heart"></i><span>Favoritos</span></a>
+        <a href="ajustes.html" class="nav-item"><i class="fas fa-cog"></i><span>Ajustes</span></a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+    <script src="script.js?v=4"></script>
+    <script src="buscar.js?v=4"></script>
+
+    <script>
+        // Toggle Mobile Menu (Logic duplicated/ensured here)
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleBtn = document.getElementById('hamburger-btn');
+            const closeBtn = document.getElementById('close-side-menu-btn');
+            const sideMenu = document.getElementById('side-menu');
+            const overlay = document.getElementById('menu-overlay');
+
+            function toggleMenu() {
+                sideMenu.classList.toggle('active');
+                overlay.classList.toggle('active');
+            }
+
+            if (toggleBtn) toggleBtn.addEventListener('click', toggleMenu);
+            if (closeBtn) closeBtn.addEventListener('click', toggleMenu);
+            if (overlay) overlay.addEventListener('click', toggleMenu);
+        });
+    </script>
+</body>
+
+</html>

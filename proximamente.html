@@ -2,15 +2,52 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Próximamente - pelixplus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Próximamente - pelixplushd</title>
     <link rel="icon" type="image/png" href="icono.png">
     <link rel="stylesheet" href="estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos para el bloqueo de navegador */
+        #brave-required {
+            display: none; /* Oculto por defecto */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #1c1c1c;
+            color: white;
+            z-index: 999999;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        .wrong-browser body {
+            overflow: hidden;
+        }
+        .wrong-browser #brave-required {
+            display: flex; /* Se muestra cuando el navegador es incorrecto */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrong-browser > body > *:not(#brave-required) {
+            display: none !important;
+        }
+    </style>
 </head>
 <body>
+
+    <div id="brave-required">
+        <img src="https://imgs.search.brave.com/TzNP66K5kdM5segXljQiAcJd3iW2nlaVVgyJfzhRqK4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzI3LzIvYnJhdmUt/c29mdHdhcmUtbG9n/by1wbmdfc2Vla2xv/Z28tMjc4MzI5LnBu/Zw" alt="Brave Browser Logo" style="max-width: 150px; margin-bottom: 20px;">
+        <h2 style="font-size: 2em; margin-bottom: 10px;">Navegador no compatible</h2>
+        <p style="font-size: 1.2em; margin-bottom: 30px;">Para una experiencia óptima y segura, este sitio solo es compatible con Brave Browser.</p>
+        <a href="https://brave.com/download/" target="_blank" rel="noopener noreferrer">Descargar Brave</a>
+    </div>
 
     <header class="header">
         <div class="container">
@@ -20,7 +57,7 @@
                 <span class="hamburger-line"></span>
             </button>
             <a href="index.html" class="logo-link">
-                <h1 class="logo">pelixplus</h1>
+                <h1 class="logo">pelixplushd</h1>
             </a>
             <nav class="main-nav">
                 <div class="dropdown">
@@ -55,10 +92,22 @@
     </main>
 
     <footer class="footer">
-        <p>&copy; 2025 pelixplus. Todos los derechos reservados.</p>
+        <p>&copy; 2025 pelixplushd. Todos los derechos reservados.</p>
     </footer>
 
+    <!-- Dependencia para localStorage.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
     <script src="peliculas.js"></script>
+    <script src="serieshd.js"></script>
     <script src="proximamente.js"></script>
+    <script>
+        // --- Detector de Brave Browser ---
+        (async () => {
+            const isBrave = (navigator.brave && await navigator.brave.isBrave());
+            if (!isBrave) {
+                document.documentElement.classList.add('wrong-browser');
+            }
+        })();
+    </script>
 </body>
 </html>

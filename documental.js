@@ -8,37 +8,40 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Asegurarse de que los elementos existen antes de continuar
     if (!grid || !genreFilter || !sortBy || !gridViewBtn || !listViewBtn) {
-        console.error("No se encontraron todos los elementos necesarios en la página de documental.");
-        return;
+        console.warn("Algunos elementos UI no se encontraron en documental.html. Posible disparidad de IDs.");
+        if (!grid) return;
     }
 
-    let documentalContent = [];
+    let contentList = [];
 
     // --- FUNCIONES DE CARGA Y PREPARACIÓN DE DATOS ---
-
-    // Carga los favoritos y filtra el contenido de documental
     const loadContent = () => {
-        const favoriteIds = window.dataManager.getFavorites();
-        peliculas.forEach(p => {
-            p.favorito = favoriteIds.includes(p.id);
-        });
-        // Filtra solo el contenido de la categoría 'documental'
-        // CORRECCIÓN: Excluye contenido roto.
-        documentalContent = peliculas.filter(p => p.categoria === 'documental' && !p.esta_roto);
+        const favoriteIds = window.dataManager ? window.dataManager.getFavorites() : [];
+        if (window.peliculas) {
+            window.peliculas.forEach(p => {
+                p.favorito = favoriteIds.includes(p.id);
+            });
+            contentList = window.peliculas.filter(p => {
+                if (p.esta_roto) return false;
+                const cats = Array.isArray(p.categoria) ? p.categoria : [p.categoria];
+                return cats.map(t => String(t).toLowerCase()).includes('documental');
+            });
+        }
     };
 
-    // Rellena el filtro de géneros basado en los documentales
+    // Rellena el filtro de géneros
     const populateGenreFilter = () => {
-        const allGenres = documentalContent.flatMap(p => {
+        if (!genreFilter) return;
+        const allGenres = contentList.flatMap(p => {
             const genero = p.genero;
             if (!genero) return [];
-            if (Array.isArray(genero)) {
-                return genero;
-            }
+            if (Array.isArray(genero)) return genero;
             return genero.split(/[\s,]+/);
-        }).map(g => g.trim().toLowerCase()).filter(Boolean);
+        }).map(g => String(g).trim().toLowerCase()).filter(Boolean);
+
         const genres = [...new Set(allGenres)];
-        genreFilter.innerHTML = '<option value="all">Todos los Géneros</option>'; // Reset
+
+        genreFilter.innerHTML = '<option value="all">Todos los Géneros</option>';
         genres.sort().forEach(genre => {
             if (genre) {
                 const option = document.createElement('option');
@@ -50,53 +53,54 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // --- LÓGICA DE RENDERIZADO, FILTRADO Y ORDENACIÓN ---
-
     const renderContent = () => {
-        let peliculasFiltradas = [...documentalContent];
+        let filtrados = [...contentList];
 
         // 1. Filtrar por género
-        const selectedGenre = genreFilter.value;
-        if (selectedGenre !== 'all') {
-            peliculasFiltradas = peliculasFiltradas.filter(p => p.genero && window.normalizeText(p.genero).includes(selectedGenre));
+        if (genreFilter) {
+            const selectedGenre = genreFilter.value;
+            if (selectedGenre !== 'all' && typeof window.normalizeText === 'function') {
+                filtrados = filtrados.filter(p => p.genero && normalizeText(p.genero).includes(selectedGenre));
+            }
         }
 
         // 2. Ordenar
-        const sortValue = sortBy.value;
-        peliculasFiltradas.sort((a, b) => {
-            switch (sortValue) {
-                case 'popularity':
-                    return (b.votos || 0) - (a.votos || 0);
-                case 'release_date_desc':
-                    const dateA = a.addedDate ? new Date(a.addedDate) : new Date(a.año, 0, 1);
-                    const dateB = b.addedDate ? new Date(b.addedDate) : new Date(b.año, 0, 1);
-                    return dateB - dateA;
-                case 'rating_desc':
-                    return (b.calificacion || 0) - (a.calificacion || 0);
-                case 'title_asc':
-                    return a.titulo.localeCompare(b.titulo);
-                default:
-                    return 0;
-            }
-        });
+        if (sortBy) {
+            const sortValue = sortBy.value;
+            filtrados.sort((a, b) => {
+                switch (sortValue) {
+                    case 'popularity': return (b.votos || 0) - (a.votos || 0);
+                    case 'release_date_desc':
+                        const dateA = a.addedDate ? new Date(a.addedDate) : new Date(a.año, 0, 1);
+                        const dateB = b.addedDate ? new Date(b.addedDate) : new Date(b.año, 0, 1);
+                        return dateB - dateA;
+                    case 'rating_desc': return (b.calificacion || 0) - (a.calificacion || 0);
+                    case 'title_asc': return a.titulo.localeCompare(b.titulo);
+                    default: return 0;
+                }
+            });
+        }
 
-        // 3. Renderizar en la cuadrícula
+        // 3. Renderizar
         grid.innerHTML = '';
-        if (peliculasFiltradas.length === 0) {
-            grid.innerHTML = `<p class="no-favorites-message">No se encontraron documentales que coincidan con los filtros.</p>`;
+        if (filtrados.length === 0) {
+            grid.innerHTML = `<p class="no-results-message" style="width:100%; text-align:center; padding:2rem; color:#888;">No se encontraron resultados.</p>`;
         } else {
-            peliculasFiltradas.forEach(pelicula => {
-                const tarjeta = window.createMovieCard(pelicula);
-                grid.appendChild(tarjeta);
+            filtrados.forEach(item => {
+                if (window.createMovieCard) {
+                    grid.appendChild(window.createMovieCard(item));
+                }
             });
         }
     };
 
     // --- EVENT LISTENERS ---
-    genreFilter.addEventListener('change', renderContent);
-    sortBy.addEventListener('change', renderContent);
-
-    gridViewBtn.addEventListener('click', () => { grid.classList.remove('list-view'); gridViewBtn.classList.add('active'); listViewBtn.classList.remove('active'); });
-    listViewBtn.addEventListener('click', () => { grid.classList.add('list-view'); listViewBtn.classList.add('active'); gridViewBtn.classList.remove('active'); });
+    if (genreFilter) genreFilter.addEventListener('change', renderContent);
+    if (sortBy) sortBy.addEventListener('change', renderContent);
+    if (gridViewBtn && listViewBtn) {
+        gridViewBtn.addEventListener('click', () => { grid.classList.remove('list-view'); gridViewBtn.classList.add('active'); listViewBtn.classList.remove('active'); });
+        listViewBtn.addEventListener('click', () => { grid.classList.add('list-view'); listViewBtn.classList.add('active'); gridViewBtn.classList.remove('active'); });
+    }
 
     // --- INICIALIZACIÓN ---
     const init = () => {
@@ -105,5 +109,13 @@ document.addEventListener('DOMContentLoaded', () => {
         renderContent();
     };
 
-    init();
+    // Esperamos a que script.js nos avise que todo está listo
+    if (window.peliculas && window.peliculas.length > 0) {
+        init();
+    } else {
+        document.addEventListener('app-ready', () => {
+            console.log("Evento 'app-ready' recibido en documental.js. Inicializando...");
+            init();
+        });
+    }
 });

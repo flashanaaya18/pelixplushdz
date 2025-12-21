@@ -1,88 +1,287 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Series - peliXx</title>
-    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Series de TV - PelixplushdHD</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="fondo1.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fondo1.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css?v=3">
+    <script>
+        (function () {
+            if (window.location.search.includes('error=431') || document.cookie.length > 10000) {
+                document.cookie.split(";").forEach(function (c) {
+                    document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
+                });
+                localStorage.clear();
+                window.location.replace(window.location.pathname + "?repaired=true");
+            }
+        })();
+    </script>
 </head>
+
 <body data-page="series">
 
-    <header class="header">
-        <div class="container">
-            <a href="index.html" class="back-link">‹ Volver</a>
-            <div class="page-title-container">
-                <h1 class="logo">Series</h1>
-                <p class="page-subtitle">Explora todas las series disponibles en nuestro catálogo.</p>
+    <header id="main-header" class="navbar">
+        <div class="logo-container">
+            <a href="index.html" class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span></span>plushd</a>
+        </div>
+
+        <nav class="desktop-nav">
+            <a href="index.html">Inicio</a>
+            <a href="lanzamientos.html">Películas</a>
+            <a href="series.html" class="active">Series</a>
+            <a href="animes1.html">Anime</a>
+            <a href="ajustes.html">Ajustes</a>
+        </nav>
+
+        <div class="nav-actions">
+            <div class="search-bar">
+                <form id="search-form">
+                    <input type="text" id="search-input" placeholder="Buscar..." autocomplete="off">
+                    <button type="submit" id="search-button"><i class="fas fa-search"></i></button>
+                </form>
+                <div id="live-search-results" class="search-results-dropdown"></div>
             </div>
+
+            <button id="hamburger-btn" class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
     </header>
 
-    <main class="container">
-        <div class="view-controls">
-            <div class="filter-sort-controls">
-                <div class="control-group">
-                    <label for="genre-filter">Género:</label>
-                    <select id="genre-filter">
-                        <option value="all">Todos</option>
-                        <!-- Opciones de género se llenarán dinámicamente -->
-                    </select>
-                </div>
-                <div class="control-group">
-                    <label for="sort-by">Ordenar por:</label>
-                    <select id="sort-by">
-                        <option value="popularity">Popularidad</option>
-                        <option value="release_date_desc">Más Recientes</option>
-                        <option value="rating_desc">Mejor Calificación</option>
-                        <option value="title_asc">Título (A-Z)</option>
-                    </select>
+    <aside id="side-menu" class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span></span>plushd</div>
+            <button id="close-side-menu-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <nav class="mobile-nav-links">
+            <a href="index.html" class=""><i class="fas fa-home"></i> Inicio</a>
+            <a href="series.html" class="active"><i class="fas fa-tv"></i> Series</a>
+            <a href="lanzamientos.html" class=""><i class="fas fa-fire"></i> Estrenos</a>
+            <a href="favoritos.html" class=""><i class="fas fa-heart"></i> Favoritos</a>
+            <a href="accion.html"><i class="fas fa-fist-raised"></i> Acción</a>
+            <a href="terror.html"><i class="fas fa-ghost"></i> Terror</a>
+            <div class="mobile-categories">
+                <span>Categorías</span>
+                <div class="category-tags">
+                    <a href="comedia.html">Comedia</a>
+                    <a href="drama.html">Drama</a>
+                    <a href="anime.html">Anime</a>
+                    <a href="documental.html">Docu</a>
                 </div>
             </div>
-            <div class="layout-toggle">
-                <button id="grid-view-btn" class="layout-btn active" title="Vista de Cuadrícula"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM9 2.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zM10.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM9 10.5A1.5 1.5 0 0 1 10.5 9h3A1.5 1.5 0 0 1 15 10.5v3A1.5 1.5 0 0 1 13.5 15h-3A1.5 1.5 0 0 1 9 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"/></svg></button>
-                <button id="list-view-btn" class="layout-btn" title="Vista de Lista"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg></button>
+        </nav>
+    </aside>
+    <div id="menu-overlay" class="menu-overlay"></div>
+
+    <main>
+        <div class="hero-container"
+            style="height: 40vh; min-height: 300px; background-image: linear-gradient(rgba(0,0,0,0.5), #141414), url('https://image.tmdb.org/t/p/original/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg'); background-color: #000;">
+            <div class="hero-content">
+                <h1 class="hero-title">Series de TV</h1>
+                <p class="hero-description">Maratonea tus series favoritas sin límites.</p>
             </div>
         </div>
-        <div id="series-grid" class="search-results-grid grid-view">
-            <!-- Las series se inyectan aquí -->
+
+        <div class="content-container" style="margin-top: -60px; position: relative; z-index: 20;">
+            <div
+                style="background: #181818; padding: 20px; margin: 0 4% 30px; border-radius: 12px; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between; box-shadow: 0 10px 40px rgba(0,0,0,0.5); border: 1px solid #333;">
+                <div style="display: flex; gap: 20px; flex-wrap: wrap; flex: 1;">
+                    <div style="display: flex; flex-direction: column; gap: 5px;">
+                        <label for="genre-filter"
+                            style="font-size: 0.75rem; color: #888; text-transform: uppercase; font-weight: 700;">Género</label>
+                        <select id="genre-filter"
+                            style="padding: 10px 15px; background: #222; color: white; border: 1px solid #444; border-radius: 6px; min-width: 180px; outline: none; cursor: pointer;">
+                            <option value="all">Todos</option>
+                        </select>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 5px;">
+                        <label for="sort-by"
+                            style="font-size: 0.75rem; color: #888; text-transform: uppercase; font-weight: 700;">Ordenar
+                            por</label>
+                        <select id="sort-by"
+                            style="padding: 10px 15px; background: #222; color: white; border: 1px solid #444; border-radius: 6px; min-width: 180px; outline: none; cursor: pointer;">
+                            <option value="popularity">Popularidad</option>
+                            <option value="release_date_desc">Más Recientes</option>
+                            <option value="rating_desc">Mejor Valorados</option>
+                            <option value="title_asc">Alfabético</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="layout-toggles"
+                    style="display: flex; background: #222; padding: 4px; border-radius: 6px; border: 1px solid #444;">
+                    <button id="grid-view-btn" class="active"
+                        style="padding: 8px 12px; border-radius: 4px; color: white; background: var(--primary, #E50914); transition: 0.3s;"><i
+                            class="fas fa-th-large"></i></button>
+                    <button id="list-view-btn"
+                        style="padding: 8px 12px; border-radius: 4px; color: #888; background: transparent; transition: 0.3s;"><i
+                            class="fas fa-list"></i></button>
+                </div>
+            </div>
+
+            <div id="series-grid-new" class="movie-grid-full"></div>
         </div>
     </main>
 
-    <!-- Ventana Modal (Añadida para funcionalidad directa) -->
-    <div id="movie-modal" class="modal">
-        <div class="modal-content">
-            <span class="close-button">&times;</span>
-            <div class="modal-main-content">
-                <div class="modal-poster-container">
-                    <img id="modal-poster" src="" alt="Póster de la película" style="display: none;">
-                    <video id="modal-video" controls style="display: none;"></video>
-                    <div id="terabox-container" class="terabox-container" style="display: none;"></div>
+
+
+    <div id="movie-modal" class="modal-overlay">
+        <div class="modal-container">
+            <button class="close-button">&times;</button>
+            <div class="modal-content-scroll">
+                <div class="modal-video-box">
+                    <img id="modal-poster" src="" alt="" style="display:none;">
+                    <video id="modal-video" controls style="display:none;"></video>
+                    <div id="terabox-container" style="display:none;"></div>
                 </div>
                 <div class="modal-info">
-                    <div class="modal-title-row"><h2 id="modal-title"></h2><button class="report-button" title="Reportar contenido no funcional"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></button></div>
-                    <div id="modal-details" class="modal-details"></div>
-                    <div id="modal-seasons-container" class="seasons-container" style="display: none;"></div>
-                    <div id="modal-source-buttons" class="source-buttons"></div>
-                    <div id="modal-cast" class="modal-cast"></div>
-                    <div class="modal-tabs"><button class="modal-tab-button active" data-tab="description-tab">Descripción</button><button class="modal-tab-button" data-tab="recommendations-tab">Recomendaciones</button></div>
-                    <div id="description-tab" class="modal-tab-content" style="display: block;"><p id="modal-description"></p><div class="rating-section"><div class="average-rating"><span class="star-icon">★</span><span id="modal-rating-avg"></span></div><div id="user-rating-stars" class="user-rating-stars"></div><p id="rating-votes" class="rating-votes"></p></div></div>
-                    <div id="recommendations-tab" class="modal-tab-content"><div class="recommendations-carrusel"><button class="rec-flecha izquierda">&#10094;</button><div id="recommendations-grid" class="recommendations-grid"></div><button class="rec-flecha derecha">&#10095;</button></div></div>
+                    <div class="modal-header-info">
+                        <h2 id="modal-title">Título</h2>
+                        <div class="modal-actions">
+                            <button id="modal-fav-btn" class="action-btn"><i class="far fa-heart"></i></button>
+                            <div class="rating-badge"><i class="fas fa-star"></i> <span id="modal-rating-avg">0.0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="modal-details" class="meta-tags"></div>
+                    <div class="tabs-ui">
+                        <button class="tab-btn active" data-tab="info">Info</button>
+                        <button class="tab-btn" data-tab="sources">Fuentes</button>
+                    </div>
+                    <div id="tab-info" class="tab-content active">
+                        <p id="modal-description" class="synopsis"></p>
+                    </div>
+                    <div id="tab-sources" class="tab-content">
+                        <div id="modal-source-buttons" class="sources-list"></div>
+                        <div id="modal-seasons-container" class="seasons-container"></div>
+                    </div>
+                    <div id="modal-cast" style="display:none;"></div>
+                    <div id="recommendations-tab" style="display:none;">
+                        <div id="recommendations-grid"></div>
+                    </div>
+                    <div id="rating-tab" style="display:none;">
+                        <div id="user-rating-stars"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <footer class="footer">
-        <p>&copy; 2025 peliXx. Todos los derechos reservados.</p>
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span>plushd</span></div>
+                <p>La mejor plataforma de streaming para tus películas, series y animes favoritos. Disfruta de contenido
+                    en alta calidad de forma gratuita.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="peliculas.html">Películas</a></li>
+                    <li><a href="series.html">Series</a></li>
+                    <li><a href="animes1.html">Anime</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacidad</a></li>
+                    <li><a href="#">Términos</a></li>
+                    <li><a href="#">DMCA</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Pelixplushd. Todos los derechos reservados.</p>
+        </div>
     </footer>
 
-    <script src="peliculas.js"></script>
-    <!-- CORRECCIÓN: Cargar el script principal ANTES del script de la página -->
-    <script src="script.js"></script>
-    <!-- El script específico de esta página se carga al final -->
-    <script src="series.js"></script>
+    <div class="bottom-nav">
+        <a href="index.html" class="nav-item"><i class="fas fa-home"></i><span>Inicio</span></a>
+        <a href="peliculas.html" class="nav-item"><i class="fas fa-film"></i><span>Cine</span></a>
+        <a href="buscar.html" class="nav-item"><i class="fas fa-search"></i><span>Buscar</span></a>
+        <a href="favoritos.html" class="nav-item"><i class="fas fa-heart"></i><span>Favoritos</span></a>
+        <a href="ajustes.html" class="nav-item"><i class="fas fa-cog"></i><span>Ajustes</span></a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+    <script src="script.js?v=3"></script>
+    <script src="series.js?v=3"></script>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('main-header');
+            if (window.scrollY > 50) header.classList.add('scrolled');
+            else header.classList.remove('scrolled');
+        });
+        const toggleBtn = document.getElementById('hamburger-btn');
+        const closeBtn = document.getElementById('close-side-menu-btn');
+        const sideMenu = document.getElementById('side-menu');
+        const overlay = document.getElementById('menu-overlay');
+        function toggleMenu() {
+            sideMenu.classList.toggle('active');
+            overlay.classList.toggle('active');
+            document.body.style.overflow = sideMenu.classList.contains('active') ? 'hidden' : '';
+        }
+        if (toggleBtn) toggleBtn.addEventListener('click', toggleMenu);
+        if (closeBtn) closeBtn.addEventListener('click', toggleMenu);
+        if (overlay) overlay.addEventListener('click', toggleMenu);
+
+        const gridBtn = document.getElementById('grid-view-btn');
+        const listBtn = document.getElementById('list-view-btn');
+        const gridContainer = document.getElementById('series-grid-new');
+        if (gridBtn && listBtn && gridContainer) {
+            gridBtn.addEventListener('click', () => {
+                gridContainer.classList.remove('list-view');
+                gridBtn.style.background = 'var(--primary, #E50914)';
+                gridBtn.style.color = 'white';
+                listBtn.style.background = 'transparent';
+                listBtn.style.color = '#888';
+            });
+            listBtn.addEventListener('click', () => {
+                gridContainer.classList.add('list-view');
+                listBtn.style.background = 'var(--primary, #E50914)';
+                listBtn.style.color = 'white';
+                gridBtn.style.background = 'transparent';
+                gridBtn.style.color = '#888';
+            });
+        }
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const parent = btn.closest('.tabs-ui');
+                const container = parent.parentElement;
+                parent.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                container.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                btn.classList.add('active');
+                const tabId = btn.dataset.tab;
+                if (tabId === 'info') container.querySelector('#tab-info').classList.add('active');
+                if (tabId === 'sources') container.querySelector('#tab-sources').classList.add('active');
+            });
+        });
+
+        // Bloquear clics en contenido roto
+        document.addEventListener('click', (e) => {
+            const target = e.target.closest('a, .movie-card, .anime-card, .item-card');
+            if (target) {
+                const img = target.querySelector('img');
+                if (img && img.src.includes('no-disponible.png')) {
+                    e.preventDefault();
+                    e.stopImmediatePropagation();
+                    if (window.showNotification) window.showNotification('Contenido no disponible temporalmente', 'error');
+                }
+            }
+        }, true);
+    </script>
 </body>
+
 </html>

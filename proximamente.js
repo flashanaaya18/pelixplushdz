@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!proximamentePageGrid) return;
 
     // Cargar notificaciones guardadas
-    let notifiedMovies = JSON.parse(localStorage.getItem('notifiedMovies')) || [];
+    let notifiedMovies = window.dataManager ? window.dataManager.getNotifications() : [];
 
 
     const createProximamenteCard = (movie) => {
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
         notifyBtn.addEventListener('click', (e) => {
             e.stopPropagation();
             toggleNotification(movie.id, notifyBtn);
-        });
+        });        card.addEventListener('click', () => {            window.location.href = `detalles.html?id=${movie.id}`;        });
 
         return card;
     };
@@ -40,17 +40,17 @@ document.addEventListener('DOMContentLoaded', () => {
         const movieIndex = notifiedMovies.indexOf(movieId);
         if (movieIndex > -1) {
             // Si ya está, la quitamos (desactivar notificación)
-            notifiedMovies = notifiedMovies.filter(item => item.id !== movieId);
+            notifiedMovies.splice(movieIndex, 1);
             button.classList.remove('active');
             button.title = "Notificarme cuando esté disponible";
         } else {
             // Si no está, la añadimos (activar notificación)
-            notifiedMovies.push({ id: movieId, titulo: peliculas.find(p => p.id === movieId)?.titulo || 'Película desconocida' });
+            notifiedMovies.push(movieId);
             button.classList.add('active');
             button.title = "Notificación activada";
         }
         // Guardar el estado actualizado en localStorage
-        localStorage.setItem('notifiedMovies', JSON.stringify(notifiedMovies));
+        if (window.dataManager) window.dataManager.saveNotifications(notifiedMovies);
     };
 
     const renderProximamentePage = (container) => {
