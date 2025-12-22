@@ -692,6 +692,170 @@ const peliculas2 = [
   },
   {
     "tipo": "serie",
+    "titulo": "Contra las cuerdas",
+    "titulo_original": "Contra las cuerdas",
+    "poster": "https://image.tmdb.org/t/p/w500/6jR09czfTGlriCrWATOljOxVNo5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bqpd4SQ2i7MnHTHlkRgqj2CuQP5.jpg",
+    "descripcion": "Tras salir de prisión, Ángela intenta recuperar el respeto de su hija aficionada a la lucha libre creando un personaje misterioso para subir al ring.",
+    "año": 2023,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "drama"
+    ],
+    "generos_lista": [
+      "Drama"
+    ],
+    "director": "Carolina Rivera",
+    "reparto": [
+      {
+        "name": "Caraly Sánchez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3QQBlP1rvooLsznmDJm83KUmsch.jpg"
+      },
+      {
+        "name": "Scarlet Gruber",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wYK2WJpkkJlPspF99UIv1hfMRyp.jpg"
+      },
+      {
+        "name": "Carmen Ramos",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mz4k76G72CdVPedFUsQCbwxlyh0.jpg"
+      },
+      {
+        "name": "Alisson Santiago",
+        "profile_path": "https://image.tmdb.org/t/p/w185/svHfL2SG4UNCzbKO0n0j0m2axcH.jpg"
+      },
+      {
+        "name": "Giovanna Zacarías",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hyw0Bd8kKkAXNG008R8NVkNCgEx.jpg"
+      },
+      {
+        "name": "Michelle Rodríguez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nLuOLXauZhInejLSFqUl18nfoHn.jpg"
+      },
+      {
+        "name": "Cuauhtli Jiménez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sM2lyjSqwAShSQNdayLRjEHAKp3.jpg"
+      },
+      {
+        "name": "María Balam",
+        "profile_path": "https://image.tmdb.org/t/p/w185/iMvDYjk8yZYp5fdHqiljZrkLQlM.jpg"
+      },
+      {
+        "name": "Valentina Buzzurro",
+        "profile_path": "https://image.tmdb.org/t/p/w185/txrPFGzDTqJErpNiNdx7J0aKQv2.jpg"
+      },
+      {
+        "name": "Marcela Alcaraz",
+        "profile_path": null
+      },
+      {
+        "name": "Carlos Aragón",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nEUEKbUHGnVr6BDvc0sBLeFXjzx.jpg"
+      },
+      {
+        "name": "Alejandra Ley",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7pWhzk0bvu9uJTLF14sasszwiL3.jpg"
+      }
+    ],
+    "calificacion": 8.7,
+    "votos": 34,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T14:35:46.862051",
+    "tmdb_id": 215232,
+    "popularidad": 0.63,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://voe.sx/e/rbvzzqiosigk",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://voe.sx/e/2bd0xth9agmy",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://voe.sx/e/rbvzzqiosigk",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://doodstream.com/e/pz0gnb85kgpi",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://voe.sx/e/pprsu394nqyc",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://voe.sx/e/retsfxk6etrt",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://voe.sx/e/f8rnjsj4nhz8",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://voe.sx/e/upa3nalzht99",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://voe.sx/e/uoq0bgc6zlsy",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://voe.sx/e/6yo3xp7a1lm3",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 10,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2023-01-25",
+    "plataforma": "netflix",
+    "id": "contra-las-cuerdas-2023"
+  },
+  {
+    "tipo": "serie",
     "titulo": "Cooper & Fry",
     "titulo_original": "Cooper & Fry",
     "poster": "https://image.tmdb.org/t/p/w500/frDntanA2DMcNppQYBY5NfHmMM2.jpg",
@@ -2065,6 +2229,101 @@ const peliculas2 = [
     "ultima_emision": "2025-06-01",
     "plataforma": "star+",
     "id": "enloqueciendo-contigo-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Esa Cosa con Alas",
+    "titulo_original": "The Thing with Feathers",
+    "poster": "https://image.tmdb.org/t/p/w500/3YbCyPvfyfKp1J3MCWZbnyNF29o.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uIXIQUDXUxvhjfKvpUnXTiVfvuB.jpg",
+    "descripcion": "Luchando por procesar la repentina e inesperada muerte de su esposa, un joven padre pierde el control de la realidad cuando una presencia aparentemente maligna comienza a acecharle desde los oscuros recovecos del apartamento que comparte con sus dos hijos pequeños.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama"
+    ],
+    "generos_lista": [
+      "Drama"
+    ],
+    "director": "Dylan Southern",
+    "reparto": [
+      {
+        "name": "Benedict Cumberbatch",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wz3MRiMmoz6b5X3oSzMRC9nLxY1.jpg"
+      },
+      {
+        "name": "David Thewlis",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sNuYyT8ocLlQr3TdAW9CoKVbCU8.jpg"
+      },
+      {
+        "name": "Sam Spruell",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mV62no6D4yYtYS4A6dkHCGPTugZ.jpg"
+      },
+      {
+        "name": "Vinette Robinson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/m9jFmatKXYyz1nfPdrfR5uCrGHC.jpg"
+      },
+      {
+        "name": "Leo Bill",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2x0eBDkpaZ4CGrI5H5w006YEoKk.jpg"
+      },
+      {
+        "name": "Garry Cooper",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wCh9z2Gb8ciz4k56h3OvbzKnnhh.jpg"
+      },
+      {
+        "name": "Jessie Cave",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vVfGAQuqWKS768bFw9sxtHAQAiz.jpg"
+      },
+      {
+        "name": "Adam Basil",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nFacpuhpaOl013z9cUqL1dSFxtj.jpg"
+      },
+      {
+        "name": "Lizzie Clarke",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vQW3JEJ6c0B9EDl8JeRgeAjE8OV.jpg"
+      },
+      {
+        "name": "Tim Plester",
+        "profile_path": "https://image.tmdb.org/t/p/w185/a66p9DDwRSQFRZcDn3sDLsGb8zu.jpg"
+      },
+      {
+        "name": "Dwane Walcott",
+        "profile_path": null
+      },
+      {
+        "name": "Eric Lampaert",
+        "profile_path": "https://image.tmdb.org/t/p/w185/oUnxykzDGG7GN3GxPsxWydtJ5E0.jpg"
+      }
+    ],
+    "calificacion": 7.2,
+    "votos": 15,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T16:56:33.248303",
+    "tmdb_id": 1127628,
+    "popularidad": 31.31,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=Som9wVXVBd4",
+    "success": true,
+    "duracion": "98 min",
+    "presupuesto": "$6,000,000",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/pa9avjpdfcab",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "esa-cosa-con-alas-2025"
   },
   {
     "tipo": "pelicula",
@@ -3649,6 +3908,101 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Loco Por Ella",
+    "titulo_original": "Loco Por Ella",
+    "poster": "https://image.tmdb.org/t/p/w500/6PbSSN2BT22ZMsMaD7m8cGaqk3L.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/yCD9WZLNFjn0vvhfDqQ5foD0Bfg.jpg",
+    "descripcion": "Álvaro, un joven optimista se enamora de Carla, una chica que está en una clínica psiquiátrica. Al tratar de ayudarla, aprende que las enfermedades mentales requieren algo más que una actitud positiva para superarlas.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Rodrigo Nava",
+    "reparto": [
+      {
+        "name": "Minnie West",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lw1BtJ3kkEKzTwp7hwi82xobxGL.jpg"
+      },
+      {
+        "name": "Diego Klein",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zUSgyUwiQVMqX5iuVrqXCtbdC7F.jpg"
+      },
+      {
+        "name": "Daniel Haddad",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tCZAs7jDAjOl5545eL93C1mcIsa.jpg"
+      },
+      {
+        "name": "Luz Aldán",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wcfIIJHYOuZBDgXCk4dgFLwOQfV.jpg"
+      },
+      {
+        "name": "Jesús Zavala",
+        "profile_path": "https://image.tmdb.org/t/p/w185/HSniatMJvkYkIKwnJQtrEM12DI.jpg"
+      },
+      {
+        "name": "Cassandra Sánchez Navarro",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hRsoMPc59W8vRYk5ltheDpcgdeT.jpg"
+      },
+      {
+        "name": "Herly RG",
+        "profile_path": "https://image.tmdb.org/t/p/w185/4cqNsBKgIoqF3FcirpHs0zeAhGV.jpg"
+      },
+      {
+        "name": "Cecilia Toussaint",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2dZRblt3alR4ihcBNasYDI1gwc0.jpg"
+      },
+      {
+        "name": "Azalia Ortiz",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pU4jjmRQlp4Yi0MaXJPGUtG7LTu.jpg"
+      },
+      {
+        "name": "Eutimio Fuentes",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6nanbwfMq8sMAxyslKIpp2rGOCj.jpg"
+      },
+      {
+        "name": "Arelí González",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3xuyc92mPgWGR6cUCl9OARI4OvE.jpg"
+      },
+      {
+        "name": "Estefanía Hinojosa",
+        "profile_path": "https://image.tmdb.org/t/p/w185/w5tj6Bp6ynBcy2mUb2Ql6eV8Khl.jpg"
+      }
+    ],
+    "calificacion": 8.1,
+    "votos": 24,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T18:02:05.648511",
+    "tmdb_id": 1433735,
+    "popularidad": 4.22,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "100 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/zv38qoh0jej3",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "loco-por-ella-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "London Calling",
     "titulo_original": "London Calling",
     "poster": "https://image.tmdb.org/t/p/w500/cpQ4VxBJO7vGV3IUdKzSNf4tH9V.jpg",
@@ -4826,6 +5180,97 @@ const peliculas2 = [
       }
     ],
     "id": "punales-por-la-espalda-de-entre-los-muertos-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Reflection in a Dead Diamond",
+    "titulo_original": "Reflet dans un diamant mort",
+    "poster": "https://image.tmdb.org/t/p/w500/scOBEcIfVlG890tKV5XI42t0EhU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/AePlQ3osZShJmbNj8tzQ3NoMTQF.jpg",
+    "descripcion": "John tiene 70 años y vive en un lujoso y solitario hotel de la Costa Azul. Se siente intrigado por la mujer de la habitación de al lado, que le recuerda sus años salvajes en la Riviera en la década de 1960, cuando era un elegante espía internacional en un mundo lleno de peligros y promesas. Pero cuando la mujer desaparece misteriosamente, John se ve acosado por recuerdos -o tal vez fantasías- de su glamuroso y grotesco pasado, y de las seductoras mujeres y ruines villanos que vivieron y murieron allí.",
+    "año": 2025,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "acción",
+      "suspense",
+      "misterio"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Suspense",
+      "Misterio"
+    ],
+    "director": "Hélène Cattet",
+    "reparto": [
+      {
+        "name": "Fabio Testi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bHP0NtDCl0L2dnaBmkRKCYEuYkL.jpg"
+      },
+      {
+        "name": "Yannick Renier",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sW6DOy8QrfQXevZaFFqV2PphQa6.jpg"
+      },
+      {
+        "name": "Koen De Bouw",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7W1RMDnglVxwtg8ccrZmt7z9paH.jpg"
+      },
+      {
+        "name": "Maria de Medeiros",
+        "profile_path": "https://image.tmdb.org/t/p/w185/coLcUZeavLvAZxHZTq7hzwUsKOx.jpg"
+      },
+      {
+        "name": "Thi-Mai Nguyen",
+        "profile_path": "https://image.tmdb.org/t/p/w185/oXnNZcFQQnxKGwAUthrx1Nc8j2B.jpg"
+      },
+      {
+        "name": "Céline Camara",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8ARfBdnJLRllCb5u0j5TIkq2Blj.jpg"
+      },
+      {
+        "name": "Kézia Quental",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rilCeo9HW6bO0pS25MsrEV5SkcU.jpg"
+      },
+      {
+        "name": "Manon Beuchot",
+        "profile_path": null
+      },
+      {
+        "name": "Hervé Sogne",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7vzqT97we29ahRfDzU7CFPzSzUt.jpg"
+      },
+      {
+        "name": "Sylvia Camarda",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wncaO8qQRS23Gw85F7tVgQkhAiv.jpg"
+      },
+      {
+        "name": "Barbara Hellemans",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eLFcBf6HSkW3vnlkVVBOkorRBQs.jpg"
+      },
+      {
+        "name": "Sébastien Landry",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gsdYIo92LcyWky6N9twBdKXsZ6t.jpg"
+      }
+    ],
+    "calificacion": 6.0,
+    "votos": 45,
+    "idioma": "FR",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T18:20:16.410590",
+    "tmdb_id": 1013446,
+    "popularidad": 206.66,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "87 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [],
+    "id": "reflection-in-a-dead-diamond-2025"
   },
   {
     "tipo": "pelicula",

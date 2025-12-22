@@ -468,6 +468,73 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Cazadoras de Millonarios",
+    "titulo_original": "Cazadoras de Millonarios",
+    "poster": "https://image.tmdb.org/t/p/w500/sHU5yifPhZBntDSPOqKP82XAetD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zIpQhK9UqlDbSug3SOLBPjrSwBD.jpg",
+    "descripcion": "Tres mujeres concluyen que el trabajo duro no les dará la vida de sus sueños y se inscriben en un curso que promete enseñarles el secreto para conquistar a hombres millonarios.",
+    "año": 2024,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "romance"
+    ],
+    "generos_lista": [
+      "Romance"
+    ],
+    "director": "Héctor Rodríguez",
+    "reparto": [
+      {
+        "name": "Isabel Burr",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cEh0siABOqVbehfk3v82k1CDLr8.jpg"
+      },
+      {
+        "name": "Alicia Machado.",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mQkWrFZSiAEG2c1vMwj2zgURATK.jpg"
+      },
+      {
+        "name": "Verónica Montes",
+        "profile_path": "https://image.tmdb.org/t/p/w185/4Yrw3H8HKGCHztXYMHv2xlD4SLR.jpg"
+      },
+      {
+        "name": "Sherlyn",
+        "profile_path": "https://image.tmdb.org/t/p/w185/dcUxa6ymXcor1cbrqwmpvkwy5IP.jpg"
+      },
+      {
+        "name": "Christian Vazquez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/aSybGa97jnNPKwDj1tFK8jzLiOx.jpg"
+      }
+    ],
+    "calificacion": 7.0,
+    "votos": 16,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T18:25:03.617893",
+    "tmdb_id": 1414059,
+    "popularidad": 5.4,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "N/A",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/xlkbur2l8hlx",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "cazadoras-de-millonarios-2024"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Cazando al Asesino",
     "titulo_original": "Hostile Takeover",
     "poster": "https://image.tmdb.org/t/p/w500/vntwlS3CAKfoLTs90GaoK6lymBC.jpg",
@@ -2232,6 +2299,101 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Esa Cosa con Alas",
+    "titulo_original": "The Thing with Feathers",
+    "poster": "https://image.tmdb.org/t/p/w500/3YbCyPvfyfKp1J3MCWZbnyNF29o.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uIXIQUDXUxvhjfKvpUnXTiVfvuB.jpg",
+    "descripcion": "Luchando por procesar la repentina e inesperada muerte de su esposa, un joven padre pierde el control de la realidad cuando una presencia aparentemente maligna comienza a acecharle desde los oscuros recovecos del apartamento que comparte con sus dos hijos pequeños.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama"
+    ],
+    "generos_lista": [
+      "Drama"
+    ],
+    "director": "Dylan Southern",
+    "reparto": [
+      {
+        "name": "Benedict Cumberbatch",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wz3MRiMmoz6b5X3oSzMRC9nLxY1.jpg"
+      },
+      {
+        "name": "David Thewlis",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sNuYyT8ocLlQr3TdAW9CoKVbCU8.jpg"
+      },
+      {
+        "name": "Sam Spruell",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mV62no6D4yYtYS4A6dkHCGPTugZ.jpg"
+      },
+      {
+        "name": "Vinette Robinson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/m9jFmatKXYyz1nfPdrfR5uCrGHC.jpg"
+      },
+      {
+        "name": "Leo Bill",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2x0eBDkpaZ4CGrI5H5w006YEoKk.jpg"
+      },
+      {
+        "name": "Garry Cooper",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wCh9z2Gb8ciz4k56h3OvbzKnnhh.jpg"
+      },
+      {
+        "name": "Jessie Cave",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vVfGAQuqWKS768bFw9sxtHAQAiz.jpg"
+      },
+      {
+        "name": "Adam Basil",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nFacpuhpaOl013z9cUqL1dSFxtj.jpg"
+      },
+      {
+        "name": "Lizzie Clarke",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vQW3JEJ6c0B9EDl8JeRgeAjE8OV.jpg"
+      },
+      {
+        "name": "Tim Plester",
+        "profile_path": "https://image.tmdb.org/t/p/w185/a66p9DDwRSQFRZcDn3sDLsGb8zu.jpg"
+      },
+      {
+        "name": "Dwane Walcott",
+        "profile_path": null
+      },
+      {
+        "name": "Eric Lampaert",
+        "profile_path": "https://image.tmdb.org/t/p/w185/oUnxykzDGG7GN3GxPsxWydtJ5E0.jpg"
+      }
+    ],
+    "calificacion": 7.2,
+    "votos": 15,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T16:56:33.248303",
+    "tmdb_id": 1127628,
+    "popularidad": 31.31,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=Som9wVXVBd4",
+    "success": true,
+    "duracion": "98 min",
+    "presupuesto": "$6,000,000",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/pa9avjpdfcab",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "esa-cosa-con-alas-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Escuela para fracasados",
     "titulo_original": "Night School",
     "poster": "https://image.tmdb.org/t/p/w500/en80H4azRwAxaDR8nJaaStgV8pK.jpg",
@@ -3813,6 +3975,101 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Loco Por Ella",
+    "titulo_original": "Loco Por Ella",
+    "poster": "https://image.tmdb.org/t/p/w500/6PbSSN2BT22ZMsMaD7m8cGaqk3L.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/yCD9WZLNFjn0vvhfDqQ5foD0Bfg.jpg",
+    "descripcion": "Álvaro, un joven optimista se enamora de Carla, una chica que está en una clínica psiquiátrica. Al tratar de ayudarla, aprende que las enfermedades mentales requieren algo más que una actitud positiva para superarlas.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Rodrigo Nava",
+    "reparto": [
+      {
+        "name": "Minnie West",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lw1BtJ3kkEKzTwp7hwi82xobxGL.jpg"
+      },
+      {
+        "name": "Diego Klein",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zUSgyUwiQVMqX5iuVrqXCtbdC7F.jpg"
+      },
+      {
+        "name": "Daniel Haddad",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tCZAs7jDAjOl5545eL93C1mcIsa.jpg"
+      },
+      {
+        "name": "Luz Aldán",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wcfIIJHYOuZBDgXCk4dgFLwOQfV.jpg"
+      },
+      {
+        "name": "Jesús Zavala",
+        "profile_path": "https://image.tmdb.org/t/p/w185/HSniatMJvkYkIKwnJQtrEM12DI.jpg"
+      },
+      {
+        "name": "Cassandra Sánchez Navarro",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hRsoMPc59W8vRYk5ltheDpcgdeT.jpg"
+      },
+      {
+        "name": "Herly RG",
+        "profile_path": "https://image.tmdb.org/t/p/w185/4cqNsBKgIoqF3FcirpHs0zeAhGV.jpg"
+      },
+      {
+        "name": "Cecilia Toussaint",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2dZRblt3alR4ihcBNasYDI1gwc0.jpg"
+      },
+      {
+        "name": "Azalia Ortiz",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pU4jjmRQlp4Yi0MaXJPGUtG7LTu.jpg"
+      },
+      {
+        "name": "Eutimio Fuentes",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6nanbwfMq8sMAxyslKIpp2rGOCj.jpg"
+      },
+      {
+        "name": "Arelí González",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3xuyc92mPgWGR6cUCl9OARI4OvE.jpg"
+      },
+      {
+        "name": "Estefanía Hinojosa",
+        "profile_path": "https://image.tmdb.org/t/p/w185/w5tj6Bp6ynBcy2mUb2Ql6eV8Khl.jpg"
+      }
+    ],
+    "calificacion": 8.1,
+    "votos": 24,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T18:02:05.648511",
+    "tmdb_id": 1433735,
+    "popularidad": 4.22,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "100 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/zv38qoh0jej3",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "loco-por-ella-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "London Calling",
     "titulo_original": "London Calling",
     "poster": "https://image.tmdb.org/t/p/w500/cpQ4VxBJO7vGV3IUdKzSNf4tH9V.jpg",
@@ -4990,6 +5247,97 @@ const peliculas2 = [
       }
     ],
     "id": "punales-por-la-espalda-de-entre-los-muertos-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Reflection in a Dead Diamond",
+    "titulo_original": "Reflet dans un diamant mort",
+    "poster": "https://image.tmdb.org/t/p/w500/scOBEcIfVlG890tKV5XI42t0EhU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/AePlQ3osZShJmbNj8tzQ3NoMTQF.jpg",
+    "descripcion": "John tiene 70 años y vive en un lujoso y solitario hotel de la Costa Azul. Se siente intrigado por la mujer de la habitación de al lado, que le recuerda sus años salvajes en la Riviera en la década de 1960, cuando era un elegante espía internacional en un mundo lleno de peligros y promesas. Pero cuando la mujer desaparece misteriosamente, John se ve acosado por recuerdos -o tal vez fantasías- de su glamuroso y grotesco pasado, y de las seductoras mujeres y ruines villanos que vivieron y murieron allí.",
+    "año": 2025,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "acción",
+      "suspense",
+      "misterio"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Suspense",
+      "Misterio"
+    ],
+    "director": "Hélène Cattet",
+    "reparto": [
+      {
+        "name": "Fabio Testi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bHP0NtDCl0L2dnaBmkRKCYEuYkL.jpg"
+      },
+      {
+        "name": "Yannick Renier",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sW6DOy8QrfQXevZaFFqV2PphQa6.jpg"
+      },
+      {
+        "name": "Koen De Bouw",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7W1RMDnglVxwtg8ccrZmt7z9paH.jpg"
+      },
+      {
+        "name": "Maria de Medeiros",
+        "profile_path": "https://image.tmdb.org/t/p/w185/coLcUZeavLvAZxHZTq7hzwUsKOx.jpg"
+      },
+      {
+        "name": "Thi-Mai Nguyen",
+        "profile_path": "https://image.tmdb.org/t/p/w185/oXnNZcFQQnxKGwAUthrx1Nc8j2B.jpg"
+      },
+      {
+        "name": "Céline Camara",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8ARfBdnJLRllCb5u0j5TIkq2Blj.jpg"
+      },
+      {
+        "name": "Kézia Quental",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rilCeo9HW6bO0pS25MsrEV5SkcU.jpg"
+      },
+      {
+        "name": "Manon Beuchot",
+        "profile_path": null
+      },
+      {
+        "name": "Hervé Sogne",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7vzqT97we29ahRfDzU7CFPzSzUt.jpg"
+      },
+      {
+        "name": "Sylvia Camarda",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wncaO8qQRS23Gw85F7tVgQkhAiv.jpg"
+      },
+      {
+        "name": "Barbara Hellemans",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eLFcBf6HSkW3vnlkVVBOkorRBQs.jpg"
+      },
+      {
+        "name": "Sébastien Landry",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gsdYIo92LcyWky6N9twBdKXsZ6t.jpg"
+      }
+    ],
+    "calificacion": 6.0,
+    "votos": 45,
+    "idioma": "FR",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T18:20:16.410590",
+    "tmdb_id": 1013446,
+    "popularidad": 206.66,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "87 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [],
+    "id": "reflection-in-a-dead-diamond-2025"
   },
   {
     "tipo": "pelicula",

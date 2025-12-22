@@ -28,7 +28,8 @@
                     document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
                 });
                 localStorage.clear();
-                window.location.replace(window.location.pathname + "?repaired=true");
+            // localStorage.clear(); // ¡PELIGROSO! Esto borra favoritos, historial y notificaciones.
+            window.location.replace(window.location.pathname + "?repaired=true"); // Recargar después de limpiar cookies.
             }
         })();
     </script>
