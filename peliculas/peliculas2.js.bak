@@ -468,6 +468,73 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Cazadoras de Millonarios",
+    "titulo_original": "Cazadoras de Millonarios",
+    "poster": "https://image.tmdb.org/t/p/w500/sHU5yifPhZBntDSPOqKP82XAetD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zIpQhK9UqlDbSug3SOLBPjrSwBD.jpg",
+    "descripcion": "Tres mujeres concluyen que el trabajo duro no les dará la vida de sus sueños y se inscriben en un curso que promete enseñarles el secreto para conquistar a hombres millonarios.",
+    "año": 2024,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "romance"
+    ],
+    "generos_lista": [
+      "Romance"
+    ],
+    "director": "Héctor Rodríguez",
+    "reparto": [
+      {
+        "name": "Isabel Burr",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cEh0siABOqVbehfk3v82k1CDLr8.jpg"
+      },
+      {
+        "name": "Alicia Machado.",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mQkWrFZSiAEG2c1vMwj2zgURATK.jpg"
+      },
+      {
+        "name": "Verónica Montes",
+        "profile_path": "https://image.tmdb.org/t/p/w185/4Yrw3H8HKGCHztXYMHv2xlD4SLR.jpg"
+      },
+      {
+        "name": "Sherlyn",
+        "profile_path": "https://image.tmdb.org/t/p/w185/dcUxa6ymXcor1cbrqwmpvkwy5IP.jpg"
+      },
+      {
+        "name": "Christian Vazquez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/aSybGa97jnNPKwDj1tFK8jzLiOx.jpg"
+      }
+    ],
+    "calificacion": 7.0,
+    "votos": 16,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T18:25:03.617893",
+    "tmdb_id": 1414059,
+    "popularidad": 5.4,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "N/A",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/xlkbur2l8hlx",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "cazadoras-de-millonarios-2024"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Cazando al Asesino",
     "titulo_original": "Hostile Takeover",
     "poster": "https://image.tmdb.org/t/p/w500/vntwlS3CAKfoLTs90GaoK6lymBC.jpg",
