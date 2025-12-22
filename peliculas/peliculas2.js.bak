@@ -4793,6 +4793,105 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Nuestros tiempos",
+    "titulo_original": "Nuestros tiempos",
+    "poster": "https://image.tmdb.org/t/p/w500/t0XyRsfjnxznZb803hXtleSXhtG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/dD14o9KJDbmuJ80z4vKdVnQ0zks.jpg",
+    "descripcion": "El hallazgo científico de Nora y Héctor les permite viajar en el tiempo desde 1966 hasta 2025. Mientras él lucha por adaptarse, ella florece... pero ¿a qué precio?",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "romance",
+      "comedia"
+    ],
+    "generos_lista": [
+      "Ciencia ficción",
+      "Romance",
+      "Comedia"
+    ],
+    "director": "Chava Cartas",
+    "reparto": [
+      {
+        "name": "Lucero",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wMjyAYYAXyCO5I6qn9Btn704V0k.jpg"
+      },
+      {
+        "name": "Benny Ibarra",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yHSlMpUhga0pXeqNgcQxmjy7ji5.jpg"
+      },
+      {
+        "name": "Renata Vaca",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zsa1B7cOTa1o7inR2zmoznxL9Hm.jpg"
+      },
+      {
+        "name": "Ofelia Medina",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8lRQ05k1UAEB8vf8WdxZ9Hh6J0j.jpg"
+      },
+      {
+        "name": "Alejandro Ávila",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xpM4xuwJuLJymo0jl5Nvxk9V6F.jpg"
+      },
+      {
+        "name": "Lorena Graniewicz",
+        "profile_path": "https://image.tmdb.org/t/p/w185/i3GL7NdMdwguyNlXosqjnDNTnaG.jpg"
+      },
+      {
+        "name": "Mario Alberto Monroy",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5epUo9ReGNUE1ySDZbowoyRpO5M.jpg"
+      },
+      {
+        "name": "Ana Ortizharo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/b71463vtdHss9fAINk5LuKmO5XA.jpg"
+      },
+      {
+        "name": "Claudia Lobo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ufB8knaaTXDPGkG5gGidsdHUEV4.jpg"
+      },
+      {
+        "name": "Enrique Singer",
+        "profile_path": "https://image.tmdb.org/t/p/w185/d5PrdeAasOEEl4W9KcGU6MYRlI3.jpg"
+      },
+      {
+        "name": "Berenice Jonguitud",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2wsjMdmobiN8KRsaaF88Q3Ihxe1.jpg"
+      },
+      {
+        "name": "Hugo Albores",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xjAkF0WCCbJWS7rEYrcfjw308ur.jpg"
+      }
+    ],
+    "calificacion": 6.6,
+    "votos": 105,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T18:35:55.081028",
+    "tmdb_id": 1426680,
+    "popularidad": 1.13,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "90 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "netflix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://movearnpre.com/embed/mtrfb1o33k8l",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "nuestros-tiempos-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Oblivion",
     "titulo_original": "Oblivion",
     "poster": "https://image.tmdb.org/t/p/w500/5Onf4TW3mZn3oLeKVr9W4FGomQQ.jpg",
