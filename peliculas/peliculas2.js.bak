@@ -2958,6 +2958,103 @@ const peliculas2 = [
     "id": "gran-turismo-2023"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "Heroico",
+    "titulo_original": "Heroico",
+    "poster": "https://image.tmdb.org/t/p/w500/w0iYqKZYoVmyoX0Av4FdsDiDXWo.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uTVejvgvXQHX03bO66mlJbSOC2q.jpg",
+    "descripcion": "Luis, adolescente de origen nativo americano, se inscribe en un colegio militar en busca de un futuro mejor. Sus nuevos compañeros y él se ven sometidos a un sistema jerárquico brutal, en el que los alumnos veteranos humillan a los recién llegados.",
+    "año": 2023,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "drama",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Suspense"
+    ],
+    "director": "David Zonana",
+    "reparto": [
+      {
+        "name": "Santiago Sandoval",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5MIGO2VVkk8rASsxMEKUCy77veW.jpg"
+      },
+      {
+        "name": "Fernando Cuautle",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yxGoMBPVvieHrSkA2A0LACWcr68.jpg"
+      },
+      {
+        "name": "Mónica del Carmen",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mMVTISzRtJWG8z7YEVfJrikkvLF.jpg"
+      },
+      {
+        "name": "Esteban Caicedo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/uojA3qzqChRfZXdcWwdd8X9nDPD.jpg"
+      },
+      {
+        "name": "Isabel Yudice",
+        "profile_path": "https://image.tmdb.org/t/p/w185/AkqRZMewnMIamBjjfE9RUrmXKu0.jpg"
+      },
+      {
+        "name": "Carlos Gerardo García",
+        "profile_path": null
+      },
+      {
+        "name": "Germán Carrizales",
+        "profile_path": null
+      },
+      {
+        "name": "Salvador Rico",
+        "profile_path": null
+      },
+      {
+        "name": "Ricardo Tadeo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gnpil5fU8wAZP2dPzwsgc8HMF2j.jpg"
+      },
+      {
+        "name": "Ari Axel Hernández",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yTMxOOWOIbRDmLyM6xAP8rwdIbe.jpg"
+      },
+      {
+        "name": "David Deleo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/oE6QGzE4cEZOQ5npIWi8IVW3OGE.jpg"
+      },
+      {
+        "name": "Norma Pablo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gEOxHbmMEt8uYMnCCKbNCFJzcJx.jpg"
+      }
+    ],
+    "calificacion": 7.2,
+    "votos": 200,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T19:13:23.289332",
+    "tmdb_id": 958182,
+    "popularidad": 1.69,
+    "tagline": "Aquí no hay derechos, ni siquiera los humanos.",
+    "trailer": "https://www.youtube.com/watch?v=S5ix3nM8gnY",
+    "success": true,
+    "duracion": "88 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "Original",
+        "url": "https://www.youtube.com/watch?v=S5ix3nM8gnY",
+        "calidad": "HD",
+        "tipo": "trailer",
+        "activa": true
+      }
+    ],
+    "id": "heroico-2023"
+  },
+  {
     "tipo": "serie",
     "titulo": "Ironheart",
     "titulo_original": "Ironheart",
@@ -5839,6 +5936,101 @@ const peliculas2 = [
       }
     ],
     "id": "sisu-camino-a-la-venganza-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Sobreviviendo mis XV",
+    "titulo_original": "Sobreviviendo mis XV",
+    "poster": "https://image.tmdb.org/t/p/w500/kr50u2w3G5L7RqLf6frFliJqPrZ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7DTRLhZvxXAGzDoOo1IsJidLk7W.jpg",
+    "descripcion": "Cumplir 15 años es mágico excepto cuando tu familia quiere ponerte un vestido ridículo y hacerte bailar el vals delante de todos. Danae tendrá que organizar una quinceañera tradicional pero genial que también agrada a su abuela.",
+    "año": 2023,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Chava Cartas",
+    "reparto": [
+      {
+        "name": "Berenice Jonguitud",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2wsjMdmobiN8KRsaaF88Q3Ihxe1.jpg"
+      },
+      {
+        "name": "Verónica Bravo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vwwlZuekgBFeUT1QXGnoSbq0tFD.jpg"
+      },
+      {
+        "name": "Memo Villegas",
+        "profile_path": "https://image.tmdb.org/t/p/w185/osMk6myAbs0W06nRiZUXfVzJxxI.jpg"
+      },
+      {
+        "name": "Paco Luna",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mNKDndZgwMBolAAUrFM88yYflxl.jpg"
+      },
+      {
+        "name": "Farah Justiniani",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lKVOx4MzjuRroREZowdPIUgw0kr.jpg"
+      },
+      {
+        "name": "Sofía Carrera",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cv7vxKsFqODWeSc6wqRkBLQ52FT.jpg"
+      },
+      {
+        "name": "Luciana Vale",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bSjJtlyNBXv99qoc9ZKG8Uari56.jpg"
+      },
+      {
+        "name": "Carolina Anzures",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ktIkqDIrTIepzaTzdurwK5xkYak.jpg"
+      },
+      {
+        "name": "Hanssel Casillas",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bB5jfDQ92vgqy6h88jCtkSW0eU0.jpg"
+      },
+      {
+        "name": "Juan Pablo Fuentes",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jLfVppw8buGesJWQt1WNnDQKHia.jpg"
+      },
+      {
+        "name": "Valeria Vera",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8rv6YZca1iLSZf3QiTUiw846Gsl.jpg"
+      },
+      {
+        "name": "Lupita Lara",
+        "profile_path": null
+      }
+    ],
+    "calificacion": 7.3,
+    "votos": 95,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T19:11:52.222379",
+    "tmdb_id": 1172029,
+    "popularidad": 1.31,
+    "tagline": "¿Es traición romper con la tradición?",
+    "trailer": "",
+    "success": true,
+    "duracion": "101 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "vix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/u9kz17optm5w",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "sobreviviendo-mis-xv-2023"
   },
   {
     "tipo": "serie",

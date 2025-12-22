@@ -4562,6 +4562,101 @@ const peliculas2 = [
     "id": "mama-reinventada-2025"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "Me vuelves loca",
+    "titulo_original": "Me vuelves loca",
+    "poster": "https://image.tmdb.org/t/p/w500/pQeyfqLEDdY6x4P4Fl5r6jcstN4.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/jR12T1oZbLCsZJwp0SKVHqSgc8X.jpg",
+    "descripcion": "Carolina tiene una vida perfecta: vive en una lujosa casa, trabaja en una revista de moda y está casada con un exitoso publicista. Un día todo se va a la basura: descubre que es estéril, el mismo día que su esposo la deja por su mejor amiga, quien, además, está embarazada de éste. Tras el impacto de estas noticias, Carolina tiene una crisis, bebe de mas, se tropieza y cae desde el segundo piso de su casa, hecho que es interpretado como un intento de suicidio. Carolina es internada contra su voluntad, en el exclusivo centro psiquiátrico Edén. En ese lugar ella conocerá a un grupo de “locos” que la ayudarán a sanar y a vislumbrar que su vida anterior no era tan perfecta. Así mismo descubre que quizá los mas locos, son los que están fuera del psiquiátrico.",
+    "año": 2023,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Boris Quercia",
+    "reparto": [
+      {
+        "name": "Aislinn Derbez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/y3aA1x3JpBOZHhZzTPBpDyhcra1.jpg"
+      },
+      {
+        "name": "Minnie West",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lw1BtJ3kkEKzTwp7hwi82xobxGL.jpg"
+      },
+      {
+        "name": "Alejandro de la Madrid",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7YLTj58ffsatvVFNzCZQrsPtSin.jpg"
+      },
+      {
+        "name": "Elizabeth Guindi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rxIuoyd8ZdgnXrUs4X7DjtTrHBh.jpg"
+      },
+      {
+        "name": "Tamara Acosta",
+        "profile_path": "https://image.tmdb.org/t/p/w185/o7vPwaqwDNojUvaHVcrOjfJ6GAB.jpg"
+      },
+      {
+        "name": "Paz Bascuñan",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6dZ2fNkHJpM95GhvsLzgouiPYF4.jpg"
+      },
+      {
+        "name": "Giovanna Romo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6GzWJpSeXBl4A9ulqP13BsBtK3u.jpg"
+      },
+      {
+        "name": "Loreto Aravena",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kVQNLTZIsVSrYKnxxhdAfRnXlFW.jpg"
+      },
+      {
+        "name": "Ricardo Fastlicht",
+        "profile_path": "https://image.tmdb.org/t/p/w185/LkJDert3mPrzZUo51ADu5cFz1.jpg"
+      },
+      {
+        "name": "Ricardo Alfonsín",
+        "profile_path": null
+      },
+      {
+        "name": "María José Bello",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eLyiYMBYjSA1iz2Bg51QZuhKT4t.jpg"
+      },
+      {
+        "name": "Gregory Cohen",
+        "profile_path": "https://image.tmdb.org/t/p/w185/a52kOkEnSai0aboF1Gtia0zr370.jpg"
+      }
+    ],
+    "calificacion": 8.4,
+    "votos": 124,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T19:44:58.295157",
+    "tmdb_id": 1175306,
+    "popularidad": 4.87,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=sjCqeYLRHPE",
+    "success": true,
+    "duracion": "105 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/73acqqds37at",
+        "calidad": "1080´",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "me-vuelves-loca-2023"
+  },
+  {
     "tipo": "serie",
     "titulo": "Monstruo: La historia de Jeffrey Dahmer",
     "titulo_original": "DAHMER - Monster: The Jeffrey Dahmer Story",
