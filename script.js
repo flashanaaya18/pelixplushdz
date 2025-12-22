@@ -221,6 +221,24 @@ function applyGlobalSettings() {
     if (compactMode) document.body.classList.add('compact-mode');
 }
 
+// --- NUEVO: Fondos dinámicos para Héroes de página ---
+function setDynamicHeroBackground() {
+    const hero = document.querySelector('.hero-container');
+    // Lista de fondos genéricos para páginas de categorías
+    const genericBackgrounds = [
+        'https://image.tmdb.org/t/p/original/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg',
+        'https://image.tmdb.org/t/p/original/5i6SjyDbDWqyun8klUuCxrlFbyw.jpg',
+        'https://image.tmdb.org/t/p/original/2vFuG6bWGyQUzYS9d69E5l85nIz.jpg',
+        'https://image.tmdb.org/t/p/original/j3Z3XktmWB1VhsSOPLhKzaWlTdO.jpg'
+    ];
+
+    // Solo aplica si la página no tiene ya un fondo específico en línea
+    if (hero && !hero.style.backgroundImage) {
+        const randomBg = genericBackgrounds[Math.floor(Math.random() * genericBackgrounds.length)];
+        hero.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.5), #141414), url('${randomBg}')`;
+    }
+}
+
 // --- LÓGICA DEL SELECTOR DE PAÍS OBLIGATORIO ---
 function setupCountrySelector() {
     const modal = document.getElementById('country-selector-modal');
@@ -268,6 +286,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Aplicar ajustes visuales inmediatamente
     applyGlobalSettings();
+
+    // Aplicar fondo dinámico si es necesario
+    setDynamicHeroBackground();
 
     // NUEVO: Configurar y verificar el selector de país obligatorio
     setupCountrySelector();

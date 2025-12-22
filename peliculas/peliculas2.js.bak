@@ -4984,6 +4984,101 @@ const peliculas2 = [
     "id": "oblivion-2013"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "Papá o Mamá",
+    "titulo_original": "Papá o Mamá",
+    "poster": "https://image.tmdb.org/t/p/w500/e0ezklncv9ApFVj50FSYJZo08oT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/d2d0njdp19FbuOGTW1dbrVMJpTH.jpg",
+    "descripcion": "Florencia y Vicente se están divorciando. Cuando ambos sean ascendidos en sus trabajos, harán cualquier cosa para no quedarse con la custodia de sus hijos.",
+    "año": 2023,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Ernesto Contreras",
+    "reparto": [
+      {
+        "name": "Mauricio Ochmann",
+        "profile_path": "https://image.tmdb.org/t/p/w185/h5NuTsPV9HdsjPSuBG4vZtvKtlF.jpg"
+      },
+      {
+        "name": "Silvia Navarro",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tYkCV1MsqXtXZ7A9SnCwfuw1hU1.jpg"
+      },
+      {
+        "name": "Axel Madrazo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xeSOm4hh6pVrknxu8OValNKqIdz.jpg"
+      },
+      {
+        "name": "Aranda Sokol",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9w8ABC6FupBg6PwhraJmnUW92B9.jpg"
+      },
+      {
+        "name": "Erick Terroba García",
+        "profile_path": null
+      },
+      {
+        "name": "Mauricio Barrientos",
+        "profile_path": "https://image.tmdb.org/t/p/w185/n9dwUT1IonhSsjC4i0KtZauPM2c.jpg"
+      },
+      {
+        "name": "Veronica Toussaint",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3l8BYoQR35I6lnUZzKY9BFrPOEs.jpg"
+      },
+      {
+        "name": "Bárbara López",
+        "profile_path": null
+      },
+      {
+        "name": "Armando Hernández",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5J0sQ0P2IBy1fTPDD3f8I2tJIZF.jpg"
+      },
+      {
+        "name": "Nora Velázquez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lh3fpLrabTkEuJ6rDGaighy1N1C.jpg"
+      },
+      {
+        "name": "Juan Ríos",
+        "profile_path": null
+      },
+      {
+        "name": "Christian Chávez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6dj0uXVW73zAnoAoH91hxmFfkM5.jpg"
+      }
+    ],
+    "calificacion": 7.0,
+    "votos": 103,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-21T18:45:45.680635",
+    "tmdb_id": 980137,
+    "popularidad": 1.48,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=stcEC2BGJWw",
+    "success": true,
+    "duracion": "92 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/lntgclyx5lhb",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "papa-o-mama-2023"
+  },
+  {
     "tipo": "serie",
     "titulo": "Papá Soltero",
     "titulo_original": "",
