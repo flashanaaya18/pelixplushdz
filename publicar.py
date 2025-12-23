@@ -1214,6 +1214,57 @@ def mostrar_detalles_completos(item):
     
     input(f"\n{C.YELLOW}⏎ Presiona Enter para continuar...{C.END}")
 
+def gestionar_fuentes(pelicula):
+    """Gestiona las fuentes de video de una película (Solo URL)."""
+    while True:
+        limpiar_pantalla()
+        print(f"{C.PURPLE}🎥 GESTIONANDO FUENTES DE: {pelicula.get('titulo')}{C.END}\n")
+
+        fuentes = pelicula.get('fuentes', [])
+        if not fuentes:
+            print(f"{C.YELLOW}📭 No hay fuentes de video.{C.END}")
+        else:
+            for i, fuente in enumerate(fuentes, 1):
+                print(f"  {i}. {fuente.get('url', 'Sin URL')}")
+
+        print(f"\n{C.PURPLE}📋 OPCIONES:{C.END}")
+        print("  1. ➕ Añadir URL")
+        print("  2. ✏️  Editar URL")
+        print("  3. 🗑️  Eliminar")
+        print("\n  0. ↩️  Volver")
+
+        opcion = input(f"\n{C.GOLD}🎲 Elige: {C.END}").strip()
+
+        if opcion == '0':
+            break
+        elif opcion == '1':
+            url = input(f"{C.CYAN}🔗 Nueva URL: {C.END}").strip()
+            if url:
+                fuentes.append({'url': procesar_url_embed(url), 'idioma': 'Latino', 'calidad': 'HD', 'tipo': 'embed', 'activa': True})
+                print(f"{C.GREEN}✅ Fuente añadida.{C.END}")
+                time.sleep(1)
+        elif opcion == '2':
+            if not fuentes: continue
+            try:
+                idx = int(input(f"{C.CYAN}🔢 Número: {C.END}").strip()) - 1
+                if 0 <= idx < len(fuentes):
+                    print(f"{C.GREY}Actual: {fuentes[idx].get('url')}{C.END}")
+                    nueva = input(f"{C.CYAN}Nueva URL: {C.END}").strip()
+                    if nueva:
+                        fuentes[idx]['url'] = procesar_url_embed(nueva)
+                        print(f"{C.GREEN}✅ URL actualizada.{C.END}")
+                        time.sleep(1)
+            except ValueError: pass
+        elif opcion == '3':
+            if not fuentes: continue
+            try:
+                idx = int(input(f"{C.CYAN}🔢 Número: {C.END}").strip()) - 1
+                if 0 <= idx < len(fuentes):
+                    fuentes.pop(idx)
+                    print(f"{C.GREEN}✅ Fuente eliminada.{C.END}")
+                    time.sleep(1)
+            except ValueError: pass
+
 def gestionar_temporadas(serie):
     """Gestiona las temporadas y episodios de una serie."""
     while True:
@@ -1505,7 +1556,7 @@ def seleccionar_contenido(peliculas, accion="seleccionar"):
         
         total_paginas = (len(items) + por_pagina - 1) // por_pagina
         print(f"\n{C.CYAN}Página {pagina + 1} de {total_paginas}{C.END}")
-        print(f"{C.YELLOW}[S] Siguiente | [A] Anterior | [Número] Seleccionar | [0] Cancelar{C.END}")
+        print(f"{C.YELLOW}[S] Siguiente | [A] Anterior | [B] Buscar | [Número] Seleccionar | [0] Cancelar{C.END}")
         
         opcion = input(f"\n{C.GOLD}🎲 Elige: {C.END}").lower()
         
@@ -1515,6 +1566,27 @@ def seleccionar_contenido(peliculas, accion="seleccionar"):
         elif opcion == 'a':
             if pagina > 0:
                 pagina -= 1
+        elif opcion == 'b':
+            busqueda = input(f"\n{C.CYAN}🔍 Buscar: {C.END}").strip().lower()
+            if busqueda:
+                resultados = [item for item in items if busqueda in item.get('titulo', '').lower()]
+                if resultados:
+                    print(f"\n{C.GREEN}✅ Resultados encontrados:{C.END}")
+                    for i, res in enumerate(resultados, 1):
+                        print(f"  {i}. {res.get('titulo')} ({res.get('año')})")
+                    
+                    try:
+                        sel = input(f"\n{C.CYAN}Selecciona número (0 para cancelar): {C.END}").strip()
+                        if sel != '0':
+                            idx_res = int(sel) - 1
+                            if 0 <= idx_res < len(resultados):
+                                return resultados[idx_res]
+                    except ValueError:
+                        print(f"{C.RED}❌ Selección inválida{C.END}")
+                        time.sleep(1)
+                else:
+                    print(f"{C.RED}❌ No se encontraron resultados{C.END}")
+                    time.sleep(1)
         elif opcion == '0':
             return None
         else:
@@ -1546,7 +1618,7 @@ def anadir_contenido(peliculas, proximamente):
     print(f"  1. 🚀 Búsqueda automática con TMDb (SUPER MEJORADO)")
     print(f"  2. 🌐 Extraer desde URL")
     print(f"  3. ✍️  Añadir manualmente")
-    print(f"  4. 🔍 Buscar por ID de TMDb")
+    print(f"  4. 🔍 Buscar por URL/ID de TMDb")
     print(f"  5. ⚡ Búsqueda rápida (sin TMDb)")
     
     metodo = input(f"\n{C.CYAN}🎲 Elige método (1-5): {C.END}").strip()
@@ -1562,9 +1634,27 @@ def anadir_contenido(peliculas, proximamente):
                 print(f"\n{C.GREEN}✅ Datos obtenidos exitosamente!{C.END}")
     
     elif metodo == '4':
-        # Buscar por ID de TMDb
-        tmdb_id = input(f"\n{C.CYAN}🔢 ID de TMDb: {C.END}").strip()
-        if tmdb_id and tmdb_id.isdigit():
+        # Buscar por URL o ID de TMDb
+        entrada = input(f"\n{C.CYAN}🔗 URL o ID de TMDb: {C.END}").strip()
+        tmdb_id = None
+        
+        # Intentar extraer ID si es una URL
+        match = re.search(r'/(movie|tv)/(\d+)', entrada)
+        
+        if match:
+            tipo_detectado = match.group(1)
+            tmdb_id = match.group(2)
+            
+            # Actualizar el tipo según la URL para asegurar consistencia
+            if tipo_detectado == 'movie':
+                tipo = 'pelicula'
+            elif tipo_detectado == 'tv':
+                tipo = 'serie'
+            print(f"{C.GREEN}✅ ID detectado: {tmdb_id} (Tipo: {tipo}){C.END}")
+        elif entrada.isdigit():
+            tmdb_id = entrada
+            
+        if tmdb_id:
             datos_extras = obtener_detalles_tmdb_super_mejorado(int(tmdb_id), tipo) or {}
     
     elif metodo == '5':
@@ -1876,6 +1966,12 @@ def editar_contenido(peliculas, editados, item_a_editar=None):
                 if campo_editar == 'temporadas' and item_a_editar.get('tipo') == 'serie':
                     gestionar_temporadas(item_a_editar)
                     continue # Volver al menú de edición principal
+                # --- FIN MANEJO ESPECIAL ---
+
+                # --- MANEJO ESPECIAL PARA FUENTES ---
+                if campo_editar == 'fuentes' and item_a_editar.get('tipo') == 'pelicula':
+                    gestionar_fuentes(item_a_editar)
+                    continue
                 # --- FIN MANEJO ESPECIAL ---
                 
                 print(f"\n{C.YELLOW}Editando '{campo_editar}'{C.END}")

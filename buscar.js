@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    if (window.peliculas && window.peliculas.length > 0) {
+    if ((window.peliculas && window.peliculas.length > 0) || (window.tmdbConfig && window.tmdbConfig.accessToken)) {
         initSearchPage();
     } else {
         document.addEventListener('app-ready', initSearchPage);
@@ -15,7 +15,7 @@ function initSearchPage() {
     if (window.searchPageInitialized) return;
     window.searchPageInitialized = true;
 
-    console.log("Iniciando página de búsqueda latino...");
+    console.log("Iniciando página de búsqueda...");
 
     const searchInput = document.getElementById('search-page-input');
     const clearSearchBtn = document.getElementById('clear-search-btn');
@@ -24,18 +24,13 @@ function initSearchPage() {
     const placeholder = document.getElementById('search-placeholder');
     const loader = document.getElementById('loader');
     const genreFilter = document.getElementById('genre-filter');
-    const languageFilter = document.getElementById('language-filter');
     const sortBy = document.getElementById('sort-by');
     const resultsCount = document.getElementById('results-count');
-    const externalSearchContainer = document.getElementById('external-search-container');
-    const externalSearchTerm = document.getElementById('external-search-term');
-    const countdownElement = document.getElementById('countdown');
 
     let debounceTimer;
-    let redirectCountdown = null;
     let currentSearchTerm = '';
 
-    // 1. Populate Genre Filter con géneros latinos
+    // 1. Populate Genre Filter
     populateGenreFilter();
 
     // 2. Event Listeners
@@ -49,13 +44,6 @@ function initSearchPage() {
             const val = searchInput.value.trim();
             if (clearSearchBtn) clearSearchBtn.style.display = val ? 'block' : 'none';
 
-            // Cancelar redirección automática si el usuario sigue escribiendo
-            if (redirectCountdown) {
-                clearInterval(redirectCountdown);
-                redirectCountdown = null;
-                if (externalSearchContainer) externalSearchContainer.style.display = 'none';
-            }
-
             if (!val) {
                 clearResults();
                 return;
@@ -63,11 +51,6 @@ function initSearchPage() {
 
             loader.style.display = 'block';
             placeholder.style.display = 'none';
-            resultsContainer.style.display = 'none';
-            
-            if (externalSearchContainer) {
-                externalSearchContainer.style.display = 'none';
-            }
 
             debounceTimer = setTimeout(performSearch, 400);
         });
@@ -91,8 +74,10 @@ function initSearchPage() {
     }
 
     if (genreFilter) genreFilter.addEventListener('change', performSearch);
-    if (languageFilter) languageFilter.addEventListener('change', performSearch);
     if (sortBy) sortBy.addEventListener('change', performSearch);
+
+    // Cargar resultados iniciales (Tendencias + Local) automáticamente
+    performSearch();
 
     // --- Helper Functions ---
 
@@ -100,15 +85,8 @@ function initSearchPage() {
         if (!genreFilter) return;
         const genres = new Set();
         
-        // Géneros comunes en contenido latino
-        const latinoGenres = [
-            'Cine Mexicano', 'Telenovela', 'Comedia Mexicana', 'Drama Latino',
-            'Acción Latino', 'Cine Argentino', 'Cine Colombiano', 'Cine Chileno',
-            'Series Latino', 'Reality Latino', 'Documental Latino', 'Infantil Latino',
-            'Animación Latino', 'Musical Latino', 'Romance Latino', 'Terror Latino'
-        ];
-        
         // Añadir géneros de las películas
+        if (window.peliculas && Array.isArray(window.peliculas)) {
         window.peliculas.forEach(item => {
             if (item.genero) {
                 if (Array.isArray(item.genero)) {
@@ -124,10 +102,8 @@ function initSearchPage() {
                 }
             }
         });
+        }
 
-        // Combinar géneros
-        latinoGenres.forEach(genre => genres.add(genre));
-        
         const sortedGenres = Array.from(genres).sort();
         genreFilter.innerHTML = '<option value="all">Todos los Géneros</option>';
         
@@ -147,78 +123,43 @@ function initSearchPage() {
             placeholder.style.display = 'block';
             placeholder.innerHTML = `
                 <h2 class="no-results-title">
-                    <i class="fas fa-globe-americas latino-icon"></i> Contenido Latino
+                    <i class="fas fa-search"></i> Buscar
                 </h2>
-                <p class="no-results-subtitle">Busca películas y series en español latino mexicano</p>
-                <div style="margin-top: 30px; color: #666; max-width: 500px; margin-left: auto; margin-right: auto;">
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 20px;">
-                        <div style="background: rgba(0, 91, 187, 0.1); padding: 15px; border-radius: 10px;">
-                            <i class="fas fa-film" style="color: #005bbb; font-size: 1.5rem; margin-bottom: 10px;"></i>
-                            <p style="font-size: 0.9rem; margin: 0;">Cine Mexicano</p>
-                        </div>
-                        <div style="background: rgba(0, 91, 187, 0.1); padding: 15px; border-radius: 10px;">
-                            <i class="fas fa-tv" style="color: #005bbb; font-size: 1.5rem; margin-bottom: 10px;"></i>
-                            <p style="font-size: 0.9rem; margin: 0;">Series Latino</p>
-                        </div>
-                        <div style="background: rgba(0, 91, 187, 0.1); padding: 15px; border-radius: 10px;">
-                            <i class="fas fa-microphone" style="color: #005bbb; font-size: 1.5rem; margin-bottom: 10px;"></i>
-                            <p style="font-size: 0.9rem; margin: 0;">Doblaje Latino</p>
-                        </div>
-                    </div>
-                </div>
+                <p class="no-results-subtitle">Encuentra tus películas y series favoritas</p>
             `;
         }
         if (loader) loader.style.display = 'none';
         if (resultsCount) resultsCount.textContent = '';
-        
-        // Ocultar contenedor externo
-        if (externalSearchContainer) {
-            externalSearchContainer.style.display = 'none';
-        }
-        
-        // Cancelar redirección si existe
-        if (redirectCountdown) {
-            clearInterval(redirectCountdown);
-            redirectCountdown = null;
-        }
     }
 
-    function performSearch() {
+    async function performSearch() {
         const query = searchInput.value.toLowerCase().trim();
         const selectedGenre = genreFilter ? genreFilter.value : 'all';
-        const selectedLanguage = languageFilter ? languageFilter.value : 'latino';
         const sortCriteria = sortBy ? sortBy.value : 'popularity';
 
         currentSearchTerm = query;
 
-        if (!query && selectedGenre === 'all') {
-            clearResults();
-            return;
-        }
-
-        // Mostrar loader con mensaje latino
+        // Mostrar loader
         if (loader) {
             loader.style.display = 'block';
             loader.innerHTML = `
                 <i class="fas fa-spinner fa-spin" style="font-size: 3rem; color: #00aaff;"></i>
                 <p style="margin-top: 15px; color: #00aaff;">
-                    <i class="fas fa-globe-americas"></i> Buscando contenido latino...
+                    Buscando...
                 </p>
             `;
         }
         
-        if (resultsContainer) resultsContainer.style.display = 'none';
         if (placeholder) placeholder.style.display = 'none';
-        if (externalSearchContainer) externalSearchContainer.style.display = 'none';
 
-        // Filtrar resultados con prioridad latino
-        let results = window.peliculas.filter(item => {
+        // 1. Filtrar resultados locales
+        let results = [];
+        if (window.peliculas && Array.isArray(window.peliculas)) {
+            results = window.peliculas.filter(item => {
             // Búsqueda de texto
             const title = normalizeText(item.titulo);
             const director = normalizeText(item.director || '');
             const actors = normalizeText(item.reparto || '');
-            const country = normalizeText(item.pais || '');
-            const language = normalizeText(item.idioma || '');
             const normalizedQuery = normalizeText(query);
 
             const matchesText = !query || 
@@ -241,70 +182,72 @@ function initSearchPage() {
                 );
             }
 
-            // Filtro de idioma (PRIORIDAD LATINO)
-            let matchesLanguage = true;
-            if (selectedLanguage !== 'all') {
-                // Verificar si tiene idioma específico
-                const itemLanguage = language.toLowerCase();
-                const itemCountry = country.toLowerCase();
-                
-                switch(selectedLanguage) {
-                    case 'latino':
-                        // Priorizar contenido latinoamericano
-                        matchesLanguage = itemLanguage.includes('latino') || 
-                                        itemLanguage.includes('mexic') ||
-                                        itemCountry.includes('méxico') ||
-                                        itemCountry.includes('mexic') ||
-                                        itemCountry.includes('argentina') ||
-                                        itemCountry.includes('colombia') ||
-                                        itemCountry.includes('chile') ||
-                                        itemCountry.includes('perú') ||
-                                        itemCountry.includes('venezuela');
-                        break;
-                    case 'mexico':
-                        matchesLanguage = itemLanguage.includes('mexic') || 
-                                        itemCountry.includes('méxico') ||
-                                        itemCountry.includes('mexic');
-                        break;
-                    case 'espanol':
-                        matchesLanguage = itemLanguage.includes('español') || 
-                                        itemLanguage.includes('esp');
-                        break;
-                    case 'subtitulado':
-                        matchesLanguage = itemLanguage.includes('subt') || 
-                                        itemLanguage.includes('sub');
-                        break;
-                }
-                
-                // Si no hay datos de idioma, asumir que es latino
-                if (!itemLanguage && !itemCountry && selectedLanguage === 'latino') {
-                    matchesLanguage = true;
-                }
-            }
-
-            return matchesText && matchesGenre && matchesLanguage;
+            return matchesText && matchesGenre;
         });
+        }
 
-        // Ordenar resultados (priorizar contenido latino)
-        sortResults(results, sortCriteria, selectedLanguage);
+        // 2. Búsqueda en TMDB (Búsqueda o Tendencias si está vacío)
+        if (selectedGenre === 'all' && window.tmdbConfig && window.tmdbConfig.accessToken) {
+            try {
+                let tmdbUrl = '';
+                if (query) {
+                    tmdbUrl = `https://api.themoviedb.org/3/search/multi?query=${encodeURIComponent(query)}&include_adult=false&language=es-ES&page=1`;
+                } else {
+                    // Si no hay búsqueda, mostrar tendencias semanales (Películas y Series)
+                    tmdbUrl = `https://api.themoviedb.org/3/trending/all/week?language=es-ES&page=1`;
+                }
+
+                const response = await fetch(tmdbUrl, {
+                    headers: {
+                        'Authorization': `Bearer ${window.tmdbConfig.accessToken}`,
+                        'accept': 'application/json'
+                    }
+                });
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    if (data.results) {
+                        const localTitles = new Set(results.map(r => normalizeText(r.titulo)));
+                        
+                        const tmdbResults = data.results.map(item => {
+                            if (item.media_type !== 'movie' && item.media_type !== 'tv') return null;
+                            if (!item.poster_path) return null;
+                            
+                            return {
+                                id: `tmdb-${item.id}`,
+                                tmdbId: item.id,
+                                titulo: item.title || item.name,
+                                poster: `https://image.tmdb.org/t/p/w500${item.poster_path}`,
+                                año: (item.release_date || item.first_air_date || '').split('-')[0],
+                                calificacion: item.vote_average,
+                                tipo: item.media_type === 'tv' ? 'serie' : 'pelicula',
+                                esTmdb: true,
+                                descripcion: item.overview,
+                                genero: [] 
+                            };
+                        }).filter(item => item && !localTitles.has(normalizeText(item.titulo)));
+                        
+                        results = [...results, ...tmdbResults];
+                    }
+                }
+            } catch (error) {
+                console.error("Error buscando en TMDB:", error);
+            }
+        }
+
+        // Ordenar resultados
+        sortResults(results, sortCriteria);
 
         // Renderizar resultados
-        displayResults(results, query, selectedLanguage);
+        displayResults(results, query);
         
         if (loader) loader.style.display = 'none';
     }
 
-    function sortResults(results, criteria, language) {
+    function sortResults(results, criteria) {
         switch (criteria) {
             case 'popularity':
-                // Priorizar contenido latino en popularidad
                 results.sort((a, b) => {
-                    // Dar prioridad a contenido mexicano/latino
-                    const priorityA = getLatinoPriority(a, language);
-                    const priorityB = getLatinoPriority(b, language);
-                    
-                    if (priorityB !== priorityA) return priorityB - priorityA;
-                    
                     const popA = a.votos || a.calificacion || 0;
                     const popB = b.votos || b.calificacion || 0;
                     if (popB !== popA) return popB - popA;
@@ -323,61 +266,22 @@ function initSearchPage() {
         }
     }
     
-    function getLatinoPriority(item, language) {
-        let priority = 0;
-        const itemLanguage = (item.idioma || '').toLowerCase();
-        const itemCountry = (item.pais || '').toLowerCase();
-        
-        if (language === 'latino') {
-            // Prioridad máxima para contenido mexicano
-            if (itemCountry.includes('méxico') || itemCountry.includes('mexic')) {
-                priority += 100;
-            }
-            // Prioridad alta para otros países latinos
-            if (itemCountry.includes('argentina') || itemCountry.includes('colombia') || 
-                itemCountry.includes('chile') || itemCountry.includes('perú')) {
-                priority += 50;
-            }
-            // Prioridad media para contenido con idioma latino
-            if (itemLanguage.includes('latino') || itemLanguage.includes('mexic')) {
-                priority += 30;
-            }
-        }
-        
-        return priority;
-    }
-
-    function displayResults(results, query, language) {
+    function displayResults(results, query) {
         if (!resultsGrid) return;
         resultsGrid.innerHTML = '';
-
-        // Cancelar cualquier redirección previa
-        if (redirectCountdown) {
-            clearInterval(redirectCountdown);
-            redirectCountdown = null;
-        }
 
         if (results.length === 0 && query) {
             resultsContainer.style.display = 'none';
             loader.style.display = 'none';
             
-            // Mostrar mensaje de no resultados en latino
             placeholder.style.display = 'block';
             placeholder.innerHTML = `
                 <div class="no-results-container">
-                    <i class="fas fa-globe-americas" style="font-size: 3rem; color: #005bbb; margin-bottom: 20px;"></i>
-                    <h2 class="no-results-title">No encontramos contenido latino</h2>
-                    <p class="no-results-subtitle">No encontramos "<span class="search-highlight">${query}</span>" en nuestro catálogo latino.</p>
-                    
-                    <div class="loading-latino">
-                        <i class="fas fa-search"></i> Buscando en fuentes latinoamericanas...
-                    </div>
+                    <i class="fas fa-search" style="font-size: 3rem; color: #00aaff; margin-bottom: 20px;"></i>
+                    <h2 class="no-results-title">"${query}"</h2>
+                    <p class="no-results-subtitle">No disponible</p>
                 </div>
             `;
-            
-            // Configurar búsqueda externa LATINO
-            setupExternalSearch(query, language);
-            
             return;
         }
 
@@ -386,66 +290,26 @@ function initSearchPage() {
             resultsContainer.style.display = 'block';
             
             if (resultsCount) {
-                const latinoCount = results.filter(item => 
-                    (item.idioma || '').toLowerCase().includes('latino') || 
-                    (item.pais || '').toLowerCase().includes('méxico')
-                ).length;
-                
-                resultsCount.textContent = `${results.length} ${results.length === 1 ? 'resultado' : 'resultados'} (${latinoCount} latino)`;
-            }
-            
-            if (externalSearchContainer) {
-                externalSearchContainer.style.display = 'none';
+                resultsCount.textContent = `${results.length} ${results.length === 1 ? 'resultado' : 'resultados'}`;
             }
 
-            // Mostrar hasta 50 resultados
-            const displayResults = results.slice(0, 50);
+            // Mostrar todos los resultados
+            const displayResults = results;
             
             displayResults.forEach(movie => {
                 if (window.createMovieCard) {
-                    // Añadir badge latino si corresponde
-                    const isLatino = (movie.idioma || '').toLowerCase().includes('latino') || 
-                                    (movie.pais || '').toLowerCase().includes('méxico');
-                    
                     const card = window.createMovieCard(movie, true, query);
-                    
-                    // Añadir badge latino si no lo tiene
-                    if (isLatino && !card.querySelector('.latino-badge')) {
-                        const badge = document.createElement('span');
-                        badge.className = 'latino-badge';
-                        badge.textContent = 'LATINO';
-                        badge.style.cssText = `
-                            position: absolute;
-                            top: 10px;
-                            right: 10px;
-                            background: #005bbb;
-                            color: white;
-                            padding: 3px 8px;
-                            border-radius: 10px;
-                            font-size: 0.7rem;
-                            font-weight: bold;
-                            z-index: 10;
-                        `;
-                        card.style.position = 'relative';
-                        card.appendChild(badge);
-                    }
-                    
                     resultsGrid.appendChild(card);
                 } else {
-                    // Fallback básico con badge latino
-                    const isLatino = (movie.idioma || '').toLowerCase().includes('latino') || 
-                                    (movie.pais || '').toLowerCase().includes('méxico');
-                    
                     const card = document.createElement('div');
                     card.className = 'movie-card';
                     card.style.position = 'relative';
                     
                     card.innerHTML = `
-                        <img src="${movie.poster || 'https://via.placeholder.com/180x270/005bbb/fff?text=Latino'}" 
+                        <img src="${movie.poster || 'https://via.placeholder.com/180x270/333333/ffffff?text=No+Image'}" 
                              alt="${movie.titulo}" 
                              style="width:100%; border-radius:8px; aspect-ratio: 2/3; object-fit: cover;">
                         <h3 style="margin-top: 10px; font-size: 0.9rem; color: #fff;">${movie.titulo}</h3>
-                        ${isLatino ? '<span class="latino-badge" style="position: absolute; top: 10px; right: 10px; background: #005bbb; color: white; padding: 3px 8px; border-radius: 10px; font-size: 0.7rem; font-weight: bold;">LATINO</span>' : ''}
                     `;
                     
                     card.onclick = () => {
@@ -456,102 +320,6 @@ function initSearchPage() {
                 }
             });
         }
-    }
-
-    function setupExternalSearch(query, language) {
-        if (!externalSearchContainer || !externalSearchTerm) return;
-        
-        // Actualizar término de búsqueda
-        externalSearchTerm.textContent = `"${query}"`;
-        externalSearchContainer.style.display = 'block';
-        
-        // Configurar botones para búsqueda latina
-        const searchLatinoBtn = document.getElementById('search-latino-btn');
-        const searchMexicoBtn = document.getElementById('search-mexico-btn');
-        
-        if (searchLatinoBtn) {
-            searchLatinoBtn.onclick = () => {
-                redirectToLatinoSearch(query, 'latino');
-            };
-        }
-        
-        if (searchMexicoBtn) {
-            searchMexicoBtn.onclick = () => {
-                redirectToLatinoSearch(query, 'mexico');
-            };
-        }
-        
-        // Iniciar cuenta regresiva para redirección automática
-        startAutoRedirect(query, language);
-    }
-
-    function startAutoRedirect(query, language) {
-        if (!countdownElement) return;
-        
-        let countdown = 5;
-        countdownElement.textContent = countdown;
-        
-        redirectCountdown = setInterval(() => {
-            countdown--;
-            if (countdownElement) {
-                countdownElement.textContent = countdown;
-            }
-            
-            if (countdown <= 0) {
-                clearInterval(redirectCountdown);
-                redirectToLatinoSearch(query, language); // Redirigir automáticamente
-            }
-        }, 1000);
-    }
-
-    function redirectToLatinoSearch(query, language) {
-        // Limpiar la cuenta regresiva
-        if (redirectCountdown) {
-            clearInterval(redirectCountdown);
-            redirectCountdown = null;
-        }
-        
-        // Codificar query para URL con términos latinos
-        const enhancedQuery = enhanceLatinoSearch(query, language);
-        const encodedQuery = encodeURIComponent(enhancedQuery);
-        
-        // Redirigir a la página de detalles con parámetros latinos
-        window.location.href = `detalles.html?search=${encodedQuery}&lang=${language}&source=latino`;
-    }
-
-    function enhanceLatinoSearch(query, language) {
-        let enhancedQuery = query;
-        
-        // Añadir términos específicos según el idioma
-        switch(language) {
-            case 'latino':
-                enhancedQuery = `${query} español latino online`;
-                break;
-            case 'mexico':
-                enhancedQuery = `${query} mexicano español latino`;
-                break;
-            case 'espanol':
-                enhancedQuery = `${query} español castellano`;
-                break;
-            default:
-                enhancedQuery = `${query} español latino`;
-        }
-        
-        // Añadir términos comunes para búsqueda de películas latinas
-        const latinoTerms = [
-            'latino',
-            'español latino',
-            'doblado latino',
-            'audio latino',
-            'méxico',
-            'mexicano',
-            'cine mexicano',
-            'película latina',
-            'serie latina'
-        ];
-        
-        // Ya incluimos los términos principales, no duplicar
-        return enhancedQuery;
     }
 }
 

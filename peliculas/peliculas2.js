@@ -100,6 +100,197 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "(Ho Ho Ho) Santa Homer",
+    "titulo_original": "The Simpsons: O C'mon All Ye Faithful",
+    "poster": "https://image.tmdb.org/t/p/w500/q4nny4lnjnLYzN10EvBBRsJComp.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3kbWZFgcCx4YbKkKHvJDGh6ebsH.jpg",
+    "descripcion": "Las cosas se tuercen cuando el famoso mentalista británico Derren Brown llega a Springfield, Homer es hipnotizado y se cree Santa Claus, lo que desata una festiva reacción en cadena.",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "animación",
+      "comedia"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Comedia"
+    ],
+    "director": "Debbie Bruce Mahan",
+    "reparto": [
+      {
+        "name": "Dan Castellaneta",
+        "profile_path": "https://image.tmdb.org/t/p/w185/AmeqWhP4A46AWkM4kVphg6jOTQX.jpg"
+      },
+      {
+        "name": "Julie Kavner",
+        "profile_path": "https://image.tmdb.org/t/p/w185/87kSPYlWcHvqOVEkhdqxysiAf6w.jpg"
+      },
+      {
+        "name": "Nancy Cartwright",
+        "profile_path": "https://image.tmdb.org/t/p/w185/40qNhyYJhSE2Yiy4pnXSZhdufO6.jpg"
+      },
+      {
+        "name": "Yeardley Smith",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9AjPwbb3uz4GfgOPBYsy2ILvwkB.jpg"
+      },
+      {
+        "name": "Hank Azaria",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yFDw4b0jucuFWNnGcBPfpYUtn16.jpg"
+      },
+      {
+        "name": "Harry Shearer",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7PnGZGVKJNDTUv3DkbaMEnCseT0.jpg"
+      },
+      {
+        "name": "Derren Brown",
+        "profile_path": "https://image.tmdb.org/t/p/w185/u8nwmf1bgaF7huakfKaGCYRqM5H.jpg"
+      },
+      {
+        "name": "Patti LaBelle",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1t9BjspI4Y3eXombjV4H6eLhBWv.jpg"
+      },
+      {
+        "name": "Avi Kaplan",
+        "profile_path": "https://image.tmdb.org/t/p/w185/41gECSCBa34NsTiyJxp77B13eSD.jpg"
+      },
+      {
+        "name": "Kirstin Maldonado",
+        "profile_path": "https://image.tmdb.org/t/p/w185/abOgRTtOedxHgz8nDSRMzXPSvEM.jpg"
+      },
+      {
+        "name": "Scott Hoying",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3CQpB3DvpBDcWBU82oOw1iA8fJv.jpg"
+      },
+      {
+        "name": "Mitch Grassi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/x297sr2BulShAlO0ldO5EaavbC4.jpg"
+      }
+    ],
+    "calificacion": 6.9,
+    "votos": 93,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T23:28:21.735312",
+    "tmdb_id": 1399914,
+    "popularidad": 2.76,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=hiRST4Jvo0s",
+    "success": true,
+    "duracion": "45 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://playerwish.com/e/w7rhsxp49d3h",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "ho-ho-ho-santa-homer-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "100 Millions !",
+    "titulo_original": "100 Millions !",
+    "poster": "https://image.tmdb.org/t/p/w500/2i6ajHwV6lcIWgLw4CbDWgoYvU5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fSnrjhK1KkFQSeIz2yuwnPeazY0.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Nath Dumont",
+    "reparto": [
+      {
+        "name": "Kad Merad",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2hgcdLF0GqtzUGUFATH9AwLfS7J.jpg"
+      },
+      {
+        "name": "Michèle Laroque",
+        "profile_path": "https://image.tmdb.org/t/p/w185/v4BquPOwY3z9tD3g8QW3yX288ou.jpg"
+      },
+      {
+        "name": "Martin Karmann",
+        "profile_path": "https://image.tmdb.org/t/p/w185/m6CKZrpD2esNbHt4aCXHztAlLv4.jpg"
+      },
+      {
+        "name": "Jade-Rose Parker",
+        "profile_path": "https://image.tmdb.org/t/p/w185/b7q5RypNn7MeBpsOBv6HYDGuqwK.jpg"
+      },
+      {
+        "name": "Fatsah Bouyahmed",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rGsYxO16j7Wu3PR8D8MrUbHuNjU.jpg"
+      },
+      {
+        "name": "Guy Lecluyse",
+        "profile_path": "https://image.tmdb.org/t/p/w185/98Q2dBIfWcfUS2Z4MelzH2eUXjk.jpg"
+      },
+      {
+        "name": "Heza Botto",
+        "profile_path": null
+      },
+      {
+        "name": "Arielle Sémenoff",
+        "profile_path": "https://image.tmdb.org/t/p/w185/otWDpyeNuEw9Ya6YZIas1mZmZWu.jpg"
+      },
+      {
+        "name": "Roland Gervet",
+        "profile_path": null
+      },
+      {
+        "name": "Lionel Abelanski",
+        "profile_path": "https://image.tmdb.org/t/p/w185/z1cw7HrXU6IKpwhkZwN8iXK8qEa.jpg"
+      },
+      {
+        "name": "Maxime Lélue",
+        "profile_path": null
+      },
+      {
+        "name": "Michel Bompoil",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mNxyaGGLZ8XdWEs5FsPZ0SC8hjh.jpg"
+      }
+    ],
+    "calificacion": 4.3,
+    "votos": 35,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T23:15:23.131518",
+    "tmdb_id": 1309410,
+    "popularidad": 5.45,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "97 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://jilliandescribecompany.com/e/wbersb86cuii",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "100-millions-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "A.X.L.",
     "titulo_original": "A-X-L",
     "poster": "https://image.tmdb.org/t/p/w500/9kB56ZdMB6RgY5QtX9Bar45jCeI.jpg",
@@ -198,6 +389,107 @@ const peliculas2 = [
       }
     ],
     "id": "axl-2018"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Almost Cops",
+    "titulo_original": "Bad Boa's",
+    "poster": "https://image.tmdb.org/t/p/w500/vIkfAFMOOro5U01raZJ9nScGeBM.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9l6bcHNFLR2fcCBSPzEeqxiQhwU.jpg",
+    "descripcion": "Un entregado policía municipal y un exagente temerario se ven obligados a colaborar. Juntos desatarán el caos por las calles de Róterdam.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "acción",
+      "comedia",
+      "crimen",
+      "misterio"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Comedia",
+      "Crimen",
+      "Misterio"
+    ],
+    "director": "Gonzalo Fernandez Carmona",
+    "reparto": [
+      {
+        "name": "Jandino Asporaat",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rVNw6iKLmr0urNeIGK06O43W18S.jpg"
+      },
+      {
+        "name": "Werner Kolf",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yP9UwDUKd5P7QUhCg1IDLysIjrC.jpg"
+      },
+      {
+        "name": "Mark Rietman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xxVqR3iww6ZUfViSje6VUkYuL2T.jpg"
+      },
+      {
+        "name": "Florence Vos Weeda",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ilOGCoxhOywCbR6lb1VFPgfsISv.jpg"
+      },
+      {
+        "name": "Juliette van Ardenne",
+        "profile_path": "https://image.tmdb.org/t/p/w185/66bHusvvCLDWuKdJ0GlUji3bUfT.jpg"
+      },
+      {
+        "name": "Ferdi Stofmeel",
+        "profile_path": "https://image.tmdb.org/t/p/w185/4dxZSNXedWu0D4rhbOlldGUjA8w.jpg"
+      },
+      {
+        "name": "Teun Kuilboer",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pNMxVy13tYNbXM3IEUYlJEjruBg.jpg"
+      },
+      {
+        "name": "Daniël Kolf",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hsmbfyaa6H632UjqLgfeqZ077Hm.jpg"
+      },
+      {
+        "name": "Victoria Koblenko",
+        "profile_path": "https://image.tmdb.org/t/p/w185/aPfyw7SpO7ELFcddGJqIbKBtqyb.jpg"
+      },
+      {
+        "name": "Romana Vrede",
+        "profile_path": "https://image.tmdb.org/t/p/w185/Z5cq9NI6Hh8BZbqrNSd97WzYKZ.jpg"
+      },
+      {
+        "name": "Yannick Jozefzoon",
+        "profile_path": "https://image.tmdb.org/t/p/w185/oC2g7McENs6SBIwChFklARrusRE.jpg"
+      },
+      {
+        "name": "Nazmiye Oral",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6ZGhL0X5uTrSQoXhLfbXBVlp6zW.jpg"
+      }
+    ],
+    "calificacion": 6.0,
+    "votos": 163,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T23:02:46.263872",
+    "tmdb_id": 1374534,
+    "popularidad": 6.11,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "95 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://vide0.net/e/av13mx3w81s7",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "almost-cops-2025"
   },
   {
     "tipo": "pelicula",
@@ -403,6 +695,107 @@ const peliculas2 = [
       }
     ],
     "id": "baywatch-los-vigilantes-de-la-playa-2017"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Bob Esponja: Una aventura pirata",
+    "titulo_original": "The SpongeBob Movie: Search for SquarePants",
+    "poster": "https://image.tmdb.org/t/p/w500/t9656f2KVPWbv6cUCW15Jni2YlK.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kVSUUWiXoNwq2wVCZ4Mcqkniqvr.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "familia",
+      "comedia",
+      "aventura",
+      "animación"
+    ],
+    "generos_lista": [
+      "Familia",
+      "Comedia",
+      "Aventura",
+      "Animación"
+    ],
+    "director": "Derek Drymon",
+    "reparto": [
+      {
+        "name": "Tom Kenny",
+        "profile_path": "https://image.tmdb.org/t/p/w185/dKOxpGnRkIMaPkZSHKIns99WxQa.jpg"
+      },
+      {
+        "name": "Clancy Brown",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1JeBRNG7VS7r64V9lOvej9bZXW5.jpg"
+      },
+      {
+        "name": "Rodger Bumpass",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lGQkw6adxqB6Hcm7VK8nVHbKupe.jpg"
+      },
+      {
+        "name": "Bill Fagerbakke",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zntKKc1uT53BnIihmzbq601eWKZ.jpg"
+      },
+      {
+        "name": "Carolyn Lawrence",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vHycxQTs8EuyFdFJNww15xXB5lT.jpg"
+      },
+      {
+        "name": "Mr. Lawrence",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gWFgxlREzbaPPdWsQZSCdjrFozy.jpg"
+      },
+      {
+        "name": "George López",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jeUUeE3ipY9edqdOSNI9v5maAbi.jpg"
+      },
+      {
+        "name": "Ice Spice",
+        "profile_path": "https://image.tmdb.org/t/p/w185/q3O02uHVOWd6Qoa5uNQmXlpLEpj.jpg"
+      },
+      {
+        "name": "Arturo Castro",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pbLoDCfjm3fLtGHVqQcnbM2d0cu.jpg"
+      },
+      {
+        "name": "Sherry Cola",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fO6t05iJo4gqsTkOgPO1jwF4B4t.jpg"
+      },
+      {
+        "name": "Regina Hall",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jiFZ4xNrvUUZLBHnJu71CvdN4kj.jpg"
+      },
+      {
+        "name": "Mark Hamill",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zMQ93JTLW8KxusKhOlHFZhih3YQ.jpg"
+      }
+    ],
+    "calificacion": 7.2,
+    "votos": 13,
+    "idioma": "subtitulado",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T22:10:25.459661",
+    "tmdb_id": 991494,
+    "popularidad": 52.35,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=Xe8l5PuL0VA",
+    "success": true,
+    "duracion": "96 min",
+    "presupuesto": "$64,000,000",
+    "ingresos": "$16,000,957",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://fastream.to/embed-7zgtgwu8c5ha.html",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "bob-esponja-una-aventura-pirata-2025"
   },
   {
     "tipo": "serie",
@@ -631,6 +1024,103 @@ const peliculas2 = [
       }
     ],
     "id": "cazando-al-asesino-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Cazatesoros",
+    "titulo_original": "Cazatesoros",
+    "poster": "https://image.tmdb.org/t/p/w500/hhlncZZ6orfluFQvXUMVINgzAjy.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3354YDdIZm65L4T7Wvgg3o7OO8d.jpg",
+    "descripcion": "Un cazador de tesoros busca un botín que supuestamente fue enterrado con el explorador Cristóbal Colón.",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "aventura",
+      "comedia"
+    ],
+    "generos_lista": [
+      "Aventura",
+      "Comedia"
+    ],
+    "director": "Héctor Valdez",
+    "reparto": [
+      {
+        "name": "Franco Cabrera",
+        "profile_path": null
+      },
+      {
+        "name": "Carlos Alcántara",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kOA49MEbLUCvkob99Ju13H1eYFS.jpg"
+      },
+      {
+        "name": "Sergio Galliani",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vQpnoB6hxbibxT067m5qX4iNhog.jpg"
+      },
+      {
+        "name": "Patricia Barreto",
+        "profile_path": "https://image.tmdb.org/t/p/w185/aSGkbWr868JRp3MNdXuPkFYU0b8.jpg"
+      },
+      {
+        "name": "Víc Gómez",
+        "profile_path": null
+      },
+      {
+        "name": "Yasser Michelén",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rVFCIixdKsCQBCltbRTV7sUr4Q8.jpg"
+      },
+      {
+        "name": "Saul Molina",
+        "profile_path": null
+      },
+      {
+        "name": "Luinis Olaverria",
+        "profile_path": null
+      },
+      {
+        "name": "Omar de la Cruz",
+        "profile_path": null
+      },
+      {
+        "name": "Ramón García",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6uFmro28ZABA1greLXde7rfzL8K.jpg"
+      },
+      {
+        "name": "Nashla Bogaert",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tGCIlMxyMh3qpt7xNLzzltNHDQq.jpg"
+      },
+      {
+        "name": "Connie Chaparro",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wbZuL3GWzFs8IfejJpH447i3bIS.jpg"
+      }
+    ],
+    "calificacion": 7.4,
+    "votos": 8,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T23:39:28.872233",
+    "tmdb_id": 1370702,
+    "popularidad": 0.42,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=J7_YRKHPKv8",
+    "success": true,
+    "duracion": "106 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/hfcjfj5l0qo3",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "cazatesoros-2024"
   },
   {
     "tipo": "serie",
@@ -1615,6 +2105,101 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "El candidato honesto",
+    "titulo_original": "El candidato honesto",
+    "poster": "https://image.tmdb.org/t/p/w500/hmV5HPkbQuzgPo11Xm70CMQV3iZ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/nNfOG89aBM5caqRGgxihVeYRsMr.jpg",
+    "descripcion": "Tona alguna vez fue un líder con ideales, pero con el tiempo se convirtió en un político corrupto. Ahora que es candidato a la presidencia y está a un paso de ganar las elecciones, sufre el hechizo de su abuela que le impide hacer nada deshonesto. ¿Cómo podrá ganar las elecciones si no puede decir mentiras? ¿Cuál será su futuro como político si está obligado a decir siempre la verdad?",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Pipe Ybarra",
+    "reparto": [
+      {
+        "name": "Adrián Uribe",
+        "profile_path": "https://image.tmdb.org/t/p/w185/iqJaO3CpdxWTK6qv32UcpvFrqd6.jpg"
+      },
+      {
+        "name": "Mariana Seoane",
+        "profile_path": null
+      },
+      {
+        "name": "Teresa Ruiz",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bu0bGNDzIpaVfrOBBb1PERirBB9.jpg"
+      },
+      {
+        "name": "Daniel Tovar",
+        "profile_path": "https://image.tmdb.org/t/p/w185/506g7rh3arCswDq4BRz1Tx8909x.jpg"
+      },
+      {
+        "name": "Paola Ramones",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6JITrXDJPTogWkhOZ8MWKeYDoMY.jpg"
+      },
+      {
+        "name": "Leonardo Herrera",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lPtTpmRkMWvbFURNrdLPGzizmM2.jpg"
+      },
+      {
+        "name": "Luisa Huertas",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pk2t0f2EcRGxg55xG9gkbyk2xkH.jpg"
+      },
+      {
+        "name": "Enrique Arreola",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eUX3UQrOMSNyasimc5vYtwHY518.jpg"
+      },
+      {
+        "name": "Daniel Martínez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/l0kmFySd1QMdREDBpdkjGvAWniq.jpg"
+      },
+      {
+        "name": "Héctor Jiménez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/i6Q6G8HWLof7zXNbTgvpI6MuC3P.jpg"
+      },
+      {
+        "name": "Tiaré Scanda",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tEIJnn5ZVHUtDdFLhHP0Q2Fdgxx.jpg"
+      },
+      {
+        "name": "Elsy Reyes",
+        "profile_path": null
+      }
+    ],
+    "calificacion": 6.6,
+    "votos": 142,
+    "idioma": "ES",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T23:46:08.587042",
+    "tmdb_id": 1278099,
+    "popularidad": 5.34,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "95 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://goodstream.one/embed-atw4fqjmwknc.html",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-candidato-honesto-2024"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "El emperador y sus locuras",
     "titulo_original": "The Emperor's New Groove",
     "poster": "https://image.tmdb.org/t/p/w500/X9jChoAotaGU81lEraUVi8RHOe.jpg",
@@ -2102,6 +2687,103 @@ const peliculas2 = [
     "id": "el-secreto-del-refugio-2024"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "El sindicato",
+    "titulo_original": "The Union",
+    "poster": "https://image.tmdb.org/t/p/w500/1UHp2QEBPnTrcx0i6aYw6jWtDbI.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4ft6TR9wA6bra0RLL6G7JFDQ5t1.jpg",
+    "descripcion": "Un obrero de Nueva Jersey pasa de ser un tío normal a un aspirante a espía cuando su novia del instituto, desaparecida desde hace tiempo, lo recluta para una misión de espionaje.",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "acción",
+      "comedia"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Comedia"
+    ],
+    "director": "Julian Farino",
+    "reparto": [
+      {
+        "name": "Mark Wahlberg",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fqIZoibpZBwzCTBXQudVvPl87Db.jpg"
+      },
+      {
+        "name": "Halle Berry",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yfAJMERSlDIZD1iy6Aab8bArcCK.jpg"
+      },
+      {
+        "name": "J.K. Simmons",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ScmKoJ9eiSUOthAt1PDNLi8Fkw.jpg"
+      },
+      {
+        "name": "Mike Colter",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9LG9AzoY2ak6M2kwhKlGkLOUUot.jpg"
+      },
+      {
+        "name": "Adewale Akinnuoye-Agbaje",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zdtwVtVmmm7VzYfu8xH7mbuTvrH.jpg"
+      },
+      {
+        "name": "Jessica De Gouw",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pu09eASIUzHPJZMfHPkpFqDZ2RR.jpg"
+      },
+      {
+        "name": "Alice Lee",
+        "profile_path": "https://image.tmdb.org/t/p/w185/oFAOsbgtQk3d50Yjj8pw9jJ5lsH.jpg"
+      },
+      {
+        "name": "Jackie Earle Haley",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xDPeiyklN8f9Ilowsti4lGVbioj.jpg"
+      },
+      {
+        "name": "Stephen Campbell Moore",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5w4EvQfi5YipR5I5lhtN5dCDiEY.jpg"
+      },
+      {
+        "name": "Lorraine Bracco",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tAtpCzN4sTOy1RHpMpJj52zTO4S.jpg"
+      },
+      {
+        "name": "Dana Delany",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sw49JGyGVjgtIaARlDb7c3qcAcf.jpg"
+      },
+      {
+        "name": "Patch Darragh",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pLYaRnY2l61DphIUYZvLSlZZfGJ.jpg"
+      }
+    ],
+    "calificacion": 6.1,
+    "votos": 1074,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T23:45:03.489242",
+    "tmdb_id": 704239,
+    "popularidad": 3.73,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=q1stQKQry9o",
+    "success": true,
+    "duracion": "109 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://www.themoviedb.org/movie/704239-the-union",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-sindicato-2024"
+  },
+  {
     "tipo": "serie",
     "titulo": "Enloqueciendo contigo",
     "titulo_original": "Enloqueciendo contigo",
@@ -2546,6 +3228,91 @@ const peliculas2 = [
     "id": "este-amor-si-que-duele-2025"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "Exorcism Chronicles: The Beginning",
+    "titulo_original": "퇴마록",
+    "poster": "https://image.tmdb.org/t/p/w500/wwcNlc69qLyzDLY6sa9SLdUZfBx.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lDPiNMKFZUg2d1vfBpduYmzTMfs.jpg",
+    "descripcion": "El padre Park es un médico convertido en sacerdote que fue excomulgado por realizar exorcismos para una iglesia que negaba la existencia de males sobrenaturales. Cuando su viejo amigo, un monje de un templo secreto y lleno de magia, lo llama para proteger a un niño ingenuo, pero poderoso, de su malvado maestro, el padre Park deberá enfrentarse a su pasado.",
+    "año": 2025,
+    "categoria": [
+      "animes-populares"
+    ],
+    "genero": [
+      "animación",
+      "fantasía",
+      "terror",
+      "acción"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Fantasía",
+      "Terror",
+      "Acción"
+    ],
+    "director": "김동철",
+    "reparto": [
+      {
+        "name": "최한",
+        "profile_path": null
+      },
+      {
+        "name": "Nam Doh-hyeong",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jUqgi8MdAFWIZffk7iIgjRcdLb1.jpg"
+      },
+      {
+        "name": "Jung Yu-jung",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nTtaeXi9AqT5I5FXma7L4jFS3Wi.jpg"
+      },
+      {
+        "name": "Kim Yeon-woo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/x7iITyLrdw4TDhhYdG0sZGASSNA.jpg"
+      },
+      {
+        "name": "홍승효",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cCRuIxjnBXgJq6WXbnusezQvdvI.jpg"
+      },
+      {
+        "name": "황창영",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6SlUgdqSGTfbvoesJIFOHOePR4V.jpg"
+      },
+      {
+        "name": "김민주",
+        "profile_path": "https://image.tmdb.org/t/p/w185/e2Xfk09GaRE73U8oozf7aQaLkZY.jpg"
+      },
+      {
+        "name": "표영재",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hjYgl6TUc46fcAdoqHGd6M0khu3.jpg"
+      }
+    ],
+    "calificacion": 5.4,
+    "votos": 10,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T22:12:41.930636",
+    "tmdb_id": 1233199,
+    "popularidad": 7.35,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "86 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$3,373,287",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://minochinos.com/embed/qe8wzd3tagiy",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "exorcism-chronicles-the-beginning-2025"
+  },
+  {
     "tipo": "serie",
     "titulo": "Fallout",
     "titulo_original": "Fallout",
@@ -2673,6 +3440,100 @@ const peliculas2 = [
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-12-16",
     "id": "fallout-2024"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Fatal Destination",
+    "titulo_original": "Fatal Destination",
+    "poster": "https://image.tmdb.org/t/p/w500/v2JhIST4PR3QzF1ePEpPX06xC45.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/92Y0EIIQyE0kfnAuTxpGBOzvoBb.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "crimen",
+      "documental"
+    ],
+    "generos_lista": [
+      "Crimen",
+      "Documental"
+    ],
+    "director": "",
+    "reparto": [
+      {
+        "name": "Jessica Biel",
+        "profile_path": "https://image.tmdb.org/t/p/w185/u5DzbWKvAzS0M4ZhYqpUR9MZr2M.jpg"
+      }
+    ],
+    "calificacion": 8.5,
+    "votos": 2,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T23:07:36.538097",
+    "tmdb_id": 292175,
+    "popularidad": 0.64,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://fastream.to/embed-r5zsk80lxwn8.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://fastream.to/embed-89uivv8kz7b8.html",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://fastream.to/embed-0rgcl1cz4kqt.html",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://fastream.to/embed-dkamv4zm1f80.html",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://fastream.to/embed-bmp8y1u72sm9.html",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://fastream.to/embed-bmp8y1u72sm9.html",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 6,
+    "tipo_serie": "Documentary",
+    "ultima_emision": "2025-07-08",
+    "plataforma": "max",
+    "id": "fatal-destination-2025"
   },
   {
     "tipo": "serie",
@@ -3150,6 +4011,102 @@ const peliculas2 = [
     "tipo_serie": "Miniseries",
     "ultima_emision": "2025-07-01",
     "id": "ironheart-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Jackpot!",
+    "titulo_original": "Jackpot!",
+    "poster": "https://image.tmdb.org/t/p/w500/jExWD6GuvfSgOMMG49CF9Z5C6ZN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7mQ13AV4qd6A43XxXfSoyYQMzhh.jpg",
+    "descripcion": "En un futuro próximo, se ha creado el sorteo de la Gran Lotería. El truco es matar al ganador antes del anochecer y reclamar legalmente el bote multimillonario. Cuando Katie Kim se hace con el boleto ganador por error, se une a regañadientes al agente novato de protección de la lotería Noel Cassidy, que deberá mantenerla con vida a cambio de una parte del premio.",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia",
+      "acción"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Acción"
+    ],
+    "director": "Paul Feig",
+    "reparto": [
+      {
+        "name": "Awkwafina",
+        "profile_path": "https://image.tmdb.org/t/p/w185/l5AKkg3H1QhMuXmTTmq1EyjyiRb.jpg"
+      },
+      {
+        "name": "John Cena",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rgB2eIOt7WyQjdgJCOuESdDlrjg.jpg"
+      },
+      {
+        "name": "Simu Liu",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cCx2OghLj9KN73oyRZe92i2p3Ih.jpg"
+      },
+      {
+        "name": "Ayden Mayeri",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5SG2Glmd6n44m1NAOHfyM3Ke0qr.jpg"
+      },
+      {
+        "name": "Donald Watkins",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rMPjEgjxK1NQOmwvkOIIKxhRLk2.jpg"
+      },
+      {
+        "name": "Sam Asghari",
+        "profile_path": "https://image.tmdb.org/t/p/w185/d8YGlwclB355weFnKoKDEz9VXRI.jpg"
+      },
+      {
+        "name": "mgk",
+        "profile_path": "https://image.tmdb.org/t/p/w185/j7CNv1nsJAefLi1hw3DrlZ3BdJs.jpg"
+      },
+      {
+        "name": "Seann William Scott",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mKc2YXdh8d4U2jYDwpLWaOY6Jwg.jpg"
+      },
+      {
+        "name": "Dolly de Leon",
+        "profile_path": "https://image.tmdb.org/t/p/w185/uoSUx7tgIDFvhXk90lCMDpu4Cy9.jpg"
+      },
+      {
+        "name": "Michael Hitchcock",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sLKiaWJtExmjORZCVYHB0cTgmMn.jpg"
+      },
+      {
+        "name": "Becky Ann Baker",
+        "profile_path": "https://image.tmdb.org/t/p/w185/84fEZMqVMlcl9EaBeCLbrYhHn0x.jpg"
+      },
+      {
+        "name": "Leslie David Baker",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9h3xlV5IYqKinlQCW1ouU7sjwWF.jpg"
+      }
+    ],
+    "calificacion": 6.4,
+    "votos": 744,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T23:42:14.508875",
+    "tmdb_id": 1094138,
+    "popularidad": 4.78,
+    "tagline": "Coge el dinero y corre.",
+    "trailer": "https://www.youtube.com/watch?v=HyP6ruw0hpE",
+    "success": true,
+    "duracion": "107 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/dv0hlz70f3qe",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "jackpot-2024"
   },
   {
     "tipo": "pelicula",
@@ -4072,6 +5029,105 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Las chicas de Niza",
+    "titulo_original": "Nice Girls",
+    "poster": "https://image.tmdb.org/t/p/w500/AkxCTNZZmcirQ1kYP2dKFx04nV5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/pGKd9zwU1wNUTSXfnCl3T5mCOcr.jpg",
+    "descripcion": "Una inconformista policía y una meticulosa detective se alían con un antiguo y encantador hacker para resolver la desaparición de un oficial y salvar Niza de una catástrofe.",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia",
+      "crimen",
+      "acción"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Crimen",
+      "Acción"
+    ],
+    "director": "Noémie Saglio",
+    "reparto": [
+      {
+        "name": "Alice Taglioni",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pxgf8unDyUiWkgIz2QbvBeEMkzg.jpg"
+      },
+      {
+        "name": "Stéfi Celma",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8WZUWYN7Ia83rPSQRK9N8K3N8zQ.jpg"
+      },
+      {
+        "name": "Baptiste Lecaplain",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gpmJXGOwjdhLg3VIOVVFIYduCdc.jpg"
+      },
+      {
+        "name": "Noémie Lvovsky",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rCAE48eQMBRxLGksTdbjTjeiPbP.jpg"
+      },
+      {
+        "name": "Antoine Duléry",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9FECUB3ZckPR7viLRk1CP8GKjXR.jpg"
+      },
+      {
+        "name": "Benjamin Baroche",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xpRjbgYnRlmdZ3n4TLvF9vpGrax.jpg"
+      },
+      {
+        "name": "Jess Liaudin",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9YUopTXfT9HCQsGyXONwmqKFDz1.jpg"
+      },
+      {
+        "name": "Katrina Durden",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8QNoD9AyHu4fn1AfMIfvLNZU1h4.jpg"
+      },
+      {
+        "name": "Franz Lang",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jKhOJxFmzfmKC1JDkDFQKt7ww4Z.jpg"
+      },
+      {
+        "name": "Nyko",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sRPt4viHOOOJv3fBIjlPmlH2RuB.jpg"
+      },
+      {
+        "name": "Lucien Jean-Baptiste",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wjnap4CYD9y0SKGFsh06glK4ph2.jpg"
+      },
+      {
+        "name": "Timothée Vaganay",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rJZdYGsP9QGidiXGQ5D3xoFj2fk.jpg"
+      }
+    ],
+    "calificacion": 5.3,
+    "votos": 71,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T23:43:31.206996",
+    "tmdb_id": 1180702,
+    "popularidad": 2.3,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=G-RMc77bTlk",
+    "success": true,
+    "duracion": "92 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/3ja3ecgn96xc",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "las-chicas-de-niza-2024"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Loco Por Ella",
     "titulo_original": "Loco Por Ella",
     "poster": "https://image.tmdb.org/t/p/w500/6PbSSN2BT22ZMsMaD7m8cGaqk3L.jpg",
@@ -4657,6 +5713,301 @@ const peliculas2 = [
     "id": "me-vuelves-loca-2023"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "Medios Hermanos",
+    "titulo_original": "Half Brothers",
+    "poster": "https://image.tmdb.org/t/p/w500/qaHcvVfMdWkBJS0zjnZfAII0nEu.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/s2rvxRvXfcFQxdY4mNUN3S9V9xn.jpg",
+    "descripcion": "Renato Murguía es un hombre que lo tiene todo: es inteligente, dueño de una exitosa compañía, y está a punto de casarse y emprender una nueva familia junto a su esposa e hijo. Unos pocos días antes de la boda, recibe una inesperada llamada desde el otro lado de la frontera; que sacará a la luz una vieja herida que nunca se cerró, y lo llevará a emprender una travesía en la que se encontrará con muchos obstáculos, nuevas experiencias, y con la solución a esa duda que lleva persiguiéndolo desde hace tantos años.",
+    "año": 2020,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Drama"
+    ],
+    "director": "Luke Greenfield",
+    "reparto": [
+      {
+        "name": "José Zúñiga",
+        "profile_path": "https://image.tmdb.org/t/p/w185/r6nFkJkMHP9tFDohwfav9Bf2rCR.jpg"
+      },
+      {
+        "name": "Luis Gerardo Méndez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/uV8XXAlTxNFsD4sBzCHsgo5MpKZ.jpg"
+      },
+      {
+        "name": "Vincent Spano",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ani7dv9xRTwgvbRUl6llciyh48K.jpg"
+      },
+      {
+        "name": "Alma Sisneros",
+        "profile_path": "https://image.tmdb.org/t/p/w185/s9LRMU3ALnmB2vWTBXsQAOgtvCX.jpg"
+      },
+      {
+        "name": "Shira Scott Astrof",
+        "profile_path": "https://image.tmdb.org/t/p/w185/iwv1bt11oboE3ikW0fGz3Y9F2Ft.jpg"
+      },
+      {
+        "name": "Connor Del Rio",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bcAJxC6HCzSqNVn7xkhaIS3G8aH.jpg"
+      },
+      {
+        "name": "Howard Ferguson Jr.",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3LMQaP5OqrjTEyTsuEfLfcmveOO.jpg"
+      },
+      {
+        "name": "Hayes Hargrove",
+        "profile_path": "https://image.tmdb.org/t/p/w185/4MF1Tkpe2XoGfcT7yGWPOuo7not.jpg"
+      },
+      {
+        "name": "Bianca Marroquín",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8HNwbs2GdY3veNgsgmbSodhHnk.jpg"
+      },
+      {
+        "name": "Catherine Haun",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mxN9RFEdu2octsLkXwu4dS9xxKM.jpg"
+      },
+      {
+        "name": "Efrain Villa",
+        "profile_path": "https://image.tmdb.org/t/p/w185/96VorlHTrcyQ7hdDvpGBvnOR7o7.jpg"
+      },
+      {
+        "name": "Beatrice Hernandez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bxRKdZcF8BvrZXkxevzjpQVnBwP.jpg"
+      }
+    ],
+    "calificacion": 7.3,
+    "votos": 216,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T22:26:21.990557",
+    "tmdb_id": 652962,
+    "popularidad": 4.5,
+    "tagline": "No hay forma de huir de la familia.",
+    "trailer": "",
+    "success": true,
+    "duracion": "96 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$3,274,339",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://voe.sx/e/tuozdwvwqx73",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "medios-hermanos-2020"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Mickey 17",
+    "titulo_original": "Mickey 17",
+    "poster": "https://image.tmdb.org/t/p/w500/iOKu6Hf5atv3DuXBS0jBF3OYYdu.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/hGLywNhy1Fo1rNFHsNZsXGS69B8.jpg",
+    "descripcion": "Mickey 17, un miembro de la tripulación 'expendable' (prescindible) enviado a un planeta helado para colonizarlo, se niega a dejar que su clon de reemplazo, Mickey 18, tome su lugar... Adaptación del libro original de Edward Ashton.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "comedia",
+      "aventura"
+    ],
+    "generos_lista": [
+      "Ciencia ficción",
+      "Comedia",
+      "Aventura"
+    ],
+    "director": "Bong Joon-ho",
+    "reparto": [
+      {
+        "name": "Robert Pattinson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8A4PS5iG7GWEAVFftyqMZKl3qcr.jpg"
+      },
+      {
+        "name": "Naomi Ackie",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1MhRVn6xlShHhftRdK24HuO3TNR.jpg"
+      },
+      {
+        "name": "Steven Yeun",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fOMFO2Xx4duzpNgS9Q5ytO44yGb.jpg"
+      },
+      {
+        "name": "Mark Ruffalo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5GilHMOt5PAQh6rlUKZzGmaKEI7.jpg"
+      },
+      {
+        "name": "Toni Collette",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lzXRh16qe4HHeBN6tMyw0DHvaMn.jpg"
+      },
+      {
+        "name": "Anamaria Vartolomei",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3k1z18yXJICNg41zjXQj4UV5ufC.jpg"
+      },
+      {
+        "name": "Daniel Henshall",
+        "profile_path": "https://image.tmdb.org/t/p/w185/spfdesJvIoPTmZWMe5ncyMbnOV5.jpg"
+      },
+      {
+        "name": "Patsy Ferran",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1GnM9R90XUsENcY0IEZOUryeS13.jpg"
+      },
+      {
+        "name": "Steve Park",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wDa3CYi7GPUcFBoi7Fg0fcCCXDc.jpg"
+      },
+      {
+        "name": "Tim Key",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5qaZxWpm3lXDbngjZJvnSbVS9I0.jpg"
+      },
+      {
+        "name": "Holliday Grainger",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fHveeGXgEfTZ9slB5OvHDG4LAPw.jpg"
+      },
+      {
+        "name": "Michael Monroe",
+        "profile_path": "https://image.tmdb.org/t/p/w185/oFnFHP7rqOB4BQtnMS6wUzo4CS2.jpg"
+      }
+    ],
+    "calificacion": 6.8,
+    "votos": 3019,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T23:19:24.521793",
+    "tmdb_id": 696506,
+    "popularidad": 20.07,
+    "tagline": "Él se muere por salvar a la humanidad.",
+    "trailer": "https://www.youtube.com/watch?v=h_NsnK_6edE",
+    "success": true,
+    "duracion": "137 min",
+    "presupuesto": "$118,000,000",
+    "ingresos": "$131,847,147",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://smoothpre.com/v/mr2eh8evc91o",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "mickey-17-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Minions y sus amigos: Volumen 2",
+    "titulo_original": "Minions & More Volume 2",
+    "poster": "https://image.tmdb.org/t/p/w500/ib78eWDzoccYt2BhPp8TvwpguO0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/nZko47PX3RRWzbDGtcj6PPR90By.jpg",
+    "descripcion": "Esta colección de 11 cortometrajes producida por Illumination incluye: De la franquicia \"Gru: Mi Villano Favorito\": Mower Minions (2016); Yellow Is the New Black (2018); Competition (2015); Cro Minion (2015); Binky Nelson Unpacified (2015); Panic in the Mailroom (2013). De la franquicia \"Secret Life of Pets\": Super Gidget (2019). De la franquicia \"Sing\": Eddie's Life Coach (2017); Gunter Babysits (2017). De la franquicia \"Lorax\": Serenade (2012); Wagon Ho! (2012).",
+    "año": 2022,
+    "categoria": [
+      "aventura"
+    ],
+    "genero": [
+      "comedia",
+      "familia",
+      "animación"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Familia",
+      "Animación"
+    ],
+    "director": "Régis Schuller",
+    "reparto": [
+      {
+        "name": "Reese Witherspoon",
+        "profile_path": "https://image.tmdb.org/t/p/w185/o1z4UwW2137IViFIRk8AV8hWze1.jpg"
+      },
+      {
+        "name": "Nick Kroll",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fNiOuEKeBtELGdhKn4lxXq4O7YP.jpg"
+      },
+      {
+        "name": "Nick Offerman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/f6z3mPVtaF40ewfdmZydprAjmYd.jpg"
+      },
+      {
+        "name": "Oscar Jennings",
+        "profile_path": null
+      },
+      {
+        "name": "Leo Jennings",
+        "profile_path": null
+      },
+      {
+        "name": "Caspar Jennings",
+        "profile_path": null
+      },
+      {
+        "name": "Asa Jennings",
+        "profile_path": null
+      },
+      {
+        "name": "Pierre Coffin",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eAA9uWRqHlm1LT3nZfXb7UuPfVb.jpg"
+      },
+      {
+        "name": "Jody Gelb",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hu2UlWBW7LNkQ0zfPdkMMPSzEty.jpg"
+      },
+      {
+        "name": "Dave Rosenbaum",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nCaO2E4jz7eNO5huwGLKhYXkZCI.jpg"
+      },
+      {
+        "name": "Eric Osmond",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fhsL4hbFkTrS7pWAAXnRmqn7vlg.jpg"
+      },
+      {
+        "name": "Chris Renaud",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sumBJgBqRkK4XEJ2JYXpad3MTJs.jpg"
+      }
+    ],
+    "calificacion": 7.4,
+    "votos": 138,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T23:57:00.339910",
+    "tmdb_id": 1045644,
+    "popularidad": 2.04,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "54 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://voe.sx/e/stg74jzcw54y",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "minions-y-sus-amigos-volumen-2-2022"
+  },
+  {
     "tipo": "serie",
     "titulo": "Monstruo: La historia de Jeffrey Dahmer",
     "titulo_original": "DAHMER - Monster: The Jeffrey Dahmer Story",
@@ -4985,6 +6336,103 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Noche de Paz, Noche de Muerte",
+    "titulo_original": "Silent Night, Deadly Night",
+    "poster": "https://image.tmdb.org/t/p/w500/oy5UMCnEYxwRz7HCQucZ01kKrSN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qG2uiyOgXkqWhAG7EpfNgwaYTJ3.jpg",
+    "descripcion": "Un niño presencia el asesinato de sus padres por de hombre disfrazado de Papá Noel. Años más tarde, ya adulto, se pone él mismo un disfraz de Papá Noel y se embarca en una violenta búsqueda de venganza contra los responsables.",
+    "año": 2025,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Suspense"
+    ],
+    "director": "Mike P. Nelson",
+    "reparto": [
+      {
+        "name": "Rohan Campbell",
+        "profile_path": "https://image.tmdb.org/t/p/w185/r1PDcoPF1NDvvxwqkOJTrFaT1za.jpg"
+      },
+      {
+        "name": "Ruby Modine",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3SEz3Edts4A7dIYYnV08VKGM7u9.jpg"
+      },
+      {
+        "name": "Mark Acheson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/84KnNSPJGQvVD57aDlhyUfFO7vz.jpg"
+      },
+      {
+        "name": "David Lawrence Brown",
+        "profile_path": "https://image.tmdb.org/t/p/w185/aQEVuW5IWam68nWajc7ij6xTyoN.jpg"
+      },
+      {
+        "name": "David Tomlinson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/akWyL8TVWydGGLuQLpjARkkfVM4.jpg"
+      },
+      {
+        "name": "Logan Sawyer",
+        "profile_path": "https://image.tmdb.org/t/p/w185/joAG36CITEwYj7Y9msgA8BokOkJ.jpg"
+      },
+      {
+        "name": "Erik Athavale",
+        "profile_path": "https://image.tmdb.org/t/p/w185/v5J8qSMldAixR3PcUoQmbAPlOOM.jpg"
+      },
+      {
+        "name": "Rick Skene",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3OI8cesfWr1X4owPgal4VM5rnTJ.jpg"
+      },
+      {
+        "name": "James Durham",
+        "profile_path": null
+      },
+      {
+        "name": "Sharon Bajer",
+        "profile_path": "https://image.tmdb.org/t/p/w185/oQkahOuFsSSrmdSb7wNWk75sGzX.jpg"
+      },
+      {
+        "name": "Tom Young",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7qWQmOU58E7y2bcIFRbfPKpYmgt.jpg"
+      },
+      {
+        "name": "Krystle Snow",
+        "profile_path": "https://image.tmdb.org/t/p/w185/dTrGKuEYAsw2696QuxZvSuoiQ8M.jpg"
+      }
+    ],
+    "calificacion": 5.6,
+    "votos": 18,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T23:53:20.326254",
+    "tmdb_id": 801937,
+    "popularidad": 11.35,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "96 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://supervideo.cc/e/5009hk5ixk3e",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "noche-de-paz-noche-de-muerte-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Nuestros tiempos",
     "titulo_original": "Nuestros tiempos",
     "poster": "https://image.tmdb.org/t/p/w500/t0XyRsfjnxznZb803hXtleSXhtG.jpg",
@@ -5174,6 +6622,215 @@ const peliculas2 = [
       }
     ],
     "id": "oblivion-2013"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "One Piece",
+    "titulo_original": "ワンピース",
+    "poster": "https://image.tmdb.org/t/p/w500/b8cFEdlarCrpOLOjwd7aSw4uRQA.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/oVfucXvhutTpYExG9k06NJqnpT9.jpg",
+    "descripcion": "Riqueza, fama, poder... un hombre había obtenido todo en este mundo, era el Rey de los Piratas Gold Roger. Antes de morir sus últimas palabras inspiraron al mundo a aventurarse al mar: \"¿Mi tesoro? Si lo queréis es vuestro... lo he escondido todo en ese lugar\". Y así dio comienzo lo que se conoce como la Gran Era de la Piratería, lanzando a cientos de piratas al mar para encontrar el gran tesoro One Piece. Esta serie relata las aventuras y desventuras de uno de esos piratas, Monkey D. Luffy, quien accidentalmente de pequeño, comió una Fruta del Diablo (Akuma no Mi en japonés), en particular una Gomu Gomu no Mi que hizo que su cuerpo ganara las propiedades físicas de la goma, convirtiéndose en el hombre de goma. Luffy, después de dicho suceso, decide que se convertirá en el próximo Rey de los Piratas y para ello, deberá encontrar el \"One Piece\".",
+    "año": 1999,
+    "categoria": [
+      "one piece"
+    ],
+    "genero": [
+      "action & adventure",
+      "comedia",
+      "animación"
+    ],
+    "generos_lista": [
+      "Action & Adventure",
+      "Comedia",
+      "Animación"
+    ],
+    "director": "",
+    "reparto": [
+      {
+        "name": "Mayumi Tanaka",
+        "profile_path": "https://image.tmdb.org/t/p/w185/by4t1tYtEXsfbFj9TvOjozBmQla.jpg"
+      },
+      {
+        "name": "Kazuya Nakai",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cOHSa0FBrG3u9P6g8A56sInkvod.jpg"
+      },
+      {
+        "name": "Akemi Okamura",
+        "profile_path": "https://image.tmdb.org/t/p/w185/qEwVfsrA23SCzRZMSlghw2sHctQ.jpg"
+      },
+      {
+        "name": "Kappei Yamaguchi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mJyxKRZxLv9D7LH5KcNSkjSKYOB.jpg"
+      },
+      {
+        "name": "Hiroaki Hirata",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mMWEdlssJm3TVuXW4Wb7pQeX20Z.jpg"
+      },
+      {
+        "name": "Ikue Otani",
+        "profile_path": "https://image.tmdb.org/t/p/w185/my8LBLQ4MsK4hRz1PAATIqtieaI.jpg"
+      },
+      {
+        "name": "Yuriko Yamaguchi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vNKJ6IykLF2uwGBe8AtjDe8LZ3.jpg"
+      },
+      {
+        "name": "Kazuki Yao",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kjETB1FaDaGozGjdq4Hu1UjrQDf.jpg"
+      },
+      {
+        "name": "Katsuhisa Houki",
+        "profile_path": "https://image.tmdb.org/t/p/w185/stuUwLrSOmQhOmNpO4kCrlu3ALF.jpg"
+      },
+      {
+        "name": "Cho",
+        "profile_path": "https://image.tmdb.org/t/p/w185/70OZtKOHEGvbuMQAbQ01cGxrUDO.jpg"
+      },
+      {
+        "name": "Reiko Takagi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/w8MJmhARiVyqyvjyuiK86n2im7C.jpg"
+      },
+      {
+        "name": "Yohei Tadano",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cURhpjc2wfIRr1gRWYI0aSkZEhD.jpg"
+      }
+    ],
+    "calificacion": 8.7,
+    "votos": 5072,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T21:57:01.778143",
+    "tmdb_id": 37854,
+    "popularidad": 36.09,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/kq01wsdutagf",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/p5h2349yxxsr",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/sudqd410lfpw",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/skj3h84i6rpx",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/qjxhzelsusod",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/oybe4r1mzylu",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/xro8o6crilvj",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/vcf2aavp5j4u",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://streamwish.to/e/68lnnsi7wdnb",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://streamwish.to/e/juno8yv81qcy",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 11,
+            "titulo": "Episodio 11",
+            "url": "https://hqq.tv/player/embed_player.php?vid=204233212272210224239241276273277276194271217261258",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 12,
+            "titulo": "Episodio 12",
+            "url": "https://streamwish.to/e/y148j96shuj2",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 13,
+            "titulo": "Episodio 13",
+            "url": "https://streamwish.to/e/n27to7n8ihxv",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 14,
+            "titulo": "Episodio 14",
+            "url": "https://hqq.tv/player/embed_player.php?vid=242212229231270229260229271221246236194271217261258",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 15,
+            "titulo": "Episodio 15",
+            "url": "https://streamwish.to/e/lg43x3uws549",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 16,
+            "titulo": "Episodio 16",
+            "url": "https://streamwish.to/e/tug5va3m4eua",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 1156,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2025-12-21",
+    "id": "one-piece-1999"
   },
   {
     "tipo": "pelicula",
@@ -5577,6 +7234,198 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Planeta Solteros: Una aventura en Grecia",
+    "titulo_original": "Planeta Singli 4: Wyspa",
+    "poster": "https://image.tmdb.org/t/p/w500/fwXkQNBHRPpPUdRcCvd2BUXkElc.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uWx7AScgVcG8fdEju6oKgzAxXIl.jpg",
+    "descripcion": "Unas vacaciones de cinco amigos en Grecia se convierte en una divertida historia de detectives cuando surgen las sospechas de que uno de ellos podría ser un famoso timador.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia",
+      "romance"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Romance"
+    ],
+    "director": "Sam Akina",
+    "reparto": [
+      {
+        "name": "Maciej Stuhr",
+        "profile_path": "https://image.tmdb.org/t/p/w185/oVGhW6lrLUv3TgPjtnqvLiESwHY.jpg"
+      },
+      {
+        "name": "Agnieszka Więdłocha",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pyTYL1LT6KibbWeqO6csEw0Btmq.jpg"
+      },
+      {
+        "name": "Weronika Książkiewicz-Nathaniel",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ltNynTRFPGfSZOwStrowGOmfRTq.jpg"
+      },
+      {
+        "name": "Tomasz Karolak",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yyFyALFiui8fBgBPwlciBHbrPCK.jpg"
+      },
+      {
+        "name": "Piotr Głowacki",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yla9UTHJv6nGkAbKDMi5F10h0KK.jpg"
+      },
+      {
+        "name": "Nikodem Rozbicki",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cEgbAnDOfVo5HTgdhmzULcXkc2h.jpg"
+      },
+      {
+        "name": "Kamil Kula",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yhwYMyhK5YEt0ExLhvhUx3GVJh0.jpg"
+      },
+      {
+        "name": "Małgorzata Mikołajczak",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xEgnWxiByQNUddKXWDOsIwrSCvz.jpg"
+      },
+      {
+        "name": "Dorota Kolak",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vMu479AwEce9BNuLG0jMBwfbuH1.jpg"
+      },
+      {
+        "name": "Mateusz Dymidziuk",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hG1FAfbEcPLCiIS2XelXE1eNGgt.jpg"
+      },
+      {
+        "name": "Sofia Papadaki",
+        "profile_path": null
+      }
+    ],
+    "calificacion": 5.0,
+    "votos": 23,
+    "idioma": "latino",
+    "calidad": "1080",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T22:33:54.227220",
+    "tmdb_id": 1468789,
+    "popularidad": 1.18,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "103 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/68ucclrzgq5s",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "planeta-solteros-una-aventura-en-grecia-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Ponte en mi lugar de nuevo",
+    "titulo_original": "Freakier Friday",
+    "poster": "https://image.tmdb.org/t/p/w500/sqp4urYCbmSRbMYRt4SSb7oRQGJ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/yQy9Y3p5INwkfTuHSnzYnz4MCV3.jpg",
+    "descripcion": "Años después de que Tess y Anna atravesaran una crisis de identidad, Anna ahora tiene una hija y una futura hijastra. Mientras enfrentan los innumerables desafíos que surgen cuando dos familias se fusionan, Tess y Anna descubren que el rayo puede caer dos veces.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia",
+      "fantasía",
+      "familia"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Fantasía",
+      "Familia"
+    ],
+    "director": "Nisha Ganatra",
+    "reparto": [
+      {
+        "name": "Lindsay Lohan",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9orbe4F0T16K8P0hWqn6vd6czMj.jpg"
+      },
+      {
+        "name": "Jamie Lee Curtis",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eWKubKAAssRzmFwCZKh1mdYqGCH.jpg"
+      },
+      {
+        "name": "Julia Butters",
+        "profile_path": "https://image.tmdb.org/t/p/w185/uVlPm7s3J1pLg6pLa5rYg43wd1.jpg"
+      },
+      {
+        "name": "Sophia Hammons",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7g5oz3NMbQQogw4zxnA4O96AC9n.jpg"
+      },
+      {
+        "name": "Manny Jacinto",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8PENhKW8wG7LwBaJfGvskOXtlKR.jpg"
+      },
+      {
+        "name": "Mark Harmon",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jDRXlmBItH9IyXk9UhafpOSBIq7.jpg"
+      },
+      {
+        "name": "Chad Michael Murray",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jIkzUQUVLkgn3HFMFRJBDAD0OLj.jpg"
+      },
+      {
+        "name": "Vanessa Bayer",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8IUjlVY8l7S7BEVhfHzKNgVGpUX.jpg"
+      },
+      {
+        "name": "Maitreyi Ramakrishnan",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jBFqjwvngaz6ZXEhNd6dMeZ0W6c.jpg"
+      },
+      {
+        "name": "Lucille Soong",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3PBNmz6zcUWtCEdENMvzhHWtZaz.jpg"
+      },
+      {
+        "name": "Rosalind Chao",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vTt8RYw8VJXNru7AMP49Q6FcvzM.jpg"
+      },
+      {
+        "name": "Stephen Tobolowsky",
+        "profile_path": "https://image.tmdb.org/t/p/w185/uL8yfcm0dCFYFQt052kczVQVvac.jpg"
+      }
+    ],
+    "calificacion": 6.8,
+    "votos": 520,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T22:36:01.582718",
+    "tmdb_id": 1125257,
+    "popularidad": 17.13,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=Lm8X8MiHUpk",
+    "success": true,
+    "duracion": "110 min",
+    "presupuesto": "$42,000,000",
+    "ingresos": "$152,889,065",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://jilliandescribecompany.com/e/myije7ehfuw6",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "ponte-en-mi-lugar-de-nuevo-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Puñales por la espalda: De entre los muertos",
     "titulo_original": "Wake Up Dead Man: A Knives Out Mystery",
     "poster": "https://image.tmdb.org/t/p/w500/trGWfaYTkzkalkosXfxidpLum50.jpg",
@@ -5724,6 +7573,65 @@ const peliculas2 = [
     "plataforma": "pelicula",
     "fuentes": [],
     "id": "reflection-in-a-dead-diamond-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Reinas de la Noche",
+    "titulo_original": "Reinas de la Noche",
+    "poster": "https://image.tmdb.org/t/p/w500/bdK47zNkKVa253wph64WSLo9Cd9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/pBtWhuvB9nhDz4Hb2uAtvW65CBN.jpg",
+    "descripcion": "Victoria hereda un bar de mala fama. Para saldar las deudas de su difunto esposo, deberá convertir el escándalo en un imperio… o perderlo todo.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Yahayra Garrido",
+    "reparto": [
+      {
+        "name": "Catherine Siachoque",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cMMlna6LChMAOttFCdRWkj9rz1C.jpg"
+      },
+      {
+        "name": "Cynthia Klitbo",
+        "profile_path": null
+      },
+      {
+        "name": "Anna Cepinska",
+        "profile_path": "https://image.tmdb.org/t/p/w185/aT8Qe5Kx1IsQYggpXS3eutjl4f0.jpg"
+      }
+    ],
+    "calificacion": 7.2,
+    "votos": 7,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T22:37:25.313017",
+    "tmdb_id": 1529517,
+    "popularidad": 0.31,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "N/A",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/n4c77stdmfgg",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "reinas-de-la-noche-2025"
   },
   {
     "tipo": "pelicula",
@@ -5875,6 +7783,103 @@ const peliculas2 = [
       }
     ],
     "id": "sacrum-vindictae-ii-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Se requiere mantenimiento",
+    "titulo_original": "Maintenance Required",
+    "poster": "https://image.tmdb.org/t/p/w500/kVcoxXAPfHo58FDwOCOF8NAW4bp.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uxRCrEMJlfCILQhkcDuDpadkQC9.jpg",
+    "descripcion": "Charlie, la independiente dueña de un taller exclusivamente femenino, se ve obligada a reevaluar su futuro cuando una gran corporación de la competencia se instala enfrente. Buscando consuelo, recurre a un confidente en internet, sin saber que es Beau, el rival que amenaza su negocio. Mientras saltan chispas, tanto en internet como fuera de ella, la verdad amenaza con desbaratarlo todo.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "romance",
+      "comedia"
+    ],
+    "generos_lista": [
+      "Romance",
+      "Comedia"
+    ],
+    "director": "Lacey Uhlemeyer",
+    "reparto": [
+      {
+        "name": "Madelaine Petsch",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mfZo30YgMx7vhAUajM8OG6I6VM8.jpg"
+      },
+      {
+        "name": "Jacob Scipio",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gcZSJy9LZ8DUDP480Q2K1OhL1Ct.jpg"
+      },
+      {
+        "name": "Katy O'Brian",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lEz7WmJPrBGSsIkEiAA10t5nDDM.jpg"
+      },
+      {
+        "name": "Madison Bailey",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cJeWod2mblccStNP23MEMnvbhkV.jpg"
+      },
+      {
+        "name": "Matteo Lane",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hTAhOWqdP5jBDOKQhRi6Yf7A1JX.jpg"
+      },
+      {
+        "name": "Jim Gaffigan",
+        "profile_path": "https://image.tmdb.org/t/p/w185/dhguhHxIrb26jvPznBt8y25Fb2U.jpg"
+      },
+      {
+        "name": "Naomi J. Ogawa",
+        "profile_path": "https://image.tmdb.org/t/p/w185/iTPXpPNtJMv32Xnh2E4OUnBGoAE.jpg"
+      },
+      {
+        "name": "Inanna Sarkis",
+        "profile_path": "https://image.tmdb.org/t/p/w185/up8etOETeYTwuGFr9yL0gYf5ZKW.jpg"
+      },
+      {
+        "name": "Kerim Hassan",
+        "profile_path": "https://image.tmdb.org/t/p/w185/b1LNPysqfX5XmCkF8En67RR3aPI.jpg"
+      },
+      {
+        "name": "Rob Rausch",
+        "profile_path": "https://image.tmdb.org/t/p/w185/x1dpaIiTvaZJ6R3VCkwQoCczAm1.jpg"
+      },
+      {
+        "name": "Julee Cerda",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mEVWaXXAIncoeTRiHB6AJejumSh.jpg"
+      },
+      {
+        "name": "James Dryden",
+        "profile_path": "https://image.tmdb.org/t/p/w185/66DNJWRWXzv0Sl3OHB9o5DSqFEo.jpg"
+      }
+    ],
+    "calificacion": 6.0,
+    "votos": 139,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T22:31:05.023064",
+    "tmdb_id": 1352755,
+    "popularidad": 10.05,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "100 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://hlswish.com/e/5n7qczx94f8p",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "se-requiere-mantenimiento-2025"
   },
   {
     "tipo": "pelicula",
@@ -6244,6 +8249,105 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Tonterías de amor",
+    "titulo_original": "नादानियां",
+    "poster": "https://image.tmdb.org/t/p/w500/nAI8kxnjQS0YBj0EBy2yYkadM6K.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lFz7HFWLmBVoa7kITzWEsT9tsEL.jpg",
+    "descripcion": "Cuando un malentendido pone a sus amigas en su contra, Pia, una chica adorable y rica, contrata a Arjan, un nuevo estudiante, para que se haga pasar por su novio.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "romance",
+      "comedia",
+      "drama"
+    ],
+    "generos_lista": [
+      "Romance",
+      "Comedia",
+      "Drama"
+    ],
+    "director": "Shauna Gautam",
+    "reparto": [
+      {
+        "name": "Ibrahim Ali Khan",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rJuwbl1tcvvQFCyJek2poQLsbOT.jpg"
+      },
+      {
+        "name": "Khushi Kapoor",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sP9LRxZxllQkFIk73dO9keZihzv.jpg"
+      },
+      {
+        "name": "Mahima Chaudhry",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pgqztcCYYCdOfQgnqR0lRUlPfKZ.jpg"
+      },
+      {
+        "name": "Suniel Shetty",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7N2gTXit5GMfgUhkZ3QsjTnoMH6.jpg"
+      },
+      {
+        "name": "Dia Mirza",
+        "profile_path": "https://image.tmdb.org/t/p/w185/oJSZlMkIGC1Yr8QxdBLliUjPRSd.jpg"
+      },
+      {
+        "name": "Jugal Hansraj",
+        "profile_path": "https://image.tmdb.org/t/p/w185/29l2Okg2DZaPy90I62OlPrWNJe4.jpg"
+      },
+      {
+        "name": "Apoorva Mukhija",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hLCo1JkEpYmIoirWKGN6vCGLGnV.jpg"
+      },
+      {
+        "name": "Aaliyah Qureishi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2XGVTcnSoEJAOjk1aA8bW9uugIh.jpg"
+      },
+      {
+        "name": "Agastya Shah",
+        "profile_path": null
+      },
+      {
+        "name": "Dev Agasteya",
+        "profile_path": null
+      },
+      {
+        "name": "Archana Puran Singh",
+        "profile_path": "https://image.tmdb.org/t/p/w185/uc6QJNnT8q0wNnZOZi0QW2hE1wq.jpg"
+      },
+      {
+        "name": "Meezaan Jafri",
+        "profile_path": "https://image.tmdb.org/t/p/w185/o0dhZNSvFHwWRs8wTJOjbqMSye4.jpg"
+      }
+    ],
+    "calificacion": 6.1,
+    "votos": 51,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T23:22:56.823262",
+    "tmdb_id": 1216780,
+    "popularidad": 3.96,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "119 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://Smoothpre.com/embed/e0dpqcinming",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "tonterias-de-amor-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Tormento",
     "titulo_original": "Tormento",
     "poster": "https://image.tmdb.org/t/p/w500/A1IIe6aVv7ohcB94q7EwjzdpLpc.jpg",
@@ -6605,6 +8709,101 @@ const peliculas2 = [
       }
     ],
     "id": "trasto-de-la-mansion-a-la-calle-2019"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Un día de esos",
+    "titulo_original": "One of Them Days",
+    "poster": "https://image.tmdb.org/t/p/w500/7FCcl763dbG6ieiqdKbYBkDzohS.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/t25z4ggC2Uvs3EhI66lxVO2jDp5.jpg",
+    "descripcion": "Cuando Dreux y Alyssa, mejores amigos y compañeros de habitación, descubren que el novio de Alyssa se ha gastado el dinero del alquiler, se ven obligados a hacer todo lo posible para evitar el desalojo y mantener intacta su amistad.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Lawrence Lamont",
+    "reparto": [
+      {
+        "name": "Keke Palmer",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fXiKInUmPLs5F53yv2KZSuCXHJZ.jpg"
+      },
+      {
+        "name": "SZA",
+        "profile_path": "https://image.tmdb.org/t/p/w185/l6v3ewyk2RYoRVREp5fgIRYCx2l.jpg"
+      },
+      {
+        "name": "Joshua David Neal",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8h0bJRTwaRxhvILAkbearNxqQwm.jpg"
+      },
+      {
+        "name": "Aziza Scott",
+        "profile_path": "https://image.tmdb.org/t/p/w185/n4RvSPbL3Hul4F2o7uzY3lDK46X.jpg"
+      },
+      {
+        "name": "Patrick Cage",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7VyIICsE8ico2ID6hB4KZwCkX6J.jpg"
+      },
+      {
+        "name": "Katt Williams",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bMz1OCDMC0MyLob6KIf5X3MS23m.jpg"
+      },
+      {
+        "name": "Maude Apatow",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xWj49QAsGlC92YcguaEEYvoMEsg.jpg"
+      },
+      {
+        "name": "Vanessa Bell Calloway",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6gJua6IKvhGrCTU1UzgRhOM9oyl.jpg"
+      },
+      {
+        "name": "Gabrielle Dennis",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rKhkx7aBAlGegA87JNedmhziUTN.jpg"
+      },
+      {
+        "name": "Janelle James",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vLiXGdCRCfWhamrPdUGYiBRZk6y.jpg"
+      },
+      {
+        "name": "Amin Joseph",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kTr5Lf7NUullsj0g1klTOScwzRp.jpg"
+      },
+      {
+        "name": "Lil Rel Howery",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9MDi35Fy6ym7SYbO3B04vf1vBnm.jpg"
+      }
+    ],
+    "calificacion": 6.7,
+    "votos": 233,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T23:26:00.115939",
+    "tmdb_id": 1280672,
+    "popularidad": 6.15,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "97 min",
+    "presupuesto": "$14,000,000",
+    "ingresos": "$51,896,264",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/60acqbj95x1v",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "un-dia-de-esos-2025"
   },
   {
     "tipo": "pelicula",
@@ -7039,5 +9238,104 @@ const peliculas2 = [
     "ultima_emision": "2024-10-24",
     "plataforma": "vix",
     "id": "y-llegaron-de-noche-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "¿Todo bien?",
+    "titulo_original": "Am I OK?",
+    "poster": "https://image.tmdb.org/t/p/w500/mKdRfCpWkcH0wEEg6yO4a8ES4TX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fKxGUfI09ubxe594Nl8Om2cMuxH.jpg",
+    "descripcion": "Lucy y Jane han sido mejores amigas toda su vida. Solo cuando Lucy se embarque en un viaje personal, se enfrentará a una prueba de su amistad y de su sentido de sí misma, en un camino que quizás no esté del todo preparada para tomar.",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia",
+      "romance",
+      "drama"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Romance",
+      "Drama"
+    ],
+    "director": "Stephanie Allynne",
+    "reparto": [
+      {
+        "name": "Dakota Johnson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/qFek0KqpaPV5mVyHHNfAapDE9Tj.jpg"
+      },
+      {
+        "name": "Sonoya Mizuno",
+        "profile_path": "https://image.tmdb.org/t/p/w185/scbRPaGPw3VnR6mrmZQZi6Cuj1m.jpg"
+      },
+      {
+        "name": "Jermaine Fowler",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tUovrCcFKncccMY7yarqeLBeVPk.jpg"
+      },
+      {
+        "name": "Kiersey Clemons",
+        "profile_path": "https://image.tmdb.org/t/p/w185/iZD6EzMGnuHFjFgmO8G1wyiLrTy.jpg"
+      },
+      {
+        "name": "Molly Gordon",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mcfy6lIEFb3vvSIIGl9SsJgBHR.jpg"
+      },
+      {
+        "name": "Whitmer Thomas",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ivz8rehM5WFKsUpDSULUFgPYyze.jpg"
+      },
+      {
+        "name": "Sean Hayes",
+        "profile_path": "https://image.tmdb.org/t/p/w185/31TI5l5QvcZHN4fh0NpejZyJtP.jpg"
+      },
+      {
+        "name": "Tig Notaro",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tdZ6XLzIaK0HWWPSM2B5OrOqUC0.jpg"
+      },
+      {
+        "name": "Odessa A'zion",
+        "profile_path": "https://image.tmdb.org/t/p/w185/meS7AUhkbybFiDtQyeczQ6rxO0F.jpg"
+      },
+      {
+        "name": "Patrick McDonald",
+        "profile_path": "https://image.tmdb.org/t/p/w185/uQZqZdqfYLZRECN7QinOJDiN8C8.jpg"
+      },
+      {
+        "name": "Mayank Bhatter",
+        "profile_path": "https://image.tmdb.org/t/p/w185/caE4ZU2W5eKlitJv5EvnxhGhpE6.jpg"
+      },
+      {
+        "name": "Jess Nurse",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ckqMndrZviWFfzI53OgDcPVEXy0.jpg"
+      }
+    ],
+    "calificacion": 6.3,
+    "votos": 308,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-22T23:48:13.902158",
+    "tmdb_id": 641934,
+    "popularidad": 1.47,
+    "tagline": "Nunca es demasiado tarde para averiguarlo.",
+    "trailer": "",
+    "success": true,
+    "duracion": "86 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/zrjszfxbcu76",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "todo-bien-2024"
   }
 ];
