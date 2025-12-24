@@ -297,27 +297,41 @@ function initSearchPage() {
             const displayResults = results;
             
             displayResults.forEach(movie => {
+                let card;
+                // Usa la función global existente si está disponible
                 if (window.createMovieCard) {
-                    const card = window.createMovieCard(movie, true, query);
-                    resultsGrid.appendChild(card);
+                    card = window.createMovieCard(movie, true, query);
                 } else {
-                    const card = document.createElement('div');
+                    // O crea una tarjeta de respaldo
+                    card = document.createElement('div');
                     card.className = 'movie-card';
                     card.style.position = 'relative';
                     
                     card.innerHTML = `
-                        <img src="${movie.poster || 'https://via.placeholder.com/180x270/333333/ffffff?text=No+Image'}" 
-                             alt="${movie.titulo}" 
+                        <img src="${movie.poster || 'https://via.placeholder.com/180x270/333333/ffffff?text=No+Image'}"
+                             alt="${movie.titulo}"
                              style="width:100%; border-radius:8px; aspect-ratio: 2/3; object-fit: cover;">
                         <h3 style="margin-top: 10px; font-size: 0.9rem; color: #fff;">${movie.titulo}</h3>
                     `;
-                    
-                    card.onclick = () => {
-                        window.location.href = `detalles.html?id=${movie.id}`;
-                    };
-                    
-                    resultsGrid.appendChild(card);
                 }
+
+                // Manejador de clics centralizado para todas las tarjetas
+                card.onclick = (e) => {
+                    e.preventDefault(); // Detener cualquier navegación predeterminada
+                    
+                    // Si la película es de TMDB y no está en nuestra lista local, la añadimos temporalmente.
+                    if (movie.esTmdb) {
+                        const exists = window.peliculas.some(p => p.id === movie.id);
+                        if (!exists) {
+                            window.peliculas.push(movie);
+                        }
+                    }
+                    
+                    // Navegar a la página de detalles
+                    window.location.href = `detalles.html?id=${movie.id}`;
+                };
+                
+                resultsGrid.appendChild(card);
             });
         }
     }

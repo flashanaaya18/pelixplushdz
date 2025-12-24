@@ -727,13 +727,20 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
             if detalles.get('backdrop_path'):
                 backdrop = f"https://image.tmdb.org/t/p/w1280{detalles['backdrop_path']}"
             
-            # Trailer
+            # Trailer y videos
             trailer_url = ""
+            videos_lista = []
             if videos and videos.get('results'):
                 for video in videos.get('results', []):
-                    if video.get('type') in ['Trailer', 'Teaser'] and video.get('site') == 'YouTube':
-                        trailer_url = f"https://www.youtube.com/watch?v={video.get('key')}"
-                        break
+                    if video.get('site') == 'YouTube':
+                        video_url = f"https://www.youtube.com/watch?v={video.get('key')}"
+                        videos_lista.append({
+                            'nombre': video.get('name'),
+                            'tipo': video.get('type'),
+                            'url': video_url
+                        })
+                        if not trailer_url and video.get('type') in ['Trailer', 'Teaser']:
+                            trailer_url = video_url
             
             return {
                 'titulo': detalles.get('title', ''),
@@ -755,6 +762,7 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
                 'ingresos': f"${detalles.get('revenue', 0):,}" if detalles.get('revenue') else "Desconocido",
                 'tagline': detalles.get('tagline', ''),
                 'trailer': trailer_url,
+                'videos_lista': videos_lista,
                 'tmdb_id': tmdb_id,
                 'popularidad': round(float(detalles.get('popularity', 0)), 2),
                 'estado': detalles.get('status', 'Desconocido'),
@@ -804,13 +812,20 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
             if detalles.get('backdrop_path'):
                 backdrop = f"https://image.tmdb.org/t/p/w1280{detalles['backdrop_path']}"
             
-            # Trailer
+            # Trailer y videos
             trailer_url = ""
+            videos_lista = []
             if videos and videos.get('results'):
                 for video in videos.get('results', []):
-                    if video.get('type') in ['Trailer', 'Teaser'] and video.get('site') == 'YouTube':
-                        trailer_url = f"https://www.youtube.com/watch?v={video.get('key')}"
-                        break
+                    if video.get('site') == 'YouTube':
+                        video_url = f"https://www.youtube.com/watch?v={video.get('key')}"
+                        videos_lista.append({
+                            'nombre': video.get('name'),
+                            'tipo': video.get('type'),
+                            'url': video_url
+                        })
+                        if not trailer_url and video.get('type') in ['Trailer', 'Teaser']:
+                            trailer_url = video_url
             
             return {
                 'titulo': detalles.get('name', ''),
@@ -831,6 +846,7 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
                 'temporadas': detalles.get('number_of_seasons', 1),
                 'episodios': detalles.get('number_of_episodes', 10),
                 'trailer': trailer_url,
+                'videos_lista': videos_lista,
                 'tmdb_id': tmdb_id,
                 'popularidad': round(float(detalles.get('popularity', 0)), 2),
                 'estado': detalles.get('status', 'Desconocido'),
@@ -1468,6 +1484,8 @@ def mostrar_menu_principal(peliculas, proximamente, cambios_pendientes=False):
     print(f"  14. 🛠️  Herramientas Avanzadas")
     print(f"  15. 📢 Enviar Notificación")
     print(f"  16. 🚀 Búsqueda Rápida TMDb")
+    print(f"  17. 🤖 Modo Automático (Masivo)")
+    print(f"  18. 🔍 Buscador de Fuentes Faltantes")
     
     print(f"\n{C.BOLD}{C.PURPLE}⚡ ACCIONES:{C.END}")
     print(f"  {C.GREEN}S{C.END}. 💾 Guardar Cambios")
@@ -1485,7 +1503,7 @@ def mostrar_menu_principal(peliculas, proximamente, cambios_pendientes=False):
         
         try:
             opcion_num = int(opcion)
-            if 1 <= opcion_num <= 16:
+            if 1 <= opcion_num <= 18:
                 return opcion_num
         except ValueError:
             pass
@@ -2938,6 +2956,410 @@ def busqueda_rapida_tmdb(peliculas, anadidos):
         return False
 
 
+def modo_automatico(peliculas, anadidos):
+    """Añade contenido masivamente de forma automática desde TMDb (Optimizado)."""
+    limpiar_pantalla()
+    print(f"{C.PURPLE}🤖 MODO AUTOMÁTICO (MASIVO & RÁPIDO){C.END}\n")
+
+    # 1. Seleccionar tipo
+    print(f"  1. 🎬 Películas")
+    print(f"  2. 📺 Series")
+    tipo_opcion = input(f"\n{C.CYAN}🎭 Tipo de contenido (1/2): {C.END}").strip()
+    
+    if tipo_opcion == '2':
+        tipo_contenido = 'serie'
+        tmdb_type = 'tv'
+    else:
+        tipo_contenido = 'pelicula'
+        tmdb_type = 'movie'
+
+    # 2. Seleccionar género
+    print(f"\n{C.PURPLE}📂 GÉNEROS DISPONIBLES:{C.END}")
+    
+    # Mostrar géneros en columnas
+    items_generos = list(GENEROS_TMDB.values())
+    items_generos.sort()
+    for i in range(0, len(items_generos), 3):
+        row = items_generos[i:i+3]
+        print("  " + " | ".join(f"{g:<20}" for g in row))
+
+    genero_input = input(f"\n{C.CYAN}🔍 Escribe el género (ej: Accion): {C.END}").strip()
+    
+    # Normalizar input para buscar
+    genero_id = None
+    genero_nombre = ""
+    
+    genero_input_norm = unidecode(genero_input).lower()
+    
+    for gid, gname in GENEROS_TMDB.items():
+        if unidecode(gname).lower() == genero_input_norm or genero_input_norm in unidecode(gname).lower():
+            genero_id = gid
+            genero_nombre = gname
+            break
+    
+    if not genero_id:
+        print(f"{C.RED}❌ Género no encontrado.{C.END}")
+        time.sleep(2)
+        return
+
+    print(f"{C.GREEN}✅ Seleccionado: {genero_nombre} (ID: {genero_id}){C.END}")
+
+    # 3. Cantidad
+    try:
+        cantidad = int(input(f"\n{C.CYAN}🔢 Cantidad a agregar: {C.END}").strip())
+    except ValueError:
+        print(f"{C.RED}❌ Cantidad inválida.{C.END}")
+        time.sleep(2)
+        return
+
+    # 4. Configuración de Video
+    print(f"\n{C.CYAN}🎥 Configuración de Video:{C.END}")
+    print("  1. 🎞️  Usar videos de TMDb (trailers, clips, etc.)")
+    print("  2. 🔗 Usar una URL fija para todo el lote")
+    print("  3. ✍️  Añadir URL para cada elemento (Interactivo)")
+    print("  4. 🚫 Sin video")
+    opcion_video = input(f"{C.GOLD}🎲 Elige opción [3]: {C.END}").strip() or '3'
+    
+    url_fija = ""
+    if opcion_video == '2':
+        url_fija = input(f"{C.CYAN}🔗 URL del video: {C.END}").strip()
+        if url_fija:
+            url_fija = procesar_url_embed(url_fija)
+
+    print(f"\n{C.CYAN}🚀 Iniciando búsqueda y descarga acelerada...{C.END}")
+    
+    discover = tmdb.Discover()
+    nuevos_items = []
+    pagina = 1
+    
+    # Función worker para hilos
+    def procesar_item(item_data):
+        try:
+            tmdb_id = item_data.get('id')
+            titulo = item_data.get('title') if tmdb_type == 'movie' else item_data.get('name')
+            
+            # Verificar si ya existe (doble check)
+            for p in peliculas.values():
+                if str(p.get('tmdb_id')) == str(tmdb_id):
+                    return None
+                if p.get('titulo', '').lower() == titulo.lower():
+                    return None
+            
+            # Obtener detalles completos
+            detalles = obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido)
+            
+            if detalles and detalles.get('success'):
+                # Preparar objeto para guardar
+                nuevo_contenido = {
+                    'tipo': tipo_contenido,
+                    'titulo': detalles.get('titulo', ''),
+                    'titulo_original': detalles.get('titulo_original', ''),
+                    'poster': detalles.get('poster', ''),
+                    'backdrop': detalles.get('backdrop', ''),
+                    'descripcion': detalles.get('descripcion', ''),
+                    'año': detalles.get('año', datetime.now().year),
+                    'categoria': [genero_nombre.lower()],
+                    'genero': detalles.get('generos_lista', []),
+                    'generos_lista': detalles.get('generos_lista', []),
+                    'director': detalles.get('director', ''),
+                    'reparto': [actor['name'] for actor in detalles.get('reparto', [])] if detalles.get('reparto') else [],
+                    'calificacion': detalles.get('calificacion', 0),
+                    'votos': detalles.get('votos', 0),
+                    'idioma': detalles.get('idioma', 'ES'),
+                    'calidad': 'HD',
+                    'favorito': False,
+                    'esta_roto': False,
+                    'addedDate': datetime.now().isoformat(),
+                    'tmdb_id': tmdb_id,
+                    'popularidad': detalles.get('popularidad', 0),
+                    'tagline': detalles.get('tagline', ''),
+                    'trailer': detalles.get('trailer', ''),
+                    'success': True
+                }
+                
+                if tipo_contenido == 'pelicula':
+                    nuevo_contenido['duracion'] = detalles.get('duracion', '')
+                    nuevo_contenido['fuentes'] = []
+                    
+                    # Lógica de video
+                    if opcion_video == '2' and url_fija:
+                        nuevo_contenido['fuentes'].append({
+                            'idioma': 'Latino',
+                            'url': url_fija,
+                            'calidad': 'HD',
+                            'tipo': 'embed',
+                            'activa': True
+                        })
+                    elif opcion_video == '1' and detalles.get('videos_lista'):
+                        # Añadir todos los videos de TMDb como fuentes
+                        for video_tmdb in detalles.get('videos_lista', []):
+                            nuevo_contenido['fuentes'].append({
+                                'idioma': video_tmdb.get('tipo', 'Video'),
+                                'url': procesar_url_embed(video_tmdb.get('url')),
+                                'calidad': 'HD',
+                                'tipo': 'embed',
+                                'activa': True
+                            })
+                        
+                else:
+                    nuevo_contenido['temporadas'] = []
+                    nuevo_contenido['episodios'] = detalles.get('episodios', 0)
+                    nuevo_contenido['tipo_serie'] = detalles.get('tipo_serie', 'Serie')
+                    
+                    if opcion_video == '2' and url_fija:
+                         nuevo_contenido['temporadas'] = [{
+                             'temporada': 1,
+                             'nombre': 'Temporada 1',
+                             'episodios': [{
+                                 'episodio': 1,
+                                 'titulo': 'Episodio 1',
+                                 'url': url_fija,
+                                 'calidad': 'HD',
+                                 'visto': False
+                             }]
+                         }]
+                    elif opcion_video == '1' and detalles.get('videos_lista'):
+                        videos_tmdb = detalles.get('videos_lista', [])
+                        if videos_tmdb:
+                            episodios_extras = []
+                            for i, video_tmdb in enumerate(videos_tmdb, 1):
+                                episodios_extras.append({
+                                    'episodio': i,
+                                    'titulo': video_tmdb.get('nombre', f"Video {i}"),
+                                    'url': procesar_url_embed(video_tmdb.get('url')),
+                                    'calidad': 'HD',
+                                    'visto': False
+                                })
+                            
+                            if episodios_extras:
+                                nuevo_contenido['temporadas'].append({
+                                    'temporada': 0, # Temporada 0 para extras
+                                    'nombre': 'Extras y Trailers',
+                                    'episodios': episodios_extras
+                                })
+                    
+                # Generar ID
+                nuevo_contenido = generar_id_automatico(nuevo_contenido)
+                return nuevo_contenido
+            return None
+        except Exception:
+            return None
+
+    # Bucle principal con ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        while len(nuevos_items) < cantidad:
+            try:
+                if tmdb_type == 'movie':
+                    response = discover.movie(with_genres=genero_id, language='es-ES', page=pagina, sort_by='popularity.desc')
+                else:
+                    response = discover.tv(with_genres=genero_id, language='es-ES', page=pagina, sort_by='popularity.desc')
+                
+                results = response.get('results', [])
+                if not results:
+                    print(f"{C.YELLOW}⚠️  No hay más resultados disponibles.{C.END}")
+                    break
+                
+                # Filtrar candidatos (que no existan ya)
+                candidatos = []
+                for item in results:
+                    tmdb_id = item.get('id')
+                    titulo = item.get('title') if tmdb_type == 'movie' else item.get('name')
+                    
+                    existe = False
+                    for p in peliculas.values():
+                        if str(p.get('tmdb_id')) == str(tmdb_id) or p.get('titulo', '').lower() == titulo.lower():
+                            existe = True
+                            break
+                    
+                    if not existe:
+                        candidatos.append(item)
+                
+                # Procesar candidatos en paralelo
+                futures = {executor.submit(procesar_item, c): c for c in candidatos}
+                
+                for future in as_completed(futures):
+                    if len(nuevos_items) >= cantidad:
+                        break
+                        
+                    res = future.result()
+                    if res:
+                        nuevos_items.append(res)
+                        
+                        # Mostrar info bonita
+                        titulo = res.get('titulo')
+                        año = res.get('año')
+                        print(f"  {C.GREEN}➜{C.END} {titulo[:50]:<50} ({año}) {C.GREY}[Obtenido]{C.END}")
+                
+                pagina += 1
+                
+            except Exception as e:
+                print(f"{C.RED}❌ Error en búsqueda automática: {e}{C.END}")
+                break
+
+    # --- Paso Interactivo para añadir URLs ---
+    if nuevos_items and opcion_video == '3':
+        print(f"\n{C.PURPLE}✍️  AÑADIR FUENTES DE VIDEO (INTERACTIVO){C.END}")
+        print(f"{C.GREY}   Introduce la URL para cada elemento. Presiona Enter para saltar o 'exit' para terminar.{C.END}")
+        
+        for item in nuevos_items:
+            titulo = item.get('titulo')
+            año = item.get('año')
+            
+            try:
+                prompt = f"\n{C.CYAN}🔗 URL para '{titulo} ({año})': {C.END}"
+                url_input = input(prompt).strip()
+                
+                if url_input.lower() == 'exit':
+                    print(f"\n{C.YELLOW}🚫 Proceso de añadir URLs finalizado por el usuario.{C.END}")
+                    break
+                
+                if url_input:
+                    url_procesada = procesar_url_embed(url_input)
+                    
+                    if item['tipo'] == 'pelicula':
+                        if 'fuentes' not in item:
+                            item['fuentes'] = []
+                        
+                        item['fuentes'].append({
+                            'idioma': 'Subtitulado',
+                            'url': url_procesada,
+                            'calidad': 'HD',
+                            'tipo': 'embed',
+                            'activa': True
+                        })
+                        print(f"  {C.GREEN}✅ Fuente añadida.{C.END}")
+                    
+                    else: # Serie
+                        if 'temporadas' not in item:
+                            item['temporadas'] = []
+                        
+                        temp_1 = next((t for t in item['temporadas'] if t.get('temporada') == 1), None)
+                        if not temp_1:
+                            temp_1 = {'temporada': 1, 'nombre': 'Temporada 1', 'episodios': []}
+                            item['temporadas'].append(temp_1)
+                        
+                        temp_1['episodios'].append({
+                            'episodio': 1,
+                            'titulo': 'Episodio 1',
+                            'url': url_procesada,
+                            'calidad': 'HD',
+                            'visto': False
+                        })
+                        print(f"  {C.GREEN}✅ Episodio 1 añadido a Temporada 1.{C.END}")
+                        
+            except (KeyboardInterrupt, EOFError):
+                print(f"\n{C.YELLOW}🚫 Proceso de añadir URLs cancelado.{C.END}")
+                break
+
+    # Guardar automáticamente
+    if nuevos_items:
+        print(f"\n{C.CYAN}💾 Guardando {len(nuevos_items)} elementos automáticamente...{C.END}")
+        for item in nuevos_items:
+            peliculas[item['id']] = item
+            # No añadimos a 'anadidos' para evitar redundancia en el menú principal
+        
+        guardar_peliculas(peliculas)
+        print(f"{C.GREEN}✨ ¡Proceso finalizado y guardado exitosamente!{C.END}")
+    else:
+        print(f"\n{C.YELLOW}⚠️  No se agregaron nuevos elementos.{C.END}")
+        
+    input(f"\n{C.YELLOW}⏎ Presiona Enter para continuar...{C.END}")
+
+def buscador_fuentes_faltantes(peliculas, editados):
+    """Busca contenido sin fuentes de video y permite añadirlas."""
+    while True:
+        limpiar_pantalla()
+        print(f"{C.PURPLE}🔍 BUSCADOR DE FUENTES FALTANTES{C.END}\n")
+        
+        sin_fuentes = []
+        
+        for item in peliculas.values():
+            if item.get('tipo') == 'pelicula':
+                if not item.get('fuentes'):
+                    sin_fuentes.append(item)
+            else:
+                # Para series, ver si hay episodios sin URL
+                tiene_vacios = False
+                for temp in item.get('temporadas', []):
+                    for ep in temp.get('episodios', []):
+                        if not ep.get('url'):
+                            tiene_vacios = True
+                            break
+                    if tiene_vacios: break
+                
+                if tiene_vacios:
+                    sin_fuentes.append(item)
+        
+        if not sin_fuentes:
+            print(f"{C.GREEN}✅ Todo el contenido tiene fuentes de video.{C.END}")
+            input(f"\n{C.YELLOW}⏎ Presiona Enter...{C.END}")
+            return
+
+        print(f"{C.YELLOW}⚠️  Se encontraron {len(sin_fuentes)} elementos sin video:{C.END}")
+        
+        # Mostrar lista (primeros 20 para no saturar)
+        max_mostrar = 20
+        for i, item in enumerate(sin_fuentes[:max_mostrar], 1):
+            tipo = "🎬" if item.get('tipo') == 'pelicula' else "📺"
+            print(f"  {i}. {tipo} {item.get('titulo')} ({item.get('año')})")
+        
+        if len(sin_fuentes) > max_mostrar:
+            print(f"  ... y {len(sin_fuentes) - max_mostrar} más")
+        
+        print(f"\n{C.CYAN}Selecciona un número para añadir video (0 para salir):{C.END}")
+        try:
+            seleccion = int(input(f"{C.GOLD}🎲 Opción: {C.END}").strip())
+            if seleccion == 0:
+                break
+            
+            if 1 <= seleccion <= len(sin_fuentes):
+                item = sin_fuentes[seleccion - 1]
+                
+                if item.get('tipo') == 'pelicula':
+                    print(f"\n{C.CYAN}🎥 Añadiendo fuente para: {item.get('titulo')}{C.END}")
+                    url = input(f"{C.CYAN}🔗 URL del video: {C.END}").strip()
+                    
+                    if url:
+                        if 'fuentes' not in item:
+                            item['fuentes'] = []
+                        
+                        item['fuentes'].append({
+                            'idioma': 'Latino',
+                            'url': procesar_url_embed(url),
+                            'calidad': 'HD',
+                            'tipo': 'embed',
+                            'activa': True
+                        })
+                        
+                        if item not in editados:
+                            editados.append(item)
+                        
+                        print(f"{C.GREEN}✅ Fuente añadida.{C.END}")
+                        time.sleep(1)
+                
+                else: # Serie
+                    print(f"\n{C.CYAN}📺 Episodios sin URL en: {item.get('titulo')}{C.END}")
+                    episodios_vacios = []
+                    
+                    for t in item.get('temporadas', []):
+                        for e in t.get('episodios', []):
+                            if not e.get('url'):
+                                episodios_vacios.append((t, e))
+                    
+                    print(f"{C.YELLOW}Hay {len(episodios_vacios)} episodios sin URL.{C.END}")
+                    print(f"{C.CYAN}Presiona Enter para ir uno por uno (o escribe 'X' para cancelar):{C.END}")
+                    if input().strip().lower() != 'x':
+                        for t, e in episodios_vacios:
+                            print(f"\n➡️  T{t.get('temporada')} E{e.get('episodio')}: {e.get('titulo')}")
+                            url = input(f"{C.CYAN}🔗 URL (Enter para saltar, 'X' para detener): {C.END}").strip()
+                            if url.lower() == 'x': break
+                            if url:
+                                e['url'] = procesar_url_embed(url)
+                                if item not in editados: editados.append(item)
+        except ValueError:
+            print(f"{C.RED}❌ Entrada inválida.{C.END}")
+            time.sleep(1)
+
 # --- Función principal ---
 def main():
     """Función principal del programa."""
@@ -3101,6 +3523,16 @@ def main():
                 if busqueda_rapida_tmdb(peliculas, anadidos):
                     cambios_pendientes = True
                 input(f"\n{C.YELLOW}⏎ Presiona Enter para continuar...{C.END}")
+            
+            elif opcion == 17:  # Modo Automático
+                modo_automatico(peliculas, anadidos)
+                if anadidos:
+                    cambios_pendientes = True
+            
+            elif opcion == 18:  # Buscador Fuentes Faltantes
+                buscador_fuentes_faltantes(peliculas, editados)
+                if editados:
+                    cambios_pendientes = True
             
             else:
                 print(f"{C.RED}❌ Opción no reconocida{C.END}")
