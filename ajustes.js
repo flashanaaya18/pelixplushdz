@@ -51,6 +51,7 @@ function initializeSettings() {
     const importDataBtn = document.getElementById('import-data-btn');
     const importDataInput = document.getElementById('import-data-input');
     const appVersionSpan = document.getElementById('app-version');
+    const btnUpgradeVip = document.getElementById('btn-upgrade-vip');
 
     // Nuevos toggles de personalización de inicio
     const showContinueWatchingToggle = document.getElementById('show-continue-watching-toggle');
@@ -439,6 +440,14 @@ function initializeSettings() {
                 }
             };
             reader.readAsText(file);
+        });
+    }
+
+    // Botón para activar VIP desde Ajustes (Usuario Gratuito)
+    if (btnUpgradeVip) {
+        btnUpgradeVip.addEventListener('click', () => {
+            sessionStorage.setItem('trigger_vip_modal', 'true');
+            window.location.href = 'index.html';
         });
     }
 

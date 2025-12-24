@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="estilos.css">
     <link rel="manifest" href="manifest.json">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     <style>
         /* Estilos para el Page Loader para asegurar su funcionamiento */
         .page-loader {
@@ -21,7 +22,6 @@
             background-color: #141414;
             z-index: 9999;
             display: none;
-            /* Oculto por defecto */
             justify-content: center;
             align-items: center;
             flex-direction: column;
@@ -69,7 +69,7 @@
             height: 100%;
             background-color: rgba(0, 0, 0, 0.85);
             z-index: 10000;
-            display: none; /* Se activa con JS añadiendo la clase .active */
+            display: none;
             justify-content: center;
             align-items: center;
             backdrop-filter: blur(5px);
@@ -160,7 +160,6 @@
             font-weight: 600;
         }
 
-        /* Ajustes Responsive */
         @media (max-width: 600px) {
             .country-list {
                 grid-template-columns: repeat(2, 1fr);
@@ -172,10 +171,404 @@
                 font-size: 1.5rem;
             }
         }
+
+        /* CORRECCIÓN IMPORTANTE: Modal de Acceso debe estar oculto inicialmente */
+        .access-modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            z-index: 20000;
+            display: none; /* CAMBIADO: De 'flex' a 'none' */
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            transition: opacity 0.3s ease;
+        }
+        
+        .access-modal-overlay.active {
+            display: flex; /* Solo se muestra cuando tiene clase 'active' */
+            opacity: 1;
+        }
+        
+        .access-modal-content {
+            background-color: #141414;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+            border: 1px solid #333;
+            box-shadow: 0 0 50px rgba(229, 9, 20, 0.3);
+            transform: scale(0.95);
+            opacity: 0;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        .access-modal-overlay.active .access-modal-content {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        .access-modal-content .logo { 
+            font-size: 2.5rem; 
+            margin-bottom: 20px; 
+            color: white;
+        }
+        
+        .access-options { 
+            display: flex; 
+            flex-direction: column; 
+            gap: 15px; 
+            margin-top: 30px; 
+        }
+        
+        .access-btn {
+            padding: 15px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            transition: all 0.2s ease;
+            font-weight: 600;
+            min-height: 70px;
+        }
+        .access-btn > * { pointer-events: none; }
+        .access-btn:hover { 
+            transform: scale(1.03);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .access-btn.free { 
+            background: linear-gradient(135deg, #333, #555);
+            border: 1px solid #666;
+        }
+        .access-btn.free:hover {
+            background: linear-gradient(135deg, #444, #666);
+            border-color: #777;
+        }
+        .access-btn.vip { 
+            background: linear-gradient(135deg, #e50914, #ff4d4d);
+            border: 1px solid #ff3333;
+        }
+        .access-btn.vip:hover {
+            background: linear-gradient(135deg, #ff1a1a, #ff6666);
+            border-color: #ff4d4d;
+        }
+        .access-btn small { 
+            font-size: 0.85rem; 
+            opacity: 0.9; 
+            margin-top: 5px; 
+            font-weight: normal;
+        }
+        
+        .vip-input { 
+            width: 100%; 
+            padding: 14px; 
+            margin-bottom: 15px; 
+            background: #222; 
+            border: 1px solid #444; 
+            color: white; 
+            border-radius: 8px; 
+            font-size: 1rem;
+            transition: border 0.2s ease;
+        }
+        .vip-input:focus {
+            outline: none;
+            border-color: #e50914;
+        }
+        .validate-btn { 
+            background: linear-gradient(135deg, #e50914, #ff4d4d);
+            color: white; 
+            border: none; 
+            padding: 14px; 
+            border-radius: 8px; 
+            cursor: pointer; 
+            width: 100%; 
+            font-size: 1rem; 
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+        .validate-btn:hover {
+            background: linear-gradient(135deg, #ff1a1a, #ff6666);
+            transform: scale(1.02);
+        }
+        .back-link { 
+            background: none; 
+            border: none; 
+            color: #999; 
+            margin-top: 15px; 
+            cursor: pointer; 
+            text-decoration: underline; 
+            font-size: 0.9rem;
+            padding: 5px;
+            transition: color 0.2s ease;
+        }
+        .back-link:hover {
+            color: #fff;
+        }
+
+        /* Estilos para secciones bloqueadas (Solo VIP) */
+        .vip-restricted {
+            position: relative !important;
+            cursor: pointer;
+        }
+        .vip-restricted > *:not(.section-title-container) {
+            filter: blur(5px);
+            user-select: none;
+            opacity: 0.6;
+            pointer-events: none;
+        }
+        .vip-restricted::after {
+            content: "🔒 Haz clic para ser VIP";
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(229, 9, 20, 0.9);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.3rem;
+            z-index: 100;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            text-align: center;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+        .vip-restricted:hover::after {
+            transform: translate(-50%, -50%) scale(1.05);
+            background-color: #e50914;
+        }
+
+        /* Seguridad Anti-Robo (UI) */
+        body {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        /* Estilos Badge VIP Brillante */
+        .vip-badge {
+            display: none;
+            align-items: center;
+            gap: 6px;
+            background: linear-gradient(45deg, #FFD700, #FDB931, #FFD700);
+            background-size: 200% auto;
+            color: #000;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-weight: 800;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+            animation: vipShine 3s linear infinite;
+            margin-right: 10px;
+            white-space: nowrap;
+            cursor: default;
+        }
+        .vip-badge i { font-size: 0.9rem; }
+        @keyframes vipShine { to { background-position: 200% center; } }
+
+        /* Estilos Mejorados para Planes VIP */
+        .plan-title {
+            color: white;
+            margin-bottom: 25px;
+            font-size: 1.6rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+        .plan-options {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+        }
+        .plan-btn {
+            background: linear-gradient(145deg, #2a2a2a, #1a1a1a);
+            border: 2px solid #333;
+            border-radius: 16px;
+            padding: 20px;
+            width: 150px;
+            min-height: 160px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+        }
+        .plan-btn > * { pointer-events: none; }
+        .plan-btn:hover {
+            transform: translateY(-8px) scale(1.03);
+            border-color: #e50914;
+            background: #333;
+            box-shadow: 0 15px 35px rgba(229, 9, 20, 0.3);
+        }
+        .plan-btn.popular { border-color: #ffd700; }
+        .plan-btn.best-value { border-color: #e50914; background: linear-gradient(145deg, #4a0a0a, #2a0000); }
+        
+        .plan-icon { font-size: 2.2rem; margin-bottom: 15px; color: #ccc; transition: color 0.3s; }
+        .plan-btn:hover .plan-icon { color: white; }
+        .plan-btn.popular .plan-icon { color: #ffd700; }
+        .plan-btn.best-value .plan-icon { color: #e50914; }
+
+        .plan-btn h4 { font-size: 1.2rem; margin: 5px 0; font-weight: 800; }
+        .plan-btn .price { font-size: 1.1rem; color: #e50914; font-weight: bold; margin: 0; }
+        
+        .badge-popular, .badge-best {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.7rem;
+            font-weight: bold;
+            padding: 4px 12px;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            color: #000;
+            white-space: nowrap;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+        .badge-popular { background-color: #ffd700; }
+        .badge-best { background-color: #e50914; color: white; }
+
+        @media (max-width: 600px) {
+            .plan-options { flex-direction: column; gap: 12px; }
+            .plan-btn { 
+                width: 100%; 
+                min-height: auto;
+                flex-direction: row; 
+                justify-content: flex-start; 
+                padding: 15px 20px;
+                text-align: left;
+            }
+            .plan-icon { margin-bottom: 0; margin-right: 20px; width: 40px; text-align: center; font-size: 1.8rem; }
+            .plan-info { display: flex; flex-direction: column; align-items: flex-start; }
+            .badge-popular, .badge-best { left: auto; right: 15px; transform: none; border-radius: 0 0 6px 6px; padding: 3px 10px; font-size: 0.6rem; }
+            
+            .access-modal-content {
+                padding: 25px 20px;
+                margin: 10px;
+            }
+            .access-btn {
+                padding: 12px 15px;
+                min-height: 60px;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            .vip-badge span { display: none; }
+            .vip-badge::after { content: "VIP"; display: inline; }
+            .vip-badge { padding: 6px 10px; margin-right: 5px; }
+        }
     </style>
 </head>
 
 <body>
+    <!-- Access Control Modal -->
+    <div id="access-modal" class="access-modal-overlay">
+        <div class="access-modal-content">
+            <div class="logo"><img src="fondo.png" alt="Logo" style="height:50px; vertical-align:middle; margin-right: 10px;"> Pelix<span style="color:#e50914">plushd</span></div>
+            <h2 style="color:white; margin-bottom: 10px;">Bienvenido a Pelixplushd</h2>
+            <p style="margin-bottom: 15px; color: #ccc;">¿Cómo quieres acceder?</p>
+            <p style="font-size: 0.9rem; color: #bbb; margin-bottom: 20px; line-height: 1.5;">
+                <strong style="color: #fff;">Gratis:</strong> Aparecerán menos películas.<br>
+                <strong style="color: #e50914;">VIP:</strong> Acceso a TODO el contenido.
+            </p>
+            
+            <div id="access-selection" class="access-options">
+                <button id="btn-free" class="access-btn free">
+                    <i class="fas fa-user"></i> Entrar Gratis
+                    <small>Catálogo limitado</small>
+                </button>
+                <button id="btn-vip" class="access-btn vip">
+                    <i class="fas fa-crown"></i> Soy VIP
+                    <small>Acceso Total</small>
+                </button>
+            </div>
+
+            <div id="vip-login-form" style="display:none; margin-top: 20px;">
+                <p style="margin-bottom:15px; color:#fff; font-weight: 600;">Introduce tu código único VIP</p>
+                <input type="text" id="vip-code-input" placeholder="Ej: VIP-JUAN-001" class="vip-input">
+                <button id="btn-validate-vip" class="validate-btn">Validar Código</button>
+                <p id="vip-error" style="color: #e50914; display:none; margin-top: 10px; font-weight:bold; font-size: 0.9rem;"></p>
+                
+                <p style="margin-top: 15px; font-size: 0.9rem; color: #999;">
+                    ¿No tienes cuenta? <a href="#" id="link-request-vip" style="color: #e50914; text-decoration: none; font-weight: bold; transition: color 0.2s ease;">Solicitar VIP</a>
+                </p>
+                
+                <button id="btn-back-vip" class="back-link">← Volver</button>
+            </div>
+
+            <!-- Formulario de Solicitud VIP -->
+            <div id="vip-request-form" style="display:none; margin-top: 20px;">
+
+                <!-- Paso 1: Selección de Plan -->
+                <div id="plan-selection-step">
+                    <h3 class="plan-title">🚀 Elige tu Plan VIP</h3>
+                    <div class="plan-options">
+                        <button class="plan-btn" data-plan="1 Mes" data-price="100">
+                            <div class="plan-icon"><i class="fas fa-ticket-alt"></i></div>
+                            <div class="plan-info">
+                                <h4>1 Mes</h4>
+                                <p class="price">$100 MXN</p>
+                            </div>
+                        </button>
+                        <button class="plan-btn popular" data-plan="2 Meses" data-price="200">
+                            <div class="badge-popular">POPULAR</div>
+                            <div class="plan-icon"><i class="fas fa-fire"></i></div>
+                            <div class="plan-info">
+                                <h4>2 Meses</h4>
+                                <p class="price">$200 MXN</p>
+                            </div>
+                        </button>
+                        <button class="plan-btn best-value" data-plan="1 Año" data-price="1500">
+                            <div class="badge-best">MEJOR OFERTA</div>
+                            <div class="plan-icon"><i class="fas fa-crown"></i></div>
+                            <div class="plan-info">
+                                <h4>1 Año</h4>
+                                <p class="price">$1500 MXN</p>
+                            </div>
+                        </button>
+                    </div>
+                    <button id="btn-back-request" class="back-link">← Cancelar</button>
+                </div>
+
+                <!-- Paso 2: Instrucciones de Pago -->
+                <div id="payment-step" style="display:none; text-align: left;">
+                    <h3 style="color: white; margin-bottom: 15px; text-align: center;">Realiza tu Pago</h3>
+                    <p style="text-align: center; color: #ccc; margin-bottom: 15px;">Plan seleccionado: <strong id="selected-plan-info" style="color: #FFD700;"></strong></p>
+                    <div style="background: #222; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                        <p style="font-size: 1rem; font-weight: bold; color: #fff;">Pasos para activar:</p>
+                        <ol style="font-size: 0.9rem; color: #ccc; padding-left: 20px; margin-top: 10px; line-height: 1.6;">
+                            <li>Realiza el pago a la siguiente clave: <br><strong style="color: #FFD700; font-size: 1.1rem; user-select: all;">722969020026125562</strong></li>
+                            <li>Escribe el nombre o referencia del pago.</li>
+                            <li>Haz clic en "Enviar Comprobante" y adjunta tu recibo en WhatsApp.</li>
+                        </ol>
+                    </div>
+                    <input type="text" id="payment-name-input" placeholder="Nombre usado en el pago" class="vip-input">
+                    <button id="btn-send-proof" class="validate-btn" style="background: linear-gradient(135deg, #25D366, #128C7E);"><i class="fab fa-whatsapp"></i> Enviar Comprobante</button>
+                    <p style="font-size: 0.8rem; color: #666; margin-top: 10px; text-align: center;">La activación puede tardar unos minutos.</p>
+                    <button id="btn-back-to-plans" class="back-link">← Elegir otro plan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Country Selector Modal -->
     <div id="country-selector-modal" class="country-modal-overlay">
         <div class="country-modal-content">
@@ -254,10 +647,17 @@
             <a href="lanzamientos.html">Películas</a>
             <a href="series.html">Series</a>
             <a href="anime.html">Anime</a>
+            <a href="animes1.html">Todos los animes</a>
             <a href="ajustes.html">Ajustes</a>
         </nav>
 
         <div class="nav-actions">
+            <!-- Badge VIP (Solo visible para VIPs) -->
+            <div id="vip-badge-display" class="vip-badge">
+                <i class="fas fa-crown"></i>
+                <span>MIEMBRO VIP</span>
+            </div>
+
             <!-- Botón de notificaciones -->
             <div class="notifications-dropdown">
                 <button id="notifications-btn" class="notifications-btn">
@@ -285,13 +685,13 @@
                 </div>
             </div>
 
-            <!-- Botón de instalar app (mantener el existente) -->
+            <!-- Botón de instalar app -->
             <button id="install-app-btn" class="download-app-btn" title="Instalar App" style="display: flex; align-items: center; gap: 8px; margin-right: 10px; background: rgba(255,255,255,0.1); padding: 6px 12px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.2); color: white; cursor: pointer; transition: all 0.3s ease;">
                 <img src="fondo.png" alt="App" style="width: 20px; height: 20px; border-radius: 50%; object-fit: cover;">
                 <span style="font-size: 13px; font-weight: 600;">Instalar</span>
             </button>
             
-            <!-- Barra de búsqueda (mantener el existente) -->
+            <!-- Barra de búsqueda -->
             <div class="search-bar">
                 <form id="search-form">
                     <input type="text" id="search-input" placeholder="Buscar..." autocomplete="off">
@@ -316,6 +716,7 @@
             <a href="index.html" class="active"><i class="fas fa-home"></i> Inicio</a>
             <a href="lanzamientos.html"><i class="fas fa-film"></i> Películas</a>
             <a href="series.html"><i class="fas fa-tv"></i> Series</a>
+            <a href="animes1.html"><i class="fas fa-child"></i> todos los animes</a>
             <a href="anime.html"><i class="fas fa-dragon"></i> Anime</a>
             <a href="ajustes.html"><i class="fas fa-cog"></i> Ajustes</a>
             <a href="animes1.html"><i class="fas fa-child"></i> todos los animes</a>
@@ -344,7 +745,7 @@
             <div class="hero-indicators"></div>
         </div>
 
-        <!-- Search & Filter Container (Hidden by default) -->
+        <!-- Search & Filter Container -->
         <div id="live-search-container" class="search-overlay" style="display:none;">
             <div class="container">
                 <h2 id="live-search-title">Resultados</h2>
@@ -399,7 +800,6 @@
             <section id="todo-lo-nuevo-2025" class="content-row"></section>
 
             <section id="recientemente-añadido" class="content-row"></section>
-
 
             <section id="accion" class="content-row"></section>
             <section id="terror" class="content-row"></section>
@@ -477,10 +877,365 @@
     <script src="script.js?v=4"></script>
     <script src="notificaciones.js?v=4"></script>
 
-    <!-- UI Interactions -->
+    <!-- UI Interactions - CÓDIGO CORREGIDO -->
     <script>
+        // ========== SISTEMA DE ACCESO COMPLETO ==========
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM cargado, inicializando sistema de acceso...');
+            
+            // Elementos del modal de acceso
+            const accessModal = document.getElementById('access-modal');
+            const btnFree = document.getElementById('btn-free');
+            const btnVip = document.getElementById('btn-vip');
+            const vipForm = document.getElementById('vip-login-form');
+            const accessSelection = document.getElementById('access-selection');
+            const btnValidate = document.getElementById('btn-validate-vip');
+            const btnBack = document.getElementById('btn-back-vip');
+            const vipInput = document.getElementById('vip-code-input');
+            const vipError = document.getElementById('vip-error');
+            
+            // Elementos de Solicitud VIP
+            const requestForm = document.getElementById('vip-request-form');
+            const linkRequest = document.getElementById('link-request-vip');
+            const btnBackRequest = document.getElementById('btn-back-request');
+            const planSelectionStep = document.getElementById('plan-selection-step');
+            const paymentStep = document.getElementById('payment-step');
+            const planButtons = document.querySelectorAll('.plan-btn');
+            const selectedPlanInfo = document.getElementById('selected-plan-info');
+            const paymentNameInput = document.getElementById('payment-name-input');
+            const btnSendProof = document.getElementById('btn-send-proof');
+            const btnBackToPlans = document.getElementById('btn-back-to-plans');
+            
+            // ========== MOSTRAR MODAL SI NO HAY ACCESO ==========
+            function checkAccessStatus() {
+                const accessGranted = sessionStorage.getItem('pelix_access_granted');
+                const accessType = sessionStorage.getItem('pelix_access_type');
+                
+                if (!accessGranted) {
+                    console.log('No hay acceso, mostrando modal...');
+                    showAccessModal();
+                } else {
+                    console.log('Acceso ya concedido:', accessType);
+                    hideAccessModal();
+                    
+                    if (accessType === 'free') {
+                        applyFreeRestrictions();
+                    } else if (accessType === 'vip') {
+                        showVipBadge();
+                        validateVipSession(); // Validar sesión VIP en segundo plano
+                    }
+                }
+            }
+            
+            function showAccessModal() {
+                if (accessModal) {
+                    accessModal.classList.add('active');
+                    document.body.style.overflow = 'hidden'; // Prevenir scroll
+                    console.log('Modal de acceso mostrado');
+                }
+            }
+            
+            function hideAccessModal() {
+                if (accessModal) {
+                    accessModal.classList.remove('active');
+                    document.body.style.overflow = ''; // Restaurar scroll
+                    console.log('Modal de acceso ocultado');
+                }
+            }
+            
+            // ========== BOTÓN ENTRAR GRATIS ==========
+            if (btnFree) {
+                btnFree.addEventListener('click', function() {
+                    console.log('Botón Entrar Gratis clickeado');
+                    sessionStorage.setItem('pelix_access_granted', 'true');
+                    sessionStorage.setItem('pelix_access_type', 'free');
+                    hideAccessModal();
+                    applyFreeRestrictions();
+                    
+                    // Mostrar notificación
+                    if (typeof window.showNotification === 'function') {
+                        window.showNotification('Modo Gratuito: Catálogo limitado', 'info');
+                    } else {
+                        console.log('Modo Gratuito activado');
+                    }
+                });
+            }
+            
+            // ========== BOTÓN SOY VIP ==========
+            if (btnVip) {
+                btnVip.addEventListener('click', function() {
+                    console.log('Botón Soy VIP clickeado');
+                    if (accessSelection) accessSelection.style.display = 'none';
+                    if (vipForm) vipForm.style.display = 'block';
+                    if (vipInput) {
+                        vipInput.focus();
+                        vipInput.value = ''; // Limpiar input
+                    }
+                    if (vipError) vipError.style.display = 'none';
+                });
+            }
+            
+            // ========== VALIDAR CÓDIGO VIP ==========
+            if (btnValidate) {
+                btnValidate.addEventListener('click', validateVipCode);
+                
+                // Permitir validar con Enter
+                if (vipInput) {
+                    vipInput.addEventListener('keypress', function(e) {
+                        if (e.key === 'Enter') {
+                            validateVipCode();
+                        }
+                    });
+                }
+            }
+            
+            async function validateVipCode() {
+                const code = vipInput ? vipInput.value.trim() : "";
+                console.log('Validando código VIP:', code);
+                
+                if (!code) {
+                    showVipErrorMessage('Por favor, introduce un código');
+                    return;
+                }
+                
+                try {
+                    // Agregamos timestamp para evitar caché
+                    const response = await fetch(`codigos_vip.json?v=${new Date().getTime()}`);
+                    const users = await response.json();
+                    const user = users.find(u => u.codigo === code);
+                    
+                    if (user) {
+                        // Verificar si el código está expirado
+                        if (isUserExpired(user)) {
+                            const startDate = new Date(user.fecha_inicio + 'T00:00:00');
+                            const diasValidez = user.dias_validez || 30;
+                            const expirationDate = new Date(startDate);
+                            expirationDate.setDate(startDate.getDate() + diasValidez);
+                            
+                            showVipErrorMessage(`Tu código venció el ${expirationDate.toLocaleDateString()}. Por favor renueva tu suscripción.`);
+                            return;
+                        }
+                        
+                        // Código válido
+                        console.log('Código VIP válido para:', user.nombre);
+                        sessionStorage.setItem('pelix_access_granted', 'true');
+                        sessionStorage.setItem('pelix_access_type', 'vip');
+                        sessionStorage.setItem('pelix_user_name', user.nombre);
+                        sessionStorage.setItem('pelix_user_code', user.codigo);
+                        
+                        hideAccessModal();
+                        showVipBadge();
+                        
+                        // Mostrar mensaje de bienvenida
+                        const welcomeMessage = `¡Bienvenido VIP, ${user.nombre}!`;
+                        if (typeof window.showNotification === 'function') {
+                            window.showNotification(welcomeMessage, 'success');
+                        } else {
+                            alert(welcomeMessage);
+                        }
+                        
+                    } else {
+                        showVipErrorMessage('Código incorrecto o no encontrado');
+                    }
+                } catch (error) {
+                    console.error('Error cargando base de datos:', error);
+                    showVipErrorMessage('Error de conexión con la base de datos');
+                }
+            }
+            
+            function showVipErrorMessage(errorMessage) {
+                if (vipError) {
+                    vipError.textContent = errorMessage;
+                    vipError.style.display = 'block';
+                    
+                    // Auto-ocultar después de 5 segundos
+                    setTimeout(function() {
+                        vipError.style.display = 'none';
+                    }, 5000);
+                }
+            }
+            
+            // ========== VOLVER ==========
+            if (btnBack) {
+                btnBack.addEventListener('click', function() {
+                    console.log('Volviendo a selección de acceso');
+                    if (vipForm) vipForm.style.display = 'none';
+                    if (accessSelection) accessSelection.style.display = 'flex';
+                    if (vipError) vipError.style.display = 'none';
+                    if (vipInput) vipInput.value = '';
+                });
+            }
+            
+            // ========== SOLICITAR VIP ==========
+            if (linkRequest) {
+                linkRequest.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    console.log('Solicitando VIP');
+                    if (vipForm) vipForm.style.display = 'none';
+                    if (requestForm) requestForm.style.display = 'block';
+                    if (planSelectionStep) planSelectionStep.style.display = 'block';
+                    if (paymentStep) paymentStep.style.display = 'none';
+                });
+            }
+            
+            // ========== PLANES VIP ==========
+            let selectedPlan = {};
+            
+            planButtons.forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    selectedPlan = {
+                        name: btn.dataset.plan,
+                        price: btn.dataset.price
+                    };
+                    console.log('Plan seleccionado:', selectedPlan);
+                    
+                    if(selectedPlanInfo) selectedPlanInfo.textContent = `${selectedPlan.name} - $${selectedPlan.price} MXN`;
+                    if(planSelectionStep) planSelectionStep.style.display = 'none';
+                    if(paymentStep) paymentStep.style.display = 'block';
+                });
+            });
+            
+            // ========== ENVIAR COMPROBANTE ==========
+            if (btnSendProof) {
+                btnSendProof.addEventListener('click', function() {
+                    const name = paymentNameInput ? paymentNameInput.value.trim() : "";
+                    
+                    if (!name) {
+                        alert("Por favor, escribe el nombre usado en el pago.");
+                        return;
+                    }
+                    
+                    const planName = selectedPlan.name || "Plan VIP";
+                    const planPrice = selectedPlan.price || "0";
+                    const adminPhone = "+525616840524"; 
+                    
+                    const whatsappMessageContent = `👋 *Hola, quiero activar mi Plan VIP en Pelixplushd.*%0A%0A🧾 *Detalles del Pago:*%0A👤 *Usuario/Ref:* ${name}%0A📅 *Plan:* ${planName}%0A💰 *Monto:* $${planPrice} MXN%0A%0A📎 _Adjunto mi comprobante a continuación para su validación._%0A🚀 ¡Espero mi código de acceso!`;
+                    
+                    window.open(`https://wa.me/${adminPhone}?text=${whatsappMessageContent}`, '_blank');
+                });
+            }
+            
+            // ========== VOLVER A PLANES ==========
+            if(btnBackToPlans) {
+                btnBackToPlans.addEventListener('click', function() {
+                    if(paymentStep) paymentStep.style.display = 'none';
+                    if(planSelectionStep) planSelectionStep.style.display = 'block';
+                });
+            }
+            
+            if (btnBackRequest) {
+                btnBackRequest.addEventListener('click', function() {
+                    if (requestForm) requestForm.style.display = 'none';
+                    if (vipForm) vipForm.style.display = 'block';
+                });
+            }
+            
+            // ========== FUNCIONES DE AYUDA ==========
+            function isUserExpired(user) {
+                if (!user.fecha_inicio) return false;
+                const today = new Date();
+                const startDate = new Date(user.fecha_inicio + 'T00:00:00');
+                const diasValidez = user.dias_validez || 30;
+                const expirationDate = new Date(startDate);
+                expirationDate.setDate(startDate.getDate() + diasValidez);
+                expirationDate.setHours(23, 59, 59, 999);
+                return today > expirationDate;
+            }
+            
+            async function validateVipSession() {
+                const storedCode = sessionStorage.getItem('pelix_user_code');
+                if (!storedCode) return;
+                
+                try {
+                    const response = await fetch(`codigos_vip.json?v=${new Date().getTime()}`);
+                    const users = await response.json();
+                    const user = users.find(u => u.codigo === storedCode);
+                    
+                    if (!user || isUserExpired(user)) {
+                        // Sesión expirada o usuario eliminado
+                        console.log('Sesión VIP expirada, cerrando...');
+                        sessionStorage.clear();
+                        showAccessModal();
+                        
+                        if (accessSelection) accessSelection.style.display = 'none';
+                        if (vipForm) vipForm.style.display = 'block';
+                        if (vipError) {
+                            vipError.textContent = 'Tu sesión ha expirado. Por favor, ingresa tu código nuevamente.';
+                            vipError.style.display = 'block';
+                        }
+                    }
+                } catch (e) {
+                    console.error('Error validando sesión VIP:', e);
+                }
+            }
+            
+            function showVipBadge() {
+                const badge = document.getElementById('vip-badge-display');
+                if (badge) {
+                    badge.style.display = 'flex';
+                    console.log('Badge VIP mostrado');
+                }
+            }
+            
+            function applyFreeRestrictions() {
+                console.log('Aplicando restricciones modo gratis');
+                
+                // Ocultar secciones premium
+                const restrictedSections = ['mejores-peliculas-section', 'recomendaciones-section', 'tendencias'];
+                restrictedSections.forEach(function(id) {
+                    const el = document.getElementById(id);
+                    if (el) el.style.display = 'none';
+                });
+                
+                // Bloquear sección VIP
+                const vipSection = document.getElementById('todo-lo-nuevo-2025');
+                if (vipSection) {
+                    vipSection.classList.add('vip-restricted');
+                    vipSection.addEventListener('click', function() {
+                        console.log('Sección VIP clickeada');
+                        showAccessModal();
+                        if (accessSelection) accessSelection.style.display = 'none';
+                        if (vipForm) vipForm.style.display = 'none';
+                        if (requestForm) requestForm.style.display = 'block';
+                        if (planSelectionStep) planSelectionStep.style.display = 'block';
+                        if (paymentStep) paymentStep.style.display = 'none';
+                    });
+                }
+                
+                // Ocultar algunas películas (simulación de catálogo limitado)
+                setTimeout(function() {
+                    document.querySelectorAll('.movie-card, .anime-card').forEach(function(card, index) {
+                        if (index % 2 !== 0) card.style.display = 'none';
+                    });
+                }, 1000);
+            }
+            
+            // ========== INICIALIZACIÓN ==========
+            checkAccessStatus();
+
+            // Verificar si viene redirigido para comprar VIP desde Animes
+            if (sessionStorage.getItem('trigger_vip_modal') === 'true') {
+                sessionStorage.removeItem('trigger_vip_modal');
+                setTimeout(() => {
+                    showAccessModal();
+                    if (accessSelection) accessSelection.style.display = 'none';
+                    if (vipForm) vipForm.style.display = 'none';
+                    if (requestForm) requestForm.style.display = 'block';
+                }, 500);
+            }
+            
+            // Verificar sesión VIP cada 30 segundos
+            setInterval(function() {
+                if (sessionStorage.getItem('pelix_access_type') === 'vip') {
+                    validateVipSession();
+                }
+            }, 30000);
+        });
+        
+        // ========== FUNCIONES GLOBALES ==========
+        
         // Sticky Header Logic
-        window.addEventListener('scroll', () => {
+        window.addEventListener('scroll', function() {
             const header = document.getElementById('main-header');
             if (window.scrollY > 50) header.classList.add('scrolled');
             else header.classList.remove('scrolled');
@@ -506,26 +1261,28 @@
         let deferredPrompt;
         const installBtn = document.getElementById('install-app-btn');
 
-        window.addEventListener('beforeinstallprompt', (e) => {
+        window.addEventListener('beforeinstallprompt', function(e) {
             e.preventDefault();
             deferredPrompt = e;
         });
 
-        installBtn.addEventListener('click', async () => {
-            if (deferredPrompt) {
-                deferredPrompt.prompt();
-                const { outcome } = await deferredPrompt.userChoice;
-                deferredPrompt = null;
-                if (outcome === 'accepted') {
-                    installBtn.style.display = 'none';
+        if (installBtn) {
+            installBtn.addEventListener('click', async function() {
+                if (deferredPrompt) {
+                    deferredPrompt.prompt();
+                    const { outcome } = await deferredPrompt.userChoice;
+                    deferredPrompt = null;
+                    if (outcome === 'accepted') {
+                        installBtn.style.display = 'none';
+                    }
+                } else {
+                    alert("Para instalar, busca la opción 'Añadir a pantalla de inicio' o 'Instalar aplicación' en el menú de tu navegador.");
                 }
-            } else {
-                alert("Para instalar, busca la opción 'Añadir a pantalla de inicio' o 'Instalar aplicación' en el menú de tu navegador.");
-            }
-        });
+            });
+        }
 
-        window.addEventListener('appinstalled', () => {
-            installBtn.style.display = 'none';
+        window.addEventListener('appinstalled', function() {
+            if (installBtn) installBtn.style.display = 'none';
         });
 
         // Rotación de fondo del héroe
@@ -538,8 +1295,8 @@
             }
         });
 
-        // Bloquear clics en contenido roto (Funcional en PC y Móvil)
-        document.addEventListener('click', (e) => {
+        // Bloquear clics en contenido roto
+        document.addEventListener('click', function(e) {
             const target = e.target.closest('a, .movie-card, .anime-card, .item-card');
             if (target) {
                 const img = target.querySelector('img');
@@ -551,29 +1308,65 @@
             }
         }, true);
 
-        // Limpiar caché automáticamente al iniciar la aplicación (PC y Móvil)
-        (async function autoClearCache() {
+        // Limpiar caché automáticamente
+        (function autoClearCache() {
+          try {
             const SESSION_KEY = 'pelix_cache_cleared';
-            
-            // Leer la preferencia del usuario. Por defecto, está activado.
             const autoCacheClearEnabled = localStorage.getItem('settings_auto_cache_clear') !== 'false';
+            
             if (!autoCacheClearEnabled) {
-                return; // No hacer nada si el usuario lo desactivó
+                return;
             }
 
             if (!sessionStorage.getItem(SESSION_KEY)) {
                 if ('caches' in window) {
                     try {
-                        const keys = await caches.keys();
-                        await Promise.all(keys.map(key => caches.delete(key)));
+                        const keys = window.caches.keys();
+                        keys.then(function(cacheKeys) {
+                            cacheKeys.forEach(function(key) {
+                                window.caches.delete(key);
+                            });
+                        });
                         console.log('Caché limpiada automáticamente al inicio.');
                     } catch (e) { console.error('Error al limpiar caché:', e); }
                 }
                 sessionStorage.setItem(SESSION_KEY, 'true');
                 window.location.reload();
             }
+          } catch (e) { console.warn("Cache logic skipped:", e); }
         })();
+        
+        // Seguridad - Bloquear inspección
+        document.addEventListener('contextmenu', function(event) { 
+            event.preventDefault(); 
+        });
+        
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'F12' || e.keyCode === 123) {
+                e.preventDefault();
+                return false;
+            }
+            
+            if (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.keyCode === 73)) {
+                e.preventDefault();
+                return false;
+            }
+            
+            if (e.ctrlKey && e.shiftKey && (e.key === 'C' || e.keyCode === 67)) {
+                e.preventDefault();
+                return false;
+            }
+            
+            if (e.ctrlKey && e.shiftKey && (e.key === 'J' || e.keyCode === 74)) {
+                e.preventDefault();
+                return false;
+            }
+            
+            if (e.ctrlKey && (e.key === 'U' || e.keyCode === 85)) {
+                e.preventDefault();
+                return false;
+            }
+        });
     </script>
 </body>
-
 </html>

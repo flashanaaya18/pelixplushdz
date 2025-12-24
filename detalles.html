@@ -281,6 +281,73 @@
                 if (target) target.classList.add('active');
             });
         });
+
+        // --- SEGURIDAD DE IFRAMES Y CONTENIDO ---
+        document.addEventListener('DOMContentLoaded', () => {
+            // 1. Bloquear Click Derecho (Context Menu)
+            document.addEventListener('contextmenu', event => event.preventDefault());
+
+            // 2. Bloquear Teclas de Inspección
+            document.addEventListener('keydown', function(e) {
+                // F12
+                if (e.key === 'F12' || e.keyCode === 123) {
+                    e.preventDefault();
+                    return false;
+                }
+                
+                // Ctrl+Shift+I
+                if (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.keyCode === 73)) {
+                    e.preventDefault();
+                    return false;
+                }
+                
+                // Ctrl+Shift+C
+                if (e.ctrlKey && e.shiftKey && (e.key === 'C' || e.keyCode === 67)) {
+                    e.preventDefault();
+                    return false;
+                }
+                
+                // Ctrl+Shift+J
+                if (e.ctrlKey && e.shiftKey && (e.key === 'J' || e.keyCode === 74)) {
+                    e.preventDefault();
+                    return false;
+                }
+                
+                // Ctrl+U
+                if (e.ctrlKey && (e.key === 'U' || e.keyCode === 85)) {
+                    e.preventDefault();
+                    return false;
+                }
+            });
+            
+            // 3. Protección Dinámica de Iframes
+            const securityObserver = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    mutation.addedNodes.forEach((node) => {
+                        if (node.tagName === 'IFRAME' || (node.querySelectorAll && node.querySelectorAll('iframe').length > 0)) {
+                            const iframes = node.tagName === 'IFRAME' ? [node] : node.querySelectorAll('iframe');
+                            iframes.forEach(iframe => {
+                                // Agregar atributos de seguridad
+                                iframe.setAttribute('loading', 'lazy');
+                            });
+                        }
+                    });
+                });
+            });
+            
+            // Observar todo el documento
+            securityObserver.observe(document.documentElement, { 
+                childList: true, 
+                subtree: true 
+            });
+            
+            // 4. Protección adicional contra herramientas de desarrollo
+            setInterval(function() {
+                if (window.console && console.clear) {
+                    console.clear();
+                }
+            }, 1000);
+        });
     </script>
 </body>
 

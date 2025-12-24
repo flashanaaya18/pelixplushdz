@@ -9,6 +9,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import random
 import copy
 import shutil
+from datetime import timedelta
 
 # --- Verificación de dependencias ---
 try:
@@ -147,6 +148,7 @@ MAINTENANCE_FLAG = 'maintenance.flag'
 CAMPAIGN_FILE = 'campaña_proximamente.txt'
 PELINOT_JS_FILE = 'pelinot.js'
 NOTIFICACIONES_FILE = 'lanzamientos_notificaciones.json'
+VIP_USERS_FILE = 'codigos_vip.json'
 
 CONTENT_TYPES = {'1': 'pelicula', '2': 'serie'}
 CATEGORIAS_DISPONIBLES = [
@@ -1486,6 +1488,7 @@ def mostrar_menu_principal(peliculas, proximamente, cambios_pendientes=False):
     print(f"  16. 🚀 Búsqueda Rápida TMDb")
     print(f"  17. 🤖 Modo Automático (Masivo)")
     print(f"  18. 🔍 Buscador de Fuentes Faltantes")
+    print(f"  19. 👑 Gestionar Usuarios VIP")
     
     print(f"\n{C.BOLD}{C.PURPLE}⚡ ACCIONES:{C.END}")
     print(f"  {C.GREEN}S{C.END}. 💾 Guardar Cambios")
@@ -1503,7 +1506,7 @@ def mostrar_menu_principal(peliculas, proximamente, cambios_pendientes=False):
         
         try:
             opcion_num = int(opcion)
-            if 1 <= opcion_num <= 18:
+            if 1 <= opcion_num <= 19:
                 return opcion_num
         except ValueError:
             pass
@@ -3360,6 +3363,145 @@ def buscador_fuentes_faltantes(peliculas, editados):
             print(f"{C.RED}❌ Entrada inválida.{C.END}")
             time.sleep(1)
 
+# --- Funciones de Gestión de Usuarios VIP ---
+def cargar_usuarios_vip():
+    if not os.path.exists(VIP_USERS_FILE):
+        return []
+    try:
+        with open(VIP_USERS_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except:
+        return []
+
+def guardar_usuarios_vip(usuarios):
+    try:
+        with open(VIP_USERS_FILE, 'w', encoding='utf-8') as f:
+            json.dump(usuarios, f, indent=2, ensure_ascii=False)
+        return True
+    except Exception as e:
+        print(f"{C.RED}❌ Error guardando usuarios VIP: {e}{C.END}")
+        return False
+
+def gestionar_usuarios_vip():
+    """Gestiona los usuarios VIP."""
+    usuarios = cargar_usuarios_vip()
+    
+    while True:
+        limpiar_pantalla()
+        print(f"{C.PURPLE}👑 GESTIÓN DE USUARIOS VIP{C.END}\n")
+        
+        # Listar usuarios con estado
+        print(f"{'No.':<4} {'Nombre':<20} {'Código':<25} {'Inicio':<12} {'Días':<6} {'Estado':<10}")
+        print(f"{'='*80}")
+        
+        today = datetime.now()
+        
+        for i, u in enumerate(usuarios, 1):
+            nombre = u.get('nombre', 'Sin nombre')[:18]
+            codigo = u.get('codigo', 'N/A')
+            inicio_str = u.get('fecha_inicio', '')
+            dias = u.get('dias_validez', 30)
+            
+            estado = "❓"
+            if inicio_str:
+                try:
+                    inicio = datetime.strptime(inicio_str, '%Y-%m-%d')
+                    fin = inicio + timedelta(days=dias)
+                    # Ajustar fin al final del día
+                    fin = fin.replace(hour=23, minute=59, second=59)
+                    
+                    if today > fin:
+                        estado = f"{C.RED}EXPIRADO{C.END}"
+                    else:
+                        estado = f"{C.GREEN}ACTIVO{C.END}"
+                except:
+                    estado = "Error Fecha"
+            
+            print(f"{i:<4} {nombre:<20} {codigo:<25} {inicio_str:<12} {dias:<6} {estado}")
+            
+        print(f"\n{C.PURPLE}📋 OPCIONES:{C.END}")
+        print(f"  1. ➕ Añadir Usuario")
+        print(f"  2. ✏️  Editar Usuario")
+        print(f"  3. 🗑️  Eliminar Usuario")
+        print(f"\n  0. ↩️  Volver")
+        
+        opcion = input(f"\n{C.GOLD}🎲 Elige: {C.END}").strip()
+        
+        if opcion == '0':
+            break
+            
+        elif opcion == '1':
+            print(f"\n{C.CYAN}➕ AÑADIR USUARIO{C.END}")
+            nombre = input(f"{C.CYAN}👤 Nombre: {C.END}").strip()
+            if not nombre: continue
+            
+            # Generar código automático
+            random_id = random.randint(1000, 9999)
+            clean_name = re.sub(r'[^A-Z0-9]', '', unidecode(nombre).upper())
+            codigo_sugerido = f"VIP-{clean_name}-{random_id}"
+            
+            codigo = input(f"{C.CYAN}🔑 Código [{codigo_sugerido}]: {C.END}").strip() or codigo_sugerido
+            
+            # Fecha inicio (Hoy por defecto)
+            fecha_hoy = datetime.now().strftime('%Y-%m-%d')
+            fecha = input(f"{C.CYAN}📅 Fecha Inicio [{fecha_hoy}]: {C.END}").strip() or fecha_hoy
+            
+            # Días validez
+            dias = input(f"{C.CYAN}⏳ Días de validez [30]: {C.END}").strip() or "30"
+            try:
+                dias = int(dias)
+            except:
+                dias = 30
+                
+            usuarios.append({
+                "nombre": nombre,
+                "codigo": codigo,
+                "fecha_inicio": fecha,
+                "dias_validez": dias
+            })
+            guardar_usuarios_vip(usuarios)
+            print(f"{C.GREEN}✅ Usuario añadido exitosamente{C.END}")
+            time.sleep(1)
+            
+        elif opcion == '2':
+            try:
+                idx = int(input(f"\n{C.CYAN}🔢 Número a editar: {C.END}").strip()) - 1
+                if 0 <= idx < len(usuarios):
+                    u = usuarios[idx]
+                    print(f"\n{C.YELLOW}Editando a {u['nombre']}{C.END}")
+                    
+                    nuevo_nombre = input(f"Nombre [{u['nombre']}]: ").strip()
+                    if nuevo_nombre: u['nombre'] = nuevo_nombre
+                    
+                    nuevo_codigo = input(f"Código [{u['codigo']}]: ").strip()
+                    if nuevo_codigo: u['codigo'] = nuevo_codigo
+                    
+                    nueva_fecha = input(f"Fecha Inicio [{u.get('fecha_inicio', '')}]: ").strip()
+                    if nueva_fecha: u['fecha_inicio'] = nueva_fecha
+                    
+                    nuevos_dias = input(f"Días Validez [{u.get('dias_validez', 30)}]: ").strip()
+                    if nuevos_dias: 
+                        try: u['dias_validez'] = int(nuevos_dias)
+                        except: pass
+                        
+                    guardar_usuarios_vip(usuarios)
+                    print(f"{C.GREEN}✅ Usuario actualizado{C.END}")
+                    time.sleep(1)
+            except ValueError:
+                pass
+                
+        elif opcion == '3':
+            try:
+                idx = int(input(f"\n{C.CYAN}🔢 Número a eliminar: {C.END}").strip()) - 1
+                if 0 <= idx < len(usuarios):
+                    if confirmar_accion(f"¿Eliminar a {usuarios[idx]['nombre']}?"):
+                        eliminado = usuarios.pop(idx)
+                        guardar_usuarios_vip(usuarios)
+                        print(f"{C.GREEN}✅ Eliminado: {eliminado['nombre']}{C.END}")
+                        time.sleep(1)
+            except ValueError:
+                pass
+
 # --- Función principal ---
 def main():
     """Función principal del programa."""
@@ -3533,6 +3675,9 @@ def main():
                 buscador_fuentes_faltantes(peliculas, editados)
                 if editados:
                     cambios_pendientes = True
+            
+            elif opcion == 19:  # Gestionar Usuarios VIP
+                gestionar_usuarios_vip()
             
             else:
                 print(f"{C.RED}❌ Opción no reconocida{C.END}")

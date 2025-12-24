@@ -54,6 +54,46 @@
         <div class="ajustes-container">
             <h1><i class="fas fa-cog"></i> Ajustes y Configuración</h1>
 
+            <!-- Sección VIP Dinámica -->
+            <section class="setting-group" id="vip-subscription-section" style="display:none; border: 1px solid #e50914; padding: 15px; border-radius: 8px; background: rgba(229, 9, 20, 0.1);">
+                <h2 style="color: #e50914; border-bottom-color: #e50914;">👑 Mi Suscripción VIP</h2>
+                <div class="setting-item">
+                    <span>Usuario</span>
+                    <span id="vip-username-display" style="font-weight:bold; color:white;">--</span>
+                </div>
+                <div class="setting-item">
+                    <span>Fecha de Vencimiento</span>
+                    <span id="vip-expiration-date" style="color: #ccc;">--</span>
+                </div>
+                <div class="setting-item">
+                    <span>Tiempo Restante</span>
+                    <span id="vip-time-remaining" style="font-size: 1.1rem; font-weight: bold; color: #fff;">Calculando...</span>
+                </div>
+                <div class="setting-item">
+                    <button id="btn-renew-vip" class="btn-setting" style="width:100%; background-color: #25D366; color: white; margin-top:10px;">
+                        <i class="fab fa-whatsapp"></i> Renovar Suscripción
+                    </button>
+                </div>
+            </section>
+
+            <!-- Sección Membresía Gratuita (Nueva) -->
+            <section class="setting-group" id="free-subscription-section" style="display:none; border: 1px solid #444; padding: 15px; border-radius: 8px; background: rgba(255, 255, 255, 0.05);">
+                <h2 style="color: #ccc; border-bottom-color: #444;">👤 Mi Membresía</h2>
+                <div class="setting-item">
+                    <span>Estado Actual</span>
+                    <span style="font-weight:bold; color:white; background: #333; padding: 4px 10px; border-radius: 4px; font-size: 0.9rem;">GRATUITO</span>
+                </div>
+                <div class="setting-item" style="display:block; margin-top:10px;">
+                    <p style="font-size: 0.9rem; color: #aaa; margin-bottom: 15px; line-height: 1.4;">
+                        Tienes acceso limitado al catálogo. <br>
+                        <span style="color: #e50914;">¡Hazte VIP para ver todo sin límites!</span>
+                    </p>
+                    <button id="btn-upgrade-vip" class="btn-setting" style="width:100%; background: linear-gradient(135deg, #e50914, #ff4d4d); color: white; font-weight: bold; border: none; box-shadow: 0 4px 15px rgba(229,9,20,0.3);">
+                        <i class="fas fa-crown"></i> Activar Plan VIP
+                    </button>
+                </div>
+            </section>
+
             <section class="setting-group">
                 <h2>Apariencia</h2>
                 <div class="setting-item">
@@ -239,6 +279,83 @@
 
     <script src="script.js?v=4"></script>
     <script src="ajustes.js?v=4"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            const vipSection = document.getElementById('vip-subscription-section');
+            const freeSection = document.getElementById('free-subscription-section');
+            const usernameDisplay = document.getElementById('vip-username-display');
+            const expirationDisplay = document.getElementById('vip-expiration-date');
+            const timeRemainingDisplay = document.getElementById('vip-time-remaining');
+            const btnRenew = document.getElementById('btn-renew-vip');
+
+            const accessType = sessionStorage.getItem('pelix_access_type');
+            const userCode = sessionStorage.getItem('pelix_user_code');
+
+            if (accessType === 'vip' && userCode) {
+                vipSection.style.display = 'block';
+                if(freeSection) freeSection.style.display = 'none';
+                
+                try {
+                    // Obtener datos frescos de la base de datos
+                    const response = await fetch(`codigos_vip.json?v=${new Date().getTime()}`);
+                    const users = await response.json();
+                    const user = users.find(u => u.codigo === userCode);
+
+                    if (user && user.fecha_inicio) {
+                        usernameDisplay.textContent = user.nombre;
+
+                        const startDate = new Date(user.fecha_inicio + 'T00:00:00');
+                        const diasValidez = user.dias_validez || 30;
+                        const expirationDate = new Date(startDate);
+                        expirationDate.setDate(startDate.getDate() + diasValidez);
+                        // Final del día de vencimiento
+                        expirationDate.setHours(23, 59, 59, 999);
+
+                        // Mostrar fecha formateada
+                        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+                        expirationDisplay.textContent = expirationDate.toLocaleDateString('es-ES', options);
+
+                        // Función de actualización del contador en tiempo real
+                        function updateCounter() {
+                            const now = new Date();
+                            const timeDiff = expirationDate - now;
+
+                            if (timeDiff > 0) {
+                                const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+                                const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+                                const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+                                
+                                timeRemainingDisplay.textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+                            } else {
+                                // Si el tiempo se acaba, bloquear acceso
+                                timeRemainingDisplay.textContent = 'EXPIRADO';
+                                timeRemainingDisplay.style.color = 'red';
+                                alert('Tu tiempo VIP ha terminado. Por favor renueva.');
+                                sessionStorage.clear();
+                                window.location.href = 'index.html';
+                            }
+                        }
+
+                        updateCounter();
+                        setInterval(updateCounter, 1000); // Actualizar cada segundo
+
+                        // Botón de renovación por WhatsApp
+                        btnRenew.addEventListener('click', () => {
+                            const adminPhone = "+525616840524"; 
+                            const message = `Hola, mi suscripción VIP está por vencer o venció.%0A%0A👤 Usuario: ${user.nombre}%0A🔑 Código: ${user.codigo}%0A%0AQuiero renovar.`;
+                            window.open(`https://wa.me/${adminPhone}?text=${message}`, '_blank');
+                        });
+                    }
+                } catch (e) {
+                    console.error("Error verificando suscripción VIP", e);
+                }
+            } else {
+                // Si no es VIP (Gratis o sin sesión), mostrar sección gratuita
+                if(freeSection) freeSection.style.display = 'block';
+            }
+        });
+    </script>
 </body>
 
 </html>
