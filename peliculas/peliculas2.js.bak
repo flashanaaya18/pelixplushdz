@@ -393,7 +393,15 @@ const peliculas2 = [
     "trailer": "",
     "success": true,
     "duracion": "111 min",
-    "fuentes": [],
+    "fuentes": [
+      {
+        "idioma": "Latino",
+        "url": "https://goodstream.one/embed-oh4oeo5cczk8.html",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
     "id": "365-dias-aquel-dia-2022"
   },
   {
@@ -1002,180 +1010,6 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
-    "titulo": "Avatar",
-    "titulo_original": "Avatar",
-    "poster": "https://image.tmdb.org/t/p/w500/t5T3LPbLLgP2OP6kloM9p2PXpJL.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/7JNzw1tSZZEgsBw6lu0VfO2X2Ef.jpg",
-    "descripcion": "Año 2154. Jake Sully, un exmarine en silla de ruedas, es enviado al planeta Pandora, donde se ha creado el programa Avatar, gracias al cual los seres humanos pueden controlar de forma remota un cuerpo biológico con apariencia y genética de la especie nativa. Pronto se encontrará con la encrucijada entre seguir las órdenes de sus superiores o defender al mundo que le ha acogido y siente como suyo.",
-    "año": 2009,
-    "categoria": [
-      "aventura"
-    ],
-    "genero": [
-      "Acción",
-      "Aventura",
-      "Fantasía",
-      "Ciencia ficción"
-    ],
-    "generos_lista": [
-      "Acción",
-      "Aventura",
-      "Fantasía",
-      "Ciencia ficción"
-    ],
-    "director": "James Cameron",
-    "reparto": [
-      "Sam Worthington",
-      "Zoe Saldaña",
-      "Sigourney Weaver",
-      "Stephen Lang",
-      "Michelle Rodríguez",
-      "Giovanni Ribisi",
-      "Joel David Moore",
-      "CCH Pounder",
-      "Wes Studi",
-      "Laz Alonso",
-      "Dileep Rao",
-      "Matt Gerald"
-    ],
-    "calificacion": 7.6,
-    "votos": 33010,
-    "idioma": "EN",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-24T00:14:38.046202",
-    "tmdb_id": 19995,
-    "popularidad": 111.8,
-    "tagline": "Entra al mundo de avatar.",
-    "trailer": "https://www.youtube.com/watch?v=UJMtUKfQf4g",
-    "success": true,
-    "duracion": "161 min",
-    "fuentes": [
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/UJMtUKfQf4g",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/g58zn32FA5A",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/vCsEYvQ6Xak",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/BbnVcomMQkc",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/QRX9PQ3keSg",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/CeAhGeOnqbw",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/B3jf9R4P-6I",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Behind the Scenes",
-        "url": "https://www.youtube.com/embed/iuLUinPfrvc",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/jYEnEMtZTRM",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/SmSE-Jgtol0",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/XJYO6IbAWxs",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Featurette",
-        "url": "https://www.youtube.com/embed/6Y4y2_IKk5o",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/yKhNZX2BTv8",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/PIoyKApfOsg",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/cyzlecZCYOQ",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/8-V3GVh2wqA",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/AZS_d_hS2dM",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      }
-    ],
-    "id": "avatar-2009"
-  },
-  {
-    "tipo": "pelicula",
     "titulo": "Avatar: El sentido del agua",
     "titulo_original": "Avatar: The Way of Water",
     "poster": "https://image.tmdb.org/t/p/w500/ckeTumMS4G31UQ9NNkmtW2QhfMF.jpg",
@@ -1745,6 +1579,142 @@ const peliculas2 = [
       }
     ],
     "id": "avatar-fuego-y-ceniza-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Avatar: La leyenda de Aang",
+    "titulo_original": "Avatar the Last Airbender",
+    "poster": "https://image.tmdb.org/t/p/w500/fNTCUwpN6c8vD2U36tQW2V9A0Nj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/imlTCObfzISogbvcwB1dokoXAIc.jpg",
+    "descripcion": "El nuevo y joven Avatar debe aprender a controlar los elementos para salvar un mundo en guerra, además de enfrentarse a un despiadado enemigo decidido a pararle los pies.",
+    "año": 2024,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "action & adventure",
+      "drama",
+      "familia",
+      "sci-fi & fantasy"
+    ],
+    "generos_lista": [
+      "Action & Adventure",
+      "Drama",
+      "Familia",
+      "Sci-Fi & Fantasy"
+    ],
+    "director": "Albert Kim",
+    "reparto": [
+      {
+        "name": "Gordon Cormier",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1l7hsuaMZ9lmpmJAkxJfM1nJq3p.jpg"
+      },
+      {
+        "name": "Kiawentiio",
+        "profile_path": "https://image.tmdb.org/t/p/w185/feaB7zjNi9WICHQU30a80d51DpR.jpg"
+      },
+      {
+        "name": "Ian Ousley",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ijBAHEOoDyCjt3iYhHm6yBVwka2.jpg"
+      },
+      {
+        "name": "Dallas Liu",
+        "profile_path": "https://image.tmdb.org/t/p/w185/aismdzGeONTJHiPfofNaKGZSKZu.jpg"
+      },
+      {
+        "name": "Ken Leung",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hpatUP6u74gkpDRmn9voNY9V43O.jpg"
+      },
+      {
+        "name": "Paul Sun-Hyung Lee",
+        "profile_path": "https://image.tmdb.org/t/p/w185/qyJG3qC1TImpJYN0zCgnFSQzzOF.jpg"
+      },
+      {
+        "name": "Daniel Dae Kim",
+        "profile_path": "https://image.tmdb.org/t/p/w185/AtKRWsC4UhEjzorWlL2eguzZ9XM.jpg"
+      }
+    ],
+    "calificacion": 7.8,
+    "votos": 1013,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-24T17:17:03.967522",
+    "tmdb_id": 82452,
+    "popularidad": 21.05,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=UMtAbnhBlsg",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/9mi90x02gxy9",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/8us4zei2wm5x",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/uklvwsfunvap",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/hlf6el8t2z3w",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/nqyp2qgfidhp",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/97khem1ikpjc",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/tgk02y4m0o2n",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/nlzcxhfkri2r",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 8,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2024-02-22",
+    "plataforma": "netflix",
+    "id": "avatar-la-leyenda-de-aang-2024"
   },
   {
     "tipo": "pelicula",
@@ -4642,6 +4612,107 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "El amanecer del planeta de los simios",
+    "titulo_original": "Dawn of the Planet of the Apes",
+    "poster": "https://image.tmdb.org/t/p/w500/mP5Wr0YkO3EDqc6vkvtdifi7KKI.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zlU8BIkgY7E6SMfD3USTWC6bchL.jpg",
+    "descripcion": "Un grupo de simios con grandes cualidades para la supervivencia toma las calles, liderado por César, un simio dotado de una inteligencia y unos instintos superiores para cualquier primate. Ante la necesidad de libertad, esta raza animal decide no doblegarse ante los humanos. Tendrá que luchar contra un grupo de humanos que han sobrevivido a una fuerte epidemia, desatada en la década anterior. Ambas partes han establecido una tregua, pero se verá interrumpida.",
+    "año": 2014,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "acción",
+      "drama",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Ciencia ficción",
+      "Acción",
+      "Drama",
+      "Suspense"
+    ],
+    "director": "Matt Reeves",
+    "reparto": [
+      {
+        "name": "Andy Serkis",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg"
+      },
+      {
+        "name": "Jason Clarke",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ma1BPr7pjzgxmYkHFlkMJLQDPC5.jpg"
+      },
+      {
+        "name": "Toby Kebbell",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mlYytYJvoEHmhDH2enLtES1098Q.jpg"
+      },
+      {
+        "name": "Gary Oldman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2v9FVVBUrrkW2m3QOcYkuhq9A6o.jpg"
+      },
+      {
+        "name": "Keri Russell",
+        "profile_path": "https://image.tmdb.org/t/p/w185/u81mC6vZwliDRfnX1DpdGmmex61.jpg"
+      },
+      {
+        "name": "Kodi Smit-McPhee",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sesCWba9NwPDYDZzbVLs7OgLOti.jpg"
+      },
+      {
+        "name": "Nick Thurston",
+        "profile_path": "https://image.tmdb.org/t/p/w185/x79TukKjK5z9QRqcMTitFdrCtNO.jpg"
+      },
+      {
+        "name": "Karin Konoval",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5e8YyNQjWre2UbExYBlJ7zva934.jpg"
+      },
+      {
+        "name": "Terry Notary",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nYs1Sd11czZNwcDyUYdHPwHHIRO.jpg"
+      },
+      {
+        "name": "Doc Shaw",
+        "profile_path": "https://image.tmdb.org/t/p/w185/4zuVZb579ohklKYMNupUYwAExpG.jpg"
+      },
+      {
+        "name": "Judy Greer",
+        "profile_path": "https://image.tmdb.org/t/p/w185/j5fyC7BdkhheN9A93ryEvHAP4Nl.jpg"
+      },
+      {
+        "name": "Lee Ross",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sQNOXntZ677YC9686kUl1NWGP18.jpg"
+      }
+    ],
+    "calificacion": 7.3,
+    "votos": 11945,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-24T01:32:51.967983",
+    "tmdb_id": 119450,
+    "popularidad": 9.51,
+    "tagline": "Una última oportunidad para la paz.",
+    "trailer": "",
+    "success": true,
+    "duracion": "130 min",
+    "presupuesto": "$170,000,000",
+    "ingresos": "$710,644,566",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/hn7rsphksye7",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-amanecer-del-planeta-de-los-simios-2014"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "El aviador",
     "titulo_original": "The Aviator",
     "poster": "https://image.tmdb.org/t/p/w500/sZNc61SsUdKWl8yNhKjqesYStre.jpg",
@@ -5209,7 +5280,15 @@ const peliculas2 = [
     "trailer": "",
     "success": true,
     "duracion": "124 min",
-    "fuentes": [],
+    "fuentes": [
+      {
+        "idioma": "Latino",
+        "url": "https://streamwish.to/e/6g7rn10vtdkm",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
     "id": "el-diario-de-noa-2004"
   },
   {
@@ -5764,6 +5843,107 @@ const peliculas2 = [
     "duracion": "109 min",
     "fuentes": [],
     "id": "el-negociador-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El origen del planeta de los simios",
+    "titulo_original": "Rise of the Planet of the Apes",
+    "poster": "https://image.tmdb.org/t/p/w500/6TqjIMQV11NkHMuriprN3xNoN6o.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/dENLz9Np9EV5Ro8UIBhbKC8BmSS.jpg",
+    "descripcion": "Will Rodman es un joven científico que está investigando con monos para obtener un tratamiento contra el alzheimer, una enfermedad que afecta a su padre. Uno de esos primates, al que llaman César, experimenta una evolución en su inteligencia tan notable que el protagonista decide llevárselo a su casa para protegerlo. Le ayudará una bella primatóloga llamada Caroline.",
+    "año": 2011,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "suspense",
+      "acción",
+      "drama",
+      "ciencia ficción"
+    ],
+    "generos_lista": [
+      "Suspense",
+      "Acción",
+      "Drama",
+      "Ciencia ficción"
+    ],
+    "director": "Rupert Wyatt",
+    "reparto": [
+      {
+        "name": "Andy Serkis",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg"
+      },
+      {
+        "name": "James Franco",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bjmAntHGiibLZixH8nTNVBzaFQn.jpg"
+      },
+      {
+        "name": "Freida Pinto",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tub18dfDNMxlempVIuPXh8fmZVs.jpg"
+      },
+      {
+        "name": "John Lithgow",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8Y1sjBdnVR483S8PrnAQzlESwhx.jpg"
+      },
+      {
+        "name": "Brian Cox",
+        "profile_path": "https://image.tmdb.org/t/p/w185/scSjbFCTRngXlkJRoKptM5kQGw7.jpg"
+      },
+      {
+        "name": "Tom Felton",
+        "profile_path": "https://image.tmdb.org/t/p/w185/etmtUBzJ1i1XJTLS6MkotJFE1se.jpg"
+      },
+      {
+        "name": "Tyler Labine",
+        "profile_path": "https://image.tmdb.org/t/p/w185/uTg5k0mflhBju9Q1tOYmYDzdBu6.jpg"
+      },
+      {
+        "name": "Karin Konoval",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5e8YyNQjWre2UbExYBlJ7zva934.jpg"
+      },
+      {
+        "name": "Terry Notary",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nYs1Sd11czZNwcDyUYdHPwHHIRO.jpg"
+      },
+      {
+        "name": "Christopher Gordon",
+        "profile_path": "https://image.tmdb.org/t/p/w185/x3yZlw5ZqSCT4RWNdt7VxVmJgMh.jpg"
+      },
+      {
+        "name": "Richard Ridings",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eH3QE45JSgJtw0j14PLcGmEaVOG.jpg"
+      },
+      {
+        "name": "Devyn Dalton",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rYkYdtv2grwzDX4RFCIK3zzP4gD.jpg"
+      }
+    ],
+    "calificacion": 7.3,
+    "votos": 12443,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-24T01:31:49.886469",
+    "tmdb_id": 61791,
+    "popularidad": 7.43,
+    "tagline": "De la evolución a la revolución.",
+    "trailer": "https://www.youtube.com/watch?v=e3-vnIKDV2Q",
+    "success": true,
+    "duracion": "105 min",
+    "presupuesto": "$93,000,000",
+    "ingresos": "$481,800,873",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/ujf5b0h0p23w",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-origen-del-planeta-de-los-simios-2011"
   },
   {
     "tipo": "pelicula",
@@ -9630,6 +9810,105 @@ const peliculas2 = [
     "tipo_serie": "Miniseries",
     "ultima_emision": "2025-11-06",
     "id": "la-guerra-de-los-reinos-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "La guerra del planeta de los simios",
+    "titulo_original": "War for the Planet of the Apes",
+    "poster": "https://image.tmdb.org/t/p/w500/iAm7IAqfK6VL2h1yh9QbpcctaT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/w22CTHxmdAsUrXRbCQt4gOSOD6E.jpg",
+    "descripcion": "César y sus monos son forzados a encarar un conflicto mortal contra un ejército de humanos liderado por un brutal coronel. Después de sufrir pérdidas enormes, César lucha con sus instintos más oscuros en una búsqueda por vengar a su especie. Cuando finalmente se encuentren, Cesar y el Coronel protagonizarán una batalla que pondrá en juego el futuro de ambas especies y el del mismo planeta. Tercera película de la nueva saga de El Planeta de los Simios.",
+    "año": 2017,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "drama",
+      "ciencia ficción",
+      "bélica"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Ciencia ficción",
+      "Bélica"
+    ],
+    "director": "Matt Reeves",
+    "reparto": [
+      {
+        "name": "Andy Serkis",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg"
+      },
+      {
+        "name": "Woody Harrelson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg"
+      },
+      {
+        "name": "Karin Konoval",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5e8YyNQjWre2UbExYBlJ7zva934.jpg"
+      },
+      {
+        "name": "Terry Notary",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nYs1Sd11czZNwcDyUYdHPwHHIRO.jpg"
+      },
+      {
+        "name": "Steve Zahn",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rwrPdKGwXnByxUVMxMf8Y7oswi3.jpg"
+      },
+      {
+        "name": "Amiah Miller",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mW10rLTAmuPD5TncX8KkRzsbvXU.jpg"
+      },
+      {
+        "name": "Ty Olsson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7vxoASi2aZZzw6c4guFSaPdE45y.jpg"
+      },
+      {
+        "name": "Michael Adamthwaite",
+        "profile_path": "https://image.tmdb.org/t/p/w185/J9R1DkSkmGDioXJmHIMg5Vt8pb.jpg"
+      },
+      {
+        "name": "Toby Kebbell",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mlYytYJvoEHmhDH2enLtES1098Q.jpg"
+      },
+      {
+        "name": "Gabriel Chavarria",
+        "profile_path": "https://image.tmdb.org/t/p/w185/aLvEXygc9wN4DqTNNY1h69gaEdS.jpg"
+      },
+      {
+        "name": "Sara Canning",
+        "profile_path": "https://image.tmdb.org/t/p/w185/55AL7y8ybTE7uvpQALughR7bkkB.jpg"
+      },
+      {
+        "name": "Judy Greer",
+        "profile_path": "https://image.tmdb.org/t/p/w185/j5fyC7BdkhheN9A93ryEvHAP4Nl.jpg"
+      }
+    ],
+    "calificacion": 7.2,
+    "votos": 9475,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-24T01:33:55.777533",
+    "tmdb_id": 281338,
+    "popularidad": 13.94,
+    "tagline": "Por la libertad. Por la familia. Por el planeta.",
+    "trailer": "https://www.youtube.com/watch?v=3d3rAJ8R0Fg",
+    "success": true,
+    "duracion": "140 min",
+    "presupuesto": "$150,000,000",
+    "ingresos": "$490,719,763",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/ecgelqnwyqp7",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "la-guerra-del-planeta-de-los-simios-2017"
   },
   {
     "tipo": "pelicula",

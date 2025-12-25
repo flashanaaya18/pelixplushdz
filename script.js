@@ -11,7 +11,7 @@ function cargarArchivosPeliculas() {
         console.log("Iniciando carga de archivos de películas...");
 
         // Lista de archivos a cargar
-        const archivos = ['peliculas/peliculas.js', 'peliculas/peliculas1.js', 'peliculas/peliculas2.js'];
+        const archivos = ['peliculas/peliculas.js', 'peliculas/peliculas1.js', 'peliculas/peliculas2.js', 'peliculas/peliculas3.js'];
         let archivosCargados = 0;
         const todasPeliculas = [];
 
@@ -34,6 +34,9 @@ function cargarArchivosPeliculas() {
                 } else if (archivo.includes('peliculas2.js') && typeof peliculas2 !== 'undefined') {
                     console.log(`Encontradas ${peliculas2.length} películas en peliculas2.js`);
                     todasPeliculas.push(...peliculas2);
+                } else if (archivo.includes('peliculas3.js') && typeof peliculas3 !== 'undefined') {
+                    console.log(`Encontradas ${peliculas3.length} películas en peliculas3.js`);
+                    todasPeliculas.push(...peliculas3);
                 }
 
                 if (archivosCargados === archivos.length) {
@@ -191,8 +194,11 @@ window.showPageLoader = (targetUrl) => {
 
 // Función para unificar todo el contenido de los diferentes archivos
 window.unificarContenidoGlobal = () => {
-    const contenidoPeliculas = (typeof peliculas !== 'undefined' && Array.isArray(peliculas)) ? peliculas : []; const contenidoPeliculas1 = (typeof peliculas1 !== 'undefined' && Array.isArray(peliculas1)) ? peliculas1 : []; const contenidoPeliculas2 = (typeof peliculas2 !== 'undefined' && Array.isArray(peliculas2)) ? peliculas2 : [];
-    const todoElContenido = [...contenidoPeliculas, ...contenidoPeliculas1, ...contenidoPeliculas2];
+    const contenidoPeliculas = (typeof peliculas !== 'undefined' && Array.isArray(peliculas)) ? peliculas : [];
+    const contenidoPeliculas1 = (typeof peliculas1 !== 'undefined' && Array.isArray(peliculas1)) ? peliculas1 : [];
+    const contenidoPeliculas2 = (typeof peliculas2 !== 'undefined' && Array.isArray(peliculas2)) ? peliculas2 : [];
+    const contenidoPeliculas3 = (typeof peliculas3 !== 'undefined' && Array.isArray(peliculas3)) ? peliculas3 : [];
+    const todoElContenido = [...contenidoPeliculas, ...contenidoPeliculas1, ...contenidoPeliculas2, ...contenidoPeliculas3];
 
     const seenIds = new Set();
     // Deduplicar por si acaso

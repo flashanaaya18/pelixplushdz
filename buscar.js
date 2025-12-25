@@ -33,6 +33,13 @@ function initSearchPage() {
     // 1. Populate Genre Filter
     populateGenreFilter();
 
+    // Recuperar búsqueda de la URL si existe (para enlaces externos o redirecciones)
+    const urlParams = new URLSearchParams(window.location.search);
+    const queryParam = urlParams.get('q');
+    if (queryParam && searchInput) {
+        searchInput.value = queryParam;
+    }
+
     // 2. Event Listeners
     if (searchInput) {
         if (window.innerWidth > 768) {
@@ -76,8 +83,24 @@ function initSearchPage() {
     if (genreFilter) genreFilter.addEventListener('change', performSearch);
     if (sortBy) sortBy.addEventListener('change', performSearch);
 
-    // Cargar resultados iniciales (Tendencias + Local) automáticamente
-    performSearch();
+    // Integración: Hacer que la barra de búsqueda del menú superior funcione en esta página
+    const navSearchForm = document.getElementById('search-form');
+    const navSearchInput = document.getElementById('search-input');
+    if (navSearchForm && navSearchInput) {
+        navSearchForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const val = navSearchInput.value.trim();
+            if (val && searchInput) {
+                searchInput.value = val;
+                performSearch();
+            }
+        });
+    }
+
+    // Cargar resultados solo si hay texto (ej. desde URL)
+    if (searchInput && searchInput.value.trim()) {
+        performSearch();
+    }
 
     // --- Helper Functions ---
 
@@ -186,16 +209,10 @@ function initSearchPage() {
         });
         }
 
-        // 2. Búsqueda en TMDB (Búsqueda o Tendencias si está vacío)
-        if (selectedGenre === 'all' && window.tmdbConfig && window.tmdbConfig.accessToken) {
+        // 2. Búsqueda en TMDB (Solo si hay texto escrito)
+        if (selectedGenre === 'all' && window.tmdbConfig && window.tmdbConfig.accessToken && query) {
             try {
-                let tmdbUrl = '';
-                if (query) {
-                    tmdbUrl = `https://api.themoviedb.org/3/search/multi?query=${encodeURIComponent(query)}&include_adult=false&language=es-ES&page=1`;
-                } else {
-                    // Si no hay búsqueda, mostrar tendencias semanales (Películas y Series)
-                    tmdbUrl = `https://api.themoviedb.org/3/trending/all/week?language=es-ES&page=1`;
-                }
+                const tmdbUrl = `https://api.themoviedb.org/3/search/multi?query=${encodeURIComponent(query)}&include_adult=false&language=es-ES&page=1`;
 
                 const response = await fetch(tmdbUrl, {
                     headers: {
@@ -319,13 +336,9 @@ function initSearchPage() {
                 card.onclick = (e) => {
                     e.preventDefault(); // Detener cualquier navegación predeterminada
                     
-                    // Si la película es de TMDB y no está en nuestra lista local, la añadimos temporalmente.
-                    if (movie.esTmdb) {
-                        const exists = window.peliculas.some(p => p.id === movie.id);
-                        if (!exists) {
-                            window.peliculas.push(movie);
-                        }
-                    }
+                    // Guardar la película seleccionada en localStorage
+                    // Esto es CRUCIAL para que detalles.html pueda leer los datos de películas de TMDB
+                    localStorage.setItem('selectedMovie', JSON.stringify(movie));
                     
                     // Navegar a la página de detalles
                     window.location.href = `detalles.html?id=${movie.id}`;

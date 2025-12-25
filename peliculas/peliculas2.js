@@ -393,7 +393,15 @@ const peliculas2 = [
     "trailer": "",
     "success": true,
     "duracion": "111 min",
-    "fuentes": [],
+    "fuentes": [
+      {
+        "idioma": "Latino",
+        "url": "https://goodstream.one/embed-oh4oeo5cczk8.html",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
     "id": "365-dias-aquel-dia-2022"
   },
   {
@@ -1009,13 +1017,13 @@ const peliculas2 = [
     "descripcion": "Año 2154. Jake Sully, un exmarine en silla de ruedas, es enviado al planeta Pandora, donde se ha creado el programa Avatar, gracias al cual los seres humanos pueden controlar de forma remota un cuerpo biológico con apariencia y genética de la especie nativa. Pronto se encontrará con la encrucijada entre seguir las órdenes de sus superiores o defender al mundo que le ha acogido y siente como suyo.",
     "año": 2009,
     "categoria": [
-      "aventura"
+      "lanzamientos-recientes"
     ],
     "genero": [
-      "Acción",
-      "Aventura",
-      "Fantasía",
-      "Ciencia ficción"
+      "acción",
+      "aventura",
+      "fantasía",
+      "ciencia ficción"
     ],
     "generos_lista": [
       "Acción",
@@ -1025,148 +1033,75 @@ const peliculas2 = [
     ],
     "director": "James Cameron",
     "reparto": [
-      "Sam Worthington",
-      "Zoe Saldaña",
-      "Sigourney Weaver",
-      "Stephen Lang",
-      "Michelle Rodríguez",
-      "Giovanni Ribisi",
-      "Joel David Moore",
-      "CCH Pounder",
-      "Wes Studi",
-      "Laz Alonso",
-      "Dileep Rao",
-      "Matt Gerald"
+      {
+        "name": "Sam Worthington",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vM1WIfYQ1HUBtlVPwB9Hp9fLcn8.jpg"
+      },
+      {
+        "name": "Zoe Saldaña",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fCJuIn1PMUQtYdRRSnnoZeMJVWs.jpg"
+      },
+      {
+        "name": "Sigourney Weaver",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wTSnfktNBLd6kwQxgvkqYw6vEon.jpg"
+      },
+      {
+        "name": "Stephen Lang",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hdRiM73H2mpJws559TWHCAia7qJ.jpg"
+      },
+      {
+        "name": "Michelle Rodríguez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wVcbrae4eRqGMFZz8Eh52Dl1biP.jpg"
+      },
+      {
+        "name": "Giovanni Ribisi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8EAiS9D3YtGOrwNM0OrwmDpWK7s.jpg"
+      },
+      {
+        "name": "Joel David Moore",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mMVhVglj6BZFuvqAXnEibce08k7.jpg"
+      },
+      {
+        "name": "CCH Pounder",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mr6BLDN75T8DJl9dNK3hN4YwqJa.jpg"
+      },
+      {
+        "name": "Wes Studi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/dAO2bY2NCceYLZiJaBjBdY19Hox.jpg"
+      },
+      {
+        "name": "Laz Alonso",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nmgOd3X2Xn3jIp9OLCRJzLExRWN.jpg"
+      },
+      {
+        "name": "Dileep Rao",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jRNn8SZqFXuI5wOOlHwYsWh0hXs.jpg"
+      },
+      {
+        "name": "Matt Gerald",
+        "profile_path": "https://image.tmdb.org/t/p/w185/six7c3aZpiEomHjj4ZYokq8Vgtx.jpg"
+      }
     ],
     "calificacion": 7.6,
-    "votos": 33010,
-    "idioma": "EN",
-    "calidad": "HD",
+    "votos": 33016,
+    "idioma": "latino",
+    "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
-    "addedDate": "2025-12-24T00:14:38.046202",
+    "addedDate": "2025-12-24T17:24:21.787063",
     "tmdb_id": 19995,
     "popularidad": 111.8,
     "tagline": "Entra al mundo de avatar.",
     "trailer": "https://www.youtube.com/watch?v=UJMtUKfQf4g",
     "success": true,
     "duracion": "161 min",
+    "presupuesto": "$237,000,000",
+    "ingresos": "$2,923,706,026",
+    "plataforma": "pelicula",
     "fuentes": [
       {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/UJMtUKfQf4g",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/g58zn32FA5A",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/vCsEYvQ6Xak",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/BbnVcomMQkc",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/QRX9PQ3keSg",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/CeAhGeOnqbw",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/B3jf9R4P-6I",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Behind the Scenes",
-        "url": "https://www.youtube.com/embed/iuLUinPfrvc",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/jYEnEMtZTRM",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/SmSE-Jgtol0",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/XJYO6IbAWxs",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Featurette",
-        "url": "https://www.youtube.com/embed/6Y4y2_IKk5o",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/yKhNZX2BTv8",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/PIoyKApfOsg",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/cyzlecZCYOQ",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/8-V3GVh2wqA",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/AZS_d_hS2dM",
+        "idioma": "latino",
+        "url": "https://nuuuppp.sbs/watch/D3MkX8Let6M6oweYNkZJTG0STmO3TRgbvb2nfmTFQTQ",
         "calidad": "HD",
         "tipo": "embed",
         "activa": true
@@ -1745,6 +1680,142 @@ const peliculas2 = [
       }
     ],
     "id": "avatar-fuego-y-ceniza-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Avatar: La leyenda de Aang",
+    "titulo_original": "Avatar the Last Airbender",
+    "poster": "https://image.tmdb.org/t/p/w500/fNTCUwpN6c8vD2U36tQW2V9A0Nj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/imlTCObfzISogbvcwB1dokoXAIc.jpg",
+    "descripcion": "El nuevo y joven Avatar debe aprender a controlar los elementos para salvar un mundo en guerra, además de enfrentarse a un despiadado enemigo decidido a pararle los pies.",
+    "año": 2024,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "action & adventure",
+      "drama",
+      "familia",
+      "sci-fi & fantasy"
+    ],
+    "generos_lista": [
+      "Action & Adventure",
+      "Drama",
+      "Familia",
+      "Sci-Fi & Fantasy"
+    ],
+    "director": "Albert Kim",
+    "reparto": [
+      {
+        "name": "Gordon Cormier",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1l7hsuaMZ9lmpmJAkxJfM1nJq3p.jpg"
+      },
+      {
+        "name": "Kiawentiio",
+        "profile_path": "https://image.tmdb.org/t/p/w185/feaB7zjNi9WICHQU30a80d51DpR.jpg"
+      },
+      {
+        "name": "Ian Ousley",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ijBAHEOoDyCjt3iYhHm6yBVwka2.jpg"
+      },
+      {
+        "name": "Dallas Liu",
+        "profile_path": "https://image.tmdb.org/t/p/w185/aismdzGeONTJHiPfofNaKGZSKZu.jpg"
+      },
+      {
+        "name": "Ken Leung",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hpatUP6u74gkpDRmn9voNY9V43O.jpg"
+      },
+      {
+        "name": "Paul Sun-Hyung Lee",
+        "profile_path": "https://image.tmdb.org/t/p/w185/qyJG3qC1TImpJYN0zCgnFSQzzOF.jpg"
+      },
+      {
+        "name": "Daniel Dae Kim",
+        "profile_path": "https://image.tmdb.org/t/p/w185/AtKRWsC4UhEjzorWlL2eguzZ9XM.jpg"
+      }
+    ],
+    "calificacion": 7.8,
+    "votos": 1013,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-24T17:17:03.967522",
+    "tmdb_id": 82452,
+    "popularidad": 21.05,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=UMtAbnhBlsg",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/9mi90x02gxy9",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/8us4zei2wm5x",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/uklvwsfunvap",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/hlf6el8t2z3w",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/nqyp2qgfidhp",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/97khem1ikpjc",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/tgk02y4m0o2n",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/nlzcxhfkri2r",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 8,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2024-02-22",
+    "plataforma": "netflix",
+    "id": "avatar-la-leyenda-de-aang-2024"
   },
   {
     "tipo": "pelicula",
@@ -5310,7 +5381,15 @@ const peliculas2 = [
     "trailer": "",
     "success": true,
     "duracion": "124 min",
-    "fuentes": [],
+    "fuentes": [
+      {
+        "idioma": "Latino",
+        "url": "https://streamwish.to/e/6g7rn10vtdkm",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
     "id": "el-diario-de-noa-2004"
   },
   {

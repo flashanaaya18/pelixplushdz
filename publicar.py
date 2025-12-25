@@ -139,7 +139,7 @@ except (ImportError, ZoneInfoNotFoundError):
     TZ = None
 
 # --- Constantes ---
-JS_FILE = 'peliculas/peliculas2.js'
+JS_FILE = 'peliculas/peliculas3.js'
 REPORTS_FILE = 'reports.json'
 PROXIMAMENTE_FILE = 'proximamente.json'
 BASE_DATOS_FILE = 'base_datos.json'
@@ -203,7 +203,7 @@ def cargar_peliculas_desde_js(file_path):
 def cargar_catalogo_completo():
     """Carga y combina películas de todos los archivos fuente."""
     print(f"{C.CYAN}🔄 Cargando catálogo completo...{C.END}")
-    archivos_fuente = ['peliculas/peliculas2.js']
+    archivos_fuente = ['peliculas/peliculas3.js']
     catalogo_completo = []
     for archivo in archivos_fuente:
         print(f"  - Cargando desde {archivo}...")
@@ -223,7 +223,7 @@ def cargar_catalogo_completo():
 
 def guardar_peliculas(peliculas_dict, crear_backup=True):
     """Guarda las películas en el archivo JS."""
-    target_file = 'peliculas/peliculas2.js'
+    target_file = 'peliculas/peliculas3.js'
     try:
         if crear_backup and os.path.exists(target_file):
             backup_file = target_file + '.bak'
@@ -234,7 +234,7 @@ def guardar_peliculas(peliculas_dict, crear_backup=True):
         peliculas_lista.sort(key=lambda x: x.get('titulo', '').lower())
         
         json_string = json.dumps(peliculas_lista, ensure_ascii=False, indent=2)
-        js_content = f"const peliculas2 = {json_string};"
+        js_content = f"const peliculas3 = {json_string};"
         
         with open(target_file, 'w', encoding='utf-8') as f:
             f.write(js_content)
