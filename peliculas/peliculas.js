@@ -23434,7 +23434,22 @@ const peliculas = [
             "episodio": 4,
             "titulo": "Episodio 4",
             "url": "https://dintezuvio.com/embed/niqup7vc6fkp"
-          }
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/hhmyb96uafe4"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/psiev00sol37"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://dintezuvio.com/embed/3dl13gryw4jj"
+          },
         ]
       }
     ],

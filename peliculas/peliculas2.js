@@ -1666,7 +1666,7 @@ const peliculas2 = [
     "fuentes": [
       {
         "idioma": "latino",
-        "url": "https://myvidplay.com/e/q46qcx2dn5g2",
+        "url": "https://streamwish.to/e/6ilq2xsjim7l",
         "calidad": "HD",
         "tipo": "embed",
         "activa": true

@@ -162,5 +162,103 @@ const peliculas3 = [
       }
     ],
     "id": "otec-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Silencio",
+    "titulo_original": "Silencio",
+    "poster": "https://image.tmdb.org/t/p/w500/xSHh3dIbzrCc1lQZBveN8Oi6A1R.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mFZdU3sWhMFFbRTdG2ul3a8uirk.jpg",
+    "descripcion": "En las sombras de la historia, el secreto late como un pulso. Unas hermanas vampiras sobreviven a la escasez de “sangre humana limpia” debido a la Peste Negra, pero el verdadero veneno es el silencio que las rodea. Siglos después, una de sus descendientes se enfrenta al mismo conflicto en la pandemia del SIDA en España, y descubre que la condena social sigue siendo la misma. Y que el amor entre “enfermos” y “sanos”, humanas y vampiras sigue provocando el mismo terror. ¿Qué sucede cuando la eternidad se mide en siglos de silencio?",
+    "año": 2025,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "comedia",
+      "drama",
+      "sci-fi & fantasy"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "director": "Eduardo Casanova",
+    "reparto": [
+      {
+        "name": "Lucía Díez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eRYTD11AY2Qe93hClVyPKzfsk16.jpg"
+      },
+      {
+        "name": "María León",
+        "profile_path": "https://image.tmdb.org/t/p/w185/emO3kZWopALDhGYEJwbtcKd8gQZ.jpg"
+      },
+      {
+        "name": "Ana Polvorosa",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ql3zaKbPWt3XLdz84sAzSPI1wt.jpg"
+      },
+      {
+        "name": "Mariola Fuentes",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cWElWUCtJ1ecAzs55ppm1kJR4Bd.jpg"
+      },
+      {
+        "name": "Leticia Dolera",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rzWekaXWoC9HKIZkOf7hddQDtFI.jpg"
+      },
+      {
+        "name": "Carolina Rubio",
+        "profile_path": "https://image.tmdb.org/t/p/w185/a7pz9SELYmoxRU5NtJqHRqdiwqJ.jpg"
+      },
+      {
+        "name": "Omar Ayuso",
+        "profile_path": "https://image.tmdb.org/t/p/w185/c4bAqv3PoSVK4ov7cw076NNqg6f.jpg"
+      }
+    ],
+    "calificacion": 4.4,
+    "votos": 5,
+    "idioma": "español",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-26T15:54:41.038001",
+    "tmdb_id": 298651,
+    "popularidad": 14.41,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=mUAkknEZvSM",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://ico3c.com/bkg/7rotfio4wwgz?ref=pelisjuanita.com",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://filemoon.to/e/o92opnxfi3gm",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://filemoon.to/e/lmzzelw9lzm7",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 3,
+    "tipo_serie": "Miniseries",
+    "ultima_emision": "2025-12-01",
+    "id": "silencio-2025"
   }
 ];

@@ -1,4 +1,4 @@
-const peliculas2 = [
+const peliculas3 = [
   {
     "tipo": "pelicula",
     "titulo": "La sospecha de Sofía",
@@ -67,5 +67,100 @@ const peliculas2 = [
       }
     ],
     "id": "la-sospecha-de-sofia-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Otec",
+    "titulo_original": "Otec",
+    "poster": "https://image.tmdb.org/t/p/w500/qz4e1LLeRKk74a0Pyfqvb8zQlJe.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ld3PIgbveWOPF2B8s5iwENDk7YM.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "drama"
+    ],
+    "generos_lista": [
+      "Drama"
+    ],
+    "director": "Tereza Nvotová",
+    "reparto": [
+      {
+        "name": "Milan Ondrík",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eWSqeq3l4shU6yjTpG029K16BtN.jpg"
+      },
+      {
+        "name": "Dominika Morávková-Zeleníková",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7JQVJBfY2X8pOqgZebpna1CTnaf.jpg"
+      },
+      {
+        "name": "Anna Geislerová",
+        "profile_path": "https://image.tmdb.org/t/p/w185/4M4GTTRmHME818MDptmHzWbaTfd.jpg"
+      },
+      {
+        "name": "Dominika Zajcz",
+        "profile_path": null
+      },
+      {
+        "name": "Peter Bebjak",
+        "profile_path": "https://image.tmdb.org/t/p/w185/me2NfIz0tcgIA10ydwqrm84t3SL.jpg"
+      },
+      {
+        "name": "Roman Polák",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mWV6zUz26sONyac5yUchIorQzko.jpg"
+      },
+      {
+        "name": "Ingrid Timková",
+        "profile_path": "https://image.tmdb.org/t/p/w185/AhD4mNa48sOHlfcy2drTpzj13Qf.jpg"
+      },
+      {
+        "name": "Jana Bittnerová",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gLeqqJGfhsKZc7o9caG4s1349tj.jpg"
+      },
+      {
+        "name": "Jiří Konvalinka",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2syKKzz3DLBMQ9qQfUMQB5AuNXa.jpg"
+      },
+      {
+        "name": "Peter Ondrejička",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sPSzIY1HzkqXJSvlaQrLBKesIUs.jpg"
+      },
+      {
+        "name": "Martina Sľuková",
+        "profile_path": null
+      },
+      {
+        "name": "Róbert Jakab",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kWZ61YY5YJOuDSLA1TTBDUjVluU.jpg"
+      }
+    ],
+    "calificacion": 6.0,
+    "votos": 5,
+    "idioma": "subtitulado",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-24T18:05:11.776804",
+    "tmdb_id": 1516518,
+    "popularidad": 3.04,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "99 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$1,138,387",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://streamwish.to/e/rfapji5h3hxd",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "otec-2025"
   }
 ];
