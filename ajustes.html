@@ -94,6 +94,14 @@
                 </div>
             </section>
 
+            <section class="setting-group" id="account-section" style="display:none;">
+                <h2><i class="fas fa-user-circle"></i> Cuenta</h2>
+                <div class="setting-item danger-zone">
+                    <span>Cerrar la sesión actual en este dispositivo.</span>
+                    <button id="btn-logout" class="btn-setting btn-danger">Cerrar Sesión</button>
+                </div>
+            </section>
+
             <section class="setting-group">
                 <h2>Apariencia</h2>
                 <div class="setting-item">
@@ -253,6 +261,14 @@
             </section>
 
             <section class="setting-group">
+                <h2>Aplicación</h2>
+                <div id="install-app-container" class="setting-item" style="display: none;">
+                    <span>Instalar aplicación en tu dispositivo</span>
+                    <button id="install-app-btn" class="btn-setting" style="background-color: #007bff; color: white;">Instalar</button>
+                </div>
+            </section>
+
+            <section class="setting-group">
                 <h2>Acerca de</h2>
                 <div class="setting-item">
                     <span>Versión de la App</span>
@@ -280,9 +296,12 @@
     <script src="script.js?v=4"></script>
     <script src="ajustes.js?v=4"></script>
     <script>
+        let deferredPrompt;
         document.addEventListener('DOMContentLoaded', async () => {
             const vipSection = document.getElementById('vip-subscription-section');
             const freeSection = document.getElementById('free-subscription-section');
+            const accountSection = document.getElementById('account-section');
+            const btnLogout = document.getElementById('btn-logout');
             const usernameDisplay = document.getElementById('vip-username-display');
             const expirationDisplay = document.getElementById('vip-expiration-date');
             const timeRemainingDisplay = document.getElementById('vip-time-remaining');
@@ -290,6 +309,22 @@
 
             const accessType = sessionStorage.getItem('pelix_access_type');
             const userCode = sessionStorage.getItem('pelix_user_code');
+
+            if (accessType) {
+                if (accountSection) accountSection.style.display = 'block';
+            }
+
+            if (btnLogout) {
+                btnLogout.addEventListener('click', () => {
+                    if (confirm('¿Estás seguro de que quieres cerrar la sesión?')) {
+                        sessionStorage.clear();
+                        if (typeof showNotification === 'function') {
+                            showNotification('Sesión cerrada correctamente. Redirigiendo...', 'info');
+                        }
+                        setTimeout(() => { window.location.href = 'index.html'; }, 1500);
+                    }
+                });
+            }
 
             if (accessType === 'vip' && userCode) {
                 vipSection.style.display = 'block';
@@ -354,6 +389,38 @@
                 // Si no es VIP (Gratis o sin sesión), mostrar sección gratuita
                 if(freeSection) freeSection.style.display = 'block';
             }
+
+            // PWA Install Logic
+            const installContainer = document.getElementById('install-app-container');
+            const installBtn = document.getElementById('install-app-btn');
+
+            window.addEventListener('beforeinstallprompt', (e) => {
+                e.preventDefault();
+                deferredPrompt = e;
+                if (installContainer) {
+                    installContainer.style.display = 'flex';
+                }
+            });
+
+            if (installBtn) {
+                installBtn.addEventListener('click', async () => {
+                    if (deferredPrompt) {
+                        deferredPrompt.prompt();
+                        const { outcome } = await deferredPrompt.userChoice;
+                        if (outcome === 'accepted') {
+                            console.log('User accepted the A2HS prompt');
+                        }
+                        deferredPrompt = null;
+                        if (installContainer) {
+                            installContainer.style.display = 'none';
+                        }
+                    }
+                });
+            }
+
+            window.addEventListener('appinstalled', () => {
+                if (installContainer) installContainer.style.display = 'none';
+            });
         });
     </script>
 </body>

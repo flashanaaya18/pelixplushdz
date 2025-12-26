@@ -1,5 +1,211 @@
 const peliculas3 = [
   {
+    "tipo": "serie",
+    "titulo": "Avatar: La leyenda de Aang",
+    "titulo_original": "Avatar: The Last Airbender",
+    "poster": "https://image.tmdb.org/t/p/w500/ucNtkZfpZ6KgxqPo039nN4LAyFR.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kU98MbVVgi72wzceyrEbClZmMFe.jpg",
+    "descripcion": "La historia transcurre en un mundo de gente principalmente asiática (el estilo de vida en la serie se basa en la primera mitad del siglo XIX), donde predominan las artes marciales y la manipulación de los elementos en combinación con el misticismo oriental, dando seguimiento a las aventuras de Aang, el más reciente sucesor de una larga línea de avatares, y sus amigos en un intento por salvar su místico mundo de la despiadada Nación del Fuego que busca conquistar a las demás naciones. Durante sus travesías son acechados insistentemente por el desterrado príncipe del fuego Zuko, cuyo objetivo es capturar al avatar para recuperar su honor. Esta serie es presentada como si se tratara de una serie de libros, en donde cada episodio actúa como un «capítulo», y cada temporada como un solo «libro», los cuales se titulan por el elemento temático de la temporada.",
+    "año": 2005,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "animación",
+      "action & adventure",
+      "sci-fi & fantasy"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "director": "Michael Dante DiMartino",
+    "reparto": [
+      {
+        "name": "Zach Tyler Eisen",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ifHd2Yoovlvu6FFEIxUsXVyrYUf.jpg"
+      },
+      {
+        "name": "Mae Whitman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hO1xLbFrfQLKH3Ln8eqjySgtxHX.jpg"
+      },
+      {
+        "name": "Jack De Sena",
+        "profile_path": "https://image.tmdb.org/t/p/w185/i9VlMsPol6XIicnRZRiwmYSyE4P.jpg"
+      },
+      {
+        "name": "Dante Basco",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2bfQho7MEo4wAQTmC687FkXUoKU.jpg"
+      },
+      {
+        "name": "Jessie Flower",
+        "profile_path": "https://image.tmdb.org/t/p/w185/4ghTS2mkdfHt4vNHIzDIyU1mVxT.jpg"
+      },
+      {
+        "name": "Dee Bradley Baker",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg"
+      }
+    ],
+    "calificacion": 8.8,
+    "votos": 4599,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-26T16:45:42.907997",
+    "tmdb_id": 246,
+    "popularidad": 17.51,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=UMtAbnhBlsg",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/z6bfzgzzo08l",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/zf4etjd4hn2s",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://filelions.to/v/osizjy6i36hp",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/vmf9btcs8rfp",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/fd76e6tei91h",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 61,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2008-07-19",
+    "plataforma": "netflix",
+    "id": "avatar-la-leyenda-de-aang-2005"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Boda letal",
+    "titulo_original": "Bride Hard",
+    "poster": "https://image.tmdb.org/t/p/w500/lfaU8qybKHg3b6IbHJ11FtIyDn2.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2DcD4Hh80SW7YVpwckkiEFRZX06.jpg",
+    "descripcion": "Cuando un grupo de mercenarios toma como rehén a una lujosa boda, no tienen idea de lo que les espera, ya que la Dama de Honor es en realidad una agente secreta lista para hacer llover fuego del infierno sobre cualquiera que arruine la boda de su mejor amiga.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "acción",
+      "comedia"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Comedia"
+    ],
+    "director": "Simon West",
+    "reparto": [
+      {
+        "name": "Rebel Wilson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yuyRg1WaY616Uux3vP9ONsUjQTS.jpg"
+      },
+      {
+        "name": "Anna Camp",
+        "profile_path": "https://image.tmdb.org/t/p/w185/32H0SJbTK3tvLVgf3X1aiaUdcxe.jpg"
+      },
+      {
+        "name": "Anna Chlumsky",
+        "profile_path": "https://image.tmdb.org/t/p/w185/y5FMFdsORlQVhUWiR8yC35COlpO.jpg"
+      },
+      {
+        "name": "Da'Vine Joy Randolph",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7RuYeGxTwFRt2q8fkT8nuEz1nIC.jpg"
+      },
+      {
+        "name": "Gigi Zumbado",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ytuLWDoI558qsKNiA54qt0aACvh.jpg"
+      },
+      {
+        "name": "Sherry Cola",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fO6t05iJo4gqsTkOgPO1jwF4B4t.jpg"
+      },
+      {
+        "name": "Sam Huntington",
+        "profile_path": "https://image.tmdb.org/t/p/w185/x5n6S3tiBnJbZrZVE7Y0NnO8Ghn.jpg"
+      },
+      {
+        "name": "Michael O'Neill",
+        "profile_path": "https://image.tmdb.org/t/p/w185/u9Ejl9iS4ZJ36Y653UCe8huLaOn.jpg"
+      },
+      {
+        "name": "Colleen Camp",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hNAIkUVtsQfpC95BDkXr1lmoI2F.jpg"
+      },
+      {
+        "name": "Stephen Dorff",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bhlM1xNzBvc8jTw42YloUKlGTCL.jpg"
+      },
+      {
+        "name": "Justin Hartley",
+        "profile_path": "https://image.tmdb.org/t/p/w185/oo7vqWz30pA1tY6quUOnS6O0AgB.jpg"
+      },
+      {
+        "name": "Mark Valley",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ffHfLKffDbh2BzGUE0KM88TvoYF.jpg"
+      }
+    ],
+    "calificacion": 5.6,
+    "votos": 143,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-26T16:34:29.098069",
+    "tmdb_id": 1124619,
+    "popularidad": 7.73,
+    "tagline": "Nadie te respalda como una dama de honor.",
+    "trailer": "https://www.youtube.com/watch?v=H6zlLCAaOD4",
+    "success": true,
+    "duracion": "105 min",
+    "presupuesto": "$20,000,000",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/fnc7t64x3c0e",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "boda-letal-2025"
+  },
+  {
     "tipo": "pelicula",
     "titulo": "La sospecha de Sofía",
     "titulo_original": "La sospecha de Sofía",
@@ -162,5 +368,185 @@ const peliculas3 = [
       }
     ],
     "id": "otec-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Rompehielos",
+    "titulo_original": "",
+    "poster": "https://www25.pelisplushd.to/poster/rompehielos-thumb.jpg",
+    "backdrop": "https://via.placeholder.com/1280x720/1a1a2e/ffffff?text=Rompehielos",
+    "descripcion": "Rompehielos - Serie de alta calidad disponible. Con una trama envolvente y producción profesional.",
+    "año": 2025,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "acción",
+      "aventura",
+      "drama"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Aventura",
+      "Drama"
+    ],
+    "director": "",
+    "reparto": [],
+    "calificacion": 7.5,
+    "votos": 0,
+    "idioma": "Español",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-26T16:40:47.715505",
+    "tmdb_id": "",
+    "popularidad": 0,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://goodstream.uno/video/embed/ikvypa7oabw7",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://goodstream.uno/video/embed/jr9hrfih07ut",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://goodstream.uno/video/embed/qhi2j4i6e2ma",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://goodstream.uno/video/embed/jh32jxs3k4c3",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://goodstream.uno/video/embed/6v06w98semzh",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 0,
+    "tipo_serie": "Serie",
+    "id": "rompehielos-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Silencio",
+    "titulo_original": "Silencio",
+    "poster": "https://image.tmdb.org/t/p/w500/xSHh3dIbzrCc1lQZBveN8Oi6A1R.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mFZdU3sWhMFFbRTdG2ul3a8uirk.jpg",
+    "descripcion": "En las sombras de la historia, el secreto late como un pulso. Unas hermanas vampiras sobreviven a la escasez de “sangre humana limpia” debido a la Peste Negra, pero el verdadero veneno es el silencio que las rodea. Siglos después, una de sus descendientes se enfrenta al mismo conflicto en la pandemia del SIDA en España, y descubre que la condena social sigue siendo la misma. Y que el amor entre “enfermos” y “sanos”, humanas y vampiras sigue provocando el mismo terror. ¿Qué sucede cuando la eternidad se mide en siglos de silencio?",
+    "año": 2025,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "comedia",
+      "drama",
+      "sci-fi & fantasy"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "director": "Eduardo Casanova",
+    "reparto": [
+      {
+        "name": "Lucía Díez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eRYTD11AY2Qe93hClVyPKzfsk16.jpg"
+      },
+      {
+        "name": "María León",
+        "profile_path": "https://image.tmdb.org/t/p/w185/emO3kZWopALDhGYEJwbtcKd8gQZ.jpg"
+      },
+      {
+        "name": "Ana Polvorosa",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ql3zaKbPWt3XLdz84sAzSPI1wt.jpg"
+      },
+      {
+        "name": "Mariola Fuentes",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cWElWUCtJ1ecAzs55ppm1kJR4Bd.jpg"
+      },
+      {
+        "name": "Leticia Dolera",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rzWekaXWoC9HKIZkOf7hddQDtFI.jpg"
+      },
+      {
+        "name": "Carolina Rubio",
+        "profile_path": "https://image.tmdb.org/t/p/w185/a7pz9SELYmoxRU5NtJqHRqdiwqJ.jpg"
+      },
+      {
+        "name": "Omar Ayuso",
+        "profile_path": "https://image.tmdb.org/t/p/w185/c4bAqv3PoSVK4ov7cw076NNqg6f.jpg"
+      }
+    ],
+    "calificacion": 4.4,
+    "votos": 5,
+    "idioma": "español",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-26T15:54:41.038001",
+    "tmdb_id": 298651,
+    "popularidad": 14.41,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=mUAkknEZvSM",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://ico3c.com/bkg/7rotfio4wwgz?ref=pelisjuanita.com",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://filemoon.to/e/o92opnxfi3gm",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://filemoon.to/e/lmzzelw9lzm7",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 3,
+    "tipo_serie": "Miniseries",
+    "ultima_emision": "2025-12-01",
+    "id": "silencio-2025"
   }
 ];

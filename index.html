@@ -685,12 +685,6 @@
                 </div>
             </div>
 
-            <!-- Botón de instalar app -->
-            <button id="install-app-btn" class="download-app-btn" title="Instalar App" style="display: flex; align-items: center; gap: 8px; margin-right: 10px; background: rgba(255,255,255,0.1); padding: 6px 12px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.2); color: white; cursor: pointer; transition: all 0.3s ease;">
-                <img src="fondo.png" alt="App" style="width: 20px; height: 20px; border-radius: 50%; object-fit: cover;">
-                <span style="font-size: 13px; font-weight: 600;">Instalar</span>
-            </button>
-            
             <!-- Barra de búsqueda -->
             <div class="search-bar">
                 <form id="search-form">
@@ -1202,10 +1196,42 @@
                     });
                 }
                 
+                // NUEVO: Bloquear sección de Series Populares para gratuitos
+                const seriesSection = document.getElementById('series');
+                if (seriesSection) {
+                    seriesSection.classList.add('vip-restricted');
+                    
+                    // Esperar a que se carguen las tarjetas para limitar a 12
+                    const observer = new MutationObserver(() => {
+                        const cards = seriesSection.querySelectorAll('.movie-card, .anime-card, .item-card');
+                        if (cards.length > 0) {
+                            cards.forEach((card, index) => {
+                                if (index >= 12) {
+                                    card.style.display = 'none';
+                                }
+                            });
+                            observer.disconnect();
+                        }
+                    });
+                    observer.observe(seriesSection, { childList: true, subtree: true });
+
+                    seriesSection.addEventListener('click', function() {
+                        console.log('Sección VIP (Series) clickeada');
+                        showAccessModal();
+                        if (accessSelection) accessSelection.style.display = 'none';
+                        if (vipForm) vipForm.style.display = 'none';
+                        if (requestForm) requestForm.style.display = 'block';
+                        if (planSelectionStep) planSelectionStep.style.display = 'block';
+                        if (paymentStep) paymentStep.style.display = 'none';
+                    });
+                }
+                
                 // Ocultar algunas películas (simulación de catálogo limitado)
                 setTimeout(function() {
-                    document.querySelectorAll('.movie-card, .anime-card').forEach(function(card, index) {
-                        if (index % 2 !== 0) card.style.display = 'none';
+                    document.querySelectorAll('.movie-card, .anime-card, .item-card').forEach(function(card, index) {
+                        if (!card.closest('#series') && index % 2 !== 0) {
+                            card.style.display = 'none';
+                        }
                     });
                 }, 1000);
             }
@@ -1256,34 +1282,6 @@
         if (toggleBtn) toggleBtn.addEventListener('click', toggleMenu);
         if (closeBtn) closeBtn.addEventListener('click', toggleMenu);
         if (overlay) overlay.addEventListener('click', toggleMenu);
-
-        // Lógica de Instalación PWA
-        let deferredPrompt;
-        const installBtn = document.getElementById('install-app-btn');
-
-        window.addEventListener('beforeinstallprompt', function(e) {
-            e.preventDefault();
-            deferredPrompt = e;
-        });
-
-        if (installBtn) {
-            installBtn.addEventListener('click', async function() {
-                if (deferredPrompt) {
-                    deferredPrompt.prompt();
-                    const { outcome } = await deferredPrompt.userChoice;
-                    deferredPrompt = null;
-                    if (outcome === 'accepted') {
-                        installBtn.style.display = 'none';
-                    }
-                } else {
-                    alert("Para instalar, busca la opción 'Añadir a pantalla de inicio' o 'Instalar aplicación' en el menú de tu navegador.");
-                }
-            });
-        }
-
-        window.addEventListener('appinstalled', function() {
-            if (installBtn) installBtn.style.display = 'none';
-        });
 
         // Rotación de fondo del héroe
         document.addEventListener('DOMContentLoaded', function() {

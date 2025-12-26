@@ -1,5 +1,211 @@
 const peliculas3 = [
   {
+    "tipo": "serie",
+    "titulo": "Avatar: La leyenda de Aang",
+    "titulo_original": "Avatar: The Last Airbender",
+    "poster": "https://image.tmdb.org/t/p/w500/ucNtkZfpZ6KgxqPo039nN4LAyFR.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kU98MbVVgi72wzceyrEbClZmMFe.jpg",
+    "descripcion": "La historia transcurre en un mundo de gente principalmente asiática (el estilo de vida en la serie se basa en la primera mitad del siglo XIX), donde predominan las artes marciales y la manipulación de los elementos en combinación con el misticismo oriental, dando seguimiento a las aventuras de Aang, el más reciente sucesor de una larga línea de avatares, y sus amigos en un intento por salvar su místico mundo de la despiadada Nación del Fuego que busca conquistar a las demás naciones. Durante sus travesías son acechados insistentemente por el desterrado príncipe del fuego Zuko, cuyo objetivo es capturar al avatar para recuperar su honor. Esta serie es presentada como si se tratara de una serie de libros, en donde cada episodio actúa como un «capítulo», y cada temporada como un solo «libro», los cuales se titulan por el elemento temático de la temporada.",
+    "año": 2005,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "animación",
+      "action & adventure",
+      "sci-fi & fantasy"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "director": "Michael Dante DiMartino",
+    "reparto": [
+      {
+        "name": "Zach Tyler Eisen",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ifHd2Yoovlvu6FFEIxUsXVyrYUf.jpg"
+      },
+      {
+        "name": "Mae Whitman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hO1xLbFrfQLKH3Ln8eqjySgtxHX.jpg"
+      },
+      {
+        "name": "Jack De Sena",
+        "profile_path": "https://image.tmdb.org/t/p/w185/i9VlMsPol6XIicnRZRiwmYSyE4P.jpg"
+      },
+      {
+        "name": "Dante Basco",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2bfQho7MEo4wAQTmC687FkXUoKU.jpg"
+      },
+      {
+        "name": "Jessie Flower",
+        "profile_path": "https://image.tmdb.org/t/p/w185/4ghTS2mkdfHt4vNHIzDIyU1mVxT.jpg"
+      },
+      {
+        "name": "Dee Bradley Baker",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg"
+      }
+    ],
+    "calificacion": 8.8,
+    "votos": 4599,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-26T16:45:42.907997",
+    "tmdb_id": 246,
+    "popularidad": 17.51,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=UMtAbnhBlsg",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/z6bfzgzzo08l",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/zf4etjd4hn2s",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://filelions.to/v/osizjy6i36hp",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/vmf9btcs8rfp",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/fd76e6tei91h",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 61,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2008-07-19",
+    "plataforma": "netflix",
+    "id": "avatar-la-leyenda-de-aang-2005"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Boda letal",
+    "titulo_original": "Bride Hard",
+    "poster": "https://image.tmdb.org/t/p/w500/lfaU8qybKHg3b6IbHJ11FtIyDn2.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2DcD4Hh80SW7YVpwckkiEFRZX06.jpg",
+    "descripcion": "Cuando un grupo de mercenarios toma como rehén a una lujosa boda, no tienen idea de lo que les espera, ya que la Dama de Honor es en realidad una agente secreta lista para hacer llover fuego del infierno sobre cualquiera que arruine la boda de su mejor amiga.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "acción",
+      "comedia"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Comedia"
+    ],
+    "director": "Simon West",
+    "reparto": [
+      {
+        "name": "Rebel Wilson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yuyRg1WaY616Uux3vP9ONsUjQTS.jpg"
+      },
+      {
+        "name": "Anna Camp",
+        "profile_path": "https://image.tmdb.org/t/p/w185/32H0SJbTK3tvLVgf3X1aiaUdcxe.jpg"
+      },
+      {
+        "name": "Anna Chlumsky",
+        "profile_path": "https://image.tmdb.org/t/p/w185/y5FMFdsORlQVhUWiR8yC35COlpO.jpg"
+      },
+      {
+        "name": "Da'Vine Joy Randolph",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7RuYeGxTwFRt2q8fkT8nuEz1nIC.jpg"
+      },
+      {
+        "name": "Gigi Zumbado",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ytuLWDoI558qsKNiA54qt0aACvh.jpg"
+      },
+      {
+        "name": "Sherry Cola",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fO6t05iJo4gqsTkOgPO1jwF4B4t.jpg"
+      },
+      {
+        "name": "Sam Huntington",
+        "profile_path": "https://image.tmdb.org/t/p/w185/x5n6S3tiBnJbZrZVE7Y0NnO8Ghn.jpg"
+      },
+      {
+        "name": "Michael O'Neill",
+        "profile_path": "https://image.tmdb.org/t/p/w185/u9Ejl9iS4ZJ36Y653UCe8huLaOn.jpg"
+      },
+      {
+        "name": "Colleen Camp",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hNAIkUVtsQfpC95BDkXr1lmoI2F.jpg"
+      },
+      {
+        "name": "Stephen Dorff",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bhlM1xNzBvc8jTw42YloUKlGTCL.jpg"
+      },
+      {
+        "name": "Justin Hartley",
+        "profile_path": "https://image.tmdb.org/t/p/w185/oo7vqWz30pA1tY6quUOnS6O0AgB.jpg"
+      },
+      {
+        "name": "Mark Valley",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ffHfLKffDbh2BzGUE0KM88TvoYF.jpg"
+      }
+    ],
+    "calificacion": 5.6,
+    "votos": 143,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-26T16:34:29.098069",
+    "tmdb_id": 1124619,
+    "popularidad": 7.73,
+    "tagline": "Nadie te respalda como una dama de honor.",
+    "trailer": "https://www.youtube.com/watch?v=H6zlLCAaOD4",
+    "success": true,
+    "duracion": "105 min",
+    "presupuesto": "$20,000,000",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/fnc7t64x3c0e",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "boda-letal-2025"
+  },
+  {
     "tipo": "pelicula",
     "titulo": "La sospecha de Sofía",
     "titulo_original": "La sospecha de Sofía",
@@ -67,6 +273,158 @@ const peliculas3 = [
       }
     ],
     "id": "la-sospecha-de-sofia-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Los días",
+    "titulo_original": "THE DAYS",
+    "poster": "https://image.tmdb.org/t/p/w500/og0fsHozYygCZgdmznwupk0xC4O.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xQy6a3OPZdW3I2YxmOahJHtASqk.jpg",
+    "descripcion": "Culpables para unos y héroes para otros, los implicados en la central de Fukushima Daiichi afrontan una amenaza letal e invisible: una catástrofe nuclear sin precedentes.",
+    "año": 2023,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "drama",
+      "crimen"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Crimen"
+    ],
+    "director": "",
+    "reparto": [
+      {
+        "name": "役所広司",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rF3pmX1yqoMXJLgRkgaLc7PGv68.jpg"
+      },
+      {
+        "name": "Yutaka Takenouchi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zmnpwxj1K3W9tLoRUa5ziGNy94D.jpg"
+      },
+      {
+        "name": "小日向文世",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kP01PV514ZjybXfNpfv91pWxKal.jpg"
+      },
+      {
+        "name": "小林薫",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zpnQ8L6SpyT8pI5vgbpKqXyMYoj.jpg"
+      },
+      {
+        "name": "音尾琢真",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vVWVFV8JJjQuLOdotFTAgGdFsEp.jpg"
+      },
+      {
+        "name": "光石研",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6MQodqe4Sc7Ga1R7FhiOl1msJ26.jpg"
+      },
+      {
+        "name": "遠藤憲一",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5NyLtChKpQ0KLiYjZ3aSDylBIou.jpg"
+      },
+      {
+        "name": "石田ゆり子",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cADoBCi603Chz2IaxcwWT2mNwCf.jpg"
+      },
+      {
+        "name": "泉澤祐希",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jjVYwN6afSoYRRxZZej4PbWozg6.jpg"
+      },
+      {
+        "name": "丸山智己",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yMpygHpjMSLTBb9BdY8TZY7xdM3.jpg"
+      },
+      {
+        "name": "鈴鹿央士",
+        "profile_path": "https://image.tmdb.org/t/p/w185/k5hKLBwSvxcwfSxetS4uo60Knx.jpg"
+      },
+      {
+        "name": "淵上泰史",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lJAfRD8goXuENlqKPDjIfAwdxAV.jpg"
+      }
+    ],
+    "calificacion": 7.8,
+    "votos": 127,
+    "idioma": "JA",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-26T17:05:54.644640",
+    "tmdb_id": 216228,
+    "popularidad": 4.39,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/mrcixb3gzuq3",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/6gnz1yobpfwv",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/4bvonekuvzqa",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://hlswish.com/e/wvvpeddti5mf",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/yfg7uw8ajoc1",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/q1yteovitord",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/ea0booj5ptc0",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/qy63duo6aq16",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 8,
+    "tipo_serie": "Miniseries",
+    "ultima_emision": "2023-06-01",
+    "plataforma": "netflix",
+    "id": "los-dias-2023"
   },
   {
     "tipo": "pelicula",
@@ -162,6 +520,88 @@ const peliculas3 = [
       }
     ],
     "id": "otec-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Rompehielos",
+    "titulo_original": "",
+    "poster": "https://www25.pelisplushd.to/poster/rompehielos-thumb.jpg",
+    "backdrop": "https://via.placeholder.com/1280x720/1a1a2e/ffffff?text=Rompehielos",
+    "descripcion": "Rompehielos - Serie de alta calidad disponible. Con una trama envolvente y producción profesional.",
+    "año": 2025,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "acción",
+      "aventura",
+      "drama"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Aventura",
+      "Drama"
+    ],
+    "director": "",
+    "reparto": [],
+    "calificacion": 7.5,
+    "votos": 0,
+    "idioma": "Español",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-26T16:40:47.715505",
+    "tmdb_id": "",
+    "popularidad": 0,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://goodstream.uno/video/embed/ikvypa7oabw7",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://goodstream.uno/video/embed/jr9hrfih07ut",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://goodstream.uno/video/embed/qhi2j4i6e2ma",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://goodstream.uno/video/embed/jh32jxs3k4c3",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://goodstream.uno/video/embed/6v06w98semzh",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 0,
+    "tipo_serie": "Serie",
+    "id": "rompehielos-2025"
   },
   {
     "tipo": "serie",

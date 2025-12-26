@@ -74,10 +74,6 @@
                 <div id="live-search-results" class="search-results-dropdown"></div>
             </div>
 
-            <button id="install-btn" class="mobile-toggle" style="display: none; margin-right: 10px;" title="Instalar App">
-                <i class="fas fa-download"></i>
-            </button>
-
             <button id="hamburger-btn" class="mobile-toggle">
                 <i class="fas fa-bars"></i>
             </button>
@@ -289,32 +285,6 @@
             });
         });
 
-        // Lógica para instalar la PWA
-        let deferredPrompt;
-        const installBtn = document.getElementById('install-btn');
-
-        window.addEventListener('beforeinstallprompt', (e) => {
-            // Prevenir que el navegador muestre el prompt automáticamente
-            e.preventDefault();
-            deferredPrompt = e;
-            // Mostrar el botón de instalar
-            if (installBtn) installBtn.style.display = 'inline-block';
-        });
-
-        if (installBtn) {
-            installBtn.addEventListener('click', async () => {
-                if (deferredPrompt) {
-                    deferredPrompt.prompt();
-                    const { outcome } = await deferredPrompt.userChoice;
-                    deferredPrompt = null;
-                    installBtn.style.display = 'none';
-                }
-            });
-        }
-
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('service-worker.js');
-        }
     </script>
 </body>
 

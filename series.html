@@ -2,6 +2,40 @@
 <html lang="es">
 
 <head>
+    <style id="auth-style">body{display:none !important;}</style>
+    <script>
+        // Verificar acceso VIP al cargar la página
+        (function() {
+            const isVip = sessionStorage.getItem('pelix_access_type') === 'vip';
+            if (isVip) {
+                document.addEventListener('DOMContentLoaded', () => {
+                    const style = document.getElementById('auth-style');
+                    if(style) style.remove();
+                });
+            } else {
+                window.addEventListener('DOMContentLoaded', () => {
+                    document.body.innerHTML = `
+                        <div style="position:fixed;top:0;left:0;width:100%;height:100%;background:#000;z-index:99999;display:flex;align-items:center;justify-content:center;background-image:url('https://imgs.search.brave.com/CSj2ORDH_jm5LKncUPPcTPJ6nYbLCPwAw8LNxhPLR5g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2VzLmgtY2Ru/LmNvL2ZvdG9lcy9p/bWFnZXMvc2VyaWVz/LXRlbGV2aXNpb24v/MjAtc2VyaWVzLWFj/dHVhbGVzLXBhcmEt/dG9kYS1sYS1mYW1p/bGlhL3N0cmFuZ2Vy/LXRoaW5ncy1zZXJp/ZS1uZXRmbGl4LzEy/NTQzODQ5NS0xLWVz/bC1FUy9zdHJhbmdl/ci1tohinZ3Mtc2Vy/aWUtbmV0ZmxpeC5q/cGc_Y3JvcD0wLjg0/Mzc1eHc6MXhoO2Nl/bnRlcix0b3A');background-size:cover;font-family:'Outfit',sans-serif;">
+                            <div style="position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.92);backdrop-filter:blur(10px);"></div>
+                            <div style="position:relative;z-index:2;text-align:center;padding:40px;color:white;max-width:550px;width:90%;border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; background: rgba(255,255,255,0.02); box-shadow: 0 20px 50px rgba(0,0,0,0.5);">
+                                <div style="font-size:80px;margin-bottom:25px;color:#e50914;text-shadow:0 0 40px rgba(229,9,20,0.6);animation:float 3s infinite ease-in-out;">🔒</div>
+                                <h1 style="font-size:2.8rem;margin-bottom:15px;text-transform:uppercase;font-weight:800;letter-spacing:2px;background:linear-gradient(to right, #fff, #aaa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">Zona VIP</h1>
+                                <p style="font-size:1.1rem;color:#ccc;margin-bottom:35px;line-height:1.6;">Todo nuestro catálogo de series está reservado para miembros VIP. <br>Suscríbete ahora para desbloquear el acceso total.</p>
+                                <div style="display:flex;gap:20px;justify-content:center;flex-wrap:wrap;">
+                                    <button onclick="window.location.href='index.html'" style="padding:15px 35px;border-radius:50px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:white;cursor:pointer;font-weight:600;transition:all 0.3s;font-size:1rem;">Volver</button>
+                                    <button onclick="sessionStorage.setItem('trigger_vip_modal','true');window.location.href='index.html'" style="padding:15px 35px;border-radius:50px;border:none;background:linear-gradient(135deg,#e50914,#ff4d4d);color:white;cursor:pointer;font-weight:700;box-shadow:0 10px 25px rgba(229,9,20,0.4);transition:all 0.3s;font-size:1rem;transform:scale(1.05);">💎 Desbloquear VIP</button>
+                                </div>
+                            </div>
+                            <style>@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-15px)}} button:hover{transform:scale(1.1) !important; box-shadow: 0 15px 30px rgba(229,9,20,0.5) !important;}</style>
+                        </div>
+                    `;
+                    document.body.style.display = 'block';
+                    const style = document.getElementById('auth-style');
+                    if(style) style.remove();
+                });
+            }
+        })();
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Series - PelixplushdHD</title>
