@@ -94,6 +94,13 @@ const peliculas3 = [
         "calidad": "HD",
         "tipo": "embed",
         "activa": true
+      },
+      {
+        "url": "https://filemoon.to/e/treajv8ar36o",
+        "idioma": "Latino",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
       }
     ],
     "id": "anaconda-2025"
@@ -303,6 +310,107 @@ const peliculas3 = [
       }
     ],
     "id": "boda-letal-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Cars",
+    "titulo_original": "Cars",
+    "poster": "https://image.tmdb.org/t/p/w500/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/sd4xN5xi8tKRPrJOWwNiZEile7f.jpg",
+    "descripcion": "El aspirante a campeón de carreras Rayo McQueen parece que está a punto de conseguir el éxito, la fama y todo lo que había soñado, hasta que por error toma un desvío inesperado en la polvorienta y solitaria Ruta 66. Su actitud arrogante se desvanece cuando llega a una pequeña comunidad olvidada que le enseña las cosas importantes de la vida que había olvidado.",
+    "año": 2006,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "animación",
+      "aventura",
+      "comedia",
+      "familia"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Aventura",
+      "Comedia",
+      "Familia"
+    ],
+    "director": "John Lasseter",
+    "reparto": [
+      {
+        "name": "Owen Wilson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lFxHIlcywMlYpe6wkW39sfBrqag.jpg"
+      },
+      {
+        "name": "Paul Newman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bP2fByqNR7BorsUNuD6nSm0u2vJ.jpg"
+      },
+      {
+        "name": "Bonnie Hunt",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tT9C6uLztgN8OxJULq6F9iEzqlA.jpg"
+      },
+      {
+        "name": "Larry the Cable Guy",
+        "profile_path": "https://image.tmdb.org/t/p/w185/34pX2sQj9DddaQWRBGukSWYdXxS.jpg"
+      },
+      {
+        "name": "Cheech Marin",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eecHDNRn9K80ZcuSocsMhQb2G1i.jpg"
+      },
+      {
+        "name": "Tony Shalhoub",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1zfBSuAmOr1xXjNg4WzFWPm5B0Z.jpg"
+      },
+      {
+        "name": "Guido Quaroni",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ie2Q3UcrASkiDKqJOMlhaRaSgFS.jpg"
+      },
+      {
+        "name": "Jenifer Lewis",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bdeUHXY4cXvhOW2nCblNachBYsM.jpg"
+      },
+      {
+        "name": "Paul Dooley",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7nTdbpU4wIsSDZ8WCPXNJOG9KPI.jpg"
+      },
+      {
+        "name": "Michael Wallis",
+        "profile_path": "https://image.tmdb.org/t/p/w185/4TxYHUzqpRhbqjSf162WvpP0Hyu.jpg"
+      },
+      {
+        "name": "George Carlin",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2No6PxJbTGtawVJh0ivUiXfVprH.jpg"
+      },
+      {
+        "name": "Katherine Helmond",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ewqxAgTyclJLwQi4WWU5QZiCM0Q.jpg"
+      }
+    ],
+    "calificacion": 7.0,
+    "votos": 14749,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-27T23:36:40.707056",
+    "tmdb_id": 920,
+    "popularidad": 10.34,
+    "tagline": "Ahhh ...tiene ese olor a película nueva.",
+    "trailer": "https://www.youtube.com/watch?v=8ZMklX5BzTo",
+    "success": true,
+    "duracion": "116 min",
+    "presupuesto": "$120,000,000",
+    "ingresos": "$461,983,149",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/d6dg1hwj4xyy",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "cars-2006"
   },
   {
     "tipo": "serie",
@@ -551,6 +659,82 @@ const peliculas3 = [
       }
     ],
     "id": "la-sospecha-de-sofia-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Las Bravas FC",
+    "titulo_original": "Las Bravas FC",
+    "poster": "https://image.tmdb.org/t/p/w500/45gWJBV1JNbiP4nIPjb8oFYSjv.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zZAflgG2OmwyZfUn7UQSCZVHWYT.jpg",
+    "descripcion": "La serie nos narra una historia donde el fútbol servirá como metáfora para narrar la historia poderosa y valiente de una ex estrella del fútbol internacional y el reencuentro con sus raíces. Junto a él, un grupo de amigas que descubre su valor dentro y fuera de la cancha y un pueblo orgulloso de su identidad que encuentra en el deporte una manera de reconocerse.",
+    "año": 2022,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Drama"
+    ],
+    "director": "",
+    "reparto": [
+      {
+        "name": "Mauricio Ochmann",
+        "profile_path": "https://image.tmdb.org/t/p/w185/h5NuTsPV9HdsjPSuBG4vZtvKtlF.jpg"
+      },
+      {
+        "name": "Ana Valeria Becerril",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8cVagyeVRxvsXZYUfFgkCMLdBkT.jpg"
+      }
+    ],
+    "calificacion": 8.3,
+    "votos": 66,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-28T00:07:56.451866",
+    "tmdb_id": 197549,
+    "popularidad": 1.19,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/fe54zlb88oa9",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/k5tikl7wxmez",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/4rt080ska9ky",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 16,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2024-11-21",
+    "id": "las-bravas-fc-2022"
   },
   {
     "tipo": "serie",

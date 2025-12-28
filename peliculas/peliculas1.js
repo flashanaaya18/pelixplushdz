@@ -3174,75 +3174,6 @@ const peliculas1 = [
     ]
   },
   {
-    "id": "tmdb_920",
-    "titulo": "Cars",
-    "descripcion": "El aspirante a campeón de carreras Rayo McQueen parece que está a punto de conseguir el éxito, la fama y todo lo que había soñado, hasta que por error toma un desvío inesperado en la polvorienta y solitaria Ruta 66. Su actitud arrogante se desvanece cuando llega a una pequeña comunidad olvidada que le enseña las cosas importantes de la vida que había olvidado.",
-    "año": 2006,
-    "poster": "https://image.tmdb.org/t/p/w500/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
-    "rating": 7.016,
-    "tipo": "pelicula",
-    "metadata": {
-      "source": "tmdb",
-      "tmdb_id": 920,
-      "fetched": "2025-12-08T23:45:55.720440"
-    },
-    "genero": [
-      "Animación",
-      "Aventura",
-      "Comedia"
-    ],
-    "duracion": 116,
-    "director": "John Lasseter",
-    "reparto": [
-      "Owen Wilson",
-      "Paul Newman",
-      "Bonnie Hunt",
-      "Larry the Cable Guy",
-      "Cheech Marin"
-    ],
-    "categoria": [],
-    "plataforma": "pelicula"
-  },
-  {
-    "tipo": "pelicula",
-    "titulo": "Cars",
-    "poster": "https://image.tmdb.org/t/p/w500/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
-    "descripcion": "El aspirante a campeón de carreras Rayo McQueen parece que está a punto de conseguir el éxito, la fama y todo lo que había soñado, hasta que por error toma un desvío inesperado en la polvorienta y solitaria Ruta 66. Su actitud arrogante se desvanece cuando llega a una pequeña comunidad olvidada que le enseña las cosas importantes de la vida que había olvidado.",
-    "año": 2006,
-    "categoria": [
-      "anime"
-    ],
-    "genero": [
-      "animación",
-      "aventura",
-      "comedia",
-      "familia"
-    ],
-    "director": "John Lasseter",
-    "reparto": [
-      "Owen Wilson",
-      "Paul Newman",
-      "Bonnie Hunt",
-      "Larry the Cable Guy",
-      "Cheech Marin"
-    ],
-    "calificacion": 7.016,
-    "idioma": "latino",
-    "calidad": "1080p",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-08T23:49:35.244459",
-    "plataforma": "pelicula",
-    "fuentes": [
-      {
-        "idioma": "latino",
-        "url": "https://dintezuvio.com/embed/wjqhcj10ziz9?autoplay=1&controls=0",
-        "calidad": "1080p"
-      }
-    ],
-    "id": "cars-2006"
-  },
-  {
     "tipo": "pelicula",
     "titulo": "Cars 2",
     "poster": "https://image.tmdb.org/t/p/w500/eQo1LQs5Vo9RHVHYUhNSfMZa3VB.jpg",
@@ -10261,7 +10192,15 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "fuentes": [],
+    "fuentes": [
+      {
+        "url": "https://streamwish.to/e/d1df9wj1kenf",
+        "idioma": "Latino",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
     "id": "hombres-de-guerra-2024"
   },
   {

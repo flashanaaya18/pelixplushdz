@@ -10,5 +10,11 @@
     "codigo": "VIP-ANAYA-5478",
     "fecha_inicio": "2025-12-27",
     "dias_validez": 30
+  },
+  {
+    "nombre": "sayuri",
+    "codigo": "VIP-SAYURI-9722",
+    "fecha_inicio": "2025-12-28",
+    "dias_validez": 30
   }
 ]

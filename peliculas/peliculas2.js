@@ -15342,7 +15342,7 @@ const peliculas2 = [
     "tipo": "serie",
     "titulo": "The War Between the Land and the Sea",
     "titulo_original": "The War Between the Land and the Sea",
-    "poster": "https://image.tmdb.org/t/p/w500/4wDU61HtpXbcwpgCy1xnodxKRYN.jpg",
+    "poster": "no-disponible.png",
     "backdrop": "https://image.tmdb.org/t/p/w1280/zU8BfAE8pqlQSaiCCrZIWJm4YTM.jpg",
     "descripcion": "Parte de la franquicia \"Whoniverse\", la serie presentará a UNIT en su intento de evitar una guerra global provocada por el regreso de unas antiguas criaturas marinas.",
     "año": 2025,
@@ -15373,7 +15373,7 @@ const peliculas2 = [
     "idioma": "subtitulada",
     "calidad": "1080p",
     "favorito": false,
-    "esta_roto": false,
+    "esta_roto": true,
     "addedDate": "2025-12-17T01:45:48.674901",
     "tmdb_id": 259886,
     "popularidad": 119.07,
@@ -15398,7 +15398,8 @@ const peliculas2 = [
     "episodios": 5,
     "tipo_serie": "Miniseries",
     "ultima_emision": "2025-12-14",
-    "id": "the-war-between-the-land-and-the-sea-2025"
+    "id": "the-war-between-the-land-and-the-sea-2025",
+    "poster_original": "https://image.tmdb.org/t/p/w500/4wDU61HtpXbcwpgCy1xnodxKRYN.jpg"
   },
   {
     "tipo": "pelicula",

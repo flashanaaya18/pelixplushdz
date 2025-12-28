@@ -94,6 +94,13 @@ const peliculas3 = [
         "calidad": "HD",
         "tipo": "embed",
         "activa": true
+      },
+      {
+        "url": "https://filemoon.to/e/treajv8ar36o",
+        "idioma": "Latino",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
       }
     ],
     "id": "anaconda-2025"
@@ -303,6 +310,286 @@ const peliculas3 = [
       }
     ],
     "id": "boda-letal-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Cars",
+    "titulo_original": "Cars",
+    "poster": "https://image.tmdb.org/t/p/w500/lgBe9KD6DoLyQP28JZ6fSUGK8j0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/sd4xN5xi8tKRPrJOWwNiZEile7f.jpg",
+    "descripcion": "El aspirante a campeón de carreras Rayo McQueen parece que está a punto de conseguir el éxito, la fama y todo lo que había soñado, hasta que por error toma un desvío inesperado en la polvorienta y solitaria Ruta 66. Su actitud arrogante se desvanece cuando llega a una pequeña comunidad olvidada que le enseña las cosas importantes de la vida que había olvidado.",
+    "año": 2006,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "animación",
+      "aventura",
+      "comedia",
+      "familia"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Aventura",
+      "Comedia",
+      "Familia"
+    ],
+    "director": "John Lasseter",
+    "reparto": [
+      {
+        "name": "Owen Wilson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lFxHIlcywMlYpe6wkW39sfBrqag.jpg"
+      },
+      {
+        "name": "Paul Newman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bP2fByqNR7BorsUNuD6nSm0u2vJ.jpg"
+      },
+      {
+        "name": "Bonnie Hunt",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tT9C6uLztgN8OxJULq6F9iEzqlA.jpg"
+      },
+      {
+        "name": "Larry the Cable Guy",
+        "profile_path": "https://image.tmdb.org/t/p/w185/34pX2sQj9DddaQWRBGukSWYdXxS.jpg"
+      },
+      {
+        "name": "Cheech Marin",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eecHDNRn9K80ZcuSocsMhQb2G1i.jpg"
+      },
+      {
+        "name": "Tony Shalhoub",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1zfBSuAmOr1xXjNg4WzFWPm5B0Z.jpg"
+      },
+      {
+        "name": "Guido Quaroni",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ie2Q3UcrASkiDKqJOMlhaRaSgFS.jpg"
+      },
+      {
+        "name": "Jenifer Lewis",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bdeUHXY4cXvhOW2nCblNachBYsM.jpg"
+      },
+      {
+        "name": "Paul Dooley",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7nTdbpU4wIsSDZ8WCPXNJOG9KPI.jpg"
+      },
+      {
+        "name": "Michael Wallis",
+        "profile_path": "https://image.tmdb.org/t/p/w185/4TxYHUzqpRhbqjSf162WvpP0Hyu.jpg"
+      },
+      {
+        "name": "George Carlin",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2No6PxJbTGtawVJh0ivUiXfVprH.jpg"
+      },
+      {
+        "name": "Katherine Helmond",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ewqxAgTyclJLwQi4WWU5QZiCM0Q.jpg"
+      }
+    ],
+    "calificacion": 7.0,
+    "votos": 14749,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-27T23:36:40.707056",
+    "tmdb_id": 920,
+    "popularidad": 10.34,
+    "tagline": "Ahhh ...tiene ese olor a película nueva.",
+    "trailer": "https://www.youtube.com/watch?v=8ZMklX5BzTo",
+    "success": true,
+    "duracion": "116 min",
+    "presupuesto": "$120,000,000",
+    "ingresos": "$461,983,149",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/d6dg1hwj4xyy",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "cars-2006"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Envidiosa",
+    "titulo_original": "Envidiosa",
+    "poster": "https://image.tmdb.org/t/p/w500/3p0fwnkkXAmn3fhUNWYjpo5M1cS.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lQRjR1WGJPnqK6HEGv7k0RhG8Vy.jpg",
+    "descripcion": "Después de una ruptura muy dolorosa, Vicky, con cerca de 40 años, busca un nuevo amor. No sabe que lo que la espera es un profundo —y divertido— proceso de autodescubrimiento.",
+    "año": 2024,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Drama"
+    ],
+    "director": "",
+    "reparto": [
+      {
+        "name": "Griselda Siciliani",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sJTDde4BWJHR9IIUn21EG36hnSP.jpg"
+      },
+      {
+        "name": "Esteban Lamothe",
+        "profile_path": "https://image.tmdb.org/t/p/w185/e0uyZGY20gXgAnv2uxlwzOxod9X.jpg"
+      },
+      {
+        "name": "Pilar Gamboa",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nBhqzOm0SfEskzL3hacEQWhZd5b.jpg"
+      },
+      {
+        "name": "Violeta Urtizberea",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ke5floraEajWG49AgG04N9ViikI.jpg"
+      },
+      {
+        "name": "Marina Bellati",
+        "profile_path": "https://image.tmdb.org/t/p/w185/paLF8lIlwpWkAu5SJDVFSuTrLWW.jpg"
+      },
+      {
+        "name": "Bárbara Lombardo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fPyrrbeWN1P83FOr9XkaIinyMy2.jpg"
+      },
+      {
+        "name": "Lorena Vega",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wOGnE0zRmekWkPJpt3RRtD7SOnN.jpg"
+      },
+      {
+        "name": "Susana Pampín",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rx60K7WdCl6MRnng5pjmAtUOkcy.jpg"
+      },
+      {
+        "name": "Adrián Lakerman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pizZ2qsJrNJO8ls9ULNwmMHN7YM.jpg"
+      },
+      {
+        "name": "María Abadi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/aT872ebRbxYz5A1dkPAYMcAiqvg.jpg"
+      },
+      {
+        "name": "Agustín Aristarán",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bLYj5IHVW1eWY6KAVzmnF8k13By.jpg"
+      },
+      {
+        "name": "Nicki Nicole",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fqaR5kMkPkJuR7GQqJNnW8MvMXj.jpg"
+      }
+    ],
+    "calificacion": 7.7,
+    "votos": 76,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-27T20:19:43.254429",
+    "tmdb_id": 261615,
+    "popularidad": 8.47,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/kzwssz3n83ec",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/xdi56nmsigmo",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/hrdq8rmfi33i",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/6i0unw167mot",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/y0hvr2z3tl4r",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/9zq09hqveeo2",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/trsow6ydqdik",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/wfgtgna20dkw",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://streamwish.to/e/fa3crd4wbryf",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://streamwish.to/e/42hi9qcjccik",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 11,
+            "titulo": "Episodio 11",
+            "url": "https://streamwish.to/e/g3s61754u0ko",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 12,
+            "titulo": "Episodio 12",
+            "url": "https://streamwish.to/e/5v1mf0tvsx5q",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 33,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2025-11-19",
+    "id": "envidiosa-2024"
   },
   {
     "tipo": "pelicula",
