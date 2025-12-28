@@ -23,9 +23,52 @@
             }
         })();
     </script>
+    <style>
+        /* Estilos para el Page Loader */
+        .page-loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #141414;
+            z-index: 30000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+            pointer-events: none;
+        }
+        .page-loader.active {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+        .page-loader .loader-logo { font-size: 2rem; font-weight: 900; color: #fff; margin-bottom: 20px; }
+        .page-loader .loader-logo span { color: #e50914; }
+        .page-loader .loader-bar {
+            width: 150px; height: 4px; background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 2px; overflow: hidden; position: relative;
+            animation: loading-bar-animation 1.5s infinite;
+        }
+        @keyframes loading-bar-animation {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(150px); }
+        }
+    </style>
 </head>
 
 <body>
+    <!-- Global Page Loader -->
+    <div id="page-loader" class="page-loader active">
+        <div class="loader-content">
+            <div class="loader-logo">Pelix<span>plushd</span></div>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
 
     <!-- Navbar -->
     <header class="navbar" id="main-header">
@@ -243,6 +286,16 @@
     <script src="detalle.js?v=4"></script>
 
     <script>
+        // ========== PAGE LOADER ==========
+        window.addEventListener('load', function() {
+            const loader = document.getElementById('page-loader');
+            if (loader) {
+                setTimeout(() => {
+                    loader.classList.remove('active');
+                }, 1500); // Retraso para asegurar que la carga se vea fluida
+            }
+        });
+
         // Simple Header Scroll Logic (Duplicated from script.js just in case)
         window.addEventListener('scroll', () => {
             const header = document.getElementById('main-header');

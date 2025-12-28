@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pelixplushd.netlify.app/sitemap.xml
+Sitemap: https://pelixplushdz.vercel.app/sitemap.xml

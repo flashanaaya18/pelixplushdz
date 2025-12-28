@@ -3,8 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Lanzamientos - PelixplushdHD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrenos Recientes - Pelixplushd</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Explora los últimos lanzamientos y estrenos de películas y series en Pelixplushd. Contenido actualizado diariamente en alta calidad.">
+    <meta name="keywords" content="estrenos, lanzamientos, nuevas películas, nuevas series, Pelixplushd">
+    <meta name="robots" content="index, follow">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,9 +37,87 @@
             }
         })();
     </script>
+    <style>
+        /* Estilos para el Page Loader - Bonito y Llamativo */
+        .page-loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #141414;
+            z-index: 30000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.6s ease-in-out, visibility 0.6s ease-in-out;
+            pointer-events: none;
+        }
+
+        .page-loader.active {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+
+        .page-loader .loader-logo {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: #fff;
+            margin-bottom: 25px;
+            animation: logo-pulse 2s infinite ease-in-out;
+        }
+
+        .page-loader .loader-logo span {
+            color: #e50914;
+        }
+
+        .page-loader .loader-bar {
+            width: 200px;
+            height: 4px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 0 10px rgba(229, 9, 20, 0.2);
+        }
+
+        .page-loader .loader-bar::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, #e50914, #ff4d4d, #e50914, transparent);
+            transform: translateX(-100%);
+            animation: loading-bar-animation 1.5s infinite cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        @keyframes loading-bar-animation {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        @keyframes logo-pulse {
+            0%, 100% { transform: scale(1); opacity: 1; text-shadow: 0 0 0 rgba(229, 9, 20, 0); }
+            50% { transform: scale(1.05); opacity: 0.9; text-shadow: 0 0 20px rgba(229, 9, 20, 0.3); }
+        }
+    </style>
 </head>
 
 <body data-page="lanzamientos">
+
+    <!-- Global Page Loader -->
+    <div id="page-loader" class="page-loader active">
+        <div class="loader-content">
+            <div class="loader-logo">Pelix<span>plushd</span></div>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
 
     <!-- Navbar -->
     <header class="navbar" id="main-header">
@@ -91,7 +173,7 @@
     <main>
         <!-- Page Hero -->
         <div id="hero-section" class="hero-container"
-            style="height: 40vh; min-height: 300px; background-image: linear-gradient(rgba(0,0,0,0.5), #141414), url('https://image.tmdb.org/t/p/original/path_to_some_image.jpg'); background-color: #000;">
+            style="height: 40vh; min-height: 300px; background-image: linear-gradient(rgba(0,0,0,0.5), #141414), url('avatar2.png'); background-color: #000; background-size: cover; background-position: center;">
             <!-- Note: Image fallback or dynamic would be better, but hardcoded gradient for now or js can update it -->
             <div class="hero-content">
                 <h1 class="hero-title">Estrenos Recientes</h1>
@@ -239,6 +321,16 @@
 
     <!-- UI Interactions Script -->
     <script>
+        // ========== PAGE LOADER ==========
+        window.addEventListener('load', function() {
+            const loader = document.getElementById('page-loader');
+            if (loader) {
+                setTimeout(() => {
+                    loader.classList.remove('active');
+                }, 1500); // Retraso para asegurar que la carga se vea fluida
+            }
+        });
+
         // Copy of index.html UI logic
         window.addEventListener('scroll', () => {
             const header = document.getElementById('main-header');

@@ -1010,6 +1010,107 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Avatar",
+    "titulo_original": "Avatar",
+    "poster": "https://image.tmdb.org/t/p/w500/t5T3LPbLLgP2OP6kloM9p2PXpJL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7JNzw1tSZZEgsBw6lu0VfO2X2Ef.jpg",
+    "descripcion": "Año 2154. Jake Sully, un exmarine en silla de ruedas, es enviado al planeta Pandora, donde se ha creado el programa Avatar, gracias al cual los seres humanos pueden controlar de forma remota un cuerpo biológico con apariencia y genética de la especie nativa. Pronto se encontrará con la encrucijada entre seguir las órdenes de sus superiores o defender al mundo que le ha acogido y siente como suyo.",
+    "año": 2009,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "acción",
+      "aventura",
+      "fantasía",
+      "ciencia ficción"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Aventura",
+      "Fantasía",
+      "Ciencia ficción"
+    ],
+    "director": "James Cameron",
+    "reparto": [
+      {
+        "name": "Sam Worthington",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vM1WIfYQ1HUBtlVPwB9Hp9fLcn8.jpg"
+      },
+      {
+        "name": "Zoe Saldaña",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fCJuIn1PMUQtYdRRSnnoZeMJVWs.jpg"
+      },
+      {
+        "name": "Sigourney Weaver",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wTSnfktNBLd6kwQxgvkqYw6vEon.jpg"
+      },
+      {
+        "name": "Stephen Lang",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hdRiM73H2mpJws559TWHCAia7qJ.jpg"
+      },
+      {
+        "name": "Michelle Rodríguez",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wVcbrae4eRqGMFZz8Eh52Dl1biP.jpg"
+      },
+      {
+        "name": "Giovanni Ribisi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8EAiS9D3YtGOrwNM0OrwmDpWK7s.jpg"
+      },
+      {
+        "name": "Joel David Moore",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mMVhVglj6BZFuvqAXnEibce08k7.jpg"
+      },
+      {
+        "name": "CCH Pounder",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mr6BLDN75T8DJl9dNK3hN4YwqJa.jpg"
+      },
+      {
+        "name": "Wes Studi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/dAO2bY2NCceYLZiJaBjBdY19Hox.jpg"
+      },
+      {
+        "name": "Laz Alonso",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nmgOd3X2Xn3jIp9OLCRJzLExRWN.jpg"
+      },
+      {
+        "name": "Dileep Rao",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jRNn8SZqFXuI5wOOlHwYsWh0hXs.jpg"
+      },
+      {
+        "name": "Matt Gerald",
+        "profile_path": "https://image.tmdb.org/t/p/w185/six7c3aZpiEomHjj4ZYokq8Vgtx.jpg"
+      }
+    ],
+    "calificacion": 7.6,
+    "votos": 33016,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-24T17:24:21.787063",
+    "tmdb_id": 19995,
+    "popularidad": 111.8,
+    "tagline": "Entra al mundo de avatar.",
+    "trailer": "https://www.youtube.com/watch?v=UJMtUKfQf4g",
+    "success": true,
+    "duracion": "161 min",
+    "presupuesto": "$237,000,000",
+    "ingresos": "$2,923,706,026",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://nuuuppp.sbs/watch/D3MkX8Let6M6oweYNkZJTG0STmO3TRgbvb2nfmTFQTQ",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "avatar-2009"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Avatar: El sentido del agua",
     "titulo_original": "Avatar: The Way of Water",
     "poster": "https://image.tmdb.org/t/p/w500/ckeTumMS4G31UQ9NNkmtW2QhfMF.jpg",
@@ -1565,7 +1666,7 @@ const peliculas2 = [
     "fuentes": [
       {
         "idioma": "latino",
-        "url": "https://myvidplay.com/e/q46qcx2dn5g2",
+        "url": "https://streamwish.to/e/6ilq2xsjim7l",
         "calidad": "HD",
         "tipo": "embed",
         "activa": true
@@ -3622,114 +3723,6 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
-    "titulo": "Culpa nuestra",
-    "titulo_original": "Culpa nuestra",
-    "poster": "https://image.tmdb.org/t/p/w500/6kmi6vmp6iOn4KzI7WfnVtAeJhU.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/srk5NlOnpEsd0hxVFiHfhtQtfDe.jpg",
-    "descripcion": "La boda de Jenna y Lion propicia el tan deseado reencuentro entre Noah y Nick tiempo después de su ruptura. La incapacidad de Nick para perdonar a Noah se alza como una barrera insalvable. Él, heredero de las empresas de su abuelo y ella, empezando su vida laboral, se resisten a alimentar una llama que aún sigue viva. Pero una vez que sus caminos se han vuelto a cruzar, ¿será el amor más fuerte que el rencor? Secuela de \"Culpa tuya\".",
-    "año": 2025,
-    "categoria": [
-      "drama"
-    ],
-    "genero": [
-      "Romance",
-      "Drama"
-    ],
-    "generos_lista": [
-      "Romance",
-      "Drama"
-    ],
-    "director": "Domingo González",
-    "reparto": [
-      "Nicole Wallace",
-      "Gabriel Guevara",
-      "Gabriela Andrada",
-      "Marta Hazas",
-      "Goya Toledo",
-      "Iván Sánchez",
-      "Felipe Londoño",
-      "Fran Berenguer",
-      "Alex Bejar",
-      "Javier Morgade",
-      "Sergi Mateu",
-      "Gary Anthony Stennette"
-    ],
-    "calificacion": 7.4,
-    "votos": 560,
-    "idioma": "ES",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-23T23:16:28.078345",
-    "tmdb_id": 1156594,
-    "popularidad": 26.19,
-    "tagline": "",
-    "trailer": "https://www.youtube.com/watch?v=g4rcFcbYGv8",
-    "success": true,
-    "duracion": "112 min",
-    "fuentes": [],
-    "id": "culpa-nuestra-2025"
-  },
-  {
-    "tipo": "pelicula",
-    "titulo": "Culpa tuya",
-    "titulo_original": "Culpa tuya",
-    "poster": "https://image.tmdb.org/t/p/w500/1jvCVdlgInyItAUEvvvCakm1Yxz.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/k24eZq5I3jyz4htPkZCRpnUmBzE.jpg",
-    "descripcion": "El amor entre Noah y Nick parece inquebrantable, a pesar de las maniobras de sus padres por separarles. Pero el trabajo de él y la entrada de ella en la universidad, abre sus vidas a nuevas relaciones. La aparición de una exnovia que busca venganza y de la madre Nick con intenciones poco claras, removerán los cimientos no solo de su relación, sino de la propia familia Leister. Cuando tantas personas están dispuestas a destruir una relación, ¿puede realmente acabar bien?",
-    "año": 2024,
-    "categoria": [
-      "drama"
-    ],
-    "genero": [
-      "Drama",
-      "Romance"
-    ],
-    "generos_lista": [
-      "Drama",
-      "Romance"
-    ],
-    "director": "Domingo González",
-    "reparto": [
-      "Nicole Wallace",
-      "Gabriel Guevara",
-      "Marta Hazas",
-      "Iván Sánchez",
-      "Eva Ruiz",
-      "Víctor Varona",
-      "Gabriela Andrada",
-      "Alex Bejar",
-      "Goya Toledo",
-      "Javier Morgade",
-      "Jaime Ordóñez",
-      "Noah Casas"
-    ],
-    "calificacion": 7.1,
-    "votos": 1468,
-    "idioma": "ES",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-24T00:01:09.366517",
-    "tmdb_id": 1156593,
-    "popularidad": 16.2,
-    "tagline": "Divididos por la familia. Impulsados ​​por el amor.",
-    "trailer": "https://www.youtube.com/watch?v=9wVJR8VfLjk",
-    "success": true,
-    "duracion": "120 min",
-    "fuentes": [
-      {
-        "idioma": "Original",
-        "url": "https://www.youtube.com/watch?v=9wVJR8VfLjk",
-        "calidad": "HD",
-        "tipo": "trailer",
-        "activa": true
-      }
-    ],
-    "id": "culpa-tuya-2024"
-  },
-  {
-    "tipo": "pelicula",
     "titulo": "Dangerous Animals",
     "titulo_original": "Dangerous Animals",
     "poster": "no-disponible.png",
@@ -4235,56 +4228,6 @@ const peliculas2 = [
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-09-07",
     "id": "dexter-resurreccion-2025"
-  },
-  {
-    "tipo": "pelicula",
-    "titulo": "Die My Love",
-    "titulo_original": "Die My Love",
-    "poster": "https://image.tmdb.org/t/p/w500/u2xyvEmgkXmfMeCQcGf6mERNFfd.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/dEkFlZzj2cb5F7SShvqkL54E4lr.jpg",
-    "descripcion": "Intenso drama psicológico y comedia negra que sigue a Grace (Jennifer Lawrence), una joven madre y escritora que comienza a sufrir una profunda depresión posparto tras mudarse con su esposo Jackson (Robert Pattinson) a la zona rural de Montana, buscando una vida más tranquila. A medida que la salud mental de Grace se deteriora, su matrimonio se ve afectado, transitando territorios de psicosis, tensión y desesperación. La película explora con crudeza y complejidad temas de maternidad, salud mental y el impacto de la depresión en la pareja. Dirigida por Lynne Ramsay, el filme está basado en la novela de Ariana Harwicz y fue aclamado en el Festival de Cannes 2025, destacando las actuaciones poderosas de Lawrence y Pattinson, junto a un elenco que incluye a LaKeith Stanfield, Nick Nolte y Sissy Spacek. Con una narrativa inquietante y una atmósfera absorbente, \"Die My Love\" invita a una reflexión profunda sobre las luchas internas y el amor en medio del caos emocional.",
-    "año": 2025,
-    "categoria": [
-      "drama"
-    ],
-    "genero": [
-      "Drama",
-      "Suspense"
-    ],
-    "generos_lista": [
-      "Drama",
-      "Suspense"
-    ],
-    "director": "Lynne Ramsay",
-    "reparto": [
-      "Jennifer Lawrence",
-      "Robert Pattinson",
-      "Sissy Spacek",
-      "LaKeith Stanfield",
-      "Nick Nolte",
-      "Gabrielle Rose",
-      "Clare Coulter",
-      "Sarah Lind",
-      "Luke Camilleri",
-      "Victor Zinck, Jr.",
-      "Debs Howard",
-      "Phillip Forest Lewitski"
-    ],
-    "calificacion": 6.4,
-    "votos": 203,
-    "idioma": "EN",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-23T23:16:14.274499",
-    "tmdb_id": 1033148,
-    "popularidad": 51.56,
-    "tagline": "",
-    "trailer": "",
-    "success": true,
-    "duracion": "118 min",
-    "fuentes": [],
-    "id": "die-my-love-2025"
   },
   {
     "tipo": "pelicula",
@@ -5183,58 +5126,6 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
-    "titulo": "El descubridor de leyendas",
-    "titulo_original": "传说",
-    "poster": "https://image.tmdb.org/t/p/w500/jvrSYRtgHTu3oqJN1X7LWZoekB6.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/7FDVhmCur4LMOfnXMteiSCtsdOb.jpg",
-    "descripcion": "Un arqueólogo nota que la textura de las reliquias descubiertas durante la excavación de un glaciar se parece mucho a un colgante de jade visto en uno de sus sueños. Él y su equipo se embarcan en una expedición a las profundidades del glaciar.",
-    "año": 2024,
-    "categoria": [
-      "aventura"
-    ],
-    "genero": [
-      "Acción",
-      "Aventura",
-      "Fantasía"
-    ],
-    "generos_lista": [
-      "Acción",
-      "Aventura",
-      "Fantasía"
-    ],
-    "director": "唐季禮",
-    "reparto": [
-      "Jackie Chan",
-      "张艺兴",
-      "古力娜扎",
-      "李治廷",
-      "李晨",
-      "彭小苒",
-      "窦骁",
-      "郑业成",
-      "马元",
-      "呂良偉",
-      "金巧巧",
-      "Ma Yanli"
-    ],
-    "calificacion": 6.9,
-    "votos": 128,
-    "idioma": "ZH",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-24T00:25:12.111585",
-    "tmdb_id": 1116465,
-    "popularidad": 46.3,
-    "tagline": "",
-    "trailer": "",
-    "success": true,
-    "duracion": "129 min",
-    "fuentes": [],
-    "id": "el-descubridor-de-leyendas-2024"
-  },
-  {
-    "tipo": "pelicula",
     "titulo": "El diario de Noa",
     "titulo_original": "The Notebook",
     "poster": "https://image.tmdb.org/t/p/w500/gFCnDKfsZWzyv9sweizVC4EWn06.jpg",
@@ -5947,56 +5838,6 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
-    "titulo": "El padrino",
-    "titulo_original": "The Godfather",
-    "poster": "https://image.tmdb.org/t/p/w500/ApiEfzSkrqS4m1L5a2GwWXzIiAs.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/39rtAdg3yx6IDxRg0ZLXefv0aPY.jpg",
-    "descripcion": "Don Vito Corleone, conocido dentro de los círculos del hampa como 'El Padrino', es el patriarca de una de las cinco familias que ejercen el mando de la Cosa Nostra en Nueva York en los años cuarenta. Don Corleone tiene cuatro hijos: una chica, Connie, y tres varones; Sonny, Michael y Fredo. Cuando el Padrino reclina intervenir en el negocio de estupefacientes, empieza una cruenta lucha de violentos episodios entre las distintas familias del crimen organizado.",
-    "año": 1972,
-    "categoria": [
-      "drama"
-    ],
-    "genero": [
-      "Drama",
-      "Crimen"
-    ],
-    "generos_lista": [
-      "Drama",
-      "Crimen"
-    ],
-    "director": "Francis Ford Coppola",
-    "reparto": [
-      "Marlon Brando",
-      "Al Pacino",
-      "James Caan",
-      "Robert Duvall",
-      "Richard S. Castellano",
-      "Diane Keaton",
-      "Talia Shire",
-      "Gianni Russo",
-      "Sterling Hayden",
-      "John Marley",
-      "Richard Conte",
-      "Al Lettieri"
-    ],
-    "calificacion": 8.7,
-    "votos": 22174,
-    "idioma": "EN",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-23T23:16:19.823877",
-    "tmdb_id": 238,
-    "popularidad": 37.33,
-    "tagline": "Una oferta que no podrás rechazar",
-    "trailer": "https://www.youtube.com/watch?v=v72XprPxy3E",
-    "success": true,
-    "duracion": "175 min",
-    "fuentes": [],
-    "id": "el-padrino-1972"
-  },
-  {
-    "tipo": "pelicula",
     "titulo": "El Padrino Parte II",
     "titulo_original": "The Godfather Part II",
     "poster": "https://image.tmdb.org/t/p/w500/mbry0W5PRylSUHsYzdiY2FSJwze.jpg",
@@ -6270,68 +6111,6 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
-    "titulo": "El rey león",
-    "titulo_original": "The Lion King",
-    "poster": "https://image.tmdb.org/t/p/w500/b0MxU37dNmMwKtoPVYPKOZSIrIn.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/q00H8EqULYSK74lgevMkhmGGLHn.jpg",
-    "descripcion": "La sabana africana es el escenario en el que tienen lugar las aventuras de Simba, un pequeño león que es el heredero del trono. Sin embargo, se ve forzado a exiliarse al ser injustamente acusado de la muerte de su padre. Durante su destierro, hará buenas amistades y, finalmente, regresará para recuperar lo que legítimamente le corresponde.",
-    "año": 1994,
-    "categoria": [
-      "drama"
-    ],
-    "genero": [
-      "Familia",
-      "Animación",
-      "Drama",
-      "Aventura"
-    ],
-    "generos_lista": [
-      "Familia",
-      "Animación",
-      "Drama",
-      "Aventura"
-    ],
-    "director": "Roger Allers",
-    "reparto": [
-      "Matthew Broderick",
-      "Moira Kelly",
-      "Nathan Lane",
-      "Ernie Sabella",
-      "James Earl Jones",
-      "Jeremy Irons",
-      "Robert Guillaume",
-      "Rowan Atkinson",
-      "Jonathan Taylor Thomas",
-      "Niketa Calame-Harris",
-      "Whoopi Goldberg",
-      "Cheech Marin"
-    ],
-    "calificacion": 8.3,
-    "votos": 19210,
-    "idioma": "EN",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-24T00:01:11.115593",
-    "tmdb_id": 8587,
-    "popularidad": 16.49,
-    "tagline": "El ciclo de la vida.",
-    "trailer": "https://www.youtube.com/watch?v=SVzByAmpIY8",
-    "success": true,
-    "duracion": "85 min",
-    "fuentes": [
-      {
-        "idioma": "Original",
-        "url": "https://www.youtube.com/watch?v=SVzByAmpIY8",
-        "calidad": "HD",
-        "tipo": "trailer",
-        "activa": true
-      }
-    ],
-    "id": "el-rey-leon-1994"
-  },
-  {
-    "tipo": "pelicula",
     "titulo": "El secreto del refugio",
     "titulo_original": "Lubuk",
     "poster": "https://www25.pelisplushd.to/poster/sin-refugio-thumb.jpg",
@@ -6587,168 +6366,6 @@ const peliculas2 = [
     "duracion": "78 min",
     "fuentes": [],
     "id": "el-vuelo-de-venus-1988"
-  },
-  {
-    "tipo": "pelicula",
-    "titulo": "Elio",
-    "titulo_original": "Elio",
-    "poster": "https://image.tmdb.org/t/p/w500/fqF7z5A8kFIrNtSdpEfjE539fna.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/ukPu5xYOBAnh5H46uK4aQOirW2b.jpg",
-    "descripcion": "Cuenta la historia de Elio, un niño de 11 años, que lucha por encajar hasta que de repente es transportado por extraterrestres y es elegido para ser el embajador galáctico de la Tierra.",
-    "año": 2025,
-    "categoria": [
-      "aventura"
-    ],
-    "genero": [
-      "Familia",
-      "Comedia",
-      "Aventura",
-      "Animación",
-      "Ciencia ficción"
-    ],
-    "generos_lista": [
-      "Familia",
-      "Comedia",
-      "Aventura",
-      "Animación",
-      "Ciencia ficción"
-    ],
-    "director": "Madeline Sharafian",
-    "reparto": [
-      "Yonas Kibreab",
-      "Remy Edgerly",
-      "Zoe Saldaña",
-      "Brad Garrett",
-      "Brandon Moon",
-      "Jameela Jamil",
-      "Young Dylan",
-      "Jake T. Getman",
-      "Matthias Schweighöfer",
-      "Ana de la Reguera",
-      "Atsuko Okatsuka",
-      "Shirley Henderson"
-    ],
-    "calificacion": 7.0,
-    "votos": 726,
-    "idioma": "EN",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-24T00:25:12.183424",
-    "tmdb_id": 1022787,
-    "popularidad": 36.04,
-    "tagline": "El universo llamó... al número equivocado.",
-    "trailer": "https://www.youtube.com/watch?v=rA1K4DTJjmQ",
-    "success": true,
-    "duracion": "98 min",
-    "fuentes": [
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/rA1K4DTJjmQ",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/HXmrkq2D9bw",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/rbTRAQuqcQA",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/Jqa8TjVR_8M",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/Pchk6l1LxBI",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/Kuo-luy68Zk",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/ZOYIN_6Fu0s",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/U0VCAsn51ZU",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/KaiJwkM8yh4",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/l9_C7BRuEHI",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/-7CPDmA4nGo",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/pY_eAqHhs7k",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/bOVFdUUsmeU",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/fS5C725eAr0",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/skRgS9LNm74",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      }
-    ],
-    "id": "elio-2025"
   },
   {
     "tipo": "serie",
@@ -7330,56 +6947,6 @@ const peliculas2 = [
       }
     ],
     "id": "exorcism-chronicles-the-beginning-2025"
-  },
-  {
-    "tipo": "pelicula",
-    "titulo": "F1 la película",
-    "titulo_original": "F1",
-    "poster": "https://image.tmdb.org/t/p/w500/wfpqaxoPKvcqzLy8FO0enGXBzU.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/lkDYN0whyE82mcM20rwtwjbniKF.jpg",
-    "descripcion": "El mítico piloto Sonny Hayes vuelve de su retiro, persuadido para liderar un equipo de Fórmula 1 en apuros y guiar a su joven promesa, en busca de una nueva oportunidad de éxito.",
-    "año": 2025,
-    "categoria": [
-      "drama"
-    ],
-    "genero": [
-      "Acción",
-      "Drama"
-    ],
-    "generos_lista": [
-      "Acción",
-      "Drama"
-    ],
-    "director": "Joseph Kosinski",
-    "reparto": [
-      "Brad Pitt",
-      "Damson Idris",
-      "Javier Bardem",
-      "Kerry Condon",
-      "Tobias Menzies",
-      "Kim Bodnia",
-      "Sarah Niles",
-      "Will Merrick",
-      "Joseph Balderrama",
-      "Abdul Salis",
-      "Callie Cooke",
-      "Samson Kayo"
-    ],
-    "calificacion": 7.8,
-    "votos": 2840,
-    "idioma": "EN",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-23T23:16:17.576004",
-    "tmdb_id": 911430,
-    "popularidad": 40.52,
-    "tagline": "Esto es solo el comienzo.",
-    "trailer": "https://www.youtube.com/watch?v=EsNuiXldcCU",
-    "success": true,
-    "duracion": "155 min",
-    "fuentes": [],
-    "id": "f1-la-pelicula-2025"
   },
   {
     "tipo": "serie",
@@ -8889,58 +8456,6 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
-    "titulo": "Kantara 2",
-    "titulo_original": "ಕಾಂತಾರ: ಅಧ್ಯಾಯ - ೧",
-    "poster": "https://image.tmdb.org/t/p/w500/ehQPboTPaIMkMUOoNOh8e7pZ5Rp.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/w57nxiBIODAYHLRs1xmrCY9zEFe.jpg",
-    "descripcion": "Durante el reinado de los Kadamba, el rey Vijayendra, gobernante de la ficticia tierra feudataria de Bangra, encuentra su destino final mientras se aventura en el místico bosque de Kantara. Testigo de ello, su hijo Rajashekara sella las fronteras de su reino. Más tarde, el príncipe Kulashekara las reabre mediante una brutal masacre. El protagonista, Berme, en busca de prosperidad, cruza la brecha y enciende un conflicto de fe, poder y destino entre el Reino y la Naturaleza.",
-    "año": 2025,
-    "categoria": [
-      "drama"
-    ],
-    "genero": [
-      "Acción",
-      "Drama",
-      "Fantasía"
-    ],
-    "generos_lista": [
-      "Acción",
-      "Drama",
-      "Fantasía"
-    ],
-    "director": "Rishab Shetty",
-    "reparto": [
-      "Rishab Shetty",
-      "Rukmini Vasanth",
-      "Jayaram",
-      "Gulshan Devaiah",
-      "Ramitha Shailendra",
-      "Pramod Shetty",
-      "Naveen D. Padil",
-      "Rakesh Poojari",
-      "Prakash Thuminad",
-      "Deepak Rai Panaje",
-      "Hari Prashanth M. G.",
-      "Mime Ramdas"
-    ],
-    "calificacion": 7.0,
-    "votos": 53,
-    "idioma": "KN",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-23T23:16:12.058680",
-    "tmdb_id": 1083637,
-    "popularidad": 77.58,
-    "tagline": "",
-    "trailer": "",
-    "success": true,
-    "duracion": "165 min",
-    "fuentes": [],
-    "id": "kantara-2-2025"
-  },
-  {
-    "tipo": "pelicula",
     "titulo": "Karate Kid: Legends",
     "titulo_original": "Karate Kid: Legends",
     "poster": "https://image.tmdb.org/t/p/w500/bwNAjGUsHt35eqT0Aj8NHU02WPl.jpg",
@@ -9909,60 +9424,6 @@ const peliculas2 = [
       }
     ],
     "id": "la-guerra-del-planeta-de-los-simios-2017"
-  },
-  {
-    "tipo": "pelicula",
-    "titulo": "La hermanastra fea",
-    "titulo_original": "Den stygge stesøsteren",
-    "poster": "https://image.tmdb.org/t/p/w500/4KjMMLHqKcAxNRTd5mhMDtNXW1P.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/ev9kxdoJ5IYVprt1OvH2SMWJdU1.jpg",
-    "descripcion": "Elvira lucha contra su hermosa hermanastra en un reino donde la belleza reina suprema. Ella recurre a medidas extremas para cautivar al príncipe, en medio de una despiadada competición por la perfección física.",
-    "año": 2025,
-    "categoria": [
-      "drama"
-    ],
-    "genero": [
-      "Terror",
-      "Comedia",
-      "Fantasía",
-      "Drama"
-    ],
-    "generos_lista": [
-      "Terror",
-      "Comedia",
-      "Fantasía",
-      "Drama"
-    ],
-    "director": "Emilie Blichfeldt",
-    "reparto": [
-      "Lea Mathilde Skar-Myren",
-      "Ane Dahl Torp",
-      "Thea Sofie Loch Næss",
-      "Flo Fagerli",
-      "Isac Calmroth",
-      "Malte Gårdinger",
-      "Ralph Carlsson",
-      "Cecilia Forss",
-      "Katarzyna Herman",
-      "Adam Lundgren",
-      "Willy Ramnek Petri",
-      "Kyrre Hellum"
-    ],
-    "calificacion": 7.3,
-    "votos": 747,
-    "idioma": "NO",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-23T23:16:37.726613",
-    "tmdb_id": 1284120,
-    "popularidad": 21.46,
-    "tagline": "",
-    "trailer": "",
-    "success": true,
-    "duracion": "109 min",
-    "fuentes": [],
-    "id": "la-hermanastra-fea-2025"
   },
   {
     "tipo": "pelicula",
@@ -11205,105 +10666,6 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
-    "titulo": "Los feos",
-    "titulo_original": "Uglies",
-    "poster": "https://image.tmdb.org/t/p/w500/rsNSv2alCHJK72JvB81aSdk9Fms.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/y4NzXdvpJdwRmsnOT7HdkmHh6Yn.jpg",
-    "descripcion": "En una sociedad futurista, una adolescente a la espera de una operación estética obligatoria se propone encontrar a su amiga desaparecida.",
-    "año": 2024,
-    "categoria": [
-      "aventura"
-    ],
-    "genero": [
-      "ciencia ficción",
-      "aventura",
-      "acción"
-    ],
-    "generos_lista": [
-      "Ciencia ficción",
-      "Aventura",
-      "Acción"
-    ],
-    "director": "McG",
-    "reparto": [
-      {
-        "name": "Joey King",
-        "profile_path": "https://image.tmdb.org/t/p/w185/94c69mPYSK9jFsAEu0OKB7Qs684.jpg"
-      },
-      {
-        "name": "Brianne Tju",
-        "profile_path": "https://image.tmdb.org/t/p/w185/3W3RcXI5TB1sdeRHZVYqJecXLeZ.jpg"
-      },
-      {
-        "name": "Keith Powers",
-        "profile_path": "https://image.tmdb.org/t/p/w185/bfoMj1r97HnPWRchVuyJlqko6aW.jpg"
-      },
-      {
-        "name": "Chase Stokes",
-        "profile_path": "https://image.tmdb.org/t/p/w185/okoMZYMICceGRrca6jhCVkDxVxi.jpg"
-      },
-      {
-        "name": "Laverne Cox",
-        "profile_path": "https://image.tmdb.org/t/p/w185/5Fdim9m1g5tLM2S5rzkXEvMTkqV.jpg"
-      },
-      {
-        "name": "Charmin Lee",
-        "profile_path": "https://image.tmdb.org/t/p/w185/2ZTdSbPCGNlgmZZuvdwyCCsmaVj.jpg"
-      },
-      {
-        "name": "Jay DeVon Johnson",
-        "profile_path": "https://image.tmdb.org/t/p/w185/k21WcVCo5TAhKPEAMXSO5g9HC21.jpg"
-      },
-      {
-        "name": "Jan Luis Castellanos",
-        "profile_path": "https://image.tmdb.org/t/p/w185/wxKthIepYYY3rEPuRVRyHggn3x7.jpg"
-      },
-      {
-        "name": "Sarah Vattano",
-        "profile_path": "https://image.tmdb.org/t/p/w185/8JDZty9TmlsaC61GU13H4D6JG6I.jpg"
-      },
-      {
-        "name": "Ashton Essex Bright",
-        "profile_path": null
-      },
-      {
-        "name": "Zamani Wilder",
-        "profile_path": "https://image.tmdb.org/t/p/w185/tXra52lQ28yVWpW0lvQ6BTZ96kW.jpg"
-      },
-      {
-        "name": "Joseph Echavarria",
-        "profile_path": null
-      }
-    ],
-    "calificacion": 5.8,
-    "votos": 869,
-    "idioma": "latino",
-    "calidad": "1080p",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-20T00:12:58.367490",
-    "tmdb_id": 748167,
-    "popularidad": 6.92,
-    "tagline": "",
-    "trailer": "https://www.youtube.com/watch?v=gqMZTsyp0AY",
-    "success": true,
-    "duracion": "100 min",
-    "presupuesto": "Desconocido",
-    "ingresos": "Desconocido",
-    "plataforma": "pelicula",
-    "fuentes": [
-      {
-        "idioma": "latino",
-        "url": "https://streamwish.to/e/d792neb8kbuq",
-        "calidad": "1080p",
-        "tipo": "embed",
-        "activa": true
-      }
-    ],
-    "id": "los-feos-2024"
-  },
-  {
-    "tipo": "pelicula",
     "titulo": "Los Teleñecos celebran a Jim Henson",
     "titulo_original": "The Muppets Celebrate Jim Henson",
     "poster": "https://image.tmdb.org/t/p/w500/aTe0U124EjNVFTggA2QDvtnAVoI.jpg",
@@ -11355,66 +10717,6 @@ const peliculas2 = [
     "duracion": "47 min",
     "fuentes": [],
     "id": "los-telenecos-celebran-a-jim-henson-1990"
-  },
-  {
-    "tipo": "pelicula",
-    "titulo": "Los Vengadores",
-    "titulo_original": "The Avengers",
-    "poster": "https://image.tmdb.org/t/p/w500/ugX4WZJO3jEvTOerctAWJLinujo.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
-    "descripcion": "Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro.",
-    "año": 2012,
-    "categoria": [
-      "aventura"
-    ],
-    "genero": [
-      "Ciencia ficción",
-      "Acción",
-      "Aventura"
-    ],
-    "generos_lista": [
-      "Ciencia ficción",
-      "Acción",
-      "Aventura"
-    ],
-    "director": "Joss Whedon",
-    "reparto": [
-      "Robert Downey Jr.",
-      "Chris Evans",
-      "Mark Ruffalo",
-      "Chris Hemsworth",
-      "Scarlett Johansson",
-      "Jeremy Renner",
-      "Tom Hiddleston",
-      "Clark Gregg",
-      "Cobie Smulders",
-      "Stellan Skarsgård",
-      "Samuel L. Jackson",
-      "Gwyneth Paltrow"
-    ],
-    "calificacion": 7.9,
-    "votos": 34577,
-    "idioma": "EN",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-24T00:25:11.142865",
-    "tmdb_id": 24428,
-    "popularidad": 49.88,
-    "tagline": "Los héroes más poderosos de la tierra juntos.",
-    "trailer": "https://www.youtube.com/watch?v=HQIiYqOVTWo",
-    "success": true,
-    "duracion": "143 min",
-    "fuentes": [
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/HQIiYqOVTWo",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      }
-    ],
-    "id": "los-vengadores-2012"
   },
   {
     "tipo": "pelicula",
@@ -11677,58 +10979,6 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
-    "titulo": "Martin",
-    "titulo_original": "Martin",
-    "poster": "https://image.tmdb.org/t/p/w500/rmCJCFrEwPC0u0Y1smihwDo4Cf1.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/42xAe6kVeTjml9Tww6vRoWa5tay.jpg",
-    "descripcion": "El viaje de un hombre que se descubre a sí mismo, encuentra el amor y lucha por su patria. ¿Podrá mantener el fuerte en las tres puertas?",
-    "año": 2024,
-    "categoria": [
-      "drama"
-    ],
-    "genero": [
-      "Acción",
-      "Drama",
-      "Suspense"
-    ],
-    "generos_lista": [
-      "Acción",
-      "Drama",
-      "Suspense"
-    ],
-    "director": "A. P. Arjun",
-    "reparto": [
-      "Dhruva Sarja",
-      "Vaibhavi Shandilya",
-      "Anveshi Jain",
-      "Giorgia Andriani",
-      "Chikkanna",
-      "Malavika Avinash",
-      "Achyuth Kumar",
-      "Nikitin Dheer",
-      "Nawab Shah",
-      "Rohit Pathak",
-      "Rubiel Mosquera",
-      "Nathan Jones"
-    ],
-    "calificacion": 4.1,
-    "votos": 26,
-    "idioma": "KN",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-24T00:01:14.166320",
-    "tmdb_id": 861451,
-    "popularidad": 13.41,
-    "tagline": "",
-    "trailer": "",
-    "success": true,
-    "duracion": "147 min",
-    "fuentes": [],
-    "id": "martin-2024"
-  },
-  {
-    "tipo": "pelicula",
     "titulo": "Marty Supreme",
     "titulo_original": "Marty Supreme",
     "poster": "https://image.tmdb.org/t/p/w500/jctiZ1I2p4b6mceR85QxYhgs4Ft.jpg",
@@ -11968,105 +11218,6 @@ const peliculas2 = [
       }
     ],
     "id": "medios-hermanos-2020"
-  },
-  {
-    "tipo": "pelicula",
-    "titulo": "Mickey 17",
-    "titulo_original": "Mickey 17",
-    "poster": "https://image.tmdb.org/t/p/w500/iOKu6Hf5atv3DuXBS0jBF3OYYdu.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/hGLywNhy1Fo1rNFHsNZsXGS69B8.jpg",
-    "descripcion": "Mickey 17, un miembro de la tripulación 'expendable' (prescindible) enviado a un planeta helado para colonizarlo, se niega a dejar que su clon de reemplazo, Mickey 18, tome su lugar... Adaptación del libro original de Edward Ashton.",
-    "año": 2025,
-    "categoria": [
-      "comedia"
-    ],
-    "genero": [
-      "ciencia ficción",
-      "comedia",
-      "aventura"
-    ],
-    "generos_lista": [
-      "Ciencia ficción",
-      "Comedia",
-      "Aventura"
-    ],
-    "director": "Bong Joon-ho",
-    "reparto": [
-      {
-        "name": "Robert Pattinson",
-        "profile_path": "https://image.tmdb.org/t/p/w185/8A4PS5iG7GWEAVFftyqMZKl3qcr.jpg"
-      },
-      {
-        "name": "Naomi Ackie",
-        "profile_path": "https://image.tmdb.org/t/p/w185/1MhRVn6xlShHhftRdK24HuO3TNR.jpg"
-      },
-      {
-        "name": "Steven Yeun",
-        "profile_path": "https://image.tmdb.org/t/p/w185/fOMFO2Xx4duzpNgS9Q5ytO44yGb.jpg"
-      },
-      {
-        "name": "Mark Ruffalo",
-        "profile_path": "https://image.tmdb.org/t/p/w185/5GilHMOt5PAQh6rlUKZzGmaKEI7.jpg"
-      },
-      {
-        "name": "Toni Collette",
-        "profile_path": "https://image.tmdb.org/t/p/w185/lzXRh16qe4HHeBN6tMyw0DHvaMn.jpg"
-      },
-      {
-        "name": "Anamaria Vartolomei",
-        "profile_path": "https://image.tmdb.org/t/p/w185/3k1z18yXJICNg41zjXQj4UV5ufC.jpg"
-      },
-      {
-        "name": "Daniel Henshall",
-        "profile_path": "https://image.tmdb.org/t/p/w185/spfdesJvIoPTmZWMe5ncyMbnOV5.jpg"
-      },
-      {
-        "name": "Patsy Ferran",
-        "profile_path": "https://image.tmdb.org/t/p/w185/1GnM9R90XUsENcY0IEZOUryeS13.jpg"
-      },
-      {
-        "name": "Steve Park",
-        "profile_path": "https://image.tmdb.org/t/p/w185/wDa3CYi7GPUcFBoi7Fg0fcCCXDc.jpg"
-      },
-      {
-        "name": "Tim Key",
-        "profile_path": "https://image.tmdb.org/t/p/w185/5qaZxWpm3lXDbngjZJvnSbVS9I0.jpg"
-      },
-      {
-        "name": "Holliday Grainger",
-        "profile_path": "https://image.tmdb.org/t/p/w185/fHveeGXgEfTZ9slB5OvHDG4LAPw.jpg"
-      },
-      {
-        "name": "Michael Monroe",
-        "profile_path": "https://image.tmdb.org/t/p/w185/oFnFHP7rqOB4BQtnMS6wUzo4CS2.jpg"
-      }
-    ],
-    "calificacion": 6.8,
-    "votos": 3019,
-    "idioma": "latino",
-    "calidad": "1080p",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-22T23:19:24.521793",
-    "tmdb_id": 696506,
-    "popularidad": 20.07,
-    "tagline": "Él se muere por salvar a la humanidad.",
-    "trailer": "https://www.youtube.com/watch?v=h_NsnK_6edE",
-    "success": true,
-    "duracion": "137 min",
-    "presupuesto": "$118,000,000",
-    "ingresos": "$131,847,147",
-    "plataforma": "pelicula",
-    "fuentes": [
-      {
-        "idioma": "latino",
-        "url": "https://smoothpre.com/v/mr2eh8evc91o",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      }
-    ],
-    "id": "mickey-17-2025"
   },
   {
     "tipo": "pelicula",
@@ -13433,6 +12584,34 @@ const peliculas2 = [
             "url": "https://streamwish.to/e/tug5va3m4eua",
             "calidad": "HD",
             "visto": false
+          },
+          {
+            "episodio": 17,
+            "titulo": "Episodio 17",
+            "url": "https://streamwish.to/e/1y74gsclx6qi",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 18,
+            "titulo": "Episodio 18",
+            "url": "https://streamwish.to/e/97ozr652kwb6",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 19,
+            "titulo": "Episodio 19",
+            "url": "https://streamwish.to/e/glvglufvboli",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 20,
+            "titulo": "Episodio 20",
+            "url": "https://streamwish.to/e/vux20ik13qmf",
+            "calidad": "HD",
+            "visto": false
           }
         ]
       }
@@ -14772,65 +13951,6 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
-    "titulo": "Reinas de la Noche",
-    "titulo_original": "Reinas de la Noche",
-    "poster": "https://image.tmdb.org/t/p/w500/bdK47zNkKVa253wph64WSLo9Cd9.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/pBtWhuvB9nhDz4Hb2uAtvW65CBN.jpg",
-    "descripcion": "Victoria hereda un bar de mala fama. Para saldar las deudas de su difunto esposo, deberá convertir el escándalo en un imperio… o perderlo todo.",
-    "año": 2025,
-    "categoria": [
-      "comedia"
-    ],
-    "genero": [
-      "comedia"
-    ],
-    "generos_lista": [
-      "Comedia"
-    ],
-    "director": "Yahayra Garrido",
-    "reparto": [
-      {
-        "name": "Catherine Siachoque",
-        "profile_path": "https://image.tmdb.org/t/p/w185/cMMlna6LChMAOttFCdRWkj9rz1C.jpg"
-      },
-      {
-        "name": "Cynthia Klitbo",
-        "profile_path": null
-      },
-      {
-        "name": "Anna Cepinska",
-        "profile_path": "https://image.tmdb.org/t/p/w185/aT8Qe5Kx1IsQYggpXS3eutjl4f0.jpg"
-      }
-    ],
-    "calificacion": 7.2,
-    "votos": 7,
-    "idioma": "latino",
-    "calidad": "1080p",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-22T22:37:25.313017",
-    "tmdb_id": 1529517,
-    "popularidad": 0.31,
-    "tagline": "",
-    "trailer": "",
-    "success": true,
-    "duracion": "N/A",
-    "presupuesto": "Desconocido",
-    "ingresos": "Desconocido",
-    "plataforma": "pelicula",
-    "fuentes": [
-      {
-        "idioma": "latino",
-        "url": "https://streamwish.to/e/n4c77stdmfgg",
-        "calidad": "1080p",
-        "tipo": "embed",
-        "activa": true
-      }
-    ],
-    "id": "reinas-de-la-noche-2025"
-  },
-  {
-    "tipo": "pelicula",
     "titulo": "Resurrection Road",
     "titulo_original": "Resurrection Road",
     "poster": "https://image.tmdb.org/t/p/w500/x5KSZ4TXPKWTnQNdzHZFrlvy1t9.jpg",
@@ -15207,54 +14327,6 @@ const peliculas2 = [
     "duracion": "169 min",
     "fuentes": [],
     "id": "salvar-al-soldado-ryan-1998"
-  },
-  {
-    "tipo": "pelicula",
-    "titulo": "Sarah's Oil",
-    "titulo_original": "Sarah's Oil",
-    "poster": "https://image.tmdb.org/t/p/w500/Av1CK61z33v2OBFLD1yF5rdRxQ1.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/rUrOOrPZFY43F6TLpq1FoGs3pqN.jpg",
-    "descripcion": "",
-    "año": 2025,
-    "categoria": [
-      "drama"
-    ],
-    "genero": [
-      "Drama"
-    ],
-    "generos_lista": [
-      "Drama"
-    ],
-    "director": "Cyrus Nowrasteh",
-    "reparto": [
-      "Zachary Levi",
-      "Naya Desir-Johnson",
-      "Sonequa Martin-Green",
-      "Garret Dillahunt",
-      "Bridget Regan",
-      "Kenric Green",
-      "Adyan Copes",
-      "Stelio Savante",
-      "Mel Rodriguez",
-      "Jonathan Lipnicki",
-      "Marco Fuller",
-      "Kevin Downes"
-    ],
-    "calificacion": 7.7,
-    "votos": 23,
-    "idioma": "EN",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-24T00:01:15.026592",
-    "tmdb_id": 1325678,
-    "popularidad": 10.89,
-    "tagline": "",
-    "trailer": "",
-    "success": true,
-    "duracion": "103 min",
-    "fuentes": [],
-    "id": "sarahs-oil-2025"
   },
   {
     "tipo": "pelicula",
@@ -15988,219 +15060,6 @@ const peliculas2 = [
       }
     ],
     "id": "springsteen-deliver-me-from-nowhere-2025"
-  },
-  {
-    "tipo": "pelicula",
-    "titulo": "Sueños de trenes",
-    "titulo_original": "Train Dreams",
-    "poster": "https://image.tmdb.org/t/p/w500/aKvcYAt8VwZ246FM1HmXvYEV6gA.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/gwohbraLtlTW7F9EAyxOckSBwf3.jpg",
-    "descripcion": "Un leñador introvertido pero afable se topa con el amor y la pérdida durante una época de cambios colosales en los EE. UU. de principios del siglo XX.",
-    "año": 2025,
-    "categoria": [
-      "drama"
-    ],
-    "genero": [
-      "Drama"
-    ],
-    "generos_lista": [
-      "Drama"
-    ],
-    "director": "Clint Bentley",
-    "reparto": [
-      "Joel Edgerton",
-      "Clifton Collins Jr.",
-      "Felicity Jones",
-      "Alfred Hsing",
-      "William H. Macy",
-      "Kerry Condon",
-      "Paul Schneider",
-      "John Diehl",
-      "David Paul Olsen",
-      "John Patrick Lowrie",
-      "Chuck Tucker",
-      "Rob Price"
-    ],
-    "calificacion": 7.2,
-    "votos": 326,
-    "idioma": "EN",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-24T00:01:08.554781",
-    "tmdb_id": 1241983,
-    "popularidad": 18.47,
-    "tagline": "",
-    "trailer": "",
-    "success": true,
-    "duracion": "102 min",
-    "fuentes": [],
-    "id": "suenos-de-trenes-2025"
-  },
-  {
-    "tipo": "pelicula",
-    "titulo": "Superman",
-    "titulo_original": "Superman",
-    "poster": "https://image.tmdb.org/t/p/w500/fvUJb08yatV2b3NUSwuYdQKYoFd.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/yRBc6WY3r1Fz5Cjd6DhSvzqunED.jpg",
-    "descripcion": "En un mundo que ha perdido la fe en la bondad, Superman lucha por reconciliar su herencia kryptoniana con los valores humanos que moldearon su carácter. Criado en la Tierra, representa la verdad, la justicia y el estilo americano, pero debe enfrentarse a un mundo cínico que cuestiona sus ideales. Entre el deber de proteger a la humanidad y la búsqueda de su identidad, Superman demuestra que la esperanza y la bondad nunca pasan de moda, incluso en los tiempos más oscuros, inspirando a otros a creer en un futuro mejor.",
-    "año": 2025,
-    "categoria": [
-      "aventura"
-    ],
-    "genero": [
-      "Ciencia ficción",
-      "Aventura",
-      "Acción"
-    ],
-    "generos_lista": [
-      "Ciencia ficción",
-      "Aventura",
-      "Acción"
-    ],
-    "director": "James Gunn",
-    "reparto": [
-      "David Corenswet",
-      "Rachel Brosnahan",
-      "Nicholas Hoult",
-      "Edi Gathegi",
-      "Nathan Fillion",
-      "Isabela Merced",
-      "María Gabriela de Faría",
-      "Skyler Gisondo",
-      "Alan Tudyk",
-      "Grace Chan",
-      "Bradley Cooper",
-      "Angela Sarafyan"
-    ],
-    "calificacion": 7.4,
-    "votos": 4029,
-    "idioma": "EN",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-24T00:25:11.127194",
-    "tmdb_id": 1061474,
-    "popularidad": 54.62,
-    "tagline": "Mira al cielo.",
-    "trailer": "https://www.youtube.com/watch?v=_ctIjCiqVQo",
-    "success": true,
-    "duracion": "129 min",
-    "fuentes": [
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/_ctIjCiqVQo",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/KOjV-AsVARM",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/oIFIY2dMFcs",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/Z3tSq0BPaHg",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/EVM2-tn6yi8",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/-bacL_73DWs",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/X5E79vKgIQY",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/1cwbJ-L9Ws0",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/0fOgqoLXNEY",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/to7-vm7mK9Y",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/KWoJAz9YiPc",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/_EjMNSH9-p4",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/NXvqAC3i0LE",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Behind the Scenes",
-        "url": "https://www.youtube.com/embed/qlhmzL3HblQ",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Clip",
-        "url": "https://www.youtube.com/embed/gHV92gSX7eM",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/JCl5ohdEtv8",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      }
-    ],
-    "id": "superman-2025"
   },
   {
     "tipo": "pelicula",
@@ -17164,237 +16023,6 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
-    "titulo": "TRON: Ares",
-    "titulo_original": "TRON: Ares",
-    "poster": "https://image.tmdb.org/t/p/w500/qShQABLVRMZKnv5mWOPXWniBeB3.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/min9ZUDZbiguTiQ7yz1Hbqk78HT.jpg",
-    "descripcion": "La historia de Ares, un programa muy sofisticado que se envía desde el mundo digital al mundo real en una misión peligrosa y que va a representar el primer encuentro de la humanidad con seres creados por la IA.",
-    "año": 2025,
-    "categoria": [
-      "aventura"
-    ],
-    "genero": [
-      "Ciencia ficción",
-      "Aventura",
-      "Acción"
-    ],
-    "generos_lista": [
-      "Ciencia ficción",
-      "Aventura",
-      "Acción"
-    ],
-    "director": "Joachim Rønning",
-    "reparto": [
-      "Jared Leto",
-      "Greta Lee",
-      "Evan Peters",
-      "Gillian Anderson",
-      "Jodie Turner-Smith",
-      "Jeff Bridges",
-      "Hasan Minhaj",
-      "Arturo Castro",
-      "Cameron Monaghan",
-      "Sarah Desjardins",
-      "Aaron Paul Stewart",
-      "Roger Cross"
-    ],
-    "calificacion": 6.6,
-    "votos": 807,
-    "idioma": "EN",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-24T00:14:37.859638",
-    "tmdb_id": 533533,
-    "popularidad": 121.25,
-    "tagline": "No hay vuelta atrás.",
-    "trailer": "https://www.youtube.com/watch?v=ptp011LFC2c",
-    "success": true,
-    "duracion": "119 min",
-    "fuentes": [
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/ptp011LFC2c",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/l6XkiAwYuJ8",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/b6oxnDSf_HU",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Clip",
-        "url": "https://www.youtube.com/embed/V5xlLo_QHsU",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/xaw_YADmUvw",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/lcxpbMPT9NQ",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/f8Lqx4rP9-U",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/a4RU68LC8cw",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/3qXHFSnzxD8",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/Lr1Fai1ggNo",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Featurette",
-        "url": "https://www.youtube.com/embed/0EtTZ71Ns88",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Featurette",
-        "url": "https://www.youtube.com/embed/-o9HvscVKrk",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Featurette",
-        "url": "https://www.youtube.com/embed/pLkc5rshGYM",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Teaser",
-        "url": "https://www.youtube.com/embed/vXdTSKGD_GQ",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/Q1bvwjV5u3Q",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/zoIvX1U4t88",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/ywx1geivccs",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/lacE5UJap8g",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      }
-    ],
-    "id": "tron-ares-2025"
-  },
-  {
-    "tipo": "pelicula",
-    "titulo": "Truth & Treason",
-    "titulo_original": "Truth & Treason",
-    "poster": "https://image.tmdb.org/t/p/w500/ArDLn658OjT3dMThIi4GDQJRuY3.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/98PhUeOMK33Oyekw53tSGsfPZ7H.jpg",
-    "descripcion": "",
-    "año": 2025,
-    "categoria": [
-      "drama"
-    ],
-    "genero": [
-      "Historia",
-      "Drama",
-      "Suspense"
-    ],
-    "generos_lista": [
-      "Historia",
-      "Drama",
-      "Suspense"
-    ],
-    "director": "Matt Whitaker",
-    "reparto": [
-      "Ewan Horrocks",
-      "Rupert Evans",
-      "Ferdinand McKay",
-      "Daf Thomas",
-      "Nye Occomore",
-      "Joanna Christie",
-      "Sean Mahon",
-      "Sylvie Varcoe",
-      "Benjamin Dilloway",
-      "Daniel Betts",
-      "Celinde Schoenmaker",
-      "Aaron Zicman"
-    ],
-    "calificacion": 7.1,
-    "votos": 9,
-    "idioma": "EN",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-23T23:16:25.212140",
-    "tmdb_id": 1443940,
-    "popularidad": 25.9,
-    "tagline": "",
-    "trailer": "",
-    "success": true,
-    "duracion": "121 min",
-    "fuentes": [],
-    "id": "truth-treason-2025"
-  },
-  {
-    "tipo": "pelicula",
     "titulo": "Turbulence",
     "titulo_original": "Turbulence",
     "poster": "https://image.tmdb.org/t/p/w500/6PdAODwR9amGEq5ER42FsuzV7op.jpg",
@@ -18022,58 +16650,6 @@ const peliculas2 = [
       }
     ],
     "id": "whiplash-2014"
-  },
-  {
-    "tipo": "pelicula",
-    "titulo": "Wicked",
-    "titulo_original": "Wicked",
-    "poster": "https://image.tmdb.org/t/p/w500/hDQXqvmmikekQ15uxhisBDwEA63.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/w22GVYotTIVC1dUd58mRhwPqiS.jpg",
-    "descripcion": "Ambientada en la Tierra de Oz, mucho antes de la llegada de Dorothy Gale desde Kansas. Elphaba es una joven incomprendida por su inusual color verde que aún no ha descubierto su verdadero poder. Glinda es una popular joven marcada por sus privilegios y su ambición que aún no ha descubierto su verdadera pasión. Las dos se conocen como estudiantes de la Universidad Shiz, en la fantástica Tierra de Oz, y forjan una insólita pero profunda amistad. La trama abarca los acontecimientos del primer acto del musical de Broadway.",
-    "año": 2024,
-    "categoria": [
-      "drama"
-    ],
-    "genero": [
-      "Drama",
-      "Romance",
-      "Fantasía"
-    ],
-    "generos_lista": [
-      "Drama",
-      "Romance",
-      "Fantasía"
-    ],
-    "director": "Jon M. Chu",
-    "reparto": [
-      "Cynthia Erivo",
-      "Ariana Grande",
-      "Michelle Yeoh",
-      "Jonathan Bailey",
-      "Ethan Slater",
-      "Marissa Bode",
-      "Jeff Goldblum",
-      "Peter Dinklage",
-      "Andy Nyman",
-      "Courtney-Mae Briggs",
-      "Bowen Yang",
-      "Bronwyn James"
-    ],
-    "calificacion": 6.9,
-    "votos": 2714,
-    "idioma": "EN",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-23T23:16:26.372569",
-    "tmdb_id": 402431,
-    "popularidad": 27.67,
-    "tagline": "Todos merecemos la oportunidad de volar",
-    "trailer": "https://www.youtube.com/watch?v=UNHQgy3jawI",
-    "success": true,
-    "duracion": "162 min",
-    "fuentes": [],
-    "id": "wicked-2024"
   },
   {
     "tipo": "serie",

@@ -1,5 +1,104 @@
 const peliculas3 = [
   {
+    "tipo": "pelicula",
+    "titulo": "Anaconda",
+    "titulo_original": "Anaconda",
+    "poster": "https://image.tmdb.org/t/p/w500/zX1KJPiGTrzpFcjfOWlmqdRgpQd.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/yo41R39airbREp0PYfG30Ofxtgt.jpg",
+    "descripcion": "Doug y Griff son muy buenos amigos desde que eran niños y siempre han soñado con hacer un remake de su película favorita de todos los tiempos: el «clásico cinematográfico» Anaconda. Cuando una crisis de mediana edad les anima a lanzarse por fin a la aventura, se adentran en la selva amazónica para empezar a rodar. Pero las cosas se ponen serias cuando aparece una anaconda gigante de verdad, convirtiendo su caótico y cómico plató de rodaje en una situación mortal.",
+    "año": 2025,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "aventura",
+      "comedia",
+      "terror"
+    ],
+    "generos_lista": [
+      "Aventura",
+      "Comedia",
+      "Terror"
+    ],
+    "director": "Tom Gormican",
+    "reparto": [
+      {
+        "name": "Paul Rudd",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6jtwNOLKy0LdsRAKwZqgYMAfd5n.jpg"
+      },
+      {
+        "name": "Jack Black",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rtCx0fiYxJVhzXXdwZE2XRTfIKE.jpg"
+      },
+      {
+        "name": "Daniela Melchior",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zLqPkfenHtuHSrXmEVmQ8Piqjdp.jpg"
+      },
+      {
+        "name": "Thandiwe Newton",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hZQLvxj7nV7pBrRyWTvWVz1CDi8.jpg"
+      },
+      {
+        "name": "Steve Zahn",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rwrPdKGwXnByxUVMxMf8Y7oswi3.jpg"
+      },
+      {
+        "name": "Ione Skye",
+        "profile_path": "https://image.tmdb.org/t/p/w185/KuUCBslsXwhH5wPsL4fVP297FM.jpg"
+      },
+      {
+        "name": "Selton Mello",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sBVDTAAEDJuVBTKzVGA0PrqeD17.jpg"
+      },
+      {
+        "name": "Ben Lawson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yxIkefVB8N8svOpjIbFmXBQPa0P.jpg"
+      },
+      {
+        "name": "Ice Cube",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9EghwabQ1wIQT4oN69qtPlzqGn4.jpg"
+      },
+      {
+        "name": "John Billingsley",
+        "profile_path": "https://image.tmdb.org/t/p/w185/uQzAvv4LUt57GBrYzDj5Ao1vhUT.jpg"
+      },
+      {
+        "name": "Rui Ricardo Diaz",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zjFqxdsijCYiWHvEwaztRP1eQet.jpg"
+      },
+      {
+        "name": "Sebastian Sero",
+        "profile_path": "https://image.tmdb.org/t/p/w185/c87XzTcaC7dLCGoIdcDkIKnPOiP.jpg"
+      }
+    ],
+    "calificacion": 6.6,
+    "votos": 31,
+    "idioma": "subtitulado",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-27T19:48:56.944011",
+    "tmdb_id": 1234731,
+    "popularidad": 73.14,
+    "tagline": "Una aventura que te dejará temblando.",
+    "trailer": "https://www.youtube.com/watch?v=pj0rXRa9WPU",
+    "success": true,
+    "duracion": "100 min",
+    "presupuesto": "$45,000,000",
+    "ingresos": "$2,100,000",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://streamwish.to/e/r2i6zzwb3js7",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "anaconda-2025"
+  },
+  {
     "tipo": "serie",
     "titulo": "Avatar: La leyenda de Aang",
     "titulo_original": "Avatar: The Last Airbender",
@@ -204,6 +303,185 @@ const peliculas3 = [
       }
     ],
     "id": "boda-letal-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Envidiosa",
+    "titulo_original": "Envidiosa",
+    "poster": "https://image.tmdb.org/t/p/w500/3p0fwnkkXAmn3fhUNWYjpo5M1cS.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lQRjR1WGJPnqK6HEGv7k0RhG8Vy.jpg",
+    "descripcion": "Después de una ruptura muy dolorosa, Vicky, con cerca de 40 años, busca un nuevo amor. No sabe que lo que la espera es un profundo —y divertido— proceso de autodescubrimiento.",
+    "año": 2024,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Drama"
+    ],
+    "director": "",
+    "reparto": [
+      {
+        "name": "Griselda Siciliani",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sJTDde4BWJHR9IIUn21EG36hnSP.jpg"
+      },
+      {
+        "name": "Esteban Lamothe",
+        "profile_path": "https://image.tmdb.org/t/p/w185/e0uyZGY20gXgAnv2uxlwzOxod9X.jpg"
+      },
+      {
+        "name": "Pilar Gamboa",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nBhqzOm0SfEskzL3hacEQWhZd5b.jpg"
+      },
+      {
+        "name": "Violeta Urtizberea",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ke5floraEajWG49AgG04N9ViikI.jpg"
+      },
+      {
+        "name": "Marina Bellati",
+        "profile_path": "https://image.tmdb.org/t/p/w185/paLF8lIlwpWkAu5SJDVFSuTrLWW.jpg"
+      },
+      {
+        "name": "Bárbara Lombardo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fPyrrbeWN1P83FOr9XkaIinyMy2.jpg"
+      },
+      {
+        "name": "Lorena Vega",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wOGnE0zRmekWkPJpt3RRtD7SOnN.jpg"
+      },
+      {
+        "name": "Susana Pampín",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rx60K7WdCl6MRnng5pjmAtUOkcy.jpg"
+      },
+      {
+        "name": "Adrián Lakerman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pizZ2qsJrNJO8ls9ULNwmMHN7YM.jpg"
+      },
+      {
+        "name": "María Abadi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/aT872ebRbxYz5A1dkPAYMcAiqvg.jpg"
+      },
+      {
+        "name": "Agustín Aristarán",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bLYj5IHVW1eWY6KAVzmnF8k13By.jpg"
+      },
+      {
+        "name": "Nicki Nicole",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fqaR5kMkPkJuR7GQqJNnW8MvMXj.jpg"
+      }
+    ],
+    "calificacion": 7.7,
+    "votos": 76,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-27T20:19:43.254429",
+    "tmdb_id": 261615,
+    "popularidad": 8.47,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/kzwssz3n83ec",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/xdi56nmsigmo",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/hrdq8rmfi33i",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/6i0unw167mot",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/y0hvr2z3tl4r",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/9zq09hqveeo2",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/trsow6ydqdik",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/wfgtgna20dkw",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://streamwish.to/e/fa3crd4wbryf",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://streamwish.to/e/42hi9qcjccik",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 11,
+            "titulo": "Episodio 11",
+            "url": "https://streamwish.to/e/g3s61754u0ko",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 12,
+            "titulo": "Episodio 12",
+            "url": "https://streamwish.to/e/5v1mf0tvsx5q",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 33,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2025-11-19",
+    "id": "envidiosa-2024"
   },
   {
     "tipo": "pelicula",
@@ -425,6 +703,501 @@ const peliculas3 = [
     "ultima_emision": "2023-06-01",
     "plataforma": "netflix",
     "id": "los-dias-2023"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Los Juegos del Hambre",
+    "titulo_original": "The Hunger Games",
+    "poster": "https://image.tmdb.org/t/p/w500/qSEn7KsGchT7qB08HlviyeTPrEr.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3sndNmvdF0R8AeyCmVoNv8LKtNy.jpg",
+    "descripcion": "Lo que en el pasado fueron los Estados Unidos, ahora es una nación llamada Panem; un imponente Capitolio ejerce un control riguroso sobre los 12 distritos que lo rodean y que están aislados entre sí. Cada distrito se ve obligado a enviar anualmente un chico y una chica entre los doce y los dieciocho años para que participen en los Hunger Games, unos juegos que son transmitidos en directo por la televisión. Se trata de una lucha a muerte, en la que sólo puede haber un superviviente. Katniss Everdeen, una joven de dieciséis años, decide sustituir a su hermana en los juegos; pero para ella, que ya ha visto la muerte de cerca, la lucha por la supervivencia es su segunda naturaleza.",
+    "año": 2012,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "aventura",
+      "acción",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Ciencia ficción",
+      "Aventura",
+      "Acción",
+      "Suspense"
+    ],
+    "director": "Gary Ross",
+    "reparto": [
+      {
+        "name": "Jennifer Lawrence",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mDKMsjOMytyBiy7MHNZTa7gp7wj.jpg"
+      },
+      {
+        "name": "Josh Hutcherson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/f0eosZ1Fx0VBUyspq8K2f8sUSBn.jpg"
+      },
+      {
+        "name": "Liam Hemsworth",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7UIm9RoBnlqS1uLlbElAY8urdWD.jpg"
+      },
+      {
+        "name": "Woody Harrelson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg"
+      },
+      {
+        "name": "Elizabeth Banks",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zrkI1dYucpTM8Qydtrtro9MgQPb.jpg"
+      },
+      {
+        "name": "Lenny Kravitz",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pIoGuEUax5aeH3PKuaYK9wKEeoj.jpg"
+      },
+      {
+        "name": "Stanley Tucci",
+        "profile_path": "https://image.tmdb.org/t/p/w185/q4TanMDI5Rgsvw4SfyNbPBh4URr.jpg"
+      },
+      {
+        "name": "Donald Sutherland",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yM8WO2BYqFvgQXAvf4CIuCYnY4j.jpg"
+      },
+      {
+        "name": "Wes Bentley",
+        "profile_path": "https://image.tmdb.org/t/p/w185/voD93lzFZrr9xfAggwFcPRBi84i.jpg"
+      },
+      {
+        "name": "Toby Jones",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1qNisdp4f1KstdfvAgYXMdrhwfk.jpg"
+      },
+      {
+        "name": "Alexander Ludwig",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jXixkOwQ62hpsCr8xhWS9rik8SE.jpg"
+      },
+      {
+        "name": "Isabelle Fuhrman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/f85lSSPHMZZihqs7qfOn1xQHtH7.jpg"
+      }
+    ],
+    "calificacion": 7.2,
+    "votos": 22857,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-27T19:57:53.421286",
+    "tmdb_id": 70160,
+    "popularidad": 7.91,
+    "tagline": "Que las posibilidades estén siempre a tu favor.",
+    "trailer": "https://www.youtube.com/watch?v=y0hE3fDJCFA",
+    "success": true,
+    "duracion": "142 min",
+    "presupuesto": "$75,000,000",
+    "ingresos": "$694,000,000",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://doodstream.com/e/ggkpclk7fnp2",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "los-juegos-del-hambre-2012"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Los Juegos del Hambre: Balada de pájaros cantores y serpientes",
+    "titulo_original": "The Hunger Games: The Ballad of Songbirds & Snakes",
+    "poster": "https://image.tmdb.org/t/p/w500/2vIK81ikjvdewSLmrwIg7AMoJIv.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8GnWDLn2AhnmkQ7hlQ9NJUYobSS.jpg",
+    "descripcion": "Ambientada en un Panem postapocalíptico, nos traslada varias décadas antes del comienzo de las aventuras de Katniss Everdeen. El joven Coriolanus Snow será el mentor de Lucy Gray Baird, la chica elegida para ser homenajeada del empobrecido Distrito 12. La joven sorprenderá a todos cantando en la ceremonia de apertura de los Décimos Juegos del Hambre en los que Snow intentará aprovecharse de su talento y encanto para sobrevivir.",
+    "año": 2023,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "acción"
+    ],
+    "generos_lista": [
+      "Ciencia ficción",
+      "Acción"
+    ],
+    "director": "Francis Lawrence",
+    "reparto": [
+      {
+        "name": "Tom Blyth",
+        "profile_path": "https://image.tmdb.org/t/p/w185/q8bkN1GvXqjs1ZGFYWViH9o2WDq.jpg"
+      },
+      {
+        "name": "Rachel Zegler",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1HpUUQgDygOBVdxLRt9BEYJyivd.jpg"
+      },
+      {
+        "name": "Peter Dinklage",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9CAd7wr8QZyIN0E7nm8v1B6WkGn.jpg"
+      },
+      {
+        "name": "Jason Schwartzman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gCjMdmW1DiPAClHVl4zHEIffIsE.jpg"
+      },
+      {
+        "name": "Hunter Schafer",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6ZDieLlbm2m3jbYaxsHFo7cWWzJ.jpg"
+      },
+      {
+        "name": "Josh Rivera",
+        "profile_path": "https://image.tmdb.org/t/p/w185/YKPq9GKl4ffoEeat7DZmlsOlxx.jpg"
+      },
+      {
+        "name": "Viola Davis",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xDssw6vpYNRjsybvMPRE30e0dPN.jpg"
+      },
+      {
+        "name": "Fionnula Flanagan",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ee3vqFhrmKMRsqqHFLm1rcwGE93.jpg"
+      },
+      {
+        "name": "Burn Gorman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/udgACYWqCSuu6nvtrSjmyU28B0V.jpg"
+      },
+      {
+        "name": "Dexter Sol Ansell",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ij2OUtrq77O6HR51wIUQXUqsvhX.jpg"
+      },
+      {
+        "name": "Rosa Gotzler",
+        "profile_path": "https://image.tmdb.org/t/p/w185/69g7WTQmY7D8HCXXoDjA7FlGVOe.jpg"
+      },
+      {
+        "name": "Clemens Schick",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3ANnyM49vTvcT9MyyVvjl5UAdpj.jpg"
+      }
+    ],
+    "calificacion": 7.0,
+    "votos": 3306,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-27T20:08:26.184497",
+    "tmdb_id": 695721,
+    "popularidad": 8.72,
+    "tagline": "Todos tienen hambre de algo",
+    "trailer": "https://www.youtube.com/watch?v=YfmfRMsNjDE",
+    "success": true,
+    "duracion": "157 min",
+    "presupuesto": "$100,000,000",
+    "ingresos": "$337,371,917",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/3yie2pc4rgv1",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "los-juegos-del-hambre-balada-de-pajaros-cantores-y-serpientes-2023"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Los Juegos del Hambre: En llamas",
+    "titulo_original": "The Hunger Games: Catching Fire",
+    "poster": "https://image.tmdb.org/t/p/w500/oxnKI1qiHz7xC0mNthC7dSqTcot.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/eHaazLxM5LRMh0ySkVy7SK6wUWt.jpg",
+    "descripcion": "Tras vencer en los 74º Juegos del Hambre anuales, la joven Katniss Everdeen y su compañero Peeta Mellark regresan a casa. Atrás dejaron a sus amigos y su familia, teniendo ambos que participar en la 'gira de la victoria' por todos los distritos. Durante ese largo viaje, Katniss se da cuenta de que se está gestando una rebelión, pero en el Capitolio todo sigue igual y bajo estricto control del Presidente Snow, que está organizando los 75º Juegos del Hambre, denominados 'El Vasallaje de los Veinticinco': una competición especial con una inesperada novedad que cambiará Panem para siempre.",
+    "año": 2013,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "aventura",
+      "acción",
+      "ciencia ficción"
+    ],
+    "generos_lista": [
+      "Aventura",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "director": "Francis Lawrence",
+    "reparto": [
+      {
+        "name": "Jennifer Lawrence",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mDKMsjOMytyBiy7MHNZTa7gp7wj.jpg"
+      },
+      {
+        "name": "Josh Hutcherson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/f0eosZ1Fx0VBUyspq8K2f8sUSBn.jpg"
+      },
+      {
+        "name": "Liam Hemsworth",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7UIm9RoBnlqS1uLlbElAY8urdWD.jpg"
+      },
+      {
+        "name": "Woody Harrelson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg"
+      },
+      {
+        "name": "Elizabeth Banks",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zrkI1dYucpTM8Qydtrtro9MgQPb.jpg"
+      },
+      {
+        "name": "Donald Sutherland",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yM8WO2BYqFvgQXAvf4CIuCYnY4j.jpg"
+      },
+      {
+        "name": "Lenny Kravitz",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pIoGuEUax5aeH3PKuaYK9wKEeoj.jpg"
+      },
+      {
+        "name": "Philip Seymour Hoffman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/qgSTZu5F7LyJTInpXVQOyRlZgbw.jpg"
+      },
+      {
+        "name": "Jeffrey Wright",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yGcuHGW4glqRpOPxgiCvjcren7F.jpg"
+      },
+      {
+        "name": "Stanley Tucci",
+        "profile_path": "https://image.tmdb.org/t/p/w185/q4TanMDI5Rgsvw4SfyNbPBh4URr.jpg"
+      },
+      {
+        "name": "Toby Jones",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1qNisdp4f1KstdfvAgYXMdrhwfk.jpg"
+      },
+      {
+        "name": "Willow Shields",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fhxgetqRQ1u0GCpw4jUcf1uTAKy.jpg"
+      }
+    ],
+    "calificacion": 7.4,
+    "votos": 18067,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-27T20:00:39.249400",
+    "tmdb_id": 101299,
+    "popularidad": 9.46,
+    "tagline": "Cada revolución comienza con una chispa.",
+    "trailer": "https://www.youtube.com/watch?v=0KKwAWsh9TQ",
+    "success": true,
+    "duracion": "146 min",
+    "presupuesto": "$130,000,000",
+    "ingresos": "$865,011,746",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "url": "https://streamwish.to/e/hhtybi4j1pfn",
+        "idioma": "Latino",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "los-juegos-del-hambre-en-llamas-2013"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Los Juegos del Hambre: Sinsajo - Parte 1",
+    "titulo_original": "The Hunger Games: Mockingjay - Part 1",
+    "poster": "https://image.tmdb.org/t/p/w500/wfLsciidZamFPeOb4FD8ywk1Q9c.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lV1P1Q5gLDXVG1ZYCxZHStkcQC3.jpg",
+    "descripcion": "Katniss Everdeen se encuentra en el Distrito 13 después de destrozar los Juegos para siempre. Bajo el liderazgo de la comandante Coin y el consejo de sus amigos más leales, Katniss extiende sus alas mientras lucha por salvar a Peeta Mellark y a una nación alentada por su valentía...",
+    "año": 2014,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "aventura",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Ciencia ficción",
+      "Aventura",
+      "Suspense"
+    ],
+    "director": "Francis Lawrence",
+    "reparto": [
+      {
+        "name": "Jennifer Lawrence",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mDKMsjOMytyBiy7MHNZTa7gp7wj.jpg"
+      },
+      {
+        "name": "Josh Hutcherson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/f0eosZ1Fx0VBUyspq8K2f8sUSBn.jpg"
+      },
+      {
+        "name": "Liam Hemsworth",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7UIm9RoBnlqS1uLlbElAY8urdWD.jpg"
+      },
+      {
+        "name": "Woody Harrelson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg"
+      },
+      {
+        "name": "Elizabeth Banks",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zrkI1dYucpTM8Qydtrtro9MgQPb.jpg"
+      },
+      {
+        "name": "Julianne Moore",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3YF19rWusxWfEI59ZM33dFhasRq.jpg"
+      },
+      {
+        "name": "Philip Seymour Hoffman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/qgSTZu5F7LyJTInpXVQOyRlZgbw.jpg"
+      },
+      {
+        "name": "Jeffrey Wright",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yGcuHGW4glqRpOPxgiCvjcren7F.jpg"
+      },
+      {
+        "name": "Stanley Tucci",
+        "profile_path": "https://image.tmdb.org/t/p/w185/q4TanMDI5Rgsvw4SfyNbPBh4URr.jpg"
+      },
+      {
+        "name": "Donald Sutherland",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yM8WO2BYqFvgQXAvf4CIuCYnY4j.jpg"
+      },
+      {
+        "name": "Willow Shields",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fhxgetqRQ1u0GCpw4jUcf1uTAKy.jpg"
+      },
+      {
+        "name": "Sam Claflin",
+        "profile_path": "https://image.tmdb.org/t/p/w185/e5CU4tjCNZFfm7ITmZfzjZse2Bb.jpg"
+      }
+    ],
+    "calificacion": 6.8,
+    "votos": 16435,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-27T20:05:36.690048",
+    "tmdb_id": 131631,
+    "popularidad": 12.92,
+    "tagline": "El fuego arde con más fuerza en la oscuridad.",
+    "trailer": "https://www.youtube.com/watch?v=N--eptTz7lw",
+    "success": true,
+    "duracion": "123 min",
+    "presupuesto": "$125,000,000",
+    "ingresos": "$755,356,711",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/phiul8va10ci",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "los-juegos-del-hambre-sinsajo---parte-1-2014"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Los Juegos del Hambre: Sinsajo - Parte 2",
+    "titulo_original": "The Hunger Games: Mockingjay - Part 2",
+    "poster": "https://image.tmdb.org/t/p/w500/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qVgLMRVNB5bHU0inmRa0ueShacN.jpg",
+    "descripcion": "La última entrega de 'Los Juegos del Hambre' nos muestra a una nación en guerra, en la que Katniss se enfrenta con uñas y dientes al presidente Snow. Con la ayuda de algunos amigos, entre ellos Gale, Finnick y Peeta, arriesgará la vida para salir del Distrito 13 y eliminar al presidente Snow.",
+    "año": 2015,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "aventura",
+      "ciencia ficción"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Aventura",
+      "Ciencia ficción"
+    ],
+    "director": "Francis Lawrence",
+    "reparto": [
+      {
+        "name": "Jennifer Lawrence",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mDKMsjOMytyBiy7MHNZTa7gp7wj.jpg"
+      },
+      {
+        "name": "Josh Hutcherson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/f0eosZ1Fx0VBUyspq8K2f8sUSBn.jpg"
+      },
+      {
+        "name": "Liam Hemsworth",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7UIm9RoBnlqS1uLlbElAY8urdWD.jpg"
+      },
+      {
+        "name": "Woody Harrelson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg"
+      },
+      {
+        "name": "Elizabeth Banks",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zrkI1dYucpTM8Qydtrtro9MgQPb.jpg"
+      },
+      {
+        "name": "Julianne Moore",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3YF19rWusxWfEI59ZM33dFhasRq.jpg"
+      },
+      {
+        "name": "Philip Seymour Hoffman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/qgSTZu5F7LyJTInpXVQOyRlZgbw.jpg"
+      },
+      {
+        "name": "Jeffrey Wright",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yGcuHGW4glqRpOPxgiCvjcren7F.jpg"
+      },
+      {
+        "name": "Stanley Tucci",
+        "profile_path": "https://image.tmdb.org/t/p/w185/q4TanMDI5Rgsvw4SfyNbPBh4URr.jpg"
+      },
+      {
+        "name": "Donald Sutherland",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yM8WO2BYqFvgQXAvf4CIuCYnY4j.jpg"
+      },
+      {
+        "name": "Willow Shields",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fhxgetqRQ1u0GCpw4jUcf1uTAKy.jpg"
+      },
+      {
+        "name": "Sam Claflin",
+        "profile_path": "https://image.tmdb.org/t/p/w185/e5CU4tjCNZFfm7ITmZfzjZse2Bb.jpg"
+      }
+    ],
+    "calificacion": 6.9,
+    "votos": 13070,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-27T20:06:43.902554",
+    "tmdb_id": 131634,
+    "popularidad": 6.67,
+    "tagline": "Una criatura tan insaciable como el sol.",
+    "trailer": "",
+    "success": true,
+    "duracion": "137 min",
+    "presupuesto": "$160,000,000",
+    "ingresos": "$653,428,261",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/4yq1v2w3cj3j",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "los-juegos-del-hambre-sinsajo---parte-2-2015"
   },
   {
     "tipo": "pelicula",

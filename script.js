@@ -635,64 +635,65 @@ document.addEventListener('DOMContentLoaded', async () => {
         const searchContainer = document.getElementById('live-search-container');
         const searchGrid = document.getElementById('live-search-grid');
         const searchTitle = document.getElementById('live-search-title');
+        const loader = document.getElementById('live-search-loader');
 
-        if (!searchContainer || !searchGrid || !searchTitle) return;
+        if (!searchContainer || !searchGrid || !searchTitle || !loader) return;
 
         if (normalizedQuery.length > 0) {
-            const searchWords = normalizedQuery.split(' ').filter(w => w.length > 0);
-
-            const filteredMovies = window.peliculas.map(p => {
-                const titulo = normalizeText(p.titulo);
-                const director = normalizeText(p.director);
-                const reparto = p.reparto ? p.reparto.map(actor => normalizeText(actor)).join(' ') : '';
-                const año = p.año ? p.año.toString() : '';
-                const descripcion = normalizeText(p.descripcion || '');
-                const genero = normalizeText(p.genero || '');
-
-                const allWordsMatch = searchWords.every(word =>
-                    titulo.includes(word) ||
-                    director.includes(word) ||
-                    reparto.includes(word) ||
-                    año.includes(word) ||
-                    descripcion.includes(word) ||
-                    genero.includes(word)
-                );
-
-                if (!allWordsMatch) return null;
-
-                let score = 0;
-                if (titulo.startsWith(normalizedQuery)) score = 10;
-                else if (titulo.includes(normalizedQuery)) score = 8;
-                else if (director.includes(normalizedQuery)) score = 6;
-                else if (reparto.includes(normalizedQuery)) score = 5;
-                else if (genero.includes(normalizedQuery)) score = 4;
-                else if (año.includes(normalizedQuery)) score = 3;
-                else if (descripcion.includes(normalizedQuery)) score = 2;
-
-                if (titulo === normalizedQuery) score += 5;
-
-                if (score > 0) {
-                    return { ...p, score };
-                }
-                return null;
-            }).filter(Boolean);
-
             toggleMainContent(false);
             searchContainer.style.display = 'block';
             searchGrid.innerHTML = '';
+            searchGrid.style.display = 'none';
+            loader.style.display = 'block';
+            searchTitle.textContent = `Buscando "${query}"...`;
 
-            const sortedMovies = filteredMovies.sort((a, b) => b.score - a.score);
+            // Delay para que la animación de carga sea visible
+            setTimeout(() => {
+                const searchWords = normalizedQuery.split(' ').filter(w => w.length > 0);
 
-            if (sortedMovies.length > 0) {
-                searchTitle.textContent = `Resultados para "${query}"`;
-                sortedMovies.forEach(pelicula => {
-                    searchGrid.appendChild(createMovieCard(pelicula, true, normalizedQuery));
-                });
-            } else {
-                searchTitle.innerHTML = `No encontramos "<span class="highlight">${query}</span>" localmente. Iniciando <span id="ultra-search-status" class="ultra-search-badge">Ultra Búsqueda TMDB...</span>`;
-                // Activar Ultra Búsqueda
-                ultraSearchTMDB(query);
-            }
+                const filteredMovies = window.peliculas.map(p => {
+                    const titulo = normalizeText(p.titulo);
+                    const director = normalizeText(p.director);
+                    const reparto = p.reparto ? (Array.isArray(p.reparto) ? p.reparto.map(actor => normalizeText(actor.name || actor)).join(' ') : normalizeText(p.reparto)) : '';
+                    const año = p.año ? p.año.toString() : '';
+                    const descripcion = normalizeText(p.descripcion || '');
+                    const genero = Array.isArray(p.genero) ? p.genero.join(' ') : normalizeText(p.genero || '');
+
+                    const allWordsMatch = searchWords.every(word =>
+                        titulo.includes(word) || director.includes(word) || reparto.includes(word) ||
+                        año.includes(word) || descripcion.includes(word) || genero.includes(word)
+                    );
+
+                    if (!allWordsMatch) return null;
+
+                    let score = 0;
+                    if (titulo.startsWith(normalizedQuery)) score = 10;
+                    else if (titulo.includes(normalizedQuery)) score = 8;
+                    else if (director.includes(normalizedQuery)) score = 6;
+                    else if (reparto.includes(normalizedQuery)) score = 5;
+                    else if (genero.includes(normalizedQuery)) score = 4;
+                    else if (año.includes(normalizedQuery)) score = 3;
+                    else if (descripcion.includes(normalizedQuery)) score = 2;
+
+                    if (titulo === normalizedQuery) score += 5;
+
+                    return score > 0 ? { ...p, score } : null;
+                }).filter(Boolean);
+
+                const sortedMovies = filteredMovies.sort((a, b) => b.score - a.score);
+
+                if (sortedMovies.length > 0) {
+                    loader.style.display = 'none';
+                    searchGrid.style.display = 'grid';
+                    searchTitle.textContent = `Resultados para "${query}"`;
+                    sortedMovies.forEach(pelicula => {
+                        searchGrid.appendChild(createMovieCard(pelicula, true, normalizedQuery));
+                    });
+                } else {
+                    searchTitle.innerHTML = `No encontramos "<span class="highlight">${query}</span>" localmente. Iniciando <span id="ultra-search-status" class="ultra-search-badge">Ultra Búsqueda TMDB...</span>`;
+                    ultraSearchTMDB(query);
+                }
+            }, 300);
         } else {
             toggleMainContent(true);
             searchContainer.style.display = 'none';
@@ -703,13 +704,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     async function ultraSearchTMDB(query) {
         const searchGrid = document.getElementById('live-search-grid');
         const searchTitle = document.getElementById('live-search-title');
+        const loader = document.getElementById('live-search-loader');
 
-        if (!TMDB_API_KEY || !searchGrid) return;
+        if (!TMDB_API_KEY || !searchGrid || !loader) return;
 
         try {
             const url = `https://api.themoviedb.org/3/search/multi?api_key=${TMDB_API_KEY}&language=es-ES&query=${encodeURIComponent(query)}&page=1&include_adult=false`;
             const response = await fetch(url);
             const data = await response.json();
+
+            loader.style.display = 'none';
+            searchGrid.style.display = 'grid';
 
             if (data.results && data.results.length > 0) {
                 // Limpiar el grid antes de mostrar resultados de TMDB
@@ -743,10 +748,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                     searchGrid.appendChild(card);
                 });
             } else {
+                searchGrid.innerHTML = '';
                 searchTitle.innerHTML = `No encontramos "<span class="highlight">${query}</span>" ni en Ultra Búsqueda. ¡Prueba otro título!`;
             }
         } catch (error) {
             console.error("Error en Ultra Búsqueda:", error);
+            loader.style.display = 'none';
             searchTitle.innerHTML = `Error al conectar con Ultra Búsqueda. Intenta de nuevo.`;
         }
     }
@@ -871,8 +878,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         tarjeta.innerHTML = `
             ${plataformaTag}${nuevoTag}${recienteTag}${mostViewedTag}${edadTag}${tipoTag}${nuevaTemporadaTag}${prontoTemporadaTag}
-            <img src="${pelicula.poster || 'https://via.placeholder.com/180x270/333333/ffffff?text=No+Image'}" 
-                 alt="Póster de ${pelicula.titulo}" 
+            <img src="${pelicula.poster || 'https://via.placeholder.com/180x270/333333/ffffff?text=No+Image'}"
+                 alt="Póster de la película ${pelicula.titulo} (${pelicula.año})" 
                  loading="lazy" 
                  decoding="async" 
                  onerror="this.src='https://via.placeholder.com/180x270/333333/ffffff?text=No+Image'; this.onerror=null; this.parentElement.classList.remove('loading');"
@@ -1494,6 +1501,50 @@ document.addEventListener('DOMContentLoaded', async () => {
         const heroContainer = document.getElementById('hero-section');
         if (!heroContainer) return;
 
+        // --- LÓGICA PARA HERO MANUAL (Tus imágenes personalizadas) ---
+        if (heroContainer.classList.contains('manual-hero')) {
+            const slides = heroContainer.querySelectorAll('.hero-slide');
+            if (slides.length > 0) {
+                let currentHeroIndex = 0;
+                const indicatorsContainer = heroContainer.querySelector('.hero-indicators');
+                
+                // Crear indicadores (puntitos)
+                if (indicatorsContainer) {
+                    indicatorsContainer.innerHTML = Array.from(slides).map((_, index) => 
+                        `<button class="indicator-dot ${index === 0 ? 'active' : ''}" data-index="${index}"></button>`
+                    ).join('');
+                }
+
+                const updateSlide = (index) => {
+                    // Mostrar slide correcto
+                    slides.forEach((slide, i) => slide.classList.toggle('active', i === index));
+                    
+                    // Actualizar fondo del contenedor principal con degradado
+                    const bg = slides[index].getAttribute('data-bg');
+                    heroContainer.style.backgroundImage = `linear-gradient(to bottom, rgba(20,20,20,0.2) 0%, rgba(20,20,20,1) 100%), url('${bg}')`;
+                    
+                    // Actualizar indicadores
+                    if (indicatorsContainer) {
+                        indicatorsContainer.querySelectorAll('.indicator-dot').forEach((dot, i) => {
+                            dot.classList.toggle('active', i === index);
+                        });
+                    }
+                };
+
+                // Iniciar primera imagen
+                updateSlide(0);
+
+                // Rotación automática cada 5 segundos
+                const nextSlide = () => {
+                    currentHeroIndex = (currentHeroIndex + 1) % slides.length;
+                    updateSlide(currentHeroIndex);
+                };
+                let heroInterval = setInterval(nextSlide, 5000);
+
+                return; // Salir para no ejecutar la lógica automática antigua
+            }
+        }
+
         const slideContainer = document.createElement('div');
         slideContainer.className = 'hero-section-inner';
 
@@ -1518,7 +1569,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const heroMovie = heroMovies[index];
             if (!heroMovie) return;
 
-            heroContainer.style.backgroundImage = `url('${heroMovie.poster || 'https://via.placeholder.com/1200x500/0d1117/8b949e?text=No+Image'}')`;
+            heroContainer.style.backgroundImage = `linear-gradient(to bottom, rgba(20,20,20,0.2) 0%, rgba(20,20,20,1) 100%), url('${heroMovie.poster || 'https://via.placeholder.com/1200x500/0d1117/8b949e?text=No+Image'}')`;
 
             slideContainer.innerHTML = `
             <div class="hero-content">
@@ -1688,12 +1739,14 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <iframe 
                     src="${finalUrl}" 
                     width="100%" 
-                    height="100%" 
-                    frameborder="0" 
-                    scrolling="no" 
+                    height="100%"
+                    frameborder="0"
+                    scrolling="no"
                     allowfullscreen
+                    oncontextmenu="return false;"
+                    referrerpolicy="no-referrer"
                     allow="autoplay; encrypted-media"
-                    sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                    sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts"
                 ></iframe>
             `;
             teraboxContainer.style.display = 'block';
@@ -2163,6 +2216,40 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
     setupTVRemoteSupport();
 
+    // --- SEO: Inyectar datos estructurados (JSON-LD) para mejorar el rastreo de Google ---
+    function injectStructuredData() {
+        if (!window.peliculas || window.peliculas.length === 0) return;
+
+        // Tomar una muestra de películas para el ItemList
+        const sampleMovies = window.peliculas.slice(0, 15);
+
+        const itemListElements = sampleMovies.map((pelicula, index) => ({
+            "@type": "ListItem",
+            "position": index + 1,
+            "item": {
+                "@type": pelicula.tipo === 'serie' ? "TVSeries" : "Movie",
+                "url": `https://pelixplushdz.vercel.app/detalles.html?id=${encodeURIComponent(pelicula.id)}`,
+                "name": pelicula.titulo,
+                "image": pelicula.poster,
+                "description": pelicula.descripcion ? pelicula.descripcion.substring(0, 150) + '...' : pelicula.titulo,
+                "datePublished": pelicula.año ? `${pelicula.año}-01-01` : null
+            }
+        }));
+
+        const structuredData = {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "Catálogo de Películas y Series en Pelixplushd",
+            "itemListElement": itemListElements
+        };
+
+        const scriptTag = document.createElement('script');
+        scriptTag.type = 'application/ld+json';
+        scriptTag.textContent = JSON.stringify(structuredData);
+        document.head.appendChild(scriptTag);
+        console.log('✅ Datos estructurados (JSON-LD) para SEO inyectados.');
+    }
+
     // --- Initialization ---
     function init() {
         if (typeof window.peliculas === 'undefined' || !Array.isArray(window.peliculas)) {
@@ -2201,6 +2288,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             renderViewHistory();
             renderRecomendaciones();
             fetchAndRenderTopRatedMovies();
+
+            // SEO: Inyectar datos estructurados una vez que todo está listo
+            injectStructuredData();
+
             setupHeroSection();
         }
 

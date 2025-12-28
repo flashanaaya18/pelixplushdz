@@ -139,7 +139,12 @@ except (ImportError, ZoneInfoNotFoundError):
     TZ = None
 
 # --- Constantes ---
-JS_FILE = 'peliculas/peliculas3.js'
+FILES_CONFIG = [
+    {'path': 'peliculas/peliculas.js', 'var': 'peliculas'},
+    {'path': 'peliculas/peliculas1.js', 'var': 'peliculas1'},
+    {'path': 'peliculas/peliculas2.js', 'var': 'peliculas2'},
+    {'path': 'peliculas/peliculas3.js', 'var': 'peliculas3'}
+]
 REPORTS_FILE = 'reports.json'
 PROXIMAMENTE_FILE = 'proximamente.json'
 BASE_DATOS_FILE = 'base_datos.json'
@@ -203,11 +208,15 @@ def cargar_peliculas_desde_js(file_path):
 def cargar_catalogo_completo():
     """Carga y combina películas de todos los archivos fuente."""
     print(f"{C.CYAN}🔄 Cargando catálogo completo...{C.END}")
-    archivos_fuente = ['peliculas/peliculas3.js']
     catalogo_completo = []
-    for archivo in archivos_fuente:
+    
+    for config in FILES_CONFIG:
+        archivo = config['path']
         print(f"  - Cargando desde {archivo}...")
-        catalogo_completo.extend(cargar_peliculas_desde_js(archivo))
+        items = cargar_peliculas_desde_js(archivo)
+        for item in items:
+            item['_source_file'] = archivo
+        catalogo_completo.extend(items)
 
     # Deduplicar por ID
     vistos = set()
@@ -223,23 +232,45 @@ def cargar_catalogo_completo():
 
 def guardar_peliculas(peliculas_dict, crear_backup=True):
     """Guarda las películas en el archivo JS."""
-    target_file = 'peliculas/peliculas3.js'
     try:
-        if crear_backup and os.path.exists(target_file):
-            backup_file = target_file + '.bak'
-            shutil.copy2(target_file, backup_file)
+        # Agrupar por archivo de origen
+        datos_por_archivo = {cfg['path']: [] for cfg in FILES_CONFIG}
+        default_file = FILES_CONFIG[-1]['path'] # peliculas3.js por defecto
         
         # Convertir diccionario a lista y ordenar por título
         peliculas_lista = list(peliculas_dict.values())
         peliculas_lista.sort(key=lambda x: x.get('titulo', '').lower())
         
-        json_string = json.dumps(peliculas_lista, ensure_ascii=False, indent=2)
-        js_content = f"const peliculas3 = {json_string};"
+        for item in peliculas_lista:
+            source = item.get('_source_file', default_file)
+            # Si el archivo de origen ya no está en la config, usar default
+            if source not in datos_por_archivo:
+                source = default_file
+            
+            # Limpiar clave interna antes de guardar
+            item_limpio = item.copy()
+            if '_source_file' in item_limpio:
+                del item_limpio['_source_file']
+            
+            datos_por_archivo[source].append(item_limpio)
         
-        with open(target_file, 'w', encoding='utf-8') as f:
-            f.write(js_content)
+        # Guardar cada archivo
+        for config in FILES_CONFIG:
+            path = config['path']
+            var_name = config['var']
+            items = datos_por_archivo.get(path, [])
+            
+            if crear_backup and os.path.exists(path):
+                shutil.copy2(path, path + '.bak')
+            
+            json_string = json.dumps(items, ensure_ascii=False, indent=2)
+            js_content = f"const {var_name} = {json_string};"
+            
+            with open(path, 'w', encoding='utf-8') as f:
+                f.write(js_content)
+            print(f"  -> Guardado {path} ({len(items)} items)")
         
-        print(f"{C.GREEN}✅ Biblioteca guardada exitosamente{C.END}")
+        print(f"{C.GREEN}✅ Todas las bibliotecas guardadas exitosamente{C.END}")
         return True
     
     except Exception as e:
@@ -3400,7 +3431,10 @@ def gestionar_usuarios_vip():
             nombre = u.get('nombre', 'Sin nombre')[:18]
             codigo = u.get('codigo', 'N/A')
             inicio_str = u.get('fecha_inicio', '')
-            dias = u.get('dias_validez', 30)
+            try:
+                dias = int(u.get('dias_validez', 30))
+            except:
+                dias = 30
             
             estado = "❓"
             if inicio_str:
@@ -3442,6 +3476,12 @@ def gestionar_usuarios_vip():
             
             codigo = input(f"{C.CYAN}🔑 Código [{codigo_sugerido}]: {C.END}").strip() or codigo_sugerido
             
+            # Verificar si el código ya existe
+            if any(u.get('codigo') == codigo for u in usuarios):
+                print(f"{C.RED}❌ El código '{codigo}' ya existe. Intenta con otro.{C.END}")
+                time.sleep(2)
+                continue
+            
             # Fecha inicio (Hoy por defecto)
             fecha_hoy = datetime.now().strftime('%Y-%m-%d')
             fecha = input(f"{C.CYAN}📅 Fecha Inicio [{fecha_hoy}]: {C.END}").strip() or fecha_hoy
@@ -3474,7 +3514,12 @@ def gestionar_usuarios_vip():
                     if nuevo_nombre: u['nombre'] = nuevo_nombre
                     
                     nuevo_codigo = input(f"Código [{u['codigo']}]: ").strip()
-                    if nuevo_codigo: u['codigo'] = nuevo_codigo
+                    if nuevo_codigo:
+                        # Verificar duplicados al editar (excluyendo el actual)
+                        if any(usr.get('codigo') == nuevo_codigo for usr in usuarios if usr is not u):
+                            print(f"{C.RED}❌ El código ya está en uso por otro usuario.{C.END}")
+                        else:
+                            u['codigo'] = nuevo_codigo
                     
                     nueva_fecha = input(f"Fecha Inicio [{u.get('fecha_inicio', '')}]: ").strip()
                     if nueva_fecha: u['fecha_inicio'] = nueva_fecha

@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pelixplushd | Tu cine en casa</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Disfruta de las mejores películas, series y animes en Pelixplushd. Estrenos, clásicos y todo tu contenido favorito en alta calidad. Tu cine en casa.">
+    <meta name="keywords" content="películas, series, anime, estrenos, ver online, pelixplushd, cine en casa, streaming gratis">
+    <meta name="robots" content="index, follow">
     <link rel="icon" type="image/png" sizes="32x32" href="fondo.png">
     <link rel="icon" type="image/png" sizes="16x16" href="fondo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -313,6 +317,36 @@
         .back-link:hover {
             color: #fff;
         }
+        
+        /* Estilos de Carga y Seguridad */
+        .validate-btn.loading {
+            pointer-events: none;
+            opacity: 0.8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .btn-spinner {
+            width: 18px;
+            height: 18px;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        
+        .security-note {
+            font-size: 0.8rem;
+            color: #2ecc71;
+            margin-top: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            opacity: 0.9;
+        }
 
         /* Estilos para secciones bloqueadas (Solo VIP) */
         .vip-restricted {
@@ -475,7 +509,48 @@
             .vip-badge::after { content: "VIP"; display: inline; }
             .vip-badge { padding: 6px 10px; margin-right: 5px; }
         }
+
+        /* Estilos para Hero Automático (Ancho y Largo) */
+        .hero-container {
+            width: 100%;
+            height: 95vh !important; /* Altura casi completa de pantalla */
+            min-height: 600px;
+            background-position: center top !important;
+            background-size: cover !important;
+            background-repeat: no-repeat !important;
+        }
+        
+        /* Ajustes para que el contenido se vea bien en el hero grande */
+        .hero-content {
+            padding-left: 5%;
+            max-width: 800px;
+        }
+
+        /* Estilos para Hero Manual */
+        .hero-slide {
+            display: none;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+        }
+        .hero-slide.active {
+            display: flex;
+        }
     </style>
+    <!-- SEO: Schema.org for Website -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Pelixplushd",
+      "url": "https://pelixplushdz.vercel.app/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://pelixplushdz.vercel.app/buscar.html?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
 </head>
 
 <body>
@@ -505,6 +580,7 @@
                 <p style="margin-bottom:15px; color:#fff; font-weight: 600;">Introduce tu código único VIP</p>
                 <input type="text" id="vip-code-input" placeholder="Ej: VIP-JUAN-001" class="vip-input">
                 <button id="btn-validate-vip" class="validate-btn">Validar Código</button>
+                <div class="security-note"><i class="fas fa-shield-alt"></i> Verificación Segura Encriptada</div>
                 <p id="vip-error" style="color: #e50914; display:none; margin-top: 10px; font-weight:bold; font-size: 0.9rem;"></p>
                 
                 <p style="margin-top: 15px; font-size: 0.9rem; color: #999;">
@@ -734,15 +810,64 @@
     <!-- Main Content -->
     <main class="main-content">
         <!-- Hero Slider -->
-        <div id="hero-section" class="hero-container">
-            <!-- Injected by script.js -->
+        <div id="hero-section" class="hero-container manual-hero">
             <div class="hero-indicators"></div>
-        </div>
+            
+            <!-- SLIDE 1: Configura aquí tu primera película -->
+            <!-- Cambia 'data-bg' por el enlace de tu imagen de fondo -->
+            <div class="hero-slide active" data-bg="https://imgs.search.brave.com/_uPso31Drcb7OtAce-sa0s2ET6LjMsImR8vPHpy4x9M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZS50bWRiLm9yZy90/L3Avb3JpZ2luYWwv/a0pveDJTZHVNV2Fj/T0l0bHJjMHpQV01p/aW10LnBuZw">
+                <div class="hero-content">
+                    <h1 class="hero-title">El Vengador Tóxico</h1>
+                    <p class="hero-description">Un chico ingenuo se transforma en un poderoso superhéroe después de ser arrojado a una tina de desechos tóxicos.</p>
+                    <div class="hero-details">
+                        <span>2025</span>
+                        <span class="hero-rating">★ 6.3</span>
+                        <span class="quality-badge">HD</span>
+                    </div>
+                    <button class="hero-button" onclick="window.showPageLoader('detalles.html?id=el-vengador-toxico-2025')">
+                        <i class="fas fa-play"></i> Ver Ahora
+                    </button>
+                </div>
+            </div>
 
+            <!-- SLIDE 2: Configura aquí tu segunda película -->
+            <div class="hero-slide" data-bg="https://imgs.search.brave.com/aNgLEC7PIFEDNPk4NkmLKqIiJU1OoALnT8t5gAN66Hw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXQuY29t/L3cvZnVsbC8xLzgv/OC8xMjQxNTEtMTky/MHgxMDgwLWRlc2t0/b3AtZnVsbC1oZC1z/dHJhbmdlci10aGlu/Z3MtYmFja2dyb3Vu/ZC1pbWFnZS5qcGc">
+                <div class="hero-content">
+                    <h1 class="hero-title">Stranger Things</h1>
+                    <p class="hero-description">.</p>
+                    <div class="hero-details">
+                        <span>2024</span>
+                        <span class="quality-badge">4K</span>
+                    </div>
+                    <button class="hero-button" onclick="window.showPageLoader('detalles.html?id=stranger-things-2024')">
+                        <i class="fas fa-play"></i> Ver Ahora
+                    </button>
+                </div>
+            </div>
+
+            <div class="hero-slide" data-bg="avatar2.png">
+            <div class="hero-content">
+                <h1 class="hero-title">Avatar: Fuego y ceniza</h1>
+                <p class="hero-description">.</p>
+                <div class="hero-details">
+                    <span>2025</span>
+                    <span class="quality-badge">4K</span>
+                </div>
+                <button class="hero-button" onclick="window.showPageLoader('detalles.html?id=avatar-fuego-y-ceniza-2025')">
+                    <i class="fas fa-play"></i> Ver Ahora
+                </button>
+            </div>
+        </div>
+        </div>
         <!-- Search & Filter Container -->
         <div id="live-search-container" class="search-overlay" style="display:none;">
             <div class="container">
                 <h2 id="live-search-title">Resultados</h2>
+                <!-- Loader para búsqueda -->
+                <div id="live-search-loader" class="loader" style="display: none; text-align: center; margin: 40px 0;">
+                    <i class="fas fa-spinner fa-spin" style="font-size: 3rem; color: #e50914;"></i>
+                    <p style="margin-top: 15px; color: #888;">Buscando...</p>
+                </div>
                 <div id="active-filter-container"></div>
                 <div id="live-search-grid" class="movie-grid-full"></div>
             </div>
@@ -987,11 +1112,30 @@
                 const code = vipInput ? vipInput.value.trim() : "";
                 console.log('Validando código VIP:', code);
                 
+                // Rate Limiting (Seguridad Anti-Bruteforce)
+                const attempts = parseInt(sessionStorage.getItem('vip_attempts') || '0');
+                const lastAttemptTime = parseInt(sessionStorage.getItem('vip_last_attempt') || '0');
+                const now = Date.now();
+                
+                if (attempts >= 5 && (now - lastAttemptTime) < 300000) { // 5 minutos de bloqueo
+                     showVipErrorMessage('⚠️ Demasiados intentos fallidos. Por seguridad, espera 5 minutos.');
+                     return;
+                }
+
                 if (!code) {
                     showVipErrorMessage('Por favor, introduce un código');
                     return;
                 }
                 
+                // UI Loading State (Animación de carga)
+                const originalText = btnValidate.innerHTML;
+                btnValidate.innerHTML = '<div class="btn-spinner"></div> Verificando...';
+                btnValidate.classList.add('loading');
+                if(vipInput) vipInput.disabled = true;
+                
+                // Simular delay de seguridad (para experiencia de usuario y seguridad)
+                await new Promise(resolve => setTimeout(resolve, 1500));
+
                 try {
                     // Agregamos timestamp para evitar caché
                     const response = await fetch(`codigos_vip.json?v=${new Date().getTime()}`);
@@ -999,6 +1143,10 @@
                     const user = users.find(u => u.codigo === code);
                     
                     if (user) {
+                        // Resetear intentos en éxito
+                        sessionStorage.removeItem('vip_attempts');
+                        sessionStorage.removeItem('vip_last_attempt');
+
                         // Verificar si el código está expirado
                         if (isUserExpired(user)) {
                             const startDate = new Date(user.fecha_inicio + 'T00:00:00');
@@ -1029,11 +1177,22 @@
                         }
                         
                     } else {
+                        // Incrementar intentos fallidos
+                        sessionStorage.setItem('vip_attempts', attempts + 1);
+                        sessionStorage.setItem('vip_last_attempt', now);
                         showVipErrorMessage('Código incorrecto o no encontrado');
                     }
                 } catch (error) {
                     console.error('Error cargando base de datos:', error);
-                    showVipErrorMessage('Error de conexión con la base de datos');
+                    showVipErrorMessage('Error de conexión segura. Intenta de nuevo.');
+                } finally {
+                    // Restaurar UI
+                    btnValidate.innerHTML = originalText;
+                    btnValidate.classList.remove('loading');
+                    if(vipInput) {
+                        vipInput.disabled = false;
+                        vipInput.focus();
+                    }
                 }
             }
             

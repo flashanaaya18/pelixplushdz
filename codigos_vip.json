@@ -1,20 +1,14 @@
 [
   {
-    "nombre": "Administrador",
-    "codigo": "MASTER-KEY-2025",
+    "nombre": "Admin",
+    "codigo": "VIP-ADMIN-001",
     "fecha_inicio": "2024-01-01",
     "dias_validez": 36500
   },
   {
-    "nombre": "sayuri",
-    "codigo": "VIP-SAYURI-6109",
-    "fecha_inicio": "2025-12-24",
-    "dias_validez": 30
-  },
-  {
-    "nombre": "andy",
-    "codigo": "VIP-ANDY-6296",
-    "fecha_inicio": "2025-12-26",
+    "nombre": "anaya",
+    "codigo": "VIP-ANAYA-5478",
+    "fecha_inicio": "2025-12-27",
     "dias_validez": 30
   }
 ]
