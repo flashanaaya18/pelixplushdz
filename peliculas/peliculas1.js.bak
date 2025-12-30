@@ -26389,6 +26389,13 @@ const peliculas1 = [
       {
         "idioma": "subtitulado",
         "url": "https://streamwish.to/e/ibzb3ygsqdrk"
+      },
+      {
+        "url": "https://streamwish.to/e/w26cjssdb97s",
+        "idioma": "Latino",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
       }
     ],
     "id": "truth-treason-2025",

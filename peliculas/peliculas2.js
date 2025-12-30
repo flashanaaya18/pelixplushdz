@@ -12623,56 +12623,6 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
-    "titulo": "Oppenheimer",
-    "titulo_original": "Oppenheimer",
-    "poster": "https://image.tmdb.org/t/p/w500/5t05uhX5ULn8Um2f1ZuznVvIffU.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/ycnO0cjsAROSGJKuMODgRtWsHQw.jpg",
-    "descripcion": "Película sobre el físico J. Robert Oppenheimer y su papel como desarrollador de la bomba atómica. Basada en el libro 'American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer' de Kai Bird y Martin J. Sherwin.",
-    "año": 2023,
-    "categoria": [
-      "drama"
-    ],
-    "genero": [
-      "Drama",
-      "Historia"
-    ],
-    "generos_lista": [
-      "Drama",
-      "Historia"
-    ],
-    "director": "Christopher Nolan",
-    "reparto": [
-      "Cillian Murphy",
-      "Emily Blunt",
-      "Matt Damon",
-      "Robert Downey Jr.",
-      "Florence Pugh",
-      "Josh Hartnett",
-      "Casey Affleck",
-      "Rami Malek",
-      "Kenneth Branagh",
-      "Benny Safdie",
-      "Jason Clarke",
-      "Dylan Arnold"
-    ],
-    "calificacion": 8.0,
-    "votos": 11082,
-    "idioma": "EN",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-23T23:16:32.136826",
-    "tmdb_id": 872585,
-    "popularidad": 23.83,
-    "tagline": "El mundo cambia para siempre.",
-    "trailer": "https://www.youtube.com/watch?v=JpUd4BS7yI0",
-    "success": true,
-    "duracion": "181 min",
-    "fuentes": [],
-    "id": "oppenheimer-2023"
-  },
-  {
-    "tipo": "pelicula",
     "titulo": "Orgullo y prejuicio",
     "titulo_original": "Pride & Prejudice",
     "poster": "https://image.tmdb.org/t/p/w500/oixzLjpyaLagLa8UREts1NiHr6F.jpg",

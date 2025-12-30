@@ -1,6 +1,133 @@
 const peliculas3 = [
   {
     "tipo": "pelicula",
+    "titulo": "1975: El fin de una era",
+    "titulo_original": "Breakdown: 1975",
+    "poster": "https://image.tmdb.org/t/p/w500/6LirpQnBmBpAOa5Me1lBCBBy90e.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lHSLTzz1rW3XcfJYTyCSdaPmosr.jpg",
+    "descripcion": "En 1975, Estados Unidos atravesaba una profunda crisis social y política y, en medio de este caos, un grupo de cineastas encontró la inspiración para crear arte. Ese periodo convulso dio lugar a clásicos del cine como ‘Taxi Driver’, ‘Alguien voló sobre el nido del cuco’ y ‘Network, un mundo implacable’.",
+    "año": 2025,
+    "categoria": [
+      "documental"
+    ],
+    "genero": [
+      "documental"
+    ],
+    "generos_lista": [
+      "Documental"
+    ],
+    "director": "Morgan Neville",
+    "reparto": [
+      "Jodie Foster",
+      "Albert Brooks",
+      "Ellen Burstyn",
+      "Frank Rich",
+      "Martin Scorsese",
+      "Josh Brolin",
+      "Oliver Stone",
+      "James Risen",
+      "James Wolcott",
+      "Jefferson Cowie",
+      "Bill Gates",
+      "Joan Tewkesbury"
+    ],
+    "calificacion": 7.1,
+    "votos": 9,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T20:49:33.805764",
+    "tmdb_id": 1584125,
+    "popularidad": 4.21,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "90 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://fastream.to/embed-lsriaeb0iecn.html",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "1975-el-fin-de-una-era-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Albertano Contra los Mostros",
+    "titulo_original": "Albertano Contra los Mostros",
+    "poster": "https://image.tmdb.org/t/p/w500/kMgGkakqjl0dzGNhwTRcc3qUYKM.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/eWC7W3bzPErNZCoE9FzEOzjyqPu.jpg",
+    "descripcion": "En el siglo XVII una bruja lanza un conjuro para ser eternamente joven, sacrificando el corazón puro y noble de Albertatzin. Años más tarde él reencarna en Albertano, quien ahora debe cuidarse los monstruos que quieren robar su belleza.",
+    "año": 2022,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "comedia"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Comedia"
+    ],
+    "director": "Carlos Miramontes",
+    "reparto": [
+      "José Luis Guarneros",
+      "Rebeca Duvignau",
+      "Ariel Miramontes",
+      "Benito Castro",
+      "Maribel Guardia",
+      "Olivia Collins",
+      "Paola Fernández"
+    ],
+    "calificacion": 8.5,
+    "votos": 23,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T21:07:17.881412",
+    "tmdb_id": "197888",
+    "popularidad": 2.91,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://voe.sx/e/l5luhk2wj7pa",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://voe.sx/e/fxkqypbawpmx",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 13,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2022-05-15",
+    "id": "albertano-contra-los-mostros-2022"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Anaconda",
     "titulo_original": "Anaconda",
     "poster": "https://image.tmdb.org/t/p/w500/zX1KJPiGTrzpFcjfOWlmqdRgpQd.jpg",
@@ -590,6 +717,698 @@ const peliculas3 = [
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-11-19",
     "id": "envidiosa-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Fritos a balazos",
+    "titulo_original": "Guns Up",
+    "poster": "https://image.tmdb.org/t/p/w500/hEF0Fjzx5EgA0X1ECa7POLVySDZ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/1KwliRKTw61fRGmbG4Sf8eWOHP.jpg",
+    "descripcion": "Cuando un trabajo sale terriblemente mal, un ex policía y hombre de familia que trabaja como secuaz de la mafia tiene una noche para sacar a su familia de la ciudad.",
+    "año": 2025,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "comedia",
+      "crimen"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Comedia",
+      "Crimen"
+    ],
+    "director": "Edward Drake",
+    "reparto": [
+      {
+        "name": "Kevin James",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nSLuzz4KoycSP5vyUsdju3y4Xtw.jpg"
+      },
+      {
+        "name": "Christina Ricci",
+        "profile_path": "https://image.tmdb.org/t/p/w185/dzB58d6fNrTEi7nBAU1tySJc2at.jpg"
+      },
+      {
+        "name": "Luis Guzmán",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kSdxUckOJj9R5VKrLUnRy14YhNV.jpg"
+      },
+      {
+        "name": "Joey Diaz",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8hkioEFKpy2Dt1WqIrmb5ELOnBV.jpg"
+      },
+      {
+        "name": "Melissa Leo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tKNTvhmuO7FZMYYgRrZB6k8FT5K.jpg"
+      },
+      {
+        "name": "Timothy V. Murphy",
+        "profile_path": "https://image.tmdb.org/t/p/w185/4WMz4UUMeexgP1ddfC2j7pqf8hU.jpg"
+      },
+      {
+        "name": "Solomon Hughes",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zTMsW7G1USz9Jkcgj7TZAxYSzsm.jpg"
+      },
+      {
+        "name": "Francis Cronin",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3RVCnkcTmS48WDwtou1L9IuXCkB.jpg"
+      },
+      {
+        "name": "Maximilian Osinski",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wMRtFsZSR9FvYj1wzsziKQqpZ0C.jpg"
+      },
+      {
+        "name": "Miroslav Barnyashev",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kZmy5vIJWy2J8jXd7hzXfSvsTJ8.jpg"
+      },
+      {
+        "name": "Keana Marie",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lxqkL4fQZMFpWs2VpeMYejUieV0.jpg"
+      },
+      {
+        "name": "Leo Easton Kelly",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7K7h9NjJNPynqFBRc0NOjJufYIa.jpg"
+      }
+    ],
+    "calificacion": 6.6,
+    "votos": 150,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-28T22:00:52.132804",
+    "tmdb_id": 1181540,
+    "popularidad": 13.28,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=COl8468P5C8",
+    "success": true,
+    "duracion": "92 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$198,534",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://habetar.com/e/5orer8n41r66",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "fritos-a-balazos-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Guardianes de la Noche: Tren infinito",
+    "titulo_original": "劇場版「鬼滅の刃」無限列車編",
+    "poster": "https://image.tmdb.org/t/p/w500/8t29MfbEkEZixjVbjRkqI5NyFR4.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xPpXYnCWfjkt3zzE0dpCNME1pXF.jpg",
+    "descripcion": "Tanjiro y sus compañeros se unen al Pilar de las Llamas Kyojuro Rengoku para investigar una misteriosa serie de desapariciones que han ocurrido dentro del “Tren Infinito”. Poco saben que Enmu, uno de los miembros de las Doce Lunas Demoníacas, también está a bordo y les ha preparado una trampa.",
+    "año": 2020,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "animación",
+      "acción",
+      "fantasía"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Acción",
+      "Fantasía"
+    ],
+    "director": "Haruo Sotozaki",
+    "reparto": [
+      "Natsuki Hanae",
+      "Akari Kito",
+      "Hiro Shimono",
+      "Yoshitsugu Matsuoka",
+      "Satoshi Hino",
+      "Takahiro Sakurai",
+      "Katsuyuki Konishi",
+      "Saori Hayami",
+      "Kenichi Suzumura",
+      "Tomokazu Seki",
+      "Tomokazu Sugita",
+      "Toshiyuki Morikawa"
+    ],
+    "calificacion": 8.2,
+    "votos": 4351,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T19:43:14.977074",
+    "tmdb_id": 635302,
+    "popularidad": 10.22,
+    "tagline": "Con tu espada acabarás con la pesadilla.",
+    "trailer": "https://www.youtube.com/watch?v=ehyYlwBj-So",
+    "success": true,
+    "duracion": "117 min",
+    "presupuesto": "$15,700,000",
+    "ingresos": "$523,542,183",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://doodstream.com/e/xbhiet15j1so",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "guardianes-de-la-noche-tren-infinito-2020"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Hellboy II: El ejército dorado",
+    "titulo_original": "Hellboy II: The Golden Army",
+    "poster": "https://image.tmdb.org/t/p/w500/2oJ8v3zmwD0MruokYiLkUivY9wl.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/gqQKxYVIaYv53Qoy72nQqQxdXYF.jpg",
+    "descripcion": "Tras la ruptura de un acuerdo milenario entre la humanidad y los poderes invisibles de un mundo fantástico, el infierno en la Tierra está cada vez más cerca. Un líder despiadado, que se maneja tanto en el mundo de los humanos como en el de las criaturas, decide traicionar a sus ancestros, y despierta a un ejército imparable de criaturas diabólicas. Ahora, en este momento de debilidad, el superhéroe más duro deberá combatir contra el imparable líder y su ejército. Es rojo, caliente e incomprendido es Hellboy (Ron Perlman).",
+    "año": 2008,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "fantasía",
+      "acción"
+    ],
+    "generos_lista": [
+      "Fantasía",
+      "Acción"
+    ],
+    "director": "Guillermo del Toro",
+    "reparto": [
+      "Ron Perlman",
+      "Selma Blair",
+      "Doug Jones",
+      "John Alexander",
+      "Seth MacFarlane",
+      "Luke Goss",
+      "Anna Walton",
+      "Jeffrey Tambor",
+      "John Hurt",
+      "James Dodd",
+      "Brian Steele",
+      "Andrew Hefler"
+    ],
+    "calificacion": 6.8,
+    "votos": 5465,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T20:46:56.553229",
+    "tmdb_id": 11253,
+    "popularidad": 4.8,
+    "tagline": "Salvar al mundo es un infierno de un trabajo.",
+    "trailer": "https://www.youtube.com/watch?v=XsCHDyssV_8",
+    "success": true,
+    "duracion": "114 min",
+    "presupuesto": "$85,000,000",
+    "ingresos": "$160,388,063",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/d4dahvg3jpib",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "hellboy-ii-el-ejercito-dorado-2008"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Herederos por accidente",
+    "titulo_original": "Herederos por accidente",
+    "poster": "https://image.tmdb.org/t/p/w500/6NcqGz6b4kJbHFj1NIOMvsOEucO.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4B60qA4qSXCMX7JELYPxfgbUw1y.jpg",
+    "descripcion": "Una mirada cómica a la cultura chocan entre dos familias, una mexicana y una española, con formas e ideologías muy diferentes.",
+    "año": 2020,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Ángela Obón",
+    "reparto": [],
+    "calificacion": 7.0,
+    "votos": 281,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T22:35:25.221680",
+    "tmdb_id": "103435",
+    "popularidad": 4.67,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://voe.sx/e/e05rap6nbqjz",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://voe.sx/e/d9l20glb7sx5",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://voe.sx/e/btv7pxfre4t6",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://voe.sx/e/krrgxuf5rdru",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://voe.sx/e/g5w6cs0fmvbz",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://voe.sx/e/prpi2ufpjjcn",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://xupalace.org/uqlink.php?id=ps5is8oukkxu",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://doodstream.com/e/h741r0555yfj",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://voe.sx/e/j1vyirxel7ff",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 11,
+            "titulo": "Episodio 11",
+            "url": "",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 12,
+            "titulo": "Episodio 12",
+            "url": "https://voe.sx/e/z6v4s8ab51vz",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 13,
+            "titulo": "Episodio 13",
+            "url": "https://voe.sx/e/xtt136zn9l5a",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 26,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2020-04-03",
+    "id": "herederos-por-accidente-2020"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Homo Argentum",
+    "titulo_original": "Homo Argentum",
+    "poster": "https://image.tmdb.org/t/p/w500/21WlZtv1GZgiD2qAVHOkg63LRmU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2fwoBrUYMK0PZVaFqesx2CoRF6H.jpg",
+    "descripcion": "La película consta de 16 mini películas que exploran, con humor y critica social, las características de la identidad argentina.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Mariano Cohn",
+    "reparto": [
+      {
+        "name": "Guillermo Francella",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tqHvc1MaEzZHp52EeOagmBzaTn8.jpg"
+      },
+      {
+        "name": "Clara Kovacic",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fr8nJr5E9X2QCI6gsKlCOxYackq.jpg"
+      },
+      {
+        "name": "Eva De Dominici",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kXiYg1h1iTBkZeig1511iroEkKe.jpg"
+      },
+      {
+        "name": "Miguel Granados",
+        "profile_path": "https://image.tmdb.org/t/p/w185/durUoG20kNq7HzyNgnPKmJfJTel.jpg"
+      },
+      {
+        "name": "Graciela Stefani",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xRcyQM9CBBJcDmrgyPxSL66LCZI.jpg"
+      },
+      {
+        "name": "Bruno Rondini",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eIExrQtLXVAbVuhsjAddUSlR9cE.jpg"
+      },
+      {
+        "name": "Jonathan Bogado",
+        "profile_path": "https://image.tmdb.org/t/p/w185/liOMlj50K8OrPkA38DKlK5Pl2QU.jpg"
+      },
+      {
+        "name": "Guillermo Arengo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/qXIlj1TSV6YLb67xhPwxv6eAdzL.jpg"
+      },
+      {
+        "name": "Milo J",
+        "profile_path": "https://image.tmdb.org/t/p/w185/t562SbCSyKol89E99mT06Nlaw1p.jpg"
+      },
+      {
+        "name": "Dalma Maradona",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lscE8lWrpsjiNlOsJ6u2FiAlozX.jpg"
+      },
+      {
+        "name": "Juan Luppi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cfJbRMstYNBkUvdV0ls4IIUThyY.jpg"
+      },
+      {
+        "name": "Vanesa González",
+        "profile_path": "https://image.tmdb.org/t/p/w185/4LBsqc09A0CrM4Z6ujxtLzrVLvQ.jpg"
+      }
+    ],
+    "calificacion": 5.5,
+    "votos": 11,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-28T21:58:17.281227",
+    "tmdb_id": 1471345,
+    "popularidad": 14.27,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "98 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$16,870",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filemoon.to/e/nnegzppaaom1",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "homo-argentum-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Instintos",
+    "titulo_original": "",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/Ans9hZI113YROPE85B4lLSRG3bv.jpg",
+    "backdrop": "https://via.placeholder.com/1280x720/1a1a2e/ffffff?text=Instintos",
+    "descripcion": "Instintos - Película de alta calidad disponible. Con una trama envolvente y producción profesional.",
+    "año": 2025,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "acción",
+      "aventura",
+      "drama"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Aventura",
+      "Drama"
+    ],
+    "director": "",
+    "reparto": [],
+    "calificacion": 7.5,
+    "votos": 0,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T19:03:17.953012",
+    "tmdb_id": "",
+    "popularidad": 0,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://mivalyo.com/embed/9sblu6g8as5j",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "instintos-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "La acompañante",
+    "titulo_original": "Companion",
+    "poster": "https://image.tmdb.org/t/p/w500/nyloao2GWttUvS7KVcEM2eSDwUn.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/cZnJ3ABPvsWGqwPcu06Eda493F9.jpg",
+    "descripcion": "La muerte de un multimillonario desencadena una serie de acontecimientos para Iris y sus amigos durante un viaje de fin de semana a su finca junto al lago.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "terror",
+      "ciencia ficción",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Ciencia ficción",
+      "Suspense"
+    ],
+    "director": "Drew Hancock",
+    "reparto": [
+      {
+        "name": "Sophie Thatcher",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rUEPZaDxFdDGM76t4g6cYa8Ru7b.jpg"
+      },
+      {
+        "name": "Jack Quaid",
+        "profile_path": "https://image.tmdb.org/t/p/w185/320qW5yEbxpmyxQ3evmClJbtKag.jpg"
+      },
+      {
+        "name": "Lukas Gage",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sftjB0MjD92meZqnL9OLtcTI02d.jpg"
+      },
+      {
+        "name": "Megan Suri",
+        "profile_path": "https://image.tmdb.org/t/p/w185/krZBtMPTqVvteqYFXbAU6nnQShy.jpg"
+      },
+      {
+        "name": "Harvey Guillén",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yiNBonobPwqMVweB02JWufzp2l9.jpg"
+      },
+      {
+        "name": "Rupert Friend",
+        "profile_path": "https://image.tmdb.org/t/p/w185/a3HeMHmlXnoRlHLX9h31ZdZgCXM.jpg"
+      },
+      {
+        "name": "Jaboukie Young-White",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8OYI8OqsMUpBZica4lM2odjgVH6.jpg"
+      },
+      {
+        "name": "Matthew J. McCarthy",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eHKjDZPdHTz5lV1UySfMdRqMrH6.jpg"
+      },
+      {
+        "name": "Marc Menchaca",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fL0LmdBwau30M4AFPVJrpLRXXsU.jpg"
+      },
+      {
+        "name": "Woody Fu",
+        "profile_path": "https://image.tmdb.org/t/p/w185/305m52CIr9Jtb1whdc5i1Lx2iEd.jpg"
+      },
+      {
+        "name": "Ashley Lambert",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ucsdNz1pdVWwRFwf4dtjfaXE8nR.jpg"
+      }
+    ],
+    "calificacion": 7.0,
+    "votos": 1949,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T18:33:34.125441",
+    "tmdb_id": 1084199,
+    "popularidad": 22.21,
+    "tagline": "Encuentra a alguien hecho solo para ti",
+    "trailer": "https://www.youtube.com/watch?v=a6Yik2WLJL0",
+    "success": true,
+    "duracion": "97 min",
+    "presupuesto": "$10,000,000",
+    "ingresos": "$36,809,101",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://goodstream.one/embed-de64zpxwnlgd.html",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "la-acompanante-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "La asistenta",
+    "titulo_original": "The Housemaid",
+    "poster": "https://image.tmdb.org/t/p/w500/A6S15iqfHpoit02leDfDVnpklys.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/sK3z0Naed3H1Wuh7a21YRVMxYqt.jpg",
+    "descripcion": "Millie es una joven que, tras perder su trabajo, acepta un puesto como sirvienta en la lujosa pero inquietante mansión de los Winchester. Pronto se da cuenta de que algo no está bien en la casa y con sus habitantes, especialmente con Nina, la dueña, que actúa de manera errática.",
+    "año": 2025,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "misterio",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Misterio",
+      "Suspense"
+    ],
+    "director": "Paul Feig",
+    "reparto": [
+      {
+        "name": "Sydney Sweeney",
+        "profile_path": "https://image.tmdb.org/t/p/w185/uDnIdU4KGjQg7liFvb9wnALvg95.jpg"
+      },
+      {
+        "name": "Amanda Seyfried",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gtBUIpZ3dvLpOMIVORxE6sHSyZj.jpg"
+      },
+      {
+        "name": "Brandon Sklenar",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1f1NMi0IYL5p1BHVyV9IoYcwzJt.jpg"
+      },
+      {
+        "name": "Elizabeth Perkins",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vTWYllD9V76rgv9XAbtkkjjeunG.jpg"
+      },
+      {
+        "name": "Michele Morrone",
+        "profile_path": "https://image.tmdb.org/t/p/w185/saKjzGAuw8Fiutlv9LweLjAti0Z.jpg"
+      },
+      {
+        "name": "Indiana Elle",
+        "profile_path": "https://image.tmdb.org/t/p/w185/d9Bk6BWiPmWIx1Ssx36GqReFjQJ.jpg"
+      },
+      {
+        "name": "Arabella Olivia Clark",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bwTovaznMIXo9Je01soHBCzmFxn.jpg"
+      },
+      {
+        "name": "Megan Ferguson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eBhtfrvBa9RyQgf52sf1E3jx524.jpg"
+      },
+      {
+        "name": "Ellen Tamaki",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kQGqxMmGdpGTvBJEy3gWvMf1fKO.jpg"
+      },
+      {
+        "name": "Amanda Joy Erickson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3BieG0s7lddZr8wsNF6Rwfrz9Tm.jpg"
+      },
+      {
+        "name": "Alaina Surgener",
+        "profile_path": "https://image.tmdb.org/t/p/w185/aNBcrN9GlK51ZajUbnaIKJcbW4L.jpg"
+      },
+      {
+        "name": "Mark Grossman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/qqhVuD9QliiutCBIaploq6qmYFT.jpg"
+      }
+    ],
+    "calificacion": 7.8,
+    "votos": 87,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T18:00:58.013483",
+    "tmdb_id": 1368166,
+    "popularidad": 94.18,
+    "tagline": "Todos escondemos secretos",
+    "trailer": "https://www.youtube.com/watch?v=IMrebLqjVVQ",
+    "success": true,
+    "duracion": "131 min",
+    "presupuesto": "$35,000,000",
+    "ingresos": "$65,000,000",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://hlswish.com/e/rj7kbi7xs96f",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "la-asistenta-2025"
   },
   {
     "tipo": "pelicula",
@@ -1385,6 +2204,103 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Oppenheimer",
+    "titulo_original": "Oppenheimer",
+    "poster": "https://image.tmdb.org/t/p/w500/5t05uhX5ULn8Um2f1ZuznVvIffU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ycnO0cjsAROSGJKuMODgRtWsHQw.jpg",
+    "descripcion": "Película sobre el físico J. Robert Oppenheimer y su papel como desarrollador de la bomba atómica. Basada en el libro 'American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer' de Kai Bird y Martin J. Sherwin.",
+    "año": 2023,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "historia"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Historia"
+    ],
+    "director": "Christopher Nolan",
+    "reparto": [
+      {
+        "name": "Cillian Murphy",
+        "profile_path": "https://image.tmdb.org/t/p/w185/llkbyWKwpfowZ6C8peBjIV9jj99.jpg"
+      },
+      {
+        "name": "Emily Blunt",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5nCSG5TL1bP1geD8aaBfaLnLLCD.jpg"
+      },
+      {
+        "name": "Matt Damon",
+        "profile_path": "https://image.tmdb.org/t/p/w185/At3JgvaNeEN4Z4ESKlhhes85Xo3.jpg"
+      },
+      {
+        "name": "Robert Downey Jr.",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+      },
+      {
+        "name": "Florence Pugh",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6EpDNiVqB2Mao3mHm4kYw09ufHk.jpg"
+      },
+      {
+        "name": "Josh Hartnett",
+        "profile_path": "https://image.tmdb.org/t/p/w185/dCfu2EN7FjISACcjilaJu7evwEc.jpg"
+      },
+      {
+        "name": "Casey Affleck",
+        "profile_path": "https://image.tmdb.org/t/p/w185/304ilSygaCRWykoBWAL67TOw8g9.jpg"
+      },
+      {
+        "name": "Rami Malek",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ewr46CGOdsx5NzAJdIzEBz2yIQh.jpg"
+      },
+      {
+        "name": "Kenneth Branagh",
+        "profile_path": "https://image.tmdb.org/t/p/w185/AbCqqFxNi5w3nDUFdQt0DGMFh5H.jpg"
+      },
+      {
+        "name": "Benny Safdie",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9tp4PLNyYPNfCJOWBXPPalWIpnq.jpg"
+      },
+      {
+        "name": "Jason Clarke",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ma1BPr7pjzgxmYkHFlkMJLQDPC5.jpg"
+      },
+      {
+        "name": "Dylan Arnold",
+        "profile_path": "https://image.tmdb.org/t/p/w185/aeEErE7FcRbGkpxRRkGVdObB7j1.jpg"
+      }
+    ],
+    "calificacion": 8.0,
+    "votos": 11108,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T18:42:58.710562",
+    "tmdb_id": 872585,
+    "popularidad": 23.45,
+    "tagline": "El mundo cambia para siempre.",
+    "trailer": "https://www.youtube.com/watch?v=JpUd4BS7yI0",
+    "success": true,
+    "duracion": "181 min",
+    "presupuesto": "$100,000,000",
+    "ingresos": "$952,000,000",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filelions.to/v/ar8939xiae8f",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "oppenheimer-2023"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Otec",
     "titulo_original": "Otec",
     "poster": "https://image.tmdb.org/t/p/w500/qz4e1LLeRKk74a0Pyfqvb8zQlJe.jpg",
@@ -1479,6 +2395,101 @@ const peliculas3 = [
     "id": "otec-2025"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "Popeye the Slayer Man",
+    "titulo_original": "Popeye the Slayer Man",
+    "poster": "https://image.tmdb.org/t/p/w500/nVwu3mN7hr1yF467pGct3yQFM41.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xkjWiRQtrenqGRWO2Enry2JIl4d.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror"
+    ],
+    "generos_lista": [
+      "Terror"
+    ],
+    "director": "Robert Michael Ryan",
+    "reparto": [
+      {
+        "name": "Sean Michael Conway",
+        "profile_path": "https://image.tmdb.org/t/p/w185/f9g4ROAvvwBLVFG2i013eYC7FOd.jpg"
+      },
+      {
+        "name": "Elena Juliano",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ufZLH3gUeTfNVumjak9w8QVq1Db.jpg"
+      },
+      {
+        "name": "Jason Robert Stephens",
+        "profile_path": null
+      },
+      {
+        "name": "Mabel Thomas",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xa9eIcl4dnKf3w3PHRvsb1Z4v3f.jpg"
+      },
+      {
+        "name": "Marie-Louise Boisnier",
+        "profile_path": "https://image.tmdb.org/t/p/w185/k4368chglwYVKQmhUcIsKcWO1Cy.jpg"
+      },
+      {
+        "name": "Jeff Thomas",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lJzE0V3ixWpshVpSH2HnmbnY2Ln.jpg"
+      },
+      {
+        "name": "Steven McCormack",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1SiwS8DHHLsvRqFOIGRpeQkWY1S.jpg"
+      },
+      {
+        "name": "Clayton Turner",
+        "profile_path": null
+      },
+      {
+        "name": "Paul Konye",
+        "profile_path": null
+      },
+      {
+        "name": "Angela Relucio",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xcSe2K9NPrUQ6EIIQZET5ci9Wjo.jpg"
+      },
+      {
+        "name": "Rich Lounello",
+        "profile_path": "https://image.tmdb.org/t/p/w185/d9DtY0YQfCw2ezJkBfoJK5Zl2Gx.jpg"
+      },
+      {
+        "name": "Scott Swope",
+        "profile_path": "https://image.tmdb.org/t/p/w185/p8layN9F0PUtSinpUc7ZMwAccFs.jpg"
+      }
+    ],
+    "calificacion": 5.7,
+    "votos": 144,
+    "idioma": "subtitulado",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-28T22:27:41.616061",
+    "tmdb_id": 1388366,
+    "popularidad": 5.68,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "88 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://streamwish.to/e/geckkf40tf8i",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "popeye-the-slayer-man-2025"
+  },
+  {
     "tipo": "serie",
     "titulo": "Rompehielos",
     "titulo_original": "",
@@ -1559,6 +2570,105 @@ const peliculas3 = [
     "episodios": 0,
     "tipo_serie": "Serie",
     "id": "rompehielos-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Santastein",
+    "titulo_original": "Santastein",
+    "poster": "https://image.tmdb.org/t/p/w500/zUY57i43vmIbp7xod8BdE3MxQ0c.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/atwY0qa1ZK5ZmDR7E943xiYG9a4.jpg",
+    "descripcion": "",
+    "año": 2024,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "comedia",
+      "fantasía"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Comedia",
+      "Fantasía"
+    ],
+    "director": "Benjamin Edelman",
+    "reparto": [
+      {
+        "name": "Jared Korotkin",
+        "profile_path": null
+      },
+      {
+        "name": "Ophelia Rivera",
+        "profile_path": null
+      },
+      {
+        "name": "Michael Vitovich",
+        "profile_path": null
+      },
+      {
+        "name": "Kaylie Heyner",
+        "profile_path": "https://image.tmdb.org/t/p/w185/voqG3qg8FeWbut6kOFv1u8kqmHA.jpg"
+      },
+      {
+        "name": "Damien Edwards",
+        "profile_path": null
+      },
+      {
+        "name": "Heather Fisch",
+        "profile_path": null
+      },
+      {
+        "name": "Fernando Morales",
+        "profile_path": null
+      },
+      {
+        "name": "Leo Pereira",
+        "profile_path": null
+      },
+      {
+        "name": "Claire Veater",
+        "profile_path": null
+      },
+      {
+        "name": "Maisy Kay",
+        "profile_path": null
+      },
+      {
+        "name": "Rafa Llama",
+        "profile_path": null
+      },
+      {
+        "name": "Alejandro Sevilla",
+        "profile_path": null
+      }
+    ],
+    "calificacion": 4.7,
+    "votos": 7,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T17:40:42.573317",
+    "tmdb_id": 1015539,
+    "popularidad": 86.14,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "88 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/h8j7cdowu2ae",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "santastein-2024"
   },
   {
     "tipo": "serie",
@@ -1657,5 +2767,465 @@ const peliculas3 = [
     "tipo_serie": "Miniseries",
     "ultima_emision": "2025-12-01",
     "id": "silencio-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Somos oro",
+    "titulo_original": "Somos oro",
+    "poster": "https://image.tmdb.org/t/p/w500/s3P2k2pxv6stEynr0uijkH0fRPf.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/eK3Bfb5CHLv1b0pl0pSpovFzjoY.jpg",
+    "descripcion": "En esta irreverente comedia seguimos a Vanessa y Marilú, quienes cansadas de su vida fracasada, descifran el secreto de los negocios piramidales: para triunfar, los de arriba tienen que fregar a los de abajo. Así, crearán su propia pirámide y harán todo para convertirse en las millonarias que siempre soñaron ser.",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "",
+    "reparto": [
+      "Michelle Rodríguez",
+      "Diana Bovio",
+      "Luz Aldán",
+      "Mauricio Isaac",
+      "Omar Elizondo",
+      "Mercedes Hernández",
+      "Cassandra Iturralde",
+      "Roberto Quijano",
+      "Eduardo Ramírez Pablo",
+      "Vanesa Burciaga",
+      "Sandra Quiróz"
+    ],
+    "calificacion": 7.1,
+    "votos": 28,
+    "idioma": "ES",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T20:58:26.273319",
+    "tmdb_id": 273794,
+    "popularidad": 1.17,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/oy8v9ve8tnmi",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/wneofs8vdyj6",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/ba5fb4yl32gh",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/0h2q1yqh1scv",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 7,
+    "tipo_serie": "Miniseries",
+    "ultima_emision": "2024-10-18",
+    "id": "somos-oro-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Transformers: El despertar de las bestias",
+    "titulo_original": "Transformers: Rise of the Beasts",
+    "poster": "https://image.tmdb.org/t/p/w500/peIB7KBBrqW0JsCLQBt9ChEtZ7m.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2vFuG6bWGyQUzYS9d69E5l85nIz.jpg",
+    "descripcion": "Cuando surge una nueva amenaza capaz de destruir todo el planeta, Optimus Prime y los Autobots deben unirse a una poderosa facción conocida como los Maximals. Con el destino de la humanidad en juego, los humanos Noah y Elena harán lo que sea necesario para ayudar a los Transformers mientras se involucran en la batalla final para salvar la Tierra.",
+    "año": 2023,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "aventura",
+      "acción"
+    ],
+    "generos_lista": [
+      "Ciencia ficción",
+      "Aventura",
+      "Acción"
+    ],
+    "director": "Steven Caple Jr.",
+    "reparto": [
+      "Anthony Ramos",
+      "Dominique Fishback",
+      "Peter Cullen",
+      "Ron Perlman",
+      "Peter Dinklage",
+      "Michelle Yeoh",
+      "Pete Davidson",
+      "Liza Koshy",
+      "Cristo Fernández",
+      "Luna Lauren Vélez",
+      "Dean Scott Vazquez",
+      "Tobe Nwigwe"
+    ],
+    "calificacion": 7.2,
+    "votos": 5112,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T19:51:08.811530",
+    "tmdb_id": 667538,
+    "popularidad": 15.31,
+    "tagline": "Unirse o caer.",
+    "trailer": "https://www.youtube.com/watch?v=UQ-9AGdKdBY",
+    "success": true,
+    "duracion": "127 min",
+    "presupuesto": "$195,000,000",
+    "ingresos": "$441,381,193",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/8gndrofly6ko",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "transformers-el-despertar-de-las-bestias-2023"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Transformers: El último caballero",
+    "titulo_original": "Transformers: The Last Knight",
+    "poster": "https://image.tmdb.org/t/p/w500/mXEBnMqFwTJCrddVhknCH9fq3fB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/1n00NlOGRFZVs8coBxyZLm5l4EC.jpg",
+    "descripcion": "Dos especies en guerra: una de carne y hueso, la otra de metal. El Último Caballero rompe con el mito original de la franquicia de Transformers y redefine lo que significa ser un héroe. Humanos y Transformers están en guerra y Optimus Prime se ha ido. La llave para salvar nuestro futuro está enterrada en los secretos del pasado, en la historia oculta de los Transformers en la Tierra. Salvar a nuestro mundo está en manos de una alianza única: Cade Yeager (Mark Wahlberg); Bumblebee; un Lord Inglés (Sir Anthony Hopkins); y una profesora de la Universidad de Oxford (Laura Haddock). Hay un momento en la vida de todo ser humano en la que recibimos el llamado para hacer la diferencia. En Transformers: El Último Caballero los perseguidos se convertirán en héroes; los héroes se convertirán en villanos y sólo un mundo sobrevivirá: el de ellos o el nuestro. Quinta película de Transformers dirigida por Michael Bay.",
+    "año": 2017,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "acción",
+      "aventura",
+      "ciencia ficción"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Aventura",
+      "Ciencia ficción"
+    ],
+    "director": "Michael Bay",
+    "reparto": [
+      "Mark Wahlberg",
+      "Laura Haddock",
+      "Peter Cullen",
+      "Anthony Hopkins",
+      "Erik Aadahl",
+      "Josh Duhamel",
+      "Gemma Chan",
+      "Jim Carter",
+      "Santiago Cabrera",
+      "Isabela Merced",
+      "Jerrod Carmichael",
+      "Stanley Tucci"
+    ],
+    "calificacion": 6.1,
+    "votos": 6555,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T19:49:56.663852",
+    "tmdb_id": 335988,
+    "popularidad": 8.49,
+    "tagline": "Toda leyenda esconde un secreto.",
+    "trailer": "https://www.youtube.com/watch?v=01qxEzjmjaA",
+    "success": true,
+    "duracion": "154 min",
+    "presupuesto": "$217,000,000",
+    "ingresos": "$605,425,157",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/0cxjgti4dck6",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "transformers-el-ultimo-caballero-2017"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Transformers: La era de la extinción",
+    "titulo_original": "Transformers: Age of Extinction",
+    "poster": "https://image.tmdb.org/t/p/w500/owqV5Qo2DMMomfB1fS6xYWv3yEh.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wxr4Z6E83h14CogsZOzDm1vuDX3.jpg",
+    "descripcion": "Han pasado 4 años desde la tragedia de Chicago y la humanidad sigue reparando los destrozos, pero tanto los Autobots como los Decepticons han desaparecido de la faz de la Tierra. Ahora el Gobierno de los Estados Unidos está utilizando la tecnología rescatada en el asedio de Chicago para desarrollar sus propios Transformers. Al frente del proyecto está Joshua Joyce, un arrogante diseñador que piensa que los Autobots son \"basura tecnológica\" y se cree capaz de fabricar unos robots infinitamente más avanzados. Mientras tanto, Cade Yeager, un mécánico inventor, encuentra un Marmon semi-trailer. Al intentar repararlo, descubre que el camión no solo era un Transformer, sino también el mismísimo Optimus Prime, líder de los Autobots. Lo que Cade ignora son las consecuencias que pueden derivarse de este hallazgo.",
+    "año": 2014,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "acción",
+      "aventura"
+    ],
+    "generos_lista": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+    ],
+    "director": "Michael Bay",
+    "reparto": [
+      "Mark Wahlberg",
+      "Peter Cullen",
+      "Stanley Tucci",
+      "Kelsey Grammer",
+      "Nicola Peltz Beckham",
+      "Jack Reynor",
+      "Frank Welker",
+      "Sophia Myles",
+      "李冰冰",
+      "Titus Welliver",
+      "John Goodman",
+      "Ken Watanabe"
+    ],
+    "calificacion": 6.0,
+    "votos": 8550,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T19:47:49.077681",
+    "tmdb_id": 91314,
+    "popularidad": 19.87,
+    "tagline": "Las reglas han cambiado.",
+    "trailer": "",
+    "success": true,
+    "duracion": "165 min",
+    "presupuesto": "$210,000,000",
+    "ingresos": "$1,104,054,072",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "url": "https://streamwish.to/e/9s6ba655vebg",
+        "idioma": "Latino",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "transformers-la-era-de-la-extincion-2014"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Venom",
+    "titulo_original": "Venom",
+    "poster": "https://image.tmdb.org/t/p/w500/jMBTJQiHAyGlZR05J2sq5coA6ew.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/hNsYUryiwxcdeTMkaBcPF3iEg0p.jpg",
+    "descripcion": "Eddie Brock es un consolidado periodista y astuto reportero que está investigando una empresa llamada Fundación Vida. Esta fundación, dirigida por el eminente científico Carlton Drake, está ejecutando secretamente experimentos ilegales en seres humanos y realizando pruebas que involucran formas de vida extraterrestres y amorfas conocidas como simbiontes. Durante una visita furtiva a la central, el periodista quedará infectado por un simbionte. Comenzará entonces a experimentar cambios en su cuerpo que no entiende, y escuchará una voz interior, la del simbionte Venom, que le dirá lo que tiene que hacer. Cuando Brock adquiera los poderes del simbionte que le usa como huésped, Venom tomará posesión de su cuerpo, convirtiéndole en un despiadado y peligroso súpervillano.",
+    "año": 2018,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "acción"
+    ],
+    "generos_lista": [
+      "Ciencia ficción",
+      "Acción"
+    ],
+    "director": "Ruben Fleischer",
+    "reparto": [
+      "Tom Hardy",
+      "Michelle Williams",
+      "Riz Ahmed",
+      "Scott Haze",
+      "Reid Scott",
+      "Jenny Slate",
+      "Melora Walters",
+      "Woody Harrelson",
+      "Peggy Lu",
+      "Malcolm C. Murray",
+      "Sope Aluko",
+      "Wayne Pére"
+    ],
+    "calificacion": 6.8,
+    "votos": 16907,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T20:41:40.980498",
+    "tmdb_id": 335983,
+    "popularidad": 11.39,
+    "tagline": "El mundo tiene suficientes superhéroes.",
+    "trailer": "https://www.youtube.com/watch?v=mYTmQWZkw10",
+    "success": true,
+    "duracion": "112 min",
+    "presupuesto": "$116,000,000",
+    "ingresos": "$856,085,151",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/8m64c0fk4ekk",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "venom-2018"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Venom: El último baile",
+    "titulo_original": "Venom: The Last Dance",
+    "poster": "https://image.tmdb.org/t/p/w500/toZiAd0n0NKhiuHTiGk7kBMmhtG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg",
+    "descripcion": "Eddie y Venom están a la fuga. Perseguidos por sus sendos mundos y cada vez más cercados, el dúo se ve abocado a tomar una decisión devastadora que hará que caiga el telón sobre el último baile de Venom y Eddie.",
+    "año": 2024,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "ciencia ficción",
+      "aventura"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Ciencia ficción",
+      "Aventura"
+    ],
+    "director": "Kelly Marcel",
+    "reparto": [
+      "Tom Hardy",
+      "Chiwetel Ejiofor",
+      "Juno Temple",
+      "Rhys Ifans",
+      "Stephen Graham",
+      "Peggy Lu",
+      "Clark Backo",
+      "Alanna Ubach",
+      "Cristo Fernández",
+      "Jared Abrahamson",
+      "Hala Finley",
+      "Dash McCloud"
+    ],
+    "calificacion": 6.7,
+    "votos": 3926,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T20:44:32.208937",
+    "tmdb_id": 912649,
+    "popularidad": 19.43,
+    "tagline": "Hasta que la muerte los separe.",
+    "trailer": "https://www.youtube.com/watch?v=KnYpBWmJTgU",
+    "success": true,
+    "duracion": "109 min",
+    "presupuesto": "$120,000,000",
+    "ingresos": "$478,937,618",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://dhtpre.com/v/1tw5tufct368",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "venom-el-ultimo-baile-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Venom: habrá matanza",
+    "titulo_original": "Venom: Let There Be Carnage",
+    "poster": "https://image.tmdb.org/t/p/w500/b0j9rHYpRML7dKm5xw9e97HTDJF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+    "descripcion": "Eddie Brock  y su simbionte Venom todavía están intentando descubrir cómo vivir juntos cuando un preso que está en el corredor de la muerte se infecta con un simbionte propio.",
+    "año": 2021,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "acción",
+      "aventura"
+    ],
+    "generos_lista": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+    ],
+    "director": "Andy Serkis",
+    "reparto": [
+      "Tom Hardy",
+      "Woody Harrelson",
+      "Michelle Williams",
+      "Naomie Harris",
+      "Reid Scott",
+      "Stephen Graham",
+      "Peggy Lu",
+      "Sian Webber",
+      "Michelle Greenidge",
+      "Rob Bowen",
+      "Laurence Spellman",
+      "Little Simz"
+    ],
+    "calificacion": 6.8,
+    "votos": 10915,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T20:43:02.089309",
+    "tmdb_id": 580489,
+    "popularidad": 8.84,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=hbfadtw-fjs",
+    "success": true,
+    "duracion": "97 min",
+    "presupuesto": "$110,000,000",
+    "ingresos": "$506,863,592",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/qvou3whbyda7",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "venom-habra-matanza-2021"
   }
 ];

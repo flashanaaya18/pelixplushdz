@@ -42,6 +42,100 @@
             margin-bottom: 30px;
             font-size: 1.1rem;
         }
+        /* Estilos para Badges y Disponibilidad */
+        .availability-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: bold;
+            z-index: 10;
+            text-transform: uppercase;
+        }
+        .badge-available { background-color: #2ecc71; color: white; }
+        .badge-unavailable { background-color: #e74c3c; color: white; }
+        
+        .request-btn {
+            display: block;
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+            background: #e50914;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.3s;
+        }
+        .request-btn:hover { background: #b20710; }
+
+        /* Modal de Solicitud */
+        .modal-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.8);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 10000;
+        }
+        .modal-content {
+            background: #1f1f1f;
+            padding: 30px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 500px;
+            position: relative;
+            border: 1px solid #333;
+        }
+        .modal-close {
+            position: absolute;
+            top: 15px; right: 15px;
+            background: none; border: none;
+            color: #aaa; font-size: 1.2rem; cursor: pointer;
+        }
+        .modal-form input, .modal-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            background: #333;
+            border: 1px solid #444;
+            color: white;
+            border-radius: 5px;
+        }
+        .modal-form label {
+            display: block;
+            margin-bottom: 5px;
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+
+        /* Skeleton Loading */
+        .skeleton {
+            background: linear-gradient(90deg, #222 25%, #333 50%, #222 75%);
+            background-size: 200% 100%;
+            animation: skeleton-loading 1.5s infinite;
+            border-radius: 8px;
+        }
+        .skeleton-card {
+            aspect-ratio: 2/3;
+            width: 100%;
+        }
+        @keyframes skeleton-loading { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+        
+        /* Toast Notification Override */
+        .toast-notification {
+            position: fixed; bottom: 20px; right: 20px;
+            background: #333; color: white; padding: 15px 25px;
+            border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+            display: flex; align-items: center; gap: 10px;
+            transform: translateY(100px); opacity: 0; transition: all 0.3s ease;
+            z-index: 20000; border-left: 4px solid #e50914;
+        }
+        .toast-notification.show { transform: translateY(0); opacity: 1; }
     </style>
 </head>
 
@@ -58,10 +152,6 @@
             <a href="ajustes.html">Ajustes</a>
         </nav>
         <div class="nav-actions">
-            <form id="search-form" class="search-bar" action="javascript:void(0);">
-                <input type="text" id="search-input" placeholder="Buscar...">
-                <button type="submit"><i class="fas fa-search"></i></button>
-            </form>
             <button id="hamburger-btn" class="mobile-toggle"><i class="fas fa-bars"></i></button>
         </div>
     </header>
@@ -105,6 +195,11 @@
             <!-- Filtros Mejorados -->
             <div class="search-filters"
                 style="display: flex; gap: 10px; justify-content: center; margin-top: 1.5rem; flex-wrap: wrap;">
+                <select id="type-filter" class="language-filter">
+                    <option value="multi">Todo</option>
+                    <option value="movie">Películas</option>
+                    <option value="tv">Series</option>
+                </select>
                 <select id="genre-filter" class="language-filter">
                     <option value="all">Todos los Géneros</option>
                     <!-- Opciones se llenan con JS -->
@@ -144,6 +239,10 @@
                 </div>
                 <div id="results-grid" class="movie-grid-full"></div>
             </div>
+            
+            <div id="pagination-container" style="text-align: center; margin: 30px 0; display: none;">
+                <button id="load-more-btn" class="language-filter" style="cursor: pointer;">Cargar más resultados</button>
+            </div>
         </div>
     </main>
 
@@ -169,6 +268,34 @@
         <a href="favoritos.html" class="nav-item"><i class="fas fa-heart"></i><span>Favoritos</span></a>
         <a href="ajustes.html" class="nav-item"><i class="fas fa-cog"></i><span>Ajustes</span></a>
     </div>
+
+    <!-- Request Content Modal -->
+    <div id="request-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" id="close-request-modal"><i class="fas fa-times"></i></button>
+            <h2 style="color: white; margin-bottom: 20px;"><i class="fas fa-bullhorn"></i> Solicitar Contenido</h2>
+            <p style="color: #aaa; margin-bottom: 20px; font-size: 0.9rem;">Este título no está disponible actualmente. Completa el formulario y trataremos de añadirlo.</p>
+            
+            <form id="request-form" class="modal-form">
+                <input type="hidden" id="req-tmdb-id">
+                <input type="hidden" id="req-title">
+                <input type="hidden" id="req-type">
+                
+                <label>Título</label>
+                <input type="text" id="req-title-display" disabled style="opacity: 0.7;">
+                
+                <label>Tu Email</label>
+                <input type="email" id="req-email" placeholder="nombre@ejemplo.com" required>
+                
+                <label>Mensaje (Opcional)</label>
+                <textarea id="req-message" rows="3" placeholder="¿Alguna versión en específico?"></textarea>
+                
+                <button type="submit" class="request-btn">Enviar Solicitud</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="toast-container"></div>
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>

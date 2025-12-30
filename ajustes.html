@@ -14,6 +14,93 @@
     <link rel="stylesheet" href="estilos.css?v=4">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#141414">
+    <style>
+        /* Estilos para la sección de Pedidos VIP */
+        .request-search-container {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .request-results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+            max-height: 500px;
+            overflow-y: auto;
+            padding-right: 5px;
+        }
+        .request-card {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #222;
+            transition: transform 0.2s ease;
+        }
+        .request-card:hover { transform: scale(1.03); z-index: 2; box-shadow: 0 4px 10px rgba(0,0,0,0.5); }
+        .request-card img { width: 100%; height: 180px; object-fit: cover; display: block; }
+        .request-info { padding: 8px; font-size: 0.8rem; color: #fff; text-align: center; }
+        .request-overlay {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.8);
+            display: flex; flex-direction: column; justify-content: center; align-items: center;
+            opacity: 0; transition: opacity 0.2s;
+        }
+        .request-card:hover .request-overlay { opacity: 1; }
+        .btn-request-action {
+            background: linear-gradient(135deg, #e50914, #ff4d4d);
+            color: white; border: none; padding: 8px 15px; border-radius: 20px;
+            cursor: pointer; font-weight: bold; font-size: 0.85rem;
+            box-shadow: 0 2px 5px rgba(229,9,20,0.4);
+        }
+
+        /* Estilos para el Modal de Solicitud VIP */
+        .modal-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.85); z-index: 2000;
+            display: flex; justify-content: center; align-items: center;
+            backdrop-filter: blur(8px); opacity: 0; pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+        .modal-overlay.active { opacity: 1; pointer-events: auto; }
+        .modal-content {
+            background: #1f1f1f; padding: 25px; border-radius: 16px;
+            width: 90%; max-width: 450px; position: relative;
+            border: 1px solid #333; box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+            transform: translateY(20px); transition: transform 0.3s ease;
+        }
+        .modal-overlay.active .modal-content { transform: translateY(0); }
+        .close-modal {
+            position: absolute; top: 15px; right: 20px; font-size: 24px; cursor: pointer; color: #aaa; transition: color 0.2s;
+        }
+        .close-modal:hover { color: #fff; }
+        .modal-header h2 { margin-top: 0; font-size: 1.5rem; color: #fff; border-bottom: 1px solid #333; padding-bottom: 10px; margin-bottom: 20px; }
+        .selected-content-preview {
+            display: flex; gap: 15px; margin-bottom: 20px; background: #2a2a2a; padding: 12px; border-radius: 10px; align-items: center;
+        }
+        .selected-content-preview img { width: 60px; height: 90px; object-fit: cover; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.3); }
+        .selected-info h3 { margin: 0 0 5px 0; font-size: 1.1rem; color: #fff; line-height: 1.2; }
+        .selected-info p { margin: 0; color: #ccc; font-size: 0.9rem; }
+        .badge { display: inline-block; background: #e50914; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; margin-top: 5px; text-transform: uppercase; font-weight: bold; }
+        .form-group label { display: block; color: #ddd; margin-bottom: 8px; font-size: 0.9rem; }
+        .form-group textarea {
+            width: 100%; height: 100px; background: #141414; border: 1px solid #444;
+            color: white; padding: 12px; border-radius: 8px; resize: none;
+            font-family: 'Outfit', sans-serif; font-size: 0.95rem; outline: none; transition: border-color 0.2s;
+        }
+        .form-group textarea:focus { border-color: #e50914; }
+
+        /* Estilos para Mis Solicitudes (LocalStorage) */
+        .my-request-item {
+            background: #2a2a2a; border-radius: 8px; padding: 10px; display: flex; gap: 10px; align-items: center;
+            border-left: 4px solid #e50914; margin-bottom: 10px; position: relative;
+        }
+        .my-request-item img { width: 40px; height: 60px; object-fit: cover; border-radius: 4px; }
+        .my-request-info h4 { margin: 0; font-size: 0.95rem; color: white; }
+        .my-request-info span { font-size: 0.8rem; color: #aaa; }
+        .request-status { position: absolute; right: 10px; top: 10px; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; background: #444; color: #ccc; }
+        .request-status.pending { background: #e67e22; color: white; }
+    </style>
 </head>
 
 <body data-page="Ajustes">
@@ -73,6 +160,22 @@
                     <button id="btn-renew-vip" class="btn-setting" style="width:100%; background-color: #25D366; color: white; margin-top:10px;">
                         <i class="fab fa-whatsapp"></i> Renovar Suscripción
                     </button>
+                </div>
+            </section>
+
+            <!-- Sección de Pedidos VIP (Nueva) -->
+            <section class="setting-group" id="vip-requests-section" style="display:none; border: 1px solid #FFD700; padding: 15px; border-radius: 8px; background: rgba(255, 215, 0, 0.05);">
+                <h2 style="color: #FFD700; border-bottom-color: #FFD700;"><i class="fas fa-gift"></i> Pide tu Película/Serie</h2>
+                <p style="color: #ccc; font-size: 0.9rem; margin-bottom: 15px;">¿No encuentras lo que buscas? Como usuario VIP, puedes pedirlo directamente.</p>
+                <div class="request-search-container">
+                    <input type="text" id="request-search-input" placeholder="Buscar película o serie en TMDb..." class="vip-input" style="margin-bottom:0;">
+                    <button id="request-search-btn" class="validate-btn" style="width: auto; padding: 0 20px;"><i class="fas fa-search"></i></button>
+                </div>
+                <div id="request-results" class="request-results-grid"></div>
+                
+                <div id="my-requests-container" style="margin-top: 30px; border-top: 1px solid #333; padding-top: 20px;">
+                    <h3 style="color: #fff; font-size: 1.1rem; margin-bottom: 15px;"><i class="fas fa-history"></i> Mis Solicitudes</h3>
+                    <div id="my-requests-list"></div>
                 </div>
             </section>
 
@@ -291,6 +394,31 @@
         <a href="ajustes.html" class="nav-item active"><i class="fas fa-cog"></i><span>Ajustes</span></a>
     </nav>
 
+    <!-- Modal de Solicitud VIP -->
+    <div id="request-modal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-modal" id="close-request-modal">&times;</span>
+            <div class="modal-header">
+                <h2><i class="fas fa-ticket-alt"></i> Confirmar Solicitud</h2>
+            </div>
+            <div class="modal-body">
+                <div class="selected-content-preview">
+                    <img id="modal-poster" src="fondo.png" alt="Poster">
+                    <div class="selected-info">
+                        <h3 id="modal-title">Título</h3>
+                        <p id="modal-year">Año</p>
+                        <span id="modal-type" class="badge">PELÍCULA</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="request-notes">Notas adicionales (Opcional):</label>
+                    <textarea id="request-notes" placeholder="Ej: Audio Latino, Subtitulada, Temporada específica..."></textarea>
+                </div>
+                <button id="confirm-request-btn" class="btn-setting" style="width: 100%; background: linear-gradient(135deg, #e50914, #ff4d4d); margin-top: 20px; color: white; font-weight: bold; padding: 12px; border: none; border-radius: 8px; font-size: 1rem; box-shadow: 0 4px 15px rgba(229,9,20,0.3);"><i class="fas fa-paper-plane"></i> Enviar Solicitud</button>
+            </div>
+        </div>
+    </div>
+
     <div id="notification-container" class="toast-container"></div>
 
     <script src="script.js?v=4"></script>
@@ -298,6 +426,7 @@
     <script>
         let deferredPrompt;
         document.addEventListener('DOMContentLoaded', async () => {
+            const vipRequestsSection = document.getElementById('vip-requests-section');
             const vipSection = document.getElementById('vip-subscription-section');
             const freeSection = document.getElementById('free-subscription-section');
             const accountSection = document.getElementById('account-section');
@@ -328,6 +457,7 @@
 
             if (accessType === 'vip' && userCode) {
                 vipSection.style.display = 'block';
+                if(vipRequestsSection) vipRequestsSection.style.display = 'block';
                 if(freeSection) freeSection.style.display = 'none';
                 
                 try {
@@ -421,6 +551,166 @@
             window.addEventListener('appinstalled', () => {
                 if (installContainer) installContainer.style.display = 'none';
             });
+
+            // Lógica de Pedidos VIP
+            const requestInput = document.getElementById('request-search-input');
+            const requestBtn = document.getElementById('request-search-btn');
+            const requestResults = document.getElementById('request-results');
+            const TMDB_API_KEY = '9869fab7c867e72214c8628c6029ec74'; // API Key configurada
+
+
+            // Lógica de búsqueda
+            if (requestBtn && requestInput) {
+                const performSearch = async () => {
+                    const query = requestInput.value.trim();
+                    if (!query) return;
+
+                    requestResults.innerHTML = '<div style="color:white; text-align:center; grid-column: 1/-1;"><i class="fas fa-spinner fa-spin"></i> Buscando...</div>';
+
+                    try {
+                        const res = await fetch(`https://api.themoviedb.org/3/search/multi?api_key=${TMDB_API_KEY}&language=es-MX&query=${encodeURIComponent(query)}&page=1&include_adult=false`);
+                        const data = await res.json();
+
+                        requestResults.innerHTML = '';
+
+                        if (data.results && data.results.length > 0) {
+                            data.results.forEach(item => {
+                                if (item.media_type !== 'movie' && item.media_type !== 'tv') return;
+                                
+                                const title = item.title || item.name;
+                                const poster = item.poster_path ? `https://image.tmdb.org/t/p/w200${item.poster_path}` : 'fondo.png';
+                                const year = (item.release_date || item.first_air_date || '').split('-')[0] || 'N/A';
+                                
+                                const card = document.createElement('div');
+                                card.className = 'request-card';
+                                card.innerHTML = `
+                                    <img src="${poster}" alt="${title}">
+                                    <div class="request-info">${title} (${year})</div>
+                                    <div class="request-overlay">
+                                        <button class="btn-request-action" onclick="openRequestModal('${title.replace(/'/g, "\\'")}', '${year}', '${item.media_type}', '${poster}')">
+                                            <i class="fas fa-paper-plane"></i> Pedir
+                                        </button>
+                                    </div>
+                                `;
+                                requestResults.appendChild(card);
+                            });
+                        } else {
+                            requestResults.innerHTML = '<p style="color:#ccc; text-align:center; grid-column: 1/-1;">No se encontraron resultados.</p>';
+                        }
+                    } catch (error) {
+                        console.error(error);
+                        requestResults.innerHTML = '<p style="color:red; text-align:center; grid-column: 1/-1;">Error al buscar. Verifica tu conexión o API Key.</p>';
+                    }
+                };
+
+                // Búsqueda en tiempo real (mientras escribes)
+                let debounceTimer;
+                requestInput.addEventListener('input', () => {
+                    clearTimeout(debounceTimer);
+                    debounceTimer = setTimeout(performSearch, 600); // Espera 600ms antes de buscar
+                });
+
+                requestBtn.addEventListener('click', performSearch);
+                requestInput.addEventListener('keypress', (e) => { if(e.key === 'Enter') performSearch(); });
+
+                // Lógica de LocalStorage para Solicitudes
+                const myRequestsList = document.getElementById('my-requests-list');
+                
+                const loadMyRequests = () => {
+                    const requests = JSON.parse(localStorage.getItem('pelix_vip_requests') || '[]');
+                    myRequestsList.innerHTML = '';
+                    
+                    if (requests.length === 0) {
+                        myRequestsList.innerHTML = '<p style="color:#666; font-size:0.9rem; font-style:italic;">No tienes solicitudes pendientes.</p>';
+                        return;
+                    }
+
+                    requests.reverse().forEach(req => {
+                        const item = document.createElement('div');
+                        item.className = 'my-request-item';
+                        item.innerHTML = `
+                            <img src="${req.poster}" alt="Poster">
+                            <div class="my-request-info">
+                                <h4>${req.title}</h4>
+                                <span>${req.year} • ${req.type === 'movie' ? 'Película' : 'Serie'}</span>
+                            </div>
+                            <span class="request-status pending">PENDIENTE</span>
+                        `;
+                        myRequestsList.appendChild(item);
+                    });
+                };
+                
+                // Cargar solicitudes al iniciar
+                loadMyRequests();
+
+                // Lógica del Modal y Envío
+                const modal = document.getElementById('request-modal');
+                const closeModal = document.getElementById('close-request-modal');
+                const confirmBtn = document.getElementById('confirm-request-btn');
+                let currentRequest = {};
+
+                window.openRequestModal = (title, year, type, poster) => {
+                    currentRequest = { title, year, type };
+                    
+                    document.getElementById('modal-title').textContent = title;
+                    document.getElementById('modal-year').textContent = year;
+                    document.getElementById('modal-type').textContent = type === 'movie' ? 'PELÍCULA' : 'SERIE';
+                    document.getElementById('modal-poster').src = poster;
+                    document.getElementById('request-notes').value = ''; // Limpiar notas
+                    
+                    modal.classList.add('active');
+                };
+
+                closeModal.addEventListener('click', () => {
+                    modal.classList.remove('active');
+                });
+
+                // Cerrar al hacer clic fuera
+                modal.addEventListener('click', (e) => {
+                    if (e.target === modal) modal.classList.remove('active');
+                });
+
+                confirmBtn.addEventListener('click', () => {
+                    const userName = sessionStorage.getItem('pelix_user_name') || 'Usuario VIP';
+                    const notes = document.getElementById('request-notes').value;
+                    const userCode = sessionStorage.getItem('pelix_user_code') || 'N/A';
+
+                    confirmBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Guardando...';
+                    confirmBtn.disabled = true;
+
+                    // Crear objeto de solicitud
+                    const newRequest = {
+                        id: Date.now(),
+                        title: currentRequest.title,
+                        year: currentRequest.year,
+                        type: currentRequest.type,
+                        poster: document.getElementById('modal-poster').src,
+                        notes: notes,
+                        user: userName,
+                        date: new Date().toLocaleDateString()
+                    };
+
+                    // Guardar en LocalStorage
+                    const requests = JSON.parse(localStorage.getItem('pelix_vip_requests') || '[]');
+                    requests.push(newRequest);
+                    localStorage.setItem('pelix_vip_requests', JSON.stringify(requests));
+
+                    // Preparar mensaje para WhatsApp
+                    const adminPhone = "+525616840524"; // ⚠️ Tu número de WhatsApp
+                    const whatsappMsg = `🎬 *Nueva Solicitud VIP*\n\n👤 *Usuario:* ${userName}\n🔑 *Código:* ${userCode}\n\n📺 *Título:* ${currentRequest.title}\n📅 *Año:* ${currentRequest.year}\n🏷️ *Tipo:* ${currentRequest.type === 'movie' ? 'Película' : 'Serie'}\n📝 *Notas:* ${notes || 'Sin notas'}`;
+                    const whatsappUrl = `https://wa.me/${adminPhone}?text=${encodeURIComponent(whatsappMsg)}`;
+
+                    // Simular proceso
+                    setTimeout(() => {
+                        if(typeof showNotification === 'function') showNotification('Abriendo WhatsApp para enviar...', 'success');
+                        loadMyRequests(); // Recargar lista
+                        modal.classList.remove('active');
+                        confirmBtn.innerHTML = '<i class="fas fa-paper-plane"></i> Enviar Solicitud';
+                        confirmBtn.disabled = false;
+                        window.open(whatsappUrl, '_blank');
+                    }, 800);
+                });
+            }
         });
     </script>
 </body>

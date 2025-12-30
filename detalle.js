@@ -586,7 +586,7 @@ function displayMovieDetails(movie) {
     // Lógica para series
     if (movie.tipo === 'serie' && movie.temporadas) {
         showEpisodeNavigation(movie); // ¡CLAVE! Mostramos los botones si es una serie.
-        displayNetflixStyleSeasons(movie); // Reemplazamos la función del acordeón
+        displaySeasons(movie);
     }
 
     // --- NUEVO: Lógica mejorada para el reparto ---
@@ -809,16 +809,16 @@ function setupStarRating(movieId) {
 }
 
 /**
- * Muestra las temporadas y episodios de una serie con un diseño inspirado en Netflix.
+ * Muestra las temporadas y episodios de una serie.
  * @param {object} movie - El objeto de la serie.
  */
-function displayNetflixStyleSeasons(movie) {
-    const seriesContainer = document.querySelector('.series-episodes-container');
+function displaySeasons(movie) {
+    const seriesContainer = document.getElementById('detail-seasons-container');
     const desktopViewContainer = document.getElementById('desktop-episodes-view');
     if (!seriesContainer || !desktopViewContainer) return;
 
     // Mostrar siempre el contenedor de episodios
-    seriesContainer.parentElement.style.display = 'block';
+    seriesContainer.style.display = 'block';
     desktopViewContainer.innerHTML = `
         <div class="season-selector-header">
             <h3>Episodios</h3>
@@ -853,24 +853,19 @@ function displayNetflixStyleSeasons(movie) {
 
         sortedEpisodes.forEach(episode => {
             const episodeCard = document.createElement('div');
-            episodeCard.className = 'episode-card';
+            episodeCard.className = 'episode-item'; // Clase estándar
             episodeCard.dataset.season = seasonNumber;
             episodeCard.dataset.episode = episode.episodio;
             episodeCard.dataset.url = episode.url;
 
             episodeCard.innerHTML = `
-                <div class="episode-card-thumbnail">
-                    <img src="${episode.thumbnail || movie.backdrop_path || movie.poster}" alt="Episodio ${episode.episodio}" loading="lazy" decoding="async">
-                </div>
-                <div class="episode-card-info">
-                    <h4>${episode.episodio}. ${episode.titulo || `Episodio ${episode.episodio}`}</h4>
-                    <p>${episode.descripcion || 'Sin descripción.'}</p>
-                </div>
+                <i class="fas fa-play-circle"></i>
+                <span>Episodio ${episode.episodio}: ${episode.titulo || 'Episodio ' + episode.episodio}</span>
             `;
 
             episodeCard.addEventListener('click', () => {
                 // Remover clase activa de otras tarjetas
-                document.querySelectorAll('.episode-card').forEach(card => card.classList.remove('active'));
+                document.querySelectorAll('.episode-item').forEach(card => card.classList.remove('active'));
                 // Añadir clase activa a la tarjeta clickeada
                 episodeCard.classList.add('active');
 
@@ -921,11 +916,11 @@ function displayNetflixStyleSeasons(movie) {
         renderEpisodesForSeason(seasonToLoad);
 
         // Buscar el episodio guardado o el primero
-        let episodeToClick = episodesListContainer.querySelector('.episode-card');
+        let episodeToClick = episodesListContainer.querySelector('.episode-item');
         if (window.dataManager && window.dataManager.getContinueWatching()[movie.id]) {
             const savedData = window.dataManager.getContinueWatching()[movie.id];
             if (savedData && savedData.season == seasonToLoad && savedData.episode) {
-                const savedCard = episodesListContainer.querySelector(`.episode-card[data-episode="${savedData.episode}"]`);
+                const savedCard = episodesListContainer.querySelector(`.episode-item[data-episode="${savedData.episode}"]`);
                 if (savedCard) episodeToClick = savedCard;
             }
         }

@@ -747,10 +747,7 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
             # Reparto principal
             reparto = []
             if creditos and creditos.get('cast'):
-                reparto = [{
-                    'name': actor.get('name'),
-                    'profile_path': f"https://image.tmdb.org/t/p/w185{actor.get('profile_path')}" if actor.get('profile_path') else None
-                } for actor in creditos.get('cast', [])[:12]] # Aumentado a 12 para más riqueza visual
+                reparto = [actor.get('name') for actor in creditos.get('cast', [])[:12] if actor.get('name')]
             
             # Poster y backdrop
             poster = ""
@@ -832,10 +829,7 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
             # Reparto principal
             reparto = []
             if creditos and creditos.get('cast'):
-                reparto = [{
-                    'name': actor.get('name'),
-                    'profile_path': f"https://image.tmdb.org/t/p/w185{actor.get('profile_path')}" if actor.get('profile_path') else None
-                } for actor in creditos.get('cast', [])[:12]] # Aumentado a 12
+                reparto = [actor.get('name') for actor in creditos.get('cast', [])[:12] if actor.get('name')]
             
             # Poster y backdrop
             poster = ""
@@ -1482,7 +1476,7 @@ def gestionar_episodios(temporada):
 
 
 # --- Funciones de Menú ---
-def mostrar_menu_principal(peliculas, proximamente, cambios_pendientes=False):
+def mostrar_menu_principal(peliculas, proximamente):
     mostrar_banner()
     
     # Estadísticas
@@ -1492,9 +1486,6 @@ def mostrar_menu_principal(peliculas, proximamente, cambios_pendientes=False):
     
     print(f"\n{C.CYAN}📊 RESUMEN:{C.END}")
     print(f"  Películas: {C.GOLD}{num_peliculas}{C.END} | Series: {C.GOLD}{num_series}{C.END} | Próximamente: {C.GOLD}{len(proximamente)}{C.END}")
-    
-    if cambios_pendientes:
-        print(f"\n{C.BLINK}{C.YELLOW}⚠️  ¡TIENES CAMBIOS PENDIENTES POR GUARDAR!{C.END}")
     
     mostrar_separador(C.CYAN, 50)
     
@@ -1522,8 +1513,7 @@ def mostrar_menu_principal(peliculas, proximamente, cambios_pendientes=False):
     print(f"  19. 👑 Gestionar Usuarios VIP")
     
     print(f"\n{C.BOLD}{C.PURPLE}⚡ ACCIONES:{C.END}")
-    print(f"  {C.GREEN}S{C.END}. 💾 Guardar Cambios")
-    print(f"  {C.RED}X{C.END}. ❌ Salir sin Guardar")
+    print(f"  {C.RED}X{C.END}. ❌ Salir")
     print(f"  {C.YELLOW}C{C.END}. 🎪 Campaña Próximamente")
     print(f"  {C.ORANGE}M{C.END}. 🔧 Modo Mantenimiento")
     
@@ -1532,7 +1522,7 @@ def mostrar_menu_principal(peliculas, proximamente, cambios_pendientes=False):
     while True:
         opcion = input(f"\n{C.GOLD}🎲 Elige una opción: {C.END}").lower()
         
-        if opcion in ['s', 'x', 'c', 'm']:
+        if opcion in ['x', 'c', 'm']:
             return opcion
         
         try:
@@ -1652,7 +1642,97 @@ def seleccionar_contenido(peliculas, accion="seleccionar"):
             except ValueError:
                 print(f"{C.RED}❌ Opción no válida{C.END}")
                 time.sleep(1)
-                
+
+def _buscar_por_id_avanzado():
+    """
+    Busca contenido en TMDb usando una URL o un ID directo de TMDb o IMDb.
+    Devuelve los detalles y el tipo de contenido ('pelicula' o 'serie').
+    """
+    limpiar_pantalla()
+    print(f"{C.PURPLE}🔍 BÚSQUEDA POR URL/ID DE TMDB/IMDB{C.END}\n")
+    
+    url_o_id = input(f"{C.CYAN}🔗 Introduce la URL o el ID de TMDb/IMDb: {C.END}").strip()
+    
+    if not url_o_id:
+        print(f"{C.RED}❌ No se introdujo nada.{C.END}")
+        time.sleep(2)
+        return None, None
+        
+    tmdb_id = None
+    tipo_contenido = None
+    
+    # Estrategia 1: Detectar URL de TMDb
+    tmdb_movie_match = re.search(r'themoviedb\.org/movie/(\d+)', url_o_id)
+    tmdb_tv_match = re.search(r'themoviedb\.org/tv/(\d+)', url_o_id)
+    
+    if tmdb_movie_match:
+        tmdb_id = tmdb_movie_match.group(1)
+        tipo_contenido = 'pelicula'
+        print(f"{C.GREEN}✅ ID de película TMDb detectado: {tmdb_id}{C.END}")
+    elif tmdb_tv_match:
+        tmdb_id = tmdb_tv_match.group(1)
+        tipo_contenido = 'serie'
+        print(f"{C.GREEN}✅ ID de serie TMDb detectado: {tmdb_id}{C.END}")
+        
+    # Estrategia 2: Detectar URL o ID de IMDb
+    elif re.search(r'(tt\d+)', url_o_id):
+        imdb_id_match = re.search(r'(tt\d+)', url_o_id)
+        imdb_id = imdb_id_match.group(1)
+        print(f"{C.CYAN}🔄 Buscando ID de TMDb para IMDb ID: {imdb_id}...{C.END}")
+        
+        try:
+            find = tmdb.Find(imdb_id)
+            response = find.info(external_source='imdb_id')
+            
+            if response.get('movie_results'):
+                tmdb_id = response['movie_results'][0]['id']
+                tipo_contenido = 'pelicula'
+                print(f"{C.GREEN}✅ ID de película TMDb encontrado: {tmdb_id}{C.END}")
+            elif response.get('tv_results'):
+                tmdb_id = response['tv_results'][0]['id']
+                tipo_contenido = 'serie'
+                print(f"{C.GREEN}✅ ID de serie TMDb encontrado: {tmdb_id}{C.END}")
+            else:
+                print(f"{C.RED}❌ No se encontró contenido en TMDb para ese ID de IMDb.{C.END}")
+                time.sleep(2)
+                return None, None
+        except Exception as e:
+            print(f"{C.RED}❌ Error al buscar en TMDb con ID de IMDb: {e}{C.END}")
+            time.sleep(2)
+            return None, None
+    
+    # Estrategia 3: Asumir que es un ID numérico de TMDb
+    elif url_o_id.isdigit():
+        tmdb_id = url_o_id
+        print(f"{C.YELLOW}🤔 Asumiendo que '{tmdb_id}' es un ID de TMDb. ¿Qué tipo de contenido es?{C.END}")
+        print("  1. 🎬 Película")
+        print("  2. 📺 Serie")
+        tipo_opcion = input(f"{C.CYAN}🎲 Elige (1/2): {C.END}").strip()
+        if tipo_opcion == '2':
+            tipo_contenido = 'serie'
+        else:
+            tipo_contenido = 'pelicula'
+            
+    else:
+        print(f"{C.RED}❌ Formato de URL o ID no reconocido.{C.END}")
+        time.sleep(2)
+        return None, None
+
+    # Si tenemos un ID y tipo, obtenemos los detalles
+    if tmdb_id and tipo_contenido:
+        print(f"\n{C.CYAN}📥 Obteniendo detalles para TMDb ID {tmdb_id}...{C.END}")
+        detalles = obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido)
+        
+        if detalles and detalles.get('success'):
+            mostrar_resumen_detallado(detalles, tipo_contenido)
+            return detalles, tipo_contenido
+        else:
+            print(f"{C.RED}❌ No se pudieron obtener los detalles para el ID {tmdb_id}.{C.END}")
+            time.sleep(2)
+            return None, None
+            
+    return None, None
+
 def anadir_contenido(peliculas, proximamente):
     """Añade nuevo contenido con diferentes métodos."""
     limpiar_pantalla()
@@ -1670,44 +1750,56 @@ def anadir_contenido(peliculas, proximamente):
     print(f"  1. 🚀 Búsqueda automática con TMDb (SUPER MEJORADO)")
     print(f"  2. 🌐 Extraer desde URL")
     print(f"  3. ✍️  Añadir manualmente")
-    print(f"  4. 🔍 Buscar por URL/ID de TMDb")
+    print(f"  4. 🔍 Buscar por URL/ID de TMDb o IMDb")
     print(f"  5. ⚡ Búsqueda rápida (sin TMDb)")
     
     metodo = input(f"\n{C.CYAN}🎲 Elige método (1-5): {C.END}").strip()
     
     datos_extras = {}
+    categorias_preseleccionadas = []
     
-    if metodo == '1':
+    if metodo == '1': # Búsqueda SUPER MEJORADA en TMDb
         # Búsqueda SUPER MEJORADA en TMDb
         titulo_busqueda = input(f"\n{C.CYAN}🔍 Título a buscar: {C.END}").strip()
         if titulo_busqueda:
             datos_extras = buscar_en_tmdb_super_mejorado(titulo_busqueda, tipo) or {}
             if datos_extras:
                 print(f"\n{C.GREEN}✅ Datos obtenidos exitosamente!{C.END}")
-    
-    elif metodo == '4':
-        # Buscar por URL o ID de TMDb
-        entrada = input(f"\n{C.CYAN}🔗 URL o ID de TMDb: {C.END}").strip()
-        tmdb_id = None
+    elif metodo == '4': # Búsqueda avanzada por ID/URL
+        datos_extras, tipo_obtenido = _buscar_por_id_avanzado()
+        if not datos_extras:
+            return None # Salir si la búsqueda falló
         
-        # Intentar extraer ID si es una URL
-        match = re.search(r'/(movie|tv)/(\d+)', entrada)
+        tipo = tipo_obtenido # Actualizar el tipo de contenido global
         
-        if match:
-            tipo_detectado = match.group(1)
-            tmdb_id = match.group(2)
+        # Lógica de sugerencia de categoría
+        sugerencia_categoria = None
+        generos_tmdb = datos_extras.get('generos_lista', [])
+        if generos_tmdb:
+            generos_tmdb_norm = [unidecode(g.lower()) for g in generos_tmdb]
             
-            # Actualizar el tipo según la URL para asegurar consistencia
-            if tipo_detectado == 'movie':
-                tipo = 'pelicula'
-            elif tipo_detectado == 'tv':
-                tipo = 'serie'
-            print(f"{C.GREEN}✅ ID detectado: {tmdb_id} (Tipo: {tipo}){C.END}")
-        elif entrada.isdigit():
-            tmdb_id = entrada
-            
-        if tmdb_id:
-            datos_extras = obtener_detalles_tmdb_super_mejorado(int(tmdb_id), tipo) or {}
+            for categoria_disponible in CATEGORIAS_DISPONIBLES:
+                categoria_norm = unidecode(categoria_disponible.replace('-', ' ')).lower()
+                
+                if categoria_norm == 'anime' and 'animacion' in generos_tmdb_norm:
+                    sugerencia_categoria = categoria_disponible
+                    break
+                
+                if categoria_norm in generos_tmdb_norm:
+                    sugerencia_categoria = categoria_disponible
+                    break
+        
+        if sugerencia_categoria:
+            print(f"\n{C.CYAN}🤖 Basado en los géneros, sugiero la categoría: {C.BOLD}{C.YELLOW}{sugerencia_categoria.replace('-', ' ').title()}{C.END}")
+            respuesta = input(f"{C.YELLOW}   ¿Usar esta categoría? (s/n) [s]: {C.END}").strip().lower()
+            if respuesta in ['s', 'si', 'y', 'yes', '']:
+                categorias_preseleccionadas = [sugerencia_categoria]
+            else:
+                print(f"\n{C.CYAN}De acuerdo, selecciona manualmente.{C.END}")
+                categorias_preseleccionadas = seleccionar_categoria()
+        else:
+            print(f"\n{C.CYAN}No se pudo sugerir una categoría. Por favor, selecciona manualmente.{C.END}")
+            categorias_preseleccionadas = seleccionar_categoria()
     
     elif metodo == '5':
         # Búsqueda rápida sin TMDb
@@ -1769,7 +1861,11 @@ def anadir_contenido(peliculas, proximamente):
             return None
     
     # Categorías
-    categorias = seleccionar_categoria()
+    if categorias_preseleccionadas:
+        categorias = categorias_preseleccionadas
+        print(f"\n{C.GREEN}📂 Categorías seleccionadas: {', '.join(categorias)}{C.END}")
+    else:
+        categorias = seleccionar_categoria()
     
     # Plataforma
     print(f"\n{C.PURPLE}🖥️  PLATAFORMA:{C.END}")
@@ -3096,7 +3192,7 @@ def modo_automatico(peliculas, anadidos):
                     'genero': detalles.get('generos_lista', []),
                     'generos_lista': detalles.get('generos_lista', []),
                     'director': detalles.get('director', ''),
-                    'reparto': [actor['name'] for actor in detalles.get('reparto', [])] if detalles.get('reparto') else [],
+                    'reparto': detalles.get('reparto', []),
                     'calificacion': detalles.get('calificacion', 0),
                     'votos': detalles.get('votos', 0),
                     'idioma': detalles.get('idioma', 'ES'),
@@ -3487,11 +3583,24 @@ def gestionar_usuarios_vip():
             fecha = input(f"{C.CYAN}📅 Fecha Inicio [{fecha_hoy}]: {C.END}").strip() or fecha_hoy
             
             # Días validez
-            dias = input(f"{C.CYAN}⏳ Días de validez [30]: {C.END}").strip() or "30"
-            try:
-                dias = int(dias)
-            except:
+            print(f"\n{C.CYAN}⏳ Selecciona la duración del plan:{C.END}")
+            print("  1. 1 Mes (30 días)")
+            print("  2. 2 Meses (60 días)")
+            print("  3. 1 Año (365 días)")
+            print("  4. Personalizado")
+            
+            opcion_dias = input(f"{C.GOLD}🎲 Elige opción [1]: {C.END}").strip() or "1"
+            
+            dias = 30
+            if opcion_dias == '1':
                 dias = 30
+            elif opcion_dias == '2':
+                dias = 60
+            elif opcion_dias == '3':
+                dias = 365
+            elif opcion_dias == '4':
+                try: dias = int(input(f"{C.CYAN}⏳ Ingresa días: {C.END}").strip())
+                except: dias = 30
                 
             usuarios.append({
                 "nombre": nombre,
@@ -3562,53 +3671,21 @@ def main():
     editados = []
     eliminados = []
     
-    cambios_pendientes = False
+    def guardar_auto():
+        print(f"\n{C.CYAN}💾 Guardando cambios automáticamente...{C.END}")
+        guardar_peliculas(peliculas, crear_backup=False)
+        guardar_proximamente(proximamente)
+        guardar_base_datos(base_datos)
     
     # Bucle principal
     while True:
         try:
-            opcion = mostrar_menu_principal(peliculas, proximamente, cambios_pendientes)
+            opcion = mostrar_menu_principal(peliculas, proximamente)
             
             # Opciones de acción rápida
             if opcion == 'x':  # Salir
-                if cambios_pendientes:
-                    if confirmar_accion("⚠️  Tienes cambios sin guardar. ¿Salir de todos modos?"):
-                        print(f"\n{C.GREEN}👋 ¡Hasta luego!{C.END}")
-                        break
-                    else:
-                        continue
-                else:
-                    print(f"\n{C.GREEN}👋 ¡Hasta luego!{C.END}")
-                    break
-            
-            elif opcion == 's':  # Guardar
-                print(f"\n{C.CYAN}💾 GUARDANDO CAMBIOS...{C.END}")
-                
-                if anadidos or editados or eliminados:
-                    print(f"  ➕ {len(anadidos)} nuevos")
-                    print(f"  ✏️  {len(editados)} editados")
-                    print(f"  🗑️  {len(eliminados)} eliminados")
-                    
-                    if confirmar_accion("\n¿Guardar todos los cambios?"):
-                        # Guardar todo
-                        guardar_peliculas(peliculas)
-                        guardar_proximamente(proximamente)
-                        guardar_base_datos(base_datos)
-                        
-                        # Resetear listas
-                        anadidos.clear()
-                        editados.clear()
-                        eliminados.clear()
-                        cambios_pendientes = False
-                        
-                        print(f"{C.GREEN}✅ Todos los cambios guardados{C.END}")
-                    else:
-                        print(f"{C.YELLOW}🚫 Guardado cancelado{C.END}")
-                else:
-                    print(f"{C.YELLOW}ℹ️  No hay cambios pendientes{C.END}")
-                
-                input(f"\n{C.YELLOW}⏎ Presiona Enter...{C.END}")
-                continue
+                print(f"\n{C.GREEN}👋 ¡Hasta luego!{C.END}")
+                break
             
             elif opcion == 'c':  # Campaña próximamente
                 if os.path.exists(CAMPAIGN_FILE):
@@ -3636,62 +3713,59 @@ def main():
             elif opcion == 1:  # Añadir contenido
                 resultado = anadir_contenido(peliculas, proximamente)
                 if resultado:
-                    accion, contenido = resultado
-                    
+                    accion, contenido = resultado                    
                     if accion == 'AÑADIR':
                         peliculas[contenido['id']] = contenido
                         anadidos.append(contenido)
-                        cambios_pendientes = True
-                        print(f"{C.GREEN}✅ Añadido a cambios pendientes{C.END}")
-                    
+                        guardar_auto()
+                        input(f"\n{C.YELLOW}⏎ Presiona Enter...{C.END}")
                     elif accion == 'EDITAR':
-                        if contenido not in editados:
-                            editados.append(contenido)
-                        cambios_pendientes = True
-                        print(f"{C.GREEN}✅ Marcado para edición{C.END}")
-                
-                input(f"\n{C.YELLOW}⏎ Presiona Enter...{C.END}")
+                        print(f"\n{C.YELLOW}ℹ️  Contenido duplicado encontrado. Abriendo editor...{C.END}")
+                        time.sleep(1)
+                        editar_contenido(peliculas, editados, contenido)
+                        guardar_auto()
+                else:
+                    # Si el usuario cancela la adición, pausar antes de volver al menú
+                    input(f"\n{C.YELLOW}⏎ Presiona Enter...{C.END}")
             
             elif opcion == 2:  # Editar contenido
                 editar_contenido(peliculas, editados)
-                if editados:
-                    cambios_pendientes = True
+                guardar_auto()
             
             elif opcion == 3:  # Eliminar contenido (menú)
                 eliminar_contenido(peliculas, eliminados)
-                if eliminados:
-                    cambios_pendientes = True
+                guardar_auto()
             
             elif opcion == 4:  # BUSCAR CONTENIDO (NUEVO)
                 buscar_contenido(peliculas, editados)
-                if editados:
-                    cambios_pendientes = True
+                guardar_auto()
             
             elif opcion == 5:  # ELIMINAR DIRECTO (NUEVO)
                 eliminar_contenido_directo(peliculas, eliminados)
-                if eliminados:
-                    cambios_pendientes = True
+                guardar_auto()
             
             elif opcion == 6:  # Revisar fuentes
                 revisar_fuentes(peliculas)
+                guardar_auto()
             
             elif opcion == 7:  # Gestionar próximamente
                 gestionar_proximamente(proximamente, peliculas, anadidos)
-                cambios_pendientes = True
+                guardar_auto()
             
             elif opcion == 8:  # Gestionar borradores
                 gestionar_borradores(base_datos, peliculas, anadidos)
-                cambios_pendientes = True
+                guardar_auto()
             
             elif opcion == 9:  # Control central
                 mostrar_control_central(peliculas, editados)
+                guardar_auto()
             
             elif opcion == 10:  # Ver reportes
                 ver_reportes()
             
             elif opcion == 11:  # Marcar contenido roto
                 marcar_contenido_roto(peliculas, editados)
-                cambios_pendientes = True
+                guardar_auto()
             
             elif opcion == 12:  # Ver lanzamientos
                 ver_lanzamientos()
@@ -3701,25 +3775,23 @@ def main():
             
             elif opcion == 14:  # Herramientas avanzadas
                 herramientas_avanzadas(peliculas, editados, anadidos)
-                cambios_pendientes = True
+                guardar_auto()
             
             elif opcion == 15:  # Enviar notificación
                 enviar_notificacion()
             
             elif opcion == 16:  # Búsqueda rápida TMDb
                 if busqueda_rapida_tmdb(peliculas, anadidos):
-                    cambios_pendientes = True
+                    guardar_auto()
                 input(f"\n{C.YELLOW}⏎ Presiona Enter para continuar...{C.END}")
             
             elif opcion == 17:  # Modo Automático
                 modo_automatico(peliculas, anadidos)
-                if anadidos:
-                    cambios_pendientes = True
+                guardar_auto()
             
             elif opcion == 18:  # Buscador Fuentes Faltantes
                 buscador_fuentes_faltantes(peliculas, editados)
-                if editados:
-                    cambios_pendientes = True
+                guardar_auto()
             
             elif opcion == 19:  # Gestionar Usuarios VIP
                 gestionar_usuarios_vip()
@@ -3730,11 +3802,6 @@ def main():
         
         except KeyboardInterrupt:
             print(f"\n\n{C.YELLOW}⚠️  Interrupción detectada{C.END}")
-            if cambios_pendientes:
-                if confirmar_accion("¿Quieres guardar los cambios antes de salir?"):
-                    guardar_peliculas(peliculas)
-                    guardar_proximamente(proximamente)
-                    guardar_base_datos(base_datos)
             print(f"\n{C.GREEN}👋 ¡Hasta luego!{C.END}")
             break
         

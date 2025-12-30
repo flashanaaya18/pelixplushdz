@@ -593,6 +593,391 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Fritos a balazos",
+    "titulo_original": "Guns Up",
+    "poster": "https://image.tmdb.org/t/p/w500/hEF0Fjzx5EgA0X1ECa7POLVySDZ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/1KwliRKTw61fRGmbG4Sf8eWOHP.jpg",
+    "descripcion": "Cuando un trabajo sale terriblemente mal, un ex policía y hombre de familia que trabaja como secuaz de la mafia tiene una noche para sacar a su familia de la ciudad.",
+    "año": 2025,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "comedia",
+      "crimen"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Comedia",
+      "Crimen"
+    ],
+    "director": "Edward Drake",
+    "reparto": [
+      {
+        "name": "Kevin James",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nSLuzz4KoycSP5vyUsdju3y4Xtw.jpg"
+      },
+      {
+        "name": "Christina Ricci",
+        "profile_path": "https://image.tmdb.org/t/p/w185/dzB58d6fNrTEi7nBAU1tySJc2at.jpg"
+      },
+      {
+        "name": "Luis Guzmán",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kSdxUckOJj9R5VKrLUnRy14YhNV.jpg"
+      },
+      {
+        "name": "Joey Diaz",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8hkioEFKpy2Dt1WqIrmb5ELOnBV.jpg"
+      },
+      {
+        "name": "Melissa Leo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tKNTvhmuO7FZMYYgRrZB6k8FT5K.jpg"
+      },
+      {
+        "name": "Timothy V. Murphy",
+        "profile_path": "https://image.tmdb.org/t/p/w185/4WMz4UUMeexgP1ddfC2j7pqf8hU.jpg"
+      },
+      {
+        "name": "Solomon Hughes",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zTMsW7G1USz9Jkcgj7TZAxYSzsm.jpg"
+      },
+      {
+        "name": "Francis Cronin",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3RVCnkcTmS48WDwtou1L9IuXCkB.jpg"
+      },
+      {
+        "name": "Maximilian Osinski",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wMRtFsZSR9FvYj1wzsziKQqpZ0C.jpg"
+      },
+      {
+        "name": "Miroslav Barnyashev",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kZmy5vIJWy2J8jXd7hzXfSvsTJ8.jpg"
+      },
+      {
+        "name": "Keana Marie",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lxqkL4fQZMFpWs2VpeMYejUieV0.jpg"
+      },
+      {
+        "name": "Leo Easton Kelly",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7K7h9NjJNPynqFBRc0NOjJufYIa.jpg"
+      }
+    ],
+    "calificacion": 6.6,
+    "votos": 150,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-28T22:00:52.132804",
+    "tmdb_id": 1181540,
+    "popularidad": 13.28,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=COl8468P5C8",
+    "success": true,
+    "duracion": "92 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$198,534",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://habetar.com/e/5orer8n41r66",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "fritos-a-balazos-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Homo Argentum",
+    "titulo_original": "Homo Argentum",
+    "poster": "https://image.tmdb.org/t/p/w500/21WlZtv1GZgiD2qAVHOkg63LRmU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2fwoBrUYMK0PZVaFqesx2CoRF6H.jpg",
+    "descripcion": "La película consta de 16 mini películas que exploran, con humor y critica social, las características de la identidad argentina.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Mariano Cohn",
+    "reparto": [
+      {
+        "name": "Guillermo Francella",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tqHvc1MaEzZHp52EeOagmBzaTn8.jpg"
+      },
+      {
+        "name": "Clara Kovacic",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fr8nJr5E9X2QCI6gsKlCOxYackq.jpg"
+      },
+      {
+        "name": "Eva De Dominici",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kXiYg1h1iTBkZeig1511iroEkKe.jpg"
+      },
+      {
+        "name": "Miguel Granados",
+        "profile_path": "https://image.tmdb.org/t/p/w185/durUoG20kNq7HzyNgnPKmJfJTel.jpg"
+      },
+      {
+        "name": "Graciela Stefani",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xRcyQM9CBBJcDmrgyPxSL66LCZI.jpg"
+      },
+      {
+        "name": "Bruno Rondini",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eIExrQtLXVAbVuhsjAddUSlR9cE.jpg"
+      },
+      {
+        "name": "Jonathan Bogado",
+        "profile_path": "https://image.tmdb.org/t/p/w185/liOMlj50K8OrPkA38DKlK5Pl2QU.jpg"
+      },
+      {
+        "name": "Guillermo Arengo",
+        "profile_path": "https://image.tmdb.org/t/p/w185/qXIlj1TSV6YLb67xhPwxv6eAdzL.jpg"
+      },
+      {
+        "name": "Milo J",
+        "profile_path": "https://image.tmdb.org/t/p/w185/t562SbCSyKol89E99mT06Nlaw1p.jpg"
+      },
+      {
+        "name": "Dalma Maradona",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lscE8lWrpsjiNlOsJ6u2FiAlozX.jpg"
+      },
+      {
+        "name": "Juan Luppi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cfJbRMstYNBkUvdV0ls4IIUThyY.jpg"
+      },
+      {
+        "name": "Vanesa González",
+        "profile_path": "https://image.tmdb.org/t/p/w185/4LBsqc09A0CrM4Z6ujxtLzrVLvQ.jpg"
+      }
+    ],
+    "calificacion": 5.5,
+    "votos": 11,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-28T21:58:17.281227",
+    "tmdb_id": 1471345,
+    "popularidad": 14.27,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "98 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$16,870",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filemoon.to/e/nnegzppaaom1",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "homo-argentum-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "La acompañante",
+    "titulo_original": "Companion",
+    "poster": "https://image.tmdb.org/t/p/w500/nyloao2GWttUvS7KVcEM2eSDwUn.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/cZnJ3ABPvsWGqwPcu06Eda493F9.jpg",
+    "descripcion": "La muerte de un multimillonario desencadena una serie de acontecimientos para Iris y sus amigos durante un viaje de fin de semana a su finca junto al lago.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "terror",
+      "ciencia ficción",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Ciencia ficción",
+      "Suspense"
+    ],
+    "director": "Drew Hancock",
+    "reparto": [
+      {
+        "name": "Sophie Thatcher",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rUEPZaDxFdDGM76t4g6cYa8Ru7b.jpg"
+      },
+      {
+        "name": "Jack Quaid",
+        "profile_path": "https://image.tmdb.org/t/p/w185/320qW5yEbxpmyxQ3evmClJbtKag.jpg"
+      },
+      {
+        "name": "Lukas Gage",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sftjB0MjD92meZqnL9OLtcTI02d.jpg"
+      },
+      {
+        "name": "Megan Suri",
+        "profile_path": "https://image.tmdb.org/t/p/w185/krZBtMPTqVvteqYFXbAU6nnQShy.jpg"
+      },
+      {
+        "name": "Harvey Guillén",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yiNBonobPwqMVweB02JWufzp2l9.jpg"
+      },
+      {
+        "name": "Rupert Friend",
+        "profile_path": "https://image.tmdb.org/t/p/w185/a3HeMHmlXnoRlHLX9h31ZdZgCXM.jpg"
+      },
+      {
+        "name": "Jaboukie Young-White",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8OYI8OqsMUpBZica4lM2odjgVH6.jpg"
+      },
+      {
+        "name": "Matthew J. McCarthy",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eHKjDZPdHTz5lV1UySfMdRqMrH6.jpg"
+      },
+      {
+        "name": "Marc Menchaca",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fL0LmdBwau30M4AFPVJrpLRXXsU.jpg"
+      },
+      {
+        "name": "Woody Fu",
+        "profile_path": "https://image.tmdb.org/t/p/w185/305m52CIr9Jtb1whdc5i1Lx2iEd.jpg"
+      },
+      {
+        "name": "Ashley Lambert",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ucsdNz1pdVWwRFwf4dtjfaXE8nR.jpg"
+      }
+    ],
+    "calificacion": 7.0,
+    "votos": 1949,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T18:33:34.125441",
+    "tmdb_id": 1084199,
+    "popularidad": 22.21,
+    "tagline": "Encuentra a alguien hecho solo para ti",
+    "trailer": "https://www.youtube.com/watch?v=a6Yik2WLJL0",
+    "success": true,
+    "duracion": "97 min",
+    "presupuesto": "$10,000,000",
+    "ingresos": "$36,809,101",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://goodstream.one/embed-de64zpxwnlgd.html",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "la-acompanante-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "La asistenta",
+    "titulo_original": "The Housemaid",
+    "poster": "https://image.tmdb.org/t/p/w500/A6S15iqfHpoit02leDfDVnpklys.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/sK3z0Naed3H1Wuh7a21YRVMxYqt.jpg",
+    "descripcion": "Millie es una joven que, tras perder su trabajo, acepta un puesto como sirvienta en la lujosa pero inquietante mansión de los Winchester. Pronto se da cuenta de que algo no está bien en la casa y con sus habitantes, especialmente con Nina, la dueña, que actúa de manera errática.",
+    "año": 2025,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "misterio",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Misterio",
+      "Suspense"
+    ],
+    "director": "Paul Feig",
+    "reparto": [
+      {
+        "name": "Sydney Sweeney",
+        "profile_path": "https://image.tmdb.org/t/p/w185/uDnIdU4KGjQg7liFvb9wnALvg95.jpg"
+      },
+      {
+        "name": "Amanda Seyfried",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gtBUIpZ3dvLpOMIVORxE6sHSyZj.jpg"
+      },
+      {
+        "name": "Brandon Sklenar",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1f1NMi0IYL5p1BHVyV9IoYcwzJt.jpg"
+      },
+      {
+        "name": "Elizabeth Perkins",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vTWYllD9V76rgv9XAbtkkjjeunG.jpg"
+      },
+      {
+        "name": "Michele Morrone",
+        "profile_path": "https://image.tmdb.org/t/p/w185/saKjzGAuw8Fiutlv9LweLjAti0Z.jpg"
+      },
+      {
+        "name": "Indiana Elle",
+        "profile_path": "https://image.tmdb.org/t/p/w185/d9Bk6BWiPmWIx1Ssx36GqReFjQJ.jpg"
+      },
+      {
+        "name": "Arabella Olivia Clark",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bwTovaznMIXo9Je01soHBCzmFxn.jpg"
+      },
+      {
+        "name": "Megan Ferguson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eBhtfrvBa9RyQgf52sf1E3jx524.jpg"
+      },
+      {
+        "name": "Ellen Tamaki",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kQGqxMmGdpGTvBJEy3gWvMf1fKO.jpg"
+      },
+      {
+        "name": "Amanda Joy Erickson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3BieG0s7lddZr8wsNF6Rwfrz9Tm.jpg"
+      },
+      {
+        "name": "Alaina Surgener",
+        "profile_path": "https://image.tmdb.org/t/p/w185/aNBcrN9GlK51ZajUbnaIKJcbW4L.jpg"
+      },
+      {
+        "name": "Mark Grossman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/qqhVuD9QliiutCBIaploq6qmYFT.jpg"
+      }
+    ],
+    "calificacion": 7.8,
+    "votos": 87,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T18:00:58.013483",
+    "tmdb_id": 1368166,
+    "popularidad": 94.18,
+    "tagline": "Todos escondemos secretos",
+    "trailer": "https://www.youtube.com/watch?v=IMrebLqjVVQ",
+    "success": true,
+    "duracion": "131 min",
+    "presupuesto": "$35,000,000",
+    "ingresos": "$65,000,000",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://hlswish.com/e/rj7kbi7xs96f",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "la-asistenta-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "La sospecha de Sofía",
     "titulo_original": "La sospecha de Sofía",
     "poster": "https://image.tmdb.org/t/p/w500/jt6mm0nqYdn6UFEGoEEI4Xt3VMi.jpg",
@@ -659,6 +1044,82 @@ const peliculas3 = [
       }
     ],
     "id": "la-sospecha-de-sofia-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Las Bravas FC",
+    "titulo_original": "Las Bravas FC",
+    "poster": "https://image.tmdb.org/t/p/w500/45gWJBV1JNbiP4nIPjb8oFYSjv.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zZAflgG2OmwyZfUn7UQSCZVHWYT.jpg",
+    "descripcion": "La serie nos narra una historia donde el fútbol servirá como metáfora para narrar la historia poderosa y valiente de una ex estrella del fútbol internacional y el reencuentro con sus raíces. Junto a él, un grupo de amigas que descubre su valor dentro y fuera de la cancha y un pueblo orgulloso de su identidad que encuentra en el deporte una manera de reconocerse.",
+    "año": 2022,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Drama"
+    ],
+    "director": "",
+    "reparto": [
+      {
+        "name": "Mauricio Ochmann",
+        "profile_path": "https://image.tmdb.org/t/p/w185/h5NuTsPV9HdsjPSuBG4vZtvKtlF.jpg"
+      },
+      {
+        "name": "Ana Valeria Becerril",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8cVagyeVRxvsXZYUfFgkCMLdBkT.jpg"
+      }
+    ],
+    "calificacion": 8.3,
+    "votos": 66,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-28T00:07:56.451866",
+    "tmdb_id": 197549,
+    "popularidad": 1.19,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/fe54zlb88oa9",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/k5tikl7wxmez",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/4rt080ska9ky",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 16,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2024-11-21",
+    "id": "las-bravas-fc-2022"
   },
   {
     "tipo": "serie",
@@ -1309,6 +1770,103 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Oppenheimer",
+    "titulo_original": "Oppenheimer",
+    "poster": "https://image.tmdb.org/t/p/w500/5t05uhX5ULn8Um2f1ZuznVvIffU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ycnO0cjsAROSGJKuMODgRtWsHQw.jpg",
+    "descripcion": "Película sobre el físico J. Robert Oppenheimer y su papel como desarrollador de la bomba atómica. Basada en el libro 'American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer' de Kai Bird y Martin J. Sherwin.",
+    "año": 2023,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "historia"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Historia"
+    ],
+    "director": "Christopher Nolan",
+    "reparto": [
+      {
+        "name": "Cillian Murphy",
+        "profile_path": "https://image.tmdb.org/t/p/w185/llkbyWKwpfowZ6C8peBjIV9jj99.jpg"
+      },
+      {
+        "name": "Emily Blunt",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5nCSG5TL1bP1geD8aaBfaLnLLCD.jpg"
+      },
+      {
+        "name": "Matt Damon",
+        "profile_path": "https://image.tmdb.org/t/p/w185/At3JgvaNeEN4Z4ESKlhhes85Xo3.jpg"
+      },
+      {
+        "name": "Robert Downey Jr.",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+      },
+      {
+        "name": "Florence Pugh",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6EpDNiVqB2Mao3mHm4kYw09ufHk.jpg"
+      },
+      {
+        "name": "Josh Hartnett",
+        "profile_path": "https://image.tmdb.org/t/p/w185/dCfu2EN7FjISACcjilaJu7evwEc.jpg"
+      },
+      {
+        "name": "Casey Affleck",
+        "profile_path": "https://image.tmdb.org/t/p/w185/304ilSygaCRWykoBWAL67TOw8g9.jpg"
+      },
+      {
+        "name": "Rami Malek",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ewr46CGOdsx5NzAJdIzEBz2yIQh.jpg"
+      },
+      {
+        "name": "Kenneth Branagh",
+        "profile_path": "https://image.tmdb.org/t/p/w185/AbCqqFxNi5w3nDUFdQt0DGMFh5H.jpg"
+      },
+      {
+        "name": "Benny Safdie",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9tp4PLNyYPNfCJOWBXPPalWIpnq.jpg"
+      },
+      {
+        "name": "Jason Clarke",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ma1BPr7pjzgxmYkHFlkMJLQDPC5.jpg"
+      },
+      {
+        "name": "Dylan Arnold",
+        "profile_path": "https://image.tmdb.org/t/p/w185/aeEErE7FcRbGkpxRRkGVdObB7j1.jpg"
+      }
+    ],
+    "calificacion": 8.0,
+    "votos": 11108,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T18:42:58.710562",
+    "tmdb_id": 872585,
+    "popularidad": 23.45,
+    "tagline": "El mundo cambia para siempre.",
+    "trailer": "https://www.youtube.com/watch?v=JpUd4BS7yI0",
+    "success": true,
+    "duracion": "181 min",
+    "presupuesto": "$100,000,000",
+    "ingresos": "$952,000,000",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filelions.to/v/ar8939xiae8f",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "oppenheimer-2023"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Otec",
     "titulo_original": "Otec",
     "poster": "https://image.tmdb.org/t/p/w500/qz4e1LLeRKk74a0Pyfqvb8zQlJe.jpg",
@@ -1403,6 +1961,101 @@ const peliculas3 = [
     "id": "otec-2025"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "Popeye the Slayer Man",
+    "titulo_original": "Popeye the Slayer Man",
+    "poster": "https://image.tmdb.org/t/p/w500/nVwu3mN7hr1yF467pGct3yQFM41.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xkjWiRQtrenqGRWO2Enry2JIl4d.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror"
+    ],
+    "generos_lista": [
+      "Terror"
+    ],
+    "director": "Robert Michael Ryan",
+    "reparto": [
+      {
+        "name": "Sean Michael Conway",
+        "profile_path": "https://image.tmdb.org/t/p/w185/f9g4ROAvvwBLVFG2i013eYC7FOd.jpg"
+      },
+      {
+        "name": "Elena Juliano",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ufZLH3gUeTfNVumjak9w8QVq1Db.jpg"
+      },
+      {
+        "name": "Jason Robert Stephens",
+        "profile_path": null
+      },
+      {
+        "name": "Mabel Thomas",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xa9eIcl4dnKf3w3PHRvsb1Z4v3f.jpg"
+      },
+      {
+        "name": "Marie-Louise Boisnier",
+        "profile_path": "https://image.tmdb.org/t/p/w185/k4368chglwYVKQmhUcIsKcWO1Cy.jpg"
+      },
+      {
+        "name": "Jeff Thomas",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lJzE0V3ixWpshVpSH2HnmbnY2Ln.jpg"
+      },
+      {
+        "name": "Steven McCormack",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1SiwS8DHHLsvRqFOIGRpeQkWY1S.jpg"
+      },
+      {
+        "name": "Clayton Turner",
+        "profile_path": null
+      },
+      {
+        "name": "Paul Konye",
+        "profile_path": null
+      },
+      {
+        "name": "Angela Relucio",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xcSe2K9NPrUQ6EIIQZET5ci9Wjo.jpg"
+      },
+      {
+        "name": "Rich Lounello",
+        "profile_path": "https://image.tmdb.org/t/p/w185/d9DtY0YQfCw2ezJkBfoJK5Zl2Gx.jpg"
+      },
+      {
+        "name": "Scott Swope",
+        "profile_path": "https://image.tmdb.org/t/p/w185/p8layN9F0PUtSinpUc7ZMwAccFs.jpg"
+      }
+    ],
+    "calificacion": 5.7,
+    "votos": 144,
+    "idioma": "subtitulado",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-28T22:27:41.616061",
+    "tmdb_id": 1388366,
+    "popularidad": 5.68,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "88 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://streamwish.to/e/geckkf40tf8i",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "popeye-the-slayer-man-2025"
+  },
+  {
     "tipo": "serie",
     "titulo": "Rompehielos",
     "titulo_original": "",
@@ -1483,6 +2136,105 @@ const peliculas3 = [
     "episodios": 0,
     "tipo_serie": "Serie",
     "id": "rompehielos-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Santastein",
+    "titulo_original": "Santastein",
+    "poster": "https://image.tmdb.org/t/p/w500/zUY57i43vmIbp7xod8BdE3MxQ0c.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/atwY0qa1ZK5ZmDR7E943xiYG9a4.jpg",
+    "descripcion": "",
+    "año": 2024,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "comedia",
+      "fantasía"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Comedia",
+      "Fantasía"
+    ],
+    "director": "Benjamin Edelman",
+    "reparto": [
+      {
+        "name": "Jared Korotkin",
+        "profile_path": null
+      },
+      {
+        "name": "Ophelia Rivera",
+        "profile_path": null
+      },
+      {
+        "name": "Michael Vitovich",
+        "profile_path": null
+      },
+      {
+        "name": "Kaylie Heyner",
+        "profile_path": "https://image.tmdb.org/t/p/w185/voqG3qg8FeWbut6kOFv1u8kqmHA.jpg"
+      },
+      {
+        "name": "Damien Edwards",
+        "profile_path": null
+      },
+      {
+        "name": "Heather Fisch",
+        "profile_path": null
+      },
+      {
+        "name": "Fernando Morales",
+        "profile_path": null
+      },
+      {
+        "name": "Leo Pereira",
+        "profile_path": null
+      },
+      {
+        "name": "Claire Veater",
+        "profile_path": null
+      },
+      {
+        "name": "Maisy Kay",
+        "profile_path": null
+      },
+      {
+        "name": "Rafa Llama",
+        "profile_path": null
+      },
+      {
+        "name": "Alejandro Sevilla",
+        "profile_path": null
+      }
+    ],
+    "calificacion": 4.7,
+    "votos": 7,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-29T17:40:42.573317",
+    "tmdb_id": 1015539,
+    "popularidad": 86.14,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "88 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/h8j7cdowu2ae",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "santastein-2024"
   },
   {
     "tipo": "serie",

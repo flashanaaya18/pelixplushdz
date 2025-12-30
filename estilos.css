@@ -2673,6 +2673,170 @@ body.compact-mode .movie-grid-full {
      }
  }
 
+/* =========================================
+   NUEVAS ANIMACIONES DE ENTRADA (SENIOR)
+   ========================================= */
+
+/* --- 1. PORTAL LUMÍNICO (Para Lanzamientos) --- */
+.portal-container {
+    position: fixed;
+    inset: 0;
+    z-index: 31000;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+}
+
+.portal-ring {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* Borde brillante con gradiente cónico */
+    background: conic-gradient(from 0deg, transparent 0%, var(--primary) 50%, transparent 100%);
+    filter: blur(8px);
+    opacity: 0;
+    transform: scale(0);
+    animation: portalExpand 1.4s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+    will-change: transform, opacity;
+}
+
+/* Máscara interna para crear el efecto de anillo */
+.portal-ring::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #000;
+    border-radius: 50%;
+}
+
+.portal-content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.portal-item {
+    opacity: 0;
+    transform: translateY(40px);
+    filter: blur(5px);
+    animation: portalFadeInUp 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+    will-change: transform, opacity, filter;
+}
+
+.portal-item:nth-child(1) { animation-delay: 0.6s; } /* Icono */
+.portal-item:nth-child(2) { animation-delay: 0.75s; } /* Título */
+.portal-item:nth-child(3) { animation-delay: 0.9s; } /* Subtítulo */
+
+@keyframes portalExpand {
+    0% { transform: rotate(0deg) scale(0.5); opacity: 0; }
+    30% { opacity: 1; }
+    100% { transform: rotate(180deg) scale(30); opacity: 0; }
+}
+
+@keyframes portalFadeInUp {
+    to { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+
+/* --- 2. CINEMÁTICA (Para Series) --- */
+.cinematic-container {
+    position: fixed;
+    inset: 0;
+    z-index: 31000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none; /* Permitir clic tras animación */
+}
+
+.curtain-panel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 51%; /* Ligero solapamiento */
+    background: #0a0a0a;
+    z-index: 5;
+    will-change: transform;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.curtain-left {
+    left: 0;
+    justify-content: flex-end;
+    border-right: 1px solid #333;
+    animation: curtainSlideLeft 1.2s cubic-bezier(0.8, 0, 0.2, 1) forwards 1.4s;
+}
+
+.curtain-right {
+    right: 0;
+    justify-content: flex-start;
+    border-left: 1px solid #333;
+    animation: curtainSlideRight 1.2s cubic-bezier(0.8, 0, 0.2, 1) forwards 1.4s;
+}
+
+.cinematic-text-wrapper {
+    position: fixed;
+    z-index: 10;
+    text-align: center;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.typewriter-text {
+    font-family: 'Courier New', monospace;
+    font-size: 3rem;
+    font-weight: 900;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid var(--primary);
+    width: 0;
+    margin: 0 auto;
+    letter-spacing: -1px;
+    animation: 
+        typing 0.8s steps(12, end) forwards 0.3s,
+        blinkCaret 0.75s step-end infinite;
+}
+
+.cinematic-underline {
+    height: 4px;
+    background: var(--primary);
+    width: 0;
+    margin: 15px auto 0;
+    border-radius: 2px;
+    animation: lineDraw 0.6s ease-out forwards 1.1s;
+}
+
+/* Desvanecer texto antes de abrir cortinas */
+.cinematic-text-wrapper.fade-out {
+    animation: fadeOutQuick 0.3s ease forwards 1.3s;
+}
+
+@keyframes curtainSlideLeft { to { transform: translateX(-100%); } }
+@keyframes curtainSlideRight { to { transform: translateX(100%); } }
+@keyframes typing { to { width: 100%; } }
+@keyframes blinkCaret { from, to { border-color: transparent; } 50% { border-color: var(--primary); } }
+@keyframes lineDraw { to { width: 100%; } }
+@keyframes fadeOutQuick { to { opacity: 0; transform: translate(-50%, -50%) scale(0.95); } }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .typewriter-text { font-size: 1.8rem; border-right-width: 3px; }
+    .portal-item h1 { font-size: 2rem; }
+    .portal-ring { width: 100px; height: 100px; }
+}
+
 /* NOTIFICACIONES */
 .notifications-dropdown {
     position: relative;
