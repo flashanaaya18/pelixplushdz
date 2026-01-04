@@ -158,7 +158,7 @@ VIP_USERS_FILE = 'codigos_vip.json'
 CONTENT_TYPES = {'1': 'pelicula', '2': 'serie'}
 CATEGORIAS_DISPONIBLES = [
     "lanzamientos-recientes", "series", "todo-lo-nuevo-2025", "accion", "drama", 
-    "comedia", "aventura", "terror", "anime", "documental", "populares",
+    "comedia", "aventura", "terror", "romance", "ciencia-ficcion", "suspenso", "anime", "documental", "populares",
     "naruto", "dragon ball", "one piece", "animes-populares"
 ]
 PLATAFORMAS_DISPONIBLES = [
@@ -1511,6 +1511,7 @@ def mostrar_menu_principal(peliculas, proximamente):
     print(f"  17. 🤖 Modo Automático (Masivo)")
     print(f"  18. 🔍 Buscador de Fuentes Faltantes")
     print(f"  19. 👑 Gestionar Usuarios VIP")
+    print(f"  20. 🌟 Gestionar Destacados (script.js)")
     
     print(f"\n{C.BOLD}{C.PURPLE}⚡ ACCIONES:{C.END}")
     print(f"  {C.RED}X{C.END}. ❌ Salir")
@@ -1527,7 +1528,7 @@ def mostrar_menu_principal(peliculas, proximamente):
         
         try:
             opcion_num = int(opcion)
-            if 1 <= opcion_num <= 19:
+            if 1 <= opcion_num <= 20:
                 return opcion_num
         except ValueError:
             pass
@@ -1867,21 +1868,7 @@ def anadir_contenido(peliculas, proximamente):
     else:
         categorias = seleccionar_categoria()
     
-    # Plataforma
-    print(f"\n{C.PURPLE}🖥️  PLATAFORMA:{C.END}")
-    for i, plat in enumerate(PLATAFORMAS_DISPONIBLES, 1):
-        print(f"  {i}. {plat.title()}")
-    
-    plataforma_idx = input(f"\n{C.CYAN}🎲 Plataforma (0 para omitir): {C.END}").strip()
     plataforma = None
-    
-    try:
-        if plataforma_idx != '0':
-            idx = int(plataforma_idx) - 1
-            if 0 <= idx < len(PLATAFORMAS_DISPONIBLES):
-                plataforma = PLATAFORMAS_DISPONIBLES[idx]
-    except ValueError:
-        pass
     
     # Crear objeto de contenido
     año_valor = datos_extras.get('año', datetime.now().year)
@@ -3656,6 +3643,129 @@ def gestionar_usuarios_vip():
             except ValueError:
                 pass
 
+def gestionar_destacados():
+    """Gestiona la lista de destacados en script.js."""
+    limpiar_pantalla()
+    print(f"{C.PURPLE}🌟 GESTIONAR DESTACADOS (script.js){C.END}\n")
+    
+    entrada = input(f"{C.CYAN}🔗 Introduce Título, URL o ID de TMDb/IMDb: {C.END}").strip()
+    if not entrada: return
+
+    tmdb_id = None
+    tipo_contenido = 'pelicula'
+    detalles = None
+
+    # 1. Intentar detectar si es URL o ID
+    if 'themoviedb.org/movie/' in entrada:
+        match = re.search(r'movie/(\d+)', entrada)
+        if match: 
+            tmdb_id = match.group(1)
+    elif 'themoviedb.org/tv/' in entrada:
+        match = re.search(r'tv/(\d+)', entrada)
+        if match: 
+            tmdb_id = match.group(1)
+            tipo_contenido = 'serie'
+    elif 'imdb.com/title/' in entrada or (entrada.startswith('tt') and entrada[2:].isdigit()):
+        imdb_id = re.search(r'(tt\d+)', entrada).group(1) if 'imdb.com' in entrada else entrada
+        try:
+            find = tmdb.Find(imdb_id)
+            response = find.info(external_source='imdb_id')
+            if response.get('movie_results'):
+                tmdb_id = response['movie_results'][0]['id']
+            elif response.get('tv_results'):
+                tmdb_id = response['tv_results'][0]['id']
+                tipo_contenido = 'serie'
+        except Exception as e:
+            print(f"{C.RED}Error buscando IMDb ID: {e}{C.END}")
+    elif entrada.isdigit():
+        tmdb_id = entrada
+        print(f"{C.YELLOW}Asumiendo ID numérico.{C.END}")
+        t = input(f"{C.CYAN}Tipo (1=Peli, 2=Serie) [1]: {C.END}").strip()
+        if t == '2': tipo_contenido = 'serie'
+
+    # 2. Obtener detalles (ya sea por ID o por búsqueda)
+    if tmdb_id:
+        print(f"{C.CYAN}🔄 Obteniendo datos de TMDb (ID: {tmdb_id})...{C.END}")
+        detalles = obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido)
+    else:
+        # Si no se detectó ID, asumir búsqueda por título
+        print(f"\n{C.CYAN}🔍 Buscando '{entrada}' en TMDb...{C.END}")
+        t = input(f"{C.CYAN}Tipo (1=Peli, 2=Serie) [1]: {C.END}").strip()
+        tipo_busqueda = 'serie' if t == '2' else 'pelicula'
+        
+        # Usar la función de búsqueda interactiva
+        detalles = buscar_en_tmdb_super_mejorado(entrada, tipo_busqueda)
+
+    if not detalles or not detalles.get('success'):
+        print(f"{C.RED}❌ No se pudo obtener información válida.{C.END}")
+        time.sleep(2)
+        return
+
+    titulo = detalles.get('titulo', 'Sin título')
+    trailer_url = detalles.get('trailer', '')
+    youtube_id = ""
+
+    # Extraer ID de YouTube
+    if trailer_url:
+        if 'v=' in trailer_url:
+            youtube_id = trailer_url.split('v=')[1].split('&')[0]
+        elif 'embed/' in trailer_url:
+            youtube_id = trailer_url.split('embed/')[1].split('?')[0]
+        elif 'youtu.be/' in trailer_url:
+            youtube_id = trailer_url.split('youtu.be/')[1].split('?')[0]
+
+    print(f"\n{C.GREEN}✅ Datos encontrados:{C.END}")
+    print(f"  Título: {C.BOLD}{titulo}{C.END}")
+    print(f"  Trailer URL: {trailer_url}")
+    print(f"  YouTube ID: {C.BOLD}{youtube_id}{C.END}")
+
+    if not youtube_id:
+        print(f"\n{C.YELLOW}⚠️  No se encontró ID de YouTube automáticamente.{C.END}")
+        youtube_id = input(f"{C.CYAN}Introduce el ID de YouTube manualmente: {C.END}").strip()
+
+    if not youtube_id:
+        print(f"{C.RED}❌ Se requiere un ID de YouTube.{C.END}")
+        time.sleep(2)
+        return
+
+    nuevo_item_str = f'    {{ nombre: "{titulo}", youtubeId: "{youtube_id}" }}'
+    
+    if confirmar_accion(f"\n¿Añadir '{titulo}' a destacados en script.js?"):
+        try:
+            ruta_script = 'script.js'
+            if not os.path.exists(ruta_script):
+                print(f"{C.RED}❌ No se encuentra script.js{C.END}")
+                return
+
+            with open(ruta_script, 'r', encoding='utf-8') as f:
+                contenido = f.read()
+
+            # Buscar la lista de destacados
+            patron = r'(const destacados\s*=\s*\[)(.*?)(\];)'
+            match = re.search(patron, contenido, re.DOTALL)
+
+            if match:
+                inicio, cuerpo, fin = match.groups()
+                cuerpo = cuerpo.rstrip()
+                
+                # Añadir coma si no está vacía y no termina en coma
+                if cuerpo.strip() and not cuerpo.strip().endswith(','):
+                    cuerpo += ','
+                
+                nuevo_contenido = contenido.replace(match.group(0), f"{inicio}{cuerpo}\n{nuevo_item_str}\n{fin}")
+                
+                with open(ruta_script, 'w', encoding='utf-8') as f:
+                    f.write(nuevo_contenido)
+                
+                print(f"{C.GREEN}✅ script.js actualizado exitosamente.{C.END}")
+            else:
+                print(f"{C.RED}❌ No se encontró la constante 'destacados' en script.js{C.END}")
+
+        except Exception as e:
+            print(f"{C.RED}❌ Error al editar el archivo: {e}{C.END}")
+    
+    input(f"\n{C.YELLOW}⏎ Presiona Enter para continuar...{C.END}")
+
 # --- Función principal ---
 def main():
     """Función principal del programa."""
@@ -3795,6 +3905,9 @@ def main():
             
             elif opcion == 19:  # Gestionar Usuarios VIP
                 gestionar_usuarios_vip()
+            
+            elif opcion == 20:  # Gestionar Destacados
+                gestionar_destacados()
             
             else:
                 print(f"{C.RED}❌ Opción no reconocida{C.END}")

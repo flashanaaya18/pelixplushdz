@@ -428,6 +428,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // --- Variables y Elementos del DOM ---
     const hamburgerBtn = document.getElementById('hamburger-btn');
     const sideMenu = document.getElementById('side-menu');
+    const menuOverlay = document.getElementById('menu-overlay'); // Referencia al overlay
 
     // Aplicar fondo global al menú lateral (para que salga en todas las páginas)
     if (sideMenu) {
@@ -458,20 +459,25 @@ document.addEventListener('DOMContentLoaded', async () => {
         const closeSideMenuBtn = document.getElementById('close-side-menu-btn');
         const toggleMenu = (e) => {
             e.stopPropagation();
-            sideMenu.classList.toggle('open');
+            sideMenu.classList.toggle('active'); // Usar 'active' para coincidir con CSS
+            if (menuOverlay) menuOverlay.classList.toggle('active');
             hamburgerBtn.classList.toggle('active');
+            document.body.style.overflow = sideMenu.classList.contains('active') ? 'hidden' : '';
         };
         hamburgerBtn.addEventListener('click', toggleMenu);
         if (closeSideMenuBtn) closeSideMenuBtn.addEventListener('click', toggleMenu);
+        if (menuOverlay) menuOverlay.addEventListener('click', toggleMenu);
     }
 
     if (sideMenu && hamburgerBtn) {
         sideMenu.addEventListener('click', (e) => {
-            if (e.target.matches('.nav-link')) {
-                sideMenu.classList.remove('open');
+            if (e.target.matches('.nav-link') || e.target.closest('a')) {
+                sideMenu.classList.remove('active');
+                if (menuOverlay) menuOverlay.classList.remove('active');
                 if (hamburgerBtn) {
                     hamburgerBtn.classList.remove('active');
                 }
+                document.body.style.overflow = '';
             }
         });
     }
@@ -508,16 +514,22 @@ document.addEventListener('DOMContentLoaded', async () => {
     // --- Section Configuration ---
     const secciones = {
         'favoritos': 'Mis Favoritos',
-        'lanzamientos-recientes': 'Lanzamientos Recientes',
-        'aventura': 'Aventura',
-        'accion': 'Acción',
-        'drama': 'Drama',
-        'terror': 'Terror',
-        'comedia': 'Comedia',
-        'documental': 'Documental',
+        'lanzamientos-recientes': '🔥Lanzamientos Recientes🔥',
+        'marvel': '<img src="https://imgs.search.brave.com/3tfqNvIjcff8td4DiNubKTVAfAP5OIsxeTUtKdgWdJY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIzLzAx/L01hcnZlbC1TdHVk/aW9zLWxvZ28tNTAw/eDI4MS5wbmc" alt="Marvel Studios" style="height: 50px; vertical-align: middle;">',
+        'DC': '<img src="dc.png" alt="DC Universe" style="height: 50px; vertical-align: middle;">',
+        'senor-de-los-anillos': 'El Señor de los Anillos',
+        'aventura': '🗻Aventura🗻',
+        'accion': '🛡️Acción🛡️',
+        'drama': '🍿Drama🍿',
+        'terror': '👻Terror👻',
+        'comedia': '😂Comedia😂',
+        'romance': '❤️Romance❤️',
+        'ciencia-ficcion': '🤖 Ciencia Ficción',
+        'suspenso': '😱 Suspenso',
+        'documental': '🎞️Documental🎞️',
         'tendencias': '🔥 Tendencias de la Semana',
         'recientemente-añadido': '✨ Añadido Recientemente',
-        'series': '📺 Series Populares',
+        'series': '📺 Series Populares📺',
         'todo-lo-nuevo-2025': '🆕 Todo lo Nuevo 2025',
         'proximamente': '⏳ Próximamente',
         'todos': '📂 Todo el Contenido',
@@ -533,16 +545,37 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const addIfUnique = (cat) => {
             if (!cat) return;
-            const normalized = window.normalizeText(cat);
+            let normalized = window.normalizeText(cat);
+            
+            // Mapear alias comunes para asegurar que salgan en la sección correcta
+            if (normalized === 'romantica' || normalized === 'amor' || normalized === 'love') normalized = 'romance';
+            if (normalized === 'scifi' || normalized === 'sci-fi' || normalized === 'ciencia ficcion') normalized = 'ciencia-ficcion';
+            if (normalized === 'thriller') normalized = 'suspenso';
+            if (normalized === 'dc') normalized = 'DC';
+
             if (normalized && !assignedCategories.has(normalized)) {
                 (acc[normalized] = acc[normalized] || []).push(pelicula);
                 assignedCategories.add(normalized);
             }
         };
 
-        // 1. Categorías asignadas explícitamente
-        const categorias = Array.isArray(pelicula.categoria) ? pelicula.categoria : [pelicula.categoria];
-        categorias.forEach(addIfUnique);
+        // 1. Categorías asignadas explícitamente (Soporte para strings separados por comas)
+        let categorias = [];
+        if (Array.isArray(pelicula.categoria)) {
+            categorias = pelicula.categoria;
+        } else if (typeof pelicula.categoria === 'string') {
+            categorias = pelicula.categoria.split(',');
+        }
+        categorias.forEach(c => addIfUnique(c.trim()));
+
+        // 2. Incorporar Géneros como Categorías (Para que aparezcan en secciones como Romance, Terror, etc.)
+        let generos = [];
+        if (Array.isArray(pelicula.genero)) {
+            generos = pelicula.genero;
+        } else if (typeof pelicula.genero === 'string') {
+            generos = pelicula.genero.split(',');
+        }
+        generos.forEach(g => addIfUnique(g.trim()));
 
         // 2. Casos especiales por metadatos (tipo, año)
         if (pelicula.año === 2025 || pelicula.año === '2025') {
@@ -551,6 +584,25 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         if (pelicula.tipo === 'serie') {
             addIfUnique('series');
+        }
+
+        // Detectar contenido de Marvel automáticamente
+        const marvelKeywords = ['marvel', 'avengers', 'vengadores', 'iron man', 'spider-man', 'spiderman', 'thor', 'capitan america', 'hulk', 'black panther', 'viuda negra', 'doctor strange', 'guardianes de la galaxia', 'ant-man', 'eternals', 'shang-chi', 'deadpool', 'wolverine', 'x-men', 'venom', 'morbius', 'daredevil', 'punisher', 'loki', 'wandavision', 'falcon', 'hawkeye', 'moon knight', 'ms. marvel', 'she-hulk', 'secret invasion', 'echo', 'agatha', 'fantastic four', '4 fantasticos'];
+        const lowerTitle = (pelicula.titulo || '').toLowerCase();
+        if (marvelKeywords.some(k => lowerTitle.includes(k)) || (pelicula.categoria && pelicula.categoria.toString().toLowerCase().includes('marvel'))) {
+            addIfUnique('marvel');
+        }
+
+        // Detectar contenido de DC automáticamente
+        const dcKeywords = ['dc comics', 'batman', 'superman', 'wonder woman', 'mujer maravilla', 'aquaman', 'flash', 'shazam', 'black adam', 'joker', 'harley quinn', 'suicide squad', 'escuadron suicida', 'justice league', 'liga de la justicia', 'blue beetle', 'peacemaker', 'watchmen', 'green lantern', 'linterna verde', 'catwoman', 'pingüino', 'penguin', 'supergirl', 'arrow', 'titans', 'doom patrol', 'swamp thing', 'sandman', 'constantine'];
+        if (dcKeywords.some(k => lowerTitle.includes(k)) || (pelicula.categoria && pelicula.categoria.toString().toLowerCase().includes('dc'))) {
+            addIfUnique('DC');
+        }
+
+        // Detectar contenido de El Señor de los Anillos automáticamente
+        const lotrKeywords = ['señor de los anillos', 'lord of the rings', 'hobbit'];
+        if (lotrKeywords.some(k => lowerTitle.includes(k))) {
+            addIfUnique('senor-de-los-anillos');
         }
 
         return acc;
@@ -1131,7 +1183,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             tituloSeccion.innerHTML = secciones[idSeccion];
             tituloContainer.appendChild(tituloSeccion);
 
-            const seccionesConVerMas = ['lanzamientos-recientes', 'accion', 'aventura', 'series', 'terror', 'anime', 'todos', 'documental', 'proximamente', 'drama', 'todo-lo-nuevo-2025', 'comedia', 'populares', 'ninos'];
+            const seccionesConVerMas = ['lanzamientos-recientes', 'accion', 'aventura', 'series', 'terror', 'anime', 'todos', 'documental', 'proximamente', 'drama', 'todo-lo-nuevo-2025', 'comedia', 'populares', 'ninos', 'romance', 'ciencia-ficcion', 'suspenso'];
             if (seccionesConVerMas.includes(idSeccion) && peliculasDeSeccion.length > 0) {
                 const verMasLink = document.createElement('a');
                 let href = `${idSeccion.replace('-recientes', '').replace('recientemente-añadido', 'todos')}.html`;
@@ -1292,6 +1344,58 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
         trendingSection.appendChild(grid);
         trendingSection.style.display = 'block';
+    };
+
+    // --- NUEVO: Renderizar Destacados por Pelixplushd (Videos YouTube) ---
+    const renderDestacadosSection = () => {
+        const container = document.getElementById('destacados-grid');
+        if (!container) return;
+
+        // Configurar flechas de desplazamiento para PC
+        const wrapper = container.closest('.carrusel-contenedor');
+        if (wrapper) {
+            const flechaIzq = wrapper.querySelector('.carrusel-flecha.izquierda');
+            const flechaDer = wrapper.querySelector('.carrusel-flecha.derecha');
+            
+            if (flechaIzq) flechaIzq.addEventListener('click', () => container.scrollBy({ left: -container.clientWidth * 0.7, behavior: 'smooth' }));
+            if (flechaDer) flechaDer.addEventListener('click', () => container.scrollBy({ left: container.clientWidth * 0.7, behavior: 'smooth' }));
+        }
+
+        // LISTA DE DESTACADOS (Edita aquí los IDs de YouTube y Nombres)
+        const destacados = [
+            { nombre: "Joker: Folie à Deux", youtubeId: "_OKAwz2MsJs" }, // ID del video de YouTube
+            { nombre: "Deadpool & Wolverine", youtubeId: "73_1biulkYk" },
+            { nombre: "Gladiador 2", youtubeId: "MmG0E4joDK0" },
+            { nombre: "stranger things final temporada", youtubeId: "HjHJSbAoTTw"},
+            { nombre: "Venom: El Último Baile", youtubeId: "__2bjWbetsA" },
+            { nombre: "Mufasa: El Rey León", youtubeId: "o17MF9vnabg" },
+            { nombre: "Kraven el Cazador", youtubeId: "P1ejiruCbNA" },
+        ];
+
+        container.innerHTML = '';
+
+        destacados.forEach(item => {
+            const card = document.createElement('div');
+            card.className = 'destacado-card';
+            
+            // Renderizar como tarjeta de película (Imagen primero)
+            card.innerHTML = `
+                <div class="destacado-poster-container">
+                    <img src="https://img.youtube.com/vi/${item.youtubeId}/maxresdefault.jpg" alt="${item.nombre}" loading="lazy" onerror="this.src='https://img.youtube.com/vi/${item.youtubeId}/hqdefault.jpg'">
+                    <div class="play-overlay"><i class="fas fa-play-circle"></i></div>
+                </div>
+                <div class="destacado-info">
+                    <h3>${item.nombre}</h3>
+                </div>
+            `;
+
+            // Al hacer clic, cargar el video
+            card.addEventListener('click', () => {
+                card.innerHTML = `<iframe src="https://www.youtube.com/embed/${item.youtubeId}?autoplay=1&controls=1&rel=0&modestbranding=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+            });
+
+            container.appendChild(card);
+        });
     };
 
     // --- NEW: Logic for "You Might Like" section ---
@@ -2053,9 +2157,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (e.target === modal) {
                 closeModal();
             }
-            if (sideMenu && sideMenu.classList.contains('open') && !sideMenu.contains(e.target) && e.target !== hamburgerBtn && !hamburgerBtn.contains(e.target)) {
-                sideMenu.classList.remove('open');
+            if (sideMenu && sideMenu.classList.contains('active') && !sideMenu.contains(e.target) && e.target !== hamburgerBtn && !hamburgerBtn.contains(e.target)) {
+                sideMenu.classList.remove('active');
+                if (menuOverlay) menuOverlay.classList.remove('active');
                 hamburgerBtn.classList.remove('active');
+                document.body.style.overflow = '';
             }
             if (liveSearchResultsContainer && liveSearchResultsContainer.style.display !== 'none' && !searchForm.contains(e.target)) {
                 liveSearchResultsContainer.style.display = 'none';
@@ -2281,6 +2387,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             loadFavorites();
             renderSecciones();
             renderTrendingSection();
+            renderDestacadosSection(); // <-- Iniciar Destacados
             renderRecentlyAddedSection();
             loadContinueWatching();
             // CORRECCIÓN: Llamar a renderFavorites aquí para asegurar que se muestre

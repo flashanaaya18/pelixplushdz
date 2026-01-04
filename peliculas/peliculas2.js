@@ -2229,6 +2229,13 @@ const peliculas2 = [
         "calidad": "1080p",
         "tipo": "embed",
         "activa": true
+      },
+      {
+        "url": "https://voe.sx/e/4js9m83xazsn",
+        "idioma": "Latino",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
       }
     ],
     "id": "bob-esponja-una-aventura-pirata-2025"

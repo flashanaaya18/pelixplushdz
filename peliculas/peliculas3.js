@@ -59,6 +59,121 @@ const peliculas3 = [
     "id": "1975-el-fin-de-una-era-2025"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "A Wedding for Belle",
+    "titulo_original": "A Wedding for Belle",
+    "poster": "https://image.tmdb.org/t/p/w500/fGIG9GhObggqyvJ6Cri0SN0GA6v.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/iJNCqKjolyAV0bK7KNMfJWXgpqu.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "película de tv",
+      "romance"
+    ],
+    "generos_lista": [
+      "Película de TV",
+      "Romance"
+    ],
+    "director": "Lexi Giovagnoli",
+    "reparto": [
+      "Ella Cannon",
+      "Jason Tobias",
+      "Braxton Angle",
+      "Douglas Spain"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-30T19:17:58.877272",
+    "tmdb_id": 1501192,
+    "popularidad": 0.28,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "N/A",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://vidhidepro.com/v/96oefd2za05b",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "a-wedding-for-belle-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Airbender, el último guerrero",
+    "titulo_original": "The Last Airbender",
+    "poster": "https://image.tmdb.org/t/p/w500/ztvnkvNYtZReU9iQyY94PXw3nzs.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/gU5cR9LKtDD8YvzE7T7GvmzCEAA.jpg",
+    "descripcion": "Fantasía épica que adapta la serie \"Avatar: The Last Airbender\". La nación del Fuego declara la guerra a las naciones del Aire, el Agua y la Tierra. Tras un siglo de lucha, no hay esperanza alguna de acabar con tanta destrucción. Aang, el más reciente sucesor del ciclo del avatar, el único con poder para controlar los cuatro elementos, tendrá que viajar hasta el Polo Norte para dominarlos y poner fin a la guerra. En esta aventura se unen a él Katara, una Maestra Agua, y su hermano Sokka. Durante su viaje serán perseguidos por el príncipe Zuko, el cual intenta capturar al avatar para recuperar su honor...",
+    "año": 2010,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "aventura",
+      "fantasía"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Aventura",
+      "Fantasía"
+    ],
+    "director": "M. Night Shyamalan",
+    "reparto": [
+      "Noah Ringer",
+      "Dev Patel",
+      "Nicola Peltz Beckham",
+      "Jackson Rathbone",
+      "Shaun Toub",
+      "Aasif Mandvi",
+      "Cliff Curtis",
+      "Seychelle Gabriel",
+      "Katharine Houghton",
+      "Francis Guinan",
+      "Damon Gupton",
+      "Summer Bishil"
+    ],
+    "calificacion": 4.6,
+    "votos": 4158,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T20:35:13.203915",
+    "tmdb_id": "10196",
+    "popularidad": 6.56,
+    "tagline": "Cuatro naciones, un destino.",
+    "trailer": "https://www.youtube.com/watch?v=O9tv30p9RcY",
+    "success": true,
+    "duracion": "103 min",
+    "presupuesto": "$150,000,000",
+    "ingresos": "$319,713,881",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/yae24cebj8qe",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "airbender-el-ultimo-guerrero-2010"
+  },
+  {
     "tipo": "serie",
     "titulo": "Albertano Contra los Mostros",
     "titulo_original": "Albertano Contra los Mostros",
@@ -233,6 +348,68 @@ const peliculas3 = [
     "id": "anaconda-2025"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "Aquaman y el reino perdido",
+    "titulo_original": "Aquaman and the Lost Kingdom",
+    "poster": "https://image.tmdb.org/t/p/w500/a0QwtpUNIKjOlNoOVmk7d2LFnQW.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7S0bXv3BqCuPfImKRf5kkmBVYZR.jpg",
+    "descripcion": "Al no poder derrotar a Aquaman la primera vez, Black Manta, todavía impulsado por la necesidad de vengar la muerte de su padre, no se detendrá ante nada para derrotar a Aquaman de una vez por todas. Esta vez Black Manta es más formidable que nunca y ejerce el poder del mítico Tridente Negro, que desata una fuerza antigua y malévola.  Para derrotarlo, Aquaman recurrirá a su hermano encarcelado Orm, el ex rey de la Atlántida, para forjar una alianza improbable. Juntos, deben dejar de lado sus diferencias para proteger su reino y salvar a la familia de Aquaman, y al mundo, de una destrucción irreversible.",
+    "año": 2023,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "aventura",
+      "fantasía"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Aventura",
+      "Fantasía"
+    ],
+    "director": "James Wan",
+    "reparto": [
+      "Jason Momoa",
+      "Patrick Wilson",
+      "Yahya Abdul-Mateen II",
+      "Randall Park",
+      "Amber Heard",
+      "Nicole Kidman",
+      "Dolph Lundgren",
+      "Temuera Morrison",
+      "Indya Moore",
+      "Pilou Asbæk",
+      "Jani Zhao",
+      "Vincent Regan"
+    ],
+    "calificacion": 6.6,
+    "votos": 3324,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T16:13:43.960362",
+    "tmdb_id": 572802,
+    "popularidad": 12.32,
+    "tagline": "La marea está cambiando",
+    "trailer": "https://www.youtube.com/watch?v=YEDD5OZBcVw",
+    "success": true,
+    "duracion": "124 min",
+    "presupuesto": "$205,000,000",
+    "ingresos": "$440,181,226",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/glu94bl8rewq",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "aquaman-y-el-reino-perdido-2023"
+  },
+  {
     "tipo": "serie",
     "titulo": "Avatar: La leyenda de Aang",
     "titulo_original": "Avatar: The Last Airbender",
@@ -340,6 +517,70 @@ const peliculas3 = [
     "ultima_emision": "2008-07-19",
     "plataforma": "netflix",
     "id": "avatar-la-leyenda-de-aang-2005"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Batman Azteca: Choque de imperios",
+    "titulo_original": "Batman Azteca: Choque de imperios",
+    "poster": "https://image.tmdb.org/t/p/w500/wpMaI2J3ISYZiaIWNkoA1lVb5LQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9KSboWOt09J72aMY4x8SS1IaOHK.jpg",
+    "descripcion": "En la época del Imperio Azteca, Yohualli Coatl, un joven azteca, experimenta una tragedia cuando su padre y líder de la aldea, Toltecatzin, es asesinado por los conquistadores españoles. Yohualli escapa a Tenochtitlán para advertir al rey Moctezuma y a su sumo sacerdote, Yoka, del peligro inminente. Usando el templo de Tzinacan, el dios murciélago, como guarida, Yohualli entrena con su mentor y asistente, Acatzin, desarrollando equipo y armamento para enfrentar la invasión española, proteger el templo de Moctezuma y vengar la muerte de su padre.",
+    "año": 2025,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "animación",
+      "acción",
+      "aventura",
+      "fantasía"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Acción",
+      "Aventura",
+      "Fantasía"
+    ],
+    "director": "Juan Jose Meza-Leon",
+    "reparto": [
+      "Horacio García Rojas",
+      "Álvaro Morte",
+      "Omar Chaparro",
+      "Humberto Busto",
+      "Jorge R. Gutierrez",
+      "Jesús Guzmán",
+      "José Carlos Illanes",
+      "Maya Zapata",
+      "Teresa Ruiz",
+      "Nacho Ladislao",
+      "Eligio Meléndez",
+      "Regina Orozco"
+    ],
+    "calificacion": 7.7,
+    "votos": 123,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T16:03:21.039488",
+    "tmdb_id": 987400,
+    "popularidad": 9.08,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "90 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/ajo1vk5f2lo5",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "batman-azteca-choque-de-imperios-2025"
   },
   {
     "tipo": "pelicula",
@@ -540,6 +781,790 @@ const peliculas3 = [
     "id": "cars-2006"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "Chasse gardée 2",
+    "titulo_original": "Chasse gardée 2",
+    "poster": "https://image.tmdb.org/t/p/w500/9PJrHGp41hRTq2kkPWU2j6zzjat.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/nABJiQaUieY63EYueemftxCSK2j.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Frédéric Forestier",
+    "reparto": [
+      "Didier Bourdon",
+      "Camille Lou",
+      "Hakim Jemili",
+      "Thierry Lhermitte",
+      "Julien Pestel",
+      "Jean-François Cayrey",
+      "Chantal Ladesou",
+      "André Penvern",
+      "Guillaume Bouchède",
+      "Théo Gross",
+      "Benjamin Gauthier",
+      "Maxime Gasteuil"
+    ],
+    "calificacion": 5.6,
+    "votos": 11,
+    "idioma": "FR",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-30T18:20:26.475502",
+    "tmdb_id": 1437985,
+    "popularidad": 1.94,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "N/A",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "url": "https://streamwish.to/e/15a0nyqako8d",
+        "idioma": "Latino",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "chasse-gardee-2-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Cobra Kai",
+    "titulo_original": "Cobra Kai",
+    "poster": "https://image.tmdb.org/t/p/w500/imfqLcv6oHNn6bDdEUUUlxy0Ch9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5NrSIzfcBOFI9HRGV4nRYgMGhDU.jpg",
+    "descripcion": "Enemigos acérrimos. Dojos rivales. Sangre fresca. En esta secuela de las películas de ‘Karate Kid’, Daniel y Johnny reavivan viejas rencillas en el West Valley.",
+    "año": 2018,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "action & adventure",
+      "drama",
+      "comedia"
+    ],
+    "generos_lista": [
+      "Action & Adventure",
+      "Drama",
+      "Comedia"
+    ],
+    "director": "Hayden Schlossberg",
+    "reparto": [
+      "William Zabka",
+      "Ralph Macchio",
+      "Courtney Henggeler",
+      "Xolo Maridueña",
+      "Tanner Buchanan",
+      "Mary Mouser",
+      "Peyton List",
+      "Jacob Bertrand",
+      "Gianni DeCenzo",
+      "Dallas Dupree Young",
+      "Vanessa Rubio",
+      "Martin Kove"
+    ],
+    "calificacion": 8.2,
+    "votos": 6787,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T01:01:57.985590",
+    "tmdb_id": 77169,
+    "popularidad": 49.81,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=ZsooaPkMFpQ",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/obpljy08a95r",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/slyarjsciot1",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/1pv1lrmk770q",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/mx3bqklpn1sv",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/eigi3o95b269",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/i5x7kdds5ld6",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/mbzhg2891e2u",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/zmgsb3vygkop",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://streamwish.to/e/rrb7tproyje7",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://streamwish.to/e/ejfsqebcbzdo",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "nombre": "Temporada 2",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/0r90hropt5ll",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/ynquj4w53vmu",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://voe.sx/e/7ngzorv9taz9",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/vpjlsiisp276",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/p29yytv7mbxa",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/fhos9bjtwmd9",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/0s417wya4dzd",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/wismioovbwcy",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://streamwish.to/e/tepa4q8ag80u",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://streamwish.to/e/jwxcgpp06oig",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 65,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2025-02-13",
+    "id": "cobra-kai-2018"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El cadáver de Anna Fritz",
+    "titulo_original": "El cadáver de Anna Fritz",
+    "poster": "https://image.tmdb.org/t/p/w500/hJaC0mBzPQxlm6ZngJAhgytEtHj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fMt4fwqy0C908DwHDHpn65z1ku0.jpg",
+    "descripcion": "Anna Fritz, una joven y famosa actriz de cine, es hallada muerta en la suite de un hotel. Pau trabaja como celador en el hospital a donde han trasladado el cadáver. Es un chico tímido e introvertido que cada vez que entra en el depósito el cadáver de una chica atractiva, no puede evitar mirarla. Hace una foto a Anna Fritz y se la envía a dos amigos. Cuando éstos llegan a la morgue, se quedan fascinados por su gran belleza. Víctimas de sus instintos más primitivos, se plantean violarla impunemente, pero no saben en qué clase de infierno se van a precipitar.",
+    "año": 2015,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Suspense"
+    ],
+    "director": "Hèctor Hernández Vicens",
+    "reparto": [
+      "Alba Ribas",
+      "Cristian Valencia",
+      "Bernat Saumell",
+      "Albert Carbó",
+      "Henry Morales",
+      "Daniel Aser",
+      "Belén Fabra",
+      "Montserrat Miralles"
+    ],
+    "calificacion": 6.9,
+    "votos": 566,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T22:21:29.698238",
+    "tmdb_id": "323372",
+    "popularidad": 2.79,
+    "tagline": "Sus instintos los van a llevar a un infierno.",
+    "trailer": "https://www.youtube.com/watch?v=EmWhYBdz_qs",
+    "success": true,
+    "duracion": "76 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://streamwish.to/e/wrrnywre0kwl",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-cadaver-de-anna-fritz-2015"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "El juego del calamar",
+    "titulo_original": "오징어 게임",
+    "poster": "https://image.tmdb.org/t/p/w500/g72YfmqUU0AlbDXRiYmDZWs28f7.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2meX1nMdScFOoV4370rqHWKmXhY.jpg",
+    "descripcion": "Cientos de personas con problemas de dinero aceptan una invitación rarísima para competir en juegos infantiles. Dentro los esperan un tentador premio y desafíos letales.",
+    "año": 2021,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "action & adventure",
+      "misterio",
+      "drama"
+    ],
+    "generos_lista": [
+      "Action & Adventure",
+      "Misterio",
+      "Drama"
+    ],
+    "director": "Hwang Dong-hyuk",
+    "reparto": [
+      "Lee Jung-jae",
+      "Yim Si-wan",
+      "이진욱",
+      "위하준",
+      "조유리",
+      "Lee Byung-hun",
+      "Lee Sung-Woo",
+      "박규영",
+      "강애심",
+      "양동근",
+      "박성훈",
+      "이다윗"
+    ],
+    "calificacion": 7.9,
+    "votos": 17028,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T17:07:17.087135",
+    "tmdb_id": 93405,
+    "popularidad": 77.9,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=Mj4_xG5NXeo",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/g5db99cl1uwq",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/atgj5h0l9uj5",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/9y0wyy7flbop",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 22,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2025-06-27",
+    "id": "el-juego-del-calamar-2021"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El Señor de los Anillos",
+    "titulo_original": "The Lord of the Rings",
+    "poster": "https://image.tmdb.org/t/p/w500/6SHIZpuZ2cGoTGq5nbihIgy43rC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/TXSxV23MWYkezZ3219gtgcSX6n.jpg",
+    "descripcion": "Adaptación en dibujos animados de la extraordinaria novela de Tolkien, centrada en la primera mitad de la trilogía: \"The Fellowhip of the Ring\" y la primera parte de \"The Two Towers\". En la Tierra Media, desde las verdes praderas de la Comarca, Frodo Bolsón, sobrino de Bilbo Bolsón, se embarca en una larga y peligrosa aventura para evitar que un anillo mágico que perteneció a su tío caiga ahora en poder del malvado Sauron, dueño de Mordor.",
+    "año": 1978,
+    "categoria": [
+      "aventura"
+    ],
+    "genero": [
+      "aventura",
+      "animación",
+      "fantasía"
+    ],
+    "generos_lista": [
+      "Aventura",
+      "Animación",
+      "Fantasía"
+    ],
+    "director": "Ralph Bakshi",
+    "reparto": [
+      "Christopher Guard",
+      "William Squire",
+      "Michael Scholes",
+      "John Hurt",
+      "Simon Chandler",
+      "Dominic Guard",
+      "Michael Graham Cox",
+      "Anthony Daniels",
+      "David Buck",
+      "Norman Bird",
+      "Peter Woodthorpe",
+      "Fraser Kerr"
+    ],
+    "calificacion": 6.6,
+    "votos": 1017,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T21:08:59.432764",
+    "tmdb_id": 123,
+    "popularidad": 5.63,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "135 min",
+    "presupuesto": "$4,000,000",
+    "ingresos": "$30,500,000",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://voe.sx/e/wz1i66ovm5wl",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-senor-de-los-anillos-1978"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El señor de los anillos: El retorno del rey",
+    "titulo_original": "The Lord of the Rings: The Return of the King",
+    "poster": "https://image.tmdb.org/t/p/w500/mWuFbQrXyLk2kMBKF9TUPtDwuPx.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2u7zbn8EudG6kLlBzUYqP8RyFU4.jpg",
+    "descripcion": "Las fuerzas de Saruman han sido destruidas, y su fortaleza sitiada. Ha llegado el momento de que se decida el destino de la Tierra Media, y por primera vez en mucho tiempo, parece que hay una pequeña esperanza. La atención del señor oscuro Sauron se centra ahora en Gondor, el último reducto de los hombres, y del cual Aragorn tendrá que reclamar el trono para ocupar su puesto de rey. Pero las fuerzas de Sauron ya se preparan para lanzar el último y definitivo ataque contra el reino de Gondor, la batalla que decidirá el destino de todos. Mientras tanto, Frodo y Sam continuan su camino hacia Mordor, a la espera de que Sauron no repare en que dos pequeños Hobbits se acercan cada día más al final de su camino, el Monte del Destino.",
+    "año": 2003,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "aventura",
+      "fantasía",
+      "acción"
+    ],
+    "generos_lista": [
+      "Aventura",
+      "Fantasía",
+      "Acción"
+    ],
+    "director": "Peter Jackson",
+    "reparto": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen",
+      "Sean Astin",
+      "Andy Serkis",
+      "Dominic Monaghan",
+      "Billy Boyd",
+      "John Noble",
+      "David Wenham",
+      "Miranda Otto",
+      "Bernard Hill",
+      "John Rhys-Davies"
+    ],
+    "calificacion": 8.5,
+    "votos": 25808,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T22:10:28.201660",
+    "tmdb_id": "122",
+    "popularidad": 28.67,
+    "tagline": "El viaje llega a su fin.",
+    "trailer": "https://www.youtube.com/watch?v=h-9RYiqyqjk",
+    "success": true,
+    "duracion": "202 min",
+    "presupuesto": "$94,000,000",
+    "ingresos": "$1,118,888,979",
+    "fuentes": [
+      {
+        "url": "https://streamwish.to/e/9sdzf40oj51p",
+        "idioma": "Latino",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-senor-de-los-anillos-el-retorno-del-rey-2003"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El señor de los anillos: La comunidad del anillo",
+    "titulo_original": "The Lord of the Rings: The Fellowship of the Ring",
+    "poster": "https://image.tmdb.org/t/p/w500/9xtH1RmAzQ0rrMBNUMXstb2s3er.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/x2RS3uTcsJJ9IfjNPcgDmukoEcQ.jpg",
+    "descripcion": "En la Tierra Media, el Señor Oscuro Saurón creó los Grandes Anillos de Poder, forjados por los herreros Elfos. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales. Secretamente, Saurón también forjó un anillo maestro, el Anillo Único, que contiene en sí el poder para esclavizar a toda la Tierra Media. Con la ayuda de un grupo de amigos y de valientes aliados, Frodo emprende un peligroso viaje con la misión de destruir el Anillo Único. Pero el Señor Oscuro Sauron, quien creara el Anillo, envía a sus servidores para perseguir al grupo. Si Sauron lograra recuperar el Anillo, sería el final de la Tierra Media.",
+    "año": 2001,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "aventura",
+      "fantasía",
+      "acción"
+    ],
+    "generos_lista": [
+      "Aventura",
+      "Fantasía",
+      "Acción"
+    ],
+    "director": "Peter Jackson",
+    "reparto": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen",
+      "Sean Astin",
+      "Ian Holm",
+      "Liv Tyler",
+      "Christopher Lee",
+      "Sean Bean",
+      "Billy Boyd",
+      "Dominic Monaghan",
+      "John Rhys-Davies",
+      "Orlando Bloom"
+    ],
+    "calificacion": 8.4,
+    "votos": 26764,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T21:14:52.185676",
+    "tmdb_id": "120",
+    "popularidad": 31.99,
+    "tagline": "La comunidad del anillo",
+    "trailer": "https://www.youtube.com/watch?v=3GJp6p_mgPo",
+    "success": true,
+    "duracion": "179 min",
+    "presupuesto": "$93,000,000",
+    "ingresos": "$871,368,364",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/7h3jpwsg5fqs",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-senor-de-los-anillos-la-comunidad-del-anillo-2001"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El señor de los anillos: La guerra de los Rohirrim",
+    "titulo_original": "The Lord of the Rings: The War of the Rohirrim",
+    "poster": "https://image.tmdb.org/t/p/w500/gg4QxJhVeuLmu7WCpUjq2bfbted.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ie8OSgIHEl6yQiGJ90dsyBWOpQA.jpg",
+    "descripcion": "Explora la \"historia no contada\" del Abismo de Helm, cientos de años antes de la mítica batalla, y de su fundador, Helm Hammerhand, Rey de Rohan.",
+    "año": 2024,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "animación",
+      "fantasía",
+      "aventura",
+      "acción"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Fantasía",
+      "Aventura",
+      "Acción"
+    ],
+    "director": "神山健治",
+    "reparto": [
+      "Brian Cox",
+      "Gaia Wise",
+      "Luke Pasqualino",
+      "Laurence Ubong Williams",
+      "Lorraine Ashbourne",
+      "Miranda Otto",
+      "Shaun Dooley",
+      "Benjamin Wainwright",
+      "Yazdan Qafouri",
+      "Michael Wildman",
+      "Janine Duvitski",
+      "Bilal Hasna"
+    ],
+    "calificacion": 6.6,
+    "votos": 757,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T22:16:01.594267",
+    "tmdb_id": "839033",
+    "popularidad": 8.04,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=_iIZxGsb8dI",
+    "success": true,
+    "duracion": "134 min",
+    "presupuesto": "$30,000,000",
+    "ingresos": "$20,658,572",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/9ar7axf7pna0",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-senor-de-los-anillos-la-guerra-de-los-rohirrim-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El señor de los anillos: Las dos torres",
+    "titulo_original": "The Lord of the Rings: The Two Towers",
+    "poster": "https://image.tmdb.org/t/p/w500/z632eZtXaw76ZE5mMMGOBXCpm1T.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kWYfW2Re0rUDE6IHhy4CRuKWeFr.jpg",
+    "descripcion": "La Compañía del Anillo se ha disuelto. El portador del anillo Frodo y su fiel amigo Sam se dirigen hacia Mordor para destruir el Anillo Único y acabar con el poder de Sauron. Mientras, y tras la dura batalla contra los orcos donde cayó Boromir, el hombre Aragorn, el elfo Legolas y el enano Gimli intentan rescatar a los medianos Merry y Pipin, secuestrados por los ogros de Mordor. Por su parte, Saurón y el traidor Sarumán continúan con sus planes en Mordor, en espera de la guerra contra las razas libres de la Tierra Media.",
+    "año": 2002,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "aventura",
+      "fantasía",
+      "acción"
+    ],
+    "generos_lista": [
+      "Aventura",
+      "Fantasía",
+      "Acción"
+    ],
+    "director": "Peter Jackson",
+    "reparto": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen",
+      "Sean Astin",
+      "Andy Serkis",
+      "John Rhys-Davies",
+      "Orlando Bloom",
+      "Bernard Hill",
+      "Miranda Otto",
+      "Dominic Monaghan",
+      "Billy Boyd",
+      "Christopher Lee"
+    ],
+    "calificacion": 8.4,
+    "votos": 23231,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T21:54:09.088024",
+    "tmdb_id": "121",
+    "popularidad": 28.39,
+    "tagline": "El viaje continúa,",
+    "trailer": "https://www.youtube.com/watch?v=h-9RYiqyqjk",
+    "success": true,
+    "duracion": "180 min",
+    "presupuesto": "$79,000,000",
+    "ingresos": "$926,287,400",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/3agl3912en7z",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-senor-de-los-anillos-las-dos-torres-2002"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "El señor de los anillos: Los anillos de poder",
+    "titulo_original": "The Lord of the Rings: The Rings of Power",
+    "poster": "https://image.tmdb.org/t/p/w500/suvlZfDAoq5vfVUrfb468KJhFlL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/NNC08YmJFFlLi1prBkK8quk3dp.jpg",
+    "descripcion": "Un reparto coral de personajes —unos conocidos y otros nuevos— debe afrontar la reaparición del mal en la Tierra Media. Desde las profundidades más oscuras de las Montañas Nubladas hasta los majestuosos bosques de Lindon, desde el reino insular de Númenor hasta los extremos más remotos del mapa, estos parajes y personajes forjarán los legados que perdurarán más allá de su desaparición.",
+    "año": 2022,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "action & adventure",
+      "sci-fi & fantasy",
+      "drama"
+    ],
+    "generos_lista": [
+      "Action & Adventure",
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "director": "John D. Payne",
+    "reparto": [
+      "Charlie Vickers",
+      "Morfydd Clark",
+      "Robert Aramayo",
+      "Charles Edwards",
+      "Owain Arthur",
+      "Sophia Nomvete",
+      "Daniel Weyman",
+      "Markella Kavenagh",
+      "Megan Richards",
+      "Ismael Cruz Cordova",
+      "Sam Hazeldine",
+      "Benjamin Walker"
+    ],
+    "calificacion": 7.3,
+    "votos": 3526,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T22:14:34.919092",
+    "tmdb_id": "84773",
+    "popularidad": 68.95,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=kLw1UrDqC9Q",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/vc3ei4zubjf0",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 24,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2024-10-03",
+    "id": "el-senor-de-los-anillos-los-anillos-de-poder-2022"
+  },
+  {
     "tipo": "serie",
     "titulo": "Envidiosa",
     "titulo_original": "Envidiosa",
@@ -717,6 +1742,125 @@ const peliculas3 = [
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-11-19",
     "id": "envidiosa-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Exit Protocol",
+    "titulo_original": "Exit Protocol",
+    "poster": "https://image.tmdb.org/t/p/w500/flMnawvBtLvMStfeAjuBE1K9ykX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/oZKwNSLdCQBETNMwqJgkPcxGx3G.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "suspenso"
+    ],
+    "genero": [
+      "acción",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Suspense"
+    ],
+    "director": "Shane Dax Taylor",
+    "reparto": [
+      "Dolph Lundgren",
+      "Scott Martin",
+      "Michael Jai White",
+      "Charlotte Kirk",
+      "Lina Maya",
+      "Stephanie Beran",
+      "Aaron McPherson",
+      "J.B. Yowell",
+      "Clint Glenn Hummel"
+    ],
+    "calificacion": 5.1,
+    "votos": 4,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-02T23:24:06.552443",
+    "tmdb_id": 1293167,
+    "popularidad": 2.01,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "N/A",
+    "presupuesto": "$3,000,000",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://goodstream.one/embed-zj6980j19ty8.html",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "exit-protocol-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Flash",
+    "titulo_original": "The Flash",
+    "poster": "https://image.tmdb.org/t/p/w500/gNbZNuZ2fBferjJspfmvnskODGc.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/yF1eOkaYvwiORauRCPWznV9xVvi.jpg",
+    "descripcion": "Cuando su intento de salvar a su familia altera sin darse cuenta el futuro, Barry Allen queda atrapado en una realidad en la que el General Zod ha regresado y no hay superhéroes a quienes recurrir. Para salvar el mundo en el que se encuentra y regresar al futuro que conoce, la única esperanza de Barry es correr por su vida. Pero, ¿será suficiente hacer el sacrificio máximo para restablecer el universo?",
+    "año": 2023,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "ciencia ficción",
+      "aventura"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Ciencia ficción",
+      "Aventura"
+    ],
+    "director": "Andy Muschietti",
+    "reparto": [
+      "Ezra Miller",
+      "Sasha Calle",
+      "Michael Keaton",
+      "Michael Shannon",
+      "Ron Livingston",
+      "Maribel Verdú",
+      "Kiersey Clemons",
+      "Antje Traue",
+      "Saoirse-Monica Jackson",
+      "Rudy Mancuso",
+      "Ed Wade",
+      "Jeremy Irons"
+    ],
+    "calificacion": 6.6,
+    "votos": 4813,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T16:36:21.115578",
+    "tmdb_id": 298618,
+    "popularidad": 13.05,
+    "tagline": "Los mundos colisionan.",
+    "trailer": "https://www.youtube.com/watch?v=dZXUFOGnscg",
+    "success": true,
+    "duracion": "144 min",
+    "presupuesto": "$220,000,000",
+    "ingresos": "$271,333,313",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/7f36yqt62358",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "flash-2023"
   },
   {
     "tipo": "pelicula",
@@ -1221,6 +2365,130 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "John Wick 4",
+    "titulo_original": "John Wick: Chapter 4",
+    "poster": "https://image.tmdb.org/t/p/w500/mj2Z9HnRSIEk3n7yVPoOY4Uzzfh.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7I6VUdPj6tQECNHdviJkUHD2u89.jpg",
+    "descripcion": "John Wick descubre un camino para derrotar a la Alta Mesa. Pero para poder ganar su libertad, Wick deberá enfrentarse a un nuevo rival con poderosas alianzas en todo el mundo, capaz de convertir a viejos amigos en enemigos.",
+    "año": 2023,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "suspense",
+      "crimen"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Suspense",
+      "Crimen"
+    ],
+    "director": "Chad Stahelski",
+    "reparto": [
+      "Keanu Reeves",
+      "Donnie Yen",
+      "Bill Skarsgård",
+      "Ian McShane",
+      "Laurence Fishburne",
+      "Lance Reddick",
+      "Clancy Brown",
+      "Hiroyuki Sanada",
+      "Rina Sawayama",
+      "Scott Adkins",
+      "Aimée Kwan",
+      "Marko Zaror"
+    ],
+    "calificacion": 7.7,
+    "votos": 7568,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-02T23:30:54.234713",
+    "tmdb_id": "603692",
+    "popularidad": 18.33,
+    "tagline": "Sin vuelta atrás. Una salida.",
+    "trailer": "https://www.youtube.com/watch?v=L0anWmmd8TI",
+    "success": true,
+    "duracion": "170 min",
+    "presupuesto": "$100,000,000",
+    "ingresos": "$440,157,245",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://nuuuppp.sbs/watch/m5Wspxv1U0cq60iTtt8SnyFahUhF3jz3jyTuP4amjKK33Y",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "john-wick-4-2023"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Jurassic World: El renacer",
+    "titulo_original": "Jurassic World Rebirth",
+    "poster": "https://image.tmdb.org/t/p/w500/2sbGd7kDhMicDkT097FR9a2JyGU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fQOV47FHTJdaSuSUNlzP3zXUZWE.jpg",
+    "descripcion": "Cinco años después de los eventos de \"Dominion\", la ecología del planeta ha demostrado ser insoportable para los dinosaurios, donde los pocos que quedan viven aislados en las regiones ecuatoriales. Zora Bennett es contratada para dirigir a un equipo de especialistas cuyo objetivo es conseguir el material genético de las tres criaturas más grandes, las cuales tienen en su ADN la clave para fabricar un medicamento que aportará grandes beneficios a la humanidad. Pero la operación se cruzará con una familia cuyo barco volcó y todos acabarán en una isla prohibida ocupada por dinosaurios de numerosas especies, donde tendrán que hacer lo imposible para sobrevivir.",
+    "año": 2025,
+    "categoria": [
+      "ciencia-ficcion"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "aventura",
+      "acción"
+    ],
+    "generos_lista": [
+      "Ciencia ficción",
+      "Aventura",
+      "Acción"
+    ],
+    "director": "Gareth Edwards",
+    "reparto": [
+      "Scarlett Johansson",
+      "Mahershala Ali",
+      "Jonathan Bailey",
+      "Rupert Friend",
+      "Manuel Garcia-Rulfo",
+      "Luna Blaise",
+      "David Iacono",
+      "Audrina Miranda",
+      "Philippine Velge",
+      "Bechir Sylvain",
+      "Ed Skrein",
+      "Adam Loxley"
+    ],
+    "calificacion": 6.4,
+    "votos": 2704,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-02T22:19:04.667813",
+    "tmdb_id": 1234821,
+    "popularidad": 53.66,
+    "tagline": "Nace una nueva era.",
+    "trailer": "https://www.youtube.com/watch?v=1R3LTANp7hw",
+    "success": true,
+    "duracion": "133 min",
+    "presupuesto": "$180,000,000",
+    "ingresos": "$869,146,189",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://fastream.to/embed-gyraopnkokbu.html",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "jurassic-world-el-renacer-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "La acompañante",
     "titulo_original": "Companion",
     "poster": "https://image.tmdb.org/t/p/w500/nyloao2GWttUvS7KVcEM2eSDwUn.jpg",
@@ -1554,6 +2822,192 @@ const peliculas3 = [
     "tipo_serie": "Scripted",
     "ultima_emision": "2024-11-21",
     "id": "las-bravas-fc-2022"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Liga de la Justicia: Crisis en Tierras Infinitas - Parte 1",
+    "titulo_original": "Justice League: Crisis on Infinite Earths Part One",
+    "poster": "https://image.tmdb.org/t/p/w500/kr36D6FiF8mNrsPz4fL6OUAvrrJ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/tWEcrdHbQLJUuetCQupgCJaTRQ9.jpg",
+    "descripcion": "El Antimonitor (la contrapartida malvada del Monitor) es liberado en el Multiverso DC y comienza a destruir las diferentes Tierras que lo componen. El Monitor intenta reclutar héroes de todo el Multiverso, pero es asesinado. Adaptación animada de La Liga de la Justicia: Crisis en Tierras Infinitas.",
+    "año": 2024,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "animación",
+      "ciencia ficción",
+      "acción"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Ciencia ficción",
+      "Acción"
+    ],
+    "director": "Jeff Wamester",
+    "reparto": [
+      "Matt Bomer",
+      "Jensen Ackles",
+      "Darren Criss",
+      "Meg Donnelly",
+      "Stana Katić",
+      "Jimmi Simpson",
+      "Zachary Quinto",
+      "Jonathan Adams",
+      "Ike Amadi",
+      "Geoffrey Arend",
+      "Zach Callison",
+      "Alexandra Daddario"
+    ],
+    "calificacion": 7.3,
+    "votos": 384,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T16:32:26.309823",
+    "tmdb_id": "1155089",
+    "popularidad": 4.14,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=UJCyvFxZ1gs",
+    "success": true,
+    "duracion": "93 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/xg1ky0luuie7",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "liga-de-la-justicia-crisis-en-tierras-infinitas---parte-1-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Liga de la Justicia: Crisis en Tierras Infinitas - Parte 2",
+    "titulo_original": "Justice League: Crisis on Infinite Earths Part Two",
+    "poster": "https://image.tmdb.org/t/p/w500/aOT8n3YOOkInZ5VHJN4FffHrm43.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ltuyGrcLSIQwdbmSsa2N7Yj09Sp.jpg",
+    "descripcion": "El Antimonitor (la contrapartida malvada del Monitor) se desata en el Multiverso DC y comienza a destruir las diferentes Tierras que lo componen. El Monitor intenta reclutar a héroes de todo el Multiverso para contraatacar.",
+    "año": 2024,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "animación",
+      "ciencia ficción",
+      "acción"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Ciencia ficción",
+      "Acción"
+    ],
+    "director": "Jeff Wamester",
+    "reparto": [
+      "Jensen Ackles",
+      "Darren Criss",
+      "Meg Donnelly",
+      "Stana Katić",
+      "Jonathan Adams",
+      "Gideon Adlon",
+      "Geoffrey Arend",
+      "Troy Baker",
+      "Zach Callison",
+      "Darin De Paul",
+      "Ato Essandoh",
+      "Keith Ferguson"
+    ],
+    "calificacion": 6.7,
+    "votos": 263,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T16:33:42.406614",
+    "tmdb_id": "1209288",
+    "popularidad": 2.81,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "94 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/e1r9zx9w1xm0",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "liga-de-la-justicia-crisis-en-tierras-infinitas---parte-2-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Liga de la Justicia: Crisis en Tierras Infinitas – Parte 3",
+    "titulo_original": "Justice League: Crisis on Infinite Earths Part Three",
+    "poster": "https://image.tmdb.org/t/p/w500/jXeeV5YrACBgc9CGvggdsA6PEmd.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2B12ReNGLhDDVrdsIu1O2PnH6RU.jpg",
+    "descripcion": "Universos paralelos se desmoronan cuando el Antimonitor ataca. La Liga de la Justicia y héroes de otras épocas unen fuerzas para detener la destrucción inminente, dispuestos a sacrificarse por el triunfo.",
+    "año": 2024,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "animación",
+      "ciencia ficción",
+      "acción"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Ciencia ficción",
+      "Acción"
+    ],
+    "director": "Jeff Wamester",
+    "reparto": [
+      "Jensen Ackles",
+      "Darren Criss",
+      "Corey Stoll",
+      "Gideon Adlon",
+      "Ike Amadi",
+      "Geoffrey Arend",
+      "Troy Baker",
+      "Brian Bloom",
+      "Matt Bomer",
+      "Ashly Burch",
+      "Zach Callison",
+      "Kevin Conroy"
+    ],
+    "calificacion": 7.2,
+    "votos": 307,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T16:34:27.568998",
+    "tmdb_id": "1209290",
+    "popularidad": 3.45,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "99 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/5tg4d6kfg7xv",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "liga-de-la-justicia-crisis-en-tierras-infinitas---parte-3-2024"
   },
   {
     "tipo": "serie",
@@ -2204,6 +3658,220 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Los mundos de Coraline",
+    "titulo_original": "Coraline",
+    "poster": "https://image.tmdb.org/t/p/w500/xz1HjxeqpIACyPtJMqv33Z2RjRP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/hofnlIyF6bePkgQOpcuRWLvzf15.jpg",
+    "descripcion": "Película de animación en la que se nos cuenta la historia de Coraline, una jovencita que descubre en su nueva casa una puerta secreta y decide abrirla. Al hacerlo, descubre una segunda versión de su vida, una vida paralela a la que ella tiene. A primera vista, la realidad paralela es curiosamente parecida a su vida de verdad, aunque mucho mejor. Pero cuando su increíble y maravillosa aventura empieza a tomar un cariz peligroso, su otra madre intenta mantenerla a su lado para siempre. Coraline deberá recurrir a su determinación y coraje, a la ayuda de los vecinos y a un gato negro con el don del habla para salvar a sus auténticos padres, a unos niños fantasmas y regresar a casa.",
+    "año": 2009,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "animación",
+      "familia",
+      "fantasía"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Familia",
+      "Fantasía"
+    ],
+    "director": "Henry Selick",
+    "reparto": [
+      "Dakota Fanning",
+      "Teri Hatcher",
+      "Jennifer Saunders",
+      "Dawn French",
+      "Keith David",
+      "John Hodgman",
+      "Robert Bailey Jr.",
+      "Ian McShane",
+      "Aankha Neal",
+      "George Selick",
+      "Hannah Kaiser",
+      "Harry Selick"
+    ],
+    "calificacion": 7.9,
+    "votos": 8705,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T22:23:41.134491",
+    "tmdb_id": "14836",
+    "popularidad": 17.42,
+    "tagline": "Cuidado con lo que deseas. Se puede cumplir.",
+    "trailer": "https://www.youtube.com/watch?v=ksOiRS2YO1U",
+    "success": true,
+    "duracion": "101 min",
+    "presupuesto": "$60,000,000",
+    "ingresos": "$185,860,104",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/aqpaju4sfkfn",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "los-mundos-de-coraline-2009"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Matabot",
+    "titulo_original": "Murderbot",
+    "poster": "https://image.tmdb.org/t/p/w500/ntZB7o2CONuXtjPctRVRsiIZvxj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/if4r7bXrDH50GhNwCo3Bz8F2LOg.jpg",
+    "descripcion": "En un futuro tecnológico, un robot de seguridad rebelde consigue en secreto voluntad propia. Para no llamar la atención, se une a regañadientes a una nueva misión. Debe proteger a unos científicos en un planeta peligroso... aunque solo quiere ver culebrones.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "comedia",
+      "drama",
+      "sci-fi & fantasy"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "director": "Chris Weitz",
+    "reparto": [
+      "Alexander Skarsgård",
+      "Noma Dumezweni",
+      "David Dastmalchian",
+      "Sabrina Wu",
+      "Akshay Khanna",
+      "Tamara Podemski",
+      "Tattiawna Jones"
+    ],
+    "calificacion": 7.3,
+    "votos": 352,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-30T15:44:32.735475",
+    "tmdb_id": 241554,
+    "popularidad": 13.04,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/apzq270b8hlo",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/iygu3fj0p569",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/v9w73p9uysjs",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/np9f21zfm1ys",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/cuxaxvlupfna",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 10,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2025-07-10",
+    "id": "matabot-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Merv",
+    "titulo_original": "Merv",
+    "poster": "https://image.tmdb.org/t/p/w500/p1ipWHTrzsmd3QTidbQXY2ZCcUk.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5OA1FwA11SztGEEqqBihStLmMH2.jpg",
+    "descripcion": "Cuando su querido perro Merv pierde la chispa tras su separación, Anna y Russ se ven obligados a aceptar el acuerdo de crianza compartida más incómodo del mundo. Con la esperanza de sacar a Merv de su depresión, Russ lo lleva de escapada a Florida, pero Anna aparece inesperadamente. Mientras Merv recupera el ánimo, parece que curar el corazón roto de su perro despierta otras chispas entre ellos.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia",
+      "romance"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Romance"
+    ],
+    "director": "Jessica Swale",
+    "reparto": [
+      "Zooey Deschanel",
+      "Charlie Cox",
+      "Gus",
+      "Ellyn Jameson",
+      "Patricia Heaton",
+      "David Hunt",
+      "Chris Redd",
+      "Jasmine Mathews",
+      "Victoria Blade",
+      "Wynn Everett",
+      "Jason Burkey",
+      "Jake Berne"
+    ],
+    "calificacion": 5.8,
+    "votos": 76,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-30T18:24:40.279391",
+    "tmdb_id": 1255775,
+    "popularidad": 20.39,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=EySM31udYOA",
+    "success": true,
+    "duracion": "105 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://walterprettytheir.com/e/eryfkg9n97v5",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "merv-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Oppenheimer",
     "titulo_original": "Oppenheimer",
     "poster": "https://image.tmdb.org/t/p/w500/5t05uhX5ULn8Um2f1ZuznVvIffU.jpg",
@@ -2301,6 +3969,53 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Oscar Shaw",
+    "titulo_original": "Oscar Shaw",
+    "poster": "https://image.tmdb.org/t/p/w500/tsE3nySukwrfUjouz8vzvKTcXNC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6D6M5z4reppUxo2cnBEKI02Csp1.jpg",
+    "descripcion": "",
+    "año": 2026,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "crimen",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Crimen",
+      "Suspense"
+    ],
+    "director": "R. Ellis Frazier",
+    "reparto": [
+      "Michael Jai White",
+      "Tyrese Gibson",
+      "Isaiah Washington",
+      "Andrew C. English Jr."
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-30T16:54:35.176432",
+    "tmdb_id": 1601243,
+    "popularidad": 4.54,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "93 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [],
+    "id": "oscar-shaw-2026"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Otec",
     "titulo_original": "Otec",
     "poster": "https://image.tmdb.org/t/p/w500/qz4e1LLeRKk74a0Pyfqvb8zQlJe.jpg",
@@ -2393,6 +4108,129 @@ const peliculas3 = [
       }
     ],
     "id": "otec-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Pandora: Fire and Ice",
+    "titulo_original": "Pandora: Fire and Ice",
+    "poster": "https://image.tmdb.org/t/p/w500/xiVr4V5Ilj4ZbBofrd7OWo071d2.jpg",
+    "backdrop": "",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "acción",
+      "aventura"
+    ],
+    "generos_lista": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+    ],
+    "director": "Canyon Prince",
+    "reparto": [
+      "Erika K. Marks",
+      "William McNamara",
+      "Hannah Hueston",
+      "Kristos Andrews",
+      "Paul Logan",
+      "Jordan Iverach",
+      "John Swansiger",
+      "Jeff Verge",
+      "Biagio Castelo",
+      "Myah Daniels",
+      "Conrad Wyld"
+    ],
+    "calificacion": 1.0,
+    "votos": 1,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-30T18:22:54.887027",
+    "tmdb_id": 1591822,
+    "popularidad": 0.26,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "90 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "url": "https://supervideo.cc/e/n66z2rij7l4d",
+        "idioma": "Latino",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "pandora-fire-and-ice-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Pig Hill",
+    "titulo_original": "Pig Hill",
+    "poster": "https://image.tmdb.org/t/p/w500/dVw4MFWHoziKGLXuK0g9Ltdic5m.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rqiE0Vo5u1T64eAeQGh9ga2Jax.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "misterio"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Misterio"
+    ],
+    "director": "Kevin Lewis",
+    "reparto": [
+      "Rainey Qualley",
+      "Shane West",
+      "Shiloh Fernandez",
+      "Isabella Brenza",
+      "R.A. Mihailoff"
+    ],
+    "calificacion": 5.0,
+    "votos": 1,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-30T19:09:45.313765",
+    "tmdb_id": 1151586,
+    "popularidad": 2.15,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "100 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "1080p",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      },
+      {
+        "idioma": "latino",
+        "url": "https://filemoon.to/e/9heg06ok9nwz",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "pig-hill-2025"
   },
   {
     "tipo": "pelicula",
@@ -2570,6 +4408,68 @@ const peliculas3 = [
     "episodios": 0,
     "tipo_serie": "Serie",
     "id": "rompehielos-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "s",
+    "titulo_original": "The Lord of the Rings: The Two Towers",
+    "poster": "https://image.tmdb.org/t/p/w500/z632eZtXaw76ZE5mMMGOBXCpm1T.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kWYfW2Re0rUDE6IHhy4CRuKWeFr.jpg",
+    "descripcion": "La Compañía del Anillo se ha disuelto. El portador del anillo Frodo y su fiel amigo Sam se dirigen hacia Mordor para destruir el Anillo Único y acabar con el poder de Sauron. Mientras, y tras la dura batalla contra los orcos donde cayó Boromir, el hombre Aragorn, el elfo Legolas y el enano Gimli intentan rescatar a los medianos Merry y Pipin, secuestrados por los ogros de Mordor. Por su parte, Saurón y el traidor Sarumán continúan con sus planes en Mordor, en espera de la guerra contra las razas libres de la Tierra Media.",
+    "año": 2002,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "aventura",
+      "fantasía",
+      "acción"
+    ],
+    "generos_lista": [
+      "Aventura",
+      "Fantasía",
+      "Acción"
+    ],
+    "director": "Peter Jackson",
+    "reparto": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen",
+      "Sean Astin",
+      "Andy Serkis",
+      "John Rhys-Davies",
+      "Orlando Bloom",
+      "Bernard Hill",
+      "Miranda Otto",
+      "Dominic Monaghan",
+      "Billy Boyd",
+      "Christopher Lee"
+    ],
+    "calificacion": 8.4,
+    "votos": 23229,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-03T21:18:48.128177",
+    "tmdb_id": "121",
+    "popularidad": 28.4,
+    "tagline": "El viaje continúa,",
+    "trailer": "https://www.youtube.com/watch?v=h-9RYiqyqjk",
+    "success": true,
+    "duracion": "180 min",
+    "presupuesto": "$79,000,000",
+    "ingresos": "$926,287,400",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/3agl3912en7z",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "s-2002"
   },
   {
     "tipo": "pelicula",
@@ -2769,6 +4669,134 @@ const peliculas3 = [
     "id": "silencio-2025"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "Site",
+    "titulo_original": "Site",
+    "poster": "https://image.tmdb.org/t/p/w500/ynfYUQ2qIFtE2sd7YiN1XzaKOjt.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/z35zKhZexQ7SZR3sKqtCf66LKcC.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "suspense",
+      "terror"
+    ],
+    "generos_lista": [
+      "Ciencia ficción",
+      "Suspense",
+      "Terror"
+    ],
+    "director": "Jason Eric Perlman",
+    "reparto": [
+      "Arielle Kebbel",
+      "Theo Rossi",
+      "Jake McLaughlin",
+      "Clyde Kusatsu",
+      "Yoson An",
+      "Miki Ishikawa",
+      "Kavi Raz",
+      "Danni Wang",
+      "Art Newkirk",
+      "Carson Minniear",
+      "Vince Foster",
+      "Megan Blake"
+    ],
+    "calificacion": 6.5,
+    "votos": 23,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-30T19:16:20.690236",
+    "tmdb_id": 1188423,
+    "popularidad": 4.63,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "110 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://mivalyo.com/embed/sc7821a91eep",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "site-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Snoopy presenta: Un musical veraniego",
+    "titulo_original": "Snoopy Presents: A Summer Musical",
+    "poster": "https://image.tmdb.org/t/p/w500/xniB8WhLbSHdy4mPkn2olJUARck.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/1Bavnm3tr5zJMAhBKKmGHVjbPZN.jpg",
+    "descripcion": "La música y la alegría reinan cuando Carlitos y la pandilla se van de campamento de verano. Sally es primeriza y no entiende a qué viene tanto alboroto. Pero cuando el campamento se ve obligado a cerrar, se unen para salvarlo y que más niños puedan tener recuerdos especiales en él.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "animación",
+      "familia",
+      "música",
+      "comedia"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Familia",
+      "Música",
+      "Comedia"
+    ],
+    "director": "Erik Wiese",
+    "reparto": [
+      "Etienne Kellici",
+      "Hattie Kragten",
+      "Terry McGurrin",
+      "Jayd Deroché",
+      "Isabella Leo",
+      "Lexi Perri",
+      "Wyatt White",
+      "Caleb Bellavance",
+      "Arianna McDonald",
+      "Zoe Wheatley",
+      "Rob Tinkler",
+      "Seán Cullen"
+    ],
+    "calificacion": 7.2,
+    "votos": 19,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-30T19:14:53.541783",
+    "tmdb_id": 1484453,
+    "popularidad": 3.11,
+    "tagline": "Un lugar para el recuerdo.",
+    "trailer": "",
+    "success": true,
+    "duracion": "40 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://mivalyo.com/embed/qyccvvp9u8wh",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "snoopy-presenta-un-musical-veraniego-2025"
+  },
+  {
     "tipo": "serie",
     "titulo": "Somos oro",
     "titulo_original": "Somos oro",
@@ -2851,6 +4879,192 @@ const peliculas3 = [
     "tipo_serie": "Miniseries",
     "ultima_emision": "2024-10-18",
     "id": "somos-oro-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Song Sung Blue - Canción para dos",
+    "titulo_original": "Song Sung Blue",
+    "poster": "https://image.tmdb.org/t/p/w500/iACF4iWIDxMQnEB48DMtbgE9jnQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/a6QAauAiQd1ddFi4MzlbEv3Cha9.jpg",
+    "descripcion": "La historia de dos músicos de poca fortuna que se lanzan con ilusión a formar una banda tributo a Neil Diamond, demostrando que nunca es demasiado tarde para encontrar el amor y cumplir tus sueños.",
+    "año": 2025,
+    "categoria": [
+      "romance"
+    ],
+    "genero": [
+      "drama",
+      "música",
+      "romance"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Música",
+      "Romance"
+    ],
+    "director": "Craig Brewer",
+    "reparto": [
+      "Hugh Jackman",
+      "Kate Hudson",
+      "Michael Imperioli",
+      "Fisher Stevens",
+      "Jim Belushi",
+      "Ella Anderson",
+      "King Princess",
+      "Mustafa Shakir",
+      "Hudson Hilbert Hensley",
+      "Shyaporn Theerakulstit",
+      "John Beckwith",
+      "Jayson Warner Smith"
+    ],
+    "calificacion": 8.2,
+    "votos": 12,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-01T20:15:49.321385",
+    "tmdb_id": 1371185,
+    "popularidad": 28.9,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=JCgkpDbtP98",
+    "success": true,
+    "duracion": "133 min",
+    "presupuesto": "$30,000,000",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/fiiq6l53o7t2",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "song-sung-blue---cancion-para-dos-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Stone Cold Fox",
+    "titulo_original": "Stone Cold Fox",
+    "poster": "https://image.tmdb.org/t/p/w500/oQbQmatyiRFsYuLOSxAxxG0E0Kl.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bkSaUZgRL2J2Wp4NPq8cYha8SJs.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "suspense",
+      "crimen"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Suspense",
+      "Crimen"
+    ],
+    "director": "Sophie Tabet",
+    "reparto": [
+      "Kiernan Shipka",
+      "Kiefer Sutherland",
+      "Krysten Ritter",
+      "Mishel Prada",
+      "Jamie Chung",
+      "Karen Fukuhara",
+      "Gabrielle Maiden",
+      "آدم الشرقاوي",
+      "Rob Mars",
+      "Spenser Granese",
+      "Bluesy Burke",
+      "Julia Roth"
+    ],
+    "calificacion": 6.5,
+    "votos": 16,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-30T18:27:57.381037",
+    "tmdb_id": 1287814,
+    "popularidad": 1.96,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "87 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://ico3c.com/bkg/zogs1g21vm4f?ref=pelisjuanita.com",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "stone-cold-fox-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Technoboys",
+    "titulo_original": "Technoboys",
+    "poster": "https://image.tmdb.org/t/p/w500/pEV0y4SeLBlZ3LpF6l9Ilqkb21p.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/k9dOgIzSnU4yl6Peqgn6Yi74Hi8.jpg",
+    "descripcion": "Veinte años después de encabezar las listas de éxitos, los Technoboys se reúnen para recuperar el trono del pop, pero deben luchar contra grupos más nuevos en un mundo musical que ha cambiado. El cantante tiene motivos ocultos para volver.",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia",
+      "música"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Música"
+    ],
+    "director": "Luis Gerardo Méndez",
+    "reparto": [
+      "Luis Gerardo Méndez",
+      "Karla Souza",
+      "Gabriel Nuncio",
+      "Luis Rodriguez \"El Guana\"",
+      "Fernando Bonilla",
+      "Daniela Vega",
+      "Mónica del Carmen",
+      "Joaquín Ferreira",
+      "Germán Bracco",
+      "Ari Brickman",
+      "Fernanda Castillo",
+      "Carmen Vera"
+    ],
+    "calificacion": 6.2,
+    "votos": 42,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-01T22:38:15.314411",
+    "tmdb_id": 1250786,
+    "popularidad": 3.66,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "109 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/x46jlppfcmah",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "technoboys-2024"
   },
   {
     "tipo": "pelicula",
@@ -3043,6 +5257,126 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Un robo muy navideño",
+    "titulo_original": "Jingle Bell Heist",
+    "poster": "https://image.tmdb.org/t/p/w500/90vYAz1JCdbF2Ggx2VQUQEfitbN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/y6PLMIoHOP365rNDflD9VgnoALU.jpg",
+    "descripcion": "Dos empleados en horas bajas se juntan para robar unos selectos grandes almacenes de Londres en Nochebuena. ¿Se robarán de paso el corazón?",
+    "año": 2025,
+    "categoria": [
+      "romance"
+    ],
+    "genero": [
+      "romance",
+      "crimen",
+      "comedia"
+    ],
+    "generos_lista": [
+      "Romance",
+      "Crimen",
+      "Comedia"
+    ],
+    "director": "Michael Fimognari",
+    "reparto": [
+      "Olivia Holt",
+      "Connor Swindells",
+      "Lucy Punch",
+      "Peter Serafinowicz",
+      "Natasha Joseph",
+      "Poppy Drayton",
+      "Michael Salami",
+      "Belal Sabir",
+      "Jess Lloyd-Jones",
+      "Mariah Louca",
+      "Ellie Nunn",
+      "James Dryden"
+    ],
+    "calificacion": 6.0,
+    "votos": 213,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-01T20:41:06.913768",
+    "tmdb_id": 1218762,
+    "popularidad": 10.95,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "96 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://goodstream.one/embed-ruxwst5kze77.html",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "un-robo-muy-navideno-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "V de Víctor",
+    "titulo_original": "V de Víctor",
+    "poster": "https://image.tmdb.org/t/p/w500/9QKLoe7hSPkhILm8nsuyblvCmu7.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4l5YyvCpjObnA2wUf34mDJFpG53.jpg",
+    "descripcion": "Un boxeador retirado regresará al ring para enfrentarse a su máximo rival, apoyándose en su hija, sus amigos y un famoso entrenador que le enseñará a ver el deporte desde nuevas perspectivas.",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Frank Ariza",
+    "reparto": [
+      "Memo Villegas",
+      "Camila Nuñez",
+      "Gala Bichir",
+      "Adriana Montes de Oca",
+      "Jonathan Alonso",
+      "Joaquín Cosío",
+      "Danna García",
+      "Paco Rueda",
+      "José Luis Badalt",
+      "Xiaomin Dong",
+      "César Bono",
+      "Norma Angélica"
+    ],
+    "calificacion": 7.4,
+    "votos": 30,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-01T23:36:02.832813",
+    "tmdb_id": 1200978,
+    "popularidad": 0.82,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "102 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$168,579",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/6wcvgbjzh734",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "v-de-victor-2024"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Venom",
     "titulo_original": "Venom",
     "poster": "https://image.tmdb.org/t/p/w500/jMBTJQiHAyGlZR05J2sq5coA6ew.jpg",
@@ -3227,5 +5561,128 @@ const peliculas3 = [
       }
     ],
     "id": "venom-habra-matanza-2021"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Y ella dijo quizás",
+    "titulo_original": "She Said Maybe",
+    "poster": "https://image.tmdb.org/t/p/w500/zxiL8i4fxhdFFwvfkTTahQCK7dT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rFgdmHbxEocgmzExT3StrRuY4xb.jpg",
+    "descripcion": "Cuando Mavi, que se crio en Alemania, descubre que pertenece a una acaudalada dinastía turca, las expectativas de su nueva familia trastocan su vida personal y amorosa.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "comedia",
+      "romance",
+      "drama"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Romance",
+      "Drama"
+    ],
+    "director": "The Chau Ngo",
+    "reparto": [
+      "Beritan Balcı",
+      "Sinan Güleç",
+      "Serkan Çayoğlu",
+      "Meral Perin",
+      "Caro Daur",
+      "Cansu Tosun",
+      "Mehmet Ateşçi",
+      "Ilknur Boyraz",
+      "Katja Riemann",
+      "Anja Karmanski",
+      "Alperen Sahin",
+      "Berke Cetin"
+    ],
+    "calificacion": 6.0,
+    "votos": 48,
+    "idioma": "DE",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-30T18:49:45.557436",
+    "tmdb_id": 1509871,
+    "popularidad": 1.55,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "105 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/mp0efbwa1bay",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "y-ella-dijo-quizas-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "¡Este cuerpo no es el mío!",
+    "titulo_original": "The Hot Chick",
+    "poster": "https://image.tmdb.org/t/p/w500/c5ffGrKTcRrKQ59Wg3vMmg7QFN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/vK8uTRjiNkJ7P2VINNLxYWiiw0z.jpg",
+    "descripcion": "Una joven adolescente, muy popular y atractiva pero mala, se despierta un día dentro del cuerpo de un hombre. Mientras intenta descubrir qué ha pasado y cómo volver a su estado anterior, se da cuenta entonces de lo cruel y maligna que ha sido con los demás hasta ese momento.",
+    "año": 2002,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia",
+      "fantasía"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Fantasía"
+    ],
+    "director": "Tom Brady",
+    "reparto": [
+      "Rob Schneider",
+      "Anna Faris",
+      "Matthew Lawrence",
+      "Eric Christian Olsen",
+      "Robert Davi",
+      "Melora Hardin",
+      "Alexandra Holden",
+      "Rachel McAdams",
+      "Maritza Murray",
+      "Fay Hauser",
+      "Jodi Long",
+      "Tia Mowry"
+    ],
+    "calificacion": 6.4,
+    "votos": 2108,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2025-12-30T16:01:49.449048",
+    "tmdb_id": 11852,
+    "popularidad": 8.31,
+    "tagline": "La chica más sexy de la ciudad acaba de cambiar de cuerpo con el perdedor más afortunado del mundo.",
+    "trailer": "",
+    "success": true,
+    "duracion": "104 min",
+    "presupuesto": "$34,000,000",
+    "ingresos": "$54,639,553",
+    "plataforma": "pelicula",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/llxc0i3fzkfe",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "este-cuerpo-no-es-el-mio-2002"
   }
 ];

@@ -31,6 +31,7 @@ const urlsToCache = [
   'proximamente.js',
   'series.js',
   'todos.js',
+  'top-series.js',
   'ads.js',
   'bloqueador.js'
 ];

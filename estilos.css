@@ -2837,6 +2837,117 @@ body.compact-mode .movie-grid-full {
     .portal-ring { width: 100px; height: 100px; }
 }
 
+/* --- SECCIÓN DESTACADOS (CUADRADOS) --- */
+/* Contenedor con scroll horizontal */
+#destacados-grid {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+    padding-right: 4%;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Ocultar scrollbar Firefox */
+}
+#destacados-grid::-webkit-scrollbar {
+    display: none; /* Ocultar scrollbar Chrome/Safari */
+}
+
+.destacado-card {
+    flex: 0 0 300px; /* Ancho fijo grande */
+    height: 300px;   /* Altura igual al ancho (CUADRADO) */
+    position: relative;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    background: #000;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destacado-card:hover {
+    transform: scale(1.05);
+    z-index: 2;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+    border: 2px solid var(--primary);
+}
+
+.destacado-poster-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.destacado-poster-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Recorta la miniatura para llenar el vertical */
+    transition: filter 0.3s;
+}
+
+.destacado-card:hover .destacado-poster-container img {
+    filter: brightness(0.7);
+}
+
+.play-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.destacado-card:hover .play-overlay {
+    opacity: 1;
+}
+
+.play-overlay i {
+    font-size: 3rem;
+    color: white;
+    filter: drop-shadow(0 2px 5px rgba(0,0,0,0.8));
+    transform: scale(0.8);
+    transition: transform 0.3s;
+}
+
+.destacado-card:hover .play-overlay i {
+    transform: scale(1);
+}
+
+.destacado-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+}
+
+.destacado-info h3 {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.destacado-card iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media (max-width: 768px) {
+    .destacado-card {
+        flex: 0 0 220px; /* Cuadrado más pequeño para móvil */
+        height: 220px;
+    }
+}
 /* NOTIFICACIONES */
 .notifications-dropdown {
     position: relative;

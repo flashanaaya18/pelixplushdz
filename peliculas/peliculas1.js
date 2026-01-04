@@ -23770,7 +23770,7 @@ const peliculas1 = [
   {
     "tipo": "serie",
     "titulo": "Stranger Things",
-    "poster": "https://image.tmdb.org/t/p/w300/lXS60geme1LlEob5Wgvj3KilClA.jpg",
+    "poster": "https://imgs.search.brave.com/wjekKeWv4t5UjtAds9RVOi4MiGXqh2NGNSdB3XqdyNk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvc3Ry/YW5nZXItdGhpbmdz/LXBpY3R1cmVzLXF5/aThxMDZ2d3dtdXhn/c3AuanBn",
     "descripcion": "",
     "categoria": [
       "series"
@@ -24030,6 +24030,13 @@ const peliculas1 = [
             "episodio": 7,
             "titulo": "Episodio 7",
             "url": "https://dintezuvio.com/embed/3dl13gryw4jj",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://hlswish.com/e/erw5ay2x8epl",
             "calidad": "HD",
             "visto": false
           }
@@ -27552,6 +27559,13 @@ const peliculas1 = [
             "titulo": "Episodio 9",
             "url": "https://streamwish.to/e/xkx5xmfl4l12",
             "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://streamwish.to/e/48rl7ejxdxt1",
+            "calidad": "HD",
             "visto": false
           }
         ]
