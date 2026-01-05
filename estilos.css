@@ -3504,3 +3504,60 @@ body.compact-mode .movie-grid-full {
         width: 100%;
     }
 }
+
+/* --- NUEVO ESTILO: SECCIÓN DE CALIFICACIÓN (API) --- */
+.api-rating-container {
+    background: linear-gradient(145deg, rgba(255,255,255,0.05), rgba(0,0,0,0.2));
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.star-rating-display {
+    position: relative;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.stars-background, .stars-foreground {
+    display: flex;
+    gap: 5px;
+}
+
+.stars-background {
+    color: #444; /* Color de estrella vacía */
+}
+
+.stars-foreground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0%; /* Controlado por JS */
+    color: #ffd700; /* Color de estrella llena (dorado) */
+    filter: drop-shadow(0 0 5px rgba(255, 215, 0, 0.7));
+}
+
+.rating-details {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.rating-score {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--text-white);
+}
+
+.rating-votes {
+    font-size: 0.9rem;
+    color: var(--text-gray);
+}

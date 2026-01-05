@@ -731,7 +731,14 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
             try:
                 videos = movie.videos(language='es-ES', timeout=10)
             except:
-                videos = movie.videos(language='en-US', timeout=10)
+                videos = {}
+            
+            # Si no hay videos en español o falló, intentar en inglés
+            if not videos.get('results'):
+                try:
+                    videos = movie.videos(language='en-US', timeout=10)
+                except:
+                    videos = {}
             
             # Procesar géneros
             generos = [g['name'] for g in detalles.get('genres', [])] if detalles.get('genres') else []
@@ -759,6 +766,7 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
             
             # Trailer y videos
             trailer_url = ""
+            trailer_key = ""
             videos_lista = []
             if videos and videos.get('results'):
                 for video in videos.get('results', []):
@@ -771,6 +779,7 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
                         })
                         if not trailer_url and video.get('type') in ['Trailer', 'Teaser']:
                             trailer_url = video_url
+                            trailer_key = video.get('key')
             
             return {
                 'titulo': detalles.get('title', ''),
@@ -792,6 +801,7 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
                 'ingresos': f"${detalles.get('revenue', 0):,}" if detalles.get('revenue') else "Desconocido",
                 'tagline': detalles.get('tagline', ''),
                 'trailer': trailer_url,
+                'trailer_key': trailer_key,
                 'videos_lista': videos_lista,
                 'tmdb_id': tmdb_id,
                 'popularidad': round(float(detalles.get('popularity', 0)), 2),
@@ -816,7 +826,14 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
             try:
                 videos = tv.videos(language='es-ES', timeout=10)
             except:
-                videos = tv.videos(language='en-US', timeout=10)
+                videos = {}
+            
+            # Si no hay videos en español o falló, intentar en inglés
+            if not videos.get('results'):
+                try:
+                    videos = tv.videos(language='en-US', timeout=10)
+                except:
+                    videos = {}
             
             # Procesar géneros
             generos = [g['name'] for g in detalles.get('genres', [])] if detalles.get('genres') else []
@@ -841,6 +858,7 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
             
             # Trailer y videos
             trailer_url = ""
+            trailer_key = ""
             videos_lista = []
             if videos and videos.get('results'):
                 for video in videos.get('results', []):
@@ -853,6 +871,7 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
                         })
                         if not trailer_url and video.get('type') in ['Trailer', 'Teaser']:
                             trailer_url = video_url
+                            trailer_key = video.get('key')
             
             return {
                 'titulo': detalles.get('name', ''),
@@ -873,6 +892,7 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
                 'temporadas': detalles.get('number_of_seasons', 1),
                 'episodios': detalles.get('number_of_episodes', 10),
                 'trailer': trailer_url,
+                'trailer_key': trailer_key,
                 'videos_lista': videos_lista,
                 'tmdb_id': tmdb_id,
                 'popularidad': round(float(detalles.get('popularity', 0)), 2),
@@ -1901,6 +1921,7 @@ def anadir_contenido(peliculas, proximamente):
         'popularidad': datos_extras.get('popularidad', 0),
         'tagline': datos_extras.get('tagline', ''),
         'trailer': datos_extras.get('trailer', ''),
+        'trailer_key': datos_extras.get('trailer_key', ''),
         'success': True
     }
     
@@ -2405,7 +2426,8 @@ def buscar_sin_tmdb_id(peliculas, editados):
                     'generos_lista': resultados.get('generos_lista', []),
                     'popularidad': resultados.get('popularidad', 0),
                     'tagline': resultados.get('tagline', ''),
-                    'trailer': resultados.get('trailer', '')
+                    'trailer': resultados.get('trailer', ''),
+                    'trailer_key': resultados.get('trailer_key', '')
                 })
                 
                 if item not in editados:
@@ -3191,6 +3213,7 @@ def modo_automatico(peliculas, anadidos):
                     'popularidad': detalles.get('popularidad', 0),
                     'tagline': detalles.get('tagline', ''),
                     'trailer': detalles.get('trailer', ''),
+                    'trailer_key': detalles.get('trailer_key', ''),
                     'success': True
                 }
                 

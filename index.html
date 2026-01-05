@@ -1859,6 +1859,8 @@
 
             <section id="lanzamientos-recientes" class="content-row"></section>
 
+            <section id="todo-lo-nuevo-2026" class="content-row"></section>
+
             <section id="series" class="content-row"></section>
 
             <section id="marvel" class="content-row"></section>
@@ -2579,22 +2581,6 @@
             if (window.scrollY > 50) header.classList.add('scrolled');
             else header.classList.remove('scrolled');
         });
-
-        // Mobile Menu Logic
-        const toggleBtn = document.getElementById('hamburger-btn');
-        const closeBtn = document.getElementById('close-side-menu-btn');
-        const sideMenu = document.getElementById('side-menu');
-        const overlay = document.getElementById('menu-overlay');
-
-        function toggleMenu() {
-            sideMenu.classList.toggle('active');
-            overlay.classList.toggle('active');
-            document.body.style.overflow = sideMenu.classList.contains('active') ? 'hidden' : '';
-        }
-
-        if (toggleBtn) toggleBtn.addEventListener('click', toggleMenu);
-        if (closeBtn) closeBtn.addEventListener('click', toggleMenu);
-        if (overlay) overlay.addEventListener('click', toggleMenu);
 
         // Rotación de fondo del héroe
         document.addEventListener('DOMContentLoaded', function() {

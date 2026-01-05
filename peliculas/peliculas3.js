@@ -243,6 +243,67 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Amar te duele",
+    "titulo_original": "Amar te duele",
+    "poster": "https://image.tmdb.org/t/p/w500/wK5UVMVjWMLV71SLpCjUFrO8mHI.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3obBVWeKVUh2LBtziL7SNR6yxOf.jpg",
+    "descripcion": "Renata (Martha Higareda) pertenece a una familia de la alta sociedad mexicana. Ulises (Luis Fernando Peña) es pobre, y trabaja con su padre en el mercado. Los dos jóvenes se enamoran en un centro comercial, pero ese idilio adolescente se encuentra con el rechazo de sus familias y amigos...",
+    "año": 2002,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "romance"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Romance"
+    ],
+    "director": "Fernando Sariñana",
+    "reparto": [
+      "Luis Fernando Peña",
+      "Martha Higareda",
+      "Ximena Sariñana",
+      "Alfonso Herrera",
+      "Armando Hernández",
+      "Andrea Damián",
+      "Karla Alvarado",
+      "Pedro Damián",
+      "Zaide Silvia Gutiérrez",
+      "Eligio Meléndez",
+      "Patricia Bernal",
+      "Héctor Arévalo"
+    ],
+    "calificacion": 8.0,
+    "votos": 350,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-04T20:59:52.441608",
+    "tmdb_id": "51822",
+    "popularidad": 1.89,
+    "tagline": "¿Quién dice que el varo no importa?",
+    "trailer": "https://www.youtube.com/watch?v=PaCulQK3V7w",
+    "trailer_key": "PaCulQK3V7w",
+    "success": true,
+    "duracion": "104 min",
+    "presupuesto": "$10,000,000",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://voe.sx/e/juzhktktdyt7",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "amar-te-duele-2002"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Anaconda",
     "titulo_original": "Anaconda",
     "poster": "https://image.tmdb.org/t/p/w500/zX1KJPiGTrzpFcjfOWlmqdRgpQd.jpg",
@@ -840,6 +901,108 @@ const peliculas3 = [
     "id": "chasse-gardee-2-2025"
   },
   {
+    "titulo": "Chespirito: Sin querer queriendo",
+    "titulo_original": "Chespirito: Sin querer queriendo",
+    "descripcion": "La historia de Roberto Gómez Bolaños, el hombre que transformó su anhelo de hacer reír en un legado universal. Desde su infancia hasta su consagración en las décadas de los 50 a los 80, esta biografía íntima nos revela cómo un joven soñador encontró su lugar en la naciente industria televisiva, creando personajes inolvidables cargados de ternura y humor. Pero detrás del genio que hizo reír al mundo entero, hubo también un ser humano en constante búsqueda de amor y reconocimiento, dispuesto a sacrificarlo todo por permanecer en el corazón de su audiencia.",
+    "año": 2025,
+    "genero": "Drama, Comedia",
+    "generos_lista": [
+      "Drama",
+      "Comedia"
+    ],
+    "director": "Roberto Gómez Fernández",
+    "reparto": [
+      "Pablo Cruz Guerrero",
+      "Paulina Dávila",
+      "Bárbara López",
+      "Arturo Barba",
+      "Juan Lecanda",
+      "Miguel Islas",
+      "Andrea Noli",
+      "Paola Montes De Oca",
+      "Eugenio Bartilotti",
+      "Jorge Luis Moreno",
+      "Rolando Breme",
+      "Karina Gidi"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/bLyhzXAWvOn0L17NbCYP2aZ4sPt.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/y8tPZ9P4tYqYiACs6t4mlcWJnSC.jpg",
+    "calificacion": 8.0,
+    "votos": 447,
+    "duracion": "45 min",
+    "idioma": "ES",
+    "idioma_original": "es",
+    "temporadas": [
+      {
+        "temporada": 1,
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/56ntlqbqfiw6"
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/da80f6k9uasa"
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/u3eq2by5tx9y"
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/rx2spplokb5n"
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/bw9j5441fi1t"
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/tkc0meio6969"
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/oqdjg13a1vd6"
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/gn8xfjro18j5"
+          }
+        ]
+      }
+    ],
+    "episodios": 8,
+    "trailer": "https://www.youtube.com/watch?v=IWUOlamvFqQ",
+    "trailer_key": "IWUOlamvFqQ",
+    "videos_lista": [
+      {
+        "nombre": "Chespirito | Tráiler | Max",
+        "tipo": "Trailer",
+        "url": "https://www.youtube.com/watch?v=IWUOlamvFqQ"
+      }
+    ],
+    "tmdb_id": "279060",
+    "popularidad": 9.1,
+    "estado": "Ended",
+    "ultima_emision": "2025-07-24",
+    "tipo_serie": "Miniseries",
+    "success": true,
+    "categoria": [
+      "series"
+    ],
+    "plataforma": "hbo max",
+    "favorito": false,
+    "id": "chespirito-sin-querer-queriendo-2025"
+  },
+  {
     "tipo": "serie",
     "titulo": "Cobra Kai",
     "titulo_original": "Cobra Kai",
@@ -1045,6 +1208,69 @@ const peliculas3 = [
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-02-13",
     "id": "cobra-kai-2018"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Dust Bunny",
+    "titulo_original": "Dust Bunny",
+    "poster": "https://image.tmdb.org/t/p/w500/jMcT1Quf34qZWNNE1rAqep8f9DW.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bM9G0UGcOnO4p9JgCvvhmkiFonh.jpg",
+    "descripcion": "Una niña de ocho años le pide ayuda a su insidiosa vecina en su misión para matar al monstruo que vive debajo de su cama, el cual, según ella, devoró a su familia.",
+    "año": 2025,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "fantasía",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Fantasía",
+      "Suspense"
+    ],
+    "director": "Bryan Fuller",
+    "reparto": [
+      "Sophie Sloan",
+      "Mads Mikkelsen",
+      "Sigourney Weaver",
+      "David Dastmalchian",
+      "Sheila Atim",
+      "Caspar Phillipson",
+      "Line Kruse",
+      "Rebecca Henderson",
+      "Nóra Trokán",
+      "Narantsogt Tsogtsaikhan",
+      "Bence Ferenczi",
+      "Ákos Szalai"
+    ],
+    "calificacion": 6.9,
+    "votos": 13,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-04T20:51:09.740745",
+    "tmdb_id": "1043197",
+    "popularidad": 4.1,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=d8l3ePqcsjs",
+    "trailer_key": "d8l3ePqcsjs",
+    "success": true,
+    "duracion": "106 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filemoon.to/e/00q7w1n35181",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "dust-bunny-2025"
   },
   {
     "tipo": "pelicula",
@@ -1563,6 +1789,101 @@ const peliculas3 = [
     "tipo_serie": "Scripted",
     "ultima_emision": "2024-10-03",
     "id": "el-senor-de-los-anillos-los-anillos-de-poder-2022"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "El tiempo de las moscas",
+    "titulo_original": "El tiempo de las moscas",
+    "poster": "https://image.tmdb.org/t/p/w500/9n2HM0guy6Wn95EshDj7Uw6XWd2.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/jy5aBUEF8zT0Grl75NuSWoFuX5b.jpg",
+    "descripcion": "Recién salidas de la cárcel, dos mujeres con opciones limitadas dirigen una empresa de fumigación. Hasta que una clienta muy turbia les hace una oferta que no pueden rechazar.",
+    "año": 2026,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "comedia",
+      "crimen"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Comedia",
+      "Crimen"
+    ],
+    "director": "",
+    "reparto": [
+      "Carla Peterson",
+      "Nancy Dupláa",
+      "Valeria Lois"
+    ],
+    "calificacion": 8.0,
+    "votos": 2,
+    "idioma": "ES",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-04T21:11:52.315436",
+    "tmdb_id": "285636",
+    "popularidad": 31.81,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://filemoon.to/e/ohnlcftyf1yy",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://minochinos.com/embed/mjjtvqjz3xaf",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://filemoon.to/e/na4rj3uj868r",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://minochinos.com/embed/rxt25d5qxzin",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://minochinos.com/embed/byyyp2yz93xz",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://filemoon.to/e/lc82tw8qcknt",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 6,
+    "tipo_serie": "Miniseries",
+    "ultima_emision": "2026-01-01",
+    "id": "el-tiempo-de-las-moscas-2026"
   },
   {
     "tipo": "serie",
@@ -2365,6 +2686,108 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Isi",
+    "titulo_original": "Isi",
+    "poster": "https://image.tmdb.org/t/p/w500/8aNnei4hrPwceG73uRFIT5eAcmQ.jpg",
+    "backdrop": "",
+    "descripcion": "Isidoro Larregui, ‘Isi’, es un argentino que llegó a San Sebastián hace 20 años con un negocio: vender carne de las pampas a los vascos. Todo va bien hasta que al declararse la cuarentena su negocio se viene abajo. Una serie de sucesos durante el confinamiento van a cambiar el rumbo de su vida.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "desconocido"
+    ],
+    "generos_lista": [],
+    "director": "",
+    "reparto": [],
+    "calificacion": 0.0,
+    "votos": 0,
+    "idioma": "ES",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-04T20:43:47.330187",
+    "tmdb_id": "1598629",
+    "popularidad": 0.01,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "59 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://ico3c.com/bkg/qqbl7xil961d?ref=pelisjuanita.com",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "isi-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Jake Paul vs. Anthony Joshua",
+    "titulo_original": "Jake Paul vs. Anthony Joshua",
+    "poster": "https://image.tmdb.org/t/p/w500/tBtg3zae2qH7NWppwYDlbUcwzDq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ft8ieZ8rqsBER63KNY61wbnSa4k.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción"
+    ],
+    "generos_lista": [
+      "Acción"
+    ],
+    "director": "",
+    "reparto": [
+      "Jake Paul",
+      "Anthony Joshua",
+      "Alycia Baumgardner",
+      "Leila Beaudoin",
+      "Anderson Silva",
+      "Tyron Woodley",
+      "Jahmal Harvey",
+      "Kevin Cervantes",
+      "Cherneka Johnson",
+      "Amanda Galle",
+      "Yokasta Valle",
+      "Yadira Bustillos"
+    ],
+    "calificacion": 4.2,
+    "votos": 4,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-04T18:43:41.146548",
+    "tmdb_id": 1582482,
+    "popularidad": 0.82,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "N/A",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "url": "https://pelisjuanita.com/series/player.php?id=9wtzTgGSl4en4te4sFYRz-Jake-Paul-vs-Anthony-Joshua/1",
+        "idioma": "Latino",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "jake-paul-vs-anthony-joshua-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "John Wick 4",
     "titulo_original": "John Wick: Chapter 4",
     "poster": "https://image.tmdb.org/t/p/w500/mj2Z9HnRSIEk3n7yVPoOY4Uzzfh.jpg",
@@ -2680,6 +3103,68 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "La leyenda de Beldham",
+    "titulo_original": "The Beldham",
+    "poster": "https://image.tmdb.org/t/p/w500/60wDbXGVlOZkEP6hbBjTGWrgmJa.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3jDS1VvW6RJCSoIxXH2EW53xoM9.jpg",
+    "descripcion": "Cuando se quedó embarazada, Harper ya sabía que tener un hijo no iba a ser tarea fácil. Lo que no esperaba es, además, tener que lidiar con una presencia maligna que habita en la granja familiar desde hace generaciones.",
+    "año": 2025,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror"
+    ],
+    "generos_lista": [
+      "Terror"
+    ],
+    "director": "Angela Gulner",
+    "reparto": [
+      "Patricia Heaton",
+      "Corbin Bernsen",
+      "Katie Parker",
+      "Emma Fitzpatrick",
+      "Angela Baumgardner",
+      "Sabreena Iman",
+      "Thesa Loving",
+      "Hannah Reese"
+    ],
+    "calificacion": 5.2,
+    "votos": 11,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-04T20:01:21.627899",
+    "tmdb_id": "1090983",
+    "popularidad": 80.91,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=JXW4kNdNb1M",
+    "trailer_key": "JXW4kNdNb1M",
+    "success": true,
+    "duracion": "85 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://minochinos.com/embed/lbpicay2h3ow",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      },
+      {
+        "idioma": "subtitulado",
+        "url": "https://minochinos.com/embed/1prbydv18jd8",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "la-leyenda-de-beldham-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "La sospecha de Sofía",
     "titulo_original": "La sospecha de Sofía",
     "poster": "https://image.tmdb.org/t/p/w500/jt6mm0nqYdn6UFEGoEEI4Xt3VMi.jpg",
@@ -2746,6 +3231,97 @@ const peliculas3 = [
       }
     ],
     "id": "la-sospecha-de-sofia-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "La tierra del pecado",
+    "titulo_original": "Synden",
+    "poster": "https://image.tmdb.org/t/p/w500/Hb0TgRRIrwC9qRo4UkT2ZmbFj0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zzlz3ElVtdm07yixMKMgHdFFkCz.jpg",
+    "descripcion": "Tras la desaparición de un adolescente, una detective con vínculos personales con el caso se une a una investigación que destapa lealtades férreas y rencillas familiares.",
+    "año": 2026,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "crimen",
+      "misterio"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Crimen",
+      "Misterio"
+    ],
+    "director": "",
+    "reparto": [
+      "Krista Kosonen",
+      "Mohammed Nour Oklah",
+      "Peter Gantman",
+      "Lisa Lindgren",
+      "Ceasar Matijasevic",
+      "Alexander Persson"
+    ],
+    "calificacion": 5.3,
+    "votos": 23,
+    "idioma": "SV",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-04T21:01:27.547705",
+    "tmdb_id": "272586",
+    "popularidad": 74.81,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://vimeos.net/embed-mm4dsplqsegg.html",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://vimeos.net/embed-bo727gm79f9z.html",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://filemoon.to/e/k5y827603eju",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://filemoon.to/e/k5hufhu6gtaa",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://filemoon.to/e/gkx9roczsiwg",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 5,
+    "tipo_serie": "Miniseries",
+    "ultima_emision": "2026-01-02",
+    "id": "la-tierra-del-pecado-2026"
   },
   {
     "tipo": "serie",
@@ -3160,6 +3736,67 @@ const peliculas3 = [
     "ultima_emision": "2023-06-01",
     "plataforma": "netflix",
     "id": "los-dias-2023"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Los exploradores",
+    "titulo_original": "Gigantes, una Aventura extraordinaria",
+    "poster": "https://image.tmdb.org/t/p/w500/g7ki03zoFRnqMVLno8kUyCQAeWP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2h6qOO1fdlv3MtZKFOSobu1No9K.jpg",
+    "descripcion": "Sigue a Alfonso, de 11 años, heredero de Don Quijote, y a sus tres conejos imaginarios, a los que se unen Pancho y Victoria. Con el poder de su amistad, salvan su querido pueblo natal en algún lugar de La Mancha de una gran tormenta.. Sueñan lo imposible, superan sus miedos y utilizan su imaginación para encontrar la verdadera fuerza que hay detrás de la tormenta.",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "animación",
+      "aventura",
+      "comedia",
+      "fantasía"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Aventura",
+      "Comedia",
+      "Fantasía"
+    ],
+    "director": "Gonzalo Gutiérrez",
+    "reparto": [
+      "Karol Sevilla",
+      "Carla Peterson",
+      "Facundo Reyes",
+      "Cassie Glow",
+      "Micke Moreno",
+      "Marina Blanke",
+      "Matthew Moreno",
+      "Demián Velazco"
+    ],
+    "calificacion": 7.0,
+    "votos": 22,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-04T18:51:01.395602",
+    "tmdb_id": 945013,
+    "popularidad": 1.68,
+    "tagline": "",
+    "trailer": "watch?v=r6y8Ac9A7mU",
+    "trailer_key": "r6y8Ac9A7mU",
+    "success": true,
+    "duracion": "88 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$2,590,422",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filemoon.to/e/byxdmrgot2v9",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "los-exploradores-2024"
   },
   {
     "tipo": "pelicula",
@@ -3719,6 +4356,65 @@ const peliculas3 = [
     "id": "los-mundos-de-coraline-2009"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "Lost Horizon",
+    "titulo_original": "Lost Horizon",
+    "poster": "https://image.tmdb.org/t/p/w500/sBeKHgOtjDRNMHeF9oMR8gpx3k8.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ofp2O5yUNGjBGXGA5SXdRCFOS74.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "aventura",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Aventura",
+      "Suspense"
+    ],
+    "director": "Patrick Garcia",
+    "reparto": [
+      "Aimee Botes",
+      "Prudence Buthelezi",
+      "Llewellyn Cordier",
+      "Tom Fairfoot",
+      "Joseph Clarke",
+      "Farai Chigudu",
+      "Nico Engelbrecht",
+      "Alonso Grandio"
+    ],
+    "calificacion": 5.3,
+    "votos": 13,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-04T20:55:40.154683",
+    "tmdb_id": 1556834,
+    "popularidad": 1.32,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=w2AblUMvrKI",
+    "trailer_key": "w2AblUMvrKI",
+    "success": true,
+    "duracion": "93 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filemoon.to/e/qu4kb820pg3i",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "lost-horizon-2025"
+  },
+  {
     "tipo": "serie",
     "titulo": "Matabot",
     "titulo_original": "Murderbot",
@@ -4011,7 +4707,15 @@ const peliculas3 = [
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
     "plataforma": "pelicula",
-    "fuentes": [],
+    "fuentes": [
+      {
+        "url": "https://streamwish.to/e/4o44npek5b4j",
+        "idioma": "Latino",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
     "id": "oscar-shaw-2026"
   },
   {
@@ -5068,6 +5772,57 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "TINI en vivo: FUTTTURA",
+    "titulo_original": "TINI en vivo: FUTTTURA",
+    "poster": "https://image.tmdb.org/t/p/w500/78nBOCn99ygCoSKhrtBjIqhSoYQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/aowsszmvWHflIg8bk4jBnWzUMuV.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "documental"
+    ],
+    "genero": [
+      "música"
+    ],
+    "generos_lista": [
+      "Música"
+    ],
+    "director": "Marcelo Ferrero",
+    "reparto": [
+      "TINI",
+      "Máximo Espíndola",
+      "Chris Martin",
+      "María Becerra"
+    ],
+    "calificacion": 10.0,
+    "votos": 1,
+    "idioma": "ES",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-04T20:57:46.662367",
+    "tmdb_id": "1571844",
+    "popularidad": 0.23,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "N/A",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filemoon.to/e/p171n0f5sj4h",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "tini-en-vivo-futttura-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Transformers: El despertar de las bestias",
     "titulo_original": "Transformers: Rise of the Beasts",
     "poster": "https://image.tmdb.org/t/p/w500/peIB7KBBrqW0JsCLQBt9ChEtZ7m.jpg",
@@ -5561,6 +6316,68 @@ const peliculas3 = [
       }
     ],
     "id": "venom-habra-matanza-2021"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "We Bury the Dead",
+    "titulo_original": "We Bury the Dead",
+    "poster": "https://image.tmdb.org/t/p/w500/vWOALCjS3cANciJKkG0qV8k1izW.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/vpP3DVICpGx9wofSGgbBoo4pebh.jpg",
+    "descripcion": "",
+    "año": 2026,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "suspense",
+      "ciencia ficción"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Suspense",
+      "Ciencia ficción"
+    ],
+    "director": "Zak Hilditch",
+    "reparto": [
+      "Daisy Ridley",
+      "Brenton Thwaites",
+      "Mark Coles Smith",
+      "Matt Whelan",
+      "Chloe Hurst",
+      "Kym Jackson",
+      "Holly Hargreaves",
+      "Deanna Cooney",
+      "Elijah Williams",
+      "Salme Geransar",
+      "Luke Jai  McIntosh",
+      "Joel Jackson"
+    ],
+    "calificacion": 6.0,
+    "votos": 4,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-04T18:44:21.915030",
+    "tmdb_id": 1198984,
+    "popularidad": 7.57,
+    "tagline": "",
+    "trailer": "",
+    "success": true,
+    "duracion": "95 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$1,340,000",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://filemoon.to/e/87tso8h5ptra",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "we-bury-the-dead-2026"
   },
   {
     "tipo": "pelicula",

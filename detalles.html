@@ -58,6 +58,14 @@
             0% { transform: translateX(-100%); }
             100% { transform: translateX(150px); }
         }
+
+        /* Estilos Rating API */
+        .api-rating-container { display: flex; align-items: center; gap: 10px; margin: 10px 0; }
+        .star-rating-display { position: relative; display: inline-block; font-size: 1.2rem; color: #444; }
+        .stars-foreground { position: absolute; top: 0; left: 0; white-space: nowrap; overflow: hidden; color: #e50914; width: 0%; transition: width 0.5s ease; }
+        .rating-details { font-size: 0.9rem; color: #ccc; display: flex; gap: 5px; align-items: center; }
+        .rating-score { font-weight: bold; color: #fff; font-size: 1.1rem; }
+        .rating-votes { color: #888; font-size: 0.8rem; }
     </style>
 </head>
 
@@ -137,9 +145,6 @@
                     </p>
 
                     <div class="detail-actions">
-                        <button id="play-trailer-btn" class="btn-secondary" style="display:none">
-                            <i class="fas fa-play"></i> Tráiler
-                        </button>
                         <button id="detail-favorite-btn" class="btn-icon" title="Añadir a Favoritos">
                             <i class="far fa-heart"></i>
                         </button>
@@ -152,15 +157,16 @@
                     </div>
 
                     <!-- Rating -->
-                    <div class="rating-section" style="margin-top: 10px;">
-                        <span style="color:#888; font-size: 0.9rem; margin-right: 10px;">Tu calificación:</span>
-                        <div class="star-rating" id="user-star-rating" style="display:inline-block; color:gold;">
-                            <span class="star" data-value="1" style="cursor:pointer; font-size:1.2rem;">&#9733;</span>
-                            <span class="star" data-value="2" style="cursor:pointer; font-size:1.2rem;">&#9733;</span>
-                            <span class="star" data-value="3" style="cursor:pointer; font-size:1.2rem;">&#9733;</span>
-                            <span class="star" data-value="4" style="cursor:pointer; font-size:1.2rem;">&#9733;</span>
-                            <span class="star" data-value="5" style="cursor:pointer; font-size:1.2rem;">&#9733;</span>
+                    <div class="api-rating-container">
+                        <div class="star-rating-display">
+                            <div class="stars-background">
+                                <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                            </div>
+                            <div class="stars-foreground" id="api-stars-foreground">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
                         </div>
+                        <div class="rating-details"><span class="rating-score" id="api-rating-score">-.--</span><span class="rating-votes" id="api-rating-votes">(--- votos)</span></div>
                     </div>
                 </div>
             </div>
@@ -170,7 +176,6 @@
         <div class="detail-sections-container">
             <div class="tabs-nav">
                 <button class="tab-btn active" data-tab="player-tab">Ver Online</button>
-                <button class="tab-btn" data-tab="cast-tab">Reparto</button>
                 <button class="tab-btn" data-tab="download-tab" style="display:none">Descargas</button>
                 <button class="tab-btn" data-tab="recommendations-tab">Relacionados</button>
             </div>
@@ -229,13 +234,6 @@
                 </div>
             </div>
 
-            <!-- Cast Tab -->
-            <div id="cast-tab" class="tab-content">
-                <div class="vis-grid" id="detail-cast">
-                    <!-- Cast cards by JS -->
-                </div>
-            </div>
-
             <!-- Downloads Tab -->
             <div id="download-tab" class="tab-content">
                 <h3 style="margin-bottom: 1rem;">Enlaces de Descarga</h3>
@@ -244,20 +242,13 @@
 
             <!-- Recommendations Tab -->
             <div id="recommendations-tab" class="tab-content">
+                <h3 style="margin-bottom: 1rem;">También te podría gustar</h3>
                 <div class="movie-grid-full" id="recommendations-grid">
                     <!-- Recommendations by JS -->
                 </div>
             </div>
         </div>
     </main>
-
-    <!-- Trailer Modal -->
-    <div id="trailer-modal" class="modal-overlay">
-        <div class="modal-container" style="max-width: 800px; height: auto; aspect-ratio: 16/9;">
-            <button id="close-trailer-modal" class="close-button">&times;</button>
-            <div id="trailer-player-container" style="width:100%; height:100%;"></div>
-        </div>
-    </div>
 
     <!-- Toast Container -->
     <div id="toast-container" style="position: fixed; bottom: 20px; right: 20px; z-index: 5000;"></div>
@@ -293,6 +284,14 @@
                 setTimeout(() => {
                     loader.classList.remove('active');
                 }, 1500); // Retraso para asegurar que la carga se vea fluida
+            }
+        });
+
+        // Fallback de seguridad: quitar loader después de 5 segundos pase lo que pase
+        setTimeout(() => {
+            const loader = document.getElementById('page-loader');
+            if (loader && loader.classList.contains('active')) {
+                loader.classList.remove('active');
             }
         });
 

@@ -531,6 +531,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         'recientemente-añadido': '✨ Añadido Recientemente',
         'series': '📺 Series Populares📺',
         'todo-lo-nuevo-2025': '🆕 Todo lo Nuevo 2025',
+        'todo-lo-nuevo-2026': '🆕 Todo lo Nuevo 2026',
         'proximamente': '⏳ Próximamente',
         'todos': '📂 Todo el Contenido',
         'populares': '⭐ Populares',
@@ -580,6 +581,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         // 2. Casos especiales por metadatos (tipo, año)
         if (pelicula.año === 2025 || pelicula.año === '2025') {
             addIfUnique('todo-lo-nuevo-2025');
+        }
+        if (pelicula.año === 2026 || pelicula.año === '2026') {
+            addIfUnique('todo-lo-nuevo-2026');
         }
 
         if (pelicula.tipo === 'serie') {
