@@ -7077,6 +7077,33 @@ const peliculas2 = [
             "visto": false
           }
         ]
+      },
+      {
+        "temporada": 2,
+        "nombre": "Temporada 2",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/zsbwoq9uo3zx",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/990304w5fe1c",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/gxtn03vqxjxg",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
       }
     ],
     "episodios": 16,

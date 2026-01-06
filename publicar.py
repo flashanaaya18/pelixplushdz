@@ -10,6 +10,7 @@ import random
 import copy
 import shutil
 from datetime import timedelta
+import threading
 
 # --- Verificación de dependencias ---
 try:
@@ -41,6 +42,35 @@ class C:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
     BLINK = '\033[5m'
+
+class Spinner:
+    """Clase para mostrar una animación de carga profesional."""
+    def __init__(self, message="Procesando", delay=0.1):
+        self.spinner = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏']
+        self.message = message
+        self.delay = delay
+        self.running = False
+        self.thread = None
+
+    def spin(self):
+        idx = 0
+        while self.running:
+            sys.stdout.write(f"\r{C.CYAN}{self.spinner[idx % len(self.spinner)]} {self.message}...{C.END}")
+            sys.stdout.flush()
+            time.sleep(self.delay)
+            idx += 1
+
+    def start(self):
+        self.running = True
+        self.thread = threading.Thread(target=self.spin)
+        self.thread.start()
+
+    def stop(self):
+        self.running = False
+        if self.thread:
+            self.thread.join()
+        sys.stdout.write(f"\r{' ' * (len(self.message) + 10)}\r")
+        sys.stdout.flush()
 
 # --- Configuración de TMDb API ---
 TMDB_API_KEY = "9869fab7c867e72214c8628c6029ec74"
@@ -231,8 +261,12 @@ def cargar_catalogo_completo():
     return {p.get('id'): p for p in catalogo_unico if p.get('id')}
 
 def guardar_peliculas(peliculas_dict, crear_backup=True):
-    """Guarda las películas en el archivo JS."""
+    """Guarda las películas en el archivo JS con animación profesional."""
     try:
+        # Spinner para la preparación de datos
+        spinner = Spinner(f"{C.CYAN}🔄 Organizando y procesando base de datos")
+        spinner.start()
+        
         # Agrupar por archivo de origen
         datos_por_archivo = {cfg['path']: [] for cfg in FILES_CONFIG}
         default_file = FILES_CONFIG[-1]['path'] # peliculas3.js por defecto
@@ -254,11 +288,21 @@ def guardar_peliculas(peliculas_dict, crear_backup=True):
             
             datos_por_archivo[source].append(item_limpio)
         
-        # Guardar cada archivo
-        for config in FILES_CONFIG:
+        spinner.stop()
+        
+        # Animación de guardado
+        print(f"\n{C.BOLD}{C.PURPLE}💾 GUARDANDO BIBLIOTECAS:{C.END}")
+        total_files = len(FILES_CONFIG)
+        
+        for i, config in enumerate(FILES_CONFIG, 1):
             path = config['path']
             var_name = config['var']
             items = datos_por_archivo.get(path, [])
+            filename = os.path.basename(path)
+            
+            # Simular proceso visual
+            sys.stdout.write(f"\r   {C.YELLOW}⚡ Procesando: {filename}...{C.END}")
+            sys.stdout.flush()
             
             if crear_backup and os.path.exists(path):
                 shutil.copy2(path, path + '.bak')
@@ -268,13 +312,25 @@ def guardar_peliculas(peliculas_dict, crear_backup=True):
             
             with open(path, 'w', encoding='utf-8') as f:
                 f.write(js_content)
-            print(f"  -> Guardado {path} ({len(items)} items)")
-        
-        print(f"{C.GREEN}✅ Todas las bibliotecas guardadas exitosamente{C.END}")
+            
+            # Barra de progreso
+            percent = int((i / total_files) * 100)
+            bar_length = 20
+            filled_length = int(bar_length * i // total_files)
+            bar = '█' * filled_length + '░' * (bar_length - filled_length)
+            
+            # Borrar línea anterior y mostrar estado final del archivo
+            sys.stdout.write(f"\r   {C.GREEN}✔ {filename:<20}{C.END} {C.CYAN}[{len(items):>4} items]{C.END} {C.BLUE}{bar} {percent}%{C.END}\n")
+            sys.stdout.flush()
+            time.sleep(0.15) # Pequeña pausa para efecto visual
+
+        print(f"\n{C.BOLD}{C.GREEN}✅ ¡GUARDADO COMPLETADO!{C.END}")
+        print(f"{C.GREY}   Total global: {len(peliculas_lista)} elementos sincronizados.{C.END}")
         return True
     
     except Exception as e:
-        print(f"{C.RED}❌ Error guardando: {e}{C.END}")
+        if 'spinner' in locals(): spinner.stop()
+        print(f"\n{C.RED}❌ Error crítico guardando: {e}{C.END}")
         return False, str(e)
 
 def detectar_generos_desde_query(query):
@@ -320,6 +376,15 @@ def mostrar_resumen_detallado(detalles, tipo_contenido):
     generos = detalles.get('generos_lista', [])
     if generos:
         print(f"{C.MAGENTA}🎭 Géneros: {', '.join(generos)}{C.END}")
+
+    # Productoras y Colección (NUEVO)
+    productoras = detalles.get('productoras', [])
+    if productoras:
+        print(f"{C.BLUE}🏢 Producción: {', '.join(productoras)}{C.END}")
+    
+    coleccion = detalles.get('coleccion')
+    if coleccion:
+        print(f"{C.GOLD}📦 Colección: {coleccion}{C.END}")
 
     # Descripción
     descripcion = detalles.get('descripcion', 'Sin descripción.')
@@ -713,13 +778,17 @@ def mostrar_detalles_tecnicos(detalles):
 
 def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
     """Obtiene detalles completos desde TMDb con manejo de errores robusto."""
+    """Obtiene detalles completos desde TMDb con PARALELISMO y manejo de errores robusto."""
     try:
         if tipo_contenido == 'pelicula':
             movie = tmdb.Movies(tmdb_id)
             
             # Obtener datos con timeout
+        # Función auxiliar para peticiones seguras
+        def get_tmdb_data(method, **kwargs):
             try:
                 detalles = movie.info(language='es-ES', timeout=10)
+                return method(**kwargs)
             except:
                 detalles = movie.info(language='en-US', timeout=10)
             
@@ -740,6 +809,37 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
                 except:
                     videos = {}
             
+                # Fallback a inglés si falla español
+                if kwargs.get('language') == 'es-ES':
+                    kwargs['language'] = 'en-US'
+                    try:
+                        return method(**kwargs)
+                    except:
+                        return {}
+                return {}
+
+        # Ejecutar peticiones en paralelo para máxima velocidad
+        with ThreadPoolExecutor(max_workers=4) as executor:
+            if tipo_contenido == 'pelicula':
+                item = tmdb.Movies(tmdb_id)
+            else:
+                item = tmdb.TV(tmdb_id)
+
+            future_info = executor.submit(get_tmdb_data, item.info, language='es-ES')
+            future_credits = executor.submit(get_tmdb_data, item.credits, language='es-ES')
+            future_videos_es = executor.submit(get_tmdb_data, item.videos, language='es-ES')
+            future_videos_en = executor.submit(get_tmdb_data, item.videos, language='en-US')
+
+            detalles = future_info.result()
+            creditos = future_credits.result()
+            videos_es = future_videos_es.result()
+            videos_en = future_videos_en.result()
+
+        # Procesar videos (Preferir ES, sino EN)
+        videos = videos_es if videos_es.get('results') else videos_en
+        if not videos: videos = {}
+
+        if tipo_contenido == 'pelicula':
             # Procesar géneros
             generos = [g['name'] for g in detalles.get('genres', [])] if detalles.get('genres') else []
             
@@ -764,6 +864,12 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
             if detalles.get('backdrop_path'):
                 backdrop = f"https://image.tmdb.org/t/p/w1280{detalles['backdrop_path']}"
             
+            # Productoras y Colección
+            productoras = [p['name'] for p in detalles.get('production_companies', [])][:3]
+            coleccion = None
+            if detalles.get('belongs_to_collection'):
+                coleccion = detalles['belongs_to_collection'].get('name')
+
             # Trailer y videos
             trailer_url = ""
             trailer_key = ""
@@ -806,6 +912,8 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
                 'tmdb_id': tmdb_id,
                 'popularidad': round(float(detalles.get('popularity', 0)), 2),
                 'estado': detalles.get('status', 'Desconocido'),
+                'productoras': productoras,
+                'coleccion': coleccion,
                 'success': True
             }
         
@@ -856,6 +964,9 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
             if detalles.get('backdrop_path'):
                 backdrop = f"https://image.tmdb.org/t/p/w1280{detalles['backdrop_path']}"
             
+            # Productoras
+            productoras = [p['name'] for p in detalles.get('production_companies', [])][:3]
+
             # Trailer y videos
             trailer_url = ""
             trailer_key = ""
@@ -899,6 +1010,7 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
                 'estado': detalles.get('status', 'Desconocido'),
                 'ultima_emision': detalles.get('last_air_date', ''),
                 'tipo_serie': detalles.get('type', 'Serie'),
+                'productoras': productoras,
                 'success': True
             }
     
@@ -1303,7 +1415,7 @@ def gestionar_fuentes(pelicula):
         elif opcion == '1':
             url = input(f"{C.CYAN}🔗 Nueva URL: {C.END}").strip()
             if url:
-                fuentes.append({'url': procesar_url_embed(url), 'idioma': 'Latino', 'calidad': 'HD', 'tipo': 'embed', 'activa': True})
+                fuentes.append({'url': procesar_url_embed(url), 'idioma': 'Latino', 'calidad': '1080p', 'tipo': 'embed', 'activa': True})
                 print(f"{C.GREEN}✅ Fuente añadida.{C.END}")
                 time.sleep(1)
         elif opcion == '2':
@@ -1430,7 +1542,7 @@ def gestionar_episodios(temporada):
                     'episodio': num_ep,
                     'titulo': input(f"{C.CYAN}Título: {C.END}").strip() or f"Episodio {num_ep}",
                     'url': procesar_url_embed(input(f"{C.CYAN}URL: {C.END}").strip()),
-                    'calidad': input(f"{C.CYAN}Calidad [HD]: {C.END}").strip() or "HD",
+                    'calidad': "1080p",
                     'visto': False
                 }
                 episodios.append(nuevo_episodio)
@@ -1671,6 +1783,7 @@ def _buscar_por_id_avanzado():
     """
     limpiar_pantalla()
     print(f"{C.PURPLE}🔍 BÚSQUEDA POR URL/ID DE TMDB/IMDB{C.END}\n")
+    print(f"{C.GREY}Soporta enlaces de TMDb, IMDb o IDs numéricos directos.{C.END}")
     
     url_o_id = input(f"{C.CYAN}🔗 Introduce la URL o el ID de TMDb/IMDb: {C.END}").strip()
     
@@ -1681,6 +1794,10 @@ def _buscar_por_id_avanzado():
         
     tmdb_id = None
     tipo_contenido = None
+    
+    # Iniciar animación de análisis
+    spinner = Spinner(f"{C.YELLOW}Analizando enlace y conectando con el núcleo de TMDb")
+    spinner.start()
     
     # Estrategia 1: Detectar URL de TMDb
     tmdb_movie_match = re.search(r'themoviedb\.org/movie/(\d+)', url_o_id)
@@ -1700,6 +1817,7 @@ def _buscar_por_id_avanzado():
         imdb_id_match = re.search(r'(tt\d+)', url_o_id)
         imdb_id = imdb_id_match.group(1)
         print(f"{C.CYAN}🔄 Buscando ID de TMDb para IMDb ID: {imdb_id}...{C.END}")
+        spinner.message = f"Convirtiendo IMDb ID {imdb_id} a TMDb"
         
         try:
             find = tmdb.Find(imdb_id)
@@ -1714,10 +1832,12 @@ def _buscar_por_id_avanzado():
                 tipo_contenido = 'serie'
                 print(f"{C.GREEN}✅ ID de serie TMDb encontrado: {tmdb_id}{C.END}")
             else:
+                spinner.stop()
                 print(f"{C.RED}❌ No se encontró contenido en TMDb para ese ID de IMDb.{C.END}")
                 time.sleep(2)
                 return None, None
         except Exception as e:
+            spinner.stop()
             print(f"{C.RED}❌ Error al buscar en TMDb con ID de IMDb: {e}{C.END}")
             time.sleep(2)
             return None, None
@@ -1725,6 +1845,7 @@ def _buscar_por_id_avanzado():
     # Estrategia 3: Asumir que es un ID numérico de TMDb
     elif url_o_id.isdigit():
         tmdb_id = url_o_id
+        spinner.stop()
         print(f"{C.YELLOW}🤔 Asumiendo que '{tmdb_id}' es un ID de TMDb. ¿Qué tipo de contenido es?{C.END}")
         print("  1. 🎬 Película")
         print("  2. 📺 Serie")
@@ -1733,16 +1854,28 @@ def _buscar_por_id_avanzado():
             tipo_contenido = 'serie'
         else:
             tipo_contenido = 'pelicula'
+        spinner.start() # Reiniciar spinner
             
     else:
+        spinner.stop()
         print(f"{C.RED}❌ Formato de URL o ID no reconocido.{C.END}")
         time.sleep(2)
         return None, None
 
+    spinner.stop()
+
     # Si tenemos un ID y tipo, obtenemos los detalles
     if tmdb_id and tipo_contenido:
         print(f"\n{C.CYAN}📥 Obteniendo detalles para TMDb ID {tmdb_id}...{C.END}")
+        print(f"{C.GREEN}✅ ID Detectado: {tmdb_id} ({tipo_contenido.upper()}){C.END}")
+        
+        # Spinner para la descarga de datos
+        spinner = Spinner(f"{C.MAGENTA}🚀 Descargando metadatos, créditos y videos a alta velocidad")
+        spinner.start()
+        
         detalles = obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido)
+        
+        spinner.stop()
         
         if detalles and detalles.get('success'):
             mostrar_resumen_detallado(detalles, tipo_contenido)
@@ -1811,13 +1944,8 @@ def anadir_contenido(peliculas, proximamente):
                     break
         
         if sugerencia_categoria:
-            print(f"\n{C.CYAN}🤖 Basado en los géneros, sugiero la categoría: {C.BOLD}{C.YELLOW}{sugerencia_categoria.replace('-', ' ').title()}{C.END}")
-            respuesta = input(f"{C.YELLOW}   ¿Usar esta categoría? (s/n) [s]: {C.END}").strip().lower()
-            if respuesta in ['s', 'si', 'y', 'yes', '']:
-                categorias_preseleccionadas = [sugerencia_categoria]
-            else:
-                print(f"\n{C.CYAN}De acuerdo, selecciona manualmente.{C.END}")
-                categorias_preseleccionadas = seleccionar_categoria()
+            print(f"\n{C.CYAN}🤖 Categoría asignada automáticamente: {C.BOLD}{C.YELLOW}{sugerencia_categoria.replace('-', ' ').title()}{C.END}")
+            categorias_preseleccionadas = [sugerencia_categoria]
         else:
             print(f"\n{C.CYAN}No se pudo sugerir una categoría. Por favor, selecciona manualmente.{C.END}")
             categorias_preseleccionadas = seleccionar_categoria()
@@ -1913,7 +2041,7 @@ def anadir_contenido(peliculas, proximamente):
         'calificacion': float(datos_extras.get('calificacion', 0) or input(f"{C.CYAN}⭐ Calificación (0-10): {C.END}").strip() or "0"),
         'votos': datos_extras.get('votos', 0),
         'idioma': input(f"{C.CYAN}🗣️  Idioma: {C.END}").strip() or datos_extras.get('idioma', 'Español'),
-        'calidad': input(f"{C.CYAN}📺 Calidad: {C.END}").strip() or "HD",
+        'calidad': "1080p",
         'favorito': False,
         'esta_roto': False,
         'addedDate': datetime.now().isoformat(),
@@ -1953,7 +2081,7 @@ def anadir_contenido(peliculas, proximamente):
                 url = input(f"{C.CYAN}🔗 URL del video: {C.END}").strip()
                 
                 if url:
-                    calidad = input(f"{C.CYAN}📺 Calidad (HD, 720p, 1080p, 4K): {C.END}").strip() or "HD"
+                    calidad = "1080p"
                     tipo_fuente = input(f"{C.CYAN}🎬 Tipo (embed, directa, stream): {C.END}").strip() or "embed"
                     
                     nuevo_contenido['fuentes'].append({
@@ -1974,7 +2102,7 @@ def anadir_contenido(peliculas, proximamente):
                     nuevo_contenido['fuentes'].append({
                         'idioma': 'Original',
                         'url': nuevo_contenido['trailer'],
-                        'calidad': 'HD',
+                        'calidad': '1080p',
                         'tipo': 'trailer',
                         'activa': True
                     })
@@ -2001,7 +2129,7 @@ def anadir_contenido(peliculas, proximamente):
                             num_ep = int(input(f"{C.CYAN}   Episodio #{len(temporada['episodios']) + 1}: {C.END}").strip())
                             titulo_ep = input(f"{C.CYAN}   Título del episodio: {C.END}").strip() or f"Episodio {num_ep}"
                             url_ep = input(f"{C.CYAN}   URL del episodio: {C.END}").strip()
-                            calidad_ep = input(f"{C.CYAN}   Calidad: {C.END}").strip() or "HD"
+                            calidad_ep = "1080p"
                             
                             if url_ep:
                                 temporada['episodios'].append({
@@ -2815,7 +2943,7 @@ def revisar_fuentes(peliculas):
                     item['fuentes'] = [{
                         'idioma': 'Original',
                         'url': item['trailer'],
-                        'calidad': 'HD',
+                        'calidad': '1080p',
                         'tipo': 'trailer',
                         'activa': True
                     }]
@@ -3205,7 +3333,7 @@ def modo_automatico(peliculas, anadidos):
                     'calificacion': detalles.get('calificacion', 0),
                     'votos': detalles.get('votos', 0),
                     'idioma': detalles.get('idioma', 'ES'),
-                    'calidad': 'HD',
+                    'calidad': '1080p',
                     'favorito': False,
                     'esta_roto': False,
                     'addedDate': datetime.now().isoformat(),
@@ -3226,7 +3354,7 @@ def modo_automatico(peliculas, anadidos):
                         nuevo_contenido['fuentes'].append({
                             'idioma': 'Latino',
                             'url': url_fija,
-                            'calidad': 'HD',
+                            'calidad': '1080p',
                             'tipo': 'embed',
                             'activa': True
                         })
@@ -3236,7 +3364,7 @@ def modo_automatico(peliculas, anadidos):
                             nuevo_contenido['fuentes'].append({
                                 'idioma': video_tmdb.get('tipo', 'Video'),
                                 'url': procesar_url_embed(video_tmdb.get('url')),
-                                'calidad': 'HD',
+                                'calidad': '1080p',
                                 'tipo': 'embed',
                                 'activa': True
                             })
@@ -3254,7 +3382,7 @@ def modo_automatico(peliculas, anadidos):
                                  'episodio': 1,
                                  'titulo': 'Episodio 1',
                                  'url': url_fija,
-                                 'calidad': 'HD',
+                                 'calidad': '1080p',
                                  'visto': False
                              }]
                          }]
@@ -3267,7 +3395,7 @@ def modo_automatico(peliculas, anadidos):
                                     'episodio': i,
                                     'titulo': video_tmdb.get('nombre', f"Video {i}"),
                                     'url': procesar_url_embed(video_tmdb.get('url')),
-                                    'calidad': 'HD',
+                                    'calidad': '1080p',
                                     'visto': False
                                 })
                             
@@ -3363,7 +3491,7 @@ def modo_automatico(peliculas, anadidos):
                         item['fuentes'].append({
                             'idioma': 'Subtitulado',
                             'url': url_procesada,
-                            'calidad': 'HD',
+                            'calidad': '1080p',
                             'tipo': 'embed',
                             'activa': True
                         })
@@ -3382,7 +3510,7 @@ def modo_automatico(peliculas, anadidos):
                             'episodio': 1,
                             'titulo': 'Episodio 1',
                             'url': url_procesada,
-                            'calidad': 'HD',
+                            'calidad': '1080p',
                             'visto': False
                         })
                         print(f"  {C.GREEN}✅ Episodio 1 añadido a Temporada 1.{C.END}")
@@ -3466,7 +3594,7 @@ def buscador_fuentes_faltantes(peliculas, editados):
                         item['fuentes'].append({
                             'idioma': 'Latino',
                             'url': procesar_url_embed(url),
-                            'calidad': 'HD',
+                            'calidad': '1080p',
                             'tipo': 'embed',
                             'activa': True
                         })

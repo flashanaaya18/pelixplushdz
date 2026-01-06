@@ -532,7 +532,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         'series': '📺 Series Populares📺',
         'todo-lo-nuevo-2025': '🆕 Todo lo Nuevo 2025',
         'todo-lo-nuevo-2026': '🆕 Todo lo Nuevo 2026',
-        'proximamente': '⏳ Próximamente',
+        'proximamente': '⏳ Próximamente Pelixplushd',
         'todos': '📂 Todo el Contenido',
         'populares': '⭐ Populares',
         'anime': '🎌 Anime',
@@ -1163,7 +1163,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // CORRECCIÓN: Tratar 'recientemente-añadido' de forma especial para que no desaparezca.
             // Se renderizará con su propia lógica fuera de este bucle.
-            if (idSeccion === 'favoritos' || idSeccion === 'recientemente-añadido') {
+            if (idSeccion === 'favoritos' || idSeccion === 'recientemente-añadido' || idSeccion === 'proximamente') {
                 continue;
             }
 
@@ -1257,55 +1257,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     };
 
-    const renderProximamenteSection = (proximamenteData) => {
-        if (!proximamenteSection) return;
-
-        proximamenteSection.innerHTML = '';
-
-        const titleContainer = document.createElement('div');
-        titleContainer.className = 'section-title-container';
-        titleContainer.innerHTML = `<h2 class="section-title">${secciones['proximamente']}</h2>`;
-
-        if (proximamenteData && proximamenteData.length > 0) {
-            const verMasLink = document.createElement('a');
-            verMasLink.href = 'proximamente.html';
-            verMasLink.className = 'ver-mas-link';
-            verMasLink.textContent = 'Ver más ›';
-            titleContainer.appendChild(verMasLink);
-        }
-
-        proximamenteSection.appendChild(titleContainer);
-
-        if (!proximamenteData || proximamenteData.length === 0) {
-            proximamenteSection.innerHTML += `
-                <div class="no-favorites-message">
-                    <h3>¡No hay contenido en 'Próximamente'!</h3>
-                    <p>Vuelve pronto para ver lo que tenemos preparado.</p>
-                </div>
-            `;
-            return;
-        }
-
-        const grid = document.createElement('div');
-        grid.className = 'movie-grid';
-
-        proximamenteData.forEach(item => {
-            const tarjeta = document.createElement('div');
-            tarjeta.className = 'movie-card';
-            const tipo = item.tipo || 'pelicula';
-            const tipoTag = `<div class="card-tag tag-tipo tag-${tipo}">${tipo.toUpperCase()}</div>`;
-
-            tarjeta.innerHTML = `
-                ${tipoTag}
-                <img src="${item.poster || 'https://via.placeholder.com/180x270/333333/ffffff?text=No+Image'}" alt="Póster de ${item.titulo}" loading="lazy" decoding="async" onerror="this.src='https://via.placeholder.com/180x270/333333/ffffff?text=No+Image'">
-                <div class="movie-info"><h3>${item.titulo}</h3><p>Próximamente...</p></div>`;
-            grid.appendChild(tarjeta);
-        });
-
-        proximamenteSection.appendChild(grid);
-        proximamenteSection.style.display = 'block';
-    };
-
     function renderTrendingSection() {
         const trendingSection = document.getElementById('tendencias');
         if (!trendingSection) return;
@@ -1367,8 +1318,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // LISTA DE DESTACADOS (Edita aquí los IDs de YouTube y Nombres)
         const destacados = [
+            { nombre: "Supergirl", youtubeId: "nMSMaagat8o" },
+            { nombre: "Spider-Man: Un nuevo día", youtubeId: "2Bt_SkyykwM" },
             { nombre: "Joker: Folie à Deux", youtubeId: "_OKAwz2MsJs" }, // ID del video de YouTube
             { nombre: "Deadpool & Wolverine", youtubeId: "73_1biulkYk" },
+            { nombre: "Super Mario Galaxy la película", youtubeId: "n2IMsL-3yK0" },
             { nombre: "Gladiador 2", youtubeId: "MmG0E4joDK0" },
             { nombre: "stranger things final temporada", youtubeId: "HjHJSbAoTTw"},
             { nombre: "Venom: El Último Baile", youtubeId: "__2bjWbetsA" },
@@ -1600,6 +1554,93 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         } catch (error) {
             console.error('Error al cargar las mejores películas:', error);
+            container.style.display = 'none';
+        }
+    }
+
+    // --- NUEVO: Cargar y renderizar Próximamente desde TMDB ---
+    async function fetchAndRenderUpcomingMovies() {
+        const container = document.getElementById('proximamente');
+        if (!container) return;
+
+        container.innerHTML = '';
+        
+        const titleContainer = document.createElement('div');
+        titleContainer.className = 'section-title-container';
+        titleContainer.innerHTML = `<h2 class="section-title">${secciones['proximamente']}</h2>`;
+        container.appendChild(titleContainer);
+
+        const gridContainer = document.createElement('div');
+        gridContainer.className = 'carrusel-contenedor';
+        
+        gridContainer.innerHTML = `
+            <button class="carrusel-flecha izquierda" aria-label="Anterior">&#10094;</button>
+            <div id="proximamente-grid" class="movie-grid">
+                <div class="loader-bar" style="margin: 2rem auto; animation: none; background: var(--primary);"></div>
+            </div>
+            <button class="carrusel-flecha derecha" aria-label="Siguiente">&#10095;</button>
+        `;
+        container.appendChild(gridContainer);
+        
+        const grid = gridContainer.querySelector('.movie-grid');
+        const flechaIzquierda = gridContainer.querySelector('.izquierda');
+        const flechaDerecha = gridContainer.querySelector('.derecha');
+
+        flechaIzquierda.addEventListener('click', () => grid.scrollBy({ left: -grid.clientWidth * 0.8, behavior: 'smooth' }));
+        flechaDerecha.addEventListener('click', () => grid.scrollBy({ left: grid.clientWidth * 0.8, behavior: 'smooth' }));
+
+        try {
+            // Usar discover con release_date.gte para obtener TODOS los estrenos futuros en México
+            const today = new Date().toISOString().split('T')[0];
+            const pages = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+            const promises = pages.map(page => 
+                fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${TMDB_API_KEY}&language=es-ES&region=MX&sort_by=popularity.desc&release_date.gte=${today}&page=${page}`)
+                    .then(res => res.ok ? res.json() : { results: [] })
+                    .catch(() => ({ results: [] }))
+            );
+
+            const resultsArray = await Promise.all(promises);
+            // Combinar resultados de todas las páginas y eliminar duplicados por ID
+            const allMovies = resultsArray.flatMap(data => data.results || []);
+            const uniqueMovies = Array.from(new Map(allMovies.map(item => [item.id, item])).values());
+
+            if (uniqueMovies.length > 0) {
+                grid.innerHTML = ''; 
+
+                uniqueMovies.forEach(item => {
+                    if (!item.poster_path) return;
+
+                    const peliculaData = {
+                        id: `tmdb-up-${item.id}`,
+                        tmdbId: item.id,
+                        tipo: 'pelicula',
+                        titulo: item.title,
+                        descripcion: item.overview,
+                        poster: `https://image.tmdb.org/t/p/w500${item.poster_path}`,
+                        año: (item.release_date || '').split('-')[0] || 'Próximamente',
+                        calificacion: item.vote_average,
+                        esTmdb: true
+                    };
+
+                    const card = createMovieCard(peliculaData);
+                    card.href = `detalles.html?tmdb=${item.id}&type=movie`;
+                    
+                    if (item.release_date) {
+                        const dateBadge = document.createElement('div');
+                        dateBadge.className = 'card-tag';
+                        dateBadge.style.cssText = 'background: #e50914; bottom: 0; top: auto; left: 0; right: 0; width: 100%; text-align: center; border-radius: 0 0 8px 8px; font-size: 0.8rem; padding: 4px;';
+                        dateBadge.textContent = `Estreno: ${item.release_date}`;
+                        card.appendChild(dateBadge);
+                    }
+
+                    grid.appendChild(card);
+                });
+                container.style.display = 'block';
+            } else {
+                container.style.display = 'none';
+            }
+        } catch (error) {
+            console.error('Error cargando Próximamente:', error);
             container.style.display = 'none';
         }
     }
@@ -2399,6 +2440,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             renderViewHistory();
             renderRecomendaciones();
             fetchAndRenderTopRatedMovies();
+            fetchAndRenderUpcomingMovies();
 
             // SEO: Inyectar datos estructurados una vez que todo está listo
             injectStructuredData();

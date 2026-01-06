@@ -113,6 +113,69 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Accident Man: De vacaciones",
+    "titulo_original": "Accident Man: Hitman's Holiday",
+    "poster": "https://image.tmdb.org/t/p/w500/b5otfV0DzbtLlPIoZTpJd7pkWh8.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/aVqKpp6ulwldIZSu160i9MTuocQ.jpg",
+    "descripcion": "Accident Man está de regreso, y esta vez debe vencer a los mejores asesinos del mundo para proteger al desagradecido hijo de un jefe de la mafia, salvar la vida de su único amigo y reavivar su relación con su figura paterna maníaca.",
+    "año": 2022,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "comedia",
+      "crimen"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Comedia",
+      "Crimen"
+    ],
+    "director": "George Kirby",
+    "reparto": [
+      "Scott Adkins",
+      "Ray Stevenson",
+      "Perry Benson",
+      "Sarah Chang",
+      "Andy Long Nguyen",
+      "Beau Fowler",
+      "George Fouracres",
+      "Peter Lee Thomas",
+      "Zara Phythian",
+      "Faisal Mohammed",
+      "Steffi Thake",
+      "Adam Basil"
+    ],
+    "calificacion": 6.7,
+    "votos": 226,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-05T23:09:16.454882",
+    "tmdb_id": "879444",
+    "popularidad": 2.36,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=eN7eA3_Hn_g",
+    "trailer_key": "eN7eA3_Hn_g",
+    "success": true,
+    "duracion": "96 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$41,000,000",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://vidhidepro.com/v/8gjharlzos8n",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "accident-man-de-vacaciones-2022"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Airbender, el último guerrero",
     "titulo_original": "The Last Airbender",
     "poster": "https://image.tmdb.org/t/p/w500/ztvnkvNYtZReU9iQyY94PXw3nzs.jpg",
@@ -172,6 +235,71 @@ const peliculas3 = [
       }
     ],
     "id": "airbender-el-ultimo-guerrero-2010"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Alana, diosa vengadora",
+    "titulo_original": "Sri Asih",
+    "poster": "https://image.tmdb.org/t/p/w500/rqCsm6cKYr70Xbe12Q70sSot9Qb.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/atn3cbaqNJl7mw7p9QDiMIfHAK2.jpg",
+    "descripcion": "Esta película de acción, basada en una saga de cómics indonesios, sigue a Alana, una joven nacida durante una erupción volcánica que ha lidiado con problemas de ira desde su infancia. Su vida cambia cuando descubre que su furia tiene un origen sobrenatural vinculado al volcán que marcó su nacimiento.",
+    "año": 2022,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "aventura",
+      "ciencia ficción",
+      "fantasía"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Aventura",
+      "Ciencia ficción",
+      "Fantasía"
+    ],
+    "director": "Upi Avianto",
+    "reparto": [
+      "Pevita Pearce",
+      "Reza Rahadian",
+      "Christine Hakim",
+      "Jefri Nichol",
+      "Dimas Anggara",
+      "Surya Saputra",
+      "Jenny Zhang",
+      "Ario Bayu",
+      "Aqi Singgih",
+      "Randy Pangalila",
+      "Faradina Mufti",
+      "Revaldo"
+    ],
+    "calificacion": 6.5,
+    "votos": 153,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-05T22:53:08.635694",
+    "tmdb_id": 624091,
+    "popularidad": 2.84,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=Za-KBkJqi68",
+    "trailer_key": "Za-KBkJqi68",
+    "success": true,
+    "duracion": "134 min",
+    "presupuesto": "$1,242,172",
+    "ingresos": "$4,577,403",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://vidhidepro.com/v/vbt3w3fvfgqs",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "alana-diosa-vengadora-2022"
   },
   {
     "tipo": "serie",
@@ -1202,12 +1330,109 @@ const peliculas3 = [
             "visto": false
           }
         ]
+      },
+      {
+        "temporada": 3,
+        "nombre": "Temporada 3",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/funz69qicmd9",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/9eyg5ou0fxid",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/tv21tjyftcqj",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/372lf2hbtefr",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
       }
     ],
     "episodios": 65,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-02-13",
     "id": "cobra-kai-2018"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Del cielo al infierno",
+    "titulo_original": "Highest 2 Lowest",
+    "poster": "https://image.tmdb.org/t/p/w500/b0AQYSM09AYVRKLZr6jIAP2xNq9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/94KROr9xO9u5Tq5gTdCJlVRRfhm.jpg",
+    "descripcion": "Cuando un poderoso empresario musical es víctima de una extorsión, se ve obligado a luchar por su familia y su legado mientras afronta un dilema ético vital.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "suspense",
+      "crimen",
+      "drama"
+    ],
+    "generos_lista": [
+      "Suspense",
+      "Crimen",
+      "Drama"
+    ],
+    "director": "Spike Lee",
+    "reparto": [
+      "Denzel Washington",
+      "Jeffrey Wright",
+      "Ilfenesh Hadera",
+      "Elijah Wright",
+      "Aubrey Joseph",
+      "A$AP Rocky",
+      "John Douglas Thompson",
+      "LaChanze",
+      "Dean Winters",
+      "Wendell Pierce",
+      "Michael Potts",
+      "Frederick Weller"
+    ],
+    "calificacion": 5.5,
+    "votos": 392,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-05T18:14:34.407836",
+    "tmdb_id": "1242434",
+    "popularidad": 9.79,
+    "tagline": "El dinero tiene un precio.",
+    "trailer": "https://www.youtube.com/watch?v=zf_N5r9QK9g",
+    "trailer_key": "zf_N5r9QK9g",
+    "success": true,
+    "duracion": "133 min",
+    "presupuesto": "$25,000,000",
+    "ingresos": "$1,500,000",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/x7mzfydgmtpt",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "del-cielo-al-infierno-2025"
   },
   {
     "tipo": "pelicula",
@@ -1409,6 +1634,74 @@ const peliculas3 = [
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-06-27",
     "id": "el-juego-del-calamar-2021"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "El Monstruo de Florencia",
+    "titulo_original": "",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/6rUEuEfaFAyhR4PJV5FRxcGzkrS.jpg",
+    "backdrop": "",
+    "descripcion": "",
+    "año": 2026,
+    "categoria": [
+      "series"
+    ],
+    "genero": [],
+    "generos_lista": [],
+    "director": "",
+    "reparto": [],
+    "calificacion": 0.0,
+    "votos": 0,
+    "idioma": "Español",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-06T02:26:19.261481",
+    "tmdb_id": "",
+    "popularidad": 0,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://hlswish.com/e/6ab2ajjlwynk",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://hlswish.com/e/gurhrs4pzrai",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://hlswish.com/e/abr3rf4986bq",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://hlswish.com/e/05v985nmb0ea",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 0,
+    "tipo_serie": "Serie",
+    "id": "el-monstruo-de-florencia-2026"
   },
   {
     "tipo": "pelicula",
@@ -2346,6 +2639,195 @@ const peliculas3 = [
     "id": "guardianes-de-la-noche-tren-infinito-2020"
   },
   {
+    "tipo": "serie",
+    "titulo": "Halo 4: Ataque al amanecer",
+    "titulo_original": "Halo 4: Ataque al amanecer",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/4E5KXs8vXE8w4Bcb4UgFV9b7sul.jpg",
+    "backdrop": "",
+    "descripcion": "",
+    "año": 2026,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "general"
+    ],
+    "generos_lista": [],
+    "director": "Creador",
+    "reparto": [],
+    "calificacion": 7.0,
+    "votos": 0,
+    "idioma": "Español",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-06T01:22:50.699068",
+    "tmdb_id": "56295",
+    "popularidad": 0,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://voe.sx/e/mzkoism29bym",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 10,
+    "tipo_serie": "Serie",
+    "id": "contenido-id-56295-2026"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Halo: Nightfall",
+    "titulo_original": "Halo: Nightfall",
+    "poster": "https://image.tmdb.org/t/p/w500/xaJtfesBGzQNrjsIhWfhqTkGshG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/jAXel5sHK1bnv9lL1U4HOkdxuD9.jpg",
+    "descripcion": "Ubicado entre los eventos de Halo 4 y Halo 5: Guardianes ... Halo: Nightfall cuenta la dramática historia del legendario cazador de hombres y el oficial de inteligencia naval Jameson Locke y su equipo, ya que se encuentran atrapados en un horrible ataque biológico mientras investigan la actividad terrorista en la colonia lejana mundo de sedra. A medida que desenredan un complot que los atrae a un antiguo artefacto infernal, se verán obligados a luchar por su supervivencia, cuestionarse todo y, finalmente, elegir entre su lealtad y sus vidas.",
+    "año": 2014,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "acción",
+      "aventura"
+    ],
+    "generos_lista": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+    ],
+    "director": "Sergio Mimica-Gezzan",
+    "reparto": [
+      "Mike Colter",
+      "Alexis Rodney",
+      "Alexander Bhat",
+      "Sarah Armstrong",
+      "Shaun Blaney",
+      "Christina Chong",
+      "Steven Waddington",
+      "Luke Neal",
+      "Christian Contreras",
+      "Jennie Gruner",
+      "Siennah Buck",
+      "Jonathan Harden"
+    ],
+    "calificacion": 6.8,
+    "votos": 181,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-06T01:30:08.022914",
+    "tmdb_id": "487186",
+    "popularidad": 1.11,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=66rnUp2I-eI",
+    "trailer_key": "66rnUp2I-eI",
+    "success": true,
+    "duracion": "119 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [],
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dood.to/e/m1b1oyurw0a1",
+            "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dood.to/e/aw3gq4fnyd6k",
+            "calidad": "HD",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 5,
+    "tipo_serie": "Miniseries",
+    "id": "halo-nightfall-2014"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Heartbeast",
+    "titulo_original": "Heartbeast",
+    "poster": "https://image.tmdb.org/t/p/w500/bMxbzIoSDJ1KC2kSEsAcltIAyIb.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/n6sYhVgpyk0Nh9Gq1BfXZnls4cf.jpg",
+    "descripcion": "Cuando Elina, una joven aspirante a rapera que se ve obligada a mudarse de Finlandia al sur de Francia, conoce a Sofía, su nueva hermanastra y una impresionante bailarina, se enamora inmediatamente de ella.",
+    "año": 2022,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Suspense"
+    ],
+    "director": "Aino Suni",
+    "reparto": [
+      "Elsi Sloan",
+      "Carmen Kassovitz",
+      "Camille",
+      "Adel Bencherif",
+      "Lucille Guillaume",
+      "Rebekka Kuukka",
+      "Vivian Mahler",
+      "Chilla",
+      "Juliette Gernez",
+      "Youkan Jasim",
+      "Rémy Robert",
+      "Benjamin Baroche"
+    ],
+    "calificacion": 3.7,
+    "votos": 15,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-05T22:45:32.946872",
+    "tmdb_id": "726888",
+    "popularidad": 1.39,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=gQMMbiN8uCQ",
+    "trailer_key": "gQMMbiN8uCQ",
+    "success": true,
+    "duracion": "103 min",
+    "presupuesto": "$2,434,000",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/pxymblhr1xye",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "heartbeast-2022"
+  },
+  {
     "tipo": "pelicula",
     "titulo": "Hellboy II: El ejército dorado",
     "titulo_original": "Hellboy II: The Golden Army",
@@ -2635,6 +3117,60 @@ const peliculas3 = [
       }
     ],
     "id": "homo-argentum-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Hotel Dunsmuir",
+    "titulo_original": "Hotel Dunsmuir",
+    "poster": "https://image.tmdb.org/t/p/w500/1Jl5WbAEd7jaBfQklsbTwbGqkc3.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/C1Gq6v2xlioLsyJzZ2UoPtJH2X.jpg",
+    "descripcion": "Una joven con percepción extrasensorial huye de su esposo abusivo, solo para aterrizar en un hotel histórico que contiene una presencia siniestra.",
+    "año": 2022,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror"
+    ],
+    "generos_lista": [
+      "Terror"
+    ],
+    "director": "Michael Zaiko Hall",
+    "reparto": [
+      "Jet Jandreau",
+      "Jose Rosete",
+      "Amber Gaston",
+      "Cliff Flowers",
+      "Nicholas Fabrio",
+      "Billy Owens",
+      "Susie Boyd"
+    ],
+    "calificacion": 3.4,
+    "votos": 7,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-05T22:44:02.216292",
+    "tmdb_id": "1027950",
+    "popularidad": 4.73,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=YvukpBWZ2SY",
+    "trailer_key": "YvukpBWZ2SY",
+    "success": true,
+    "duracion": "104 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://doodstream.com/e/9y7mx4bgqxxb",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "hotel-dunsmuir-2022"
   },
   {
     "tipo": "pelicula",
@@ -3103,6 +3639,122 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "La batalla olvidada",
+    "titulo_original": "De Slag om de Schelde",
+    "poster": "https://image.tmdb.org/t/p/w500/f4NnOLlwJz8N2gvlzfbDuiAyifH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qmCCXB6fn1Sjztm4t56Xviw0uDI.jpg",
+    "descripcion": "Las vidas de un piloto de planeador, un soldado nazi y una recluta de la resistencia se cruzan en la batalla del estuario del Escalda durante la Segunda Guerra Mundial.",
+    "año": 2021,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "bélica",
+      "aventura",
+      "historia",
+      "drama"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Bélica",
+      "Aventura",
+      "Historia",
+      "Drama"
+    ],
+    "director": "Matthijs van Heijningen Jr.",
+    "reparto": [
+      "Gijs Blom",
+      "Jamie Flatters",
+      "Susan Radder",
+      "Theo Barklem-Biggs",
+      "Jan Bijvoet",
+      "Marthe Schneider",
+      "Ronald Kalter",
+      "Scott Reid",
+      "Robert Naylor",
+      "Tom Felton",
+      "Coen Bril",
+      "Justus von Dohnányi"
+    ],
+    "calificacion": 7.1,
+    "votos": 740,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-05T22:59:38.328276",
+    "tmdb_id": "633515",
+    "popularidad": 2.25,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=xG7BupFCGfI",
+    "trailer_key": "xG7BupFCGfI",
+    "success": true,
+    "duracion": "124 min",
+    "presupuesto": "$14,000,000",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://vidhidepro.com/v/0penrr5jas0j",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "la-batalla-olvidada-2021"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "La influencer siniestra: La historia de Jodi Hildebrandt",
+    "titulo_original": "Evil Influencer: The Jodi Hildebrandt Story",
+    "poster": "https://image.tmdb.org/t/p/w500/9jFjw1jPGHSoL310iVNacwYm1xu.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5lZXIkRpOJICbWYJgImdbZ1vWx6.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "documental"
+    ],
+    "genero": [
+      "documental"
+    ],
+    "generos_lista": [
+      "Documental"
+    ],
+    "director": "Skye Borgman",
+    "reparto": [
+      "Jodi Hildebrandt",
+      "Josi Franke"
+    ],
+    "calificacion": 6.2,
+    "votos": 22,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-05T17:38:57.895015",
+    "tmdb_id": 1591516,
+    "popularidad": 10.91,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=eMjsVQIepZw",
+    "trailer_key": "eMjsVQIepZw",
+    "success": true,
+    "duracion": "101 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filemoon.to/e/r6eisj2qntd9",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "la-influencer-siniestra-la-historia-de-jodi-hildebrandt-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "La leyenda de Beldham",
     "titulo_original": "The Beldham",
     "poster": "https://image.tmdb.org/t/p/w500/60wDbXGVlOZkEP6hbBjTGWrgmJa.jpg",
@@ -3162,6 +3814,55 @@ const peliculas3 = [
       }
     ],
     "id": "la-leyenda-de-beldham-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "La nueva brigada",
+    "titulo_original": "",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/axSGysoo3CW3P1QnAxQrY1h7kWq.jpg",
+    "backdrop": "",
+    "descripcion": "Serie de alta calidad disponible. Con una trama envolvente y producción profesional.",
+    "año": 2026,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "general"
+    ],
+    "generos_lista": [],
+    "director": "Creador",
+    "reparto": [],
+    "calificacion": 7.0,
+    "votos": 0,
+    "idioma": "Español",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-06T02:16:08.813750",
+    "tmdb_id": "271128",
+    "popularidad": 0,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://doodstream.com/e/u7g8jxlrrzk3",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 10,
+    "tipo_serie": "Serie",
+    "id": "la-nueva-brigada-2026"
   },
   {
     "tipo": "pelicula",
@@ -4357,6 +5058,69 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Los pecadores",
+    "titulo_original": "Sinners",
+    "poster": "https://image.tmdb.org/t/p/w500/zdClwqpYQXBSCGGDMdtvsuggwec.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
+    "descripcion": "Tratando de dejar atrás sus problemáticas vidas, dos hermanos gemelos regresan a su pueblo natal para empezar de nuevo, solo para descubrir que un mal aún mayor les espera para darles la bienvenida.",
+    "año": 2025,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "terror",
+      "acción",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Acción",
+      "Suspense"
+    ],
+    "director": "Ryan Coogler",
+    "reparto": [
+      "Michael B. Jordan",
+      "Hailee Steinfeld",
+      "Miles Caton",
+      "Jack O'Connell",
+      "Wunmi Mosaku",
+      "Jayme Lawson",
+      "Omar Benson Miller",
+      "Delroy Lindo",
+      "Li Jun Li",
+      "Yao",
+      "Lola Kirke",
+      "Peter Dreimanis"
+    ],
+    "calificacion": 7.5,
+    "votos": 3159,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-05T18:23:40.046508",
+    "tmdb_id": 1233413,
+    "popularidad": 53.53,
+    "tagline": "Baila con el diablo.",
+    "trailer": "https://www.youtube.com/watch?v=WjiueAccLwc",
+    "trailer_key": "WjiueAccLwc",
+    "success": true,
+    "duracion": "138 min",
+    "presupuesto": "$90,000,000",
+    "ingresos": "$367,953,537",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/n42kjl8l41in",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "los-pecadores-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Lost Horizon",
     "titulo_original": "Lost Horizon",
     "poster": "https://image.tmdb.org/t/p/w500/sBeKHgOtjDRNMHeF9oMR8gpx3k8.jpg",
@@ -4413,6 +5177,69 @@ const peliculas3 = [
       }
     ],
     "id": "lost-horizon-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Love on the Rock",
+    "titulo_original": "Love on the Rock",
+    "poster": "https://image.tmdb.org/t/p/w500/itWubFAXws34yK3h77Maxx9Di1h.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/f2semWNQKTsg0NOS9dJ8MOykfAp.jpg",
+    "descripcion": "Colton Riggs se niega a vivir y huye al Caribe para dejar atrás sus preocupaciones. Cuando accidentalmente recoge un suero que tiene la capacidad de curar enfermedades. Mientras los agentes lo persiguen para recuperarlo, se enamora de una mujer que también está tratando de escapar. En un giro inesperado, los agentes se dan cuenta de que Colton no sabe nada sobre el suero. En su punto de quiebre, Colton está listo para darse por vencido. Pero luego se entera de que su ex esposa falleció y tiene una hija. Esto revive las ganas de vivir de Colton y le muestra que hay un propósito para cada vida. Entonces, él entra en su llamado para recuperar el suero y recuperar a la chica.",
+    "año": 2021,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "aventura",
+      "romance"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Aventura",
+      "Romance"
+    ],
+    "director": "Matt Shapira",
+    "reparto": [
+      "David A.R. White",
+      "Steven Bauer",
+      "Jon Lovitz",
+      "Jeff Fahey",
+      "Lauriane Gilliéron",
+      "Nathalie Rapti Gomez",
+      "Matthew Marsden",
+      "Vincent De Paul",
+      "Kira Reed Lorsch",
+      "Andrei Claude",
+      "Yaz Canli",
+      "Paul Piercy"
+    ],
+    "calificacion": 6.8,
+    "votos": 13,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-05T23:10:19.616491",
+    "tmdb_id": "899557",
+    "popularidad": 0.42,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=NmYNtEEHrEU",
+    "trailer_key": "NmYNtEEHrEU",
+    "success": true,
+    "duracion": "99 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filelions.to/v/qrqutjtx6cm8",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "love-on-the-rock-2021"
   },
   {
     "tipo": "serie",
@@ -4565,6 +5392,69 @@ const peliculas3 = [
       }
     ],
     "id": "merv-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "No Way Out",
+    "titulo_original": "No Way Out",
+    "poster": "https://image.tmdb.org/t/p/w500/445lHS7TRbyoHcm80pArYny1e1l.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bsN0OyA6ZSQ3vkvNMaoNgp4woB6.jpg",
+    "descripcion": "",
+    "año": 2022,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "suspense",
+      "crimen",
+      "acción"
+    ],
+    "generos_lista": [
+      "Suspense",
+      "Crimen",
+      "Acción"
+    ],
+    "director": "Azi Rahman",
+    "reparto": [
+      "Joey Bicicchi",
+      "Maia Mitchell",
+      "Katelyn Pippy",
+      "Guy Burnet",
+      "Ronnie Gene Blevins",
+      "Jeff Adler",
+      "Duke Davis Roberts",
+      "Ashley Nicole Williams",
+      "Luke Brandon Field",
+      "Guershon Moreno",
+      "Kiersten Dolbec",
+      "Andy Cohen"
+    ],
+    "calificacion": 5.6,
+    "votos": 48,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-05T22:54:56.344314",
+    "tmdb_id": "606303",
+    "popularidad": 0.64,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=4lys_PJhGYc",
+    "trailer_key": "4lys_PJhGYc",
+    "success": true,
+    "duracion": "89 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://vidhidepro.com/v/4ghp4lf1qsyr",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "no-way-out-2022"
   },
   {
     "tipo": "pelicula",
@@ -4876,6 +5766,39 @@ const peliculas3 = [
     "id": "pandora-fire-and-ice-2025"
   },
   {
+    "tipo": "serie",
+    "titulo": "Pequeños desastres",
+    "titulo_original": "",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/fuPTZ6jBAAHM0TKUUMQliHICnrt.jpg",
+    "backdrop": "",
+    "descripcion": "",
+    "año": 2026,
+    "categoria": [
+      "series"
+    ],
+    "genero": [],
+    "generos_lista": [],
+    "director": "",
+    "reparto": [],
+    "calificacion": 0.0,
+    "votos": 0,
+    "idioma": "Español",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-06T02:23:12.455995",
+    "tmdb_id": "",
+    "popularidad": 0,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [],
+    "episodios": 0,
+    "tipo_serie": "Serie",
+    "id": "pequenos-desastres-2026"
+  },
+  {
     "tipo": "pelicula",
     "titulo": "Pig Hill",
     "titulo_original": "Pig Hill",
@@ -5115,6 +6038,59 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Ruido",
+    "titulo_original": "Ruido",
+    "poster": "https://image.tmdb.org/t/p/w500/xQ4yj1ug4lU9kCR4k3lKuujiXvJ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/sfozbnbUPvZHLLblRXdzGrRdPKS.jpg",
+    "descripcion": "Lati encontró refugio en el rap tras la muerte de su padre y, dos años después, sueña con triunfar en el mundo de las batallas de freestyle. Sin embargo, su madre, una mujer rigurosa, no tolera esa vocación al considerarla peligrosa y vulgar. Lati entrenará a escondidas con Judy, una antigua promesa del freestyle que la ayudará a enfrentarse a sus propios límites, descubriendo que la verdadera batalla no se libra solo en el escenario, sino también en su interior.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "música"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Música"
+    ],
+    "director": "Ingride Santos Piñol",
+    "reparto": [
+      "Latifa Drame",
+      "Judith Álvarez",
+      "Asaari Bibang",
+      "Lobo Estepario"
+    ],
+    "calificacion": 7.0,
+    "votos": 3,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-05T18:25:17.624119",
+    "tmdb_id": 1390154,
+    "popularidad": 16.2,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "85 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "español",
+        "url": "https://filemoon.to/e/bzpoj92ctjaw",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "ruido-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "s",
     "titulo_original": "The Lord of the Rings: The Two Towers",
     "poster": "https://image.tmdb.org/t/p/w500/z632eZtXaw76ZE5mMMGOBXCpm1T.jpg",
@@ -5273,6 +6249,62 @@ const peliculas3 = [
       }
     ],
     "id": "santastein-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Serpentine Pink",
+    "titulo_original": "Serpentine Pink",
+    "poster": "https://image.tmdb.org/t/p/w500/fCtRuMSKMuXZYwm0M1yGR2EltKZ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wu9o5PlqHntkniUDWQNtPShXFP0.jpg",
+    "descripcion": "",
+    "año": 2022,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Suspense"
+    ],
+    "director": "Vivian Sorenson",
+    "reparto": [
+      "Sabina Zúñiga Varela",
+      "Kristin Condon",
+      "O-Lan Jones",
+      "Michael Harris",
+      "Gregory Cruz",
+      "Joy Nash",
+      "Ron Hanks"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-05T22:48:13.614248",
+    "tmdb_id": "1019417",
+    "popularidad": 1.0,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=_33oDXBeIoY",
+    "trailer_key": "_33oDXBeIoY",
+    "success": true,
+    "duracion": "82 min",
+    "presupuesto": "$250,000",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://doodstream.com/e/wyu7nh7d6bq1",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "serpentine-pink-2022"
   },
   {
     "tipo": "serie",
@@ -5437,6 +6469,61 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Sky Beasts: The Screaming Sky",
+    "titulo_original": "Ceroboh",
+    "poster": "https://image.tmdb.org/t/p/w500/xDT1myWq9TLqEc39BwtkxvhuywC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wfy1anvv26st5QaDwPRqWF4FY1b.jpg",
+    "descripcion": "Las Bestias del Cielo, invasores alienígenas, controlan la mente de los humanos. Un grupo escondido en un edificio es localizado y sufre una paranoia letal.",
+    "año": 2022,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Suspense"
+    ],
+    "director": "Feisal Azizuddin",
+    "reparto": [
+      "Mia Sara Shauki",
+      "Kent Tan",
+      "Grace Ng",
+      "Nia Atasha",
+      "Syazani Zikry",
+      "Sasidaran"
+    ],
+    "calificacion": 3.0,
+    "votos": 1,
+    "idioma": "latino",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-05T22:37:58.847722",
+    "tmdb_id": "1019210",
+    "popularidad": 1.34,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "86 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://doodstream.com/e/nzzgoth7dqdc",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "sky-beasts-the-screaming-sky-2022"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Snoopy presenta: Un musical veraniego",
     "titulo_original": "Snoopy Presents: A Summer Musical",
     "poster": "https://image.tmdb.org/t/p/w500/xniB8WhLbSHdy4mPkn2olJUARck.jpg",
@@ -5499,6 +6586,50 @@ const peliculas3 = [
       }
     ],
     "id": "snoopy-presenta-un-musical-veraniego-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Snooze",
+    "titulo_original": "Snooze",
+    "poster": "https://image.tmdb.org/t/p/w500/xJisuZK36eZQ2f5GmS0rcvkFT8j.jpg",
+    "backdrop": "",
+    "descripcion": "",
+    "año": 2026,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "desconocido"
+    ],
+    "generos_lista": [],
+    "director": "",
+    "reparto": [],
+    "calificacion": 0.0,
+    "votos": 0,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-06T01:47:26.143562",
+    "tmdb_id": 1486529,
+    "popularidad": 0.07,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "93 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "LATINO",
+        "url": "https://filemoon.sx/e/syorfjfs5uvl",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "snooze-2026"
   },
   {
     "tipo": "serie",
@@ -5649,6 +6780,69 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Star Wars: El despertar de la fuerza",
+    "titulo_original": "Star Wars: The Force Awakens",
+    "poster": "https://image.tmdb.org/t/p/w500/vI86GLIkT5pP3ZfNs2EvmTrBLBm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8BTsTfln4jlQrLXUBquXJ0ASQy9.jpg",
+    "descripcion": "Treinta años después de la victoria de la Alianza Rebelde sobre la segunda Estrella de la Muerte (hechos narrados en el Episodio VI: El retorno del Jedi), la galaxia está todavía en guerra. Una nueva República se ha constituido, pero una siniestra organización, la Primera Orden, ha resurgido de las cenizas del Imperio Galáctico. A los héroes de antaño, que luchan ahora en la Resistencia, se suman nuevos héroes: Poe Dameron, un piloto de caza, Finn, un desertor de la Primera Orden, Rey, una joven chatarrera, y BB-8, un androide rodante. Todos ellos luchan contra las fuerzas del Mal: el Capitán Phasma, de la Primera Orden, y Kylo Ren, un temible y misterioso personaje que empuña un sable de luz roja.",
+    "año": 2015,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "aventura",
+      "acción",
+      "ciencia ficción"
+    ],
+    "generos_lista": [
+      "Aventura",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "director": "J.J. Abrams",
+    "reparto": [
+      "Harrison Ford",
+      "Mark Hamill",
+      "Carrie Fisher",
+      "Adam Driver",
+      "Daisy Ridley",
+      "John Boyega",
+      "Oscar Isaac",
+      "Lupita Nyong'o",
+      "Andy Serkis",
+      "Domhnall Gleeson",
+      "Anthony Daniels",
+      "Max von Sydow"
+    ],
+    "calificacion": 7.3,
+    "votos": 20175,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-06T01:15:42.384991",
+    "tmdb_id": "140607",
+    "popularidad": 12.32,
+    "tagline": "La Fuerza te está llamando. Sólo déjala entrar.",
+    "trailer": "https://www.youtube.com/watch?v=V8qlIZsutAQ",
+    "trailer_key": "V8qlIZsutAQ",
+    "success": true,
+    "duracion": "136 min",
+    "presupuesto": "$245,000,000",
+    "ingresos": "$2,068,223,624",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/njm70cnc3d1d",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "star-wars-el-despertar-de-la-fuerza-2015"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Stone Cold Fox",
     "titulo_original": "Stone Cold Fox",
     "poster": "https://image.tmdb.org/t/p/w500/oQbQmatyiRFsYuLOSxAxxG0E0Kl.jpg",
@@ -5769,6 +6963,66 @@ const peliculas3 = [
       }
     ],
     "id": "technoboys-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "The Plague",
+    "titulo_original": "The Plague",
+    "poster": "https://image.tmdb.org/t/p/w500/e4aBtGkDgAbwcbT4TxW8kj7yCeq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kHyN3PejjlYWYz1Eah3jS64oV0g.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Suspense"
+    ],
+    "director": "Charlie Polinger",
+    "reparto": [
+      "Joel Edgerton",
+      "Everett Blunck",
+      "Kayo Martin",
+      "Lucas Adler",
+      "Caden Burris",
+      "Elliott Heffernan",
+      "Kenny Rasmussen",
+      "Lennox Espy",
+      "Kolton Lee",
+      "Geo Dobre",
+      "Eduard Chimac"
+    ],
+    "calificacion": 8.0,
+    "votos": 1,
+    "idioma": "EN",
+    "calidad": "HD",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-05T22:32:04.631275",
+    "tmdb_id": "1370814",
+    "popularidad": 6.46,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=3V1VexmIKkc",
+    "trailer_key": "3V1VexmIKkc",
+    "success": true,
+    "duracion": "95 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filemoon.to/e/fvd0t4iodww4",
+        "calidad": "HD",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "the-plague-2025"
   },
   {
     "tipo": "pelicula",
