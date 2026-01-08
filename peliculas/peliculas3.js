@@ -1372,6 +1372,69 @@ const peliculas3 = [
     "id": "cobra-kai-2018"
   },
   {
+    "tipo": "serie",
+    "titulo": "Consuelo",
+    "titulo_original": "",
+    "poster": "https://image.tmdb.org/t/p/w300/8etHSR6usjgE6TFsRjpHeklmUee.jpg",
+    "backdrop": "",
+    "descripcion": "1955. Consuelo, una ama de casa de la alta sociedad, tras ser abandonada por su esposo, acepta la insólita propuesta de vender vibradores. Pronto descubre que el negocio es sorprendentemente próspero y la empodera de su destino y sus placeres.",
+    "año": 2024,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "drama comedia"
+    ],
+    "generos_lista": [],
+    "director": "",
+    "reparto": [],
+    "calificacion": 0.0,
+    "votos": 0,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-08T00:20:27.342259",
+    "tmdb_id": "",
+    "popularidad": 0,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/0f03dn46q51v",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/fve28xrcgjh2",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/i2qzhvvvhnq7",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 0,
+    "tipo_serie": "Serie",
+    "id": "consuelo-2026"
+  },
+  {
     "tipo": "pelicula",
     "titulo": "Del cielo al infierno",
     "titulo_original": "Highest 2 Lowest",

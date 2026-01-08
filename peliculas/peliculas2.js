@@ -9106,7 +9106,7 @@ const peliculas2 = [
     "tipo": "serie",
     "titulo": "La flor más bella",
     "titulo_original": "La flor más bella",
-    "poster": "https://image.tmdb.org/t/p/w500/oIiDdWpR0zsFgdzzgVjEDZ8xrsl.jpg",
+    "poster": "no-disponible.png",
     "backdrop": "https://image.tmdb.org/t/p/w1280/b8Lb8FOxfYwDLSbpwdLsN2u8NSK.jpg",
     "descripcion": "Curvilínea, rizada y segura de sí misma, Mich sabe que es fabulosa. Ahora solo tiene que convencer a todos los demás en su escuela secundaria de Xochimilco para que también lo crean.",
     "año": 2022,
@@ -9130,7 +9130,7 @@ const peliculas2 = [
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
-    "esta_roto": false,
+    "esta_roto": true,
     "addedDate": "2025-12-17T21:14:33.701149",
     "tmdb_id": 214454,
     "popularidad": 0.88,
@@ -9219,7 +9219,8 @@ const peliculas2 = [
     "tipo_serie": "Scripted",
     "ultima_emision": "2022-12-07",
     "plataforma": "netflix",
-    "id": "la-flor-mas-bella-2022"
+    "id": "la-flor-mas-bella-2022",
+    "poster_original": "https://image.tmdb.org/t/p/w500/oIiDdWpR0zsFgdzzgVjEDZ8xrsl.jpg"
   },
   {
     "tipo": "serie",

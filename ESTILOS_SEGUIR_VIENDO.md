@@ -239,6 +239,6 @@ Para verificar que los estilos funcionan correctamente:
 - **Texto gris**: `#b3b3b3` (info secundaria)
 - **Fondo semi-transparente**: `rgba(0, 0, 0, 0.7)` (botón ×)
 
----
+---detalles.hty
 
 ¡Ahora "Seguir Viendo" se ve perfecto en todos los dispositivos! 🎉

@@ -643,6 +643,27 @@ function displayMovieDetails(movie) {
         if (castTab) castTab.style.display = 'none';
     }
 
+    // --- NUEVO: Rating Tiempo Real ---
+    // 1. Mostrar lo que tengamos inmediatamente
+    if (movie.calificacion) {
+        updateRatingUI(movie.calificacion, movie.votos);
+    }
+
+    // 2. Si es contenido local (no viene de una búsqueda directa a TMDB reciente),
+    // intentamos buscar el rating actualizado en segundo plano.
+    const tmdbIdForRating = movie.tmdbId || movie.tmdb_id || movie.extraId || (movie.esTmdb ? movie.id.replace('tmdb-', '') : null);
+
+    // Solo hacemos fetch si NO es un objeto ya traído fresco de TMDB (movie.esTmdb true implica fresco en este contexto específico de carga)
+    // O si queremos asegurar 100% que sea real-time, lo hacemos siempre.
+    // El usuario pidió "tiempo real". Para local movies es OBLIGATORIO. Para "esTmdb", ya es bastante fresco (segundos), 
+    // pero si el usuario navega mucho tiempo, no cambia. Asumimos que "esTmdb" es suficientemente fresco.
+    if (!movie.esTmdb && tmdbIdForRating) {
+        fetchRealTimeRating(tmdbIdForRating, movie.tipo || 'movie');
+    } else if (movie.esTmdb && movie.calificacion) {
+        // Ya tenemos datos frescos
+        updateRatingUI(movie.calificacion, movie.votos);
+    }
+
     // Recomendaciones
     displayRecommendations(movie);
 
@@ -899,7 +920,7 @@ function displaySeasons(movie) {
     // Cargar la primera temporada por defecto
     if (sortedSeasons.length > 0) {
         let seasonToLoad = sortedSeasons[0].season || sortedSeasons[0].temporada;
-        
+
         // Verificar si hay progreso guardado para reanudar
         if (window.dataManager) {
             const savedData = window.dataManager.getContinueWatching()[movie.id];
@@ -1143,7 +1164,7 @@ function startSavingProgress(pelicula, videoElement, seasonNum = null, episodeNu
             saveProgressHandler();
         }
     });
-    
+
     // Guardar referencia en el elemento para poder limpiarlo externamente si hiciera falta
     videoElement._saveHandler = saveProgressHandler;
 }
@@ -1215,7 +1236,7 @@ function playSource(source, posterUrl, seasonNum = null, episodeNum = null) {
         const urlId = urlParams.get('id');
         const tmdbId = urlParams.get('tmdb');
         let movieId = urlId || (tmdbId ? `tmdb-${tmdbId}` : null);
-        
+
         // Intentar buscar objeto completo, si no, crear referencia mínima
         let movie = window.peliculas ? window.peliculas.find(m => String(m.id) === String(urlId)) : null;
         if (!movie && movieId) movie = { id: movieId, tipo: seasonNum ? 'serie' : 'pelicula' };
@@ -1623,5 +1644,62 @@ function setupPlayerToolbar() {
                 console.error('Error PiP:', error);
             }
         });
+    }
+}
+
+// --- NUEVO: Funciones para el Rating en Tiempo Real ---
+
+/**
+ * Actualiza la interfaz del rating (estrellas y textos).
+ * @param {number} voteAverage - Calificación (0-10).
+ * @param {number} voteCount - Cantidad de votos.
+ */
+function updateRatingUI(voteAverage, voteCount) {
+    const starsForeground = document.getElementById('api-stars-foreground');
+    const scoreEl = document.getElementById('api-rating-score');
+    const votesEl = document.getElementById('api-rating-votes');
+
+    if (!starsForeground || !scoreEl) return;
+
+    const rating = parseFloat(voteAverage) || 0;
+    const votes = parseInt(voteCount) || 0;
+
+    // Calcular ancho de las estrellas (rating sobre 10)
+    const percentage = (rating / 10) * 100;
+    starsForeground.style.width = `${percentage}%`;
+
+    scoreEl.textContent = rating.toFixed(1);
+
+    if (votesEl) {
+        votesEl.textContent = `(${votes} votos)`;
+    }
+}
+
+/**
+ * Obtiene el rating en tiempo real desde TMDB y actualiza la UI.
+ * @param {string|number} tmdbId - ID de TMDB.
+ * @param {string} type - 'movie', 'serie', 'tv'.
+ */
+async function fetchRealTimeRating(tmdbId, type) {
+    if (!tmdbId) return;
+
+    // Ajustar tipo 'serie' -> 'tv' para la API
+    const apiType = (type === 'serie' || type === 'series') ? 'tv' : 'movie';
+    const API_KEY = '9869fab7c867e72214c8628c6029ec74'; // Misma key que en el resto del archivo
+
+    const url = `https://api.themoviedb.org/3/${apiType}/${tmdbId}?api_key=${API_KEY}`;
+
+    try {
+        const response = await fetch(url);
+        if (!response.ok) return; // Si falla silenciosamente, no actualizamos nada
+
+        const data = await response.json();
+
+        if (data && typeof data.vote_average !== 'undefined') {
+            console.log(`Rating actualizado para ${tmdbId}: ${data.vote_average}`);
+            updateRatingUI(data.vote_average, data.vote_count);
+        }
+    } catch (e) {
+        console.warn('Error fetching real-time rating:', e);
     }
 }

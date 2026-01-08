@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pelixplushd | Tu cine en casa</title>
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Disfruta de las mejores películas, series y animes en Pelixplushd. Estrenos, clásicos y todo tu contenido favorito en alta calidad. Tu cine en casa.">
-    <meta name="keywords" content="películas, series, anime, estrenos, ver online, pelixplushd, cine en casa, streaming gratis">
+    <meta name="description"
+        content="Disfruta de las mejores películas, series y animes en Pelixplushd. Estrenos, clásicos y todo tu contenido favorito en alta calidad. Tu cine en casa.">
+    <meta name="keywords"
+        content="películas, series, anime, estrenos, ver online, pelixplushd, cine en casa, streaming gratis">
     <meta name="robots" content="index, follow">
     <meta name="google-site-verification" content="BsDmgaYzTU7Gg_qmrTERyoId3iPY56erl15vO3F1LJI" />
     <link rel="icon" type="image/png" sizes="32x32" href="fondo.png">
     <link rel="icon" type="image/png" sizes="16x16" href="fondo.png">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="estilos.css">
     <link rel="manifest" href="manifest.json">
@@ -62,8 +66,13 @@
         }
 
         @keyframes loading-bar-animation {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(150px); }
+            0% {
+                transform: translateX(-100%);
+            }
+
+            100% {
+                transform: translateX(150px);
+            }
         }
 
         /* Estilos para el Modal de Selección de País */
@@ -94,7 +103,7 @@
             width: 100%;
             max-width: 700px;
             text-align: center;
-            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
             border: 1px solid #333;
             max-height: 90vh;
             overflow-y: auto;
@@ -157,7 +166,7 @@
             width: 48px;
             height: auto;
             border-radius: 4px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         }
 
         .country-item span {
@@ -170,9 +179,11 @@
             .country-list {
                 grid-template-columns: repeat(2, 1fr);
             }
+
             .country-modal-content {
                 padding: 20px;
             }
+
             .country-modal-content h2 {
                 font-size: 1.5rem;
             }
@@ -186,18 +197,20 @@
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
             z-index: 20000;
-            display: none; /* CAMBIADO: De 'flex' a 'none' */
+            display: none;
+            /* CAMBIADO: De 'flex' a 'none' */
             justify-content: center;
             align-items: center;
             padding: 20px;
             transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
-        
+
         .access-modal-overlay.active {
-            display: flex; /* Solo se muestra cuando tiene clase 'active' */
+            display: flex;
+            /* Solo se muestra cuando tiene clase 'active' */
             opacity: 1;
         }
-        
+
         .access-modal-content {
             background: rgba(20, 20, 20, 0.6);
             border: 1px solid rgba(255, 255, 255, 0.1);
@@ -228,10 +241,22 @@
             z-index: 0;
         }
 
-        .access-modal-content::-webkit-scrollbar { width: 6px; }
-        .access-modal-content::-webkit-scrollbar-track { background: rgba(0,0,0,0.1); }
-        .access-modal-content::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 10px; }
-        .access-modal-content::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.4); }
+        .access-modal-content::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .access-modal-content::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        .access-modal-content::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+        }
+
+        .access-modal-content::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
 
         .access-modal-overlay.active .access-modal-content {
             transform: translateY(0) scale(1);
@@ -244,7 +269,7 @@
             margin-bottom: 2rem;
         }
 
-        .modal-logo { 
+        .modal-logo {
             height: 60px;
             margin-bottom: 1rem;
             filter: drop-shadow(0 0 15px rgba(229, 9, 20, 0.4));
@@ -266,14 +291,14 @@
         }
 
         /* Opciones de Acceso (Botones Grandes) */
-        .access-options { 
-            display: flex; 
-            flex-direction: column; 
-            gap: 1rem; 
+        .access-options {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
             position: relative;
             z-index: 2;
         }
-        
+
         .access-btn {
             position: relative;
             padding: 1.5rem;
@@ -291,11 +316,11 @@
             border: 1px solid rgba(255, 255, 255, 0.05);
         }
 
-        .access-btn:hover { 
+        .access-btn:hover {
             transform: translateY(-2px);
             background: rgba(255, 255, 255, 0.07);
             border-color: rgba(255, 255, 255, 0.2);
-            box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
+            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
         }
 
         .access-btn-content {
@@ -312,7 +337,7 @@
             align-items: center;
             justify-content: center;
             font-size: 1.5rem;
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             transition: transform 0.3s ease;
         }
 
@@ -320,21 +345,44 @@
             transform: scale(1.1) rotate(5deg);
         }
 
-        .access-info h3 { margin: 0; font-size: 1.1rem; font-weight: 700; }
-        .access-info p { margin: 4px 0 0; font-size: 0.85rem; color: #aaa; }
+        .access-info h3 {
+            margin: 0;
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
 
-        .access-arrow { opacity: 0; transform: translateX(-10px); transition: all 0.3s ease; color: #666; }
-        .access-btn:hover .access-arrow { opacity: 1; transform: translateX(0); }
+        .access-info p {
+            margin: 4px 0 0;
+            font-size: 0.85rem;
+            color: #aaa;
+        }
 
-        .access-btn.vip { 
-            background: linear-gradient(145deg, rgba(229, 9, 20, 0.1), rgba(0,0,0,0));
+        .access-arrow {
+            opacity: 0;
+            transform: translateX(-10px);
+            transition: all 0.3s ease;
+            color: #666;
+        }
+
+        .access-btn:hover .access-arrow {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .access-btn.vip {
+            background: linear-gradient(145deg, rgba(229, 9, 20, 0.1), rgba(0, 0, 0, 0));
             border-color: rgba(229, 9, 20, 0.3);
         }
+
         .access-btn.vip:hover {
             border-color: #e50914;
             box-shadow: 0 10px 40px -10px rgba(229, 9, 20, 0.3);
         }
-        .access-btn.vip .access-icon { background: linear-gradient(135deg, #e50914, #b20710); color: white; }
+
+        .access-btn.vip .access-icon {
+            background: linear-gradient(135deg, #e50914, #b20710);
+            color: white;
+        }
 
         /* Inputs Flotantes */
         .input-group {
@@ -343,21 +391,22 @@
             text-align: left;
         }
 
-        .vip-input { 
-            width: 100%; 
-            padding: 16px; 
-            background: rgba(255,255,255,0.05); 
-            border: 2px solid rgba(255,255,255,0.1); 
-            color: white; 
-            border-radius: 12px; 
+        .vip-input {
+            width: 100%;
+            padding: 16px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            color: white;
+            border-radius: 12px;
             font-size: 1.1rem;
             transition: all 0.3s ease;
             outline: none;
         }
 
-        .vip-input:focus, .vip-input:not(:placeholder-shown) {
+        .vip-input:focus,
+        .vip-input:not(:placeholder-shown) {
             border-color: #e50914;
-            background: rgba(0,0,0,0.2);
+            background: rgba(0, 0, 0, 0.2);
         }
 
         .floating-label {
@@ -370,26 +419,27 @@
             font-size: 1rem;
         }
 
-        .vip-input:focus ~ .floating-label,
-        .vip-input:not(:placeholder-shown) ~ .floating-label {
+        .vip-input:focus~.floating-label,
+        .vip-input:not(:placeholder-shown)~.floating-label {
             top: -10px;
             left: 12px;
             font-size: 0.8rem;
-            background: #141414; /* Match modal bg roughly or transparent */
+            background: #141414;
+            /* Match modal bg roughly or transparent */
             padding: 0 6px;
             color: #e50914;
             font-weight: 600;
         }
 
-        .validate-btn { 
+        .validate-btn {
             background: linear-gradient(135deg, #e50914, #ff4d4d);
-            color: white; 
-            border: none; 
-            padding: 16px; 
-            border-radius: 12px; 
-            cursor: pointer; 
-            width: 100%; 
-            font-size: 1.1rem; 
+            color: white;
+            border: none;
+            padding: 16px;
+            border-radius: 12px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1.1rem;
             font-weight: 700;
             letter-spacing: 0.5px;
             transition: all 0.3s ease;
@@ -412,25 +462,30 @@
             animation: ripple-animation 0.6s linear;
             pointer-events: none;
         }
+
         @keyframes ripple-animation {
-            to { transform: scale(4); opacity: 0; }
+            to {
+                transform: scale(4);
+                opacity: 0;
+            }
         }
 
-        .back-link { 
-            background: none; 
-            border: none; 
-            color: #999; 
-            margin-top: 15px; 
-            cursor: pointer; 
-            text-decoration: underline; 
+        .back-link {
+            background: none;
+            border: none;
+            color: #999;
+            margin-top: 15px;
+            cursor: pointer;
+            text-decoration: underline;
             font-size: 0.9rem;
             padding: 5px;
             transition: color 0.3s ease;
         }
+
         .back-link:hover {
             color: #fff;
         }
-        
+
         /* Estilos de Carga y Seguridad */
         .validate-btn.loading {
             pointer-events: none;
@@ -440,16 +495,26 @@
             align-items: center;
             gap: 10px;
         }
+
         .btn-spinner {
             width: 18px;
             height: 18px;
-            border: 2px solid rgba(255,255,255,0.3);
+            border: 2px solid rgba(255, 255, 255, 0.3);
             border-radius: 50%;
             border-top-color: #fff;
             animation: spin 1s linear infinite;
-        } 
-        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-        
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
         .security-note {
             font-size: 0.8rem;
             color: #2ecc71;
@@ -466,12 +531,14 @@
             position: relative !important;
             cursor: pointer;
         }
-        .vip-restricted > *:not(.section-title-container) {
+
+        .vip-restricted>*:not(.section-title-container) {
             filter: blur(5px);
             user-select: none;
             opacity: 0.6;
             pointer-events: none;
         }
+
         .vip-restricted::after {
             content: "🔒 Haz clic para ser VIP";
             position: absolute;
@@ -485,11 +552,12 @@
             font-weight: bold;
             font-size: 1.3rem;
             z-index: 100;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
             text-align: center;
             transition: all 0.2s ease;
             cursor: pointer;
         }
+
         .vip-restricted:hover::after {
             transform: translate(-50%, -50%) scale(1.05);
             background-color: #e50914;
@@ -522,8 +590,16 @@
             white-space: nowrap;
             cursor: default;
         }
-        .vip-badge i { font-size: 0.9rem; }
-        @keyframes vipShine { to { background-position: 200% center; } }
+
+        .vip-badge i {
+            font-size: 0.9rem;
+        }
+
+        @keyframes vipShine {
+            to {
+                background-position: 200% center;
+            }
+        }
 
         /* Estilos Mejorados para Planes VIP */
         .plan-title {
@@ -534,6 +610,7 @@
             letter-spacing: 1px;
             text-align: center;
         }
+
         .plan-options {
             display: flex;
             justify-content: center;
@@ -541,6 +618,7 @@
             flex-wrap: wrap;
             margin-bottom: 25px;
         }
+
         .plan-btn {
             background: linear-gradient(145deg, #2a2a2a, #1a1a1a);
             border: 2px solid #333;
@@ -556,26 +634,61 @@
             align-items: center;
             justify-content: center;
             color: white;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
         }
-        .plan-btn > * { pointer-events: none; }
+
+        .plan-btn>* {
+            pointer-events: none;
+        }
+
         .plan-btn:hover {
             transform: translateY(-8px) scale(1.03);
             border-color: #e50914;
             background: #333;
             box-shadow: 0 15px 35px rgba(229, 9, 20, 0.3);
         }
-        .plan-btn.popular { border-color: #ffd700; }
-        .plan-btn.best-value { border-color: #e50914; background: linear-gradient(145deg, #4a0a0a, #2a0000); }
-        
-        .plan-icon { font-size: 2.2rem; margin-bottom: 15px; color: #ccc; transition: color 0.3s; }
-        .plan-btn:hover .plan-icon { color: white; }
-        .plan-btn.popular .plan-icon { color: #ffd700; }
-        .plan-btn.best-value .plan-icon { color: #e50914; }
 
-        .plan-btn h4 { font-size: 1.2rem; margin: 5px 0; font-weight: 800; }
-        .plan-btn .price { font-size: 1.1rem; color: #e50914; font-weight: bold; margin: 0; }
-        
+        .plan-btn.popular {
+            border-color: #ffd700;
+        }
+
+        .plan-btn.best-value {
+            border-color: #e50914;
+            background: linear-gradient(145deg, #4a0a0a, #2a0000);
+        }
+
+        .plan-icon {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+            color: #ccc;
+            transition: color 0.3s;
+        }
+
+        .plan-btn:hover .plan-icon {
+            color: white;
+        }
+
+        .plan-btn.popular .plan-icon {
+            color: #ffd700;
+        }
+
+        .plan-btn.best-value .plan-icon {
+            color: #e50914;
+        }
+
+        .plan-btn h4 {
+            font-size: 1.2rem;
+            margin: 5px 0;
+            font-weight: 800;
+        }
+
+        .plan-btn .price {
+            font-size: 1.1rem;
+            color: #e50914;
+            font-weight: bold;
+            margin: 0;
+        }
+
         .badge-tag {
             position: absolute;
             top: 0;
@@ -589,8 +702,16 @@
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
-        .badge-popular { background-color: #ffd700; color: #000; }
-        .badge-best { background-color: #e50914; color: white; }
+
+        .badge-popular {
+            background-color: #ffd700;
+            color: #000;
+        }
+
+        .badge-best {
+            background-color: #e50914;
+            color: white;
+        }
 
         /* Stepper Visual */
         .stepper {
@@ -599,6 +720,7 @@
             margin-bottom: 2rem;
             gap: 10px;
         }
+
         .step-dot {
             width: 8px;
             height: 8px;
@@ -606,7 +728,11 @@
             background: #333;
             transition: 0.3s;
         }
-        .step-dot.active { background: #e50914; transform: scale(1.2); }
+
+        .step-dot.active {
+            background: #e50914;
+            transform: scale(1.2);
+        }
 
         /* Copy Field */
         .copy-field {
@@ -621,50 +747,99 @@
             cursor: pointer;
             transition: 0.2s;
         }
-        .copy-field:hover { border-color: #e50914; background: #0a0a0a; }
-        .copy-field code { font-family: monospace; font-size: 1.2rem; color: #ffd700; }
-        .copy-icon { color: #666; }
+
+        .copy-field:hover {
+            border-color: #e50914;
+            background: #0a0a0a;
+        }
+
+        .copy-field code {
+            font-family: monospace;
+            font-size: 1.2rem;
+            color: #ffd700;
+        }
+
+        .copy-icon {
+            color: #666;
+        }
 
         @media (max-width: 600px) {
-            .plan-options { grid-template-columns: 1fr; gap: 12px; }
-            .plan-btn { 
-                width: 100%; 
+            .plan-options {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .plan-btn {
+                width: 100%;
                 min-height: auto;
-                flex-direction: row; 
-                justify-content: flex-start; 
+                flex-direction: row;
+                justify-content: flex-start;
                 padding: 15px 20px;
                 text-align: left;
             }
-            .plan-icon { margin-bottom: 0; margin-right: 20px; width: 40px; text-align: center; font-size: 1.8rem; }
-            .plan-info { display: flex; flex-direction: column; align-items: flex-start; }
-            .badge-popular, .badge-best { left: auto; right: 15px; transform: none; border-radius: 0 0 6px 6px; padding: 3px 10px; font-size: 0.6rem; }
-            
+
+            .plan-icon {
+                margin-bottom: 0;
+                margin-right: 20px;
+                width: 40px;
+                text-align: center;
+                font-size: 1.8rem;
+            }
+
+            .plan-info {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .badge-popular,
+            .badge-best {
+                left: auto;
+                right: 15px;
+                transform: none;
+                border-radius: 0 0 6px 6px;
+                padding: 3px 10px;
+                font-size: 0.6rem;
+            }
+
             .access-modal-content {
                 padding: 25px 20px;
                 margin: 10px;
             }
+
             .access-btn {
                 padding: 12px 15px;
                 min-height: 60px;
             }
         }
-        
+
         @media (max-width: 600px) {
-            .vip-badge span { display: none; }
-            .vip-badge::after { content: "VIP"; display: inline; }
-            .vip-badge { padding: 6px 10px; margin-right: 5px; }
+            .vip-badge span {
+                display: none;
+            }
+
+            .vip-badge::after {
+                content: "VIP";
+                display: inline;
+            }
+
+            .vip-badge {
+                padding: 6px 10px;
+                margin-right: 5px;
+            }
         }
 
         /* Estilos para Hero Automático (Ancho y Largo) */
         .hero-container {
             width: 100%;
-            height: 95vh !important; /* Altura casi completa de pantalla */
+            height: 95vh !important;
+            /* Altura casi completa de pantalla */
             min-height: 600px;
             background-position: center top !important;
             background-size: cover !important;
             background-repeat: no-repeat !important;
         }
-        
+
         /* Ajustes para que el contenido se vea bien en el hero grande */
         .hero-content {
             padding-left: 5%;
@@ -678,6 +853,7 @@
             height: 100%;
             align-items: center;
         }
+
         .hero-slide.active {
             display: flex;
         }
@@ -691,7 +867,8 @@
             left: 0;
             width: 100%;
             height: 100%;
-            z-index: 30000; /* Por encima de todo */
+            z-index: 30000;
+            /* Por encima de todo */
             display: none;
             justify-content: center;
             align-items: center;
@@ -700,7 +877,12 @@
             opacity: 0;
             transition: opacity 0.5s ease;
         }
-        .welcome-overlay.active { display: flex; opacity: 1; }
+
+        .welcome-overlay.active {
+            display: flex;
+            opacity: 1;
+        }
+
         .welcome-content {
             text-align: center;
             position: relative;
@@ -709,6 +891,7 @@
             width: 90%;
             max-width: 600px;
         }
+
         .welcome-title {
             font-size: 3rem;
             font-weight: 900;
@@ -717,6 +900,7 @@
             transform: translateY(20px);
             animation: slideUpFade 0.8s forwards 0.3s;
         }
+
         .welcome-message {
             font-size: 1.5rem;
             color: #ccc;
@@ -724,6 +908,7 @@
             transform: translateY(20px);
             animation: slideUpFade 0.8s forwards 0.6s;
         }
+
         .welcome-icon {
             font-size: 5rem;
             margin-bottom: 20px;
@@ -731,8 +916,12 @@
             transform: scale(0.5);
             animation: popIn 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
         }
+
         /* Tema VIP */
-        .welcome-overlay.vip-theme { background: radial-gradient(circle at center, #2a2a00 0%, #000000 100%); }
+        .welcome-overlay.vip-theme {
+            background: radial-gradient(circle at center, #2a2a00 0%, #000000 100%);
+        }
+
         .welcome-overlay.vip-theme .welcome-title {
             background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
             background-size: 200% auto;
@@ -742,12 +931,29 @@
             text-shadow: 0 0 30px rgba(255, 215, 0, 0.4);
             animation: slideUpFade 0.8s forwards 0.3s, vipTextShine 3s linear infinite;
         }
-        .welcome-overlay.vip-theme .welcome-icon { color: #FFD700; text-shadow: 0 0 30px rgba(255, 215, 0, 0.6); }
+
+        .welcome-overlay.vip-theme .welcome-icon {
+            color: #FFD700;
+            text-shadow: 0 0 30px rgba(255, 215, 0, 0.6);
+        }
+
         /* Tema Regular */
-        .welcome-overlay.regular-theme { background: radial-gradient(circle at center, #1a0505 0%, #000000 100%); }
-        .welcome-overlay.regular-theme .welcome-title { color: #fff; }
-        .welcome-overlay.regular-theme .welcome-title span { color: #e50914; }
-        .welcome-overlay.regular-theme .welcome-icon { color: #e50914; }
+        .welcome-overlay.regular-theme {
+            background: radial-gradient(circle at center, #1a0505 0%, #000000 100%);
+        }
+
+        .welcome-overlay.regular-theme .welcome-title {
+            color: #fff;
+        }
+
+        .welcome-overlay.regular-theme .welcome-title span {
+            color: #e50914;
+        }
+
+        .welcome-overlay.regular-theme .welcome-icon {
+            color: #e50914;
+        }
+
         /* Partículas */
         .particle {
             position: absolute;
@@ -755,17 +961,62 @@
             pointer-events: none;
             animation: floatUp 3s linear forwards;
         }
-        .vip-theme .particle { background: #FFD700; box-shadow: 0 0 10px #FFD700; }
-        .regular-theme .particle { background: #e50914; opacity: 0.5; }
+
+        .vip-theme .particle {
+            background: #FFD700;
+            box-shadow: 0 0 10px #FFD700;
+        }
+
+        .regular-theme .particle {
+            background: #e50914;
+            opacity: 0.5;
+        }
+
         /* Keyframes */
-        @keyframes slideUpFade { to { opacity: 1; transform: translateY(0); } }
-        @keyframes popIn { to { opacity: 1; transform: scale(1); } }
-        @keyframes vipTextShine { to { background-position: 200% center; } }
-        @keyframes floatUp { 0% { transform: translateY(0) rotate(0deg); opacity: 1; } 100% { transform: translateY(-100vh) rotate(360deg); opacity: 0; } }
+        @keyframes slideUpFade {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes popIn {
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes vipTextShine {
+            to {
+                background-position: 200% center;
+            }
+        }
+
+        @keyframes floatUp {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(-100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
         @media (max-width: 600px) {
-            .welcome-title { font-size: 2rem; }
-            .welcome-message { font-size: 1.1rem; }
-            .welcome-icon { font-size: 3.5rem; }
+            .welcome-title {
+                font-size: 2rem;
+            }
+
+            .welcome-message {
+                font-size: 1.1rem;
+            }
+
+            .welcome-icon {
+                font-size: 3.5rem;
+            }
         }
 
         /* =========================================
@@ -787,7 +1038,8 @@
             height: 100%;
             z-index: 30000;
             background: radial-gradient(circle at center, var(--intro-bg-light) 0%, var(--intro-bg-dark) 100%);
-            display: none; /* Controlado por JS */
+            display: none;
+            /* Controlado por JS */
             justify-content: center;
             align-items: center;
             opacity: 0;
@@ -868,7 +1120,7 @@
         .intro-loader {
             width: 150px;
             height: 3px;
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             border-radius: 2px;
             margin: 2.5rem auto 0;
             overflow: hidden;
@@ -898,36 +1150,69 @@
 
         /* Keyframes */
         @keyframes drawLogo {
-            to { stroke-dashoffset: 0; }
+            to {
+                stroke-dashoffset: 0;
+            }
         }
 
         @keyframes floatLogo {
-            0%, 100% { transform: translateY(0) rotateY(0); }
-            50% { transform: translateY(-10px) rotateY(10deg); }
+
+            0%,
+            100% {
+                transform: translateY(0) rotateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px) rotateY(10deg);
+            }
         }
 
         @keyframes loadProgress {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(0); }
+            0% {
+                transform: translateX(-100%);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
         }
 
         @keyframes slideUpFade {
-            to { opacity: 1; transform: translateY(0) rotateX(0); }
+            to {
+                opacity: 1;
+                transform: translateY(0) rotateX(0);
+            }
         }
 
         @keyframes fadeIn {
-            to { opacity: 1; }
+            to {
+                opacity: 1;
+            }
         }
 
         /* Media Queries */
         @media (max-width: 768px) {
-            .intro-title { font-size: 2.2rem; }
-            .intro-logo-wrapper { width: 80px; height: 80px; }
-            .intro-subtitle { font-size: 1rem; }
+            .intro-title {
+                font-size: 2.2rem;
+            }
+
+            .intro-logo-wrapper {
+                width: 80px;
+                height: 80px;
+            }
+
+            .intro-subtitle {
+                font-size: 1rem;
+            }
         }
 
         @media (prefers-reduced-motion: reduce) {
-            .intro-logo, .logo-path, .loader-progress, .intro-title, .intro-subtitle {
+
+            .intro-logo,
+            .logo-path,
+            .loader-progress,
+            .intro-title,
+            .intro-subtitle {
                 animation: none !important;
                 transition: none !important;
                 opacity: 1 !important;
@@ -954,13 +1239,13 @@
             max-width: 1000px;
             width: 95%;
             background: radial-gradient(circle at top right, #1a1a2e, #000);
-            border: 1px solid rgba(255,215,0, 0.2);
+            border: 1px solid rgba(255, 215, 0, 0.2);
         }
 
         /* Urgency Banner */
         .urgency-banner {
-            background: linear-gradient(90deg, rgba(229,9,20,0.1), rgba(229,9,20,0.3), rgba(229,9,20,0.1));
-            border: 1px solid rgba(229,9,20,0.3);
+            background: linear-gradient(90deg, rgba(229, 9, 20, 0.1), rgba(229, 9, 20, 0.3), rgba(229, 9, 20, 0.1));
+            border: 1px solid rgba(229, 9, 20, 0.3);
             color: #ffcccc;
             padding: 10px;
             border-radius: 8px;
@@ -972,6 +1257,7 @@
             gap: 10px;
             animation: pulse-red 2s infinite;
         }
+
         .countdown-timer {
             font-family: monospace;
             font-weight: bold;
@@ -1006,12 +1292,12 @@
             transform: translateY(-10px) scale(1.02);
             background: rgba(255, 255, 255, 0.08);
             border-color: rgba(255, 255, 255, 0.3);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
         }
 
         .vip-plan-card.selected {
             border-color: var(--vip-gold);
-            background: linear-gradient(160deg, rgba(255, 215, 0, 0.05), rgba(0,0,0,0.4));
+            background: linear-gradient(160deg, rgba(255, 215, 0, 0.05), rgba(0, 0, 0, 0.4));
             box-shadow: 0 0 30px rgba(255, 215, 0, 0.15);
             transform: scale(1.03);
             z-index: 10;
@@ -1030,17 +1316,22 @@
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
             letter-spacing: 1px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
             z-index: 2;
         }
-        .badge-popular { background: var(--vip-gold); color: #000; }
-        .badge-best { 
-            background: var(--vip-red); 
-            color: #fff; 
-            width: 100%; 
-            left: 0; 
-            transform: none; 
-            border-radius: 0; 
+
+        .badge-popular {
+            background: var(--vip-gold);
+            color: #000;
+        }
+
+        .badge-best {
+            background: var(--vip-red);
+            color: #fff;
+            width: 100%;
+            left: 0;
+            transform: none;
+            border-radius: 0;
             top: 0;
             padding: 8px;
         }
@@ -1052,30 +1343,52 @@
             margin-top: 15px;
             position: relative;
         }
+
         .plan-icon-wrapper {
             font-size: 2.5rem;
             margin-bottom: 10px;
-            filter: drop-shadow(0 0 10px rgba(255,255,255,0.2));
+            filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.2));
             transition: transform 0.3s ease;
         }
-        .vip-plan-card:hover .plan-icon-wrapper { transform: scale(1.2) rotate(5deg); }
-        
-        .plan-name { font-size: 1.4rem; font-weight: 700; color: #fff; margin: 0; }
-        
+
+        .vip-plan-card:hover .plan-icon-wrapper {
+            transform: scale(1.2) rotate(5deg);
+        }
+
+        .plan-name {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #fff;
+            margin: 0;
+        }
+
         .plan-price-box {
             margin: 15px 0;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
+
         .current-price {
             font-size: 2.5rem;
             font-weight: 900;
             color: #fff;
             line-height: 1;
         }
-        .current-price span { font-size: 1rem; color: #aaa; font-weight: 400; }
-        .old-price { text-decoration: line-through; color: #666; font-size: 0.9rem; margin-bottom: 5px; }
+
+        .current-price span {
+            font-size: 1rem;
+            color: #aaa;
+            font-weight: 400;
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+
         .savings-tag {
             background: rgba(0, 255, 136, 0.15);
             color: var(--vip-success);
@@ -1094,6 +1407,7 @@
             text-align: left;
             flex-grow: 1;
         }
+
         .plan-features li {
             padding: 8px 0;
             color: #ccc;
@@ -1101,13 +1415,29 @@
             display: flex;
             align-items: flex-start;
             gap: 10px;
-            border-bottom: 1px solid rgba(255,255,255,0.05);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
         }
-        .plan-features li:last-child { border-bottom: none; }
-        .plan-features i { margin-top: 3px; }
-        .check-icon { color: var(--vip-success); }
-        .cross-icon { color: #666; }
-        .bonus-item { color: var(--vip-gold); font-weight: 600; }
+
+        .plan-features li:last-child {
+            border-bottom: none;
+        }
+
+        .plan-features i {
+            margin-top: 3px;
+        }
+
+        .check-icon {
+            color: var(--vip-success);
+        }
+
+        .cross-icon {
+            color: #666;
+        }
+
+        .bonus-item {
+            color: var(--vip-gold);
+            font-weight: 600;
+        }
 
         /* Botón de Selección */
         .select-plan-btn {
@@ -1119,21 +1449,22 @@
             font-size: 1rem;
             cursor: pointer;
             transition: all 0.3s ease;
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             color: #fff;
             margin-top: auto;
         }
-        
+
         .vip-plan-card:hover .select-plan-btn {
             background: #fff;
             color: #000;
         }
-        
+
         .vip-plan-card.popular .select-plan-btn {
             background: linear-gradient(45deg, var(--vip-gold), #FDB931);
             color: #000;
             box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
         }
+
         .vip-plan-card.popular:hover .select-plan-btn {
             transform: translateY(-2px);
             box-shadow: 0 8px 20px rgba(255, 215, 0, 0.5);
@@ -1155,15 +1486,20 @@
             cursor: pointer;
             text-decoration: underline;
         }
+
         .plan-details-content {
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.3s ease;
-            background: rgba(0,0,0,0.2);
+            background: rgba(0, 0, 0, 0.2);
             border-radius: 8px;
             margin-top: 10px;
         }
-        .plan-details-content.open { max-height: 200px; padding: 10px; }
+
+        .plan-details-content.open {
+            max-height: 200px;
+            padding: 10px;
+        }
 
         /* Trust Badges Footer */
         .trust-footer {
@@ -1172,9 +1508,10 @@
             gap: 20px;
             margin-top: 25px;
             flex-wrap: wrap;
-            border-top: 1px solid rgba(255,255,255,0.1);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
             padding-top: 20px;
         }
+
         .trust-item {
             display: flex;
             align-items: center;
@@ -1182,32 +1519,81 @@
             color: #888;
             font-size: 0.85rem;
         }
-        .trust-item i { color: var(--vip-success); }
+
+        .trust-item i {
+            color: var(--vip-success);
+        }
 
         /* Animaciones */
         @keyframes pulse-red {
-            0% { box-shadow: 0 0 0 0 rgba(229, 9, 20, 0.4); }
-            70% { box-shadow: 0 0 0 10px rgba(229, 9, 20, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(229, 9, 20, 0); }
+            0% {
+                box-shadow: 0 0 0 0 rgba(229, 9, 20, 0.4);
+            }
+
+            70% {
+                box-shadow: 0 0 0 10px rgba(229, 9, 20, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(229, 9, 20, 0);
+            }
         }
-        
+
         @keyframes shimmer {
-            0% { background-position: -1000px 0; }
-            100% { background-position: 1000px 0; }
+            0% {
+                background-position: -1000px 0;
+            }
+
+            100% {
+                background-position: 1000px 0;
+            }
         }
 
         /* Responsive */
         @media (max-width: 768px) {
-            .vip-plans-grid { grid-template-columns: 1fr; }
-            .access-modal-content.vip-mode { padding: 15px; margin: 10px; width: auto; }
-            .vip-plan-card { padding: 20px; }
-            .plan-header { margin-bottom: 15px; }
-            .plan-icon-wrapper { font-size: 2rem; margin-bottom: 5px; }
-            .plan-price-box { margin: 10px 0; }
-            .current-price { font-size: 2rem; }
-            .plan-features { display: block; margin-bottom: 15px; }
-            .plan-features li { font-size: 0.9rem; }
-            .select-plan-btn { padding: 12px; }
+            .vip-plans-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .access-modal-content.vip-mode {
+                padding: 15px;
+                margin: 10px;
+                width: auto;
+            }
+
+            .vip-plan-card {
+                padding: 20px;
+            }
+
+            .plan-header {
+                margin-bottom: 15px;
+            }
+
+            .plan-icon-wrapper {
+                font-size: 2rem;
+                margin-bottom: 5px;
+            }
+
+            .plan-price-box {
+                margin: 10px 0;
+            }
+
+            .current-price {
+                font-size: 2rem;
+            }
+
+            .plan-features {
+                display: block;
+                margin-bottom: 15px;
+            }
+
+            .plan-features li {
+                font-size: 0.9rem;
+            }
+
+            .select-plan-btn {
+                padding: 12px;
+            }
         }
 
         /* Stepper Mejorado */
@@ -1217,6 +1603,7 @@
             margin-bottom: 30px;
             position: relative;
         }
+
         .step-item {
             display: flex;
             align-items: center;
@@ -1224,10 +1611,15 @@
             color: #666;
             font-weight: 600;
             z-index: 2;
-            background: #141414; /* Match modal bg */
+            background: #141414;
+            /* Match modal bg */
             padding: 0 15px;
         }
-        .step-item.active { color: var(--vip-red); }
+
+        .step-item.active {
+            color: var(--vip-red);
+        }
+
         .step-number {
             width: 24px;
             height: 24px;
@@ -1239,7 +1631,12 @@
             align-items: center;
             font-size: 0.8rem;
         }
-        .step-item.active .step-number { background: var(--vip-red); box-shadow: 0 0 10px rgba(229,9,20,0.5); }
+
+        .step-item.active .step-number {
+            background: var(--vip-red);
+            box-shadow: 0 0 10px rgba(229, 9, 20, 0.5);
+        }
+
         .stepper-line {
             position: absolute;
             top: 50%;
@@ -1260,19 +1657,24 @@
             scroll-behavior: smooth;
             -webkit-overflow-scrolling: touch;
         }
+
         #destacados-grid::-webkit-scrollbar {
             height: 8px;
         }
+
         #destacados-grid::-webkit-scrollbar-track {
             background: rgba(255, 255, 255, 0.05);
             border-radius: 4px;
         }
+
         #destacados-grid::-webkit-scrollbar-thumb {
             background: rgba(229, 9, 20, 0.5);
             border-radius: 4px;
         }
+
         .destacado-card {
-            flex: 0 0 300px; /* Ancho fijo para PC */
+            flex: 0 0 300px;
+            /* Ancho fijo para PC */
             background: #1a1a1a;
             border-radius: 8px;
             overflow: hidden;
@@ -1281,44 +1683,52 @@
             cursor: pointer;
             border: 1px solid #333;
         }
+
         .destacado-card:hover {
             transform: scale(1.05);
             z-index: 2;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
             border-color: #e50914;
         }
+
         .destacado-poster-container {
             width: 100%;
             aspect-ratio: 16/9;
             position: relative;
             background: #000;
         }
+
         .destacado-poster-container img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
+
         .play-overlay {
             position: absolute;
             inset: 0;
-            background: rgba(0,0,0,0.4);
+            background: rgba(0, 0, 0, 0.4);
             display: flex;
             align-items: center;
             justify-content: center;
             opacity: 0;
             transition: opacity 0.3s ease;
         }
+
         .destacado-card:hover .play-overlay {
             opacity: 1;
         }
+
         .play-overlay i {
             font-size: 3rem;
             color: #e50914;
-            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
         }
+
         .destacado-info {
             padding: 12px;
         }
+
         .destacado-info h3 {
             margin: 0;
             font-size: 0.95rem;
@@ -1327,10 +1737,11 @@
             overflow: hidden;
             text-overflow: ellipsis;
         }
-        
+
         @media (max-width: 768px) {
             .destacado-card {
-                flex: 0 0 260px; /* Ancho ajustado para móvil */
+                flex: 0 0 260px;
+                /* Ancho ajustado para móvil */
             }
         }
     </style>
@@ -1356,8 +1767,9 @@
         <div class="intro-content">
             <div class="intro-logo-wrapper">
                 <svg class="intro-logo" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="50" cy="50" r="45" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
-                    <path d="M38 32 L38 68 L72 50 Z" stroke="url(#logoGradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="logo-path"/>
+                    <circle cx="50" cy="50" r="45" stroke="rgba(255,255,255,0.1)" stroke-width="2" />
+                    <path d="M38 32 L38 68 L72 50 Z" stroke="url(#logoGradient)" stroke-width="4" stroke-linecap="round"
+                        stroke-linejoin="round" class="logo-path" />
                     <defs>
                         <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:1" />
@@ -1382,7 +1794,8 @@
                 <i class="fas fa-rocket"></i>
             </div>
             <div class="portal-item">
-                <h1 style="font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 2.5rem; margin: 0;">ESTRENOS</h1>
+                <h1 style="font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 2.5rem; margin: 0;">
+                    ESTRENOS</h1>
             </div>
             <div class="portal-item">
                 <p style="color: #aaa; font-family: 'Poppins', sans-serif; letter-spacing: 2px;">NUEVOS LANZAMIENTOS</p>
@@ -1408,7 +1821,7 @@
                 <h2 class="modal-title">Bienvenido</h2>
                 <p class="modal-subtitle">Selecciona tu nivel de experiencia</p>
             </div>
-            
+
             <div id="access-selection" class="access-options">
                 <button id="btn-free" class="access-btn ripple-btn">
                     <div class="access-btn-content">
@@ -1420,7 +1833,7 @@
                     </div>
                     <i class="fas fa-chevron-right access-arrow"></i>
                 </button>
-                
+
                 <button id="btn-vip" class="access-btn vip ripple-btn">
                     <div class="access-btn-content">
                         <div class="access-icon"><i class="fas fa-crown"></i></div>
@@ -1435,7 +1848,7 @@
 
             <div id="vip-login-form" style="display:none; margin-top: 20px;">
                 <h3 style="color:white; margin-bottom: 1.5rem;">Acceso VIP</h3>
-                
+
                 <div class="input-group">
                     <input type="text" id="vip-code-input" class="vip-input" placeholder=" " autocomplete="off">
                     <label class="floating-label">Código de Acceso</label>
@@ -1443,12 +1856,15 @@
 
                 <button id="btn-validate-vip" class="validate-btn ripple-btn">Entrar Ahora</button>
                 <div class="security-note"><i class="fas fa-shield-alt"></i> Verificación Segura Encriptada</div>
-                <p id="vip-error" style="color: #e50914; display:none; margin-top: 10px; font-weight:bold; font-size: 0.9rem;"></p>
-                
+                <p id="vip-error"
+                    style="color: #e50914; display:none; margin-top: 10px; font-weight:bold; font-size: 0.9rem;"></p>
+
                 <p style="margin-top: 15px; font-size: 0.9rem; color: #999;">
-                    ¿No tienes cuenta? <a href="#" id="link-request-vip" style="color: #e50914; text-decoration: none; font-weight: bold; transition: color 0.2s ease;">Solicitar VIP</a>
+                    ¿No tienes cuenta? <a href="#" id="link-request-vip"
+                        style="color: #e50914; text-decoration: none; font-weight: bold; transition: color 0.2s ease;">Solicitar
+                        VIP</a>
                 </p>
-                
+
                 <button id="btn-back-vip" class="back-link">← Volver</button>
             </div>
 
@@ -1478,12 +1894,13 @@
                     </div>
 
                     <h3 class="plan-title">Desbloquea el Poder del Cine</h3>
-                    
+
                     <div class="vip-plans-grid">
                         <!-- Plan 1 Mes -->
                         <div class="vip-plan-card" onclick="selectPlan(this, '1 Mes', '100')">
                             <div class="plan-header">
-                                <div class="plan-icon-wrapper" style="color: #ccc;"><i class="fas fa-ticket-alt"></i></div>
+                                <div class="plan-icon-wrapper" style="color: #ccc;"><i class="fas fa-ticket-alt"></i>
+                                </div>
                                 <h4 class="plan-name">Mensual</h4>
                                 <div class="plan-price-box">
                                     <div class="current-price">$100<span>/mes</span></div>
@@ -1502,7 +1919,8 @@
                         <div class="vip-plan-card popular" onclick="selectPlan(this, '2 Meses', '200')">
                             <div class="plan-badge badge-popular">MÁS ELEGIDO 🔥</div>
                             <div class="plan-header">
-                                <div class="plan-icon-wrapper" style="color: var(--vip-gold);"><i class="fas fa-fire"></i></div>
+                                <div class="plan-icon-wrapper" style="color: var(--vip-gold);"><i
+                                        class="fas fa-fire"></i></div>
                                 <h4 class="plan-name">Bimestral</h4>
                                 <div class="plan-price-box">
                                     <div class="current-price">$200<span>/total</span></div>
@@ -1510,7 +1928,8 @@
                                 </div>
                             </div>
                             <ul class="plan-features">
-                                <li><i class="fas fa-check check-icon"></i> <strong>Todo lo del plan básico</strong></li>
+                                <li><i class="fas fa-check check-icon"></i> <strong>Todo lo del plan básico</strong>
+                                </li>
                                 <li><i class="fas fa-check check-icon"></i> Descargas Offline (10)</li>
                                 <li><i class="fas fa-check check-icon"></i> 4 Dispositivos</li>
                                 <li class="bonus-item"><i class="fas fa-gift"></i> 1 Mes Disney+ GRATIS</li>
@@ -1522,7 +1941,8 @@
                         <div class="vip-plan-card best" onclick="selectPlan(this, '1 Año', '1500')">
                             <div class="plan-badge badge-best">🏆 MEJOR OFERTA</div>
                             <div class="plan-header">
-                                <div class="plan-icon-wrapper" style="color: var(--vip-red);"><i class="fas fa-crown"></i></div>
+                                <div class="plan-icon-wrapper" style="color: var(--vip-red);"><i
+                                        class="fas fa-crown"></i></div>
                                 <h4 class="plan-name">Anual</h4>
                                 <div class="plan-price-box">
                                     <div class="old-price">$1,800</div>
@@ -1556,25 +1976,31 @@
                         <div class="step-dot active"></div>
                     </div>
                     <h3 style="color: white; margin-bottom: 10px; text-align: center;">Confirmar Pago</h3>
-                    <p style="text-align: center; color: #ccc; margin-bottom: 20px;">Plan: <strong id="selected-plan-info" style="color: #e50914;"></strong></p>
-                    
-                    <div style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 16px; margin-bottom: 20px; border: 1px solid rgba(255,255,255,0.1);">
+                    <p style="text-align: center; color: #ccc; margin-bottom: 20px;">Plan: <strong
+                            id="selected-plan-info" style="color: #e50914;"></strong></p>
+
+                    <div
+                        style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 16px; margin-bottom: 20px; border: 1px solid rgba(255,255,255,0.1);">
                         <p style="font-size: 0.9rem; color: #aaa; margin-bottom: 10px;">1. Realiza transferencia a:</p>
                         <div class="copy-field" id="copy-account-btn">
                             <code id="account-number">722969020026125562</code>
                             <i class="far fa-copy copy-icon"></i>
                         </div>
-                        <p style="font-size: 0.9rem; color: #aaa; margin-bottom: 5px;">2. Ingresa tu nombre de referencia:</p>
+                        <p style="font-size: 0.9rem; color: #aaa; margin-bottom: 5px;">2. Ingresa tu nombre de
+                            referencia:</p>
                         <div class="input-group" style="margin-bottom: 0;">
-                            <input type="text" id="payment-name-input" class="vip-input" placeholder=" " style="padding: 12px;">
+                            <input type="text" id="payment-name-input" class="vip-input" placeholder=" "
+                                style="padding: 12px;">
                             <label class="floating-label" style="top: 14px;">Nombre completo</label>
                         </div>
                     </div>
-                    
-                    <button id="btn-send-proof" class="validate-btn ripple-btn" style="background: linear-gradient(135deg, #25D366, #128C7E); margin-bottom: 15px;">
+
+                    <button id="btn-send-proof" class="validate-btn ripple-btn"
+                        style="background: linear-gradient(135deg, #25D366, #128C7E); margin-bottom: 15px;">
                         <i class="fab fa-whatsapp"></i> Enviar Comprobante
                     </button>
-                    <p style="font-size: 0.8rem; color: #666; margin-top: 10px; text-align: center;">La activación puede tardar unos minutos.</p>
+                    <p style="font-size: 0.8rem; color: #666; margin-top: 10px; text-align: center;">La activación puede
+                        tardar unos minutos.</p>
                     <button id="btn-back-to-plans" class="back-link">← Elegir otro plan</button>
                 </div>
             </div>
@@ -1584,7 +2010,8 @@
     <!-- Country Selector Modal -->
     <div id="country-selector-modal" class="country-modal-overlay">
         <div class="country-modal-content">
-            <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span>plushd</span></div>
+            <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span>plushd</span>
+            </div>
             <h2>Elige tu región</h2>
             <p>Selecciona tu país para personalizar el contenido y las recomendaciones.</p>
             <div class="country-list">
@@ -1651,7 +2078,8 @@
     <!-- Navbar -->
     <header id="main-header" class="navbar">
         <div class="logo-container">
-            <a href="index.html" class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span></span>plushd</a>
+            <a href="index.html" class="logo"><img src="fondo.png" alt="Pelixplushd Logo"
+                    class="logo-icon">Pelix<span></span>plushd</a>
         </div>
 
         <nav class="desktop-nav">
@@ -1689,7 +2117,8 @@
     <!-- Side Menu (Mobile) -->
     <div id="side-menu" class="mobile-menu">
         <div class="mobile-menu-header">
-            <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span></span>plushd</div>
+            <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span></span>plushd
+            </div>
             <button id="close-side-menu-btn" class="close-btn">&times;</button>
         </div>
         <div class="mobile-nav-links">
@@ -1726,19 +2155,22 @@
         <!-- Hero Slider -->
         <div id="hero-section" class="hero-container manual-hero">
             <div class="hero-indicators"></div>
-            
+
             <!-- SLIDE 1: Configura aquí tu primera película -->
             <!-- Cambia 'data-bg' por el enlace de tu imagen de fondo -->
-            <div class="hero-slide active" data-bg="https://imgs.search.brave.com/_uPso31Drcb7OtAce-sa0s2ET6LjMsImR8vPHpy4x9M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZS50bWRiLm9yZy90/L3Avb3JpZ2luYWwv/a0pveDJTZHVNV2Fj/T0l0bHJjMHpQV01p/aW10LnBuZw">
+            <div class="hero-slide active"
+                data-bg="https://imgs.search.brave.com/_uPso31Drcb7OtAce-sa0s2ET6LjMsImR8vPHpy4x9M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZS50bWRiLm9yZy90/L3Avb3JpZ2luYWwv/a0pveDJTZHVNV2Fj/T0l0bHJjMHpQV01p/aW10LnBuZw">
                 <div class="hero-content">
                     <h1 class="hero-title">El Vengador Tóxico</h1>
-                    <p class="hero-description">Un chico ingenuo se transforma en un poderoso superhéroe después de ser arrojado a una tina de desechos tóxicos.</p>
+                    <p class="hero-description">Un chico ingenuo se transforma en un poderoso superhéroe después de ser
+                        arrojado a una tina de desechos tóxicos.</p>
                     <div class="hero-details">
                         <span>2025</span>
                         <span class="hero-rating">★ 6.3</span>
                         <span class="quality-badge">HD</span>
                     </div>
-                    <button class="hero-button" onclick="window.showPageLoader('detalles.html?id=el-vengador-toxico-2025')">
+                    <button class="hero-button"
+                        onclick="window.showPageLoader('detalles.html?id=el-vengador-toxico-2025')">
                         <i class="fas fa-play"></i> Ver Ahora
                     </button>
                 </div>
@@ -1748,20 +2180,23 @@
             <div class="hero-slide" data-bg="albertano.png">
                 <div class="hero-content">
                     <h1 class="hero-title">Albertano Contra los Mostros</h1>
-                    <p class="hero-description">Un chico ingenuo se transforma en un poderoso superhéroe después de ser arrojado a una tina de desechos tóxicos.</p>
+                    <p class="hero-description">Un chico ingenuo se transforma en un poderoso superhéroe después de ser
+                        arrojado a una tina de desechos tóxicos.</p>
                     <div class="hero-details">
                         <span>2022</span>
                         <span class="hero-rating">★ 7.1</span>
                         <span class="quality-badge">4K</span>
                     </div>
-                    <button class="hero-button" onclick="window.showPageLoader('detalles.html?id=albertano-contra-los-mostros-2024')">
+                    <button class="hero-button"
+                        onclick="window.showPageLoader('detalles.html?id=albertano-contra-los-mostros-2024')">
                         <i class="fas fa-play"></i> Ver Ahora
                     </button>
                 </div>
             </div>
 
             <!-- SLIDE 2: Configura aquí tu segunda película -->
-            <div class="hero-slide" data-bg="https://imgs.search.brave.com/aNgLEC7PIFEDNPk4NkmLKqIiJU1OoALnT8t5gAN66Hw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXQuY29t/L3cvZnVsbC8xLzgv/OC8xMjQxNTEtMTky/MHgxMDgwLWRlc2t0/b3AtZnVsbC1oZC1z/dHJhbmdlci10aGlu/Z3MtYmFja2dyb3Vu/ZC1pbWFnZS5qcGc">
+            <div class="hero-slide"
+                data-bg="https://imgs.search.brave.com/aNgLEC7PIFEDNPk4NkmLKqIiJU1OoALnT8t5gAN66Hw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXQuY29t/L3cvZnVsbC8xLzgv/OC8xMjQxNTEtMTky/MHgxMDgwLWRlc2t0/b3AtZnVsbC1oZC1z/dHJhbmdlci10aGlu/Z3MtYmFja2dyb3Vu/ZC1pbWFnZS5qcGc">
                 <div class="hero-content">
                     <h1 class="hero-title">Stranger Things</h1>
                     <p class="hero-description">.</p>
@@ -1769,7 +2204,8 @@
                         <span>2024</span>
                         <span class="quality-badge">4K</span>
                     </div>
-                    <button class="hero-button" onclick="window.showPageLoader('detalles.html?id=stranger-things-2024')">
+                    <button class="hero-button"
+                        onclick="window.showPageLoader('detalles.html?id=stranger-things-2024')">
                         <i class="fas fa-play"></i> Ver Ahora
                     </button>
                 </div>
@@ -1791,18 +2227,19 @@
 
 
             <div class="hero-slide" data-bg="avatar2.png">
-            <div class="hero-content">
-                <h1 class="hero-title">Avatar: Fuego y ceniza</h1>
-                <p class="hero-description">.</p>
-                <div class="hero-details">
-                    <span>2025</span>
-                    <span class="quality-badge">4K</span>
+                <div class="hero-content">
+                    <h1 class="hero-title">Avatar: Fuego y ceniza</h1>
+                    <p class="hero-description">.</p>
+                    <div class="hero-details">
+                        <span>2025</span>
+                        <span class="quality-badge">4K</span>
+                    </div>
+                    <button class="hero-button"
+                        onclick="window.showPageLoader('detalles.html?id=avatar-fuego-y-ceniza-2025')">
+                        <i class="fas fa-play"></i> Ver Ahora
+                    </button>
                 </div>
-                <button class="hero-button" onclick="window.showPageLoader('detalles.html?id=avatar-fuego-y-ceniza-2025')">
-                    <i class="fas fa-play"></i> Ver Ahora
-                </button>
             </div>
-        </div>
         </div>
         <!-- Search & Filter Container -->
         <div id="live-search-container" class="search-overlay" style="display:none;">
@@ -1876,7 +2313,8 @@
 
             <section id="destacados-section" class="content-row">
                 <div class="section-title-container">
-                    <h2 class="section-title">Destacados por Pelixplushd <i class="fab fa-youtube" style="color: #e50914; margin-left: 10px;"></i></h2>
+                    <h2 class="section-title">Destacados por Pelixplushd <i class="fab fa-youtube"
+                            style="color: #e50914; margin-left: 10px;"></i></h2>
                 </div>
                 <div class="carrusel-contenedor">
                     <button class="carrusel-flecha izquierda" aria-label="Anterior">&#10094;</button>
@@ -1909,7 +2347,8 @@
     <footer class="main-footer">
         <div class="footer-grid">
             <div class="footer-brand">
-                <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span>plushd</span></div>
+                <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span>plushd</span>
+                </div>
                 <p>La mejor plataforma de streaming para tus películas, series y animes favoritos. Disfruta de contenido
                     en alta calidad de forma gratuita.</p>
             </div>
@@ -1972,9 +2411,9 @@
     <!-- UI Interactions - CÓDIGO CORREGIDO -->
     <script>
         // ========== SISTEMA DE ACCESO COMPLETO ==========
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             console.log('DOM cargado, inicializando sistema de acceso...');
-            
+
             // Elementos del modal de acceso
             const accessModal = document.getElementById('access-modal');
             const btnFree = document.getElementById('btn-free');
@@ -1985,13 +2424,13 @@
             const btnBack = document.getElementById('btn-back-vip');
             const vipInput = document.getElementById('vip-code-input');
             const vipError = document.getElementById('vip-error');
-            
+
             // Elementos de Solicitud VIP
             const requestForm = document.getElementById('vip-request-form');
             const linkRequest = document.getElementById('link-request-vip');
             const btnBackRequest = document.getElementById('btn-back-request');
             const planSelectionStep = document.getElementById('plan-selection-step');
-            
+
             // Expandir modal al entrar en selección de planes
             const modalContent = document.querySelector('.access-modal-content');
 
@@ -2001,7 +2440,7 @@
             const paymentNameInput = document.getElementById('payment-name-input');
             const btnSendProof = document.getElementById('btn-send-proof');
             const btnBackToPlans = document.getElementById('btn-back-to-plans');
-            
+
             // ========== EFECTO RIPPLE ==========
             function createRipple(event) {
                 const button = event.currentTarget;
@@ -2027,14 +2466,14 @@
             function checkAccessStatus() {
                 const accessGranted = sessionStorage.getItem('pelix_access_granted');
                 const accessType = sessionStorage.getItem('pelix_access_type');
-                
+
                 if (!accessGranted) {
                     console.log('No hay acceso, mostrando modal...');
                     showAccessModal();
                 } else {
                     console.log('Acceso ya concedido:', accessType);
                     hideAccessModal();
-                    
+
                     if (accessType === 'free') {
                         applyFreeRestrictions();
                         checkAndShowWelcome('free', 'Usuario');
@@ -2045,7 +2484,7 @@
                     }
                 }
             }
-            
+
             function showAccessModal() {
                 if (accessModal) {
                     accessModal.classList.add('active');
@@ -2053,7 +2492,7 @@
                     console.log('Modal de acceso mostrado');
                 }
             }
-            
+
             function hideAccessModal() {
                 if (accessModal) {
                     accessModal.classList.remove('active');
@@ -2061,17 +2500,17 @@
                     console.log('Modal de acceso ocultado');
                 }
             }
-            
+
             // ========== BOTÓN ENTRAR GRATIS ==========
             if (btnFree) {
-                btnFree.addEventListener('click', function() {
+                btnFree.addEventListener('click', function () {
                     console.log('Botón Entrar Gratis clickeado');
                     sessionStorage.setItem('pelix_access_granted', 'true');
                     sessionStorage.setItem('pelix_access_type', 'free');
                     hideAccessModal();
                     applyFreeRestrictions();
                     triggerWelcome('free', 'Usuario');
-                    
+
                     // Mostrar notificación
                     if (typeof window.showNotification === 'function') {
                         window.showNotification('Modo Gratuito: Catálogo limitado', 'info');
@@ -2080,10 +2519,10 @@
                     }
                 });
             }
-            
+
             // ========== BOTÓN SOY VIP ==========
             if (btnVip) {
-                btnVip.addEventListener('click', function() {
+                btnVip.addEventListener('click', function () {
                     console.log('Botón Soy VIP clickeado');
                     if (accessSelection) accessSelection.style.display = 'none';
                     if (vipForm) vipForm.style.display = 'block';
@@ -2094,46 +2533,46 @@
                     if (vipError) vipError.style.display = 'none';
                 });
             }
-            
+
             // ========== VALIDAR CÓDIGO VIP ==========
             if (btnValidate) {
                 btnValidate.addEventListener('click', validateVipCode);
-                
+
                 // Permitir validar con Enter
                 if (vipInput) {
-                    vipInput.addEventListener('keypress', function(e) {
+                    vipInput.addEventListener('keypress', function (e) {
                         if (e.key === 'Enter') {
                             validateVipCode();
                         }
                     });
                 }
             }
-            
+
             async function validateVipCode() {
                 const code = vipInput ? vipInput.value.trim() : "";
                 console.log('Validando código VIP:', code);
-                
+
                 // Rate Limiting (Seguridad Anti-Bruteforce)
                 const attempts = parseInt(sessionStorage.getItem('vip_attempts') || '0');
                 const lastAttemptTime = parseInt(sessionStorage.getItem('vip_last_attempt') || '0');
                 const now = Date.now();
-                
+
                 if (attempts >= 5 && (now - lastAttemptTime) < 300000) { // 5 minutos de bloqueo
-                     showVipErrorMessage('⚠️ Demasiados intentos fallidos. Por seguridad, espera 5 minutos.');
-                     return;
+                    showVipErrorMessage('⚠️ Demasiados intentos fallidos. Por seguridad, espera 5 minutos.');
+                    return;
                 }
 
                 if (!code) {
                     showVipErrorMessage('Por favor, introduce un código');
                     return;
                 }
-                
+
                 // UI Loading State (Animación de carga)
                 const originalText = btnValidate.innerHTML;
                 btnValidate.innerHTML = '<div class="btn-spinner"></div> Verificando...';
                 btnValidate.classList.add('loading');
-                if(vipInput) vipInput.disabled = true;
-                
+                if (vipInput) vipInput.disabled = true;
+
                 // Simular delay de seguridad (para experiencia de usuario y seguridad)
                 await new Promise(resolve => setTimeout(resolve, 1500));
 
@@ -2142,7 +2581,7 @@
                     const response = await fetch(`codigos_vip.json?v=${new Date().getTime()}`);
                     const users = await response.json();
                     const user = users.find(u => u.codigo === code);
-                    
+
                     if (user) {
                         // Resetear intentos en éxito
                         sessionStorage.removeItem('vip_attempts');
@@ -2154,25 +2593,25 @@
                             const diasValidez = user.dias_validez || 30;
                             const expirationDate = new Date(startDate);
                             expirationDate.setDate(startDate.getDate() + diasValidez);
-                            
+
                             showVipErrorMessage(`Tu código venció el ${expirationDate.toLocaleDateString()}. Por favor renueva tu suscripción.`);
                             return;
                         }
-                        
+
                         // Código válido
                         console.log('Código VIP válido para:', user.nombre);
                         sessionStorage.setItem('pelix_access_granted', 'true');
                         sessionStorage.setItem('pelix_access_type', 'vip');
                         sessionStorage.setItem('pelix_user_name', user.nombre);
                         sessionStorage.setItem('pelix_user_code', user.codigo);
-                        
+
                         hideAccessModal();
                         showVipBadge();
-                        
+
                         // Disparar animación de bienvenida VIP
                         // Forzamos la animación al loguearse exitosamente
                         triggerWelcome('vip', user.nombre);
-                        
+
                         if (typeof window.showNotification === 'function') window.showNotification(`¡Bienvenido VIP, ${user.nombre}!`, 'success');
                     } else {
                         // Incrementar intentos fallidos
@@ -2187,28 +2626,28 @@
                     // Restaurar UI
                     btnValidate.innerHTML = originalText;
                     btnValidate.classList.remove('loading');
-                    if(vipInput) {
+                    if (vipInput) {
                         vipInput.disabled = false;
                         vipInput.focus();
                     }
                 }
             }
-            
+
             function showVipErrorMessage(errorMessage) {
                 if (vipError) {
                     vipError.textContent = errorMessage;
                     vipError.style.display = 'block';
-                    
+
                     // Auto-ocultar después de 5 segundos
-                    setTimeout(function() {
+                    setTimeout(function () {
                         vipError.style.display = 'none';
                     }, 5000);
                 }
             }
-            
+
             // ========== VOLVER ==========
             if (btnBack) {
-                btnBack.addEventListener('click', function() {
+                btnBack.addEventListener('click', function () {
                     console.log('Volviendo a selección de acceso');
                     if (vipForm) vipForm.style.display = 'none';
                     if (accessSelection) accessSelection.style.display = 'flex';
@@ -2216,10 +2655,10 @@
                     if (vipInput) vipInput.value = '';
                 });
             }
-            
+
             // ========== SOLICITAR VIP ==========
             if (linkRequest) {
-                linkRequest.addEventListener('click', function(e) {
+                linkRequest.addEventListener('click', function (e) {
                     e.preventDefault();
                     console.log('Solicitando VIP');
                     if (vipForm) vipForm.style.display = 'none';
@@ -2229,32 +2668,32 @@
                     if (paymentStep) paymentStep.style.display = 'none';
                 });
             }
-            
+
             // ========== PLANES VIP ==========
             let selectedPlan = {};
-            
+
             // Función global para seleccionar plan (llamada desde HTML onclick)
-            window.selectPlan = function(element, name, price) {
+            window.selectPlan = function (element, name, price) {
                 // Visual feedback
                 document.querySelectorAll('.vip-plan-card').forEach(c => c.classList.remove('selected'));
                 element.classList.add('selected');
 
                 selectedPlan = { name: name, price: price };
                 console.log('Plan seleccionado:', selectedPlan);
-                
+
                 // Delay pequeño para animación
                 setTimeout(() => {
-                    if(selectedPlanInfo) selectedPlanInfo.textContent = `${selectedPlan.name} - $${selectedPlan.price} MXN`;
-                    if(planSelectionStep) planSelectionStep.style.display = 'none';
-                    if(paymentStep) paymentStep.style.display = 'block';
-                    if(modalContent) modalContent.classList.remove('vip-mode'); // Restaurar ancho para pago
+                    if (selectedPlanInfo) selectedPlanInfo.textContent = `${selectedPlan.name} - $${selectedPlan.price} MXN`;
+                    if (planSelectionStep) planSelectionStep.style.display = 'none';
+                    if (paymentStep) paymentStep.style.display = 'block';
+                    if (modalContent) modalContent.classList.remove('vip-mode'); // Restaurar ancho para pago
                 }, 300);
             };
-            
+
             // ========== COPIAR CUENTA ==========
             const copyBtn = document.getElementById('copy-account-btn');
-            if(copyBtn) {
-                copyBtn.addEventListener('click', function() {
+            if (copyBtn) {
+                copyBtn.addEventListener('click', function () {
                     const code = document.getElementById('account-number').innerText;
                     navigator.clipboard.writeText(code).then(() => {
                         const icon = copyBtn.querySelector('i');
@@ -2270,41 +2709,41 @@
 
             // ========== ENVIAR COMPROBANTE ==========
             if (btnSendProof) {
-                btnSendProof.addEventListener('click', function() {
+                btnSendProof.addEventListener('click', function () {
                     const name = paymentNameInput ? paymentNameInput.value.trim() : "";
-                    
+
                     if (!name) {
                         alert("Por favor, escribe el nombre usado en el pago.");
                         return;
                     }
-                    
+
                     const planName = selectedPlan.name || "Plan VIP";
                     const planPrice = selectedPlan.price || "0";
-                    const adminPhone = "+525616840524"; 
-                    
+                    const adminPhone = "+525616840524";
+
                     const whatsappMessageContent = `👋 *Hola, quiero activar mi Plan VIP en Pelixplushd.*%0A%0A🧾 *Detalles del Pago:*%0A👤 *Usuario/Ref:* ${name}%0A📅 *Plan:* ${planName}%0A💰 *Monto:* $${planPrice} MXN%0A%0A📎 _Adjunto mi comprobante a continuación para su validación._%0A🚀 ¡Espero mi código de acceso!`;
-                    
+
                     window.open(`https://wa.me/${adminPhone}?text=${whatsappMessageContent}`, '_blank');
                 });
             }
-            
+
             // ========== VOLVER A PLANES ==========
-            if(btnBackToPlans) {
-                btnBackToPlans.addEventListener('click', function() {
-                    if(paymentStep) paymentStep.style.display = 'none';
-                    if(planSelectionStep) planSelectionStep.style.display = 'block';
-                    if(modalContent) modalContent.classList.add('vip-mode'); // Expandir de nuevo
+            if (btnBackToPlans) {
+                btnBackToPlans.addEventListener('click', function () {
+                    if (paymentStep) paymentStep.style.display = 'none';
+                    if (planSelectionStep) planSelectionStep.style.display = 'block';
+                    if (modalContent) modalContent.classList.add('vip-mode'); // Expandir de nuevo
                 });
             }
-            
+
             if (btnBackRequest) {
-                btnBackRequest.addEventListener('click', function() {
+                btnBackRequest.addEventListener('click', function () {
                     if (requestForm) requestForm.style.display = 'none';
                     if (vipForm) vipForm.style.display = 'block';
-                    if(modalContent) modalContent.classList.remove('vip-mode');
+                    if (modalContent) modalContent.classList.remove('vip-mode');
                 });
             }
-            
+
             // ========== FUNCIONES DE AYUDA ==========
             function isUserExpired(user) {
                 if (!user.fecha_inicio) return false;
@@ -2316,22 +2755,22 @@
                 expirationDate.setHours(23, 59, 59, 999);
                 return today > expirationDate;
             }
-            
+
             async function validateVipSession() {
                 const storedCode = sessionStorage.getItem('pelix_user_code');
                 if (!storedCode) return;
-                
+
                 try {
                     const response = await fetch(`codigos_vip.json?v=${new Date().getTime()}`);
                     const users = await response.json();
                     const user = users.find(u => u.codigo === storedCode);
-                    
+
                     if (!user || isUserExpired(user)) {
                         // Sesión expirada o usuario eliminado
                         console.log('Sesión VIP expirada, cerrando...');
                         sessionStorage.clear();
                         showAccessModal();
-                        
+
                         if (accessSelection) accessSelection.style.display = 'none';
                         if (vipForm) vipForm.style.display = 'block';
                         if (vipError) {
@@ -2343,7 +2782,7 @@
                     console.error('Error validando sesión VIP:', e);
                 }
             }
-            
+
             function showVipBadge() {
                 const badge = document.getElementById('vip-badge-display');
                 if (badge) {
@@ -2351,22 +2790,22 @@
                     console.log('Badge VIP mostrado');
                 }
             }
-            
+
             function applyFreeRestrictions() {
                 console.log('Aplicando restricciones modo gratis');
-                
+
                 // Ocultar secciones premium
                 const restrictedSections = ['mejores-peliculas-section', 'recomendaciones-section', 'tendencias'];
-                restrictedSections.forEach(function(id) {
+                restrictedSections.forEach(function (id) {
                     const el = document.getElementById(id);
                     if (el) el.style.display = 'none';
                 });
-                
+
                 // Bloquear sección VIP
                 const vipSection = document.getElementById('todo-lo-nuevo-2025');
                 if (vipSection) {
                     vipSection.classList.add('vip-restricted');
-                    vipSection.addEventListener('click', function() {
+                    vipSection.addEventListener('click', function () {
                         console.log('Sección VIP clickeada');
                         showAccessModal();
                         if (accessSelection) accessSelection.style.display = 'none';
@@ -2377,12 +2816,12 @@
                         if (paymentStep) paymentStep.style.display = 'none';
                     });
                 }
-                
+
                 // NUEVO: Bloquear sección de Series Populares para gratuitos
                 const seriesSection = document.getElementById('series');
                 if (seriesSection) {
                     seriesSection.classList.add('vip-restricted');
-                    
+
                     // Esperar a que se carguen las tarjetas para limitar a 12
                     const observer = new MutationObserver(() => {
                         const cards = seriesSection.querySelectorAll('.movie-card, .anime-card, .item-card');
@@ -2397,7 +2836,7 @@
                     });
                     observer.observe(seriesSection, { childList: true, subtree: true });
 
-                    seriesSection.addEventListener('click', function() {
+                    seriesSection.addEventListener('click', function () {
                         console.log('Sección VIP (Series) clickeada');
                         showAccessModal();
                         if (accessSelection) accessSelection.style.display = 'none';
@@ -2408,17 +2847,17 @@
                         if (paymentStep) paymentStep.style.display = 'none';
                     });
                 }
-                
+
                 // Ocultar algunas películas (simulación de catálogo limitado)
-                setTimeout(function() {
-                    document.querySelectorAll('.movie-card, .anime-card, .item-card').forEach(function(card, index) {
+                setTimeout(function () {
+                    document.querySelectorAll('.movie-card, .anime-card, .item-card').forEach(function (card, index) {
                         if (!card.closest('#series') && index % 2 !== 0) {
                             card.style.display = 'none';
                         }
                     });
                 }, 1000);
             }
-            
+
             // ========== INICIALIZACIÓN ==========
             checkAccessStatus();
 
@@ -2433,9 +2872,9 @@
                     if (modalContent) modalContent.classList.add('vip-mode');
                 }, 500);
             }
-            
+
             // Verificar sesión VIP cada 30 segundos
-            setInterval(function() {
+            setInterval(function () {
                 if (sessionStorage.getItem('pelix_access_type') === 'vip') {
                     validateVipSession();
                 }
@@ -2459,19 +2898,19 @@
                 const overlay = document.getElementById('premium-intro');
                 const titleText = document.getElementById('intro-title-text');
                 const subtitleText = document.getElementById('intro-subtitle-text');
-                
+
                 if (!overlay) return;
 
                 // Reset state
                 overlay.classList.remove('exit');
                 overlay.classList.add('active');
-                
+
                 // Force reflow
                 void overlay.offsetWidth;
-                
+
                 // Add animation trigger class
                 overlay.classList.add('animate-in');
-                
+
                 sessionStorage.setItem('welcome_shown', 'true');
 
                 // Personalization
@@ -2495,35 +2934,35 @@
             function createParticles(count, type) {
                 const container = document.getElementById('welcome-particles-container');
                 if (!container) return;
-                
+
                 for (let i = 0; i < count; i++) {
                     const p = document.createElement('div');
                     p.classList.add('particle');
-                    
+
                     const size = Math.random() * 10 + 5;
                     p.style.width = `${size}px`;
                     p.style.height = `${size}px`;
-                    
+
                     p.style.left = `${Math.random() * 100}%`;
                     p.style.top = `${Math.random() * 100 + 100}%`; // Empezar desde abajo
-                    
+
                     const duration = Math.random() * 2 + 1;
                     p.style.animationDuration = `${duration}s`;
                     p.style.animationDelay = `${Math.random() * 0.5}s`;
-                    
+
                     container.appendChild(p);
                 }
             }
 
             // --- FUNCIONES PARA ACTIVAR NUEVAS ANIMACIONES ---
-            
+
             // Llamar a esta función para la página de Lanzamientos
-            window.triggerPortalIntro = function() {
+            window.triggerPortalIntro = function () {
                 const portal = document.getElementById('intro-portal');
-                if(!portal) return;
-                
+                if (!portal) return;
+
                 portal.style.display = 'flex';
-                
+
                 // Limpieza automática
                 setTimeout(() => {
                     portal.style.opacity = '0';
@@ -2535,14 +2974,14 @@
             };
 
             // Llamar a esta función para la página de Series
-            window.triggerCinematicIntro = function() {
+            window.triggerCinematicIntro = function () {
                 const cinematic = document.getElementById('intro-cinematic');
                 const textWrapper = document.getElementById('cinematic-text');
-                if(!cinematic) return;
-                
+                if (!cinematic) return;
+
                 cinematic.style.display = 'flex';
                 textWrapper.classList.remove('fade-out'); // Reset
-                
+
                 // Secuencia de desvanecimiento del texto
                 setTimeout(() => {
                     textWrapper.classList.add('fade-out');
@@ -2553,20 +2992,20 @@
                     cinematic.style.display = 'none';
                 }, 2800); // Duración total (animación cortinas + delay)
             };
-            
+
             // ========== COUNTDOWN TIMER ==========
             function startVipCountdown() {
                 const timerDisplay = document.getElementById('vip-countdown');
                 if (!timerDisplay) return;
 
                 let duration = 2 * 60 * 60 + 15 * 60; // 2h 15m
-                
+
                 setInterval(() => {
                     let hours = Math.floor(duration / 3600);
                     let minutes = Math.floor((duration % 3600) / 60);
                     let seconds = duration % 60;
 
-                    timerDisplay.textContent = 
+                    timerDisplay.textContent =
                         `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
 
                     if (--duration < 0) duration = 2 * 60 * 60; // Reset loop
@@ -2574,21 +3013,21 @@
             }
             startVipCountdown();
         });
-        
+
         // ========== FUNCIONES GLOBALES ==========
-        
+
         // Sticky Header Logic
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             const header = document.getElementById('main-header');
             if (window.scrollY > 50) header.classList.add('scrolled');
             else header.classList.remove('scrolled');
         });
 
         // Rotación de fondo del héroe
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const heroSection = document.getElementById('hero-section');
             const slides = document.querySelectorAll('.hero-slide');
-            
+
             function updateHeroBackground() {
                 const activeSlide = document.querySelector('.hero-slide.active');
                 if (heroSection && activeSlide) {
@@ -2598,7 +3037,7 @@
                     }
                 }
             }
-            
+
             // Cargar imagen inicial
             updateHeroBackground();
 
@@ -2608,7 +3047,7 @@
         });
 
         // Bloquear clics en contenido roto
-        document.addEventListener('click', function(e) {
+        document.addEventListener('click', function (e) {
             const target = e.target.closest('a, .movie-card, .anime-card, .item-card');
             if (target) {
                 const img = target.querySelector('img');
@@ -2622,58 +3061,58 @@
 
         // Limpiar caché automáticamente
         (function autoClearCache() {
-          try {
-            const SESSION_KEY = 'pelix_cache_cleared';
-            const autoCacheClearEnabled = localStorage.getItem('settings_auto_cache_clear') !== 'false';
-            
-            if (!autoCacheClearEnabled) {
-                return;
-            }
+            try {
+                const SESSION_KEY = 'pelix_cache_cleared';
+                const autoCacheClearEnabled = localStorage.getItem('settings_auto_cache_clear') !== 'false';
 
-            if (!sessionStorage.getItem(SESSION_KEY)) {
-                if ('caches' in window) {
-                    try {
-                        const keys = window.caches.keys();
-                        keys.then(function(cacheKeys) {
-                            cacheKeys.forEach(function(key) {
-                                window.caches.delete(key);
-                            });
-                        });
-                        console.log('Caché limpiada automáticamente al inicio.');
-                    } catch (e) { console.error('Error al limpiar caché:', e); }
+                if (!autoCacheClearEnabled) {
+                    return;
                 }
-                sessionStorage.setItem(SESSION_KEY, 'true');
-                window.location.reload();
-            }
-          } catch (e) { console.warn("Cache logic skipped:", e); }
+
+                if (!sessionStorage.getItem(SESSION_KEY)) {
+                    if ('caches' in window) {
+                        try {
+                            const keys = window.caches.keys();
+                            keys.then(function (cacheKeys) {
+                                cacheKeys.forEach(function (key) {
+                                    window.caches.delete(key);
+                                });
+                            });
+                            console.log('Caché limpiada automáticamente al inicio.');
+                        } catch (e) { console.error('Error al limpiar caché:', e); }
+                    }
+                    sessionStorage.setItem(SESSION_KEY, 'true');
+                    window.location.reload();
+                }
+            } catch (e) { console.warn("Cache logic skipped:", e); }
         })();
-        
+
         // Seguridad - Bloquear inspección
-        document.addEventListener('contextmenu', function(event) { 
-            event.preventDefault(); 
+        document.addEventListener('contextmenu', function (event) {
+            event.preventDefault();
         });
-        
-        document.addEventListener('keydown', function(e) {
+
+        document.addEventListener('keydown', function (e) {
             if (e.key === 'F12' || e.keyCode === 123) {
                 e.preventDefault();
                 return false;
             }
-            
+
             if (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.keyCode === 73)) {
                 e.preventDefault();
                 return false;
             }
-            
+
             if (e.ctrlKey && e.shiftKey && (e.key === 'C' || e.keyCode === 67)) {
                 e.preventDefault();
                 return false;
             }
-            
+
             if (e.ctrlKey && e.shiftKey && (e.key === 'J' || e.keyCode === 74)) {
                 e.preventDefault();
                 return false;
             }
-            
+
             if (e.ctrlKey && (e.key === 'U' || e.keyCode === 85)) {
                 e.preventDefault();
                 return false;
@@ -2681,4 +3120,5 @@
         });
     </script>
 </body>
+
 </html>
