@@ -60,6 +60,128 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "A Desert",
+    "titulo_original": "A Desert",
+    "poster": "https://image.tmdb.org/t/p/w500/vd194U3uHmxs5rZBV2QU7HNDdEf.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/jtMzyOnIly9aciwV3z5TcczVstI.jpg",
+    "descripcion": "Durante un viaje por carretera, el fotógrafo Alex Clark se abre camino a través de una América polvorienta y desierta, fotografiando fábricas abandonadas, antiguos cementerios de mascotas y lugareños al azar. Entonces, una noche se encuentra y se hace amigo de los hermanos Renny y Susie Q en un motel y su vida, y las vidas de los que están relacionados con él, cambian para siempre.",
+    "año": 2025,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Suspense"
+    ],
+    "director": "Joshua Erkman",
+    "reparto": [
+      "David Yow",
+      "Kai Lennox",
+      "Sarah Lind",
+      "Zachary Ray Sherman",
+      "Ashley B. Smith",
+      "Rob Zabrecky",
+      "S.A. Griffin",
+      "Bill J. Stevens",
+      "Alexandra Ryan",
+      "William Bookston"
+    ],
+    "calificacion": 6.4,
+    "votos": 18,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-09T16:05:11.868468",
+    "tmdb_id": "1276038",
+    "popularidad": 3.25,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "103 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/n3iw88r8q251",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "a-desert-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "A Hard Place",
+    "titulo_original": "A Hard Place",
+    "poster": "https://image.tmdb.org/t/p/w500/wzuvYevKZRJ91DVAo6pIEeQ3xlE.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/nuBzJ5yXN5T9XjFdB1np50qkLpp.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "terror",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Terror",
+      "Suspense"
+    ],
+    "director": "J. Horton",
+    "reparto": [
+      "Felissa Rose",
+      "Sadie Katz",
+      "Lynn Lowry",
+      "Glenn Plummer",
+      "Angel Nichole Bradford",
+      "Rachel Amanda Bryant",
+      "Bai Ling",
+      "Malachy Fergus Godfrey",
+      "Ashley Undercuffler",
+      "Marvin Maddicks Jr.",
+      "Jennifer Michelle Stone II",
+      "Lisa Hinds"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-09T16:07:51.448143",
+    "tmdb_id": "1104999",
+    "popularidad": 0.32,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "N/A",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/kct37y2bvpu9",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "a-hard-place-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "A Wedding for Belle",
     "titulo_original": "A Wedding for Belle",
     "poster": "https://image.tmdb.org/t/p/w500/fGIG9GhObggqyvJ6Cri0SN0GA6v.jpg",
@@ -538,6 +660,58 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Apocalypse Bigfoot",
+    "titulo_original": "Apocalypse Bigfoot",
+    "poster": "https://image.tmdb.org/t/p/w500/xtirdvmtFANiKsbaxVPNXhoRFf7.jpg",
+    "backdrop": "",
+    "descripcion": "",
+    "año": 2023,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror"
+    ],
+    "generos_lista": [
+      "Terror"
+    ],
+    "director": "Matt Jaissle",
+    "reparto": [
+      "Matt Hundley",
+      "Jinxx Hooks",
+      "Mike W. Sexton",
+      "Lucia Reid",
+      "Paul Bilbrey"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-09T16:08:50.193114",
+    "tmdb_id": "1293242",
+    "popularidad": 0.28,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "73 min",
+    "presupuesto": "$2,000",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "url": "https://streamwish.to/e/ji4mux2xslz7",
+        "idioma": "Latino",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "apocalypse-bigfoot-2023"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Aquaman y el reino perdido",
     "titulo_original": "Aquaman and the Lost Kingdom",
     "poster": "https://image.tmdb.org/t/p/w500/a0QwtpUNIKjOlNoOVmk7d2LFnQW.jpg",
@@ -867,6 +1041,65 @@ const peliculas3 = [
       }
     ],
     "id": "boda-letal-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Bull Shark 2",
+    "titulo_original": "Bull Shark 2",
+    "poster": "https://image.tmdb.org/t/p/w500/wn6Y3AmynoQxTGwIkHuCWB4APS4.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xeEoetXhC5WWmsalUfkMJ4SlSRS.jpg",
+    "descripcion": "Tras los sucesos de la primera película, un segundo tiburón toro comienza a darse un festín con víctimas desprevenidas en un lago de Texas.",
+    "año": 2024,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Suspense"
+    ],
+    "director": "Brett Bentman",
+    "reparto": [
+      "Lindsey Marie Wilson",
+      "Billy Blair",
+      "Chad Ridgely",
+      "Thom Hallum",
+      "Tom Zembrod",
+      "Isabella Olivas",
+      "Aedin Waldorf",
+      "Andrea Cohen",
+      "Dylan Boehm",
+      "Caden Smith"
+    ],
+    "calificacion": 5.1,
+    "votos": 10,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-09T17:41:37.013407",
+    "tmdb_id": "1254877",
+    "popularidad": 0.33,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "75 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "url": "https://streamwish.to/e/fy41xncrfrtu",
+        "idioma": "Latino",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "bull-shark-2-2024"
   },
   {
     "tipo": "pelicula",
@@ -1370,6 +1603,68 @@ const peliculas3 = [
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-02-13",
     "id": "cobra-kai-2018"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Colmillos del Bayou",
+    "titulo_original": "The Bayou",
+    "poster": "https://image.tmdb.org/t/p/w500/eVoBCxDHmpXhidKWhIubG2I0ffJ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/y12HU18e5FHNeqkSZdvMBEOY6BU.jpg",
+    "descripcion": "Las vacaciones de la recién graduada Kyle y sus amigos se convierten en desastre cuando escapan de un accidente de avión en el desolado e infame Bayou de Luisiana. Allí descubren que hay algo mucho más peligroso acechando en las aguas.",
+    "año": 2025,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "suspense",
+      "terror",
+      "acción"
+    ],
+    "generos_lista": [
+      "Suspense",
+      "Terror",
+      "Acción"
+    ],
+    "director": "Taneli Mustonen",
+    "reparto": [
+      "Athena Strates",
+      "Madalena Aragão",
+      "Elisha Applebaum",
+      "Mohammed Mansaray",
+      "Tayla Kovacevic-Ebong",
+      "Andonis Anthony",
+      "Sarah Priddy",
+      "Isabelle Bonfrer",
+      "Flynn Barnard",
+      "David Newman",
+      "Evan Sokol"
+    ],
+    "calificacion": 5.5,
+    "votos": 166,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-09T19:40:33.115196",
+    "tmdb_id": "1407861",
+    "popularidad": 6.14,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=jLDz5iSOJtc",
+    "trailer_key": "jLDz5iSOJtc",
+    "success": true,
+    "duracion": "87 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/4o0yhxmx64aa",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "colmillos-del-bayou-2025"
   },
   {
     "tipo": "serie",
@@ -3386,6 +3681,88 @@ const peliculas3 = [
     "id": "jake-paul-vs-anthony-joshua-2025"
   },
   {
+    "tipo": "serie",
+    "titulo": "Jalas o Te Rajas",
+    "titulo_original": "",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/k62CL0rXM1uj3YFbGnGpM9sT1C6.jpg",
+    "backdrop": "",
+    "descripcion": "El Escorpión Dorado y Facundo deciden poner fin a su rivalidad de varios años firmando un contrato en el que se comprometen a enfrentarse en 10 retos extremos. Los retos son creados por celebridades que buscan venganza y quieren verlos sufrir. Viajando, desafiándose, acumulando dinero y siendo castigados demostrarán quien es un verdadero dios y quién es un simple mortal.",
+    "año": 2026,
+    "categoria": [
+      "series"
+    ],
+    "genero": [],
+    "generos_lista": [],
+    "director": "",
+    "reparto": [],
+    "calificacion": 0.0,
+    "votos": 0,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-08T22:09:06.351400",
+    "tmdb_id": "",
+    "popularidad": 0,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/kbnmskz7elgg",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/gzdzbbbljcjj",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/9f30bajaeu8z",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://doodstream.com/e/4k3zpqgoe337",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/siqn9wi071np",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/ad9vu9hcme5m",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 0,
+    "tipo_serie": "Serie",
+    "id": "jalas-o-te-rajas-2026"
+  },
+  {
     "tipo": "pelicula",
     "titulo": "John Wick 4",
     "titulo_original": "John Wick: Chapter 4",
@@ -4162,6 +4539,61 @@ const peliculas3 = [
     "tipo_serie": "Scripted",
     "ultima_emision": "2024-11-21",
     "id": "las-bravas-fc-2022"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Leprechaun: The Beginning",
+    "titulo_original": "Leprechaun: The Beginning",
+    "poster": "https://image.tmdb.org/t/p/w500/vZ5F5cxsSbsI3cljfgt6D7J6qxo.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fGoMj8wSPCyUg05AuNK1x36Pazb.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror"
+    ],
+    "generos_lista": [
+      "Terror"
+    ],
+    "director": "Rahul Gandhi",
+    "reparto": [
+      "Amanda Jane York",
+      "Mark Collier",
+      "Julia Quayle",
+      "Jeff Turner",
+      "Julie Ghallab",
+      "Grace Cundy",
+      "Mary Eva Sharp",
+      "Ben Keenan"
+    ],
+    "calificacion": 2.8,
+    "votos": 8,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-09T17:40:31.156068",
+    "tmdb_id": "1323798",
+    "popularidad": 0.41,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "87 min",
+    "presupuesto": "$5,000",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/2adc0amg3u89",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "leprechaun-the-beginning-2025"
   },
   {
     "tipo": "pelicula",
@@ -5181,6 +5613,69 @@ const peliculas3 = [
       }
     ],
     "id": "los-pecadores-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Los Radley",
+    "titulo_original": "The Radleys",
+    "poster": "https://image.tmdb.org/t/p/w500/7vSOXpuuwP14Xf6MXUhyDsxQoiW.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/c0O7XhOffGyxJ1UwUis1CkdMNH0.jpg",
+    "descripcion": "Los Radley son como cualquier otra familia… excepto por un pequeño detalle: son vampiros. Optando por un estilo de vida abstemio, conviven en perfecta harmonía con sus vecinos, sin levantar sospechas. Sin embargo, cuando sus hijos adolescentes sucumben a una irresistible sed de sangre humana, el secreto familiar quedará al descubierto. La inesperada visita de un pariente que da rienda suelta a sus instintos sangrientos echará más leña al fuego, poniendo el mundo de los Radley patas arriba.",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia",
+      "terror",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Terror",
+      "Suspense"
+    ],
+    "director": "Euros Lyn",
+    "reparto": [
+      "Damian Lewis",
+      "Kelly Macdonald",
+      "Bo Bragason",
+      "Harry Baxendale",
+      "Sophia Di Martino",
+      "Steven Waddington",
+      "Madeleine Power",
+      "Shaun Parkes",
+      "Jay Lycurgo",
+      "Freddie Wise",
+      "Suan-Li Ong",
+      "Sarah Durham"
+    ],
+    "calificacion": 5.0,
+    "votos": 84,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-09T16:03:16.817769",
+    "tmdb_id": "1139713",
+    "popularidad": 0.65,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=2hbo8ofROM4",
+    "trailer_key": "2hbo8ofROM4",
+    "success": true,
+    "duracion": "115 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/caam710dr0u7",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "los-radley-2024"
   },
   {
     "tipo": "pelicula",
@@ -7326,6 +7821,62 @@ const peliculas3 = [
       }
     ],
     "id": "transformers-la-era-de-la-extincion-2014"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Twas The Night",
+    "titulo_original": "Twas The Night",
+    "poster": "https://image.tmdb.org/t/p/w500/rOLpMgK3CAEeCFtYg0W5axp1ktO.jpg",
+    "backdrop": "",
+    "descripcion": "",
+    "año": 2023,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "película de tv",
+      "fantasía"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Película de TV",
+      "Fantasía"
+    ],
+    "director": "Joe Lujan",
+    "reparto": [
+      "Taylor Kilgore",
+      "Bryant Smith",
+      "Anthony Avery",
+      "Chris Ivan",
+      "Johnny Perotti"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-09T15:52:37.321113",
+    "tmdb_id": "1396038",
+    "popularidad": 0.53,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "78 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/zasz8u6lwma8",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "twas-the-night-2023"
   },
   {
     "tipo": "pelicula",

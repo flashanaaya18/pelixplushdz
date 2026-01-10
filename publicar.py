@@ -777,46 +777,23 @@ def mostrar_detalles_tecnicos(detalles):
     print(detalles)
 
 def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
-    """Obtiene detalles completos desde TMDb con manejo de errores robusto."""
     """Obtiene detalles completos desde TMDb con PARALELISMO y manejo de errores robusto."""
     try:
-        if tipo_contenido == 'pelicula':
-            movie = tmdb.Movies(tmdb_id)
-            
-            # Obtener datos con timeout
         # Función auxiliar para peticiones seguras
-        def get_tmdb_data(method, **kwargs):
+        def get_tmdb_data(tmdb_obj, method_name, **kwargs):
             try:
-                detalles = movie.info(language='es-ES', timeout=10)
+                method = getattr(tmdb_obj, method_name)
+                # Intentar en español
+                kwargs['language'] = 'es-ES'
+                kwargs['timeout'] = 10
                 return method(**kwargs)
             except:
-                detalles = movie.info(language='en-US', timeout=10)
-            
-            try:
-                creditos = movie.credits(language='es-ES', timeout=10)
-            except:
-                creditos = movie.credits(language='en-US', timeout=10)
-            
-            try:
-                videos = movie.videos(language='es-ES', timeout=10)
-            except:
-                videos = {}
-            
-            # Si no hay videos en español o falló, intentar en inglés
-            if not videos.get('results'):
                 try:
-                    videos = movie.videos(language='en-US', timeout=10)
-                except:
-                    videos = {}
-            
-                # Fallback a inglés si falla español
-                if kwargs.get('language') == 'es-ES':
+                    # Fallback a inglés
                     kwargs['language'] = 'en-US'
-                    try:
-                        return method(**kwargs)
-                    except:
-                        return {}
-                return {}
+                    return method(**kwargs)
+                except:
+                    return {}
 
         # Ejecutar peticiones en paralelo para máxima velocidad
         with ThreadPoolExecutor(max_workers=4) as executor:
@@ -825,19 +802,16 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
             else:
                 item = tmdb.TV(tmdb_id)
 
-            future_info = executor.submit(get_tmdb_data, item.info, language='es-ES')
-            future_credits = executor.submit(get_tmdb_data, item.credits, language='es-ES')
-            future_videos_es = executor.submit(get_tmdb_data, item.videos, language='es-ES')
-            future_videos_en = executor.submit(get_tmdb_data, item.videos, language='en-US')
+            future_info = executor.submit(get_tmdb_data, item, 'info')
+            future_credits = executor.submit(get_tmdb_data, item, 'credits')
+            future_videos = executor.submit(get_tmdb_data, item, 'videos')
 
             detalles = future_info.result()
             creditos = future_credits.result()
-            videos_es = future_videos_es.result()
-            videos_en = future_videos_en.result()
+            videos = future_videos.result()
 
-        # Procesar videos (Preferir ES, sino EN)
-        videos = videos_es if videos_es.get('results') else videos_en
-        if not videos: videos = {}
+        if not detalles:
+            raise Exception("No se pudo obtener información básica del contenido.")
 
         if tipo_contenido == 'pelicula':
             # Procesar géneros
@@ -918,31 +892,6 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
             }
         
         else:  # Serie
-            tv = tmdb.TV(tmdb_id)
-            
-            # Obtener datos con timeout
-            try:
-                detalles = tv.info(language='es-ES', timeout=10)
-            except:
-                detalles = tv.info(language='en-US', timeout=10)
-            
-            try:
-                creditos = tv.credits(language='es-ES', timeout=10)
-            except:
-                creditos = tv.credits(language='en-US', timeout=10)
-            
-            try:
-                videos = tv.videos(language='es-ES', timeout=10)
-            except:
-                videos = {}
-            
-            # Si no hay videos en español o falló, intentar en inglés
-            if not videos.get('results'):
-                try:
-                    videos = tv.videos(language='en-US', timeout=10)
-                except:
-                    videos = {}
-            
             # Procesar géneros
             generos = [g['name'] for g in detalles.get('genres', [])] if detalles.get('genres') else []
             
@@ -1788,6 +1737,7 @@ def _buscar_por_id_avanzado():
     url_o_id = input(f"{C.CYAN}🔗 Introduce la URL o el ID de TMDb/IMDb: {C.END}").strip()
     
     if not url_o_id:
+        limpiar_pantalla()
         print(f"{C.RED}❌ No se introdujo nada.{C.END}")
         time.sleep(2)
         return None, None
@@ -1799,70 +1749,124 @@ def _buscar_por_id_avanzado():
     spinner = Spinner(f"{C.YELLOW}Analizando enlace y conectando con el núcleo de TMDb")
     spinner.start()
     
-    # Estrategia 1: Detectar URL de TMDb
-    tmdb_movie_match = re.search(r'themoviedb\.org/movie/(\d+)', url_o_id)
-    tmdb_tv_match = re.search(r'themoviedb\.org/tv/(\d+)', url_o_id)
-    
-    if tmdb_movie_match:
-        tmdb_id = tmdb_movie_match.group(1)
-        tipo_contenido = 'pelicula'
-        print(f"{C.GREEN}✅ ID de película TMDb detectado: {tmdb_id}{C.END}")
-    elif tmdb_tv_match:
-        tmdb_id = tmdb_tv_match.group(1)
-        tipo_contenido = 'serie'
-        print(f"{C.GREEN}✅ ID de serie TMDb detectado: {tmdb_id}{C.END}")
+    try:
+        # Estrategia 1: Detectar URL de TMDb (Soporta www y sin www)
+        tmdb_movie_match = re.search(r'themoviedb\.org.*?/movie/(\d+)', url_o_id)
+        tmdb_tv_match = re.search(r'themoviedb\.org.*?/tv/(\d+)', url_o_id)
+        tmdb_movie_match = re.search(r'(?:themoviedb\.org|tmdb\.org)/.*?movie/(\d+)', url_o_id, re.IGNORECASE)
+        tmdb_tv_match = re.search(r'(?:themoviedb\.org|tmdb\.org)/.*?tv/(\d+)', url_o_id, re.IGNORECASE)
         
-    # Estrategia 2: Detectar URL o ID de IMDb
-    elif re.search(r'(tt\d+)', url_o_id):
-        imdb_id_match = re.search(r'(tt\d+)', url_o_id)
-        imdb_id = imdb_id_match.group(1)
-        print(f"{C.CYAN}🔄 Buscando ID de TMDb para IMDb ID: {imdb_id}...{C.END}")
-        spinner.message = f"Convirtiendo IMDb ID {imdb_id} a TMDb"
-        
-        try:
-            find = tmdb.Find(imdb_id)
-            response = find.info(external_source='imdb_id')
+        if tmdb_movie_match:
+            tmdb_id = tmdb_movie_match.group(1)
+            tipo_contenido = 'pelicula'
+            spinner.stop()
+            print(f"{C.GREEN}✅ ID de película TMDb detectado: {tmdb_id}{C.END}")
+        elif tmdb_tv_match:
+            tmdb_id = tmdb_tv_match.group(1)
+            tipo_contenido = 'serie'
+            spinner.stop()
+            print(f"{C.GREEN}✅ ID de serie TMDb detectado: {tmdb_id}{C.END}")
             
-            if response.get('movie_results'):
-                tmdb_id = response['movie_results'][0]['id']
-                tipo_contenido = 'pelicula'
-                print(f"{C.GREEN}✅ ID de película TMDb encontrado: {tmdb_id}{C.END}")
-            elif response.get('tv_results'):
-                tmdb_id = response['tv_results'][0]['id']
-                tipo_contenido = 'serie'
-                print(f"{C.GREEN}✅ ID de serie TMDb encontrado: {tmdb_id}{C.END}")
-            else:
+        # Estrategia 2: Detectar URL o ID de IMDb
+        elif re.search(r'(tt\d+)', url_o_id):
+            imdb_id_match = re.search(r'(tt\d+)', url_o_id)
+        elif re.search(r'(tt\d+)', url_o_id, re.IGNORECASE):
+            imdb_id_match = re.search(r'(tt\d+)', url_o_id, re.IGNORECASE)
+            imdb_id = imdb_id_match.group(1)
+            
+            # Actualizamos mensaje sin detener spinner aún
+            spinner.message = f"Convirtiendo IMDb ID {imdb_id} a TMDb"
+            
+            try:
+                find = tmdb.Find(imdb_id)
+                response = find.info(external_source='imdb_id')
+                
+                if response.get('movie_results'):
+                    tmdb_id = response['movie_results'][0]['id']
+                    tipo_contenido = 'pelicula'
+                    spinner.stop()
+                    print(f"{C.GREEN}✅ ID de película TMDb encontrado: {tmdb_id}{C.END}")
+                elif response.get('tv_results'):
+                    tmdb_id = response['tv_results'][0]['id']
+                    tipo_contenido = 'serie'
+                    spinner.stop()
+                    print(f"{C.GREEN}✅ ID de serie TMDb encontrado: {tmdb_id}{C.END}")
+                else:
+                    spinner.stop()
+                    print(f"{C.RED}❌ No se encontró contenido en TMDb para ese ID de IMDb.{C.END}")
+                    time.sleep(2)
+                    return None, None
+            except Exception as e:
                 spinner.stop()
-                print(f"{C.RED}❌ No se encontró contenido en TMDb para ese ID de IMDb.{C.END}")
+                print(f"{C.RED}❌ Error al buscar en TMDb con ID de IMDb: {e}{C.END}")
                 time.sleep(2)
                 return None, None
-        except Exception as e:
+        
+        # Estrategia 3: Asumir que es un ID numérico de TMDb
+        elif url_o_id.isdigit():
+            tmdb_id = url_o_id
+            spinner.message = f"Verificando ID {tmdb_id} en TMDb..."
+            
+            # Verificar en paralelo si es película o serie para ser más rápido y preciso
+            es_pelicula = False
+            es_serie = False
+            
+            def check_movie():
+                try:
+                    tmdb.Movies(tmdb_id).info()
+                    return True
+                except:
+                    return False
+
+            def check_tv():
+                try:
+                    tmdb.TV(tmdb_id).info()
+                    return True
+                except:
+                    return False
+
+            with ThreadPoolExecutor(max_workers=2) as executor:
+                future_movie = executor.submit(check_movie)
+                future_tv = executor.submit(check_tv)
+                es_pelicula = future_movie.result()
+                es_serie = future_tv.result()
+            
             spinner.stop()
-            print(f"{C.RED}❌ Error al buscar en TMDb con ID de IMDb: {e}{C.END}")
+            
+            if es_pelicula and es_serie:
+                print(f"{C.YELLOW}⚠️  El ID {tmdb_id} existe como Película y como Serie.{C.END}")
+                print("  1. 🎬 Película")
+                print("  2. 📺 Serie")
+                tipo_opcion = input(f"{C.CYAN}🎲 Elige (1/2): {C.END}").strip()
+                if tipo_opcion == '2':
+                    tipo_contenido = 'serie'
+                else:
+                    tipo_contenido = 'pelicula'
+            elif es_pelicula:
+                tipo_contenido = 'pelicula'
+                print(f"{C.GREEN}✅ ID detectado como: PELÍCULA{C.END}")
+            elif es_serie:
+                tipo_contenido = 'serie'
+                print(f"{C.GREEN}✅ ID detectado como: SERIE{C.END}")
+            else:
+                print(f"{C.RED}❌ El ID {tmdb_id} no se encontró en TMDb.{C.END}")
+                time.sleep(2)
+                return None, None
+            
+        else:
+            spinner.stop()
+            print(f"{C.RED}❌ Formato de URL o ID no reconocido.{C.END}")
             time.sleep(2)
             return None, None
-    
-    # Estrategia 3: Asumir que es un ID numérico de TMDb
-    elif url_o_id.isdigit():
-        tmdb_id = url_o_id
-        spinner.stop()
-        print(f"{C.YELLOW}🤔 Asumiendo que '{tmdb_id}' es un ID de TMDb. ¿Qué tipo de contenido es?{C.END}")
-        print("  1. 🎬 Película")
-        print("  2. 📺 Serie")
-        tipo_opcion = input(f"{C.CYAN}🎲 Elige (1/2): {C.END}").strip()
-        if tipo_opcion == '2':
-            tipo_contenido = 'serie'
-        else:
-            tipo_contenido = 'pelicula'
-        spinner.start() # Reiniciar spinner
-            
-    else:
-        spinner.stop()
-        print(f"{C.RED}❌ Formato de URL o ID no reconocido.{C.END}")
-        time.sleep(2)
+
+    except Exception as e:
+        if spinner.running: spinner.stop()
+        print(f"{C.RED}❌ Error inesperado: {e}{C.END}")
         return None, None
 
     spinner.stop()
+    # Asegurar que el spinner esté detenido
+    if spinner.running: spinner.stop()
 
     # Si tenemos un ID y tipo, obtenemos los detalles
     if tmdb_id and tipo_contenido:
@@ -1870,12 +1874,17 @@ def _buscar_por_id_avanzado():
         print(f"{C.GREEN}✅ ID Detectado: {tmdb_id} ({tipo_contenido.upper()}){C.END}")
         
         # Spinner para la descarga de datos
-        spinner = Spinner(f"{C.MAGENTA}🚀 Descargando metadatos, créditos y videos a alta velocidad")
-        spinner.start()
+        spinner_detalles = Spinner(f"{C.MAGENTA}🚀 Descargando metadatos, créditos y videos a alta velocidad")
+        spinner_detalles.start()
         
-        detalles = obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido)
+        try:
+            detalles = obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido)
+        except Exception as e:
+            spinner_detalles.stop()
+            print(f"{C.RED}❌ Error obteniendo detalles: {e}{C.END}")
+            return None, None
         
-        spinner.stop()
+        spinner_detalles.stop()
         
         if detalles and detalles.get('success'):
             mostrar_resumen_detallado(detalles, tipo_contenido)
@@ -2215,30 +2224,46 @@ def editar_contenido(peliculas, editados, item_a_editar=None):
             print(f"  {C.GREEN}{i:2}.{C.END} {campo:<20}: {display}")
         
         print(f"\n  {C.YELLOW}0. Finalizar edición{C.END}")
-        print(f"  {C.CYAN}R. Recargar desde TMDb (si tiene ID){C.END}")
+        print(f"  {C.CYAN}A. Asignar TMDb ID manual{C.END}")
+        if item_a_editar.get('tmdb_id'):
+            print(f"  {C.CYAN}R. Recargar desde TMDb (ID: {item_a_editar.get('tmdb_id')}){C.END}")
+        else:
+            print(f"  {C.GREY}R. Recargar desde TMDb (No disponible - Sin ID){C.END}")
         
         try:
             seleccion = input(f"\n{C.CYAN}🎲 Campo a editar: {C.END}").strip().lower()
             
             if seleccion == '0':
                 break
-            elif seleccion == 'r' and item_a_editar.get('tmdb_id'):
-                # Recargar desde TMDb
-                if confirmar_accion("¿Recargar datos desde TMDb? (Esto sobrescribirá los datos actuales)"):
-                    tipo = item_a_editar.get('tipo', 'pelicula')
-                    nuevos_datos = obtener_detalles_tmdb_super_mejorado(item_a_editar['tmdb_id'], tipo)
-                    if nuevos_datos:
-                        # Mantener algunos campos locales
-                        campos_locales = ['categoria', 'plataforma', 'fuentes', 'temporadas', 'esta_roto', 'favorito']
-                        for campo_local in campos_locales:
-                            if campo_local in item_a_editar:
-                                nuevos_datos[campo_local] = item_a_editar[campo_local]
-                        
-                        # Actualizar el item
-                        item_a_editar.clear()
-                        item_a_editar.update(nuevos_datos)
-                        print(f"{C.GREEN}✅ Datos recargados desde TMDb{C.END}")
-                        time.sleep(2)
+            elif seleccion == 'a':
+                nuevo_id = input(f"{C.CYAN}🆔 Introduce el nuevo TMDb ID: {C.END}").strip()
+                if nuevo_id:
+                    item_a_editar['tmdb_id'] = nuevo_id
+                    print(f"{C.GREEN}✅ TMDb ID actualizado a: {nuevo_id}{C.END}")
+                    time.sleep(1)
+                continue
+            elif seleccion == 'r':
+                if item_a_editar.get('tmdb_id'):
+                    # Recargar desde TMDb
+                    if confirmar_accion("¿Recargar datos desde TMDb? (Esto sobrescribirá los datos actuales)"):
+                        tipo = item_a_editar.get('tipo', 'pelicula')
+                        print(f"{C.CYAN}🔄 Conectando con TMDb...{C.END}")
+                        nuevos_datos = obtener_detalles_tmdb_super_mejorado(item_a_editar['tmdb_id'], tipo)
+                        if nuevos_datos:
+                            # Mantener algunos campos locales importantes (ID interno, fecha, etc.)
+                            campos_locales = ['categoria', 'plataforma', 'fuentes', 'temporadas', 'esta_roto', 'favorito', 'id', 'addedDate', '_source_file']
+                            for campo_local in campos_locales:
+                                if campo_local in item_a_editar:
+                                    nuevos_datos[campo_local] = item_a_editar[campo_local]
+                            
+                            # Actualizar el item
+                            item_a_editar.clear()
+                            item_a_editar.update(nuevos_datos)
+                            print(f"{C.GREEN}✅ Datos recargados desde TMDb{C.END}")
+                            time.sleep(2)
+                else:
+                    print(f"{C.RED}❌ No se puede recargar: El contenido no tiene un TMDb ID.{C.END}")
+                    time.sleep(2)
                 continue
             
             seleccion_num = int(seleccion)

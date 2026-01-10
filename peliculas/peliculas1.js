@@ -26815,31 +26815,130 @@ const peliculas1 = [
     "id": "una-noche-en-zoopolis-2024"
   },
   {
-    "tipo": "pelicula",
     "titulo": "Una película de Minecraft",
-    "poster": "https://ww5.pelisplushd.to/poster/una-pelicula-de-minecraft-thumb.jpg",
-    "descripcion": "Henry, Natalie, Dawn y Garrett, cuatro inadaptados, son arrastrados a un misterioso portal hacia el extraño y cúbico mundo principal. Para volver a casa, tendrán que dominar este mundo con la ayuda de un artesano inesperado y experto llamado, Steve, mientras se embarcan en una búsqueda mágica.",
+    "titulo_original": "A Minecraft Movie",
+    "descripcion": "Cuatro inadaptados se encuentran luchando con problemas ordinarios cuando de repente se ven arrastrados a través de un misterioso portal al Mundo Exterior: un extraño país de las maravillas cúbico que se nutre de la imaginación. Para volver a casa, tendrán que dominar este mundo mientras se embarcan en una búsqueda mágica con un inesperado experto artesano, Steve.",
+    "año": 2025,
+    "genero": "Familia, Fantasía, Comedia, Aventura, Acción",
+    "generos_lista": [
+      "Familia",
+      "Fantasía",
+      "Comedia",
+      "Aventura",
+      "Acción"
+    ],
+    "director": "Jared Hess",
+    "reparto": [
+      "Jason Momoa",
+      "Jack Black",
+      "Sebastian Eugene Hansen",
+      "Emma Myers",
+      "Danielle Brooks",
+      "Jennifer Coolidge",
+      "Rachel House",
+      "Allan Henry",
+      "Bram Scott-Breheny",
+      "Moana Williams",
+      "Jemaine Clement",
+      "Mark Wright"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/mFjtmmh4RtK9tLv1aPnUsl6st3m.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg",
+    "calificacion": 6.3,
+    "votos": 2676,
+    "duracion": "100 min",
+    "idioma": "EN",
+    "idioma_original": "en",
+    "presupuesto": "$150,000,000",
+    "ingresos": "$958,149,195",
+    "tagline": "Estar allí y ser cuadrado.",
+    "trailer": "https://www.youtube.com/watch?v=INBkKE45nkA",
+    "trailer_key": "INBkKE45nkA",
+    "videos_lista": [
+      {
+        "nombre": "Spot \"MINECRAFT IS\"",
+        "tipo": "Teaser",
+        "url": "https://www.youtube.com/watch?v=INBkKE45nkA"
+      },
+      {
+        "nombre": "Spot \"MADNESS\"",
+        "tipo": "Teaser",
+        "url": "https://www.youtube.com/watch?v=t3ivQqyYN_0"
+      },
+      {
+        "nombre": "Spot \"ARRIVES\"",
+        "tipo": "Teaser",
+        "url": "https://www.youtube.com/watch?v=crnXASHIKVI"
+      },
+      {
+        "nombre": "Bumper \"Nº1\"",
+        "tipo": "Teaser",
+        "url": "https://www.youtube.com/watch?v=bQeLFbGUl64"
+      },
+      {
+        "nombre": "Spot \"Madness\"",
+        "tipo": "Teaser",
+        "url": "https://www.youtube.com/watch?v=W85UMy0QjEU"
+      },
+      {
+        "nombre": "Spot \"MINECRAFT IS\"",
+        "tipo": "Teaser",
+        "url": "https://www.youtube.com/watch?v=nsOMArbQLss"
+      },
+      {
+        "nombre": "Spot \"Hope\"",
+        "tipo": "Teaser",
+        "url": "https://www.youtube.com/watch?v=sNUMQIEs6vQ"
+      },
+      {
+        "nombre": "Spot \"Survive\"",
+        "tipo": "Teaser",
+        "url": "https://www.youtube.com/watch?v=NJO8MXBHdbM"
+      },
+      {
+        "nombre": "Spot \"FAVORITE\"",
+        "tipo": "Teaser",
+        "url": "https://www.youtube.com/watch?v=07QHHu_EwqI"
+      },
+      {
+        "nombre": "Spot \"UNIVERSE\"",
+        "tipo": "Teaser",
+        "url": "https://www.youtube.com/watch?v=WKxmXgwRPCw"
+      },
+      {
+        "nombre": "Tráiler Oficial en español",
+        "tipo": "Trailer",
+        "url": "https://www.youtube.com/watch?v=NOAmJa-dhCA"
+      },
+      {
+        "nombre": "Un mundo que sólo tú puedes crear [VOSE]",
+        "tipo": "Behind the Scenes",
+        "url": "https://www.youtube.com/watch?v=fuW6irJdPnM"
+      },
+      {
+        "nombre": "Tráiler Oficial en español",
+        "tipo": "Trailer",
+        "url": "https://www.youtube.com/watch?v=yxrjSE8XddA"
+      },
+      {
+        "nombre": "Teaser Tráiler Oficial en español",
+        "tipo": "Trailer",
+        "url": "https://www.youtube.com/watch?v=8znIQ02A20k"
+      }
+    ],
+    "tmdb_id": "950387",
+    "popularidad": 28.91,
+    "estado": "Released",
+    "productoras": [
+      "Warner Bros. Pictures",
+      "Legendary Pictures",
+      "Mojang Studios"
+    ],
+    "coleccion": "The Minecraft Movie Collection",
+    "success": true,
     "categoria": [
       "lanzamientos-recientes"
     ],
-    "duracion": "N/A",
-    "director": "N/A",
-    "reparto": [
-      ""
-    ],
-    "favorito": false,
-    "genero": [
-      "familia"
-    ],
-    "calidad": "HD",
-    "addedDate": "2025-11-16T02:39:28.977608",
-    "tamaño": "N/A",
-    "año": 2025,
-    "calificacion": 0.0,
-    "votos": 0,
-    "es_nuevo": false,
-    "es_reciente": true,
-    "esta_roto": false,
     "plataforma": "pelicula",
     "fuentes": [
       {
@@ -26847,16 +26946,10 @@ const peliculas1 = [
         "url": "https://streamwish.to/e/140zfukhaplj"
       }
     ],
-    "id": "una-pelicula-de-minecraft-2025",
-    "descargas": [
-      {
-        "calidad": "HD",
-        "idioma": "latino",
-        "formato": "MP4",
-        "servidor": "Directo",
-        "url": "https://streamwish.to/e/140zfukhaplj"
-      }
-    ]
+    "esta_roto": false,
+    "favorito": false,
+    "id": "950387",
+    "addedDate": "2025-11-16T02:39:28.977608"
   },
   {
     "tipo": "pelicula",

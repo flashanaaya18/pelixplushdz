@@ -17131,30 +17131,9 @@ const peliculas2 = [
     "duracion": "108 min",
     "fuentes": [
       {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/FE_fc3xcLPY",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/rWq7HL67CsY",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/7YC6gkcNIlg",
-        "calidad": "HD",
-        "tipo": "embed",
-        "activa": true
-      },
-      {
-        "idioma": "Trailer",
-        "url": "https://www.youtube.com/embed/IrHH8SfLe18",
-        "calidad": "HD",
+        "url": "https://streamwish.to/e/2km2zwze9b8k",
+        "idioma": "Latino",
+        "calidad": "1080p",
         "tipo": "embed",
         "activa": true
       }
