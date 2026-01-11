@@ -7102,6 +7102,13 @@ const peliculas2 = [
             "url": "https://streamwish.to/e/gxtn03vqxjxg",
             "calidad": "1080p",
             "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/zsbwoq9uo3zx",
+            "calidad": "1080p",
+            "visto": false
           }
         ]
       }

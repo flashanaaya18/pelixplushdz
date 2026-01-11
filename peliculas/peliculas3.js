@@ -1006,6 +1006,69 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Blue Beetle",
+    "titulo_original": "Blue Beetle",
+    "poster": "https://image.tmdb.org/t/p/w500/tf5Mqgoj1fFIeP7Ktfn8KGrYhup.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3H9NA1KWEQN0ItL3Wl3SFZYP6yV.jpg",
+    "descripcion": "Un adolescente mexicano encuentra un escarabajo alienígena que le proporciona una armadura superpoderosa.",
+    "año": 2023,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "ciencia ficción",
+      "aventura"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Ciencia ficción",
+      "Aventura"
+    ],
+    "director": "Ángel Manuel Soto",
+    "reparto": [
+      "Xolo Maridueña",
+      "Bruna Marquezine",
+      "Susan Sarandon",
+      "Raoul Max Trujillo",
+      "Belissa Escobedo",
+      "Damián Alcázar",
+      "Elpidia Carrillo",
+      "George López",
+      "Adriana Barraza",
+      "Becky G",
+      "Harvey Guillén",
+      "Jorge Jimenez"
+    ],
+    "calificacion": 6.7,
+    "votos": 2998,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-11T01:21:19.219209",
+    "tmdb_id": "565770",
+    "popularidad": 7.67,
+    "tagline": "Jaime Reyes es un superhéroe, le guste o no.",
+    "trailer": "https://www.youtube.com/watch?v=B8QJ7zZ-aBk",
+    "trailer_key": "B8QJ7zZ-aBk",
+    "success": true,
+    "duracion": "128 min",
+    "presupuesto": "$104,000,000",
+    "ingresos": "$130,788,072",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/59fzrem6sd9d",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "blue-beetle-2023"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Boda letal",
     "titulo_original": "Bride Hard",
     "poster": "https://image.tmdb.org/t/p/w500/lfaU8qybKHg3b6IbHJ11FtIyDn2.jpg",
@@ -2099,6 +2162,13 @@ const peliculas3 = [
             "titulo": "Episodio 3",
             "url": "https://streamwish.to/e/9y0wyy7flbop",
             "calidad": "HD",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/q36g7yhjzsq1",
+            "calidad": "1080p",
             "visto": false
           }
         ]
@@ -3541,6 +3611,69 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Harta",
+    "titulo_original": "STRAW",
+    "poster": "https://image.tmdb.org/t/p/w500/4d2PJ6QLAVd9w66E918JSWjkgs7.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fnbWrDx8w8Reau4F1tFqoGuGmDZ.jpg",
+    "descripcion": "¿Cuál será la gota que colme el vaso? Un día devastador lleva al límite a una madre soltera y trabajadora, y la empuja a cometer un impactante acto de desesperación.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "suspense",
+      "drama",
+      "crimen"
+    ],
+    "generos_lista": [
+      "Suspense",
+      "Drama",
+      "Crimen"
+    ],
+    "director": "Tyler Perry",
+    "reparto": [
+      "Taraji P. Henson",
+      "Sherri Shepherd",
+      "Teyana Taylor",
+      "Sinbad",
+      "Rockmond Dunbar",
+      "Ashley Versher",
+      "Mike Merrill",
+      "Glynn Turman",
+      "Shalèt Monique",
+      "Diva Tyler",
+      "Fracaswell Hyman",
+      "Derek Phillips"
+    ],
+    "calificacion": 7.8,
+    "votos": 889,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-11T01:25:13.061580",
+    "tmdb_id": "1426776",
+    "popularidad": 12.99,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "105 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://movearnpre.com/embed/x2k23v1zv8w2",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "harta-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Heartbeast",
     "titulo_original": "Heartbeast",
     "poster": "https://image.tmdb.org/t/p/w500/bMxbzIoSDJ1KC2kSEsAcltIAyIb.jpg",
@@ -3944,6 +4077,99 @@ const peliculas3 = [
       }
     ],
     "id": "hotel-dunsmuir-2022"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "I Love LA",
+    "titulo_original": "I Love LA",
+    "poster": "https://image.tmdb.org/t/p/w500/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/52h1FHwHLVG7oafzHTAJkmUKNMu.jpg",
+    "descripcion": "Un grupo de amigos se reúne después de años separados. Atraviesan las complejidades de la ambición y las relaciones, además de ver cómo el tiempo les ha cambiado.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Rachel Sennott",
+    "reparto": [
+      "Rachel Sennott",
+      "Odessa A'zion",
+      "True Whitaker",
+      "Jordan Firstman",
+      "Josh Hutcherson"
+    ],
+    "calificacion": 6.5,
+    "votos": 28,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-11T16:21:24.230688",
+    "tmdb_id": "271053",
+    "popularidad": 13.66,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/m4ohf8sqt059",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/fh3tlplh8m5p",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/t71ruo9ky21m",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/bu19d2md6mpu",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/w4c2ryldmgsn",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/j38z155xpc4y",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 8,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2025-12-21",
+    "id": "i-love-la-2025"
   },
   {
     "tipo": "pelicula",
@@ -6992,6 +7218,48 @@ const peliculas3 = [
   },
   {
     "tipo": "serie",
+    "titulo": "Pelayo: Más allá del límite",
+    "titulo_original": "Pelayo: Más allá del límite",
+    "poster": "https://image.tmdb.org/t/p/w500/v67psAkZonctWpttKDVgopakQvC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fGMQUjPsGyvA6n2tVwO0urDb9zw.jpg",
+    "descripcion": "Tras 'G.E.O.: Más allá del límite', el Inspector Pelayo vuelve a poner a prueba los límites de su resistencia, esta vez en Colombia, donde se une a unidades de élite del ejército y se embarca en operaciones reales en selvas, ríos y montañas.\n\nDurante más de dos décadas, Pelayo ha combatido el narcotráfico como policía de operaciones especiales. Ahora, su misión da un giro radical: decide seguir el rastro de la droga y adentrarse en los territorios donde el crimen manda y la violencia impone sus reglas. Desde los barrios de Buenaventura, hasta los ríos del Pacífico y las montañas del Valle del Cauca, Pelayo acompaña a unidades de élite del ejército colombiano en su guerra diaria contra el crimen organizado.",
+    "año": 2026,
+    "categoria": [
+      "documental"
+    ],
+    "genero": [
+      "documental",
+      "crimen"
+    ],
+    "generos_lista": [
+      "Documental",
+      "Crimen"
+    ],
+    "director": "David Miralles",
+    "reparto": [
+      "Pelayo Gayol"
+    ],
+    "calificacion": 6.0,
+    "votos": 2,
+    "idioma": "ES",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-11T16:11:59.478264",
+    "tmdb_id": "308606",
+    "popularidad": 4.19,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [],
+    "episodios": 3,
+    "tipo_serie": "Documentary",
+    "ultima_emision": "2026-01-09",
+    "id": "pelayo-mas-alla-del-limite-2026"
+  },
+  {
+    "tipo": "serie",
     "titulo": "Pequeños desastres",
     "titulo_original": "",
     "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/fuPTZ6jBAAHM0TKUUMQliHICnrt.jpg",
@@ -7178,6 +7446,67 @@ const peliculas3 = [
       }
     ],
     "id": "popeye-the-slayer-man-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Primate",
+    "titulo_original": "Primate",
+    "poster": "https://image.tmdb.org/t/p/w500/qhJDrPqvw8Dopwc11pCkrGgfhy.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bT99Jo5X0Qj05Hrlmp8rBTIuhwv.jpg",
+    "descripcion": "",
+    "año": 2026,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Suspense"
+    ],
+    "director": "Johannes Roberts",
+    "reparto": [
+      "Johnny Sequoyah",
+      "Jessica Alexander",
+      "Troy Kotsur",
+      "Victoria Wyant",
+      "Gia Hunter",
+      "Benjamin Cheng",
+      "Charlie Mann",
+      "Tienne Simon",
+      "Miguel Hernando Torres Umba",
+      "Amina Abdi",
+      "Rob Chalk",
+      "Joe Abercrombie"
+    ],
+    "calificacion": 6.4,
+    "votos": 20,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-11T16:35:40.620607",
+    "tmdb_id": "1315303",
+    "popularidad": 46.83,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=F0fn4knTR2s",
+    "trailer_key": "F0fn4knTR2s",
+    "success": true,
+    "duracion": "89 min",
+    "presupuesto": "$21,000,000",
+    "ingresos": "$13,400,000",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filemoon.to/e/o160yjusmg3w",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "primate-2026"
   },
   {
     "tipo": "serie",
@@ -8606,6 +8935,61 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Un Hombre por Semana",
+    "titulo_original": "Un Hombre por Semana",
+    "poster": "https://image.tmdb.org/t/p/w500/ynrvcl6e3Ev0SGkpPeXdhfdv1Pt.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5T1W9Jx9ollJkrKrBoPxy3zPHzp.jpg",
+    "descripcion": "",
+    "año": 2026,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Marco Polo Constandse",
+    "reparto": [
+      "Ana de la Reguera",
+      "Roberto Quijano",
+      "Carlos 'Capi' Pérez",
+      "Fernando Álvarez Rebeil",
+      "Patricia Garza",
+      "Epy Vélez",
+      "Diego Guzmán",
+      "Kevin Bertram"
+    ],
+    "calificacion": 7.0,
+    "votos": 1,
+    "idioma": "ES",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-11T01:45:35.810957",
+    "tmdb_id": "1611398",
+    "popularidad": 1.63,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "N/A",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://goodstream.one/embed-8pm5qpx713pc.html",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "un-hombre-por-semana-2026"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Un robo muy navideño",
     "titulo_original": "Jingle Bell Heist",
     "poster": "https://image.tmdb.org/t/p/w500/90vYAz1JCdbF2Ggx2VQUQEfitbN.jpg",
@@ -9221,5 +9605,103 @@ const peliculas3 = [
       }
     ],
     "id": "este-cuerpo-no-es-el-mio-2002"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Él y ella",
+    "titulo_original": "HIS & HERS",
+    "poster": "https://image.tmdb.org/t/p/w500/ftShkii3dOgj52aaT8el2owqlFC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/n4hJLZmBG8kZccNn7bNgBDsVQ6a.jpg",
+    "descripcion": "Un matrimonio formado por un inspector de policía y una periodista compite para resolver un caso de asesinato en el que ambos ven al otro como el principal sospechoso.",
+    "año": 2026,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "misterio",
+      "crimen",
+      "drama"
+    ],
+    "generos_lista": [
+      "Misterio",
+      "Crimen",
+      "Drama"
+    ],
+    "director": "William Oldroyd",
+    "reparto": [
+      "Tessa Thompson",
+      "Jon Bernthal",
+      "Pablo Schreiber",
+      "Crystal R. Fox",
+      "Sunita Mani",
+      "Poppy Liu"
+    ],
+    "calificacion": 5.8,
+    "votos": 54,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-11T16:17:05.389332",
+    "tmdb_id": "259731",
+    "popularidad": 103.56,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://dintezuvio.com/embed/190nsaq9xwzo",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://dintezuvio.com/embed/ov6gy3jv6x0m",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://dintezuvio.com/embed/md45sog3vu6g",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://dintezuvio.com/embed/pf1llzf60czk",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://dintezuvio.com/embed/rym53mhvmt8e",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://dintezuvio.com/embed/e4nrcp4trz4m",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 6,
+    "tipo_serie": "Miniseries",
+    "ultima_emision": "2026-01-08",
+    "id": "el-y-ella-2026"
   }
 ];

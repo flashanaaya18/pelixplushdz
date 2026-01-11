@@ -611,6 +611,44 @@
             }
         }
 
+        /* Estilos Botón Servidor 2 */
+        .server-btn {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: linear-gradient(45deg, #00c6ff, #0072ff);
+            color: #fff;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-weight: 800;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            box-shadow: 0 0 10px rgba(0, 114, 255, 0.4);
+            margin-right: 10px;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .server-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 15px rgba(0, 114, 255, 0.6);
+        }
+
+        @media (max-width: 600px) {
+            .server-btn span {
+                display: none;
+            }
+            .server-btn::after {
+                content: "S2";
+                display: inline;
+            }
+            .server-btn {
+                padding: 6px 10px;
+                margin-right: 5px;
+            }
+        }
+
         /* Estilos Mejorados para Planes VIP */
         .plan-title {
             color: white;
@@ -2109,6 +2147,12 @@
                 <span>MIEMBRO VIP</span>
             </div>
 
+            <!-- Botón Servidor 2 -->
+            <a href="https://flashanaaya18.github.io/pelixplushdz/" class="server-btn" target="_blank">
+                <i class="fas fa-server"></i>
+                <span>Servidor 2</span>
+            </a>
+
             <!-- Barra de búsqueda -->
             <div class="search-bar">
                 <form id="search-form">
@@ -2258,22 +2302,6 @@
         </div>
 
         <!-- Filter & View Controls -->
-        <div class="controls-bar container">
-            <div class="filters-group">
-                <select id="genre-filter" class="filter-select">
-                    <option value="all">Todos los géneros</option>
-                    <option value="accion">Acción</option>
-                    <option value="comedia">Comedia</option>
-                    <option value="drama">Drama</option>
-                    <option value="terror">Terror</option>
-                    <option value="ciencia-ficcion">Ciencia Ficción</option>
-                </select>
-            </div>
-            <div class="view-toggles">
-                <button class="view-btn active" data-view="grid" title="Vista Cuadrícula"><i class="fas fa-th"></i></button>
-                <button class="view-btn" data-view="list" title="Vista Lista"><i class="fas fa-list"></i></button>
-            </div>
-        </div>
 
         <!-- Search & Filter Container -->
         <div id="live-search-container" class="search-overlay" style="display:none;">
@@ -2327,6 +2355,9 @@
 
             <!-- Dynamic Categories -->
             <section id="tendencias" class="content-row"></section>
+
+            <!-- NUEVO: Sección de Episodios Recientes -->
+            <section id="episodios-recientes" class="content-row"></section>
 
             <section id="lanzamientos-recientes" class="content-row"></section>
 

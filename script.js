@@ -1507,6 +1507,108 @@ document.addEventListener('DOMContentLoaded', async () => {
         recentlyAddedSection.style.display = 'block';
     };
 
+    // --- NUEVO: Detectar y Renderizar Episodios Recientes ---
+    function detectNewEpisodes() {
+        const series = window.peliculas.filter(p => p.tipo === 'serie');
+        const episodes = [];
+
+        series.forEach(s => {
+            if (!s.temporadas || s.temporadas.length === 0) return;
+
+            // Ordenar temporadas para encontrar la última
+            const sortedSeasons = [...s.temporadas].sort((a, b) => b.temporada - a.temporada);
+            const lastSeason = sortedSeasons[0];
+
+            if (!lastSeason.episodios || lastSeason.episodios.length === 0) return;
+
+            // Ordenar episodios de la última temporada para encontrar el último
+            const sortedEpisodes = [...lastSeason.episodios].sort((a, b) => b.episodio - a.episodio);
+            const latestEp = sortedEpisodes[0];
+            
+            // Usamos la fecha de la serie como proxy para la fecha del episodio si no tiene una propia
+            episodes.push({
+                seriesId: s.id,
+                seriesTitle: s.titulo,
+                seriesPoster: s.poster,
+                season: lastSeason.temporada,
+                episode: latestEp.episodio,
+                episodeTitle: latestEp.titulo,
+                addedDate: s.addedDate || '2000-01-01'
+            });
+        });
+
+        // Ordenar por fecha descendente y tomar los 20 más recientes
+        return episodes.sort((a, b) => new Date(b.addedDate) - new Date(a.addedDate)).slice(0, 20);
+    }
+
+    function renderRecentEpisodesSection() {
+        const container = document.getElementById('episodios-recientes');
+        if (!container) return;
+
+        // Verificar configuración
+        if (localStorage.getItem('settings_show_recent_episodes') === 'false') {
+            container.style.display = 'none';
+            return;
+        }
+
+        const recentEpisodes = detectNewEpisodes();
+
+        if (recentEpisodes.length === 0) {
+            container.style.display = 'none';
+            return;
+        }
+
+        container.innerHTML = '';
+        
+        const titleContainer = document.createElement('div');
+        titleContainer.className = 'section-title-container';
+        titleContainer.innerHTML = `<h2 class="section-title">📺 Episodios Recientes</h2>`;
+        container.appendChild(titleContainer);
+
+        const gridContainer = document.createElement('div');
+        gridContainer.className = 'carrusel-contenedor';
+        
+        gridContainer.innerHTML = `
+            <button class="carrusel-flecha izquierda" aria-label="Anterior">&#10094;</button>
+            <div class="movie-grid" id="episodios-recientes-grid"></div>
+            <button class="carrusel-flecha derecha" aria-label="Siguiente">&#10095;</button>
+        `;
+        container.appendChild(gridContainer);
+
+        const grid = gridContainer.querySelector('.movie-grid');
+        const flechaIzquierda = gridContainer.querySelector('.izquierda');
+        const flechaDerecha = gridContainer.querySelector('.derecha');
+
+        flechaIzquierda.addEventListener('click', () => grid.scrollBy({ left: -grid.clientWidth * 0.8, behavior: 'smooth' }));
+        flechaDerecha.addEventListener('click', () => grid.scrollBy({ left: grid.clientWidth * 0.8, behavior: 'smooth' }));
+
+        recentEpisodes.forEach(ep => {
+            const tarjeta = document.createElement('a');
+            tarjeta.className = 'movie-card';
+            tarjeta.href = `detalles.html?id=${encodeURIComponent(ep.seriesId)}`;
+            
+            tarjeta.innerHTML = `
+                <div class="card-tag tag-nuevo" style="background: var(--primary);">NUEVO EP</div>
+                <img src="${ep.seriesPoster || 'https://via.placeholder.com/180x270/333333/ffffff?text=No+Image'}" 
+                     alt="${ep.seriesTitle} T${ep.season}E${ep.episode}" 
+                     loading="lazy"
+                     class="movie-poster">
+                <div class="movie-card-info">
+                    <h3>${ep.seriesTitle}</h3>
+                    <p style="font-size: 0.85rem; color: #ccc; margin-top: 4px;">Temp ${ep.season} - Cap ${ep.episode}</p>
+                </div>
+            `;
+
+            tarjeta.addEventListener('click', (e) => {
+                e.preventDefault();
+                window.showPageLoader(tarjeta.href);
+            });
+
+            grid.appendChild(tarjeta);
+        });
+        
+        container.style.display = 'block';
+    }
 
     // --- NUEVO: Lógica para la sección "Historial de Vistas" ---
     const renderViewHistory = () => {
@@ -2487,6 +2589,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             renderSecciones();
             renderTrendingSection();
             renderDestacadosSection(); // <-- Iniciar Destacados
+            renderRecentEpisodesSection(); // <-- Iniciar Episodios Recientes
             renderRecentlyAddedSection();
             loadContinueWatching();
             // CORRECCIÓN: Llamar a renderFavorites aquí para asegurar que se muestre
