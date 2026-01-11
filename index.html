@@ -15,11 +15,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="fondo.png">
     <link rel="icon" type="image/png" sizes="16x16" href="fondo.png">
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@300;400;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="estilos.css">
     <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="estilos.css">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <style>
         /* Estilos para el Page Loader para asegurar su funcionamiento */
@@ -82,12 +82,12 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.85);
+            background-color: rgba(10, 10, 15, 0.95);
             z-index: 10000;
             display: none;
             justify-content: center;
             align-items: center;
-            backdrop-filter: blur(5px);
+            backdrop-filter: blur(20px);
             padding: 20px;
             box-sizing: border-box;
         }
@@ -97,14 +97,15 @@
         }
 
         .country-modal-content {
-            background-color: #141414;
-            padding: 30px;
-            border-radius: 16px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+            backdrop-filter: blur(20px) saturate(180%);
+            padding: 40px;
+            border-radius: 24px;
             width: 100%;
             max-width: 700px;
             text-align: center;
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-            border: 1px solid #333;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             max-height: 90vh;
             overflow-y: auto;
             position: relative;
@@ -113,7 +114,10 @@
         .country-modal-content .logo {
             font-size: 2rem;
             font-weight: 900;
-            color: #fff;
+            background: linear-gradient(135deg, hsl(330, 85%, 55%) 0%, hsl(280, 85%, 60%) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             margin-bottom: 10px;
             display: flex;
             align-items: center;
@@ -123,16 +127,18 @@
 
         .country-modal-content .logo img {
             height: 40px;
+            filter: drop-shadow(0 0 12px rgba(255, 50, 150, 0.6));
         }
 
         .country-modal-content h2 {
             color: #fff;
             margin: 10px 0;
             font-size: 1.8rem;
+            font-weight: 800;
         }
 
         .country-modal-content p {
-            color: #b3b3b3;
+            color: hsl(0, 0%, 70%);
             margin-bottom: 30px;
             font-size: 1rem;
         }
@@ -144,35 +150,37 @@
         }
 
         .country-item {
-            background-color: #2f2f2f;
-            padding: 15px;
-            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            padding: 18px;
+            border-radius: 16px;
             cursor: pointer;
-            transition: all 0.2s ease;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 10px;
-            border: 2px solid transparent;
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .country-item:hover {
-            background-color: #404040;
+            background: rgba(255, 255, 255, 0.1);
             transform: translateY(-5px);
-            border-color: #e50914;
+            border-color: hsl(330, 85%, 55%);
+            box-shadow: 0 8px 32px rgba(255, 50, 150, 0.3), 0 0 20px rgba(255, 50, 150, 0.2);
         }
 
         .country-item img {
             width: 48px;
             height: auto;
-            border-radius: 4px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            border-radius: 6px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
         }
 
         .country-item span {
             color: #fff;
             font-size: 0.95rem;
-            font-weight: 600;
+            font-weight: 700;
         }
 
         @media (max-width: 600px) {
@@ -181,7 +189,7 @@
             }
 
             .country-modal-content {
-                padding: 20px;
+                padding: 25px;
             }
 
             .country-modal-content h2 {
@@ -193,9 +201,9 @@
         .access-modal-overlay {
             position: fixed;
             inset: 0;
-            background-color: rgba(5, 5, 5, 0.95);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
+            background-color: rgba(10, 10, 15, 0.95);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
             z-index: 20000;
             display: none;
             /* CAMBIADO: De 'flex' a 'none' */
@@ -212,11 +220,12 @@
         }
 
         .access-modal-content {
-            background: rgba(20, 20, 20, 0.6);
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+            backdrop-filter: blur(20px) saturate(180%);
             border: 1px solid rgba(255, 255, 255, 0.1);
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.05);
             padding: 3rem;
-            border-radius: 24px;
+            border-radius: 28px;
             text-align: center;
             max-width: 550px;
             width: 100%;
@@ -236,7 +245,7 @@
             left: -50%;
             width: 200%;
             height: 200%;
-            background: radial-gradient(circle, rgba(229, 9, 20, 0.08) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(255, 50, 150, 0.08) 0%, transparent 70%);
             pointer-events: none;
             z-index: 0;
         }
@@ -277,8 +286,8 @@
 
         .modal-title {
             font-size: 1.8rem;
-            font-weight: 800;
-            background: linear-gradient(to right, #fff, #ccc);
+            font-weight: 900;
+            background: linear-gradient(135deg, hsl(330, 85%, 55%) 0%, hsl(280, 85%, 60%) 100%);
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
@@ -303,7 +312,7 @@
             position: relative;
             padding: 1.5rem;
             border: none;
-            border-radius: 16px;
+            border-radius: 20px;
             cursor: pointer;
             display: flex;
             align-items: center;
@@ -312,15 +321,16 @@
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             overflow: hidden;
             text-align: left;
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.05);
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .access-btn:hover {
-            transform: translateY(-2px);
-            background: rgba(255, 255, 255, 0.07);
-            border-color: rgba(255, 255, 255, 0.2);
-            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+            transform: translateY(-3px);
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 50, 150, 0.5);
+            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 50, 150, 0.2);
         }
 
         .access-btn-content {
@@ -370,17 +380,17 @@
         }
 
         .access-btn.vip {
-            background: linear-gradient(145deg, rgba(229, 9, 20, 0.1), rgba(0, 0, 0, 0));
-            border-color: rgba(229, 9, 20, 0.3);
+            background: linear-gradient(145deg, rgba(255, 50, 150, 0.1), rgba(100, 50, 255, 0.05));
+            border-color: rgba(255, 50, 150, 0.3);
         }
 
         .access-btn.vip:hover {
-            border-color: #e50914;
-            box-shadow: 0 10px 40px -10px rgba(229, 9, 20, 0.3);
+            border-color: hsl(330, 85%, 55%);
+            box-shadow: 0 10px 40px -10px rgba(255, 50, 150, 0.4), 0 0 30px rgba(255, 50, 150, 0.2);
         }
 
         .access-btn.vip .access-icon {
-            background: linear-gradient(135deg, #e50914, #b20710);
+            background: linear-gradient(135deg, hsl(330, 85%, 55%), hsl(280, 85%, 60%));
             color: white;
         }
 
@@ -432,25 +442,25 @@
         }
 
         .validate-btn {
-            background: linear-gradient(135deg, #e50914, #ff4d4d);
+            background: linear-gradient(135deg, hsl(330, 85%, 55%), hsl(280, 85%, 60%));
             color: white;
             border: none;
             padding: 16px;
-            border-radius: 12px;
+            border-radius: 16px;
             cursor: pointer;
             width: 100%;
             font-size: 1.1rem;
-            font-weight: 700;
+            font-weight: 800;
             letter-spacing: 0.5px;
-            transition: all 0.3s ease;
-            box-shadow: 0 10px 20px rgba(229, 9, 20, 0.3);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 10px 20px rgba(255, 50, 150, 0.3), 0 0 20px rgba(255, 50, 150, 0.2);
             position: relative;
             overflow: hidden;
         }
 
         .validate-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 15px 30px rgba(229, 9, 20, 0.4);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(255, 50, 150, 0.4), 0 0 30px rgba(255, 50, 150, 0.3);
         }
 
         /* Efecto Ripple */
@@ -2108,6 +2118,11 @@
                 <div id="live-search-results" class="search-results-dropdown"></div>
             </div>
 
+            <!-- Theme Toggle -->
+            <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Cambiar tema">
+                <i class="fas fa-moon"></i>
+            </button>
+
             <button id="hamburger-btn" class="mobile-toggle">
                 <i class="fas fa-bars"></i>
             </button>
@@ -2153,7 +2168,7 @@
     <!-- Main Content -->
     <main class="main-content">
         <!-- Hero Slider -->
-        <div id="hero-section" class="hero-container manual-hero">
+        <div id="hero-section" class="hero-container manual-hero parallax-hero">
             <div class="hero-indicators"></div>
 
             <!-- SLIDE 1: Configura aquí tu primera película -->
@@ -2241,6 +2256,25 @@
                 </div>
             </div>
         </div>
+
+        <!-- Filter & View Controls -->
+        <div class="controls-bar container">
+            <div class="filters-group">
+                <select id="genre-filter" class="filter-select">
+                    <option value="all">Todos los géneros</option>
+                    <option value="accion">Acción</option>
+                    <option value="comedia">Comedia</option>
+                    <option value="drama">Drama</option>
+                    <option value="terror">Terror</option>
+                    <option value="ciencia-ficcion">Ciencia Ficción</option>
+                </select>
+            </div>
+            <div class="view-toggles">
+                <button class="view-btn active" data-view="grid" title="Vista Cuadrícula"><i class="fas fa-th"></i></button>
+                <button class="view-btn" data-view="list" title="Vista Lista"><i class="fas fa-list"></i></button>
+            </div>
+        </div>
+
         <!-- Search & Filter Container -->
         <div id="live-search-container" class="search-overlay" style="display:none;">
             <div class="container">

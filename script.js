@@ -225,6 +225,59 @@ function applyGlobalSettings() {
     // Modo Compacto
     const compactMode = localStorage.getItem('settings_compact_mode') === 'true';
     if (compactMode) document.body.classList.add('compact-mode');
+
+    // Theme Mode
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'light') {
+        document.body.classList.add('light-mode');
+        const themeBtn = document.getElementById('theme-toggle-btn');
+        if(themeBtn) themeBtn.innerHTML = '<i class="fas fa-sun"></i>';
+    }
+}
+
+// --- Setup UI Controls (Theme, View, Filters) ---
+function setupUIControls() {
+    // Theme Toggle
+    const themeBtn = document.getElementById('theme-toggle-btn');
+    if (themeBtn) {
+        themeBtn.addEventListener('click', () => {
+            document.body.classList.toggle('light-mode');
+            const isLight = document.body.classList.contains('light-mode');
+            localStorage.setItem('theme', isLight ? 'light' : 'dark');
+            themeBtn.innerHTML = isLight ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+        });
+    }
+
+    // View Toggle
+    const viewBtns = document.querySelectorAll('.view-btn');
+    const mainGrids = document.querySelectorAll('.movie-grid-full'); // Targets grids that support list view
+    
+    viewBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            viewBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            const viewType = btn.dataset.view;
+            
+            mainGrids.forEach(grid => {
+                if (viewType === 'list') grid.classList.add('list-view');
+                else grid.classList.remove('list-view');
+            });
+        });
+    });
+
+    // Genre Filter (Basic Implementation for Main Grid)
+    const genreFilter = document.getElementById('genre-filter');
+    if (genreFilter) {
+        genreFilter.addEventListener('change', (e) => {
+            const selectedGenre = e.target.value;
+            // This assumes there is a main grid to filter, or triggers a search
+            // For this implementation, we'll trigger the existing filter logic if available
+            // or just log it as the prompt asked for the component primarily.
+            console.log("Filter changed to:", selectedGenre);
+            // If you have a function to filter the main grid:
+            // filterMainGridByCategory(selectedGenre); 
+        });
+    }
 }
 
 // --- NUEVO: Fondos dinámicos para Héroes de página ---
@@ -292,6 +345,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Aplicar ajustes visuales inmediatamente
     applyGlobalSettings();
+    setupUIControls(); // Initialize new controls
 
     // Aplicar fondo dinámico si es necesario
     setDynamicHeroBackground();

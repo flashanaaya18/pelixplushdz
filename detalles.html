@@ -93,6 +93,10 @@
                 <input type="text" id="search-input" placeholder="Buscar...">
                 <button type="submit"><i class="fas fa-search"></i></button>
             </form>
+            <!-- Theme Toggle -->
+            <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Cambiar tema">
+                <i class="fas fa-moon"></i>
+            </button>
             <button id="hamburger-btn" class="mobile-toggle"><i class="fas fa-bars"></i></button>
         </div>
     </header>
@@ -178,6 +182,7 @@
                 <button class="tab-btn active" data-tab="player-tab">Ver Online</button>
                 <button class="tab-btn" data-tab="download-tab" style="display:none">Descargas</button>
                 <button class="tab-btn" data-tab="recommendations-tab">Relacionados</button>
+                <button class="tab-btn" data-tab="reviews-tab">Reseñas</button>
             </div>
 
             <!-- Player Tab -->
@@ -243,8 +248,36 @@
             <!-- Recommendations Tab -->
             <div id="recommendations-tab" class="tab-content">
                 <h3 style="margin-bottom: 1rem;">También te podría gustar</h3>
-                <div class="movie-grid-full" id="recommendations-grid">
-                    <!-- Recommendations by JS -->
+                <div class="carrusel-contenedor" id="recommendations-carousel">
+                    <button class="carrusel-flecha izquierda" aria-label="Anterior">&#10094;</button>
+                    <div class="movie-grid" id="recommendations-grid">
+                        <!-- Recommendations by JS -->
+                    </div>
+                    <button class="carrusel-flecha derecha" aria-label="Siguiente">&#10095;</button>
+                </div>
+            </div>
+
+            <!-- Reviews Tab -->
+            <div id="reviews-tab" class="tab-content">
+                <div class="reviews-container" style="max-width: 800px;">
+                    <h3 style="margin-bottom: 1.5rem;">Opiniones de la comunidad</h3>
+                    
+                    <!-- Formulario de Reseña -->
+                    <form id="review-form" class="review-form" style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 12px; margin-bottom: 2rem;">
+                        <h4 style="margin-bottom: 10px;">Escribe tu reseña</h4>
+                        <div class="rating-input" style="margin-bottom: 15px; font-size: 1.5rem; color: #444; cursor: pointer;">
+                            <span class="star-input" data-value="1">★</span>
+                            <span class="star-input" data-value="2">★</span>
+                            <span class="star-input" data-value="3">★</span>
+                            <span class="star-input" data-value="4">★</span>
+                            <span class="star-input" data-value="5">★</span>
+                        </div>
+                        <textarea id="review-text" placeholder="¿Qué te pareció este título?" style="width: 100%; background: rgba(0,0,0,0.2); border: 1px solid #333; color: white; padding: 10px; border-radius: 8px; min-height: 100px; margin-bottom: 10px;"></textarea>
+                        <button type="submit" class="btn-primary">Publicar Reseña</button>
+                    </form>
+
+                    <!-- Lista de Reseñas -->
+                    <div id="reviews-list" class="reviews-list"></div>
                 </div>
             </div>
         </div>

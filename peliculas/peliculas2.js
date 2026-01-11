@@ -12647,6 +12647,13 @@ const peliculas2 = [
             "url": "https://streamwish.to/e/vux20ik13qmf",
             "calidad": "HD",
             "visto": false
+          },
+          {
+            "episodio": 21,
+            "titulo": "Episodio 21",
+            "url": "https://streamwish.to/e/a4odqpkutuww",
+            "calidad": "1080p",
+            "visto": false
           }
         ]
       }

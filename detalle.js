@@ -270,6 +270,7 @@ async function initDetalle() {
             setupShareButton(movie);
             setupStarRating(movie.id);
             updateCanonicalUrl(movie.id);
+            setupReviews(movie.id); // Initialize reviews
             setupPlayerToolbar();
         } else {
             // No se encontró la película
@@ -1480,7 +1481,9 @@ function displayRecommendations(currentMovie) {
             }
             recommendationsGrid.appendChild(movieCard);
         });
-        // Grid layout, no carousel needed
+        
+        // Initialize carousel controls for recommendations
+        setupCarruselControls('#recommendations-carousel');
     } else {
         recommendationsGrid.innerHTML = '<p class="no-content-message" style="grid-column: 1/-1; text-align: center; color: #888;">No hay recomendaciones disponibles para este título.</p>';
     }
@@ -1702,4 +1705,114 @@ async function fetchRealTimeRating(tmdbId, type) {
     } catch (e) {
         console.warn('Error fetching real-time rating:', e);
     }
+}
+
+// --- NUEVO: Sistema de Reseñas ---
+function setupReviews(movieId) {
+    const reviewsList = document.getElementById('reviews-list');
+    const reviewForm = document.getElementById('review-form');
+    const starInputs = document.querySelectorAll('.star-input');
+    let currentRating = 0;
+
+    if (!reviewsList || !reviewForm) return;
+
+    // Mock reviews data
+    const mockReviews = [
+        { user: 'Usuario123', rating: 5, text: '¡Increíble! Me mantuvo al borde del asiento todo el tiempo.', date: 'Hace 2 días' },
+        { user: 'Cinefilo_X', rating: 4, text: 'Muy buena producción, aunque el final fue un poco predecible.', date: 'Hace 1 semana' },
+        { user: 'AnaG', rating: 5, text: 'Definitivamente una de las mejores del año. Recomendada.', date: 'Hace 3 semanas' }
+    ];
+
+    // Load saved reviews from local storage
+    const savedReviews = JSON.parse(localStorage.getItem(`reviews_${movieId}`)) || [];
+    const allReviews = [...savedReviews, ...mockReviews];
+
+    const renderReviews = () => {
+        reviewsList.innerHTML = '';
+        if (allReviews.length === 0) {
+            reviewsList.innerHTML = '<p style="color: #888; text-align: center;">Sé el primero en opinar.</p>';
+            return;
+        }
+
+        allReviews.forEach(review => {
+            const reviewItem = document.createElement('div');
+            reviewItem.className = 'review-item';
+            reviewItem.style.cssText = 'background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; margin-bottom: 15px; border: 1px solid rgba(255,255,255,0.05);';
+            
+            const stars = '★'.repeat(review.rating) + '☆'.repeat(5 - review.rating);
+            
+            reviewItem.innerHTML = `
+                <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                    <span style="font-weight: bold; color: white;">${review.user}</span>
+                    <span style="color: #888; font-size: 0.8rem;">${review.date}</span>
+                </div>
+                <div style="color: #ffd700; margin-bottom: 8px; letter-spacing: 2px;">${stars}</div>
+                <p style="color: #ccc; line-height: 1.5; margin: 0;">${review.text}</p>
+            `;
+            reviewsList.appendChild(reviewItem);
+        });
+    };
+
+    renderReviews();
+
+    // Star input interaction
+    starInputs.forEach(star => {
+        star.addEventListener('mouseover', () => {
+            const val = parseInt(star.dataset.value);
+            starInputs.forEach(s => {
+                s.style.color = parseInt(s.dataset.value) <= val ? '#ffd700' : '#444';
+            });
+        });
+
+        star.addEventListener('mouseout', () => {
+            starInputs.forEach(s => {
+                s.style.color = parseInt(s.dataset.value) <= currentRating ? '#ffd700' : '#444';
+            });
+        });
+
+        star.addEventListener('click', () => {
+            currentRating = parseInt(star.dataset.value);
+            starInputs.forEach(s => {
+                s.style.color = parseInt(s.dataset.value) <= currentRating ? '#ffd700' : '#444';
+            });
+        });
+    });
+
+    // Form submission
+    reviewForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const text = document.getElementById('review-text').value.trim();
+        
+        if (currentRating === 0) {
+            alert('Por favor, selecciona una calificación.');
+            return;
+        }
+        if (!text) {
+            alert('Por favor, escribe tu reseña.');
+            return;
+        }
+
+        const newReview = {
+            user: 'Tú',
+            rating: currentRating,
+            text: text,
+            date: 'Justo ahora'
+        };
+
+        // Save to local storage
+        const currentSaved = JSON.parse(localStorage.getItem(`reviews_${movieId}`)) || [];
+        currentSaved.unshift(newReview);
+        localStorage.setItem(`reviews_${movieId}`, JSON.stringify(currentSaved));
+
+        // Update UI
+        allReviews.unshift(newReview);
+        renderReviews();
+        
+        // Reset form
+        reviewForm.reset();
+        currentRating = 0;
+        starInputs.forEach(s => s.style.color = '#444');
+        
+        if(window.showToast) window.showToast('Reseña publicada con éxito', 'success');
+    });
 }

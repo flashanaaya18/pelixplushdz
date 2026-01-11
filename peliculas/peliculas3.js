@@ -554,6 +554,65 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Among the Living",
+    "titulo_original": "Among the Living",
+    "poster": "https://image.tmdb.org/t/p/w500/u72fbIvv5gW9qKY8XptfLHsOL9X.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/IE0FwAcSpxnPws8vJu3RPUO8Ay.jpg",
+    "descripcion": "Varado tras un brote mortal, un hermano lucha para proteger a su hermana mientras busca desesperadamente refugio y evitar una población infectada con sed de sangre.",
+    "año": 2022,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "terror",
+      "drama",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Drama",
+      "Suspense"
+    ],
+    "director": "Rob Worsey",
+    "reparto": [
+      "Dean Michael Gregory",
+      "George Newton",
+      "Melissa Worsey",
+      "Leon Worsey",
+      "Emily Rose Holt",
+      "Alexander King",
+      "Emma Wise",
+      "Rob Humphries"
+    ],
+    "calificacion": 4.7,
+    "votos": 21,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-10T01:49:17.328147",
+    "tmdb_id": "985890",
+    "popularidad": 0.57,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "85 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/fx16idlkwws4",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "among-the-living-2022"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Anaconda",
     "titulo_original": "Anaconda",
     "poster": "https://image.tmdb.org/t/p/w500/zX1KJPiGTrzpFcjfOWlmqdRgpQd.jpg",
@@ -1731,6 +1790,63 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Dagr",
+    "titulo_original": "Dagr",
+    "poster": "https://image.tmdb.org/t/p/w500/t7FrSnzwAPaA3LU8TGwsRd4PKj5.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/pGcotc5pzZjRiVOaVb0bf5OqHAZ.jpg",
+    "descripcion": "",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "terror",
+      "comedia"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Comedia"
+    ],
+    "director": "Matthew Butler-Hart",
+    "reparto": [
+      "Riz Moritz",
+      "Ellie Duckles",
+      "Emma King",
+      "Graham Butler",
+      "Hattie Chapman",
+      "Luca Thompson",
+      "Matt Barber",
+      "Tori Butler-Hart"
+    ],
+    "calificacion": 3.8,
+    "votos": 20,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-10T01:53:33.815260",
+    "tmdb_id": "1208704",
+    "popularidad": 1.37,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "77 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/kh8c3ytqileb",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "dagr-2024"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Del cielo al infierno",
     "titulo_original": "Highest 2 Lowest",
     "poster": "https://image.tmdb.org/t/p/w500/b0AQYSM09AYVRKLZr6jIAP2xNq9.jpg",
@@ -2537,6 +2653,69 @@ const peliculas3 = [
     "id": "el-tiempo-de-las-moscas-2026"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "En el Reino de las Sombras",
+    "titulo_original": "The Reign of Queen Ginnarra",
+    "poster": "https://image.tmdb.org/t/p/w500/tkMsXx2Cmigomq5ANWHQOIWRC1S.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/hWVousfMBk2YSQTfmC9SaB2SCxv.jpg",
+    "descripcion": "El Príncipe Elderón está huyendo después del usurpado del reino por su hermana reina Ginnarra. La reina Ginnarra sigue a los viejos dioses oscuros y usa sus poderes para perseguir a su hermano. ¿El Elderon sobrevivirá a las fuerzas en su contra?",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "aventura",
+      "fantasía",
+      "drama",
+      "terror"
+    ],
+    "generos_lista": [
+      "Aventura",
+      "Fantasía",
+      "Drama",
+      "Terror"
+    ],
+    "director": "Lawrie Brewster",
+    "reparto": [
+      "Megan Tremethick",
+      "Andrew Gourlay",
+      "Dorian Todd",
+      "Adam Barnett",
+      "Novarro Ramon",
+      "Sam Barclay",
+      "Stephen Kerr",
+      "Stephen Corrall",
+      "Chris Capaldi",
+      "Craig J. Seath"
+    ],
+    "calificacion": 6.6,
+    "votos": 12,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-10T01:51:10.990633",
+    "tmdb_id": "1300891",
+    "popularidad": 1.14,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "142 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/drhdi2z5k0bh",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "en-el-reino-de-las-sombras-2025"
+  },
+  {
     "tipo": "serie",
     "titulo": "Envidiosa",
     "titulo_original": "Envidiosa",
@@ -2717,6 +2896,61 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Estela",
+    "titulo_original": "Estela",
+    "poster": "https://image.tmdb.org/t/p/w500/xdPIO59xodIZC6CH2gv0P9Ry2h6.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/n8XbzWbkfy15yijOxTf3wuPqhOQ.jpg",
+    "descripcion": "Susana y Jorge deciden mudarse a una mansión frente a un lago, en busca de tranquilidad que les permita convertirse en padres. La obsesión de ella por quedar embarazada acaba por atraer atrae al fantasma de una niña que busca una madre.",
+    "año": 2024,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "terror",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Terror",
+      "Suspense"
+    ],
+    "director": "Adrián Araujo",
+    "reparto": [
+      "Mara López",
+      "Meteora Fontana",
+      "Cristian Gamero",
+      "Mikael Lacko"
+    ],
+    "calificacion": 4.0,
+    "votos": 2,
+    "idioma": "ES",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-10T01:47:26.090356",
+    "tmdb_id": "1352858",
+    "popularidad": 2.89,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "90 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/2aeknaqe577e",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "estela-2024"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Exit Protocol",
     "titulo_original": "Exit Protocol",
     "poster": "https://image.tmdb.org/t/p/w500/flMnawvBtLvMStfeAjuBE1K9ykX.jpg",
@@ -2771,6 +3005,69 @@ const peliculas3 = [
       }
     ],
     "id": "exit-protocol-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Final Recovery",
+    "titulo_original": "Final Recovery",
+    "poster": "https://image.tmdb.org/t/p/w500/oX4udyeV5ANslBfHXXlg4L0knUV.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fnohy5FuILq2RQe8fP9hSF1OMnG.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "misterio",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Misterio",
+      "Suspense"
+    ],
+    "director": "Harley Wallen",
+    "reparto": [
+      "Jasper Cole",
+      "Charlene Tilton",
+      "Richard Tyson",
+      "Michael Emery",
+      "Cherish Lee",
+      "Damien Chinappi",
+      "Kaiti Wallen",
+      "Harley Wallen",
+      "Heather Fairbanks",
+      "Kayden Bryce",
+      "Shelby Bradley",
+      "Chevonne Wilson"
+    ],
+    "calificacion": 3.0,
+    "votos": 2,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-10T01:48:19.589070",
+    "tmdb_id": "1371357",
+    "popularidad": 0.31,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "N/A",
+    "presupuesto": "$308,000",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/h9r4ejz3r6ew",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "final-recovery-2025"
   },
   {
     "tipo": "pelicula",
@@ -2932,6 +3229,124 @@ const peliculas3 = [
       }
     ],
     "id": "fritos-a-balazos-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Fugitivas, en busca de la libertad",
+    "titulo_original": "Fugitivas, en busca de la libertad",
+    "poster": "https://image.tmdb.org/t/p/w500/oqHWSZmoCgz7JPsbNXihASGnfLW.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/oPUJvCl9vo16nttEDwmK3zy06jj.jpg",
+    "descripcion": "",
+    "año": 2024,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "soap",
+      "action & adventure",
+      "drama"
+    ],
+    "generos_lista": [
+      "Soap",
+      "Action & Adventure",
+      "Drama"
+    ],
+    "director": "Lucero Suárez",
+    "reparto": [
+      "César Évora",
+      "Erika Buenfil",
+      "Daniela Álvarez",
+      "Arap Bethke",
+      "Rocio de Santiago",
+      "Sachi Tamashiro",
+      "Marlene Kalb",
+      "Juan Martín Jáuregui",
+      "Gema Garoa",
+      "Chris Pascal",
+      "Aldo Guerra",
+      "Arturo Carmona"
+    ],
+    "calificacion": 7.5,
+    "votos": 32,
+    "idioma": "ES",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-10T00:21:23.393249",
+    "tmdb_id": "247884",
+    "popularidad": 1.06,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://fastream.to/embed-6bz868mzq80c.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://fastream.to/embed-6p7n2aq5evae.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://fastream.to/embed-r0uq2sap8rp6.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://fastream.to/embed-58sre3inim0i.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://fastream.to/embed-gew1bnu5cke9.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://fastream.to/embed-d39ys1t7dwx6.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://fastream.to/embed-j0yc918hnon7.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://fastream.to/embed-muamyxtfwd26.html",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 85,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2024-10-25",
+    "id": "fugitivas-en-busca-de-la-libertad-2024"
   },
   {
     "tipo": "pelicula",
@@ -3826,6 +4241,136 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Jurassic World",
+    "titulo_original": "Jurassic World",
+    "poster": "https://image.tmdb.org/t/p/w500/sOgfattHPWE5sWdVCGHQ08GEbaP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/s5QfDFqRO6sjgPtKkjxD0WqXQef.jpg",
+    "descripcion": "Veintidós años después de lo ocurrido en Jurassic Park, la isla Nublar ha sido transformada en un parque temático, Jurassic Wold, con versiones «domesticadas» de algunos de los dinosaurios más conocidos. Cuando todo parece ir a la perfección y ser el negocio del siglo, un nuevo dinosaurio de especie todavía desconocida y que es mucho más inteligente de lo que se pensaba, comienza a causar estragos entre los visitantes del Parque.",
+    "año": 2015,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "aventura",
+      "ciencia ficción",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Aventura",
+      "Ciencia ficción",
+      "Suspense"
+    ],
+    "director": "Colin Trevorrow",
+    "reparto": [
+      "Chris Pratt",
+      "Bryce Dallas Howard",
+      "Irrfan Khan",
+      "Vincent D'Onofrio",
+      "Ty Simpkins",
+      "Nick Robinson",
+      "Jake Johnson",
+      "Omar Sy",
+      "BD Wong",
+      "Judy Greer",
+      "Lauren Lapkus",
+      "Brian Tee"
+    ],
+    "calificacion": 6.7,
+    "votos": 21207,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-10T19:53:48.896329",
+    "tmdb_id": "135397",
+    "popularidad": 11.45,
+    "tagline": "El parque abre sus puertas.",
+    "trailer": "https://www.youtube.com/watch?v=zfURZ-Vb8_E",
+    "trailer_key": "zfURZ-Vb8_E",
+    "success": true,
+    "duracion": "124 min",
+    "presupuesto": "$150,000,000",
+    "ingresos": "$1,671,537,444",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/8rn91bfqqiz8",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "jurassic-world-2015"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Jurassic World: El reino caído",
+    "titulo_original": "Jurassic World: Fallen Kingdom",
+    "poster": "https://image.tmdb.org/t/p/w500/4iGHioQuva4Q3KkeYNgohMP9kaR.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6WA9stUMbIkEPxn3D5SWlA8FIi7.jpg",
+    "descripcion": "Tras cuatro años de abandono del complejo turístico Jurassic World, la isla Nublar sólo está habitada por los dinosaurios supervivientes. Cuando el volcán inactivo de la isla comienza a cobrar vida, Owen y Claire montan una campaña para rescatar a los dinosaurios restantes en la isla.",
+    "año": 2018,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "aventura",
+      "ciencia ficción",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Aventura",
+      "Ciencia ficción",
+      "Suspense"
+    ],
+    "director": "J. A. Bayona",
+    "reparto": [
+      "Chris Pratt",
+      "Bryce Dallas Howard",
+      "Rafe Spall",
+      "Justice Smith",
+      "Daniella Pineda",
+      "James Cromwell",
+      "Toby Jones",
+      "Ted Levine",
+      "Jeff Goldblum",
+      "BD Wong",
+      "Geraldine Chaplin",
+      "Isabella Sermon"
+    ],
+    "calificacion": 6.5,
+    "votos": 12474,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-10T19:50:14.304562",
+    "tmdb_id": "351286",
+    "popularidad": 10.71,
+    "tagline": "La vida se abre camino.",
+    "trailer": "https://www.youtube.com/watch?v=Pbxxz5uytCo",
+    "trailer_key": "Pbxxz5uytCo",
+    "success": true,
+    "duracion": "128 min",
+    "presupuesto": "$170,000,000",
+    "ingresos": "$1,310,469,037",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/ibhtm4xym907",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "jurassic-world-el-reino-caido-2018"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Jurassic World: El renacer",
     "titulo_original": "Jurassic World Rebirth",
     "poster": "https://image.tmdb.org/t/p/w500/2sbGd7kDhMicDkT097FR9a2JyGU.jpg",
@@ -4254,6 +4799,65 @@ const peliculas3 = [
       }
     ],
     "id": "la-leyenda-de-beldham-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "La Llorona",
+    "titulo_original": "The Curse of La Llorona",
+    "poster": "https://image.tmdb.org/t/p/w500/1BIWytsnEr2aRobU6ERutzewm63.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8MCCpfOe7hkG28cNmkXVrOWRIlK.jpg",
+    "descripcion": "La Llorona es una aparición tenebrosa, atrapada entre el Cielo y el Infierno, con un destino terrible sellado por su propia mano. La mera mención de su nombre ha causado terror en todo el mundo durante generaciones. En vida, ahogó a sus hijos en una rabia de celos, arrojándose en el río tras ver como mató a sus hijos violentamente. Ahora sus lágrimas son eternas, letales, y aquellos que escuchan su llamada de muerte en la noche están condenados. Se arrastra en las sombras y ataca a los niños, desesperada por reemplazar a los suyos. A medida que los siglos han pasado, su deseo se ha vuelto más voraz y sus métodos más terroríficos.",
+    "año": 2019,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror"
+    ],
+    "generos_lista": [
+      "Terror"
+    ],
+    "director": "Michael Chaves",
+    "reparto": [
+      "Linda Cardellini",
+      "Raymond Cruz",
+      "Patricia Velásquez",
+      "Roman Christou",
+      "Jaynee-Lynne Kinchen",
+      "Marisol Ramirez",
+      "Sean Patrick Thomas",
+      "Tony Amendola",
+      "Oliver Alexander",
+      "Aiden Lewandowski",
+      "Irene Keng",
+      "DeLaRosa Rivera"
+    ],
+    "calificacion": 5.7,
+    "votos": 2601,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-10T19:57:22.613082",
+    "tmdb_id": "480414",
+    "popularidad": 4.06,
+    "tagline": "Viene a por tus hijos.",
+    "trailer": "https://www.youtube.com/watch?v=JoTbiH3Wppo",
+    "trailer_key": "JoTbiH3Wppo",
+    "success": true,
+    "duracion": "93 min",
+    "presupuesto": "$9,000,000",
+    "ingresos": "$123,233,739",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/9toi3ygutikb",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "la-llorona-2019"
   },
   {
     "tipo": "serie",
@@ -6168,6 +6772,69 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Osiris",
+    "titulo_original": "Osiris",
+    "poster": "https://image.tmdb.org/t/p/w500/3YtZHtXPNG5AleisgEatEfZOT2w.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ySHUoK4utUOiSfCinw81H1TsV0E.jpg",
+    "descripcion": "Un equipo de comandos de las Fuerzas Especiales es abducido por una misteriosa nave espacial durante una operación militar. Al despertar, los soldados desconocen su paradero y pronto descubren que están prisioneros de una despiadada raza alienígena, lo que desencadena una frenética lucha por su supervivencia.",
+    "año": 2025,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "acción",
+      "terror"
+    ],
+    "generos_lista": [
+      "Ciencia ficción",
+      "Acción",
+      "Terror"
+    ],
+    "director": "William Kaufman",
+    "reparto": [
+      "Max Martini",
+      "Brianna Hildebrand",
+      "LaMonica Garrett",
+      "Michael Irby",
+      "Linda Hamilton",
+      "Stanley White Jr.",
+      "Tyler Galpin",
+      "Linds Edwards",
+      "Dawson Towery",
+      "David B. Meadows",
+      "Jaren Mitchell",
+      "Derrick D. Edmond"
+    ],
+    "calificacion": 6.2,
+    "votos": 163,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-10T01:50:11.714922",
+    "tmdb_id": "1241470",
+    "popularidad": 14.23,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=TwWPXJZzfq4",
+    "trailer_key": "TwWPXJZzfq4",
+    "success": true,
+    "duracion": "108 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/x7ja9fbtf39s",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "osiris-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Otec",
     "titulo_original": "Otec",
     "poster": "https://image.tmdb.org/t/p/w500/qz4e1LLeRKk74a0Pyfqvb8zQlJe.jpg",
@@ -6863,6 +7530,65 @@ const peliculas3 = [
       }
     ],
     "id": "serpentine-pink-2022"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Shame",
+    "titulo_original": "Shame",
+    "poster": "https://image.tmdb.org/t/p/w500/6dvkN1NpSFRStUzGexHp4dR0I1q.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/chW0eMD6RlPhRnoVRFWc3zWk3Uh.jpg",
+    "descripcion": "Brandon, un hombre de treinta y tantos años que vive en Nueva York, evita la intimidad con las mujeres pero alimenta sus deseos más profundos con una adicción compulsiva al sexo. Cuando su hermana menor se muda temporalmente a su apartamento, despertando amargos recuerdos de un doloroso pasado en común, Brandon, cuya frágil mente se desmorona, pierde paulatinamente el control de su vida.",
+    "año": 2011,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama"
+    ],
+    "generos_lista": [
+      "Drama"
+    ],
+    "director": "Steve McQueen",
+    "reparto": [
+      "Michael Fassbender",
+      "Carey Mulligan",
+      "James Badge Dale",
+      "Nicole Beharie",
+      "Lucy Walters",
+      "Mari-Ange Ramirez",
+      "Alex Manette",
+      "Hannah Ware",
+      "Elizabeth Masucci",
+      "Rachel Farrar",
+      "Loren Omer",
+      "Lauren Tyrrell"
+    ],
+    "calificacion": 6.9,
+    "votos": 3329,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-10T19:41:38.273880",
+    "tmdb_id": "76025",
+    "popularidad": 5.04,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=KIgQdNYc9Qo",
+    "trailer_key": "KIgQdNYc9Qo",
+    "success": true,
+    "duracion": "102 min",
+    "presupuesto": "$6,500,000",
+    "ingresos": "$3,909,002",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/4nqg9c1jfn77",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "shame-2011"
   },
   {
     "tipo": "serie",
@@ -7942,6 +8668,69 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Una mujer normal",
+    "titulo_original": "A Normal Woman",
+    "poster": "https://image.tmdb.org/t/p/w500/81qLGik27wRW9NRg2Zrx9adbvdK.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/u406tzmoD60CmCqGbSRLE2bifmT.jpg",
+    "descripcion": "Cuando una enfermedad desconocida empieza a afectar a su vida, una mujer de la ‘jet set’ debe desentrañar el misterio tras esta antes de perderse por completo a sí misma.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "suspense",
+      "terror"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Suspense",
+      "Terror"
+    ],
+    "director": "Lucky Kuswandi",
+    "reparto": [
+      "Marissa Anita",
+      "Dion Wiyoko",
+      "Gisella Anastasia",
+      "Widyawati Sophiaan",
+      "Mima Shafa",
+      "Sari Koeswoyo",
+      "Maya Hasan",
+      "Hatta Rahandy",
+      "Alexa Jeslyn Hendrawan",
+      "Jasmine Laura Arendsen",
+      "Caitlyn Sevlin",
+      "Kiki Narendra"
+    ],
+    "calificacion": 5.9,
+    "votos": 59,
+    "idioma": "ID",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-10T01:52:20.201811",
+    "tmdb_id": "1285728",
+    "popularidad": 0.85,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=pe4jHkt2jLI",
+    "trailer_key": "pe4jHkt2jLI",
+    "success": true,
+    "duracion": "110 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/ptc9174y6q2c",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "una-mujer-normal-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "V de Víctor",
     "titulo_original": "V de Víctor",
     "poster": "https://image.tmdb.org/t/p/w500/9QKLoe7hSPkhILm8nsuyblvCmu7.jpg",
@@ -8184,6 +8973,69 @@ const peliculas3 = [
       }
     ],
     "id": "venom-habra-matanza-2021"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Verano infernal",
+    "titulo_original": "Hell of a Summer",
+    "poster": "https://image.tmdb.org/t/p/w500/gCEJCaIzrU7FiOrv6fMMMnQ163B.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/517uHmTS9Z9nUWBe0gcFaoehNk6.jpg",
+    "descripcion": "El monitor Jason Hochberg, de 24 años, llega al campamento Pineway pensando que su mayor problema es que se siente desconectado de sus compañeros adolescentes. Lo que no sabe es que un asesino enmascarado está al acecho, matando brutalmente a los monitores uno a uno.",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "terror",
+      "comedia",
+      "misterio"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Comedia",
+      "Misterio"
+    ],
+    "director": "Finn Wolfhard",
+    "reparto": [
+      "Finn Wolfhard",
+      "Billy Bryk",
+      "Fred Hechinger",
+      "Abby Quinn",
+      "Krista Nazaire",
+      "Daniel Gravelle",
+      "Pardis Saremi",
+      "Julia Lalonde",
+      "Matthew Finlan",
+      "D'Pharaoh Woon-A-Tai",
+      "Julia Doyle",
+      "Susan Coyne"
+    ],
+    "calificacion": 5.7,
+    "votos": 140,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-10T01:54:36.226398",
+    "tmdb_id": "999243",
+    "popularidad": 4.92,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "88 min",
+    "presupuesto": "$3,000,000",
+    "ingresos": "$3,182,680",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/349jkx4xdxw7",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "verano-infernal-2025"
   },
   {
     "tipo": "pelicula",
