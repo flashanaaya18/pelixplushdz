@@ -1006,6 +1006,67 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Better Man: La Historia de Robbie Williams",
+    "titulo_original": "Better Man",
+    "poster": "https://image.tmdb.org/t/p/w500/ak7VgAaI94K6CbbFuL22xIBJtyE.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wP0NGOGf2PG4lHXHWEqFW0kBOye.jpg",
+    "descripcion": "Sigue el viaje de Robbie Williams desde la infancia, hasta convertirse en el miembro más joven de la boyband Take That, pasando por sus logros incomparables como artista solista que bate récords, mientras se enfrenta a los desafíos que pueden traer la fama y el éxito estratosféricos.",
+    "año": 2024,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "música",
+      "drama"
+    ],
+    "generos_lista": [
+      "Música",
+      "Drama"
+    ],
+    "director": "Michael Gracey",
+    "reparto": [
+      "Robbie Williams",
+      "Jonno Davies",
+      "Steve Pemberton",
+      "Alison Steadman",
+      "Kate Mulvany",
+      "Frazer Hadfield",
+      "Damon Herriman",
+      "Raechelle Banno",
+      "Tom Budge",
+      "Jake Simmance",
+      "Liam Head",
+      "Chase Vollenweider"
+    ],
+    "calificacion": 7.6,
+    "votos": 770,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-12T16:13:11.099043",
+    "tmdb_id": "799766",
+    "popularidad": 3.55,
+    "tagline": "La fama nos convierte a todos en monos",
+    "trailer": "https://www.youtube.com/watch?v=pFXyzXquZvA",
+    "trailer_key": "pFXyzXquZvA",
+    "success": true,
+    "duracion": "135 min",
+    "presupuesto": "$110,000,000",
+    "ingresos": "$22,549,151",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://ghbrisk.com/e/5pmou9qsq9g7",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "better-man-la-historia-de-robbie-williams-2024"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Blue Beetle",
     "titulo_original": "Blue Beetle",
     "poster": "https://image.tmdb.org/t/p/w500/tf5Mqgoj1fFIeP7Ktfn8KGrYhup.jpg",
@@ -1222,6 +1283,62 @@ const peliculas3 = [
       }
     ],
     "id": "bull-shark-2-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Canta y no llores",
+    "titulo_original": "Canta y no llores",
+    "poster": "https://image.tmdb.org/t/p/w500/wateX8mly9JBXM06HsmUQtwrt8T.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/AqzL3Mj6e7qEjS3gHEcccYcQXpq.jpg",
+    "descripcion": "Una familia de mujeres compuesta por Pepa, la matriarca, Beli, la artista y su hija Lucía, viven junto a Toni, hijo de Pepa y hermanastro de Beli. La familia maneja un food truck de tacos para ganarse la vida, donde van cocinando inquietudes artísticas y frustraciones cotidianas.",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Félix Sabroso",
+    "reparto": [
+      "Michelle Rodríguez",
+      "Consuelo Duval",
+      "Patricia Maqueo",
+      "Paco Rueda",
+      "Lumy Lizardo",
+      "Auro Sónico",
+      "Luis del Valle",
+      "Víc Gómez"
+    ],
+    "calificacion": 6.9,
+    "votos": 57,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-12T17:03:52.722704",
+    "tmdb_id": "1243895",
+    "popularidad": 0.63,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "N/A",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "Disney Plus",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://vidhidepro.com/v/8valozx9bzky",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "canta-y-no-llores-2024"
   },
   {
     "tipo": "pelicula",
@@ -1850,6 +1967,47 @@ const peliculas3 = [
     "episodios": 0,
     "tipo_serie": "Serie",
     "id": "consuelo-2026"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Critical Incident: Death at the Border",
+    "titulo_original": "Critical Incident: Death at the Border",
+    "poster": "https://image.tmdb.org/t/p/w500/bLq4GRp4InjkipnWM5Bdzbkhg2P.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/t2p67zRXn00bUrw94HReWdTp7Q0.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "documental"
+    ],
+    "genero": [
+      "documental"
+    ],
+    "generos_lista": [
+      "Documental"
+    ],
+    "director": "Rick Rowley",
+    "reparto": [
+      "John Carlos Frey"
+    ],
+    "calificacion": 5.2,
+    "votos": 5,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-12T16:48:44.601792",
+    "tmdb_id": "1601000",
+    "popularidad": 4.28,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "90 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "HBO Max",
+    "fuentes": [],
+    "id": "critical-incident-death-at-the-border-2025"
   },
   {
     "tipo": "pelicula",
@@ -3931,6 +4089,59 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Hombres hay muchos",
+    "titulo_original": "Hombres hay muchos",
+    "poster": "https://image.tmdb.org/t/p/w500/9Gn58sl2vP7zg5Urlj1APukUf4Y.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/sB0TxkuXgcov1qzsGtKToCBjjMJ.jpg",
+    "descripcion": "Tras descubrir que su esposo es infiel, Raquel viajará a Cancún para atraparlo. Con la ayuda de sus dos amigos, intentará sabotear las vacaciones de su marido. Pero, terminará encontrando el amor.",
+    "año": 2023,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia",
+      "romance"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Romance"
+    ],
+    "director": "Heruz Argenis",
+    "reparto": [
+      "Christian de la Campa",
+      "Malillany Marín",
+      "Palmeira Cruz"
+    ],
+    "calificacion": 7.1,
+    "votos": 14,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-12T17:06:10.224917",
+    "tmdb_id": "1168735",
+    "popularidad": 0.14,
+    "tagline": "Hombres hay muchos",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "78 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "fuboTV",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/86vrxzabcscn",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "hombres-hay-muchos-2023"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Homo Argentum",
     "titulo_original": "Homo Argentum",
     "poster": "https://image.tmdb.org/t/p/w500/21WlZtv1GZgiD2qAVHOkg63LRmU.jpg",
@@ -4656,6 +4867,70 @@ const peliculas3 = [
       }
     ],
     "id": "jurassic-world-el-renacer-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Kill Boy",
+    "titulo_original": "Boy Kills World",
+    "poster": "https://image.tmdb.org/t/p/w500/3Nc4gK8naRXUy9c8u74I89zWqLg.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/cnQI1M057kW0MHTmkQY4VeT6eCe.jpg",
+    "descripcion": "Boy (Bill Skarsgård) es un joven que deberá enfrentarse a la desquiciada matriarca de una corrupta dinastía postapocalíptica que lo dejó huérfano, sordo y sin voz. Tras vivir una trágica infancia, un enigmático chamán (Yayan Ruhian) le convertirá en un instrumento de venganza y lo soltará en su lejana distopía en vísperas de la matanza anual de disidentes. Intentando encontrar su lugar, Boy se unirá a un grupo de resistencia a la vez que mantendrá intensas discusiones con el fantasma de su rebelde hermana pequeña.",
+    "año": 2024,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "crimen",
+      "suspense",
+      "acción"
+    ],
+    "generos_lista": [
+      "Crimen",
+      "Suspense",
+      "Acción"
+    ],
+    "director": "Moritz Mohr",
+    "reparto": [
+      "Bill Skarsgård",
+      "Jessica Rothe",
+      "H. Jon Benjamin",
+      "Michelle Dockery",
+      "Brett Gelman",
+      "Sharlto Copley",
+      "Andrew Koji",
+      "Isaiah Mustafa",
+      "Famke Janssen",
+      "Quinn Copeland",
+      "Cameron Crovetti",
+      "Nicholas Crovetti"
+    ],
+    "calificacion": 6.8,
+    "votos": 744,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-12T16:53:05.167551",
+    "tmdb_id": "882059",
+    "popularidad": 3.74,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=oohYgOdJw4Y",
+    "trailer_key": "oohYgOdJw4Y",
+    "success": true,
+    "duracion": "110 min",
+    "presupuesto": "$18,000,000",
+    "ingresos": "$3,139,717",
+    "plataforma": "Amazon Prime Video",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://vidhidepro.com/v/fal4tyaw0g27",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "kill-boy-2024"
   },
   {
     "tipo": "pelicula",
@@ -6783,6 +7058,130 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Mil Uno",
+    "titulo_original": "A Thousand and One",
+    "poster": "https://image.tmdb.org/t/p/w500/c943thY4bOJU59UfD257ELZe13g.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7NTGZTzqWHgBJeoNaWsAxvHtRy4.jpg",
+    "descripcion": "Luchando pero sin disculparse por vivir en sus propios términos, Inez se muda de refugio en refugio a mediados de la década de 1990 en la ciudad de Nueva York. Con su hijo Terry de 6 años en un hogar de acogida y sin poder dejarlo de nuevo, lo secuestra para que puedan construir su vida juntos. A medida que pasan los años, su familia crece y Terry se convierte en un adolescente inteligente pero tranquilo, pero el secreto que ha definido sus vidas amenaza con destruir el hogar que han construido de manera tan improbable.",
+    "año": 2023,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "crimen"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Crimen"
+    ],
+    "director": "A.V. Rockwell",
+    "reparto": [
+      "Teyana Taylor",
+      "William Catlett",
+      "Josiah Cross",
+      "Aven Courtney",
+      "Aaron Kingsley Adetola",
+      "Terri Abney",
+      "Delissa Reynolds",
+      "Amelia Workman",
+      "Adriane Lenox",
+      "Mark Gessner",
+      "Gavin Schlosser",
+      "Jolly Swag"
+    ],
+    "calificacion": 6.6,
+    "votos": 142,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-12T16:56:57.679983",
+    "tmdb_id": "855263",
+    "popularidad": 0.91,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "116 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$3,395,595",
+    "plataforma": "Netflix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://doodstream.com/e/96yujppsd1l2",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "mil-uno-2023"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Night Shift",
+    "titulo_original": "Night Shift",
+    "poster": "https://image.tmdb.org/t/p/w500/zw3w7ceS99Rz06K749cLbI4UPrp.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/hZiVR0mn81iyYnRQNw7gGRaHkw8.jpg",
+    "descripcion": "",
+    "año": 2023,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Suspense"
+    ],
+    "director": "Benjamin China",
+    "reparto": [
+      "Phoebe Tonkin",
+      "Lamorne Morris",
+      "Madison Hu",
+      "Lauren Bowles",
+      "Patrick Fischler",
+      "Christopher Denham",
+      "Connor Price",
+      "Jess Varley",
+      "Dennis Grimes",
+      "David Carrera",
+      "Tom Dang",
+      "Tricia Small"
+    ],
+    "calificacion": 6.2,
+    "votos": 111,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-12T16:59:32.201511",
+    "tmdb_id": "829038",
+    "popularidad": 2.26,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "83 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "HBO Max",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/s41mtl0j1mks",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "night-shift-2023"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "No Way Out",
     "titulo_original": "No Way Out",
     "poster": "https://image.tmdb.org/t/p/w500/445lHS7TRbyoHcm80pArYny1e1l.jpg",
@@ -7509,6 +7908,72 @@ const peliculas3 = [
     "id": "primate-2026"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "Respira",
+    "titulo_original": "Breathe",
+    "poster": "https://image.tmdb.org/t/p/w500/oujEGO5eXnP8PsFRPJHZfUzlKFK.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/v2oPRCnWADeQhEAAUKD7DfMdScP.jpg",
+    "descripcion": "El suministro de aire es escaso en un futuro cercano, lo que obliga a una madre y una hija a luchar para sobrevivir cuando dos extraños llegan desesperados por un refugio oxigenado.",
+    "año": 2024,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "ciencia ficción",
+      "misterio",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Ciencia ficción",
+      "Misterio",
+      "Suspense"
+    ],
+    "director": "Stefon Bristol",
+    "reparto": [
+      "Jennifer Hudson",
+      "Milla Jovovich",
+      "Quvenzhané Wallis",
+      "Common",
+      "Sam Worthington",
+      "Raúl Castillo",
+      "James Saito",
+      "Dan Martin",
+      "James Saito",
+      "Sonya Giddings",
+      "Kimberly L. Jackson",
+      "John Xavier Lambert"
+    ],
+    "calificacion": 5.7,
+    "votos": 272,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-12T16:54:52.953531",
+    "tmdb_id": "720321",
+    "popularidad": 3.91,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=zylvCqNTAiQ",
+    "trailer_key": "zylvCqNTAiQ",
+    "success": true,
+    "duracion": "93 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "Amazon Prime Video",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/64dn2n768d9h",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "respira-2024"
+  },
+  {
     "tipo": "serie",
     "titulo": "Rompehielos",
     "titulo_original": "",
@@ -7803,6 +8268,70 @@ const peliculas3 = [
       }
     ],
     "id": "santastein-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Scream VI",
+    "titulo_original": "Scream VI",
+    "poster": "https://image.tmdb.org/t/p/w500/zh0JffFtxcWEJBLKayH3d34WnNT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/44immBwzhDVyjn87b3x3l9mlhAD.jpg",
+    "descripcion": "Tras los últimos asesinatos de Ghostface, los cuatro supervivientes abandonan Woodsboro para dar comienzo a un nuevo capítulo.",
+    "año": 2023,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "crimen",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Crimen",
+      "Suspense"
+    ],
+    "director": "Tyler Gillett",
+    "reparto": [
+      "Melissa Barrera",
+      "Jenna Ortega",
+      "Jasmin Savoy Brown",
+      "Mason Gooding",
+      "Jack Champion",
+      "Roger L. Jackson",
+      "Liana Liberato",
+      "Dermot Mulroney",
+      "Devyn Nekoda",
+      "Josh Segarra",
+      "Hayden Panettiere",
+      "Henry Czerny"
+    ],
+    "calificacion": 7.0,
+    "votos": 2980,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-12T16:58:15.828963",
+    "tmdb_id": "934433",
+    "popularidad": 8.97,
+    "tagline": "Nueva York. Nuevas reglas.",
+    "trailer": "https://www.youtube.com/watch?v=rQtXB08tkoY",
+    "trailer_key": "rQtXB08tkoY",
+    "success": true,
+    "duracion": "123 min",
+    "presupuesto": "$35,000,000",
+    "ingresos": "$168,961,389",
+    "plataforma": "Paramount Plus",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/1podd69kbtk4",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "scream-vi-2023"
   },
   {
     "tipo": "pelicula",
@@ -8393,6 +8922,72 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Sonic 3: La película",
+    "titulo_original": "Sonic the Hedgehog 3",
+    "poster": "https://image.tmdb.org/t/p/w500/3aDWCRXLYOCuxjrjiPfLd79tcI6.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zOpe0eHsq0A2NvNyBbtT6sj53qV.jpg",
+    "descripcion": "Sonic, Knuckles y Tails se reúnen para enfrentarse a un nuevo y poderoso adversario, Shadow, un misterioso villano cuyos poderes no se parecen a nada de lo que nuestros héroes han conocido hasta ahora. Con sus facultades superadas en todos los sentidos, el Equipo Sonic tendrá que establecer una insólita alianza con la esperanza de detener a Shadow y proteger el planeta.",
+    "año": 2024,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "ciencia ficción",
+      "comedia",
+      "familia"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Ciencia ficción",
+      "Comedia",
+      "Familia"
+    ],
+    "director": "Jeff Fowler",
+    "reparto": [
+      "Jim Carrey",
+      "Ben Schwartz",
+      "Keanu Reeves",
+      "Idris Elba",
+      "Colleen O'Shaughnessey",
+      "James Marsden",
+      "Tika Sumpter",
+      "Lee Majdoub",
+      "Krysten Ritter",
+      "Adam Pally",
+      "Natasha Rothwell",
+      "Shemar Moore"
+    ],
+    "calificacion": 7.6,
+    "votos": 3092,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-12T16:37:14.571676",
+    "tmdb_id": "939243",
+    "popularidad": 22.02,
+    "tagline": "Nueva aventura. Nuevo rival.",
+    "trailer": "https://www.youtube.com/watch?v=IDQiIgB86ro",
+    "trailer_key": "IDQiIgB86ro",
+    "success": true,
+    "duracion": "112 min",
+    "presupuesto": "$122,000,000",
+    "ingresos": "$492,162,604",
+    "plataforma": "Netflix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://ryderjet.com/v/eys951yh014f",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "sonic-3-la-pelicula-2024"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Star Wars: El despertar de la fuerza",
     "titulo_original": "Star Wars: The Force Awakens",
     "poster": "https://image.tmdb.org/t/p/w500/vI86GLIkT5pP3ZfNs2EvmTrBLBm.jpg",
@@ -8576,6 +9171,69 @@ const peliculas3 = [
       }
     ],
     "id": "technoboys-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "The Home",
+    "titulo_original": "The Home",
+    "poster": "https://image.tmdb.org/t/p/w500/r0NUt1M62StNgvSLmLsmJADbHpg.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/Lu57GTE24Ja5O61jieY2aIBk8d.jpg",
+    "descripcion": "Max, que acaba de empezar a trabajar en una residencia de ancianos, se da cuenta de que sus residentes y cuidadores esconden siniestros secretos.",
+    "año": 2025,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "misterio",
+      "terror",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Misterio",
+      "Terror",
+      "Suspense"
+    ],
+    "director": "James DeMonaco",
+    "reparto": [
+      "Pete Davidson",
+      "John Glover",
+      "Mugga",
+      "Adam Cantor",
+      "Bruce Altman",
+      "Denise Burse",
+      "Stuart Rudin",
+      "Ethan Phillips",
+      "Nathalie Schmidt",
+      "Mary Beth Peil",
+      "Victor Williams",
+      "Marilee Talkington"
+    ],
+    "calificacion": 6.6,
+    "votos": 154,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-12T15:18:37.993622",
+    "tmdb_id": "926606",
+    "popularidad": 12.71,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "95 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$1,001,930",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://fastream.to/embed-kumfwp0xzk6n.html",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "the-home-2025"
   },
   {
     "tipo": "pelicula",
@@ -8879,6 +9537,69 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Trap House",
+    "titulo_original": "Trap House",
+    "poster": "https://image.tmdb.org/t/p/w500/p9zbrDpAKyj3jeemkyAoBmlo3KG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/oIJjO1CvEdTMFNkWfHaV0RB584G.jpg",
+    "descripcion": "Un agente de la DEA y su compañero persiguen un peculiar grupo de ladrones: sus propios hijos adolescentes rebeldes, que han empezado a robar a un peligroso cártel, utilizando para ello las tácticas de sus padres y la información de alto secreto.",
+    "año": 2025,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "crimen",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Crimen",
+      "Suspense"
+    ],
+    "director": "Michael Dowse",
+    "reparto": [
+      "Dave Bautista",
+      "Jack Champion",
+      "Sophia Lillis",
+      "Whitney Peak",
+      "Bobby Cannavale",
+      "Kate del Castillo",
+      "Tony Dalton",
+      "Inde Navarrette",
+      "Zaire Adams",
+      "Blu del Barrio",
+      "Ammie Masterson",
+      "Kelsey Landon"
+    ],
+    "calificacion": 6.3,
+    "votos": 131,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-11T20:56:13.622405",
+    "tmdb_id": "628847",
+    "popularidad": 221.06,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "102 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filemoon.to/e/z73k199ve0y2",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "trap-house-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Twas The Night",
     "titulo_original": "Twas The Night",
     "poster": "https://image.tmdb.org/t/p/w500/rOLpMgK3CAEeCFtYg0W5axp1ktO.jpg",
@@ -8987,6 +9708,70 @@ const peliculas3 = [
       }
     ],
     "id": "un-hombre-por-semana-2026"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Un lugar tranquilo: Día uno",
+    "titulo_original": "A Quiet Place: Day One",
+    "poster": "https://image.tmdb.org/t/p/w500/6efQJ7pu9GPketUDBAhJtgZLkvD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6XjMwQTvnICBz6TguiDKkDVHvgS.jpg",
+    "descripcion": "Una mujer llamada Sam trata de sobrevivir a una invasión en la ciudad de Nueva York por criaturas alienígenas sedientas de sangre con oídos ultrasónicos. Tercera entrega de la saga y precuela de las dos anteriores.",
+    "año": 2024,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "ciencia ficción",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Ciencia ficción",
+      "Suspense"
+    ],
+    "director": "Michael Sarnoski",
+    "reparto": [
+      "Lupita Nyong'o",
+      "Joseph Quinn",
+      "Alex Wolff",
+      "Djimon Hounsou",
+      "Eliane Umuhire",
+      "Takunda Khumalo",
+      "Alfie Todd",
+      "Avy-Berry Worrall",
+      "Ronnie Le Drew",
+      "Benjamin Wong",
+      "Michael Roberts",
+      "Gavin Fleming"
+    ],
+    "calificacion": 6.7,
+    "votos": 3122,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-12T16:51:34.732575",
+    "tmdb_id": "762441",
+    "popularidad": 7.84,
+    "tagline": "Así empezó el silencio.",
+    "trailer": "https://www.youtube.com/watch?v=VvLQmb3IJJk",
+    "trailer_key": "VvLQmb3IJJk",
+    "success": true,
+    "duracion": "100 min",
+    "presupuesto": "$67,000,000",
+    "ingresos": "$261,907,653",
+    "plataforma": "Netflix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/w0w60oeoebry",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "un-lugar-tranquilo-dia-uno-2024"
   },
   {
     "tipo": "pelicula",
@@ -9112,6 +9897,65 @@ const peliculas3 = [
       }
     ],
     "id": "una-mujer-normal-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Una última aventura: Así se hizo Stranger Things 5",
+    "titulo_original": "One Last Adventure: The Making of Stranger Things 5",
+    "poster": "https://image.tmdb.org/t/p/w500/aZhrAx5CevLfjXcGIG3wBXxDiAL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/cGfQSdC2OoovVcCW1tchZCWxYIA.jpg",
+    "descripcion": "Un vistazo exclusivo a todos los años de trabajo artesanal invertidos para crear la última entrega de la serie de los hermanos Duffer.",
+    "año": 2026,
+    "categoria": [
+      "documental"
+    ],
+    "genero": [
+      "documental"
+    ],
+    "generos_lista": [
+      "Documental"
+    ],
+    "director": "Martina Radwan",
+    "reparto": [
+      "Ross Duffer",
+      "Matt Duffer",
+      "Shawn Levy",
+      "Millie Bobby Brown",
+      "Finn Wolfhard",
+      "Noah Schnapp",
+      "Gaten Matarazzo",
+      "Caleb McLaughlin",
+      "Sadie Sink",
+      "Natalia Dyer",
+      "Charlie Heaton",
+      "Joe Keery"
+    ],
+    "calificacion": 9.0,
+    "votos": 5,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-12T15:06:23.411573",
+    "tmdb_id": "1610413",
+    "popularidad": 7.18,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "122 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filemoon.to/e/udtheh64ir4s",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "una-ultima-aventura-asi-se-hizo-stranger-things-5-2026"
   },
   {
     "tipo": "pelicula",

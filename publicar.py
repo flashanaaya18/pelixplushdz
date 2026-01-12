@@ -350,6 +350,27 @@ def detectar_generos_desde_query(query):
             generos_encontrados.append(genero)
     return generos_encontrados
 
+def obtener_proveedores_streaming(tmdb_id, tipo_contenido):
+    """Obtiene la plataforma de streaming principal desde TMDb."""
+    try:
+        tipo_path = 'movie' if tipo_contenido == 'pelicula' else 'tv'
+        url = f"https://api.themoviedb.org/3/{tipo_path}/{tmdb_id}/watch/providers?api_key={TMDB_API_KEY}"
+        response = requests.get(url, timeout=5)
+        data = response.json()
+        
+        if 'results' in data:
+            # Prioridad de regiones: México, Argentina, España, USA
+            regiones = ['MX', 'AR', 'ES', 'US']
+            for region in regiones:
+                if region in data['results'] and 'flatrate' in data['results'][region]:
+                    providers = data['results'][region]['flatrate']
+                    if providers:
+                        # Devolver el nombre del primer proveedor encontrado
+                        return providers[0]['provider_name']
+    except Exception:
+        pass
+    return None
+
 def mostrar_resumen_detallado(detalles, tipo_contenido):
     """Muestra un resumen bien formateado de los detalles obtenidos."""
     print(f"\n{C.BOLD}{C.PURPLE}✨ RESUMEN DETALLADO ✨{C.END}")
@@ -385,6 +406,10 @@ def mostrar_resumen_detallado(detalles, tipo_contenido):
     coleccion = detalles.get('coleccion')
     if coleccion:
         print(f"{C.GOLD}📦 Colección: {coleccion}{C.END}")
+
+    # Plataforma
+    if detalles.get('plataforma'):
+        print(f"{C.CYAN}📺 Plataforma: {detalles.get('plataforma')}{C.END}")
 
     # Descripción
     descripcion = detalles.get('descripcion', 'Sin descripción.')
@@ -805,10 +830,12 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
             future_info = executor.submit(get_tmdb_data, item, 'info')
             future_credits = executor.submit(get_tmdb_data, item, 'credits')
             future_videos = executor.submit(get_tmdb_data, item, 'videos')
+            future_providers = executor.submit(obtener_proveedores_streaming, tmdb_id, tipo_contenido)
 
             detalles = future_info.result()
             creditos = future_credits.result()
             videos = future_videos.result()
+            plataforma_detectada = future_providers.result()
 
         if not detalles:
             raise Exception("No se pudo obtener información básica del contenido.")
@@ -888,6 +915,7 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
                 'estado': detalles.get('status', 'Desconocido'),
                 'productoras': productoras,
                 'coleccion': coleccion,
+                'plataforma': plataforma_detectada,
                 'success': True
             }
         
@@ -960,6 +988,7 @@ def obtener_detalles_tmdb_super_mejorado(tmdb_id, tipo_contenido='pelicula'):
                 'ultima_emision': detalles.get('last_air_date', ''),
                 'tipo_serie': detalles.get('type', 'Serie'),
                 'productoras': productoras,
+                'plataforma': plataforma_detectada,
                 'success': True
             }
     
@@ -2025,7 +2054,7 @@ def anadir_contenido(peliculas, proximamente):
     else:
         categorias = seleccionar_categoria()
     
-    plataforma = None
+    plataforma = datos_extras.get('plataforma')
     
     # Crear objeto de contenido
     año_valor = datos_extras.get('año', datetime.now().year)
@@ -2076,6 +2105,8 @@ def anadir_contenido(peliculas, proximamente):
         if datos_extras.get('ultima_emision'):
             nuevo_contenido['ultima_emision'] = datos_extras.get('ultima_emision')
     
+    if not plataforma:
+        plataforma = input(f"{C.CYAN}📺 Plataforma (opcional): {C.END}").strip()
     if plataforma:
         nuevo_contenido['plataforma'] = plataforma
     

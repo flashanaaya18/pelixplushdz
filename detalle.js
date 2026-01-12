@@ -450,7 +450,9 @@ function displayMovieDetails(movie) {
     sourceButtonsContainer.innerHTML = '';
 
     // Rellenar la sección de la portada
-    backdropContainer.style.backgroundImage = `url('${movie.backdrop_path || movie.poster}')`;
+    // CORRECCIÓN: Usar backdrop si existe, o backdrop_path, o poster como fallback
+    const backdropUrl = movie.backdrop || movie.backdrop_path || movie.poster;
+    backdropContainer.style.backgroundImage = `url('${backdropUrl}')`;
     posterImgEl.src = movie.poster;
     posterImgEl.alt = `Póster de ${movie.titulo}`;
 
@@ -488,19 +490,22 @@ function displayMovieDetails(movie) {
     if (platformsEl) {
         platformsEl.innerHTML = '';
         const plataforma = movie.plataforma;
-        if (plataforma) {
+        // Mostrar solo si hay plataforma y no es un valor genérico como "pelicula" o "serie"
+        if (plataforma && plataforma.toLowerCase() !== 'pelicula' && plataforma.toLowerCase() !== 'serie') {
             // Normalizar el nombre de la plataforma para que coincida con la clase CSS
-            const plataformaSlug = normalizeText(plataforma)
-                .replace(/\+/g, '-') // Reemplaza '+' con '-'
-                .replace(/[^a-z0-9-]/g, ''); // Limpia caracteres especiales
+            const normalize = window.normalizeText || ((t) => t.toLowerCase().replace(/[^a-z0-9]/g, ''));
+            const plataformaSlug = normalize(plataforma)
+                .replace(/\+/g, '') // Disney+ -> disney
+                .replace(/\s+/g, '-') // Prime Video -> prime-video
+                .replace(/[^a-z0-9-]/g, '');
 
             const pill = document.createElement('span');
-            pill.className = `card-tag tag-plataforma tag-${plataformaSlug}`;
+            pill.className = `platform-pill tag-${plataformaSlug}`;
             pill.textContent = plataforma;
             platformsEl.appendChild(pill);
-            platformsEl.parentElement.style.display = 'block';
+            platformsEl.style.display = 'flex';
         } else {
-            platformsEl.parentElement.style.display = 'none';
+            platformsEl.style.display = 'none';
         }
     }
 
@@ -1658,23 +1663,57 @@ function setupPlayerToolbar() {
  * @param {number} voteCount - Cantidad de votos.
  */
 function updateRatingUI(voteAverage, voteCount) {
-    const starsForeground = document.getElementById('api-stars-foreground');
+    const container = document.getElementById('api-rating-box');
     const scoreEl = document.getElementById('api-rating-score');
     const votesEl = document.getElementById('api-rating-votes');
+    const progressCircle = document.getElementById('rating-progress-circle');
+    const starsContainer = document.getElementById('api-stars-static');
 
-    if (!starsForeground || !scoreEl) return;
+    if (!scoreEl || !progressCircle) return;
 
     const rating = parseFloat(voteAverage) || 0;
     const votes = parseInt(voteCount) || 0;
 
-    // Calcular ancho de las estrellas (rating sobre 10)
-    const percentage = (rating / 10) * 100;
-    starsForeground.style.width = `${percentage}%`;
+    // Mostrar contenedor
+    if (container) container.style.display = 'inline-flex';
 
-    scoreEl.textContent = rating.toFixed(1);
+    // Actualizar texto del score
+    scoreEl.innerHTML = `${rating.toFixed(1)}<span>%</span>`;
+
+    // Actualizar círculo de progreso (0 a 100)
+    const percentage = (rating / 10) * 100;
+    const offset = 100 - percentage;
+    
+    // Animación del círculo
+    setTimeout(() => {
+        progressCircle.style.strokeDashoffset = offset;
+    }, 100);
+    
+    // Color dinámico según puntuación
+    if (rating >= 7) progressCircle.style.stroke = '#2ecc71'; // Verde
+    else if (rating >= 5) progressCircle.style.stroke = '#f1c40f'; // Amarillo
+    else progressCircle.style.stroke = '#e74c3c'; // Rojo
+
+    // Actualizar estrellas estáticas
+    if (starsContainer) {
+        let starsHtml = '';
+        const fullStars = Math.floor(rating / 2);
+        const hasHalfStar = (rating % 2) >= 1;
+        
+        for (let i = 0; i < 5; i++) {
+            if (i < fullStars) {
+                starsHtml += '<i class="fas fa-star"></i>';
+            } else if (i === fullStars && hasHalfStar) {
+                starsHtml += '<i class="fas fa-star-half-alt"></i>';
+            } else {
+                starsHtml += '<i class="far fa-star"></i>';
+            }
+        }
+        starsContainer.innerHTML = starsHtml;
+    }
 
     if (votesEl) {
-        votesEl.textContent = `(${votes} votos)`;
+        votesEl.textContent = `${votes.toLocaleString()} votos`;
     }
 }
 

@@ -1792,6 +1792,49 @@
                 /* Ancho ajustado para móvil */
             }
         }
+
+        /* Estilos para Plataformas (Diseño Profesional) */
+        .platforms-scroll-container {
+            display: flex;
+            gap: 15px;
+            overflow-x: auto;
+            padding: 10px 5px 20px 5px;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+        }
+        .platforms-scroll-container::-webkit-scrollbar { display: none; }
+        
+        .platform-card {
+            flex: 0 0 auto;
+            width: 130px;
+            height: 75px;
+            border-radius: 12px;
+            background: #1f1f1f;
+            border: 1px solid rgba(255,255,255,0.1);
+            display: flex; align-items: center; justify-content: center;
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            position: relative;
+        }
+        .platform-card:hover {
+            transform: translateY(-5px);
+            border-color: #e50914;
+            box-shadow: 0 8px 20px rgba(229, 9, 20, 0.25);
+            background: #2a2a2a;
+        }
+        .platform-card img { 
+            width: 70%; height: 70%; object-fit: contain; 
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+        }
+        
+        @media (min-width: 768px) {
+            .platforms-scroll-container { justify-content: center; gap: 25px; }
+            .platform-card { width: 160px; height: 90px; }
+        }
     </style>
     <!-- SEO: Schema.org for Website -->
     <script type="application/ld+json">
@@ -2328,6 +2371,45 @@
                 <div id="continue-watching-grid" class="horizontal-scroll"></div>
             </section>
 
+            <!-- Sección de Plataformas -->
+            <section id="platforms-section" class="content-row">
+                <div class="section-title-container">
+                    <h2 class="section-title">Plataformas</h2>
+                </div>
+                <div class="platforms-scroll-container">
+                    <div class="platform-card" title="Netflix">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg" alt="Netflix">
+                    </div>
+                    <div class="platform-card" title="Disney+" style="background: linear-gradient(to bottom, #001d3d, #000);">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg" alt="Disney+">
+                    </div>
+                    <div class="platform-card" title="Amazon Prime Video" style="background: #00A8E1;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg" alt="Prime Video" style="filter: brightness(0) invert(1);">
+                    </div>
+                    <div class="platform-card" title="HBO Max" style="background: #000;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Max_logo.svg" alt="Max">
+                    </div>
+                    <div class="platform-card" title="Vix" style="background: #ff4d00;">
+                        <img src="https://imgs.search.brave.com/Q1Kd_rJYpbHZPysk6QgJkvkE3JwDYX7qF4NwtCVckR0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2FibGV0di5jb20v/YXBwL3VwbG9hZHMv/MjAyMy8wNS92aXgu/c3Zn" alt="Vix" style="filter: brightness(0) invert(1);">
+                    </div>
+                    <div class="platform-card" title="Apple TV+" style="background: #000;">
+                        <img src="https://imgs.search.brave.com/ZbjpiPpphCtOCgHQ4JqI-16xqePZ8_5-0Ou1J5UHbNk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIyLzAy/L0FwcGxlLVRWLUxv/Z28tMS01MDB4Mjgx/LnBuZw" alt="Apple TV+">
+                    </div>
+                    <div class="platform-card" title="Paramount+" style="background: #0064ff;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Paramount_Plus.svg" alt="Paramount+" style="filter: brightness(0) invert(1);">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección de Resultados de Plataformas (Oculta por defecto) -->
+            <section id="platform-results-section" class="content-row" style="display: none; scroll-margin-top: 100px;">
+                <div class="section-title-container" style="display: flex; justify-content: space-between; align-items: center;">
+                    <h2 class="section-title" id="platform-results-title">Resultados</h2>
+                    <button id="close-platform-results" style="background: rgba(255,255,255,0.1); border: none; color: white; width: 36px; height: 36px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 0.3s;"><i class="fas fa-times"></i></button>
+                </div>
+                <div id="platform-results-grid" class="movie-grid-full"></div>
+            </section>
+
             <section id="view-history-section" class="content-row" style="display:none;">
                 <div class="section-title-container">
                     <h2 class="section-title">Visto recientemente</h2>
@@ -2470,6 +2552,11 @@
 
     <!-- External Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+    <script src="peliculas.js"></script>
+    <script src="peliculas1.js"></script>
+    <script src="peliculas2.js"></script>
+    <script src="peliculas3.js"></script>
+    <script src="hover.js"></script>
     <script src="script.js?v=4"></script>
     <script src="top-series.js"></script>
 
@@ -3123,6 +3210,97 @@
                 }
             }
         }, true);
+
+        // --- TMDB Trending Logic (Tiempo Real) ---
+        async function loadTrendingTMDB() {
+            const container = document.getElementById('tendencias');
+            if (!container) return;
+
+            const API_KEY = '9869fab7c867e72214c8628c6029ec74';
+            const url = `https://api.themoviedb.org/3/trending/all/day?api_key=${API_KEY}&language=es-ES`;
+
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+
+                if (data.results && data.results.length > 0) {
+                    // Limpiar contenedor
+                    container.innerHTML = '';
+
+                    // Crear estructura
+                    const header = document.createElement('div');
+                    header.className = 'section-title-container';
+                    header.innerHTML = '<h2 class="section-title">Tendencias Globales <span style="font-size:0.6em; color:#e50914; margin-left:10px; vertical-align: middle; border: 1px solid #e50914; padding: 2px 6px; border-radius: 4px;">EN VIVO</span></h2>';
+
+                    const carousel = document.createElement('div');
+                    carousel.className = 'carrusel-contenedor';
+
+                    const btnLeft = document.createElement('button');
+                    btnLeft.className = 'carrusel-flecha izquierda';
+                    btnLeft.innerHTML = '&#10094;';
+                    btnLeft.setAttribute('aria-label', 'Anterior');
+
+                    const grid = document.createElement('div');
+                    grid.className = 'movie-grid';
+                    
+                    const btnRight = document.createElement('button');
+                    btnRight.className = 'carrusel-flecha derecha';
+                    btnRight.innerHTML = '&#10095;';
+                    btnRight.setAttribute('aria-label', 'Siguiente');
+
+                    data.results.forEach(item => {
+                        if (item.media_type === 'person') return;
+
+                        const title = item.title || item.name;
+                        const posterPath = item.poster_path 
+                            ? `https://image.tmdb.org/t/p/w300${item.poster_path}` 
+                            : 'https://via.placeholder.com/300x450?text=No+Image';
+                        const date = item.release_date || item.first_air_date || '';
+                        const year = date.split('-')[0];
+                        const type = item.media_type === 'movie' ? 'Película' : 'Serie';
+                        const rating = item.vote_average ? item.vote_average.toFixed(1) : 'N/A';
+
+                        const card = document.createElement('div');
+                        card.className = 'movie-card';
+                        card.innerHTML = `
+                            <a href="detalles.html?tmdb=${item.id}&type=${item.media_type}" class="card-link" style="text-decoration:none; color:inherit;">
+                                <div class="card-head">
+                                    <img src="${posterPath}" alt="${title}" loading="lazy">
+                                    <div class="rating-badge">
+                                        <i class="fas fa-star"></i> ${rating}
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">${title}</h3>
+                                    <div class="card-info">
+                                        <span>${year}</span>
+                                        <span>${type}</span>
+                                    </div>
+                                </div>
+                            </a>
+                        `;
+                        grid.appendChild(card);
+                    });
+
+                    carousel.appendChild(btnLeft);
+                    carousel.appendChild(grid);
+                    carousel.appendChild(btnRight);
+
+                    container.appendChild(header);
+                    container.appendChild(carousel);
+
+                    // Lógica de scroll
+                    const scrollAmount = 300;
+                    btnLeft.addEventListener('click', () => grid.scrollBy({ left: -scrollAmount, behavior: 'smooth' }));
+                    btnRight.addEventListener('click', () => grid.scrollBy({ left: scrollAmount, behavior: 'smooth' }));
+                }
+            } catch (error) {
+                console.error('Error cargando tendencias TMDB:', error);
+                container.style.display = 'none';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', loadTrendingTMDB);
 
         // Limpiar caché automáticamente
         (function autoClearCache() {

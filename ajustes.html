@@ -197,187 +197,6 @@
                 </div>
             </section>
 
-            <section class="setting-group" id="account-section" style="display:none;">
-                <h2><i class="fas fa-user-circle"></i> Cuenta</h2>
-                <div class="setting-item danger-zone">
-                    <span>Cerrar la sesión actual en este dispositivo.</span>
-                    <button id="btn-logout" class="btn-setting btn-danger">Cerrar Sesión</button>
-                </div>
-            </section>
-
-            <section class="setting-group">
-                <h2>Apariencia</h2>
-                <div class="setting-item">
-                    <span>Modo Claro / Oscuro</span>
-                    <label class="toggle-switch">
-                        <input type="checkbox" id="theme-toggle">
-                        <span class="slider"></span>
-                    </label>
-                </div>
-                <div class="setting-item">
-                    <span>Reducir Animaciones (Mejora rendimiento)</span>
-                    <label class="toggle-switch">
-                        <input type="checkbox" id="motion-toggle">
-                        <span class="slider"></span>
-                    </label>
-                </div>
-                <div class="setting-item">
-                    <span>Efecto Ambilight por defecto (Modo Cine)</span>
-                    <label class="toggle-switch">
-                        <input type="checkbox" id="ambilight-toggle">
-                        <span class="slider"></span>
-                    </label>
-                </div>
-            </section>
-
-            <section class="setting-group">
-                <h2>Reproducción</h2>
-                <div class="setting-item">
-                    <span>Reproducción Automática (Siguiente episodio)</span>
-                    <label class="toggle-switch">
-                        <input type="checkbox" id="autoplay-toggle">
-                        <span class="slider"></span>
-                    </label>
-                </div>
-                <div class="setting-item">
-                    <span>Saltar intros automáticamente</span>
-                    <label class="toggle-switch">
-                        <input type="checkbox" id="skip-intro-toggle">
-                        <span class="slider"></span>
-                    </label>
-                </div>
-                <div class="setting-item">
-                    <span>País (para idioma por defecto)</span>
-                    <select id="country-select" class="btn-setting" style="background: #333; border: 1px solid #444;">
-                        <option value="auto">Automático</option>
-                        <option value="ES">España</option>
-                        <option value="MX">México</option>
-                        <option value="US">EE.UU. (Subtitulado)</option>
-                        <option value="AR">Argentina</option>
-                        <option value="CO">Colombia</option>
-                    </select>
-                </div>
-                <div class="setting-item">
-                    <span>Idioma de audio preferido</span>
-                    <select id="preferred-lang-select" class="btn-setting" style="background: #333; border: 1px solid #444;">
-                        <option value="any">Cualquiera</option>
-                        <option value="latino">Latino</option>
-                        <option value="castellano">Castellano</option>
-                        <option value="subtitulado">Subtitulado</option>
-                    </select>
-                </div>
-            </section>
-
-            <section class="setting-group">
-                <h2>Personalización</h2>
-                <div class="setting-item">
-                    <span>Tamaño de Subtítulos</span>
-                    <select id="subtitle-size-select" class="btn-setting" style="background: #333; border: 1px solid #444;">
-                        <option value="100%">Normal</option>
-                        <option value="75%">Pequeño</option>
-                        <option value="125%">Grande</option>
-                        <option value="150%">Muy Grande</option>
-                    </select>
-                </div>
-                <div class="setting-item">
-                    <span>Mostrar Calificaciones en Portadas</span>
-                    <label class="toggle-switch">
-                        <input type="checkbox" id="show-ratings-toggle" checked>
-                        <span class="slider"></span>
-                    </label>
-                </div>
-                <div class="setting-item">
-                    <span>Modo Compacto (Más contenido)</span>
-                    <label class="toggle-switch">
-                        <input type="checkbox" id="compact-mode-toggle">
-                        <span class="slider"></span>
-                    </label>
-                </div>
-            </section>
-
-            <section class="setting-group">
-                <h2>Personalización de Inicio</h2>
-                <div class="setting-item">
-                    <span>Mostrar "Seguir Viendo"</span>
-                    <label class="toggle-switch">
-                        <input type="checkbox" id="show-continue-watching-toggle" checked>
-                        <span class="slider"></span>
-                    </label>
-                </div>
-                <div class="setting-item">
-                    <span>Mostrar "Tendencias"</span>
-                    <label class="toggle-switch">
-                        <input type="checkbox" id="show-trending-toggle" checked>
-                        <span class="slider"></span>
-                    </label>
-                </div>
-                <div class="setting-item">
-                    <span>Mostrar "Añadido Recientemente"</span>
-                    <label class="toggle-switch">
-                        <input type="checkbox" id="show-recently-added-toggle" checked>
-                        <span class="slider"></span>
-                    </label>
-                </div>
-                <div class="setting-item">
-                    <span>Mostrar "Recomendado para ti"</span>
-                    <label class="toggle-switch">
-                        <input type="checkbox" id="show-recommendations-toggle" checked>
-                        <span class="slider"></span>
-                    </label>
-                </div>
-            </section>
-
-            <section class="setting-group">
-                <h2>Datos y Almacenamiento</h2>
-                <div class="setting-item">
-                    <span>Limpiar caché automáticamente al iniciar</span>
-                    <label class="toggle-switch">
-                        <input type="checkbox" id="auto-cache-clear-toggle">
-                        <span class="slider"></span>
-                    </label>
-                </div>
-                <div class="setting-item">
-                    <span>Limpiar historial de "Seguir Viendo"</span>
-                    <button id="clear-history-btn" class="btn-setting">Limpiar</button>
-                </div>
-                <div class="setting-item">
-                    <span>Limpiar todos los Favoritos</span>
-                    <button id="clear-favorites-btn" class="btn-setting">Limpiar</button>
-                </div>
-                <div class="setting-item">
-                    <span>Limpiar caché de la aplicación</span>
-                    <button id="clear-cache-btn" class="btn-setting">Limpiar</button>
-                </div>
-                <div class="setting-item">
-                    <span>Exportar mis datos (favoritos, historial)</span>
-                    <button id="export-data-btn" class="btn-setting">Exportar</button>
-                </div>
-                <div class="setting-item">
-                    <span>Importar mis datos</span>
-                    <button id="import-data-btn" class="btn-setting">Importar</button>
-                    <input type="file" id="import-data-input" accept=".json" style="display: none;">
-                </div>
-                <div class="setting-item danger-zone">
-                    <span>Restablecer todos los datos de la app</span>
-                    <button id="reset-all-btn" class="btn-setting btn-danger">Restablecer App</button>
-                </div>
-            </section>
-
-            <section class="setting-group">
-                <h2>Aplicación</h2>
-                <div id="install-app-container" class="setting-item" style="display: none;">
-                    <span>Instalar aplicación en tu dispositivo</span>
-                    <button id="install-app-btn" class="btn-setting" style="background-color: #007bff; color: white;">Instalar</button>
-                </div>
-            </section>
-
-            <section class="setting-group">
-                <h2>Acerca de</h2>
-                <div class="setting-item">
-                    <span>Versión de la App</span>
-                    <span id="app-version">4.0</span>
-                </div>
-            </section>
         </div>
     </main>
 
@@ -429,8 +248,6 @@
             const vipRequestsSection = document.getElementById('vip-requests-section');
             const vipSection = document.getElementById('vip-subscription-section');
             const freeSection = document.getElementById('free-subscription-section');
-            const accountSection = document.getElementById('account-section');
-            const btnLogout = document.getElementById('btn-logout');
             const usernameDisplay = document.getElementById('vip-username-display');
             const expirationDisplay = document.getElementById('vip-expiration-date');
             const timeRemainingDisplay = document.getElementById('vip-time-remaining');
@@ -438,22 +255,6 @@
 
             const accessType = sessionStorage.getItem('pelix_access_type');
             const userCode = sessionStorage.getItem('pelix_user_code');
-
-            if (accessType) {
-                if (accountSection) accountSection.style.display = 'block';
-            }
-
-            if (btnLogout) {
-                btnLogout.addEventListener('click', () => {
-                    if (confirm('¿Estás seguro de que quieres cerrar la sesión?')) {
-                        sessionStorage.clear();
-                        if (typeof showNotification === 'function') {
-                            showNotification('Sesión cerrada correctamente. Redirigiendo...', 'info');
-                        }
-                        setTimeout(() => { window.location.href = 'index.html'; }, 1500);
-                    }
-                });
-            }
 
             if (accessType === 'vip' && userCode) {
                 vipSection.style.display = 'block';
@@ -519,38 +320,6 @@
                 // Si no es VIP (Gratis o sin sesión), mostrar sección gratuita
                 if(freeSection) freeSection.style.display = 'block';
             }
-
-            // PWA Install Logic
-            const installContainer = document.getElementById('install-app-container');
-            const installBtn = document.getElementById('install-app-btn');
-
-            window.addEventListener('beforeinstallprompt', (e) => {
-                e.preventDefault();
-                deferredPrompt = e;
-                if (installContainer) {
-                    installContainer.style.display = 'flex';
-                }
-            });
-
-            if (installBtn) {
-                installBtn.addEventListener('click', async () => {
-                    if (deferredPrompt) {
-                        deferredPrompt.prompt();
-                        const { outcome } = await deferredPrompt.userChoice;
-                        if (outcome === 'accepted') {
-                            console.log('User accepted the A2HS prompt');
-                        }
-                        deferredPrompt = null;
-                        if (installContainer) {
-                            installContainer.style.display = 'none';
-                        }
-                    }
-                });
-            }
-
-            window.addEventListener('appinstalled', () => {
-                if (installContainer) installContainer.style.display = 'none';
-            });
 
             // Lógica de Pedidos VIP
             const requestInput = document.getElementById('request-search-input');

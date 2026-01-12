@@ -1,9 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Espera a que el script principal (script.js) esté listo y haya cargado los datos.
-    document.addEventListener('app-ready', initializeSearchPage);
+    // Inicialización robusta: Si ya hay datos, iniciar. Si no, esperar evento o timeout.
+    if (window.peliculas && window.peliculas.length > 0) {
+        initializeSearchPage();
+    } else {
+        document.addEventListener('app-ready', initializeSearchPage);
+        // Fallback de seguridad por si el evento app-ready ya pasó o falló
+        setTimeout(() => { if (!window.searchPageInitialized) initializeSearchPage(); }, 1000);
+    }
 });
 
 function initializeSearchPage() {
+    if (window.searchPageInitialized) return; // Evitar doble inicialización
+    window.searchPageInitialized = true;
     console.log("Página de búsqueda inicializada.");
 
     const searchInput = document.getElementById('search-page-input');
@@ -28,6 +36,14 @@ function initializeSearchPage() {
     if (!searchInput || !resultsGrid || !resultsContainer || !placeholder || !loader) {
         console.error("Faltan elementos esenciales en la página de búsqueda.");
         return;
+    }
+
+    // Fallback para normalizeText si script.js no cargó bien
+    if (!window.normalizeText) {
+        window.normalizeText = (text) => {
+            if (!text) return '';
+            return text.toString().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        };
     }
 
     // --- Populate Genre Filter ---
@@ -110,17 +126,34 @@ function initializeSearchPage() {
     };
 
     const renderCard = (item) => {
-        const localItem = checkAvailability(item);
-        const isAvailable = !!localItem;
+        // Detectar si es un item local o de TMDB
+        const isLocal = item.hasOwnProperty('titulo') && !item.hasOwnProperty('media_type');
         
-        const posterPath = item.poster_path 
-            ? `https://image.tmdb.org/t/p/w500${item.poster_path}` 
-            : 'https://via.placeholder.com/500x750?text=No+Image';
+        let localItem = null;
+        let isAvailable = false;
+
+        if (isLocal) {
+            localItem = item;
+            isAvailable = true;
+        } else {
+            localItem = checkAvailability(item);
+            isAvailable = !!localItem;
+        }
         
-        const title = item.title || item.name;
-        const date = item.release_date || item.first_air_date || 'N/A';
-        const year = date.split('-')[0];
-        const type = item.media_type === 'tv' ? 'Serie' : 'Película';
+        const posterPath = isLocal 
+            ? (item.poster || 'https://via.placeholder.com/500x750?text=No+Image')
+            : (item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : 'https://via.placeholder.com/500x750?text=No+Image');
+        
+        const title = isLocal ? item.titulo : (item.title || item.name);
+        const date = isLocal ? (item.año || 'N/A') : (item.release_date || item.first_air_date || 'N/A');
+        const year = date ? date.toString().split('-')[0] : 'N/A';
+        
+        let type = 'Película';
+        if (isLocal) {
+            type = (item.tipo === 'serie' || item.tipo === 'tv') ? 'Serie' : 'Película';
+        } else {
+            type = item.media_type === 'tv' ? 'Serie' : 'Película';
+        }
 
         const card = document.createElement('div');
         card.className = 'movie-card'; // Reutilizamos estilos existentes
@@ -172,16 +205,6 @@ function initializeSearchPage() {
         const selectedType = typeFilter.value;
         // const selectedGenre = genreFilter.value; // TMDB filtering by genre requires extra logic mapping IDs
 
-        if (!query) {
-            resultsContainer.style.display = 'none';
-            placeholder.style.display = 'block';
-            loader.style.display = 'none';
-            resultsGrid.innerHTML = '';
-            paginationContainer.style.display = 'none';
-            if (resultsCount) resultsCount.textContent = '';
-            return;
-        }
-
         if (!isLoadMore) {
             currentPage = 1;
             resultsGrid.innerHTML = '';
@@ -191,32 +214,79 @@ function initializeSearchPage() {
         placeholder.style.display = 'none';
         resultsContainer.style.display = 'block';
         loader.style.display = 'block';
-        isSearching = true;
-
-        const data = await searchTMDB(query, currentPage, selectedType);
         
+        let results = [];
+        let totalResults = 0;
+
+        if (query) {
+            // --- MODO BÚSQUEDA TMDB ---
+            isSearching = true;
+            const data = await searchTMDB(query, currentPage, selectedType);
+            if (data && data.results) {
+                results = data.results;
+                totalPages = data.total_pages;
+                totalResults = data.total_results;
+            }
+        } else {
+            // --- MODO CATÁLOGO LOCAL ---
+            isSearching = false;
+            let filtered = window.peliculas || [];
+
+            // Filtro Tipo
+            if (selectedType !== 'multi') {
+                const typeMap = { 'movie': 'pelicula', 'tv': 'serie' };
+                filtered = filtered.filter(p => p.tipo === typeMap[selectedType]);
+            }
+
+            // Filtro Género
+            const selectedGenre = genreFilter.value;
+            if (selectedGenre !== 'all') {
+                filtered = filtered.filter(p => {
+                    if (!p.genero) return false;
+                    const genres = Array.isArray(p.genero) ? p.genero : [p.genero];
+                    return genres.some(g => g.toLowerCase() === selectedGenre);
+                });
+            }
+
+            // Ordenamiento
+            const selectedSort = sortBy.value;
+            if (selectedSort === 'popularity') {
+                filtered.sort((a, b) => (b.popularidad || 0) - (a.popularidad || 0));
+            } else if (selectedSort === 'release_date_desc') {
+                filtered.sort((a, b) => {
+                    const dateA = a.addedDate ? new Date(a.addedDate) : new Date(a.año, 0, 1);
+                    const dateB = b.addedDate ? new Date(b.addedDate) : new Date(b.año, 0, 1);
+                    return dateB - dateA;
+                });
+            } else if (selectedSort === 'rating_desc') {
+                filtered.sort((a, b) => (b.calificacion || 0) - (a.calificacion || 0));
+            } else if (selectedSort === 'title_asc') {
+                filtered.sort((a, b) => (a.titulo || '').localeCompare(b.titulo || ''));
+            }
+
+            totalResults = filtered.length;
+            totalPages = Math.ceil(totalResults / 20); // 20 items por página
+            
+            const start = (currentPage - 1) * 20;
+            const end = start + 20;
+            results = filtered.slice(start, end);
+        }
+
         loader.style.display = 'none';
         isSearching = false;
 
-        if (!data || !data.results) {
-            resultsGrid.innerHTML = '<p style="color:white; text-align:center;">Error al conectar con el servidor de búsqueda.</p>';
-            return;
-        }
-
-        totalPages = data.total_pages;
-
         if (resultsCount) {
-            resultsCount.textContent = `${data.total_results} resultados encontrados`;
+            resultsCount.textContent = `${totalResults} resultados encontrados`;
         }
 
-        if (data.results.length === 0 && currentPage === 1) {
+        if (results.length === 0 && currentPage === 1) {
             resultsGrid.innerHTML = `<div class="no-results-container">
                 <h2 class="no-results-title">Sin resultados</h2>
                 <p class="no-results-subtitle">No encontramos nada que coincida con tu búsqueda.</p>
-            </div>`;
+            </div>`; 
             paginationContainer.style.display = 'none';
         } else {
-            data.results.forEach(item => {
+            results.forEach(item => {
                 // Filter out people, only show movie and tv
                 if (item.media_type === 'person') return;
                 
@@ -237,8 +307,8 @@ function initializeSearchPage() {
 
     searchInput.addEventListener('input', debounce(() => performSearch(false), 500));
     typeFilter.addEventListener('change', () => performSearch(false));
-    // genreFilter.addEventListener('change', performSearch); // Genre filter disabled for TMDB direct search for simplicity
-    // sortBy.addEventListener('change', performSearch); // Sort is handled by TMDB relevance usually
+    genreFilter.addEventListener('change', () => performSearch(false));
+    sortBy.addEventListener('change', () => performSearch(false));
 
     if (loadMoreBtn) {
         loadMoreBtn.addEventListener('click', () => {
@@ -256,6 +326,9 @@ function initializeSearchPage() {
             performSearch(false);
         });
     }
+
+    // Cargar catálogo inicial
+    performSearch(false);
 
     // --- Request System Logic ---
     const requestModal = document.getElementById('request-modal');

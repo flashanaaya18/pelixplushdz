@@ -972,7 +972,14 @@ document.addEventListener('DOMContentLoaded', async () => {
         const nuevoTag = pelicula.es_nuevo ? `<div class="card-tag tag-nuevo">NUEVO</div>` : '';
         const recienteTag = pelicula.es_reciente ? `<div class="card-tag tag-reciente">RECIENTE</div>` : '';
         const mostViewedTag = mostViewedIds.includes(pelicula.id) ? `<div class="card-tag tag-most-viewed">🔥 MÁS VISTO</div>` : '';
-        const plataformaTag = pelicula.plataforma ? `<div class="card-tag tag-plataforma tag-${pelicula.plataforma.toLowerCase().replace(/[^a-z0-9]/g, '-')}">${pelicula.plataforma}</div>` : '';
+        
+        let plataformaTag = '';
+        if (pelicula.plataforma && pelicula.plataforma.toLowerCase() !== 'pelicula') {
+            // Normalizar nombre para clase CSS (ej: "Amazon Prime Video" -> "amazon-prime-video")
+            const platClass = pelicula.plataforma.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+            plataformaTag = `<div class="card-tag tag-plataforma tag-${platClass}">${pelicula.plataforma}</div>`;
+        }
+        
         const nuevaTemporadaTag = pelicula.estado_temporada === 'nueva' ? `<div class="card-tag tag-nueva-temporada">NUEVA TEMPORADA</div>` : '';
         const prontoTemporadaTag = pelicula.estado_temporada === 'pronto' ? `<div class="card-tag tag-pronto-temporada">PRONTO NUEVA TEMP.</div>` : '';
 
@@ -1311,7 +1318,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     };
 
-    function renderTrendingSection() {
+    // --- NUEVO: Renderizar Tendencias desde TMDB (Tiempo Real) ---
+    async function renderTrendingSection() {
         const trendingSection = document.getElementById('tendencias');
         if (!trendingSection) return;
 
@@ -1325,35 +1333,80 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const titleContainer = document.createElement('div');
         titleContainer.className = 'section-title-container';
-        titleContainer.innerHTML = `<h2 class="section-title">${secciones['tendencias']}</h2>`;
+        titleContainer.innerHTML = `<h2 class="section-title">${secciones['tendencias']} <span style="font-size:0.6em; color:#e50914; margin-left:10px; vertical-align: middle; border: 1px solid #e50914; padding: 2px 6px; border-radius: 4px;">EN VIVO</span></h2>`;
         trendingSection.appendChild(titleContainer);
 
-        const viewCounts = dataManager.getViewCounts();
-        const sortedTrendingMovies = window.peliculas
-            .map(p => ({ ...p, views: viewCounts[p.id] || 0 }))
-            .sort((a, b) => b.views - a.views)
-            .slice(0, 5);
+        // Loader
+        const loader = document.createElement('div');
+        loader.className = 'loader-bar';
+        loader.style.cssText = 'margin: 2rem auto; animation: none; background: var(--primary); width: 50px; height: 4px;';
+        trendingSection.appendChild(loader);
 
-        if (sortedTrendingMovies.length === 0) {
-            trendingSection.innerHTML = `
-                <div class="no-favorites-message">
-                    <h3>¡Aún no hay tendencias!</h3>
-                    <p>Abre algunas películas para que empiecen a aparecer aquí.</p>
-                </div>
-            `;
-            return;
+        try {
+            // Usamos 'day' para tiempo real
+            const response = await fetch(`https://api.themoviedb.org/3/trending/all/day?api_key=${TMDB_API_KEY}&language=es-ES`);
+            const data = await response.json();
+
+            if (data.results && data.results.length > 0) {
+                loader.remove();
+
+                const gridContainer = document.createElement('div');
+                gridContainer.className = 'carrusel-contenedor';
+                
+                gridContainer.innerHTML = `
+                    <button class="carrusel-flecha izquierda" aria-label="Anterior">&#10094;</button>
+                    <div class="movie-grid" id="trending-grid"></div>
+                    <button class="carrusel-flecha derecha" aria-label="Siguiente">&#10095;</button>
+                `;
+                trendingSection.appendChild(gridContainer);
+
+                const grid = gridContainer.querySelector('.movie-grid');
+                const flechaIzquierda = gridContainer.querySelector('.izquierda');
+                const flechaDerecha = gridContainer.querySelector('.derecha');
+
+                flechaIzquierda.addEventListener('click', () => grid.scrollBy({ left: -grid.clientWidth * 0.8, behavior: 'smooth' }));
+                flechaDerecha.addEventListener('click', () => grid.scrollBy({ left: grid.clientWidth * 0.8, behavior: 'smooth' }));
+
+                data.results.forEach(item => {
+                    if (item.media_type === 'person') return;
+
+                    const peliculaData = {
+                        id: `tmdb-${item.id}`,
+                        tmdbId: item.id,
+                        tipo: item.media_type === 'tv' ? 'serie' : 'pelicula',
+                        titulo: item.title || item.name,
+                        descripcion: item.overview,
+                        poster: item.poster_path ? `https://image.tmdb.org/t/p/w500${item.poster_path}` : 'https://via.placeholder.com/180x270/333333/ffffff?text=No+Image',
+                        año: (item.release_date || item.first_air_date || '').split('-')[0] || 'N/A',
+                        calificacion: item.vote_average,
+                        esTmdb: true
+                    };
+
+                    const card = createMovieCard(peliculaData);
+                    // Ajustar enlace para que detalle.js sepa que es de TMDB
+                    card.href = `detalles.html?tmdb=${item.id}&type=${item.media_type}`;
+                    
+                    // Sobrescribir evento click para usar el loader con la nueva URL
+                    card.addEventListener('click', (e) => {
+                        if (!e.target.closest('.card-favorite-btn')) {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            window.showPageLoader(card.href);
+                        }
+                    }, { capture: true });
+
+                    grid.appendChild(card);
+                });
+                
+                trendingSection.style.display = 'block';
+            } else {
+                trendingSection.style.display = 'none';
+            }
+        } catch (error) {
+            console.error('Error cargando tendencias TMDB:', error);
+            trendingSection.style.display = 'none';
         }
-
-        const grid = document.createElement('div');
-        grid.className = 'movie-grid-full';
-
-        sortedTrendingMovies.forEach(pelicula => {
-            const tarjeta = createMovieCard(pelicula);
-            grid.appendChild(tarjeta);
-        });
-        trendingSection.appendChild(grid);
-        trendingSection.style.display = 'block';
-    };
+    }
 
     // --- NUEVO: Renderizar Destacados por Pelixplushd (Videos YouTube) ---
     const renderDestacadosSection = () => {

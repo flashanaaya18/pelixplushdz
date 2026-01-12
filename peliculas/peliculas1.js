@@ -23189,50 +23189,6 @@ const peliculas1 = [
     "id": "sneaks-2025"
   },
   {
-    "id": "sonic-3-la-pelicula-2024",
-    "tipo": "pelicula",
-    "titulo": "Sonic 3 - La película",
-    "poster": "https://ww5.pelisplushd.to/poster/sonic-3-la-pelicula-thumb.jpg",
-    "descripcion": "Ver Sonic 3 - La película Online Latino, Español, Subtituladas Gratis | Cuevana3. Sonic, Knuckles y Tails se reunirán para enfrentarse a un nuevo y poderoso adversario, Shadow, un misterioso villano con poderes nunca antes vistos. Con sus habilidades rebasadas en todos los sentidos, el Equipo Sonic deberá buscar una alianza improbable con la esperanza de detener a Shadow y proteger el planeta.",
-    "categoria": [
-      "lanzamientos-recientes"
-    ],
-    "duracion": "N/A",
-    "director": "N/A",
-    "reparto": [
-      ""
-    ],
-    "favorito": false,
-    "genero": [
-      "Aventura"
-    ],
-    "calidad": "HD",
-    "addedDate": "2025-11-16T02:47:13.490050",
-    "tamaño": "N/A",
-    "año": 2024,
-    "calificacion": 8.1,
-    "votos": 0,
-    "es_nuevo": false,
-    "es_reciente": false,
-    "esta_roto": false,
-    "plataforma": "pelicula",
-    "fuentes": [
-      {
-        "idioma": "latino",
-        "url": "https://goodstream.uno/video/embed/xu4v5be8ahxq"
-      }
-    ],
-    "descargas": [
-      {
-        "calidad": "HD",
-        "idioma": "latino",
-        "formato": "MP4",
-        "servidor": "Directo",
-        "url": "https://goodstream.uno/video/embed/xu4v5be8ahxq"
-      }
-    ]
-  },
-  {
     "id": "sorpresa-en-navidad-2020",
     "tipo": "pelicula",
     "titulo": "Sorpresa en Navidad",
@@ -26706,6 +26662,13 @@ const peliculas1 = [
       {
         "idioma": "latino",
         "url": "https://dinisglows.com/embed/q6u44ootqzkb"
+      },
+      {
+        "url": "https://fastream.to/embed-3s04wn554qz2.html",
+        "idioma": "Latino",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
       }
     ],
     "id": "una-batalla-tras-otra-2025",
