@@ -395,15 +395,33 @@
                     }
 
                     requests.reverse().forEach(req => {
+                        // Simulación de estado basado en el tiempo (solo para demo visual)
+                        // En un sistema real, esto vendría de la base de datos
+                        const steps = ['Solicitada', 'Buscando', 'Subiendo', 'Disponible'];
+                        const randomStep = Math.floor(Math.random() * 2); // 0 o 1 para nuevos
+                        const statusLabel = steps[randomStep];
+                        const progressWidth = (randomStep + 1) * 25;
+                        
                         const item = document.createElement('div');
                         item.className = 'my-request-item';
+                        item.style.display = 'block'; // Cambiar layout para barra de progreso
                         item.innerHTML = `
-                            <img src="${req.poster}" alt="Poster">
-                            <div class="my-request-info">
-                                <h4>${req.title}</h4>
-                                <span>${req.year} • ${req.type === 'movie' ? 'Película' : 'Serie'}</span>
+                            <div style="display:flex; gap:10px; align-items:center; margin-bottom:8px;">
+                                <img src="${req.poster}" alt="Poster" style="width:40px; height:60px; object-fit:cover; border-radius:4px;">
+                                <div class="my-request-info">
+                                    <h4 style="margin:0; color:white;">${req.title}</h4>
+                                    <span style="color:#aaa; font-size:0.8rem;">${req.year} • ${req.type === 'movie' ? 'Película' : 'Serie'}</span>
+                                </div>
+                                <span class="request-status pending" style="margin-left:auto;">${statusLabel.toUpperCase()}</span>
                             </div>
-                            <span class="request-status pending">PENDIENTE</span>
+                            <!-- Barra de Progreso Visual -->
+                            <div style="width:100%; height:4px; background:#333; border-radius:2px; overflow:hidden; position:relative;">
+                                <div style="width:${progressWidth}%; height:100%; background: linear-gradient(90deg, #e50914, #ff4d4d); transition: width 0.5s;"></div>
+                            </div>
+                            <div style="display:flex; justify-content:space-between; margin-top:4px; font-size:0.65rem; color:#666;">
+                                <span>Solicitud enviada</span>
+                                <span>Procesando...</span>
+                            </div>
                         `;
                         myRequestsList.appendChild(item);
                     });

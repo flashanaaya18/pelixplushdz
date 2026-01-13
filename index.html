@@ -2231,7 +2231,6 @@
             <a href="animes1.html"><i class="fas fa-child"></i> todos los animes</a>
             <a href="anime.html"><i class="fas fa-dragon"></i> Anime</a>
             <a href="ajustes.html"><i class="fas fa-cog"></i> Ajustes</a>
-            <a href="animes1.html"><i class="fas fa-child"></i> todos los animes</a>
             <a href="favoritos.html"><i class="fas fa-heart"></i> Favoritos</a>
         </div>
         <div class="mobile-categories">
@@ -2313,6 +2312,23 @@
                 </div>
             </div>
 
+
+            <div class="hero-slide" data-bg="una batalla tras otra.png">
+                <div class="hero-content">
+                    <h1 class="hero-title">Una Batalla Tras Otra</h1>
+                    <p class="hero-description"></p>
+                    <div class="hero-details">
+                        <span>2024</span>
+                        <span class="quality-badge">4K</span>
+                    </div>
+                    <button class="hero-button"
+                        onclick="window.showPageLoader('detalles.html?id=una-batalla-tras-otra-2024')">
+                        <i class="fas fa-play"></i> Ver Ahora
+                    </button>
+                </div>
+            </div>
+
+
             <div class="hero-slide" data-bg="Homo Argentum-artguru.png">
                 <div class="hero-content">
                     <h1 class="hero-title">Homo Argentum</h1>
@@ -2380,6 +2396,11 @@
                     <div class="platform-card" title="Netflix">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg" alt="Netflix">
                     </div>
+
+                    <div class="platform-card" title="Hulu" style="background: #000;">
+                        <img src="https://imgs.search.brave.com/WnUU5vaDvEPomlrclpC8L8Vz3TyoLN7Kxmq-4yMz3jc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1XzJx/aHhiL3N0eWxlcy9j/b21tdW5pdHlJY29u/X2E2Y3ExdDMzNDAx/YjEucG5n" alt="Hulu">
+                    </div>
+                    
                     <div class="platform-card" title="Disney+" style="background: linear-gradient(to bottom, #001d3d, #000);">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg" alt="Disney+">
                     </div>
@@ -2644,6 +2665,9 @@
                     console.log('Modal de acceso mostrado');
                 }
             }
+            
+            // Exponer función globalmente para usarla desde script.js
+            window.openVipModal = showAccessModal;
 
             function hideAccessModal() {
                 if (accessModal) {

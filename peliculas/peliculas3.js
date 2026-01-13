@@ -1006,6 +1006,130 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Batman y Superman: La Batalla de los Super hijos",
+    "titulo_original": "Batman and Superman: Battle of the Super Sons",
+    "poster": "https://image.tmdb.org/t/p/w500/fQFY3IsdwLl2O5z5YEh97R8A7hY.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/iQJ1gC2p6yn5wnBEklhPaEFJ3n1.jpg",
+    "descripcion": "Comienza cuando Jonathan Kent, de once años, descubre que tiene superpoderes, empujando al semi kryptoniano al complicado mundo de los superhéroes y los supervillanos, que ahora están siendo atacados por una fuerza alienígena malvada conocida como Starro”.",
+    "año": 2022,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "animación",
+      "acción",
+      "ciencia ficción"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Acción",
+      "Ciencia ficción"
+    ],
+    "director": "Matt Peters",
+    "reparto": [
+      "Jack Dylan Grazer",
+      "Jack Griffo",
+      "Laura Bailey",
+      "Troy Baker",
+      "Darin De Paul",
+      "Tom Kenny",
+      "Nolan North",
+      "Zeno Robinson",
+      "Myrna Velasco",
+      "Travis Willingham"
+    ],
+    "calificacion": 7.7,
+    "votos": 338,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-13T15:24:59.347961",
+    "tmdb_id": "886396",
+    "popularidad": 1.73,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "79 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "HBO Max",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/smdk2rz1flzu",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "batman-y-superman-la-batalla-de-los-super-hijos-2022"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Batman: Death in the Family",
+    "titulo_original": "DC Showcase - Batman: Death in the Family",
+    "poster": "https://image.tmdb.org/t/p/w500/gHNPuaZLXtiIowtIjzYDdYnITJU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kU7ZiyeUwcpTkYj3UcxSqGdZmxY.jpg",
+    "descripcion": "Producida, dirigida y escrita por Brandon Vietti, \"Death in the Family\" ofrece una nueva perspectiva sobre una historia de sobra conocida por los aficionados del Caballero Oscuro. En ella, el asesinato de Jason Todd provocará que el futuro de Batman, Robin y Joker tomen nuevos derroteros en los que el espectador puede incidir con sus propias decisiones.  Primera propuesta de película interactiva del universo DC.",
+    "año": 2020,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "animación",
+      "acción"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Acción"
+    ],
+    "director": "Brandon Vietti",
+    "reparto": [
+      "Bruce Greenwood",
+      "Vincent Martella",
+      "John DiMaggio",
+      "Zehra Fazal",
+      "Gary Cole",
+      "Kimberly Brooks",
+      "Nolan North",
+      "Nick Carson",
+      "Keith Ferguson",
+      "Ray Chase",
+      "Jamie Chung",
+      "Roger Cross"
+    ],
+    "calificacion": 7.1,
+    "votos": 463,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-13T15:27:33.080612",
+    "tmdb_id": "618353",
+    "popularidad": 1.76,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "31 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "HBO Max",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://teomovie.web.app/iframe.html?url=https://bysedikamoum.com/e/ufzclkxgsffs",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "batman-death-in-the-family-2020"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Better Man: La Historia de Robbie Williams",
     "titulo_original": "Better Man",
     "poster": "https://image.tmdb.org/t/p/w500/ak7VgAaI94K6CbbFuL22xIBJtyE.jpg",
@@ -2131,6 +2255,66 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Dos más dos",
+    "titulo_original": "Dos más dos",
+    "poster": "https://image.tmdb.org/t/p/w500/pcjTf0tBJoGwJQbdai4GmX8d1Om.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uNCE6aiHJM0CGRGTRNhNi4wADE7.jpg",
+    "descripcion": "El matrimonio de Sara y Enrique atraviesa una monótona crisis de la que él no tiene ni idea. Afortunadamente, Sara escucha de Lucy un secreto que podría ser la respuesta para salvar su relación: Lucy y Ricardo practican la poligamia. Sabiendo lo mucho que Enrique confía en Ricardo, su colega, Sara hace todo lo posible para convencer a su marido de que lo pruebe, dando lugar a las situaciones más absurdas que casi lo llevan a sufrir un ataque de pánico. Hasta que finalmente logra relajarse y disfrutar de los beneficios de la poligamia, dando paso a un Enrique completamente nuevo: un mujeriego pervertido y seguro de sí mismo. Más temprano que tarde, las hormonas traicionan los sentimientos y ambas parejas acaban atravesando la peor crisis a la que se han enfrentado jamás. No todos los remedios funcionan de la misma manera para todos, y eso incluye la reconciliación.",
+    "año": 2022,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Alfonso Pineda Ulloa",
+    "reparto": [
+      "Tessa Ía",
+      "Luis Ernesto Franco",
+      "Adriana Louvier",
+      "Claudio Lafarga",
+      "Arath de la Torre",
+      "Martha Claudia Moreno",
+      "Adriana Montes de Oca",
+      "Juan Carlos Remolina",
+      "Flor Benítez",
+      "Daniel Haddad",
+      "Artús Chávez",
+      "Brenda De Arrigunaga"
+    ],
+    "calificacion": 6.5,
+    "votos": 45,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-12T21:55:42.750635",
+    "tmdb_id": "933886",
+    "popularidad": 6.64,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "103 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$369,145",
+    "plataforma": "Disney Plus",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://voe.sx/e/8oakshuwbeas",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "dos-mas-dos-2022"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Dust Bunny",
     "titulo_original": "Dust Bunny",
     "poster": "https://image.tmdb.org/t/p/w500/jMcT1Quf34qZWNNE1rAqep8f9DW.jpg",
@@ -2247,6 +2431,196 @@ const peliculas3 = [
       }
     ],
     "id": "el-cadaver-de-anna-fritz-2015"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El grito",
+    "titulo_original": "The Grudge",
+    "poster": "https://image.tmdb.org/t/p/w500/qNBzIoK5f5YxroprnnoQvDbN37W.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/yefSD6lp3jOBYkBeY5QxRRKTJME.jpg",
+    "descripcion": "La aparente normalidad de la fachada de una modesta casa de Tokio oculta el horror que se encuentra en su interior. La vivienda está poseída por una violenta plaga que destruye las vidas de todos los que entran en ella.",
+    "año": 2004,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "misterio",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Misterio",
+      "Suspense"
+    ],
+    "director": "清水崇",
+    "reparto": [
+      "Sarah Michelle Gellar",
+      "Jason Behr",
+      "藤貴子",
+      "尾関優哉",
+      "William Mapother",
+      "Clea DuVall",
+      "KaDee Strickland",
+      "Grace Zabriskie",
+      "Bill Pullman",
+      "Rosa Blasi",
+      "Ted Raimi",
+      "石橋凌"
+    ],
+    "calificacion": 5.9,
+    "votos": 3103,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-13T16:07:15.019773",
+    "tmdb_id": "1970",
+    "popularidad": 2.62,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "91 min",
+    "presupuesto": "$10,000,000",
+    "ingresos": "$183,474,602",
+    "plataforma": "Filmelier Plus Amazon Channel",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/iam1m2sndbrv",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-grito-2004"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El grito 2",
+    "titulo_original": "The Grudge 2",
+    "poster": "https://image.tmdb.org/t/p/w500/9JfMvY6NRQIzSRTXJwvsl7xbeBZ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/3HTK3FtjK5GXIvPswaIMBMHeL3E.jpg",
+    "descripcion": "Aubrey (Amber Tamblyn) viajará a Tokio para buscar a su hermana Karen Davis (Sarah Michelle Gellar), que sufrió una misteriosa maldición. Allí tendrá también que enfrentarse a los fantasmas de Kayako y Toshio, que vienen desde el más allá para vengarse de los vivos. Pero no serán las únicas que se enfrentarán a la maldición…",
+    "año": 2006,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Suspense"
+    ],
+    "director": "清水崇",
+    "reparto": [
+      "Amber Tamblyn",
+      "陳冠希",
+      "藤貴子",
+      "田中碧海",
+      "Sarah Michelle Gellar",
+      "Arielle Kebbel",
+      "Teresa Palmer",
+      "宇野実彩子",
+      "Matthew Knight",
+      "Sarah Roemer",
+      "Jennifer Beals",
+      "Christopher Cousins"
+    ],
+    "calificacion": 5.6,
+    "votos": 1090,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-13T16:09:37.804714",
+    "tmdb_id": "1975",
+    "popularidad": 1.59,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "102 min",
+    "presupuesto": "$20,000,000",
+    "ingresos": "$39,143,839",
+    "plataforma": "Amazon Prime Video",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://teomovie.web.app/iframe.html?url=https://bysedikamoum.com/e/3dyzh4zej9fd",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-grito-2-2006"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El grito 3",
+    "titulo_original": "The Grudge 3",
+    "poster": "https://image.tmdb.org/t/p/w500/xMFs9uSkoo6Oa7U7fBFAxVWjXM9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/e3fp9XMQ13b0OCKw9gR3h7ZYoaw.jpg",
+    "descripcion": "La joven Naoko decide desplazarse a Chicago, la ciudad donde acaban de ocurrir los últimos acontecimientos relacionados con el espíritu de Kayako, su vengativa hermana mayor. Esta vez ha asesinado a toda una familia. Naoko decide que es hora de ponerle fin a esta masacre.",
+    "año": 2009,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "misterio",
+      "terror",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Misterio",
+      "Terror",
+      "Suspense"
+    ],
+    "director": "Toby Wilkins",
+    "reparto": [
+      "Johanna Braddy",
+      "池端えみ",
+      "Jadie-Rose Hobson",
+      "Gil McKinney",
+      "Beau Mirchoff",
+      "Shawnee Smith",
+      "Marina Sirtis",
+      "Matthew Knight",
+      "Aiko Horiuchi",
+      "Shimba Tsuchiya",
+      "Michael McCoy",
+      "Takatsuna Mukai"
+    ],
+    "calificacion": 5.4,
+    "votos": 642,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-13T16:11:17.024469",
+    "tmdb_id": "1977",
+    "popularidad": 1.4,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=79WVl0sj02w",
+    "trailer_key": "79WVl0sj02w",
+    "success": true,
+    "duracion": "90 min",
+    "presupuesto": "$5,000,000",
+    "ingresos": "$38,610,009",
+    "plataforma": "MovistarTV",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://teomovie.web.app/iframe.html?url=https://dintezuvio.com/embed/uib393qaolb3",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-grito-3-2009"
   },
   {
     "tipo": "serie",
@@ -3575,6 +3949,62 @@ const peliculas3 = [
     "tipo_serie": "Scripted",
     "ultima_emision": "2024-10-25",
     "id": "fugitivas-en-busca-de-la-libertad-2024"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Good Boy",
+    "titulo_original": "Good Boy",
+    "poster": "https://image.tmdb.org/t/p/w500/6rZOKB5EhGcTLaSPoyX8La44ZDT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mPtPJzBkwksUoMEKpkZqxBrlKpZ.jpg",
+    "descripcion": "Un perro leal se muda a una casa rural con su dueño Todd. Allí descubre fuerzas sobrenaturales que acechan en las sombras. Mientras oscuras entidades amenazan a su compañero humano, el valiente cachorro debe luchar para proteger a quien más quiere.",
+    "año": 2025,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror"
+    ],
+    "generos_lista": [
+      "Terror"
+    ],
+    "director": "Ben Leonberg",
+    "reparto": [
+      "Indy the Dog",
+      "Shane Jensen",
+      "Larry Fessenden",
+      "Arielle Friedman",
+      "Stuart Rudin",
+      "Anya Krawcheck",
+      "Hunter Goetz",
+      "Noah Manzoor"
+    ],
+    "calificacion": 6.7,
+    "votos": 456,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-13T15:58:52.192195",
+    "tmdb_id": "1422096",
+    "popularidad": 28.29,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "73 min",
+    "presupuesto": "$70,000",
+    "ingresos": "$8,781,040",
+    "plataforma": "Filmin",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://guxhag.com/e/g85ci3zqa0dm",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "good-boy-2025"
   },
   {
     "tipo": "pelicula",
@@ -7058,6 +7488,70 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Mi hijo",
+    "titulo_original": "My Son",
+    "poster": "https://image.tmdb.org/t/p/w500/tTSVMSE5teAiR9cN1BGfofTICSK.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ndF2AJD3toBpZHM6CufJjZfwZkG.jpg",
+    "descripcion": "Edmond Murray recibe una llamada de su ex esposa, llorando. Su hijo de 7 años ha desaparecido de un campamento. Pronto queda claro que el niño ha sido secuestrado y los padres entran en una espiral de angustia y desesperación.",
+    "año": 2021,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "suspense",
+      "crimen",
+      "drama"
+    ],
+    "generos_lista": [
+      "Suspense",
+      "Crimen",
+      "Drama"
+    ],
+    "director": "Christian Carion",
+    "reparto": [
+      "James McAvoy",
+      "Claire Foy",
+      "Tom Cullen",
+      "Gary Lewis",
+      "Michael Moreland",
+      "Paul Rattray",
+      "Robert Jack",
+      "Rosalind Sydney",
+      "Mark Barrett",
+      "Max Wilson",
+      "Andrew John Tait",
+      "Owen Whitelaw"
+    ],
+    "calificacion": 6.2,
+    "votos": 498,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-13T15:54:59.819893",
+    "tmdb_id": "750253",
+    "popularidad": 1.84,
+    "tagline": "Un logro innovador en la realización de películas en las que tanto el actor como el público descubren un misterio al mismo tiempo.",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "96 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$962,689",
+    "plataforma": "Amazon Prime Video",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://callistanise.com/v/xczt9zwnkkbu",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "mi-hijo-2021"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Mil Uno",
     "titulo_original": "A Thousand and One",
     "poster": "https://image.tmdb.org/t/p/w500/c943thY4bOJU59UfD257ELZe13g.jpg",
@@ -7658,6 +8152,66 @@ const peliculas3 = [
     "id": "pelayo-mas-alla-del-limite-2026"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "Pelea de profes",
+    "titulo_original": "Fist Fight",
+    "poster": "https://image.tmdb.org/t/p/w500/5X1UEfGETdsqBMPTI1foL67tWyy.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/c0EGdtTBeYt6qAMQF49icl8l6fx.jpg",
+    "descripcion": "En la película ,un apacible profesor de Inglés se pone a prueba cuando un colega de profesión que intenta conseguir que le despidan, le desafía a una pelea a puñetazo limpio después de clase.",
+    "año": 2017,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Richie Keen",
+    "reparto": [
+      "Charlie Day",
+      "Ice Cube",
+      "Tracy Morgan",
+      "Jillian Bell",
+      "Christina Hendricks",
+      "Dean Norris",
+      "Kumail Nanjiani",
+      "Dennis Haysbert",
+      "JoAnna Garcia Swisher",
+      "Alexa Nisenson",
+      "Stephnie Weir",
+      "Kym Whitley"
+    ],
+    "calificacion": 6.1,
+    "votos": 1287,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-13T15:11:35.013500",
+    "tmdb_id": "345922",
+    "popularidad": 1.83,
+    "tagline": "Nos Vemos a la salida en el estacionamiento.",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "91 min",
+    "presupuesto": "$22,000,000",
+    "ingresos": "$41,087,017",
+    "plataforma": "MovistarTV",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://guxhag.com/e/xxyk3midtdl4",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "pelea-de-profes-2017"
+  },
+  {
     "tipo": "serie",
     "titulo": "Pequeños desastres",
     "titulo_original": "",
@@ -7750,6 +8304,70 @@ const peliculas3 = [
       }
     ],
     "id": "pig-hill-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Piratas del Caribe: La maldición de la Perla Negra",
+    "titulo_original": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "poster": "https://image.tmdb.org/t/p/w500/bVG48kmXuLaZYgPfSCmhs6EYFbX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uRNgkJSkNBFbbn9fPsEjDIy8Sh3.jpg",
+    "descripcion": "El aventurero capitán Jack Sparrow recorre las aguas caribeñas. Pero su andanzas terminan cuando su enemigo, el capitán Barbossa le roba su barco, la Perla Negra, y ataca la ciudad de Port Royal, secuestrando a Elizabeth Swann, hija del gobernador. Will Turner, el amigo de la infancia de Elizabeth, se une a Jack para rescatarla y recuperar la Perla Negra. Pero el prometido de Elizabeth, comodoro Norrington, les persigue a bordo del HMS Impávido. Además, Barbossa y su tripulación son víctimas de un conjuro por el que están condenados a vivir eternamente, y a transformarse cada noche en esqueletos vivientes, en fantasmas guerreros.",
+    "año": 2003,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "aventura",
+      "fantasía",
+      "acción"
+    ],
+    "generos_lista": [
+      "Aventura",
+      "Fantasía",
+      "Acción"
+    ],
+    "director": "Gore Verbinski",
+    "reparto": [
+      "Johnny Depp",
+      "Geoffrey Rush",
+      "Orlando Bloom",
+      "Keira Knightley",
+      "Jack Davenport",
+      "Jonathan Pryce",
+      "Lee Arenberg",
+      "Mackenzie Crook",
+      "Damian O'Hare",
+      "Giles New",
+      "Angus Barnett",
+      "David Bailie"
+    ],
+    "calificacion": 7.8,
+    "votos": 21745,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-13T15:10:01.254563",
+    "tmdb_id": "22",
+    "popularidad": 17.68,
+    "tagline": "Unas 3000 islas de paraíso. Para algunos es una bendición, para otros es una maldición.",
+    "trailer": "https://www.youtube.com/watch?v=5Itr2jHuJaw",
+    "trailer_key": "5Itr2jHuJaw",
+    "success": true,
+    "duracion": "143 min",
+    "presupuesto": "$140,000,000",
+    "ingresos": "$655,011,224",
+    "plataforma": "Disney Plus",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/2yefg1y1helv",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "piratas-del-caribe-la-maldicion-de-la-perla-negra-2003"
   },
   {
     "tipo": "pelicula",
@@ -8447,6 +9065,70 @@ const peliculas3 = [
       }
     ],
     "id": "shame-2011"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Siete reyes deben morir",
+    "titulo_original": "The Last Kingdom: Seven Kings Must Die",
+    "poster": "https://image.tmdb.org/t/p/w500/eCEu3EkKNhYaIHHAAd0qVzLp5zB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kEhCztSTP4ixu7R0AIWg8vvcvbb.jpg",
+    "descripcion": "Tras la muerte del rey Eduardo, Uhtred de Bebbanburg y sus camaradas se aventuran a través de un reino fracturado con la esperanza de unir por fin a Inglaterra.",
+    "año": 2023,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "aventura",
+      "bélica"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Aventura",
+      "Bélica"
+    ],
+    "director": "Edward Bazalgette",
+    "reparto": [
+      "Alexander Dreymon",
+      "Harry Gilby",
+      "Mark Rowley",
+      "Arnas Fedaravičius",
+      "Cavan Clerkin",
+      "James Northcote",
+      "Laurie Davidson",
+      "Elaine Cassidy",
+      "Ross Anderson",
+      "Ilona Chevakova",
+      "Jacob Dudman",
+      "Rod Hallett"
+    ],
+    "calificacion": 7.2,
+    "votos": 777,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-13T16:01:22.890077",
+    "tmdb_id": "948713",
+    "popularidad": 3.45,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "111 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "Netflix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://teomovie.web.app/iframe.html?url=https://bysedikamoum.com/e/z63se7ojqt31",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "siete-reyes-deben-morir-2023"
   },
   {
     "tipo": "serie",

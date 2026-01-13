@@ -155,6 +155,29 @@ class HyperOptimizer {
     }
     
     // ============================================================================
+    // MÉTODOS DE CONFIGURACIÓN DINÁMICA (Faltantes agregados)
+    // ============================================================================
+
+    _calculateDynamicThresholds() {
+        // Ajustar umbrales basados en el hardware del usuario (simplificado)
+        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        return {
+            fps: 50,
+            memory: isMobile ? 50 : 100, // MB
+            cpu: isMobile ? 60 : 80, // %
+            network: 1024 // Kbps
+        };
+    }
+
+    _measureDeviceCapabilities() {
+        this.state.deviceCapabilities = {
+            cores: navigator.hardwareConcurrency || 4,
+            memory: navigator.deviceMemory || 4,
+            connection: navigator.connection ? navigator.connection.effectiveType : '4g'
+        };
+    }
+
+    // ============================================================================
     // INICIALIZACIÓN
     // ============================================================================
     

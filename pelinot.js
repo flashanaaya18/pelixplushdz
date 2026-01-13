@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Si alguno de los elementos no existe, no continuamos.
     if (!notificationBanner || !notificationPoster || !notificationText || !closeBtn) {
-        console.error('No se encontraron los elementos necesarios para la notificación.');
+        console.warn('No se encontraron los elementos necesarios para la notificación. (pelinot.js)');
         return;
     }
 

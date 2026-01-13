@@ -1,6 +1,10 @@
 // --- Credenciales de la API de TMDB ---
-const TMDB_API_KEY = '9869fab7c867e72214c8628c6029ec74';
-const TMDB_ACCESS_TOKEN = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ODY5ZmFiN2M4NjdlNzIyMTRjODYyOGM2MDI5ZWM3NCIsIm5iZiI6MTc1OTI2NzMzMi43MDg5OTk5LCJzdWIiOiI2OGRjNGEwNDE1NWQwOWZjZGQyZGY0MTMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0._sxkF_bWFZtZOQU_8GcEa4x7TawgM_CB9zA43VzSiAY';
+if (!window.TMDB_API_KEY) {
+    window.TMDB_API_KEY = '9869fab7c867e72214c8628c6029ec74';
+}
+if (!window.TMDB_ACCESS_TOKEN) {
+    window.TMDB_ACCESS_TOKEN = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ODY5ZmFiN2M4NjdlNzIyMTRjODYyOGM2MDI5ZWM3NCIsIm5iZiI6MTc1OTI2NzMzMi43MDg5OTk5LCJzdWIiOiI2OGRjNGEwNDE1NWQwOWZjZGQyZGY0MTMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0._sxkF_bWFZtZOQU_8GcEa4x7TawgM_CB9zA43VzSiAY';
+}
 
 // Variable global para almacenar todas las películas combinadas
 window.peliculasCompletas = [];
@@ -10,10 +14,35 @@ function cargarArchivosPeliculas() {
     return new Promise((resolve, reject) => {
         console.log("Iniciando carga de archivos de películas...");
 
+        const todasPeliculas = [];
+
+        // 1. Verificar si las variables globales ya existen (carga estática en HTML)
+        if (typeof peliculas !== 'undefined' && Array.isArray(peliculas)) {
+            console.log(`Encontradas ${peliculas.length} películas en variable global 'peliculas'`);
+            todasPeliculas.push(...peliculas);
+        }
+        if (typeof peliculas1 !== 'undefined' && Array.isArray(peliculas1)) {
+            console.log(`Encontradas ${peliculas1.length} películas en variable global 'peliculas1'`);
+            todasPeliculas.push(...peliculas1);
+        }
+        if (typeof peliculas2 !== 'undefined' && Array.isArray(peliculas2)) {
+            console.log(`Encontradas ${peliculas2.length} películas en variable global 'peliculas2'`);
+            todasPeliculas.push(...peliculas2);
+        }
+        if (typeof peliculas3 !== 'undefined' && Array.isArray(peliculas3)) {
+            console.log(`Encontradas ${peliculas3.length} películas en variable global 'peliculas3'`);
+            todasPeliculas.push(...peliculas3);
+        }
+
+        if (todasPeliculas.length > 0) {
+            console.log(`Carga estática detectada. Total películas: ${todasPeliculas.length}`);
+            resolve(todasPeliculas);
+            return;
+        }
+
         // Lista de archivos a cargar
         const archivos = ['peliculas/peliculas.js', 'peliculas/peliculas1.js', 'peliculas/peliculas2.js', 'peliculas/peliculas3.js'];
         let archivosCargados = 0;
-        const todasPeliculas = [];
 
         archivos.forEach(archivo => {
             const script = document.createElement('script');
@@ -815,11 +844,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         const searchGrid = document.getElementById('live-search-grid');
         const searchTitle = document.getElementById('live-search-title');
         const loader = document.getElementById('live-search-loader');
-
-        if (!TMDB_API_KEY || !searchGrid || !loader) return;
+        
+        const apiKey = window.TMDB_API_KEY || TMDB_API_KEY;
+        if (!apiKey || !searchGrid || !loader) return;
 
         try {
-            const url = `https://api.themoviedb.org/3/search/multi?api_key=${TMDB_API_KEY}&language=es-ES&query=${encodeURIComponent(query)}&page=1&include_adult=false`;
+            const url = `https://api.themoviedb.org/3/search/multi?api_key=${apiKey}&language=es-ES&query=${encodeURIComponent(query)}&page=1&include_adult=false`;
             const response = await fetch(url);
             const data = await response.json();
 
@@ -966,6 +996,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (pelicula.esta_roto || reportedItems.has(pelicula.id)) {
             tarjeta.classList.add('is-broken');
         }
+        
+        // Lógica de Acceso Anticipado VIP (Ejemplo: Películas de 2025 o marcadas explícitamente)
+        const isVipContent = pelicula.vip === true || (pelicula.año == 2025 && pelicula.es_nuevo);
+        const userIsVip = sessionStorage.getItem('pelix_access_type') === 'vip';
 
         const tipoTag = `<div class="card-tag tag-tipo tag-${pelicula.tipo || 'pelicula'}">${(pelicula.tipo || 'pelicula').toUpperCase()}</div>`;
         const edadTag = pelicula.clasificacion_edad ? `<div class="card-tag tag-edad ${pelicula.clasificacion_edad.includes('+18') ? 'tag-fire' : ''}">${pelicula.clasificacion_edad}</div>` : '';
@@ -980,6 +1014,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             plataformaTag = `<div class="card-tag tag-plataforma tag-${platClass}">${pelicula.plataforma}</div>`;
         }
         
+        const vipTag = isVipContent ? `<div class="card-tag tag-vip" style="background: linear-gradient(45deg, #FFD700, #FDB931); color: black; font-weight: 800; top: 10px; left: 10px; right: auto; bottom: auto; box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);"><i class="fas fa-crown"></i> VIP</div>` : '';
         const nuevaTemporadaTag = pelicula.estado_temporada === 'nueva' ? `<div class="card-tag tag-nueva-temporada">NUEVA TEMPORADA</div>` : '';
         const prontoTemporadaTag = pelicula.estado_temporada === 'pronto' ? `<div class="card-tag tag-pronto-temporada">PRONTO NUEVA TEMP.</div>` : '';
 
@@ -994,7 +1029,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         tarjeta.classList.add('loading');
 
         tarjeta.innerHTML = `
-            ${plataformaTag}${nuevoTag}${recienteTag}${mostViewedTag}${edadTag}${tipoTag}${nuevaTemporadaTag}${prontoTemporadaTag}
+            ${vipTag}${plataformaTag}${nuevoTag}${recienteTag}${mostViewedTag}${edadTag}${tipoTag}${nuevaTemporadaTag}${prontoTemporadaTag}
             <img src="${pelicula.poster || 'https://via.placeholder.com/180x270/333333/ffffff?text=No+Image'}"
                  alt="Póster de la película ${pelicula.titulo} (${pelicula.año})" 
                  loading="lazy" 
@@ -1012,6 +1047,18 @@ document.addEventListener('DOMContentLoaded', async () => {
         tarjeta.addEventListener('click', (e) => {
             // El botón de favoritos tiene su propio listener con stopPropagation,
             // por lo que este código no se ejecuta si se hace clic en el corazón.
+            
+            // Bloqueo VIP
+            if (isVipContent && !userIsVip) {
+                e.preventDefault();
+                e.stopPropagation();
+                if (window.openVipModal) {
+                    window.openVipModal();
+                    if(window.showNotification) window.showNotification('💎 Este estreno es exclusivo para miembros VIP', 'warning');
+                }
+                return;
+            }
+
             e.preventDefault();
             window.showPageLoader(tarjeta.href);
         });
@@ -1426,6 +1473,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         // LISTA DE DESTACADOS (Edita aquí los IDs de YouTube y Nombres)
         const destacados = [
             { nombre: "Supergirl", youtubeId: "nMSMaagat8o" },
+            { nombre: "avengers:Doomsday", youtubeId: "am6v0FCQJt0" },
             { nombre: "Spider-Man: Un nuevo día", youtubeId: "2Bt_SkyykwM" },
             { nombre: "Joker: Folie à Deux", youtubeId: "_OKAwz2MsJs" }, // ID del video de YouTube
             { nombre: "Deadpool & Wolverine", youtubeId: "73_1biulkYk" },
@@ -1514,27 +1562,33 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
 
-        // Intentar usar el grid definido en HTML para mantener el encabezado y estilos
-        let grid = document.getElementById('recientemente-añadido-grid');
+        // Reconstruir la sección con estructura de carrusel (flechas)
+        recentlyAddedSection.innerHTML = '';
 
-        if (grid) {
-            grid.innerHTML = '';
-        } else {
-            // Fallback: reconstruir si no existe el grid (compatibilidad)
-            recentlyAddedSection.innerHTML = '';
-            const titleContainer = document.createElement('div');
-            titleContainer.className = 'section-title-container';
-            titleContainer.innerHTML = `
-                <h2 class="section-title">${secciones['recientemente-añadido']}</h2>
-                <a href="todos.html" class="view-all-link">Ver todo</a>
-            `;
-            recentlyAddedSection.appendChild(titleContainer);
+        const titleContainer = document.createElement('div');
+        titleContainer.className = 'section-title-container';
+        titleContainer.innerHTML = `
+            <h2 class="section-title">${secciones['recientemente-añadido']}</h2>
+            <a href="todos.html" class="view-all-link">Ver todo</a>
+        `;
+        recentlyAddedSection.appendChild(titleContainer);
 
-            grid = document.createElement('div');
-            grid.className = 'movie-grid';
-            grid.id = 'recientemente-añadido-grid';
-            recentlyAddedSection.appendChild(grid);
-        }
+        const carouselContainer = document.createElement('div');
+        carouselContainer.className = 'carrusel-contenedor';
+        carouselContainer.innerHTML = `
+            <button class="carrusel-flecha izquierda" aria-label="Anterior">&#10094;</button>
+            <div class="movie-grid" id="recientemente-añadido-grid"></div>
+            <button class="carrusel-flecha derecha" aria-label="Siguiente">&#10095;</button>
+        `;
+        recentlyAddedSection.appendChild(carouselContainer);
+
+        const grid = document.getElementById('recientemente-añadido-grid');
+        const flechaIzquierda = carouselContainer.querySelector('.izquierda');
+        const flechaDerecha = carouselContainer.querySelector('.derecha');
+
+        // Lógica de scroll
+        if (flechaIzquierda) flechaIzquierda.addEventListener('click', () => grid.scrollBy({ left: -grid.clientWidth * 0.8, behavior: 'smooth' }));
+        if (flechaDerecha) flechaDerecha.addEventListener('click', () => grid.scrollBy({ left: grid.clientWidth * 0.8, behavior: 'smooth' }));
 
         // Ordenar: Prioridad fecha añadida -> Año -> Orden en array (últimos agregados)
         const sortedRecentlyAdded = window.peliculas
@@ -1546,7 +1600,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 if ((b.año || 0) !== (a.año || 0)) return (b.año || 0) - (a.año || 0);
                 return b._originalIndex - a._originalIndex;
             })
-            .slice(0, 5);
+            .slice(0, 20);
 
         if (sortedRecentlyAdded.length === 0) {
             recentlyAddedSection.style.display = 'none';
