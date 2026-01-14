@@ -220,10 +220,9 @@
         }
 
         .access-modal-content {
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
-            backdrop-filter: blur(20px) saturate(180%);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.05);
+            background: #141414;
+            border: 1px solid #333;
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
             padding: 3rem;
             border-radius: 28px;
             text-align: center;
@@ -245,7 +244,7 @@
             left: -50%;
             width: 200%;
             height: 200%;
-            background: radial-gradient(circle, rgba(255, 50, 150, 0.08) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(229, 9, 20, 0.15) 0%, transparent 60%);
             pointer-events: none;
             z-index: 0;
         }
@@ -287,11 +286,10 @@
         .modal-title {
             font-size: 1.8rem;
             font-weight: 900;
-            background: linear-gradient(135deg, hsl(330, 85%, 55%) 0%, hsl(280, 85%, 60%) 100%);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
+            color: #fff;
             margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         .modal-subtitle {
@@ -321,16 +319,16 @@
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             overflow: hidden;
             text-align: left;
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: #1f1f1f;
+            border: 1px solid #333;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
         .access-btn:hover {
             transform: translateY(-3px);
-            background: rgba(255, 255, 255, 0.1);
-            border-color: rgba(255, 50, 150, 0.5);
-            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 50, 150, 0.2);
+            background: #252525;
+            border-color: #666;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
         }
 
         .access-btn-content {
@@ -347,12 +345,13 @@
             align-items: center;
             justify-content: center;
             font-size: 1.5rem;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.05);
             transition: transform 0.3s ease;
         }
 
         .access-btn:hover .access-icon {
-            transform: scale(1.1) rotate(5deg);
+            transform: scale(1.1);
+            background: rgba(255, 255, 255, 0.1);
         }
 
         .access-info h3 {
@@ -380,17 +379,17 @@
         }
 
         .access-btn.vip {
-            background: linear-gradient(145deg, rgba(255, 50, 150, 0.1), rgba(100, 50, 255, 0.05));
-            border-color: rgba(255, 50, 150, 0.3);
+            background: linear-gradient(145deg, #2a0a0a, #1a0505);
+            border-color: #e50914;
         }
 
         .access-btn.vip:hover {
-            border-color: hsl(330, 85%, 55%);
-            box-shadow: 0 10px 40px -10px rgba(255, 50, 150, 0.4), 0 0 30px rgba(255, 50, 150, 0.2);
+            background: linear-gradient(145deg, #3a0a0a, #2a0505);
+            box-shadow: 0 0 20px rgba(229, 9, 20, 0.3);
         }
 
         .access-btn.vip .access-icon {
-            background: linear-gradient(135deg, hsl(330, 85%, 55%), hsl(280, 85%, 60%));
+            background: #e50914;
             color: white;
         }
 
@@ -404,8 +403,8 @@
         .vip-input {
             width: 100%;
             padding: 16px;
-            background: rgba(255, 255, 255, 0.05);
-            border: 2px solid rgba(255, 255, 255, 0.1);
+            background: #1f1f1f;
+            border: 2px solid #333;
             color: white;
             border-radius: 12px;
             font-size: 1.1rem;
@@ -416,7 +415,7 @@
         .vip-input:focus,
         .vip-input:not(:placeholder-shown) {
             border-color: #e50914;
-            background: rgba(0, 0, 0, 0.2);
+            background: #000;
         }
 
         .floating-label {
@@ -442,7 +441,7 @@
         }
 
         .validate-btn {
-            background: linear-gradient(135deg, hsl(330, 85%, 55%), hsl(280, 85%, 60%));
+            background: #e50914;
             color: white;
             border: none;
             padding: 16px;
@@ -453,14 +452,15 @@
             font-weight: 800;
             letter-spacing: 0.5px;
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            box-shadow: 0 10px 20px rgba(255, 50, 150, 0.3), 0 0 20px rgba(255, 50, 150, 0.2);
+            box-shadow: 0 4px 15px rgba(229, 9, 20, 0.4);
             position: relative;
             overflow: hidden;
         }
 
         .validate-btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 15px 30px rgba(255, 50, 150, 0.4), 0 0 30px rgba(255, 50, 150, 0.3);
+            background: #f40612;
+            box-shadow: 0 6px 20px rgba(229, 9, 20, 0.6);
         }
 
         /* Efecto Ripple */
@@ -1832,7 +1832,7 @@
         }
         
         @media (min-width: 768px) {
-            .platforms-scroll-container { justify-content: center; gap: 25px; }
+            .platforms-scroll-container { justify-content: flex-start; gap: 25px; }
             .platform-card { width: 160px; height: 90px; }
         }
     </style>
@@ -2260,7 +2260,7 @@
             <!-- SLIDE 1: Configura aquí tu primera película -->
             <!-- Cambia 'data-bg' por el enlace de tu imagen de fondo -->
             <div class="hero-slide active"
-                data-bg="https://imgs.search.brave.com/_uPso31Drcb7OtAce-sa0s2ET6LjMsImR8vPHpy4x9M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZS50bWRiLm9yZy90/L3Avb3JpZ2luYWwv/a0pveDJTZHVNV2Fj/T0l0bHJjMHpQV01p/aW10LnBuZw">
+                data-bg="portadas/vengador toxico.png">
                 <div class="hero-content">
                     <h1 class="hero-title">El Vengador Tóxico</h1>
                     <p class="hero-description">Un chico ingenuo se transforma en un poderoso superhéroe después de ser
@@ -2278,7 +2278,7 @@
             </div>
 
             <!-- SLIDE 2: Configura aquí tu segunda película -->
-            <div class="hero-slide" data-bg="albertano.png">
+            <div class="hero-slide" data-bg="portadas/albertano.png">
                 <div class="hero-content">
                     <h1 class="hero-title">Albertano Contra los Mostros</h1>
                     <p class="hero-description">Un chico ingenuo se transforma en un poderoso superhéroe después de ser
@@ -2297,7 +2297,7 @@
 
             <!-- SLIDE 2: Configura aquí tu segunda película -->
             <div class="hero-slide"
-                data-bg="https://imgs.search.brave.com/aNgLEC7PIFEDNPk4NkmLKqIiJU1OoALnT8t5gAN66Hw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXQuY29t/L3cvZnVsbC8xLzgv/OC8xMjQxNTEtMTky/MHgxMDgwLWRlc2t0/b3AtZnVsbC1oZC1z/dHJhbmdlci10aGlu/Z3MtYmFja2dyb3Vu/ZC1pbWFnZS5qcGc">
+                data-bg="portadas/stranger-things.png">
                 <div class="hero-content">
                     <h1 class="hero-title">Stranger Things</h1>
                     <p class="hero-description">.</p>
@@ -2313,7 +2313,7 @@
             </div>
 
 
-            <div class="hero-slide" data-bg="una batalla tras otra.png">
+            <div class="hero-slide" data-bg="portadas/una batalla tras otra.png">
                 <div class="hero-content">
                     <h1 class="hero-title">Una Batalla Tras Otra</h1>
                     <p class="hero-description"></p>
@@ -2329,7 +2329,7 @@
             </div>
 
 
-            <div class="hero-slide" data-bg="Homo Argentum-artguru.png">
+            <div class="hero-slide" data-bg="portadas/Homo Argentum-artguru.png">
                 <div class="hero-content">
                     <h1 class="hero-title">Homo Argentum</h1>
                     <p class="hero-description">.</p>
@@ -2344,7 +2344,7 @@
             </div>
 
 
-            <div class="hero-slide" data-bg="avatar2.png">
+            <div class="hero-slide" data-bg="portadas/avatar2.png">
                 <div class="hero-content">
                     <h1 class="hero-title">Avatar: Fuego y ceniza</h1>
                     <p class="hero-description">.</p>
@@ -2388,40 +2388,195 @@
             </section>
 
             <!-- Sección de Plataformas -->
-            <section id="platforms-section" class="content-row">
-                <div class="section-title-container">
-                    <h2 class="section-title">Plataformas</h2>
-                </div>
-                <div class="platforms-scroll-container">
-                    <div class="platform-card" title="Netflix">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg" alt="Netflix">
-                    </div>
+<section id="platforms-section" class="content-row">
+    <div class="section-title-container">
+        <h2 class="section-title">Plataformas</h2>
+    </div>
+    <div class="carrusel-contenedor" style="position: relative;">
+        <button class="carrusel-flecha izquierda" id="btn-plat-left" aria-label="Anterior">&#10094;</button>
+        <div class="platforms-scroll-container" id="platforms-scroll">
+        <div class="platform-card" title="Netflix" style="background: #E50914; color: white;">Netflix</div>
 
-                    <div class="platform-card" title="Hulu" style="background: #000;">
-                        <img src="https://imgs.search.brave.com/WnUU5vaDvEPomlrclpC8L8Vz3TyoLN7Kxmq-4yMz3jc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1XzJx/aHhiL3N0eWxlcy9j/b21tdW5pdHlJY29u/X2E2Y3ExdDMzNDAx/YjEucG5n" alt="Hulu">
-                    </div>
-                    
-                    <div class="platform-card" title="Disney+" style="background: linear-gradient(to bottom, #001d3d, #000);">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg" alt="Disney+">
-                    </div>
-                    <div class="platform-card" title="Amazon Prime Video" style="background: #00A8E1;">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg" alt="Prime Video" style="filter: brightness(0) invert(1);">
-                    </div>
-                    <div class="platform-card" title="HBO Max" style="background: #000;">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Max_logo.svg" alt="Max">
-                    </div>
-                    <div class="platform-card" title="Vix" style="background: #ff4d00;">
-                        <img src="https://imgs.search.brave.com/Q1Kd_rJYpbHZPysk6QgJkvkE3JwDYX7qF4NwtCVckR0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2FibGV0di5jb20v/YXBwL3VwbG9hZHMv/MjAyMy8wNS92aXgu/c3Zn" alt="Vix" style="filter: brightness(0) invert(1);">
-                    </div>
-                    <div class="platform-card" title="Apple TV+" style="background: #000;">
-                        <img src="https://imgs.search.brave.com/ZbjpiPpphCtOCgHQ4JqI-16xqePZ8_5-0Ou1J5UHbNk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIyLzAy/L0FwcGxlLVRWLUxv/Z28tMS01MDB4Mjgx/LnBuZw" alt="Apple TV+">
-                    </div>
-                    <div class="platform-card" title="Paramount+" style="background: #0064ff;">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Paramount_Plus.svg" alt="Paramount+" style="filter: brightness(0) invert(1);">
-                    </div>
-                </div>
-            </section>
+        <div class="platform-card" title="Plex" style="background: #e5a00d; color: white;">Plex</div>
 
+        <div class="platform-card" title="Hulu" style="background: linear-gradient(135deg, #1ce783, #00e6cc); color: white;">Hulu</div>
+        
+        <div class="platform-card" title="Disney+" style="background: linear-gradient(to bottom, #001d3d, #000); color: white;">Disney+</div>
+        
+        <div class="platform-card" title="Amazon Prime Video" style="background: #00A8E1; color: white;">Prime Video</div>
+        
+        <div class="platform-card" title="HBO Max" style="background: #000; color: white;">HBO Max</div>
+
+        <div class="platform-card" title="Movistar+" style="background: #0b2749; color: white;">Movistar+</div>
+
+        <div class="platform-card" title="Vix" style="background: #ff4d00; color: white;">Vix</div>
+        
+        <div class="platform-card" title="Apple TV+" style="background: #000; color: white;">Apple TV+</div>
+        
+        <div class="platform-card" title="Paramount+" style="background: #0064ff; color: white;">Paramount+</div>
+        
+        <div class="platform-card" title="Peacock" style="background: #f8f8f8; color: #000;">Peacock</div>
+        
+        <div class="platform-card" title="Crunchyroll" style="background: #f47521; color: white;">Crunchyroll</div>
+        
+        <div class="platform-card" title="YouTube Premium" style="background: #ff0000; color: white;">YouTube Premium</div>
+        
+        <div class="platform-card" title="Star+" style="background: #00008b; color: white;">Star+</div>
+        
+        <div class="platform-card" title="MUBI" style="background: #ff2e51; color: white;">MUBI</div>
+        
+        <div class="platform-card" title="Pluto TV" style="background: linear-gradient(135deg, #78288c, #4b0082); color: white;">Pluto TV</div>
+        
+        <div class="platform-card" title="Tubi" style="background: #ff2c55; color: white;">Tubi</div>
+        
+        <div class="platform-card" title="Rakuten Viki" style="background: #e5097f; color: white;">Rakuten Viki</div>
+        
+        <div class="platform-card" title="Claro video" style="background: #e40521; color: white;">Claro video</div>
+        
+        <div class="platform-card" title="Globoplay" style="background: #ff6900; color: white;">Globoplay</div>
+        
+        <div class="platform-card" title="NOW" style="background: #000000; color: white;">NOW</div>
+        
+        <div class="platform-card" title="Canal+" style="background: #ffffff; color: #000;">Canal+</div>
+        
+        <div class="platform-card" title="Sky Showtime" style="background: #0072ce; color: white;">Sky Showtime</div>
+        
+        <div class="platform-card" title="Crave" style="background: #0000ff; color: white;">Crave</div>
+        
+        <div class="platform-card" title="WOW Presents Plus" style="background: #f40083; color: white;">WOW Presents Plus</div>
+        
+        <div class="platform-card" title="Acorn TV" style="background: #8b0000; color: white;">Acorn TV</div>
+        
+        <div class="platform-card" title="BritBox" style="background: #193763; color: white;">BritBox</div>
+        
+        <div class="platform-card" title="Shudder" style="background: #000000; color: white;">Shudder</div>
+        
+        <div class="platform-card" title="AMC+" style="background: #000000; color: white;">AMC+</div>
+        
+        <div class="platform-card" title="Starz" style="background: #000000; color: white;">Starz</div>
+        
+        <div class="platform-card" title="Showtime" style="background: #b20000; color: white;">Showtime</div>
+        
+        <div class="platform-card" title="History Vault" style="background: #000000; color: white;">History Vault</div>
+        
+        <div class="platform-card" title="Lionsgate+" style="background: #0056b3; color: white;">Lionsgate+</div>
+        
+        <div class="platform-card" title="Criterion Channel" style="background: #000000; color: white;">Criterion Channel</div>
+        
+        <div class="platform-card" title="Funimation" style="background: #4200a5; color: white;">Funimation</div>
+        
+        <div class="platform-card" title="Retrocrush" style="background: #ff0000; color: white;">Retrocrush</div>
+        
+        <div class="platform-card" title="CONtv" style="background: #000000; color: white;">CONtv</div>
+        
+        <div class="platform-card" title="Dekkoo" style="background: #ff6b00; color: white;">Dekkoo</div>
+        
+        <div class="platform-card" title="DOCSVILLE" style="background: #000000; color: white;">DOCSVILLE</div>
+        
+        <div class="platform-card" title="Fandor" style="background: #ff3b30; color: white;">Fandor</div>
+        
+        <div class="platform-card" title="HiDive" style="background: #00a8ff; color: white;">HiDive</div>
+        
+        <div class="platform-card" title="Magnolia Selects" style="background: #000000; color: white;">Magnolia Selects</div>
+        
+        <div class="platform-card" title="MGM+" style="background: #000000; color: white;">MGM+</div>
+        
+        <div class="platform-card" title="Mhz Choice" style="background: #000000; color: white;">Mhz Choice</div>
+        
+        <div class="platform-card" title="Midnight Pulp" style="background: #8a2be2; color: white;">Midnight Pulp</div>
+        
+        <div class="platform-card" title="Pantaflix" style="background: #000000; color: white;">Pantaflix</div>
+        
+        <div class="platform-card" title="PBS" style="background: #0a3b8c; color: white;">PBS</div>
+        
+        <div class="platform-card" title="PBS Kids" style="background: #e21b3c; color: white;">PBS Kids</div>
+        
+        <div class="platform-card" title="Pure Flix" style="background: #ffffff; color: #000;">Pure Flix</div>
+        
+        <div class="platform-card" title="Rooster Teeth" style="background: #ff4400; color: white;">Rooster Teeth</div>
+        
+        <div class="platform-card" title="Shout! Factory TV" style="background: #000000; color: white;">Shout! Factory TV</div>
+        
+        <div class="platform-card" title="Sundance Now" style="background: #000000; color: white;">Sundance Now</div>
+        
+        <div class="platform-card" title="The Roku Channel" style="background: #6c0bb8; color: white;">Roku Channel</div>
+        
+        <div class="platform-card" title="Topic" style="background: #000000; color: white;">Topic</div>
+        
+        <div class="platform-card" title="Tropical" style="background: #ff7f00; color: white;">Tropical</div>
+        
+        <div class="platform-card" title="Vudu" style="background: #3399ff; color: white;">Vudu</div>
+        
+        <div class="platform-card" title="WWE Network" style="background: #000000; color: white;">WWE Network</div>
+        
+        <div class="platform-card" title="Xive" style="background: #000000; color: white;">Xive</div>
+        
+        <div class="platform-card" title="Yupp TV" style="background: #ff0000; color: white;">Yupp TV</div>
+        
+        <div class="platform-card" title="ZEE5" style="background: #000000; color: white;">ZEE5</div>
+        
+        <div class="platform-card" title="GuideDoc" style="background: #000000; color: white;">GuideDoc</div>
+        
+        <div class="platform-card" title="Mola TV" style="background: #ff6900; color: white;">Mola TV</div>
+        
+        <div class="platform-card" title="Joyn" style="background: #ff2d55; color: white;">Joyn</div>
+        
+        <div class="platform-card" title="RTÉ Player" style="background: #00a7e0; color: white;">RTÉ Player</div>
+        
+        <div class="platform-card" title="Filmio" style="background: #000000; color: white;">Filmio</div>
+        
+        <div class="platform-card" title="Filmzie" style="background: #ff6b35; color: white;">Filmzie</div>
+        
+        <div class="platform-card" title="Hollywood Suite" style="background: #000000; color: white;">Hollywood Suite</div>
+        
+        <div class="platform-card" title="iflix" style="background: #00a8ff; color: white;">iflix</div>
+        
+        <div class="platform-card" title="Blim" style="background: #ff0000; color: white;">Blim</div>
+        
+        <div class="platform-card" title="Sun NXT" style="background: #ff7f00; color: white;">Sun NXT</div>
+        
+        <div class="platform-card" title="Takflix" style="background: #000000; color: white;">Takflix</div>
+        
+        <div class="platform-card" title="Hoichoi" style="background: #ff3b30; color: white;">Hoichoi</div>
+        
+        <div class="platform-card" title="aha" style="background: #ff3750; color: white;">aha</div>
+        
+        <div class="platform-card" title="Argo" style="background: #000000; color: white;">Argo</div>
+        
+        <div class="platform-card" title="BBC iPlayer" style="background: #bb1919; color: white;">BBC iPlayer</div>
+        
+        <div class="platform-card" title="Binge" style="background: #000000; color: white;">Binge</div>
+        
+        <div class="platform-card" title="BroadwayHD" style="background: #000000; color: white;">BroadwayHD</div>
+        
+        <div class="platform-card" title="Classix" style="background: #000000; color: white;">Classix</div>
+        
+        <div class="platform-card" title="CuriosityStream" style="background: #f15a29; color: white;">CuriosityStream</div>
+        
+        <div class="platform-card" title="Discovery+" style="background: #000000; color: white;">Discovery+</div>
+        
+        <div class="platform-card" title="Eros Now" style="background: #ff0000; color: white;">Eros Now</div>
+        
+        <div class="platform-card" title="fuboTV" style="background: #000000; color: white;">fuboTV</div>
+        
+        <div class="platform-card" title="Hayu" style="background: #000000; color: white;">Hayu</div>
+        
+        <div class="platform-card" title="Hoopla" style="background: #ff6600; color: white;">Hoopla</div>
+        
+        <div class="platform-card" title="Hotstar" style="background: #000000; color: white;">Hotstar</div>
+        
+        <div class="platform-card" title="iQIYI" style="background: #000000; color: white;">iQIYI</div>
+        
+        <div class="platform-card" title="Kanopy" style="background: #000000; color: white;">Kanopy</div>
+        
+        <div class="platform-card" title="Kocowa" style="background: #ff0000; color: white;">Kocowa</div>
+        
+        <div class="platform-card" title="Sling TV" style="background: #000000; color: white;">Sling TV</div>
+    </div>
+        <button class="carrusel-flecha derecha" id="btn-plat-right" aria-label="Siguiente">&#10095;</button>
+    </div>
+</section>
+            
             <!-- Sección de Resultados de Plataformas (Oculta por defecto) -->
             <section id="platform-results-section" class="content-row" style="display: none; scroll-margin-top: 100px;">
                 <div class="section-title-container" style="display: flex; justify-content: space-between; align-items: center;">
@@ -3234,6 +3389,19 @@
                 }
             }
         }, true);
+
+        // Lógica para el carrusel de plataformas
+        document.addEventListener('DOMContentLoaded', () => {
+            const platContainer = document.getElementById('platforms-scroll');
+            const btnLeft = document.getElementById('btn-plat-left');
+            const btnRight = document.getElementById('btn-plat-right');
+            
+            if (platContainer && btnLeft && btnRight) {
+                const scrollAmount = 300;
+                btnLeft.addEventListener('click', () => platContainer.scrollBy({ left: -scrollAmount, behavior: 'smooth' }));
+                btnRight.addEventListener('click', () => platContainer.scrollBy({ left: scrollAmount, behavior: 'smooth' }));
+            }
+        });
 
         // --- TMDB Trending Logic (Tiempo Real) ---
         async function loadTrendingTMDB() {
