@@ -1,6 +1,62 @@
 const peliculas3 = [
   {
     "tipo": "pelicula",
+    "titulo": "13 días, 13 noches",
+    "titulo_original": "13 jours, 13 nuits",
+    "poster": "https://image.tmdb.org/t/p/w500/vb4HmgQmjCUBWeY1KvoX7bqYraL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/1zlHZDtV5KsX5VcBahNy5GDqUVt.jpg",
+    "descripcion": "Kabul, agosto de 2021. Mientras las tropas estadounidenses se preparan para abandonar el país, los talibanes asaltan la capital y toman el poder. En medio del caos, el comandante Bida intenta garantizar la seguridad de aquellos que se encuentran en el único refugio que queda en la ciudad, la embajada francesa. Con cientos de vidas en juego, Bida negocia con los talibanes con el fin de organizar un convoy hacia el aeropuerto. Comienza entonces una carrera contrarreloj para huir del infierno de Kabul antes de que sea demasiado tarde.",
+    "año": 2025,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "bélica",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Bélica",
+      "Suspense"
+    ],
+    "director": "Martin Bourboulon",
+    "reparto": [
+      "Roschdy Zem",
+      "Lyna Khoudri",
+      "Sidse Babett Knudsen",
+      "Christophe Montenez",
+      "Sina Parvaneh",
+      "Yan Tual",
+      "Fatima Adoum",
+      "Shoaib Saïd",
+      "Sayed Hashimi",
+      "Benjamin Hicquel",
+      "Jean-Claude Muaka",
+      "Luigi Kröner"
+    ],
+    "calificacion": 6.7,
+    "votos": 162,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-13T18:37:25.012223",
+    "tmdb_id": "1254135",
+    "popularidad": 5.61,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=L4oWYQKpbF8",
+    "trailer_key": "L4oWYQKpbF8",
+    "success": true,
+    "duracion": "112 min",
+    "presupuesto": "$31,400,000",
+    "ingresos": "Desconocido",
+    "plataforma": "Movistar Plus+",
+    "fuentes": [],
+    "id": "13-dias-13-noches-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "1975: El fin de una era",
     "titulo_original": "Breakdown: 1975",
     "poster": "https://image.tmdb.org/t/p/w500/6LirpQnBmBpAOa5Me1lBCBBy90e.jpg",
@@ -46,7 +102,7 @@ const peliculas3 = [
     "duracion": "90 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -115,7 +171,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "a-desert-2025"
+    "id": "a-desert-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -178,7 +235,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "a-hard-place-2025"
+    "id": "a-hard-place-2025",
+    "plataforma": "Plex"
   },
   {
     "tipo": "pelicula",
@@ -294,7 +352,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "accident-man-de-vacaciones-2022"
+    "id": "accident-man-de-vacaciones-2022",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -356,7 +415,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "airbender-el-ultimo-guerrero-2010"
+    "id": "airbender-el-ultimo-guerrero-2010",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -421,7 +481,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "alana-diosa-vengadora-2022"
+    "id": "alana-diosa-vengadora-2022",
+    "plataforma": "Looke Amazon Channel"
   },
   {
     "tipo": "serie",
@@ -489,7 +550,8 @@ const peliculas3 = [
     "episodios": 13,
     "tipo_serie": "Scripted",
     "ultima_emision": "2022-05-15",
-    "id": "albertano-contra-los-mostros-2022"
+    "id": "albertano-contra-los-mostros-2022",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -550,7 +612,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "amar-te-duele-2002"
+    "id": "amar-te-duele-2002",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -609,7 +672,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "among-the-living-2022"
+    "id": "among-the-living-2022",
+    "plataforma": "Booh Amazon Channel"
   },
   {
     "tipo": "pelicula",
@@ -767,7 +831,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "apocalypse-bigfoot-2023"
+    "id": "apocalypse-bigfoot-2023",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -829,7 +894,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "aquaman-y-el-reino-perdido-2023"
+    "id": "aquaman-y-el-reino-perdido-2023",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "serie",
@@ -937,7 +1003,7 @@ const peliculas3 = [
     "episodios": 61,
     "tipo_serie": "Scripted",
     "ultima_emision": "2008-07-19",
-    "plataforma": "netflix",
+    "plataforma": "Netflix",
     "id": "avatar-la-leyenda-de-aang-2005"
   },
   {
@@ -1002,7 +1068,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "batman-azteca-choque-de-imperios-2025"
+    "id": "batman-azteca-choque-de-imperios-2025",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -1187,7 +1254,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "better-man-la-historia-de-robbie-williams-2024"
+    "id": "better-man-la-historia-de-robbie-williams-2024",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -1250,7 +1318,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "blue-beetle-2023"
+    "id": "blue-beetle-2023",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -1406,7 +1475,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "bull-shark-2-2024"
+    "id": "bull-shark-2-2024",
+    "plataforma": "Plex"
   },
   {
     "tipo": "pelicula",
@@ -1452,7 +1522,7 @@ const peliculas3 = [
     "duracion": "N/A",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "Disney Plus",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -1553,7 +1623,7 @@ const peliculas3 = [
     "duracion": "116 min",
     "presupuesto": "$120,000,000",
     "ingresos": "$461,983,149",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -1965,7 +2035,8 @@ const peliculas3 = [
     "episodios": 65,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-02-13",
-    "id": "cobra-kai-2018"
+    "id": "cobra-kai-2018",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -2027,7 +2098,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "colmillos-del-bayou-2025"
+    "id": "colmillos-del-bayou-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "serie",
@@ -2046,14 +2118,14 @@ const peliculas3 = [
     "generos_lista": [],
     "director": "",
     "reparto": [],
-    "calificacion": 0.0,
+    "calificacion": 8.2,
     "votos": 0,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2026-01-08T00:20:27.342259",
-    "tmdb_id": "",
+    "tmdb_id": 252288,
     "popularidad": 0,
     "tagline": "",
     "trailer": "",
@@ -2090,7 +2162,8 @@ const peliculas3 = [
     ],
     "episodios": 0,
     "tipo_serie": "Serie",
-    "id": "consuelo-2026"
+    "id": "consuelo-2026",
+    "plataforma": "ViX Premium Amazon Channel"
   },
   {
     "tipo": "pelicula",
@@ -2188,7 +2261,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "dagr-2024"
+    "id": "dagr-2024",
+    "plataforma": "Tubi TV"
   },
   {
     "tipo": "pelicula",
@@ -2251,7 +2325,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "del-cielo-al-infierno-2025"
+    "id": "del-cielo-al-infierno-2025",
+    "plataforma": "Apple TV"
   },
   {
     "tipo": "pelicula",
@@ -2301,7 +2376,7 @@ const peliculas3 = [
     "duracion": "103 min",
     "presupuesto": "Desconocido",
     "ingresos": "$369,145",
-    "plataforma": "Disney Plus",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -2374,7 +2449,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "dust-bunny-2025"
+    "id": "dust-bunny-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -2430,7 +2506,72 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "el-cadaver-de-anna-fritz-2015"
+    "id": "el-cadaver-de-anna-fritz-2015",
+    "plataforma": "Tubi TV"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El contador de cartas",
+    "titulo_original": "The Card Counter",
+    "poster": "https://image.tmdb.org/t/p/w500/jRZJ0vrr6XzEWh4HihNryjoPfSK.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mE0sGZ4CyzibmBG7FYan5CIKuag.jpg",
+    "descripcion": "William Tell (Oscar Isaac) es un exmilitar y jugador profesional de póker. Su meticulosa vida se trastoca cuando se le acerca Cirk, un joven que busca ayuda en Tell para ejecutar su plan de venganza contra un coronel militar.",
+    "año": 2021,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "suspense",
+      "crimen"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Suspense",
+      "Crimen"
+    ],
+    "director": "Paul Schrader",
+    "reparto": [
+      "Oscar Isaac",
+      "Tiffany Haddish",
+      "Tye Sheridan",
+      "Willem Dafoe",
+      "Alexander Babara",
+      "Bobby C. King",
+      "Ekaterina Baker",
+      "Bryan Truong",
+      "Dylan Flashner",
+      "劉晨芝",
+      "Joel Michaely",
+      "Rachel Michiko Whitney"
+    ],
+    "calificacion": 6.1,
+    "votos": 1048,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-13T18:10:03.372238",
+    "tmdb_id": "643532",
+    "popularidad": 2.5,
+    "tagline": "Recoge lo que has sembrado.",
+    "trailer": "https://www.youtube.com/watch?v=wY5EB2ZDmCU",
+    "trailer_key": "wY5EB2ZDmCU",
+    "success": true,
+    "duracion": "112 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$5,040,860",
+    "plataforma": "MovistarTV",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://teomovie.web.app/iframe.html?url=https://dintezuvio.com/embed/akzjlauiu4zw",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-contador-de-cartas-2021"
   },
   {
     "tipo": "pelicula",
@@ -2709,7 +2850,8 @@ const peliculas3 = [
     "episodios": 22,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-06-27",
-    "id": "el-juego-del-calamar-2021"
+    "id": "el-juego-del-calamar-2021",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "serie",
@@ -2726,14 +2868,14 @@ const peliculas3 = [
     "generos_lista": [],
     "director": "",
     "reparto": [],
-    "calificacion": 0.0,
+    "calificacion": 6.0,
     "votos": 0,
     "idioma": "Español",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2026-01-06T02:26:19.261481",
-    "tmdb_id": "",
+    "tmdb_id": 247756,
     "popularidad": 0,
     "tagline": "",
     "trailer": "",
@@ -2777,7 +2919,8 @@ const peliculas3 = [
     ],
     "episodios": 0,
     "tipo_serie": "Serie",
-    "id": "el-monstruo-de-florencia-2026"
+    "id": "el-monstruo-de-florencia-2026",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -2839,7 +2982,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "el-senor-de-los-anillos-1978"
+    "id": "el-senor-de-los-anillos-1978",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -2901,7 +3045,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "el-senor-de-los-anillos-el-retorno-del-rey-2003"
+    "id": "el-senor-de-los-anillos-el-retorno-del-rey-2003",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -2963,7 +3108,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "el-senor-de-los-anillos-la-comunidad-del-anillo-2001"
+    "id": "el-senor-de-los-anillos-la-comunidad-del-anillo-2001",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -3027,7 +3173,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "el-senor-de-los-anillos-la-guerra-de-los-rohirrim-2024"
+    "id": "el-senor-de-los-anillos-la-guerra-de-los-rohirrim-2024",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -3089,7 +3236,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "el-senor-de-los-anillos-las-dos-torres-2002"
+    "id": "el-senor-de-los-anillos-las-dos-torres-2002",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "serie",
@@ -3157,7 +3305,8 @@ const peliculas3 = [
     "episodios": 24,
     "tipo_serie": "Scripted",
     "ultima_emision": "2024-10-03",
-    "id": "el-senor-de-los-anillos-los-anillos-de-poder-2022"
+    "id": "el-senor-de-los-anillos-los-anillos-de-poder-2022",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "serie",
@@ -3252,7 +3401,8 @@ const peliculas3 = [
     "episodios": 6,
     "tipo_serie": "Miniseries",
     "ultima_emision": "2026-01-01",
-    "id": "el-tiempo-de-las-moscas-2026"
+    "id": "el-tiempo-de-las-moscas-2026",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -3315,7 +3465,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "en-el-reino-de-las-sombras-2025"
+    "id": "en-el-reino-de-las-sombras-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "serie",
@@ -3494,7 +3645,8 @@ const peliculas3 = [
     "episodios": 33,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-11-19",
-    "id": "envidiosa-2024"
+    "id": "envidiosa-2024",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -3549,7 +3701,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "estela-2024"
+    "id": "estela-2024",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -3606,7 +3759,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "exit-protocol-2025"
+    "id": "exit-protocol-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -3669,7 +3823,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "final-recovery-2025"
+    "id": "final-recovery-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -3731,7 +3886,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "flash-2023"
+    "id": "flash-2023",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -3820,7 +3976,7 @@ const peliculas3 = [
     "duracion": "92 min",
     "presupuesto": "Desconocido",
     "ingresos": "$198,534",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -3948,7 +4104,8 @@ const peliculas3 = [
     "episodios": 85,
     "tipo_serie": "Scripted",
     "ultima_emision": "2024-10-25",
-    "id": "fugitivas-en-busca-de-la-libertad-2024"
+    "id": "fugitivas-en-busca-de-la-libertad-2024",
+    "plataforma": "ViX Premium Amazon Channel"
   },
   {
     "tipo": "pelicula",
@@ -4057,7 +4214,7 @@ const peliculas3 = [
     "duracion": "117 min",
     "presupuesto": "$15,700,000",
     "ingresos": "$523,542,183",
-    "plataforma": "pelicula",
+    "plataforma": "Crunchyroll",
     "fuentes": [
       {
         "idioma": "latino",
@@ -4116,7 +4273,8 @@ const peliculas3 = [
     ],
     "episodios": 10,
     "tipo_serie": "Serie",
-    "id": "contenido-id-56295-2026"
+    "id": "contenido-id-56295-2026",
+    "plataforma": "Plex"
   },
   {
     "tipo": "serie",
@@ -4195,7 +4353,8 @@ const peliculas3 = [
     ],
     "episodios": 5,
     "tipo_serie": "Miniseries",
-    "id": "halo-nightfall-2014"
+    "id": "halo-nightfall-2014",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -4258,7 +4417,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "harta-2025"
+    "id": "harta-2025",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -4319,7 +4479,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "heartbeast-2022"
+    "id": "heartbeast-2022",
+    "plataforma": "Booh Amazon Channel"
   },
   {
     "tipo": "pelicula",
@@ -4515,7 +4676,8 @@ const peliculas3 = [
     "episodios": 26,
     "tipo_serie": "Scripted",
     "ultima_emision": "2020-04-03",
-    "id": "herederos-por-accidente-2020"
+    "id": "herederos-por-accidente-2020",
+    "plataforma": "Claro video"
   },
   {
     "tipo": "pelicula",
@@ -4717,7 +4879,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "hotel-dunsmuir-2022"
+    "id": "hotel-dunsmuir-2022",
+    "plataforma": "Booh Amazon Channel"
   },
   {
     "tipo": "serie",
@@ -4810,7 +4973,8 @@ const peliculas3 = [
     "episodios": 8,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-12-21",
-    "id": "i-love-la-2025"
+    "id": "i-love-la-2025",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -4835,20 +4999,20 @@ const peliculas3 = [
     ],
     "director": "",
     "reparto": [],
-    "calificacion": 7.5,
+    "calificacion": 7.4,
     "votos": 0,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-29T19:03:17.953012",
-    "tmdb_id": "",
+    "tmdb_id": 1537780,
     "popularidad": 0,
     "tagline": "",
     "trailer": "",
     "success": true,
     "duracion": "",
-    "plataforma": "pelicula",
+    "plataforma": "ViX Premium Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -4902,7 +5066,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "isi-2025"
+    "id": "isi-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -4960,7 +5125,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "jake-paul-vs-anthony-joshua-2025"
+    "id": "jake-paul-vs-anthony-joshua-2025",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "serie",
@@ -4977,14 +5143,14 @@ const peliculas3 = [
     "generos_lista": [],
     "director": "",
     "reparto": [],
-    "calificacion": 0.0,
+    "calificacion": 7.8,
     "votos": 0,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2026-01-08T22:09:06.351400",
-    "tmdb_id": "",
+    "tmdb_id": 228820,
     "popularidad": 0,
     "tagline": "",
     "trailer": "",
@@ -5042,7 +5208,8 @@ const peliculas3 = [
     ],
     "episodios": 0,
     "tipo_serie": "Serie",
-    "id": "jalas-o-te-rajas-2026"
+    "id": "jalas-o-te-rajas-2026",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -5104,7 +5271,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "john-wick-4-2023"
+    "id": "john-wick-4-2023",
+    "plataforma": "Mercado Play"
   },
   {
     "tipo": "pelicula",
@@ -5169,7 +5337,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "jurassic-world-2015"
+    "id": "jurassic-world-2015",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -5234,7 +5403,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "jurassic-world-el-reino-caido-2018"
+    "id": "jurassic-world-el-reino-caido-2018",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -5296,7 +5466,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "jurassic-world-el-renacer-2025"
+    "id": "jurassic-world-el-renacer-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -5454,7 +5625,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "la-acompanante-2025"
+    "id": "la-acompanante-2025",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -5618,7 +5790,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "la-batalla-olvidada-2021"
+    "id": "la-batalla-olvidada-2021",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -5667,7 +5840,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "la-influencer-siniestra-la-historia-de-jodi-hildebrandt-2025"
+    "id": "la-influencer-siniestra-la-historia-de-jodi-hildebrandt-2025",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -5729,7 +5903,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "la-leyenda-de-beldham-2025"
+    "id": "la-leyenda-de-beldham-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -5788,7 +5963,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "la-llorona-2019"
+    "id": "la-llorona-2019",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "serie",
@@ -5837,7 +6013,8 @@ const peliculas3 = [
     ],
     "episodios": 10,
     "tipo_serie": "Serie",
-    "id": "la-nueva-brigada-2026"
+    "id": "la-nueva-brigada-2026",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -5997,7 +6174,8 @@ const peliculas3 = [
     "episodios": 5,
     "tipo_serie": "Miniseries",
     "ultima_emision": "2026-01-02",
-    "id": "la-tierra-del-pecado-2026"
+    "id": "la-tierra-del-pecado-2026",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "serie",
@@ -6073,7 +6251,8 @@ const peliculas3 = [
     "episodios": 16,
     "tipo_serie": "Scripted",
     "ultima_emision": "2024-11-21",
-    "id": "las-bravas-fc-2022"
+    "id": "las-bravas-fc-2022",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -6128,7 +6307,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "leprechaun-the-beginning-2025"
+    "id": "leprechaun-the-beginning-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -6190,7 +6370,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "liga-de-la-justicia-crisis-en-tierras-infinitas---parte-1-2024"
+    "id": "liga-de-la-justicia-crisis-en-tierras-infinitas---parte-1-2024",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -6252,7 +6433,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "liga-de-la-justicia-crisis-en-tierras-infinitas---parte-2-2024"
+    "id": "liga-de-la-justicia-crisis-en-tierras-infinitas---parte-2-2024",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -6314,7 +6496,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "liga-de-la-justicia-crisis-en-tierras-infinitas---parte-3-2024"
+    "id": "liga-de-la-justicia-crisis-en-tierras-infinitas---parte-3-2024",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "serie",
@@ -6465,7 +6648,7 @@ const peliculas3 = [
     "episodios": 8,
     "tipo_serie": "Miniseries",
     "ultima_emision": "2023-06-01",
-    "plataforma": "netflix",
+    "plataforma": "Netflix",
     "id": "los-dias-2023"
   },
   {
@@ -6527,7 +6710,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "los-exploradores-2024"
+    "id": "los-exploradores-2024",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -6618,7 +6802,7 @@ const peliculas3 = [
     "duracion": "142 min",
     "presupuesto": "$75,000,000",
     "ingresos": "$694,000,000",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -6814,7 +6998,7 @@ const peliculas3 = [
     "duracion": "146 min",
     "presupuesto": "$130,000,000",
     "ingresos": "$865,011,746",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "url": "https://streamwish.to/e/hhtybi4j1pfn",
@@ -6913,7 +7097,7 @@ const peliculas3 = [
     "duracion": "123 min",
     "presupuesto": "$125,000,000",
     "ingresos": "$755,356,711",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7012,7 +7196,7 @@ const peliculas3 = [
     "duracion": "137 min",
     "presupuesto": "$160,000,000",
     "ingresos": "$653,428,261",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7084,7 +7268,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "los-mundos-de-coraline-2009"
+    "id": "los-mundos-de-coraline-2009",
+    "plataforma": "Universal+ Amazon Channel"
   },
   {
     "tipo": "pelicula",
@@ -7147,7 +7332,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "los-pecadores-2025"
+    "id": "los-pecadores-2025",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -7210,7 +7396,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "los-radley-2024"
+    "id": "los-radley-2024",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -7269,7 +7456,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "lost-horizon-2025"
+    "id": "lost-horizon-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -7332,7 +7520,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "love-on-the-rock-2021"
+    "id": "love-on-the-rock-2021",
+    "plataforma": "Adrenalina Pura Amazon channel"
   },
   {
     "tipo": "serie",
@@ -7423,7 +7612,8 @@ const peliculas3 = [
     "episodios": 10,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-07-10",
-    "id": "matabot-2025"
+    "id": "matabot-2025",
+    "plataforma": "Apple TV"
   },
   {
     "tipo": "pelicula",
@@ -7474,7 +7664,7 @@ const peliculas3 = [
     "duracion": "105 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7735,7 +7925,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "no-way-out-2022"
+    "id": "no-way-out-2022",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -7822,7 +8013,7 @@ const peliculas3 = [
     "duracion": "181 min",
     "presupuesto": "$100,000,000",
     "ingresos": "$952,000,000",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7950,7 +8141,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "osiris-2025"
+    "id": "osiris-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -8149,7 +8341,8 @@ const peliculas3 = [
     "episodios": 3,
     "tipo_serie": "Documentary",
     "ultima_emision": "2026-01-09",
-    "id": "pelayo-mas-alla-del-limite-2026"
+    "id": "pelayo-mas-alla-del-limite-2026",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -8226,14 +8419,14 @@ const peliculas3 = [
     "generos_lista": [],
     "director": "",
     "reparto": [],
-    "calificacion": 0.0,
+    "calificacion": 6.9,
     "votos": 0,
     "idioma": "Español",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2026-01-06T02:23:12.455995",
-    "tmdb_id": "",
+    "tmdb_id": 256585,
     "popularidad": 0,
     "tagline": "",
     "trailer": "",
@@ -8242,7 +8435,8 @@ const peliculas3 = [
     "temporadas": [],
     "episodios": 0,
     "tipo_serie": "Serie",
-    "id": "pequenos-desastres-2026"
+    "id": "pequenos-desastres-2026",
+    "plataforma": "Paramount+"
   },
   {
     "tipo": "pelicula",
@@ -8357,7 +8551,7 @@ const peliculas3 = [
     "duracion": "143 min",
     "presupuesto": "$140,000,000",
     "ingresos": "$655,011,224",
-    "plataforma": "Disney Plus",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -8523,7 +8717,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "primate-2026"
+    "id": "primate-2026",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -8614,14 +8809,14 @@ const peliculas3 = [
     ],
     "director": "",
     "reparto": [],
-    "calificacion": 7.5,
+    "calificacion": 5.7,
     "votos": 0,
     "idioma": "Español",
     "calidad": "HD",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-26T16:40:47.715505",
-    "tmdb_id": "",
+    "tmdb_id": 284146,
     "popularidad": 0,
     "tagline": "",
     "trailer": "",
@@ -8671,7 +8866,8 @@ const peliculas3 = [
     ],
     "episodios": 0,
     "tipo_serie": "Serie",
-    "id": "rompehielos-2025"
+    "id": "rompehielos-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -8724,7 +8920,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "ruido-2025"
+    "id": "ruido-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -8786,7 +8983,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "s-2002"
+    "id": "s-2002",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -8875,7 +9073,7 @@ const peliculas3 = [
     "duracion": "88 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Booh Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -8939,7 +9137,7 @@ const peliculas3 = [
     "duracion": "123 min",
     "presupuesto": "$35,000,000",
     "ingresos": "$168,961,389",
-    "plataforma": "Paramount Plus",
+    "plataforma": "Paramount+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -9005,7 +9203,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "serpentine-pink-2022"
+    "id": "serpentine-pink-2022",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -9064,7 +9263,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "shame-2011"
+    "id": "shame-2011",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -9226,7 +9426,8 @@ const peliculas3 = [
     "episodios": 3,
     "tipo_serie": "Miniseries",
     "ultima_emision": "2025-12-01",
-    "id": "silencio-2025"
+    "id": "silencio-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -9344,7 +9545,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "sky-beasts-the-screaming-sky-2022"
+    "id": "sky-beasts-the-screaming-sky-2022",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -9399,7 +9601,7 @@ const peliculas3 = [
     "duracion": "40 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Apple TV",
     "fuentes": [
       {
         "idioma": "latino",
@@ -9453,7 +9655,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "snooze-2026"
+    "id": "snooze-2026",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "serie",
@@ -9537,7 +9740,8 @@ const peliculas3 = [
     "episodios": 7,
     "tipo_serie": "Miniseries",
     "ultima_emision": "2024-10-18",
-    "id": "somos-oro-2024"
+    "id": "somos-oro-2024",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -9729,7 +9933,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "star-wars-el-despertar-de-la-fuerza-2015"
+    "id": "star-wars-el-despertar-de-la-fuerza-2015",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -9852,7 +10057,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "technoboys-2024"
+    "id": "technoboys-2024",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -9915,7 +10121,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "the-home-2025"
+    "id": "the-home-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -9975,7 +10182,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "the-plague-2025"
+    "id": "the-plague-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -10026,7 +10234,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "tini-en-vivo-futttura-2025"
+    "id": "tini-en-vivo-futttura-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -10142,7 +10351,7 @@ const peliculas3 = [
     "duracion": "154 min",
     "presupuesto": "$217,000,000",
     "ingresos": "$605,425,157",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -10205,7 +10414,7 @@ const peliculas3 = [
     "duracion": "165 min",
     "presupuesto": "$210,000,000",
     "ingresos": "$1,104,054,072",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "url": "https://streamwish.to/e/9s6ba655vebg",
@@ -10278,7 +10487,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "trap-house-2025"
+    "id": "trap-house-2025",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -10334,7 +10544,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "twas-the-night-2023"
+    "id": "twas-the-night-2023",
+    "plataforma": "Plex"
   },
   {
     "tipo": "pelicula",
@@ -10389,7 +10600,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "un-hombre-por-semana-2026"
+    "id": "un-hombre-por-semana-2026",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -10515,7 +10727,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "un-robo-muy-navideno-2025"
+    "id": "un-robo-muy-navideno-2025",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -10578,7 +10791,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "una-mujer-normal-2025"
+    "id": "una-mujer-normal-2025",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -10637,7 +10851,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "una-ultima-aventura-asi-se-hizo-stranger-things-5-2026"
+    "id": "una-ultima-aventura-asi-se-hizo-stranger-things-5-2026",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -10695,7 +10910,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "v-de-victor-2024"
+    "id": "v-de-victor-2024",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -10746,7 +10962,7 @@ const peliculas3 = [
     "duracion": "112 min",
     "presupuesto": "$116,000,000",
     "ingresos": "$856,085,151",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -10809,7 +11025,7 @@ const peliculas3 = [
     "duracion": "109 min",
     "presupuesto": "$120,000,000",
     "ingresos": "$478,937,618",
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -10872,7 +11088,7 @@ const peliculas3 = [
     "duracion": "97 min",
     "presupuesto": "$110,000,000",
     "ingresos": "$506,863,592",
-    "plataforma": "pelicula",
+    "plataforma": "Universal+ Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -10945,7 +11161,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "verano-infernal-2025"
+    "id": "verano-infernal-2025",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -11007,7 +11224,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "we-bury-the-dead-2026"
+    "id": "we-bury-the-dead-2026",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -11069,7 +11287,8 @@ const peliculas3 = [
         "activa": true
       }
     ],
-    "id": "y-ella-dijo-quizas-2025"
+    "id": "y-ella-dijo-quizas-2025",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -11120,7 +11339,7 @@ const peliculas3 = [
     "duracion": "104 min",
     "presupuesto": "$34,000,000",
     "ingresos": "$54,639,553",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -11228,6 +11447,7 @@ const peliculas3 = [
     "episodios": 6,
     "tipo_serie": "Miniseries",
     "ultima_emision": "2026-01-08",
-    "id": "el-y-ella-2026"
+    "id": "el-y-ella-2026",
+    "plataforma": "Netflix"
   }
 ];

@@ -86,7 +86,7 @@ const peliculas2 = [
     "duracion": "95 min",
     "presupuesto": "$7,500,000",
     "ingresos": "$60,781,545",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -192,7 +192,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "ho-ho-ho-santa-homer-2024"
+    "id": "ho-ho-ho-santa-homer-2024",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -344,7 +345,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "10dance-2025"
+    "id": "10dance-2025",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -402,7 +404,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "365-dias-aquel-dia-2022"
+    "id": "365-dias-aquel-dia-2022",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -454,7 +457,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "84 min",
     "fuentes": [],
-    "id": "5-contra-la-banca-1955"
+    "id": "5-contra-la-banca-1955",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -512,7 +516,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "a-pesar-de-ti-2025"
+    "id": "a-pesar-de-ti-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -603,7 +608,7 @@ const peliculas2 = [
     "duracion": "95 min",
     "presupuesto": "$10,000,000",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Sony One Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -667,7 +672,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "119 min",
     "fuentes": [],
-    "id": "agak-laen-menyala-pantiku-2025"
+    "id": "agak-laen-menyala-pantiku-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -758,7 +764,7 @@ const peliculas2 = [
     "duracion": "95 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -828,7 +834,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "anora-2024"
+    "id": "anora-2024",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -886,7 +893,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "antes-de-ti-2016"
+    "id": "antes-de-ti-2016",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -948,7 +956,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "atrapado-en-el-tiempo-1993"
+    "id": "atrapado-en-el-tiempo-1993",
+    "plataforma": "Sony One Amazon Channel"
   },
   {
     "tipo": "pelicula",
@@ -1006,7 +1015,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "atrapame-si-puedes-2002"
+    "id": "atrapame-si-puedes-2002",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -1097,7 +1107,7 @@ const peliculas2 = [
     "duracion": "161 min",
     "presupuesto": "$237,000,000",
     "ingresos": "$2,923,706,026",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -1573,7 +1583,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "avatar-el-sentido-del-agua-2022"
+    "id": "avatar-el-sentido-del-agua-2022",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -1814,7 +1825,7 @@ const peliculas2 = [
     "episodios": 8,
     "tipo_serie": "Scripted",
     "ultima_emision": "2024-02-22",
-    "plataforma": "netflix",
+    "plataforma": "Netflix",
     "id": "avatar-la-leyenda-de-aang-2024"
   },
   {
@@ -1873,7 +1884,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "babygirl-2024"
+    "id": "babygirl-2024",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -1925,7 +1937,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "140 min",
     "fuentes": [],
-    "id": "batman-begins-2005"
+    "id": "batman-begins-2005",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -2014,7 +2027,7 @@ const peliculas2 = [
     "duracion": "116 min",
     "presupuesto": "$69,000,000",
     "ingresos": "$177,900,000",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -2082,7 +2095,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "blade-runner-2049-2017"
+    "id": "blade-runner-2049-2017",
+    "plataforma": "Sony One Amazon Channel"
   },
   {
     "tipo": "pelicula",
@@ -2130,7 +2144,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "117 min",
     "fuentes": [],
-    "id": "blue-sun-palace-2025"
+    "id": "blue-sun-palace-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -2298,7 +2313,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "book-club-2018"
+    "id": "book-club-2018",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -2358,7 +2374,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "bramayugam-2024"
+    "id": "bramayugam-2024",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -2410,7 +2427,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "123 min",
     "fuentes": [],
-    "id": "bureau-749-2024"
+    "id": "bureau-749-2024",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "serie",
@@ -2472,7 +2490,8 @@ const peliculas2 = [
     "episodios": 12,
     "tipo_serie": "Scripted",
     "ultima_emision": "2022-10-21",
-    "id": "barbaros-2020"
+    "id": "barbaros-2020",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -2523,7 +2542,8 @@ const peliculas2 = [
     "duracion": "143 min",
     "fuentes": [],
     "id": "cadena-perpetua-1994",
-    "poster_original": "https://image.tmdb.org/t/p/w500/uRRTV7p6l2ivtODWJVVAMRrwTn2.jpg"
+    "poster_original": "https://image.tmdb.org/t/p/w500/uRRTV7p6l2ivtODWJVVAMRrwTn2.jpg",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -2581,7 +2601,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "call-me-by-your-name-2017"
+    "id": "call-me-by-your-name-2017",
+    "plataforma": "Sony One Amazon Channel"
   },
   {
     "tipo": "pelicula",
@@ -2637,7 +2658,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "caza-de-brujas-2025"
+    "id": "caza-de-brujas-2025",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -2890,7 +2912,7 @@ const peliculas2 = [
     "duracion": "106 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -2945,7 +2967,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "119 min",
     "fuentes": [],
-    "id": "celestina-burlesk-dancer-2024"
+    "id": "celestina-burlesk-dancer-2024",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -3005,7 +3028,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "cincuenta-sombras-de-grey-2015"
+    "id": "cincuenta-sombras-de-grey-2015",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -3065,7 +3089,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "civil-war-2024"
+    "id": "civil-war-2024",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "serie",
@@ -3190,7 +3215,8 @@ const peliculas2 = [
     "episodios": 28,
     "tipo_serie": "Scripted",
     "ultima_emision": "2022-06-15",
-    "id": "con-amor-victor-2020"
+    "id": "con-amor-victor-2020",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "serie",
@@ -3353,7 +3379,7 @@ const peliculas2 = [
     "episodios": 10,
     "tipo_serie": "Scripted",
     "ultima_emision": "2023-01-25",
-    "plataforma": "netflix",
+    "plataforma": "Netflix",
     "id": "contra-las-cuerdas-2023"
   },
   {
@@ -3431,7 +3457,8 @@ const peliculas2 = [
     "episodios": 4,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-12-09",
-    "id": "cooper-fry-2025"
+    "id": "cooper-fry-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -3491,7 +3518,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "crepusculo-2008"
+    "id": "crepusculo-2008",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -3553,7 +3581,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "cuento-de-navidad-2009"
+    "id": "cuento-de-navidad-2009",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "serie",
@@ -3668,7 +3697,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "culpa-mia-2023"
+    "id": "culpa-mia-2023",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -3726,7 +3756,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "culpa-mia-londres-2025"
+    "id": "culpa-mia-londres-2025",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -3878,7 +3909,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "115 min",
     "fuentes": [],
-    "id": "david-2025"
+    "id": "david-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -3947,7 +3979,7 @@ const peliculas2 = [
     "duracion": "N/A",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Looke Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -4009,7 +4041,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "96 min",
     "fuentes": [],
-    "id": "de-ilusion-tambien-se-vive-1947"
+    "id": "de-ilusion-tambien-se-vive-1947",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "serie",
@@ -4106,7 +4139,7 @@ const peliculas2 = [
     "episodios": 37,
     "tipo_serie": "Documentary",
     "ultima_emision": "2025-10-10",
-    "plataforma": "documental",
+    "plataforma": "Amazon Prime Video",
     "id": "de-viaje-con-los-derbez-2019"
   },
   {
@@ -4234,7 +4267,8 @@ const peliculas2 = [
     "episodios": 10,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-09-07",
-    "id": "dexter-resurreccion-2025"
+    "id": "dexter-resurreccion-2025",
+    "plataforma": "Paramount+"
   },
   {
     "tipo": "pelicula",
@@ -4292,7 +4326,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "django-desencadenado-2012"
+    "id": "django-desencadenado-2012",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -4342,7 +4377,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "118 min",
     "fuentes": [],
-    "id": "dos-mundos-un-deseo-2025"
+    "id": "dos-mundos-un-deseo-2025",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -4392,7 +4428,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "95 min",
     "fuentes": [],
-    "id": "dreams-2025"
+    "id": "dreams-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -4439,7 +4476,7 @@ const peliculas2 = [
     "duracion": "119 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -4511,7 +4548,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "et-el-extraterrestre-1982"
+    "id": "et-el-extraterrestre-1982",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -4558,7 +4596,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "107 min",
     "fuentes": [],
-    "id": "ekis-2025"
+    "id": "ekis-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -4649,7 +4688,7 @@ const peliculas2 = [
     "duracion": "130 min",
     "presupuesto": "$170,000,000",
     "ingresos": "$710,644,566",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -4707,7 +4746,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "170 min",
     "fuentes": [],
-    "id": "el-aviador-2004"
+    "id": "el-aviador-2004",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -4798,7 +4838,7 @@ const peliculas2 = [
     "duracion": "107 min",
     "presupuesto": "$82,000,000",
     "ingresos": "$146,745,280",
-    "plataforma": "pelicula",
+    "plataforma": "Universal+ Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -4862,7 +4902,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "152 min",
     "fuentes": [],
-    "id": "el-caballero-oscuro-2008"
+    "id": "el-caballero-oscuro-2008",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -4924,7 +4965,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "el-caballero-oscuro-la-leyenda-renace-2012"
+    "id": "el-caballero-oscuro-la-leyenda-renace-2012",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -5009,7 +5051,7 @@ const peliculas2 = [
     "duracion": "95 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "ViX Premium Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -5069,7 +5111,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "139 min",
     "fuentes": [],
-    "id": "el-club-de-la-lucha-1999"
+    "id": "el-club-de-la-lucha-1999",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -5129,7 +5172,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "el-conde-de-montecristo-2024"
+    "id": "el-conde-de-montecristo-2024",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -5187,7 +5231,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "el-diario-de-noa-2004"
+    "id": "el-diario-de-noa-2004",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -5280,7 +5325,7 @@ const peliculas2 = [
     "duracion": "78 min",
     "presupuesto": "$100,000,000",
     "ingresos": "$169,327,687",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -5344,7 +5389,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "117 min",
     "fuentes": [],
-    "id": "el-fiscal-2024"
+    "id": "el-fiscal-2024",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -5433,7 +5479,7 @@ const peliculas2 = [
     "duracion": "109 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -5491,7 +5537,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "126 min",
     "fuentes": [],
-    "id": "el-indomable-will-hunting-1997"
+    "id": "el-indomable-will-hunting-1997",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -5607,7 +5654,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "el-lobo-de-wall-street-2013"
+    "id": "el-lobo-de-wall-street-2013",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -5740,7 +5788,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "109 min",
     "fuentes": [],
-    "id": "el-negociador-2025"
+    "id": "el-negociador-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -5831,7 +5880,7 @@ const peliculas2 = [
     "duracion": "105 min",
     "presupuesto": "$93,000,000",
     "ingresos": "$481,800,873",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -5899,7 +5948,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "el-padrino-parte-ii-1974"
+    "id": "el-padrino-parte-ii-1974",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -5959,7 +6009,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "el-precio-del-poder-1983"
+    "id": "el-precio-del-poder-1983",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -6015,7 +6066,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "144 min",
     "fuentes": [],
-    "id": "el-reino-de-los-cielos-2005"
+    "id": "el-reino-de-los-cielos-2005",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -6104,7 +6156,7 @@ const peliculas2 = [
     "duracion": "156 min",
     "presupuesto": "$135,000,000",
     "ingresos": "$532,950,503",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -6159,7 +6211,7 @@ const peliculas2 = [
     "duracion": "86 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Looke Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -6227,7 +6279,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "el-show-de-truman-1998"
+    "id": "el-show-de-truman-1998",
+    "plataforma": "Paramount+"
   },
   {
     "tipo": "pelicula",
@@ -6314,7 +6367,7 @@ const peliculas2 = [
     "duracion": "109 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -6372,7 +6425,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "78 min",
     "fuentes": [],
-    "id": "el-vuelo-de-venus-1988"
+    "id": "el-vuelo-de-venus-1988",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "serie",
@@ -6567,7 +6621,7 @@ const peliculas2 = [
     "episodios": 20,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-06-01",
-    "plataforma": "star+",
+    "plataforma": "Disney+",
     "id": "enloqueciendo-contigo-2025"
   },
   {
@@ -6816,7 +6870,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "este-amor-si-que-duele-2025"
+    "id": "este-amor-si-que-duele-2025",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -6868,7 +6923,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "114 min",
     "fuentes": [],
-    "id": "eternity-2025"
+    "id": "eternity-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -7116,7 +7172,8 @@ const peliculas2 = [
     "episodios": 16,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-12-16",
-    "id": "fallout-2024"
+    "id": "fallout-2024",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "serie",
@@ -7209,7 +7266,7 @@ const peliculas2 = [
     "episodios": 6,
     "tipo_serie": "Documentary",
     "ultima_emision": "2025-07-08",
-    "plataforma": "max",
+    "plataforma": "HBO Max",
     "id": "fatal-destination-2025"
   },
   {
@@ -7262,7 +7319,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "142 min",
     "fuentes": [],
-    "id": "forrest-gump-1994"
+    "id": "forrest-gump-1994",
+    "plataforma": "Paramount+"
   },
   {
     "tipo": "serie",
@@ -7342,7 +7400,8 @@ const peliculas2 = [
     "episodios": 4,
     "tipo_serie": "Miniseries",
     "ultima_emision": "2025-11-24",
-    "id": "fortnite-x-los-simpson-2025"
+    "id": "fortnite-x-los-simpson-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -7394,7 +7453,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "149 min",
     "fuentes": [],
-    "id": "frankenstein-2025"
+    "id": "frankenstein-2025",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -7481,7 +7541,7 @@ const peliculas2 = [
     "duracion": "115 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7558,7 +7618,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "gladiator-2000"
+    "id": "gladiator-2000",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -7625,7 +7686,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "gladiator-ii-2024"
+    "id": "gladiator-ii-2024",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -7714,7 +7776,7 @@ const peliculas2 = [
     "duracion": "134 min",
     "presupuesto": "$60,000,000",
     "ingresos": "$121,700,000",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7785,7 +7847,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "95 min",
     "fuentes": [],
-    "id": "hackers-piratas-informaticos-1995"
+    "id": "hackers-piratas-informaticos-1995",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -7835,7 +7898,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "126 min",
     "fuentes": [],
-    "id": "hamnet-2025"
+    "id": "hamnet-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -7887,7 +7951,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "170 min",
     "fuentes": [],
-    "id": "heat-1995"
+    "id": "heat-1995",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -7974,7 +8039,7 @@ const peliculas2 = [
     "duracion": "88 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "Original",
@@ -8026,7 +8091,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "13 min",
     "fuentes": [],
-    "id": "hotel-chevalier-2007"
+    "id": "hotel-chevalier-2007",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -8078,7 +8144,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "93 min",
     "fuentes": [],
-    "id": "hunting-season-2025"
+    "id": "hunting-season-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -8130,7 +8197,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "113 min",
     "fuentes": [],
-    "id": "ice-road-venganza-2025"
+    "id": "ice-road-venganza-2025",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -8182,7 +8250,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "169 min",
     "fuentes": [],
-    "id": "interstellar-2014"
+    "id": "interstellar-2014",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "serie",
@@ -8279,7 +8348,8 @@ const peliculas2 = [
     "episodios": 6,
     "tipo_serie": "Miniseries",
     "ultima_emision": "2025-07-01",
-    "id": "ironheart-2025"
+    "id": "ironheart-2025",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -8375,7 +8445,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "jackpot-2024"
+    "id": "jackpot-2024",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -8433,7 +8504,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "jay-kelly-2025"
+    "id": "jay-kelly-2025",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -8493,7 +8565,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "joker-2019"
+    "id": "joker-2019",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -8560,7 +8633,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "karate-kid-legends-2025"
+    "id": "karate-kid-legends-2025",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -8614,7 +8688,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "139 min",
     "fuentes": [],
-    "id": "kenshin-el-guerrero-samurai-el-final-2021"
+    "id": "kenshin-el-guerrero-samurai-el-final-2021",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -8703,7 +8778,7 @@ const peliculas2 = [
     "duracion": "126 min",
     "presupuesto": "$130,000,000",
     "ingresos": "$62,076,533",
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -8765,7 +8840,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "135 min",
     "fuentes": [],
-    "id": "lopium-et-le-baton-1970"
+    "id": "lopium-et-le-baton-1970",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -8819,7 +8895,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "138 min",
     "fuentes": [],
-    "id": "la-confidential-1997"
+    "id": "la-confidential-1997",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -8906,7 +8983,7 @@ const peliculas2 = [
     "duracion": "92 min",
     "presupuesto": "$5,000,000",
     "ingresos": "$2,243,353",
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -8976,7 +9053,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "la-ciudad-de-las-estrellas-la-la-land-2016"
+    "id": "la-ciudad-de-las-estrellas-la-la-land-2016",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -9035,7 +9113,7 @@ const peliculas2 = [
     "duracion": "111 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "documental",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -9070,14 +9148,14 @@ const peliculas2 = [
     ],
     "director": "",
     "reparto": [],
-    "calificacion": 7.5,
+    "calificacion": 7.6,
     "votos": 0,
     "idioma": "latino",
     "calidad": "HD",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-17T21:40:53.080683",
-    "tmdb_id": "",
+    "tmdb_id": 31072,
     "popularidad": 0,
     "tagline": "",
     "trailer": "",
@@ -9106,7 +9184,7 @@ const peliculas2 = [
     ],
     "episodios": 0,
     "tipo_serie": "Serie",
-    "plataforma": "vix",
+    "plataforma": "ViX Premium Amazon Channel",
     "id": "la-familia-peluche-2025"
   },
   {
@@ -9225,7 +9303,7 @@ const peliculas2 = [
     "episodios": 10,
     "tipo_serie": "Scripted",
     "ultima_emision": "2022-12-07",
-    "plataforma": "netflix",
+    "plataforma": "Netflix",
     "id": "la-flor-mas-bella-2022",
     "poster_original": "https://image.tmdb.org/t/p/w500/oIiDdWpR0zsFgdzzgVjEDZ8xrsl.jpg"
   },
@@ -9366,7 +9444,8 @@ const peliculas2 = [
     "episodios": 6,
     "tipo_serie": "Miniseries",
     "ultima_emision": "2025-11-06",
-    "id": "la-guerra-de-los-reinos-2025"
+    "id": "la-guerra-de-los-reinos-2025",
+    "plataforma": "Universal+ Amazon Channel"
   },
   {
     "tipo": "pelicula",
@@ -9455,7 +9534,7 @@ const peliculas2 = [
     "duracion": "140 min",
     "presupuesto": "$150,000,000",
     "ingresos": "$490,719,763",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -9532,7 +9611,7 @@ const peliculas2 = [
     "duracion": "107 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -9602,7 +9681,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "la-isla-siniestra-2010"
+    "id": "la-isla-siniestra-2010",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -9662,7 +9742,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "la-lista-de-schindler-1993"
+    "id": "la-lista-de-schindler-1993",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -9722,7 +9803,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "la-llegada-2016"
+    "id": "la-llegada-2016",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -9811,7 +9893,7 @@ const peliculas2 = [
     "duracion": "135 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Looke Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -9881,7 +9963,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "la-milla-verde-1999"
+    "id": "la-milla-verde-1999",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -9906,20 +9989,20 @@ const peliculas2 = [
     ],
     "director": "",
     "reparto": [],
-    "calificacion": 7.5,
+    "calificacion": 6.4,
     "votos": 0,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-17T20:20:26.428969",
-    "tmdb_id": "",
+    "tmdb_id": 1307520,
     "popularidad": 0,
     "tagline": "",
     "trailer": "",
     "success": true,
     "duracion": "",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -9981,7 +10064,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "N/A",
     "fuentes": [],
-    "id": "la-odisea-2026"
+    "id": "la-odisea-2026",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "serie",
@@ -10090,7 +10174,7 @@ const peliculas2 = [
     "episodios": 8,
     "tipo_serie": "Reality",
     "ultima_emision": "2025-11-07",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "id": "la-peor-vuelta-al-mundo-2025"
   },
   {
@@ -10141,7 +10225,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "135 min",
     "fuentes": [],
-    "id": "la-ultima-noche-2002"
+    "id": "la-ultima-noche-2002",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -10181,7 +10266,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "80 min",
     "fuentes": [],
-    "id": "lambada-blu-1989"
+    "id": "lambada-blu-1989",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -10270,7 +10356,7 @@ const peliculas2 = [
     "duracion": "92 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -10435,7 +10521,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "logan-2017"
+    "id": "logan-2017",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -10603,7 +10690,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "los-cuatro-fantasticos-primeros-pasos-2025"
+    "id": "los-cuatro-fantasticos-primeros-pasos-2025",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -10694,7 +10782,7 @@ const peliculas2 = [
     "duracion": "92 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -10758,7 +10846,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "47 min",
     "fuentes": [],
-    "id": "los-telenecos-celebran-a-jim-henson-1990"
+    "id": "los-telenecos-celebran-a-jim-henson-1990",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -10810,7 +10899,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "135 min",
     "fuentes": [],
-    "id": "love-actually-2003"
+    "id": "love-actually-2003",
+    "plataforma": "Filmelier Plus Amazon Channel"
   },
   {
     "tipo": "pelicula",
@@ -10862,7 +10952,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "95 min",
     "fuentes": [],
-    "id": "maldita-trinidad-2025"
+    "id": "maldita-trinidad-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -10922,7 +11013,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "malditos-bastardos-2009"
+    "id": "malditos-bastardos-2009",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -11007,7 +11099,7 @@ const peliculas2 = [
     "duracion": "95 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "ViX Premium Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -11067,7 +11159,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "150 min",
     "fuentes": [],
-    "id": "marty-supreme-2025"
+    "id": "marty-supreme-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -11152,7 +11245,7 @@ const peliculas2 = [
     "duracion": "105 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -11311,7 +11404,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "114 min",
     "fuentes": [],
-    "id": "milagro-en-la-ciudad-1994"
+    "id": "milagro-en-la-ciudad-1994",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -11400,7 +11494,7 @@ const peliculas2 = [
     "duracion": "54 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -11582,7 +11676,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "mision-imposible---sentencia-final-2025"
+    "id": "mision-imposible---sentencia-final-2025",
+    "plataforma": "Paramount+"
   },
   {
     "tipo": "serie",
@@ -11704,7 +11799,8 @@ const peliculas2 = [
     "episodios": 10,
     "tipo_serie": "Miniseries",
     "ultima_emision": "2022-09-21",
-    "id": "monstruo-la-historia-de-jeffrey-dahmer-2022"
+    "id": "monstruo-la-historia-de-jeffrey-dahmer-2022",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -11758,7 +11854,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "118 min",
     "fuentes": [],
-    "id": "monuments-men-2014"
+    "id": "monuments-men-2014",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -11849,7 +11946,7 @@ const peliculas2 = [
     "duracion": "110 min",
     "presupuesto": "Desconocido",
     "ingresos": "$32,224,616",
-    "plataforma": "pelicula",
+    "plataforma": "Crunchyroll",
     "fuentes": [
       {
         "idioma": "latino",
@@ -11928,7 +12025,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "ne-zha-2-2025"
+    "id": "ne-zha-2-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -12015,7 +12113,7 @@ const peliculas2 = [
     "duracion": "98 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "español",
@@ -12211,7 +12309,7 @@ const peliculas2 = [
     "duracion": "90 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "netflix",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -12304,7 +12402,7 @@ const peliculas2 = [
     "duracion": "126 min",
     "presupuesto": "$120,000,000",
     "ingresos": "$286,168,572",
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -12362,7 +12460,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "90 min",
     "fuentes": [],
-    "id": "obsessed-2014"
+    "id": "obsessed-2014",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -12424,7 +12523,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "old-boy-2003"
+    "id": "old-boy-2003",
+    "plataforma": "MUBI"
   },
   {
     "tipo": "serie",
@@ -12668,7 +12768,8 @@ const peliculas2 = [
     "episodios": 1156,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-12-21",
-    "id": "one-piece-1999"
+    "id": "one-piece-1999",
+    "plataforma": "Crunchyroll"
   },
   {
     "tipo": "pelicula",
@@ -12726,7 +12827,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "orgullo-y-prejuicio-2005"
+    "id": "orgullo-y-prejuicio-2005",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -12786,7 +12888,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "origen-2010"
+    "id": "origen-2010",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -12871,7 +12974,7 @@ const peliculas2 = [
     "duracion": "92 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "ViX Premium Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -12906,14 +13009,14 @@ const peliculas2 = [
     ],
     "director": "",
     "reparto": [],
-    "calificacion": 7.5,
+    "calificacion": 7.8,
     "votos": 0,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-17T20:34:17.003271",
-    "tmdb_id": "",
+    "tmdb_id": 293786,
     "popularidad": 0,
     "tagline": "",
     "trailer": "",
@@ -12998,7 +13101,7 @@ const peliculas2 = [
     ],
     "episodios": 0,
     "tipo_serie": "Serie",
-    "plataforma": "vix",
+    "plataforma": "ViX Premium Amazon Channel",
     "id": "papa-soltero-2025"
   },
   {
@@ -13024,14 +13127,14 @@ const peliculas2 = [
     ],
     "director": "",
     "reparto": [],
-    "calificacion": 7.5,
+    "calificacion": 8.7,
     "votos": 0,
     "idioma": "latino",
     "calidad": "1080",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-17T20:48:36.410042",
-    "tmdb_id": "",
+    "tmdb_id": 284416,
     "popularidad": 0,
     "tagline": "",
     "trailer": "",
@@ -13102,7 +13205,7 @@ const peliculas2 = [
     ],
     "episodios": 0,
     "tipo_serie": "Serie",
-    "plataforma": "prime video",
+    "plataforma": "Amazon Prime Video",
     "id": "par-de-ideotas-2025"
   },
   {
@@ -13163,7 +13266,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "parasitos-2019"
+    "id": "parasitos-2019",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -13223,7 +13327,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "perdida-2014"
+    "id": "perdida-2014",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -13273,7 +13378,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "102 min",
     "fuentes": [],
-    "id": "persuasion-1995"
+    "id": "persuasion-1995",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -13439,7 +13545,7 @@ const peliculas2 = [
     "duracion": "103 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -13538,7 +13644,7 @@ const peliculas2 = [
     "duracion": "110 min",
     "presupuesto": "$42,000,000",
     "ingresos": "$152,889,065",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -13697,7 +13803,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "predator-badlands-2025"
+    "id": "predator-badlands-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -13747,7 +13854,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "116 min",
     "fuentes": [],
-    "id": "preparation-for-the-next-life-2025"
+    "id": "preparation-for-the-next-life-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -13796,7 +13904,7 @@ const peliculas2 = [
     "duracion": "145 min",
     "presupuesto": "$210,000,000",
     "ingresos": "$4,000,000",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -13855,7 +13963,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "114 min",
     "fuentes": [],
-    "id": "pideme-lo-que-quieras-2024"
+    "id": "pideme-lo-que-quieras-2024",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -14109,7 +14218,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "robot-salvaje-2024"
+    "id": "robot-salvaje-2024",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -14169,7 +14279,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "rompenieves-2013"
+    "id": "rompenieves-2013",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -14221,7 +14332,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "126 min",
     "fuentes": [],
-    "id": "roofman-2025"
+    "id": "roofman-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -14263,7 +14375,7 @@ const peliculas2 = [
     "duracion": "N/A",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Tubi TV",
     "fuentes": [
       {
         "idioma": "latino",
@@ -14325,7 +14437,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "169 min",
     "fuentes": [],
-    "id": "salvar-al-soldado-ryan-1998"
+    "id": "salvar-al-soldado-ryan-1998",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -14412,7 +14525,7 @@ const peliculas2 = [
     "duracion": "100 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -14480,7 +14593,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "siempre-a-tu-lado-2009"
+    "id": "siempre-a-tu-lado-2009",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -14822,7 +14936,7 @@ const peliculas2 = [
     "duracion": "101 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "vix",
+    "plataforma": "ViX Premium Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -14886,7 +15000,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "136 min",
     "fuentes": [],
-    "id": "solitaria-es-la-noche-los-crimenes-de-la-familia-bansal-2025"
+    "id": "solitaria-es-la-noche-los-crimenes-de-la-familia-bansal-2025",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -14946,7 +15061,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "solo-en-casa-2-perdido-en-nueva-york-1992"
+    "id": "solo-en-casa-2-perdido-en-nueva-york-1992",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -15000,7 +15116,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "174 min",
     "fuentes": [],
-    "id": "sonrisas-y-lagrimas-1965"
+    "id": "sonrisas-y-lagrimas-1965",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -15058,7 +15175,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "springsteen-deliver-me-from-nowhere-2025"
+    "id": "springsteen-deliver-me-from-nowhere-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -15108,7 +15226,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "113 min",
     "fuentes": [],
-    "id": "taxi-driver-1976"
+    "id": "taxi-driver-1976",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "serie",
@@ -15125,14 +15244,14 @@ const peliculas2 = [
     "generos_lista": [],
     "director": "",
     "reparto": [],
-    "calificacion": 0.0,
+    "calificacion": 8.8,
     "votos": 0,
     "idioma": "latino",
     "calidad": "HD",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-17T01:14:12.502193",
-    "tmdb_id": "",
+    "tmdb_id": 302919,
     "popularidad": 0,
     "tagline": "",
     "trailer": "",
@@ -15161,7 +15280,8 @@ const peliculas2 = [
     ],
     "episodios": 0,
     "tipo_serie": "Serie",
-    "id": "taylor-swift-the-eras-tour-the-end-of-an-era-2025"
+    "id": "taylor-swift-the-eras-tour-the-end-of-an-era-2025",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -15223,7 +15343,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "the-imitation-game-descifrando-enigma-2014"
+    "id": "the-imitation-game-descifrando-enigma-2014",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -15277,7 +15398,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "90 min",
     "fuentes": [],
-    "id": "the-man-in-the-attic-1995"
+    "id": "the-man-in-the-attic-1995",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -15335,7 +15457,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "the-mastermind-2025"
+    "id": "the-mastermind-2025",
+    "plataforma": "MUBI"
   },
   {
     "tipo": "serie",
@@ -15398,7 +15521,8 @@ const peliculas2 = [
     "tipo_serie": "Miniseries",
     "ultima_emision": "2025-12-14",
     "id": "the-war-between-the-land-and-the-sea-2025",
-    "poster_original": "https://image.tmdb.org/t/p/w500/4wDU61HtpXbcwpgCy1xnodxKRYN.jpg"
+    "poster_original": "https://image.tmdb.org/t/p/w500/4wDU61HtpXbcwpgCy1xnodxKRYN.jpg",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -15448,7 +15572,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "195 min",
     "fuentes": [],
-    "id": "titanic-1997"
+    "id": "titanic-1997",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -15537,7 +15662,7 @@ const peliculas2 = [
     "duracion": "119 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -15605,7 +15730,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "top-gun-maverick-2022"
+    "id": "top-gun-maverick-2022",
+    "plataforma": "Claro video"
   },
   {
     "tipo": "pelicula",
@@ -15655,7 +15781,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "110 min",
     "fuentes": [],
-    "id": "top-gun-idolos-del-aire-1986"
+    "id": "top-gun-idolos-del-aire-1986",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -15805,7 +15932,7 @@ const peliculas2 = [
     "duracion": "118 min",
     "presupuesto": "$8,500,000",
     "ingresos": "$87,547,518",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -15915,7 +16042,7 @@ const peliculas2 = [
     "episodios": 40,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-12-05",
-    "plataforma": "cine",
+    "plataforma": "Netflix",
     "id": "transformers-la-chispa-de-la-tierra-2022"
   },
   {
@@ -16009,7 +16136,7 @@ const peliculas2 = [
     "duracion": "87 min",
     "presupuesto": "Desconocido",
     "ingresos": "$12,127,842",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -16083,7 +16210,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "turbulence-2025"
+    "id": "turbulence-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -16137,7 +16265,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "100 min",
     "fuentes": [],
-    "id": "un-cuento-de-navidad-1984"
+    "id": "un-cuento-de-navidad-1984",
+    "plataforma": "Plex"
   },
   {
     "tipo": "pelicula",
@@ -16222,7 +16351,7 @@ const peliculas2 = [
     "duracion": "97 min",
     "presupuesto": "$14,000,000",
     "ingresos": "$51,896,264",
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -16283,7 +16412,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "112 min",
     "fuentes": [],
-    "id": "un-juego-de-tres-the-threesome-2025"
+    "id": "un-juego-de-tres-the-threesome-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -16335,7 +16465,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "105 min",
     "fuentes": [],
-    "id": "un-simple-accidente-2025"
+    "id": "un-simple-accidente-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -16420,7 +16551,7 @@ const peliculas2 = [
     "duracion": "107 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "ViX Premium Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -16543,7 +16674,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "uno-de-los-nuestros-1990"
+    "id": "uno-de-los-nuestros-1990",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -16591,7 +16723,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "133 min",
     "fuentes": [],
-    "id": "valor-sentimental-2025"
+    "id": "valor-sentimental-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -16649,7 +16782,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "whiplash-2014"
+    "id": "whiplash-2014",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "serie",
@@ -16790,7 +16924,8 @@ const peliculas2 = [
     "episodios": 44,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-05-13",
-    "id": "will-trent-agente-especial-2023"
+    "id": "will-trent-agente-especial-2023",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -16839,7 +16974,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "95 min",
     "fuentes": [],
-    "id": "worldbreaker-2025"
+    "id": "worldbreaker-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -16895,7 +17031,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "124 min",
     "fuentes": [],
-    "id": "xxx-2002"
+    "id": "xxx-2002",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "serie",
@@ -17037,7 +17174,7 @@ const peliculas2 = [
     "episodios": 7,
     "tipo_serie": "Miniseries",
     "ultima_emision": "2024-10-24",
-    "plataforma": "vix",
+    "plataforma": "Amazon Prime Video",
     "id": "y-llegaron-de-noche-2024"
   },
   {
@@ -17090,7 +17227,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "106 min",
     "fuentes": [],
-    "id": "your-name-2016"
+    "id": "your-name-2016",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -17152,7 +17290,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "zootropolis-2016"
+    "id": "zootropolis-2016",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -17356,7 +17495,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "zootropolis-2-2025"
+    "id": "zootropolis-2-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -17408,7 +17548,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "129 min",
     "fuentes": [],
-    "id": "que-bello-es-vivir-1946"
+    "id": "que-bello-es-vivir-1946",
+    "plataforma": "Plex"
   },
   {
     "tipo": "pelicula",
@@ -17470,7 +17611,8 @@ const peliculas2 = [
         "activa": true
       }
     ],
-    "id": "vaya-santa-claus-1994"
+    "id": "vaya-santa-claus-1994",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -17559,7 +17701,7 @@ const peliculas2 = [
     "duracion": "86 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -17610,7 +17752,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "38 min",
     "fuentes": [],
-    "id": "dur-tachaalyn-ereld-2025"
+    "id": "dur-tachaalyn-ereld-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -17651,7 +17794,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "36 min",
     "fuentes": [],
-    "id": "dur-tachaalyn-ereld-5-2025"
+    "id": "dur-tachaalyn-ereld-5-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -17703,7 +17847,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "N/A",
     "fuentes": [],
-    "id": "raamaaynn-2026"
+    "id": "raamaaynn-2026",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -17755,7 +17900,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "165 min",
     "fuentes": [],
-    "id": "arunnaacclm-1997"
+    "id": "arunnaacclm-1997",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -17800,7 +17946,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "120 min",
     "fuentes": [],
-    "id": "caayaavnnnm-2025"
+    "id": "caayaavnnnm-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -17850,7 +17997,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "80 min",
     "fuentes": [],
-    "id": "de-chuan-nu-xing-fa-hui-juan-niu-lie-kinoxing-1976"
+    "id": "de-chuan-nu-xing-fa-hui-juan-niu-lie-kinoxing-1976",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -17899,7 +18047,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "94 min",
     "fuentes": [],
-    "id": "liao-zhai-san-ji-zhi-deng-cao-he-shang-1992"
+    "id": "liao-zhai-san-ji-zhi-deng-cao-he-shang-1992",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -17951,7 +18100,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "139 min",
     "fuentes": [],
-    "id": "eojjeolsugaeobsda-2025"
+    "id": "eojjeolsugaeobsda-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -17994,7 +18144,8 @@ const peliculas2 = [
     "success": true,
     "duracion": "91 min",
     "fuentes": [],
-    "id": "ilbon-eomma-2017"
+    "id": "ilbon-eomma-2017",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -18039,6 +18190,7 @@ const peliculas2 = [
     "success": true,
     "duracion": "101 min",
     "fuentes": [],
-    "id": "cingueomma-2015"
+    "id": "cingueomma-2015",
+    "plataforma": "pelicula"
   }
 ];

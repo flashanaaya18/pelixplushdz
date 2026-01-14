@@ -22,7 +22,7 @@ const peliculas1 = [
     "addedDate": "2025-11-24T20:46:12.866390",
     "tamaño": "N/A",
     "año": 1999,
-    "calificacion": 8.7,
+    "calificacion": 7.6,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -37,7 +37,9 @@ const peliculas1 = [
     "id": "toy-story-2-1999",
     "descargas": [
       "https://dintezuvio.com/embed/4c6u7rlgkprb"
-    ]
+    ],
+    "tmdb_id": 863,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -59,7 +61,7 @@ const peliculas1 = [
     "addedDate": "2025-11-24T21:09:15.255622",
     "tamaño": "N/A",
     "año": 2020,
-    "calificacion": 8.8,
+    "calificacion": 7.1,
     "votos": 60000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -74,7 +76,9 @@ const peliculas1 = [
     "id": "las-aventuras-de-bo-peep-2020",
     "descargas": [
       "https://dintezuvio.com/embed/wt1ivyt9e6vt"
-    ]
+    ],
+    "tmdb_id": 594530,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -97,9 +101,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-03T22:15:36.609234",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 1117126,
     "año": 2024,
-    "calificacion": 8.0,
+    "calificacion": 4.5,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -148,7 +152,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T00:59:18.055641",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 9.0,
+    "calificacion": 7.8,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -169,7 +173,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/7jul2zdil6wl"
       }
     ],
-    "id": "31-minutos-calurosa-navidad-2025"
+    "id": "31-minutos-calurosa-navidad-2025",
+    "tmdb_id": 1237082,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "id": "365-dias-2020",
@@ -193,13 +199,13 @@ const peliculas1 = [
     "addedDate": "2025-11-19T01:07:13.218140",
     "tamaño": "N/A",
     "año": 2020,
-    "calificacion": 0.0,
+    "calificacion": 7.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
     "clasificacion_edad": "+18",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -220,7 +226,8 @@ const peliculas1 = [
         "url": "https://dinisglows.com/embed/k5z2cfg4qs3l"
       }
     ],
-    "idioma": "latino"
+    "idioma": "latino",
+    "tmdb_id": 664413
   },
   {
     "tipo": "pelicula",
@@ -267,7 +274,7 @@ const peliculas1 = [
     "duracion": "109 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Filmelier Plus Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -326,7 +333,7 @@ const peliculas1 = [
     "duracion": "133 min",
     "presupuesto": "Desconocido",
     "ingresos": "$700,000",
-    "plataforma": "pelicula",
+    "plataforma": "Looke Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -361,7 +368,7 @@ const peliculas1 = [
     "addedDate": "2025-11-21T14:39:30.057896",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 7.9,
+    "calificacion": 7.6,
     "votos": 70900,
     "es_nuevo": true,
     "es_reciente": true,
@@ -387,7 +394,9 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 304849,
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -412,12 +421,12 @@ const peliculas1 = [
     "addedDate": "2025-11-30T22:25:13.091743",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 7.0,
+    "calificacion": 5.9,
     "votos": 8000,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -434,7 +443,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/r954baci3lke"
       }
     ],
-    "id": "a-cinderella-christmas-ball-2024"
+    "id": "a-cinderella-christmas-ball-2024",
+    "tmdb_id": 1087092
   },
   {
     "tipo": "pelicula",
@@ -468,7 +478,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "a-ilha-dos-ilus-2023"
+    "id": "a-ilha-dos-ilus-2023",
+    "tmdb_id": 1061631
   },
   {
     "tipo": "pelicula",
@@ -515,7 +526,7 @@ const peliculas1 = [
     "duracion": "96 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Filmelier Plus Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -562,7 +573,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "a-proposito-de-llewyn-davis-2013"
+    "id": "a-proposito-de-llewyn-davis-2013",
+    "tmdb_id": 86829
   },
   {
     "tipo": "pelicula",
@@ -611,7 +623,7 @@ const peliculas1 = [
     "duracion": "116 min",
     "presupuesto": "$40,000,000",
     "ingresos": "$99,068,160",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -648,7 +660,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T16:55:16.962572",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 7.9,
+    "calificacion": 6.6,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -669,7 +681,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/v66yhbzo61ke"
       }
     ],
-    "id": "afterburn-zona-cero-2025"
+    "id": "afterburn-zona-cero-2025",
+    "tmdb_id": 507244,
+    "plataforma": "pelicula"
   },
   {
     "id": "agents-2024",
@@ -690,7 +704,7 @@ const peliculas1 = [
     "genero": [
       "Accion"
     ],
-    "calificacion": 0.0,
+    "calificacion": 3.3,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T20:42:21.063194",
@@ -713,7 +727,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://goodstream.uno/video/embed/b2ivr7tc19ct"
       }
-    ]
+    ],
+    "tmdb_id": 1304588
   },
   {
     "tipo": "pelicula",
@@ -738,9 +753,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-01T16:22:36.304170",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 1035259,
     "año": 2025,
-    "calificacion": 8.0,
+    "calificacion": 6.4,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -761,7 +776,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/f3zxfwankzjg"
       }
     ],
-    "id": "agarralo-como-puedas-2025"
+    "id": "agarralo-como-puedas-2025",
+    "plataforma": "Paramount+"
   },
   {
     "tipo": "pelicula",
@@ -785,9 +801,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-05T00:23:41.970856",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 425274,
     "año": 2021,
-    "calificacion": 0.0,
+    "calificacion": 6.6,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -830,7 +846,7 @@ const peliculas1 = [
     "genero": [
       "terror"
     ],
-    "calificacion": 6.7,
+    "calificacion": 6.8,
     "votos": 2312,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -848,7 +864,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/wi0f7300ylui"
       }
-    ]
+    ],
+    "tmdb_id": 13312,
+    "plataforma": "pelicula"
   },
   {
     "id": "al-rescate-de-fondo-de-bikini-la-pelicula-de-arenita-mejillas-2024",
@@ -873,12 +891,12 @@ const peliculas1 = [
     "addedDate": "2025-11-16T02:59:40.187909",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 5.9,
+    "calificacion": 6.1,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -893,7 +911,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/0r56hvbtwr52"
       }
-    ]
+    ],
+    "tmdb_id": 831815
   },
   {
     "tipo": "pelicula",
@@ -916,7 +935,7 @@ const peliculas1 = [
       "Игорь Жижикин",
       "Richard Brake"
     ],
-    "calificacion": 6.431,
+    "calificacion": 6.0,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
@@ -935,7 +954,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "altered-2025"
+    "id": "altered-2025",
+    "tmdb_id": 1309012
   },
   {
     "tipo": "pelicula",
@@ -961,12 +981,12 @@ const peliculas1 = [
     "addedDate": "2025-11-30T16:41:07.645196",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 7.0,
+    "calificacion": 6.0,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "crunchyroll",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -983,7 +1003,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/uc834gmwcx7n"
       }
     ],
-    "id": "amenaza-en-el-aire-2025"
+    "id": "amenaza-en-el-aire-2025",
+    "tmdb_id": 1126166
   },
   {
     "tipo": "pelicula",
@@ -1009,7 +1030,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T16:59:44.318073",
     "tamaño": "N/A",
     "año": 2023,
-    "calificacion": 7.9,
+    "calificacion": 6.3,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -1030,7 +1051,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/by932sw9m3dl"
       }
     ],
-    "id": "americana-2023"
+    "id": "americana-2023",
+    "tmdb_id": 934456,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "serie",
@@ -1055,7 +1078,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T22:50:28.797304",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 7.7,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -1077,7 +1100,9 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "amor-de-mentira-2025"
+    "id": "amor-de-mentira-2025",
+    "tmdb_id": 281011,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -1106,7 +1131,7 @@ const peliculas1 = [
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T02:40:22.346933",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -1114,7 +1139,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "amor-erizo-2025"
+    "id": "amor-erizo-2025",
+    "tmdb_id": 1308353
   },
   {
     "tipo": "pelicula",
@@ -1158,7 +1184,7 @@ const peliculas1 = [
     "duracion": "99 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -1190,12 +1216,12 @@ const peliculas1 = [
     "addedDate": "2025-11-30T13:23:19.177605",
     "tamaño": "N/A",
     "año": 2019,
-    "calificacion": 0.0,
+    "calificacion": 7.1,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -1212,7 +1238,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/db870pzqb268"
       }
     ],
-    "id": "angry-birds-2-la-pelicula-2019"
+    "id": "angry-birds-2-la-pelicula-2019",
+    "tmdb_id": 454640
   },
   {
     "tipo": "pelicula",
@@ -1238,12 +1265,12 @@ const peliculas1 = [
     "addedDate": "2025-11-30T13:19:08.729278",
     "tamaño": "N/A",
     "año": 2016,
-    "calificacion": 8.0,
+    "calificacion": 6.3,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -1260,7 +1287,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/yxppfi2s8wcr"
       }
     ],
-    "id": "angry-birds-la-pelicula-2016"
+    "id": "angry-birds-la-pelicula-2016",
+    "tmdb_id": 153518
   },
   {
     "tipo": "pelicula",
@@ -1282,7 +1310,7 @@ const peliculas1 = [
       "Samuel Bottomley",
       "Safia Oakley-Green"
     ],
-    "calificacion": 6.1,
+    "calificacion": 6.0,
     "idioma": "ingles",
     "calidad": "1080p",
     "favorito": false,
@@ -1296,7 +1324,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "anemona-2025"
+    "id": "anemona-2025",
+    "tmdb_id": 1364608
   },
   {
     "tipo": "pelicula",
@@ -1369,7 +1398,7 @@ const peliculas1 = [
     "addedDate": "2025-11-17T17:21:32.852029",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.3,
+    "calificacion": 5.5,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": false,
@@ -1389,7 +1418,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/aum500g9s8xl"
       }
-    ]
+    ],
+    "tmdb_id": 1503187
   },
   {
     "id": "ataque-13-2025",
@@ -1414,13 +1444,13 @@ const peliculas1 = [
     "addedDate": "2025-11-17T16:52:07.096926",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 5.2,
+    "calificacion": 4.9,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
     "clasificacion_edad": "n",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -1435,7 +1465,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/l8arjusl0goh"
       }
-    ]
+    ],
+    "tmdb_id": 1419027
   },
   {
     "tipo": "pelicula",
@@ -1516,7 +1547,7 @@ const peliculas1 = [
       "animacion",
       "accion"
     ],
-    "calificacion": 0.0,
+    "calificacion": 8.8,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T20:44:10.168640",
@@ -1551,7 +1582,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/t5muv0kc3h89"
       }
-    ]
+    ],
+    "tmdb_id": 1333100
   },
   {
     "id": "autos-mota-y-rocanrol-2025",
@@ -1573,7 +1605,7 @@ const peliculas1 = [
       "musica",
       "historia"
     ],
-    "calificacion": 8.9,
+    "calificacion": 5.8,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T19:00:40.526457",
@@ -1581,7 +1613,7 @@ const peliculas1 = [
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -1596,7 +1628,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/ix3d15tqnsqp"
       }
-    ]
+    ],
+    "tmdb_id": 1337636
   },
   {
     "id": "avatar-el-camino-del-agua-2022",
@@ -1619,7 +1652,7 @@ const peliculas1 = [
     "genero": [
       "Aventura"
     ],
-    "calificacion": 8.7,
+    "calificacion": 7.6,
     "votos": 3000,
     "calidad": "4K",
     "tamaño": "4.5 GB",
@@ -1637,7 +1670,9 @@ const peliculas1 = [
     "descargas": [
       "https://dintezuvio.com/embed/tm90i47csvws"
     ],
-    "idioma": "latino"
+    "idioma": "latino",
+    "tmdb_id": 76600,
+    "plataforma": "Disney+"
   },
   {
     "id": "avengers-endgame-2019",
@@ -1660,7 +1695,7 @@ const peliculas1 = [
       "Ciencia ficción",
       "Acción"
     ],
-    "calificacion": 10.0,
+    "calificacion": 8.2,
     "votos": 3000,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -1678,7 +1713,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/dbkwvt3o765h"
       }
-    ]
+    ],
+    "tmdb_id": 299534,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -1703,12 +1740,12 @@ const peliculas1 = [
     "addedDate": "2025-11-30T00:55:06.652832",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 9.9,
+    "calificacion": 7.9,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "crunchyroll",
+    "plataforma": "Paramount+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -1725,7 +1762,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/v07voos7vjw2"
       }
     ],
-    "id": "aun-estoy-aqui-2025"
+    "id": "aun-estoy-aqui-2025",
+    "tmdb_id": 1000837
   },
   {
     "id": "bad-boys-hasta-la-muerte-2024",
@@ -1747,12 +1785,12 @@ const peliculas1 = [
       "accion",
       "aventura"
     ],
-    "calificacion": 10.0,
+    "calificacion": 7.3,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -1772,7 +1810,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://vidhidepro.com/v/wy2w7lkpk98c"
       }
-    ]
+    ],
+    "tmdb_id": 573435
   },
   {
     "tipo": "serie",
@@ -1796,9 +1835,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-03T21:33:56.873913",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 302854,
     "año": 2025,
-    "calificacion": 8.0,
+    "calificacion": 8.2,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -1845,7 +1884,8 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "bad-influencer-2025"
+    "id": "bad-influencer-2025",
+    "plataforma": "Netflix"
   },
   {
     "id": "baila-vini-2025",
@@ -1866,12 +1906,12 @@ const peliculas1 = [
     "genero": [
       "documental"
     ],
-    "calificacion": 0.0,
+    "calificacion": 5.9,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": true,
-    "plataforma": "netflix",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -1897,7 +1937,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/n0r5fz8wwkte"
       }
-    ]
+    ],
+    "tmdb_id": 1390394
   },
   {
     "tipo": "pelicula",
@@ -1923,7 +1964,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T01:02:21.106689",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.9,
+    "calificacion": 6.5,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -1944,7 +1985,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/yevmfd1y1jsf"
       }
     ],
-    "id": "bala-perdida-2025"
+    "id": "bala-perdida-2025",
+    "tmdb_id": 1144430,
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -1993,7 +2036,7 @@ const peliculas1 = [
     "duracion": "90 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -2027,7 +2070,7 @@ const peliculas1 = [
     "addedDate": "2025-11-20T20:56:42.831518",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 7.0,
+    "calificacion": 7.6,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": false,
@@ -2046,7 +2089,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/3qtw1wfqif0y"
       }
-    ]
+    ],
+    "tmdb_id": 1301844,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -2068,13 +2113,13 @@ const peliculas1 = [
       "Travis Willingham",
       "Daryl Sabara"
     ],
-    "calificacion": 6.143,
+    "calificacion": 6.1,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T01:52:06.992334",
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -2082,7 +2127,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "ben-gen-10-2021"
+    "id": "ben-gen-10-2021",
+    "tmdb_id": 828397
   },
   {
     "id": "black-panther-wakanda-forever-2022",
@@ -2106,12 +2152,12 @@ const peliculas1 = [
     "addedDate": "2025-11-16T02:45:17.290213",
     "tamaño": "N/A",
     "año": 2022,
-    "calificacion": 0.0,
+    "calificacion": 7.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -2126,7 +2172,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://goodstream.uno/video/embed/w6h38a3odmpf"
       }
-    ]
+    ],
+    "tmdb_id": 505642
   },
   {
     "tipo": "pelicula",
@@ -2151,7 +2198,7 @@ const peliculas1 = [
     "addedDate": "2025-11-25T14:55:13.898822",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 7.9,
+    "calificacion": 6.8,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -2172,7 +2219,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/l15dqok55rla"
       }
     ],
-    "id": "black-phone-2-2025"
+    "id": "black-phone-2-2025",
+    "tmdb_id": 1197137,
+    "plataforma": "pelicula"
   },
   {
     "id": "black-widow-2021",
@@ -2194,7 +2243,7 @@ const peliculas1 = [
       "Aventura",
       "Ciencia ficción"
     ],
-    "calificacion": 10.0,
+    "calificacion": 7.2,
     "votos": 5888,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -2213,7 +2262,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/1echh34m2w8a"
       }
-    ]
+    ],
+    "tmdb_id": 497698,
+    "plataforma": "Disney+"
   },
   {
     "id": "blanca-nieves-2025",
@@ -2237,12 +2288,12 @@ const peliculas1 = [
     "addedDate": "2025-11-17T22:27:49.016511",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 7.1,
+    "calificacion": 4.3,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -2257,7 +2308,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/s16rof7lomd7"
       }
-    ]
+    ],
+    "tmdb_id": 447273
   },
   {
     "id": "blancanieves-y-el-cazador-2012",
@@ -2278,7 +2330,7 @@ const peliculas1 = [
     "genero": [
       "aventura"
     ],
-    "calificacion": 10.0,
+    "calificacion": 6.0,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -2297,7 +2349,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/huuearbl8xb3"
       }
-    ]
+    ],
+    "tmdb_id": 58595,
+    "plataforma": "HBO Max"
   },
   {
     "id": "blancanieves-y-los-siete-enanitos-1937",
@@ -2318,12 +2372,12 @@ const peliculas1 = [
     "genero": [
       "animacion"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.1,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "plataforma": "disney",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -2350,7 +2404,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/6j5slvhgbeau"
       }
-    ]
+    ],
+    "tmdb_id": 408
   },
   {
     "id": "bob-esponja-un-heroe-fuera-del-agua-2015",
@@ -2372,7 +2427,7 @@ const peliculas1 = [
       "familia",
       "aventura"
     ],
-    "calificacion": 10.0,
+    "calificacion": 6.1,
     "votos": 14000,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -2390,7 +2445,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/y4o5rlp815iv"
       }
-    ]
+    ],
+    "tmdb_id": 228165,
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -2416,7 +2473,7 @@ const peliculas1 = [
     "addedDate": "2025-11-29T21:14:53.567397",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.0,
+    "calificacion": 6.4,
     "votos": 80000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -2437,7 +2494,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/veyrpv6xn1rj"
       }
     ],
-    "id": "bridget-jones-loca-por-el-2025"
+    "id": "bridget-jones-loca-por-el-2025",
+    "tmdb_id": 1272149,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -2461,7 +2520,7 @@ const peliculas1 = [
     "addedDate": "2025-11-25T22:04:46.511076",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.7,
+    "calificacion": 4.4,
     "votos": 9000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -2482,7 +2541,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/1lvv28ghzkup"
       }
     ],
-    "id": "brute-1976-2025"
+    "id": "brute-1976-2025",
+    "tmdb_id": 1221415,
+    "plataforma": "Booh Amazon Channel"
   },
   {
     "tipo": "pelicula",
@@ -2509,7 +2570,7 @@ const peliculas1 = [
     "addedDate": "2025-11-25T22:01:26.116354",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 9.7,
+    "calificacion": 6.9,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -2530,7 +2591,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/vwdqfop31wjc"
       }
     ],
-    "id": "buenas-noticias-2025"
+    "id": "buenas-noticias-2025",
+    "tmdb_id": 1296404,
+    "plataforma": "Netflix"
   },
   {
     "id": "bugonia-2025",
@@ -2552,7 +2615,7 @@ const peliculas1 = [
       "accion",
       "crimen"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.4,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T17:29:42.078374",
@@ -2575,7 +2638,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/sae4afi7fw8s"
       }
-    ]
+    ],
+    "tmdb_id": 701387
   },
   {
     "id": "bunker-2025",
@@ -2596,7 +2660,7 @@ const peliculas1 = [
     "genero": [
       "accion"
     ],
-    "calificacion": 7.8,
+    "calificacion": 8.5,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T17:05:39.618564",
@@ -2619,7 +2683,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/flmwdumi6tnb"
       }
-    ]
+    ],
+    "tmdb_id": 1149953
   },
   {
     "id": "burning-butterflies-2024",
@@ -2643,12 +2708,12 @@ const peliculas1 = [
     "addedDate": "2025-11-21T17:56:14.677235",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 8.8,
+    "calificacion": 6.5,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Booh Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -2657,7 +2722,8 @@ const peliculas1 = [
     ],
     "descargas": [
       "https://dintezuvio.com/embed/jo2paepqwufu"
-    ]
+    ],
+    "tmdb_id": 1444358
   },
   {
     "id": "camina-o-muere-2025",
@@ -2682,7 +2748,7 @@ const peliculas1 = [
     "addedDate": "2025-11-17T17:28:47.862354",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 9.1,
+    "calificacion": 7.0,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": false,
@@ -2702,7 +2768,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/wz1f43d00d0n"
       }
-    ]
+    ],
+    "tmdb_id": 604079
   },
   {
     "tipo": "pelicula",
@@ -2727,12 +2794,12 @@ const peliculas1 = [
     "addedDate": "2025-11-30T13:27:39.501288",
     "tamaño": "N/A",
     "año": 2014,
-    "calificacion": 0.0,
+    "calificacion": 7.4,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -2749,7 +2816,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/t40ag3ly75hb"
       }
     ],
-    "id": "campanilla-y-la-leyenda-de-la-bestia-2014"
+    "id": "campanilla-y-la-leyenda-de-la-bestia-2014",
+    "tmdb_id": 297270
   },
   {
     "tipo": "pelicula",
@@ -2774,7 +2842,7 @@ const peliculas1 = [
     "addedDate": "2025-11-27T20:20:33.905720",
     "tamaño": "N/A",
     "año": 2022,
-    "calificacion": 9.6,
+    "calificacion": 6.1,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -2796,7 +2864,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/e09r7zzmhjm5"
       }
     ],
-    "id": "candy-land-2022"
+    "id": "candy-land-2022",
+    "tmdb_id": 826753,
+    "plataforma": "Booh Amazon Channel"
   },
   {
     "id": "capitana-marvel-2019",
@@ -2826,7 +2896,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -2841,7 +2911,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/od3x03kwadeb"
       }
-    ]
+    ],
+    "tmdb_id": 299537
   },
   {
     "id": "capitan-america-brave-new-world-2024",
@@ -2864,7 +2935,7 @@ const peliculas1 = [
       "Aventura",
       "Fantasía"
     ],
-    "calificacion": 0.0,
+    "calificacion": 6.0,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -2887,7 +2958,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://goodstream.uno/video/embed/zlojb35sp1hb"
       }
-    ]
+    ],
+    "tmdb_id": 822119,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -2910,7 +2983,7 @@ const peliculas1 = [
     "addedDate": "2025-11-23T14:06:36.412838",
     "tamaño": "N/A",
     "año": 2011,
-    "calificacion": 9.0,
+    "calificacion": 7.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -2931,7 +3004,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/2zk8o15sdlo3"
       }
-    ]
+    ],
+    "tmdb_id": 1771,
+    "plataforma": "Disney+"
   },
   {
     "id": "capitan-america-el-soldado-de-invierno-2014",
@@ -2952,7 +3027,7 @@ const peliculas1 = [
     "genero": [
       "ACCION"
     ],
-    "calificacion": 10.0,
+    "calificacion": 7.7,
     "votos": 2000000,
     "calidad": "HD",
     "addedDate": "2025-11-13T15:27:45.827457",
@@ -2960,7 +3035,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "cine",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "LATINO",
@@ -2975,7 +3050,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://nuuuppp.sbs/watch/l1jB0G4LD1RFlcyPfxDeia9QBAbdLUzdk7kz7n7kz7br5GD2s?h="
       }
-    ]
+    ],
+    "tmdb_id": 100402
   },
   {
     "id": "capitan-america-un-nuevo-mundo-2025",
@@ -2994,7 +3070,7 @@ const peliculas1 = [
     ],
     "favorito": false,
     "genero": [],
-    "calificacion": 0.0,
+    "calificacion": 6.0,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -3012,7 +3088,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/glps3i1lokv9"
       }
-    ]
+    ],
+    "tmdb_id": 822119,
+    "plataforma": "Disney+"
   },
   {
     "id": "captains-of-the-world-2023",
@@ -3036,12 +3114,12 @@ const peliculas1 = [
     "addedDate": "2025-11-17T23:38:30.311111",
     "tamaño": "N/A",
     "año": 2023,
-    "calificacion": 7.1,
+    "calificacion": 8.5,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "temporadas": [
       {
         "temporada": 1,
@@ -3078,7 +3156,8 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 242238
   },
   {
     "tipo": "pelicula",
@@ -3103,14 +3182,14 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-05T01:12:11.119269",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 1277988,
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 7.7,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -3151,12 +3230,12 @@ const peliculas1 = [
     "addedDate": "2025-11-21T19:14:31.141481",
     "tamaño": "N/A",
     "año": 2007,
-    "calificacion": 9.0,
+    "calificacion": 5.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Tubi TV",
     "fuentes": [
       {
         "idioma": "latino",
@@ -3171,7 +3250,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/l5aa5nmrhisr"
       }
-    ]
+    ],
+    "tmdb_id": 18040
   },
   {
     "tipo": "pelicula",
@@ -3196,13 +3276,13 @@ const peliculas1 = [
       "Emily Mortimer",
       "Eddie Izzard"
     ],
-    "calificacion": 6.165,
+    "calificacion": 6.2,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-08T23:51:35.062508",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -3210,7 +3290,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "cars-2-2011"
+    "id": "cars-2-2011",
+    "tmdb_id": 49013
   },
   {
     "id": "cars-3-2017",
@@ -3240,7 +3321,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "disney+",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -3255,7 +3336,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/cy0xcl9ohspm"
       }
-    ]
+    ],
+    "tmdb_id": 260514
   },
   {
     "tipo": "serie",
@@ -3283,7 +3365,7 @@ const peliculas1 = [
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-08T23:53:47.610575",
-    "plataforma": "disney+",
+    "plataforma": "Disney+",
     "temporadas": [
       {
         "temporada": 1,
@@ -3306,7 +3388,8 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "cars-en-la-carretera-2022"
+    "id": "cars-en-la-carretera-2022",
+    "tmdb_id": 114502
   },
   {
     "tipo": "pelicula",
@@ -3329,12 +3412,12 @@ const peliculas1 = [
     "addedDate": "2025-11-17T21:39:14.977393",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 6.5,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -3350,7 +3433,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/jqryr7vjxmqd"
       }
-    ]
+    ],
+    "tmdb_id": 1429834
   },
   {
     "tipo": "serie",
@@ -3371,14 +3455,14 @@ const peliculas1 = [
       "crimen",
       "drama"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.5,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "netflix",
+    "plataforma": "Netflix",
     "temporadas": [
       {
         "temporada": 1,
@@ -3416,7 +3500,8 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "celda-211-2025"
+    "id": "celda-211-2025",
+    "tmdb_id": 246025
   },
   {
     "id": "chainsaw-man-la-pelicula-arco-de-reze-2025",
@@ -3432,7 +3517,7 @@ const peliculas1 = [
     "director": "N/A",
     "reparto": [],
     "favorito": false,
-    "calificacion": 0,
+    "calificacion": 8.3,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -3451,7 +3536,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/w66sow55en4o"
       }
-    ]
+    ],
+    "tmdb_id": 1218925,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -3478,12 +3565,12 @@ const peliculas1 = [
     "addedDate": "2025-11-30T22:29:24.150125",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 7.0,
+    "calificacion": 6.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -3500,7 +3587,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/ll1058qdsowo"
       }
     ],
-    "id": "christmas-under-the-northern-lights-2024"
+    "id": "christmas-under-the-northern-lights-2024",
+    "tmdb_id": 1341123
   },
   {
     "tipo": "pelicula",
@@ -3526,7 +3614,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T17:09:18.452556",
     "tamaño": "N/A",
     "año": 2017,
-    "calificacion": 8.0,
+    "calificacion": 6.9,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -3547,7 +3635,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/ifq2eu57d3e9"
       }
     ],
-    "id": "chui-lung-2017"
+    "id": "chui-lung-2017",
+    "tmdb_id": 449927,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -3576,7 +3666,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -3592,7 +3682,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/0sasfe6hmxn5"
       }
-    ]
+    ],
+    "tmdb_id": 354912
   },
   {
     "tipo": "pelicula",
@@ -3614,7 +3705,7 @@ const peliculas1 = [
       "historia",
       "musica"
     ],
-    "calificacion": 7.9,
+    "calificacion": 7.2,
     "votos": 12333,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -3637,7 +3728,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://vidhidepro.com/v/67mxax9eguq5"
       }
-    ]
+    ],
+    "tmdb_id": 1171153
   },
   {
     "tipo": "pelicula",
@@ -3657,7 +3749,7 @@ const peliculas1 = [
     "genero": [
       "familia"
     ],
-    "calificacion": 9.9,
+    "calificacion": 8.0,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T19:56:16.340178",
@@ -3665,7 +3757,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -3681,7 +3773,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/gn80wtefutmp"
       }
-    ]
+    ],
+    "tmdb_id": 1087192
   },
   {
     "tipo": "pelicula",
@@ -3739,7 +3832,8 @@ const peliculas1 = [
         "activa": true
       }
     ],
-    "id": "contraataque-2025"
+    "id": "contraataque-2025",
+    "plataforma": "Netflix"
   },
   {
     "id": "corazones-jovenes-2024",
@@ -3764,7 +3858,7 @@ const peliculas1 = [
     "addedDate": "2025-11-21T15:14:51.102571",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 8.7,
+    "calificacion": 8.5,
     "votos": 6000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -3784,7 +3878,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/urfno5r53fpp"
       }
-    ]
+    ],
+    "tmdb_id": 1232449
   },
   {
     "tipo": "serie",
@@ -3808,7 +3903,7 @@ const peliculas1 = [
     "addedDate": "2025-11-26T19:16:31.068072",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 7.0,
+    "calificacion": 7.2,
     "votos": 60000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -3830,7 +3925,9 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "countdown-canelo-vs-crawford-2025"
+    "id": "countdown-canelo-vs-crawford-2025",
+    "tmdb_id": 299286,
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -3859,7 +3956,7 @@ const peliculas1 = [
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T02:02:11.678646",
-    "plataforma": "pelicula",
+    "plataforma": "Looke Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -3867,7 +3964,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "crazy-racing-2021"
+    "id": "crazy-racing-2021",
+    "tmdb_id": 1163629
   },
   {
     "tipo": "pelicula",
@@ -3914,7 +4012,7 @@ const peliculas1 = [
     "duracion": "130 min",
     "presupuesto": "$50,000,000",
     "ingresos": "$214,200,000",
-    "plataforma": "netflix",
+    "plataforma": "Universal+ Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -3947,14 +4045,14 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-03T22:13:12.003067",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 759297,
     "año": 2021,
-    "calificacion": 6.0,
+    "calificacion": 5.5,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -4018,7 +4116,7 @@ const peliculas1 = [
     "duracion": "97 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -4049,7 +4147,7 @@ const peliculas1 = [
     "genero": [
       "comedia"
     ],
-    "calificacion": 2.5,
+    "calificacion": 4.8,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -4099,7 +4197,9 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 253750,
+    "plataforma": "Paramount+"
   },
   {
     "id": "cuando-los-amos-duermen-2023",
@@ -4120,7 +4220,7 @@ const peliculas1 = [
     "genero": [
       "terror"
     ],
-    "calificacion": 3.7,
+    "calificacion": 4.8,
     "votos": 400,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -4138,7 +4238,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "\"https://streamwish.to/e/vaj1hhzztrxd"
       }
-    ]
+    ],
+    "tmdb_id": 1152393,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "serie",
@@ -4163,7 +4265,7 @@ const peliculas1 = [
     "addedDate": "2025-11-26T17:24:49.369567",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 9.0,
+    "calificacion": 7.4,
     "votos": 90000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -4195,7 +4297,9 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "culiacanazo-herederos-del-narco-2025"
+    "id": "culiacanazo-herederos-del-narco-2025",
+    "tmdb_id": 286287,
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -4220,7 +4324,7 @@ const peliculas1 = [
     "addedDate": "2025-11-24T21:48:23.769607",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 7.8,
+    "calificacion": 7.4,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": false,
@@ -4241,7 +4345,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/bwr320b2yhmp"
       }
-    ]
+    ],
+    "tmdb_id": 1156594,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -4266,7 +4372,7 @@ const peliculas1 = [
     "addedDate": "2025-11-24T23:03:23.288180",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 6.9,
+    "calificacion": 7.1,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -4287,7 +4393,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/8i99pka51zbi"
       }
-    ]
+    ],
+    "tmdb_id": 1156593,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "id": "como-entrenar-a-tu-dragon-3-2019",
@@ -4312,12 +4420,12 @@ const peliculas1 = [
     "addedDate": "2025-11-19T01:15:00.572530",
     "tamaño": "N/A",
     "año": 2019,
-    "calificacion": 8.6,
+    "calificacion": 7.7,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -4332,7 +4440,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/cudb4xnww7pv"
       }
-    ]
+    ],
+    "tmdb_id": 166428
   },
   {
     "tipo": "pelicula",
@@ -4386,7 +4495,8 @@ const peliculas1 = [
         "activa": true
       }
     ],
-    "id": "como-filmar-una-xxx-2017"
+    "id": "como-filmar-una-xxx-2017",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "serie",
@@ -4462,7 +4572,7 @@ const peliculas1 = [
     "episodios": 4,
     "tipo_serie": "Reality",
     "ultima_emision": "2022-11-09",
-    "plataforma": "disney+",
+    "plataforma": "Disney+",
     "id": "david-beckham-al-rescate-del-equipo-2022"
   },
   {
@@ -4488,12 +4598,12 @@ const peliculas1 = [
     "addedDate": "2025-11-19T01:45:35.559730",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.9,
+    "calificacion": 6.4,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -4508,7 +4618,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/2eko8q0ahlhc"
       }
-    ]
+    ],
+    "tmdb_id": 993710
   },
   {
     "id": "deadpool-2016",
@@ -4530,7 +4641,7 @@ const peliculas1 = [
       "accion",
       "marvel"
     ],
-    "calificacion": 10.0,
+    "calificacion": 7.6,
     "votos": 2000,
     "calidad": "HD",
     "addedDate": "2025-11-13T15:43:03.977852",
@@ -4539,7 +4650,7 @@ const peliculas1 = [
     "es_reciente": false,
     "esta_roto": false,
     "clasificacion_edad": "+18",
-    "plataforma": "cine",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -4554,7 +4665,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://nuuuppp.sbs/watch/NaBhPctOdQT0DUR4odnw0zqs7kz7tOYaTGfZshLUBETzOc?h="
       }
-    ]
+    ],
+    "tmdb_id": 293660
   },
   {
     "tipo": "pelicula",
@@ -4603,7 +4715,7 @@ const peliculas1 = [
     "duracion": "127 min",
     "presupuesto": "$200,000,000",
     "ingresos": "$1,338,073,645",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -4635,7 +4747,7 @@ const peliculas1 = [
       "accion",
       "fantasia"
     ],
-    "calificacion": 7.0,
+    "calificacion": 6.1,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -4653,7 +4765,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/0n284gi77vnd"
       }
-    ]
+    ],
+    "tmdb_id": 1253000,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "serie",
@@ -4678,7 +4792,7 @@ const peliculas1 = [
     "addedDate": "2025-11-26T19:13:48.885041",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 7.9,
+    "calificacion": 7.0,
     "votos": 8000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -4695,7 +4809,9 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "debanhi-quien-mato-a-nuestra-hija-2025"
+    "id": "debanhi-quien-mato-a-nuestra-hija-2025",
+    "tmdb_id": 300957,
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -4735,7 +4851,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "deemo-sakura-no-oto---anata-no-kanadeta-oto-ga-ima-mo-hibiku-2022"
+    "id": "deemo-sakura-no-oto---anata-no-kanadeta-oto-ga-ima-mo-hibiku-2022",
+    "tmdb_id": 648457
   },
   {
     "id": "demon-slayer-kimetsu-no-yaiba-castillo-infinito-2025",
@@ -4757,7 +4874,7 @@ const peliculas1 = [
       "drama",
       "historia"
     ],
-    "calificacion": 10.0,
+    "calificacion": 7.6,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -4775,7 +4892,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/v/9yicnzopvd30"
       }
-    ]
+    ],
+    "tmdb_id": 1311031,
+    "plataforma": "pelicula"
   },
   {
     "id": "depredador-tierras-salvajes-2025",
@@ -4797,7 +4916,7 @@ const peliculas1 = [
       "accion",
       "ciencia ficcion"
     ],
-    "calificacion": 7.1,
+    "calificacion": 7.8,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T19:08:37.991282",
@@ -4820,7 +4939,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/l6leoefbiwd0"
       }
-    ]
+    ],
+    "tmdb_id": 1242898
   },
   {
     "tipo": "pelicula",
@@ -4894,12 +5014,12 @@ const peliculas1 = [
     "addedDate": "2025-11-17T21:43:04.870620",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.1,
+    "calificacion": 7.1,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -4914,7 +5034,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/88fbveymnsgy"
       }
-    ]
+    ],
+    "tmdb_id": 574475
   },
   {
     "tipo": "pelicula",
@@ -4961,7 +5082,7 @@ const peliculas1 = [
     "duracion": "118 min",
     "presupuesto": "$20,000,000",
     "ingresos": "$7,421,995",
-    "plataforma": "pelicula",
+    "plataforma": "MUBI",
     "fuentes": [
       {
         "idioma": "latino",
@@ -4997,7 +5118,7 @@ const peliculas1 = [
     "addedDate": "2025-11-24T23:15:12.104317",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 6.8,
+    "calificacion": 5.5,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -5018,7 +5139,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/1kyvzrm1waq5"
       }
-    ]
+    ],
+    "tmdb_id": 572195,
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -5103,7 +5226,7 @@ const peliculas1 = [
     "addedDate": "2025-11-24T23:35:31.865420",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 699999.0,
+    "calificacion": 7.2,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -5124,7 +5247,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/myvnj43lg9tg"
       }
-    ]
+    ],
+    "tmdb_id": 453395,
+    "plataforma": "Disney+"
   },
   {
     "id": "doin-it-2025",
@@ -5148,7 +5273,7 @@ const peliculas1 = [
     "addedDate": "2025-11-17T17:17:54.438098",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 5.8,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": false,
@@ -5180,7 +5305,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://nuuuppp.sbs/watch/zzYVhLINOq60SyMlYKB8MQJIUZhu81z7CUOpebOv9bg?h="
       }
-    ]
+    ],
+    "tmdb_id": 1195613
   },
   {
     "id": "dora-y-la-busqueda-del-sol-dorado-2025",
@@ -5201,12 +5327,12 @@ const peliculas1 = [
     "genero": [
       "aventura"
     ],
-    "calificacion": 10.0,
+    "calificacion": 6.7,
     "votos": 3000,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": true,
-    "plataforma": "pelicula",
+    "plataforma": "Paramount+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -5221,7 +5347,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/8pxnzxsztw4a"
       }
-    ]
+    ],
+    "tmdb_id": 1287536
   },
   {
     "tipo": "pelicula",
@@ -5245,9 +5372,9 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-05T22:20:48.188198",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 1294698,
     "año": 2025,
-    "calificacion": 8.0,
+    "calificacion": 7.0,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -5290,7 +5417,7 @@ const peliculas1 = [
     "genero": [
       "animacion"
     ],
-    "calificacion": 7.9,
+    "calificacion": 8.2,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T00:12:18.106654",
@@ -5364,7 +5491,9 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 236994,
+    "plataforma": "Crunchyroll"
   },
   {
     "tipo": "pelicula",
@@ -5388,9 +5517,9 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-05T01:36:42.338342",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 18095,
     "año": 1997,
-    "calificacion": 8.0,
+    "calificacion": 6.8,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -5442,9 +5571,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-05T01:34:30.250962",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 503314,
     "año": 2019,
-    "calificacion": 7.0,
+    "calificacion": 7.9,
     "votos": 9000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -5490,14 +5619,14 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-03T16:34:59.520850",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 610150,
     "año": 2022,
-    "calificacion": 0.0,
+    "calificacion": 7.9,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Crunchyroll",
     "fuentes": [
       {
         "idioma": "latino",
@@ -5580,7 +5709,7 @@ const peliculas1 = [
       "accion",
       "animacion"
     ],
-    "calificacion": 0.0,
+    "calificacion": 6.8,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T00:07:23.942688",
@@ -5588,7 +5717,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -5603,7 +5732,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dood.to/e/vfio72zrlim4"
       }
-    ]
+    ],
+    "tmdb_id": 126963
   },
   {
     "tipo": "pelicula",
@@ -5627,9 +5757,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-03T16:38:28.236858",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 39324,
     "año": 1993,
-    "calificacion": 8.0,
+    "calificacion": 7.6,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -5677,7 +5807,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T01:06:28.074486",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.9,
+    "calificacion": 6.3,
     "votos": 80000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -5698,7 +5828,9 @@ const peliculas1 = [
         "url": "https://streamwish.to/e/ac6slx2ph4sg"
       }
     ],
-    "id": "drop-amenaza-anonima-2025"
+    "id": "drop-amenaza-anonima-2025",
+    "tmdb_id": 1249213,
+    "plataforma": "HBO Max"
   },
   {
     "id": "dune-2-2024",
@@ -5719,7 +5851,7 @@ const peliculas1 = [
     "genero": [
       "ciencia ficcion"
     ],
-    "calificacion": 8.0,
+    "calificacion": 7.0,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T00:30:24.777114",
@@ -5742,7 +5874,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://goodstream.uno/video/embed/balk6c5vc1sj"
       }
-    ]
+    ],
+    "tmdb_id": 1371461
   },
   {
     "id": "east-of-wall-2025",
@@ -5764,7 +5897,7 @@ const peliculas1 = [
       "drama",
       "western"
     ],
-    "calificacion": 7.9,
+    "calificacion": 6.2,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -5794,7 +5927,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/misgcukfdgmq"
       }
-    ]
+    ],
+    "tmdb_id": 1398911,
+    "plataforma": "pelicula"
   },
   {
     "id": "el-amateur-operacion-venganza-2025",
@@ -5818,12 +5953,12 @@ const peliculas1 = [
     "addedDate": "2025-11-17T22:20:58.702134",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.1,
+    "calificacion": 7.0,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -5838,7 +5973,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/spv5u3qx42pn"
       }
-    ]
+    ],
+    "tmdb_id": 1087891
   },
   {
     "id": "el-caso-eloa-un-secuestro-en-directo-2025",
@@ -5863,7 +5999,7 @@ const peliculas1 = [
     "addedDate": "2025-11-20T21:03:45.096760",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.9,
+    "calificacion": 7.3,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": false,
@@ -5882,7 +6018,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/n755k9bfs796"
       }
-    ]
+    ],
+    "tmdb_id": 1564346,
+    "plataforma": "Netflix"
   },
   {
     "id": "el-chavo-del-ocho-0",
@@ -5906,12 +6044,12 @@ const peliculas1 = [
     "addedDate": "2025-11-17T19:50:09.920829",
     "tamaño": "N/A",
     "año": 0,
-    "calificacion": 0.0,
+    "calificacion": 8.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": true,
-    "plataforma": "pelicula",
+    "plataforma": "ViX Premium Amazon Channel",
     "temporadas": [
       {
         "temporada": 1,
@@ -5968,7 +6106,8 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 47
   },
   {
     "tipo": "pelicula",
@@ -5994,7 +6133,7 @@ const peliculas1 = [
     "addedDate": "2025-11-29T21:52:10.195957",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.0,
+    "calificacion": 7.1,
     "votos": 9000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -6015,7 +6154,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/41ashbe89bsl"
       }
     ],
-    "id": "el-contable-2-2025"
+    "id": "el-contable-2-2025",
+    "tmdb_id": 870028,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -6040,7 +6181,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T22:12:44.966623",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 0.0,
+    "calificacion": 6.2,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -6062,7 +6203,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/3edfwcptpt6v"
       }
     ],
-    "id": "el-cuadro-robado-2024"
+    "id": "el-cuadro-robado-2024",
+    "tmdb_id": 1076555
   },
   {
     "id": "el-descubridor-de-leyendas-2024",
@@ -6088,7 +6230,7 @@ const peliculas1 = [
     "addedDate": "2025-11-19T15:10:10.037204",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 8.8,
+    "calificacion": 6.9,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": true,
@@ -6108,7 +6250,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/mhz3n2now7k2"
       }
-    ]
+    ],
+    "tmdb_id": 1116465
   },
   {
     "tipo": "pelicula",
@@ -6132,13 +6275,13 @@ const peliculas1 = [
       "Hunter Dillon",
       "Jude Zarzaur"
     ],
-    "calificacion": 7.4,
+    "calificacion": 6.6,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T01:44:40.801322",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -6146,7 +6289,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "el-diario-de-greg-esto-es-el-colmo-2025"
+    "id": "el-diario-de-greg-esto-es-el-colmo-2025",
+    "tmdb_id": 1392796
   },
   {
     "id": "el-dia-que-la-tierra-exploto-una-pelicula-de-looney-tunes-2024",
@@ -6183,7 +6327,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://habetar.com/e/mh0v5ojslm5z"
       }
-    ]
+    ],
+    "tmdb_id": 870360,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -6204,7 +6350,7 @@ const peliculas1 = [
     "addedDate": "2025-11-22T19:08:09.204701",
     "tamaño": "N/A",
     "año": 2023,
-    "calificacion": 0.0,
+    "calificacion": 6.5,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -6224,7 +6370,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/audf3hr3thns"
       }
-    ]
+    ],
+    "tmdb_id": 1279596,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -6249,12 +6397,12 @@ const peliculas1 = [
     "addedDate": "2025-11-30T21:39:31.879374",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.9,
+    "calificacion": 6.1,
     "votos": 8000,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -6271,7 +6419,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/jr0uwogu604c"
       }
     ],
-    "id": "el-encanto-del-champan-2025"
+    "id": "el-encanto-del-champan-2025",
+    "tmdb_id": 1323475
   },
   {
     "tipo": "pelicula",
@@ -6296,7 +6445,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T22:56:57.836388",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 6.1,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -6317,7 +6466,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/07yxigopssvc"
       }
     ],
-    "id": "el-entrenador-2025"
+    "id": "el-entrenador-2025",
+    "tmdb_id": 1268552,
+    "plataforma": "pelicula"
   },
   {
     "id": "el-escuadron-suicida-2021",
@@ -6339,12 +6490,12 @@ const peliculas1 = [
       "accion",
       "aventura"
     ],
-    "calificacion": 10.0,
+    "calificacion": 7.5,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -6359,7 +6510,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/i6y5y3z187x7"
       }
-    ]
+    ],
+    "tmdb_id": 436969
   },
   {
     "id": "el-grillo-y-la-hormiga-2023",
@@ -6399,7 +6551,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://hgplaycdn.com/e/71euzakkg6kb"
       }
-    ]
+    ],
+    "tmdb_id": 676575,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -6448,7 +6602,7 @@ const peliculas1 = [
     "duracion": "104 min",
     "presupuesto": "$123,000,000",
     "ingresos": "$345,800,000",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -6508,13 +6662,13 @@ const peliculas1 = [
       "Johnny Massaro",
       "Marcello Escorel"
     ],
-    "calificacion": 7.231,
+    "calificacion": 7.4,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T02:45:17.045395",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -6522,7 +6676,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "el-hijo-de-mil-hombres-2025"
+    "id": "el-hijo-de-mil-hombres-2025",
+    "tmdb_id": 1299209
   },
   {
     "tipo": "pelicula",
@@ -6567,7 +6722,7 @@ const peliculas1 = [
     "duracion": "92 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -6653,7 +6808,8 @@ const peliculas1 = [
     "episodios": 4,
     "tipo_serie": "Miniseries",
     "ultima_emision": "2025-12-11",
-    "id": "el-hombre-contra-el-bebe-2025"
+    "id": "el-hombre-contra-el-bebe-2025",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -6679,7 +6835,7 @@ const peliculas1 = [
     "addedDate": "2025-11-23T13:42:58.234202",
     "tamaño": "N/A",
     "año": 2008,
-    "calificacion": 9.7,
+    "calificacion": 6.2,
     "votos": 800000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -6700,7 +6856,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/xb2bqm0t48c6"
       }
-    ]
+    ],
+    "tmdb_id": 1724,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -6724,7 +6882,7 @@ const peliculas1 = [
       "Maggie Smith",
       "Irène Jacob"
     ],
-    "calificacion": 7.422,
+    "calificacion": 7.4,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
@@ -6738,7 +6896,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "el-jardin-secreto-1993"
+    "id": "el-jardin-secreto-1993",
+    "tmdb_id": 11236
   },
   {
     "id": "el-lobo-de-wall-street-2019",
@@ -6764,13 +6923,13 @@ const peliculas1 = [
     "addedDate": "2025-11-19T00:58:23.272307",
     "tamaño": "N/A",
     "año": 2019,
-    "calificacion": 6.1,
+    "calificacion": 8.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
     "clasificacion_edad": "+18",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -6785,7 +6944,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/i47ezy013svi"
       }
-    ]
+    ],
+    "tmdb_id": 106646
   },
   {
     "tipo": "serie",
@@ -6811,7 +6971,7 @@ const peliculas1 = [
     "addedDate": "2025-11-24T17:48:48.862719",
     "tamaño": "N/A",
     "año": 2022,
-    "calificacion": 8.5,
+    "calificacion": 8.2,
     "votos": 800000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -6909,7 +7069,9 @@ const peliculas1 = [
       }
     ],
     "id": "el-pacificador-2022",
-    "clasificacion_edad": "18"
+    "clasificacion_edad": "18",
+    "tmdb_id": 110492,
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -6933,9 +7095,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-01T18:03:33.682509",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 238,
     "año": 1972,
-    "calificacion": 8.0,
+    "calificacion": 8.7,
     "votos": 8000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -6956,7 +7118,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/cf15ph7i3da4"
       }
     ],
-    "id": "el-padrino-1972"
+    "id": "el-padrino-1972",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -7005,7 +7168,7 @@ const peliculas1 = [
     "duracion": "105 min",
     "presupuesto": "$30,000,000",
     "ingresos": "$119,942,387",
-    "plataforma": "pelicula",
+    "plataforma": "Adrenalina Pura Amazon channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7040,12 +7203,12 @@ const peliculas1 = [
     "addedDate": "2025-11-16T03:03:55.973353",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 7.1,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7060,7 +7223,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/ryohovtezjpa"
       }
-    ]
+    ],
+    "tmdb_id": 653346
   },
   {
     "id": "el-protegido-2000",
@@ -7081,7 +7245,7 @@ const peliculas1 = [
     "genero": [
       "ciencia ficcion"
     ],
-    "calificacion": 7.0,
+    "calificacion": 7.1,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T00:27:30.513842",
@@ -7089,7 +7253,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7104,7 +7268,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dood.to/e/eocnbr5oafrp"
       }
-    ]
+    ],
+    "tmdb_id": 9741
   },
   {
     "tipo": "pelicula",
@@ -7128,7 +7293,7 @@ const peliculas1 = [
     "addedDate": "2025-11-26T14:38:49.251850",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 9.0,
+    "calificacion": 5.7,
     "votos": 70000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -7149,7 +7314,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/yhiid9e0x7lv"
       }
-    ]
+    ],
+    "tmdb_id": 1548764,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "serie",
@@ -7174,9 +7341,9 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-02T00:54:18.761733",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 245648,
     "año": 2024,
-    "calificacion": 9.0,
+    "calificacion": 6.4,
     "votos": 9000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -7228,7 +7395,8 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "el-refugio-atomico-2024"
+    "id": "el-refugio-atomico-2024",
+    "plataforma": "Netflix"
   },
   {
     "id": "el-regreso-de-la-momia-2001",
@@ -7253,7 +7421,7 @@ const peliculas1 = [
     "addedDate": "2025-11-19T01:44:03.815287",
     "tamaño": "N/A",
     "año": 2001,
-    "calificacion": 9.9,
+    "calificacion": 6.4,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -7273,7 +7441,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/iktujq8dl5i8"
       }
-    ]
+    ],
+    "tmdb_id": 1734
   },
   {
     "id": "el-rey-leon-1994",
@@ -7295,7 +7464,7 @@ const peliculas1 = [
       "familia",
       "animacion"
     ],
-    "calificacion": 7.0,
+    "calificacion": 8.3,
     "votos": 5500,
     "calidad": "HD",
     "addedDate": "2025-11-13T23:03:46.053783",
@@ -7303,7 +7472,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7318,7 +7487,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/jc7q5judaist"
       }
-    ]
+    ],
+    "tmdb_id": 8587
   },
   {
     "id": "el-rey-leon-2-el-tesoro-de-simba-1998-1998",
@@ -7433,13 +7603,13 @@ const peliculas1 = [
     "genero": [],
     "director": "",
     "reparto": [],
-    "calificacion": 0.0,
+    "calificacion": 6.3,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T19:55:51.301579",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7447,7 +7617,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "el-secreto-de-santa-2025"
+    "id": "el-secreto-de-santa-2025",
+    "tmdb_id": 1441563
   },
   {
     "id": "el-vengador-toxico-2025",
@@ -7470,7 +7641,7 @@ const peliculas1 = [
       "comedia",
       "ciencia ficcion"
     ],
-    "calificacion": 6.3,
+    "calificacion": 6.1,
     "votos": 2000,
     "calidad": "HD",
     "addedDate": "2025-11-13T01:53:41.164097",
@@ -7493,7 +7664,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/fd5urhuzom9x"
       }
-    ]
+    ],
+    "tmdb_id": 338969
   },
   {
     "tipo": "pelicula",
@@ -7519,7 +7691,7 @@ const peliculas1 = [
     "addedDate": "2025-11-25T21:06:19.162290",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 7.0,
+    "calificacion": 6.3,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -7540,7 +7712,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/bnx0ohis73r4"
       }
     ],
-    "id": "el-ultimo-refugio-2025"
+    "id": "el-ultimo-refugio-2025",
+    "tmdb_id": 1383089,
+    "plataforma": "pelicula"
   },
   {
     "id": "eleanor-la-grande-2025",
@@ -7570,7 +7744,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/92tq3a71xqje"
       }
-    ]
+    ],
+    "tmdb_id": 1212271,
+    "calificacion": 6.9
   },
   {
     "id": "elementos-2023",
@@ -7592,12 +7768,12 @@ const peliculas1 = [
       "animacion",
       "comedia"
     ],
-    "calificacion": 10.0,
+    "calificacion": 7.6,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "plataforma": "disney",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7612,7 +7788,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/joxlfh8et900"
       }
-    ]
+    ],
+    "tmdb_id": 976573
   },
   {
     "id": "elijo-creer-el-camino-del-campeon-2023",
@@ -7634,12 +7811,12 @@ const peliculas1 = [
       "documental",
       "futbool"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.6,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "plataforma": "apple tv",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7654,7 +7831,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/dm98lz8hx3d1"
       }
-    ]
+    ],
+    "tmdb_id": 1192578
   },
   {
     "id": "elio-2025",
@@ -7675,12 +7853,12 @@ const peliculas1 = [
     "genero": [
       "animacion"
     ],
-    "calificacion": 8.1,
+    "calificacion": 7.0,
     "votos": 3000,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": true,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7695,7 +7873,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/izkmpkph3o9o"
       }
-    ]
+    ],
+    "tmdb_id": 1022787
   },
   {
     "id": "en-defensa-del-paraiso-2016",
@@ -7721,7 +7900,7 @@ const peliculas1 = [
     "addedDate": "2025-11-20T23:30:51.238852",
     "tamaño": "N/A",
     "año": 2016,
-    "calificacion": 7.9,
+    "calificacion": 7.7,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -7740,7 +7919,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/jnf1ok5jmgs6"
       }
-    ]
+    ],
+    "tmdb_id": 533697,
+    "plataforma": "Looke Amazon Channel"
   },
   {
     "id": "en-suenos-2025",
@@ -7765,12 +7946,12 @@ const peliculas1 = [
     "addedDate": "2025-11-19T15:06:58.871480",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.8,
+    "calificacion": 6.9,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7785,7 +7966,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/g5mn92b4z3uj"
       }
-    ]
+    ],
+    "tmdb_id": 1117857
   },
   {
     "tipo": "pelicula",
@@ -7823,7 +8005,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "escapando-de-alemania-2024"
+    "id": "escapando-de-alemania-2024",
+    "tmdb_id": 1129508
   },
   {
     "id": "estado-electrico-2025",
@@ -7844,7 +8027,7 @@ const peliculas1 = [
     "genero": [
       "ciencia ficcion"
     ],
-    "calificacion": 9.1,
+    "calificacion": 6.5,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T20:10:58.120225",
@@ -7852,7 +8035,7 @@ const peliculas1 = [
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7867,7 +8050,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/dkmtmhwgdfvj"
       }
-    ]
+    ],
+    "tmdb_id": 777443
   },
   {
     "tipo": "pelicula",
@@ -7891,12 +8075,12 @@ const peliculas1 = [
     "addedDate": "2025-11-22T23:18:32.921746",
     "tamaño": "N/A",
     "año": 2023,
-    "calificacion": 0.0,
+    "calificacion": 6.0,
     "votos": 70000,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Booh Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7923,7 +8107,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/ofnmc1g0pxtd"
       }
-    ]
+    ],
+    "tmdb_id": 848723
   },
   {
     "id": "f1-la-pelicula-2025",
@@ -7945,7 +8130,7 @@ const peliculas1 = [
       "Accion",
       "drama"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.8,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T19:50:50.578656",
@@ -7953,7 +8138,7 @@ const peliculas1 = [
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Apple TV",
     "fuentes": [
       {
         "idioma": "latino",
@@ -7968,7 +8153,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/ynqtmjhc62bh"
       }
-    ]
+    ],
+    "tmdb_id": 911430
   },
   {
     "tipo": "pelicula",
@@ -8048,7 +8234,7 @@ const peliculas1 = [
     "addedDate": "2025-11-18T16:30:08.716007",
     "tamaño": "N/A",
     "año": 2002,
-    "calificacion": 0.0,
+    "calificacion": 7.6,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -8080,7 +8266,9 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "familia-peluche-2002"
+    "id": "familia-peluche-2002",
+    "tmdb_id": 31072,
+    "plataforma": "ViX Premium Amazon Channel"
   },
   {
     "tipo": "pelicula",
@@ -8103,7 +8291,7 @@ const peliculas1 = [
     "addedDate": "2025-11-22T23:13:36.920922",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 9.9,
+    "calificacion": 3.3,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -8124,7 +8312,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/jnjzaoi3qjvx"
       }
-    ]
+    ],
+    "tmdb_id": 1499837
   },
   {
     "tipo": "pelicula",
@@ -8149,7 +8338,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T16:53:07.167101",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 8.9,
+    "calificacion": 5.8,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -8170,7 +8359,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/gzn8hq1hmzrc"
       }
     ],
-    "id": "firecracker-2024"
+    "id": "firecracker-2024",
+    "tmdb_id": 1241231,
+    "plataforma": "pelicula"
   },
   {
     "id": "first-moon-2025",
@@ -8194,12 +8385,12 @@ const peliculas1 = [
     "addedDate": "2025-11-21T19:01:38.233720",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 9.9,
+    "calificacion": 4.4,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Booh Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -8225,7 +8416,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/ylw6adwql9nw"
       }
-    ]
+    ],
+    "tmdb_id": 1468417
   },
   {
     "tipo": "pelicula",
@@ -8272,7 +8464,7 @@ const peliculas1 = [
     "duracion": "109 min",
     "presupuesto": "$20,000,000",
     "ingresos": "$297,242,145",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -8306,9 +8498,9 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-05T00:55:03.313567",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 1228246,
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 6.8,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -8348,7 +8540,7 @@ const peliculas1 = [
       "accion",
       "animacion"
     ],
-    "calificacion": 10.0,
+    "calificacion": 6.5,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-13T15:05:05.947482",
@@ -8373,7 +8565,8 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 304530
   },
   {
     "tipo": "pelicula",
@@ -8400,7 +8593,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T22:15:07.641738",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.0,
+    "calificacion": 6.9,
     "votos": 8000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -8422,7 +8615,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/yjjr5no7463q"
       }
     ],
-    "id": "frankie-y-los-monstruos-2025"
+    "id": "frankie-y-los-monstruos-2025",
+    "tmdb_id": 1214130
   },
   {
     "id": "freaky-tales-2025",
@@ -8445,7 +8639,7 @@ const peliculas1 = [
       "comedia",
       "crimen"
     ],
-    "calificacion": 8.0,
+    "calificacion": 6.4,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T20:01:18.312546",
@@ -8468,7 +8662,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/wnx5vmb4uj9s"
       }
-    ]
+    ],
+    "tmdb_id": 979660
   },
   {
     "id": "frozen-2-2019",
@@ -8490,7 +8685,7 @@ const peliculas1 = [
       "familia",
       "animacion"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.2,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-13T23:17:50.434525",
@@ -8498,7 +8693,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -8513,7 +8708,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/27rasz7h4251"
       }
-    ]
+    ],
+    "tmdb_id": 330457
   },
   {
     "id": "frozen-fever-2015",
@@ -8535,7 +8731,7 @@ const peliculas1 = [
       "animacion",
       "aventura"
     ],
-    "calificacion": 8.0,
+    "calificacion": 6.8,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-13T23:13:38.188245",
@@ -8543,7 +8739,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -8564,7 +8760,8 @@ const peliculas1 = [
         "url": "https://dood.to/e/rg9hkbi7xuxt"
       }
     ],
-    "idioma": "latino"
+    "idioma": "latino",
+    "tmdb_id": 326359
   },
   {
     "id": "furiosa-de-la-saga-mad-max-2025",
@@ -8589,12 +8786,12 @@ const peliculas1 = [
     "addedDate": "2025-11-16T02:32:25.349473",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 7.5,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -8609,7 +8806,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/5ie2855keeoo"
       }
-    ]
+    ],
+    "tmdb_id": 786892
   },
   {
     "id": "furioza-2-2025",
@@ -8640,7 +8838,7 @@ const peliculas1 = [
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -8655,7 +8853,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/84rmapr02ytz"
       }
-    ]
+    ],
+    "tmdb_id": 1072699
   },
   {
     "tipo": "serie",
@@ -8678,9 +8877,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-03T22:00:01.292571",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 1399,
     "año": 2011,
-    "calificacion": 8.0,
+    "calificacion": 8.5,
     "votos": 7000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -8742,7 +8941,8 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "game-of-thrones-2011"
+    "id": "game-of-thrones-2011",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -8768,7 +8968,7 @@ const peliculas1 = [
     "addedDate": "2025-11-24T23:21:03.940888",
     "tamaño": "N/A",
     "año": 2023,
-    "calificacion": 8.9,
+    "calificacion": 5.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -8789,7 +8989,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/wgpwhap36zsq"
       }
-    ]
+    ],
+    "tmdb_id": 996525,
+    "plataforma": "pelicula"
   },
   {
     "id": "garfield-fuera-de-casa-2024",
@@ -8814,12 +9016,12 @@ const peliculas1 = [
     "addedDate": "2025-11-16T03:07:17.294850",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 8.1,
+    "calificacion": 7.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -8834,7 +9036,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/bgc03495fu9a"
       }
-    ]
+    ],
+    "tmdb_id": 748783
   },
   {
     "tipo": "pelicula",
@@ -8872,7 +9075,9 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "ghost-in-the-shell-20-2008"
+    "id": "ghost-in-the-shell-20-2008",
+    "tmdb_id": 14092,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -8908,7 +9113,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "ghosters-phantom-patrol-2023"
+    "id": "ghosters-phantom-patrol-2023",
+    "tmdb_id": 1101742
   },
   {
     "id": "gigantes-de-acero-2011",
@@ -8933,7 +9139,7 @@ const peliculas1 = [
     "addedDate": "2025-11-19T01:17:38.838113",
     "tamaño": "N/A",
     "año": 2011,
-    "calificacion": 8.5,
+    "calificacion": 7.1,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -8953,7 +9159,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/o8aajaw58izb"
       }
-    ]
+    ],
+    "tmdb_id": 39254
   },
   {
     "id": "godzilla-x-kong-el-nuevo-imperio-2024",
@@ -8977,7 +9184,7 @@ const peliculas1 = [
     "genero": [
       "Acción"
     ],
-    "calificacion": 7.5,
+    "calificacion": 7.1,
     "votos": 1800,
     "calidad": "1080p",
     "tamaño": "1.8 GB",
@@ -8995,7 +9202,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/5a748ahgndus"
       }
-    ]
+    ],
+    "tmdb_id": 823464,
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -9020,7 +9229,7 @@ const peliculas1 = [
     "addedDate": "2025-11-27T20:03:12.484321",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 8.0,
+    "calificacion": 4.1,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -9041,7 +9250,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/wexg7zf2t0n5"
       }
     ],
-    "id": "goldilocks-and-the-three-bears-death-porridge-2024"
+    "id": "goldilocks-and-the-three-bears-death-porridge-2024",
+    "tmdb_id": 1186274,
+    "plataforma": "Booh Amazon Channel"
   },
   {
     "id": "good-fortune-2025",
@@ -9066,7 +9277,7 @@ const peliculas1 = [
     "addedDate": "2025-11-21T14:27:44.164586",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 7.1,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -9086,7 +9297,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/ms39hloxavab"
       }
-    ]
+    ],
+    "tmdb_id": 1114967
   },
   {
     "id": "grandes-heroes-2014",
@@ -9110,12 +9322,12 @@ const peliculas1 = [
     "addedDate": "2025-11-17T15:18:47.886361",
     "tamaño": "N/A",
     "año": 2014,
-    "calificacion": 9.9,
+    "calificacion": 7.7,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -9130,7 +9342,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/kqoh44ii601b"
       }
-    ]
+    ],
+    "tmdb_id": 177572
   },
   {
     "tipo": "pelicula",
@@ -9155,7 +9368,7 @@ const peliculas1 = [
     "addedDate": "2025-11-25T22:30:00.630941",
     "tamaño": "N/A",
     "año": 2018,
-    "calificacion": 7.9,
+    "calificacion": 8.2,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -9176,7 +9389,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/b47sqbo8yxxa"
       }
     ],
-    "id": "green-book-2018"
+    "id": "green-book-2018",
+    "tmdb_id": 490132,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -9200,7 +9415,7 @@ const peliculas1 = [
     "addedDate": "2025-11-24T14:48:19.863974",
     "tamaño": "N/A",
     "año": 2023,
-    "calificacion": 0.0,
+    "calificacion": 8.1,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -9222,7 +9437,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/8e3x629aylik"
       }
-    ]
+    ],
+    "tmdb_id": 1206089
   },
   {
     "tipo": "pelicula",
@@ -9271,7 +9487,7 @@ const peliculas1 = [
     "duracion": "122 min",
     "presupuesto": "$170,000,000",
     "ingresos": "$772,776,600",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       "https://filelions.to/v/0z473hou6kbd"
     ],
@@ -9524,7 +9740,8 @@ const peliculas1 = [
     "episodios": 16,
     "tipo_serie": "Scripted",
     "ultima_emision": "2023-10-10",
-    "id": "harina-2022"
+    "id": "harina-2022",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "id": "hasta-el-limite-del-honor-2022",
@@ -9546,12 +9763,12 @@ const peliculas1 = [
       "accion",
       "guerra"
     ],
-    "calificacion": 10.0,
+    "calificacion": 5.5,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "plataforma": "pelicula",
+    "plataforma": "Looke Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -9566,7 +9783,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/idyjk7yof9ki"
       }
-    ]
+    ],
+    "tmdb_id": 963746
   },
   {
     "id": "haul-out-the-holly-lit-up-2025",
@@ -9580,7 +9798,7 @@ const peliculas1 = [
       "comedia",
       "romance"
     ],
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -9595,7 +9813,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/wex4n3hgktu3"
       }
-    ]
+    ],
+    "tmdb_id": 1154268,
+    "calificacion": 6.0
   },
   {
     "tipo": "pelicula",
@@ -9619,7 +9839,7 @@ const peliculas1 = [
     "addedDate": "2025-11-27T20:14:08.666191",
     "tamaño": "N/A",
     "año": 2023,
-    "calificacion": 9.0,
+    "calificacion": 4.3,
     "votos": 8000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -9640,7 +9860,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/ar43w2766o85"
       }
     ],
-    "id": "hechizo-de-cuampleanos-2023"
+    "id": "hechizo-de-cuampleanos-2023",
+    "tmdb_id": 1061656,
+    "plataforma": "Booh Amazon Channel"
   },
   {
     "tipo": "pelicula",
@@ -9689,7 +9911,7 @@ const peliculas1 = [
     "duracion": "107 min",
     "presupuesto": "Desconocido",
     "ingresos": "$8,393",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -9725,7 +9947,7 @@ const peliculas1 = [
     "addedDate": "2025-11-20T23:01:32.908612",
     "tamaño": "N/A",
     "año": 2014,
-    "calificacion": 9.0,
+    "calificacion": 8.3,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -9856,7 +10078,9 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 61852,
+    "plataforma": "Netflix"
   },
   {
     "id": "henry-danger-la-pelicula-2025",
@@ -9878,7 +10102,7 @@ const peliculas1 = [
       "accion",
       "comedia"
     ],
-    "calificacion": 7.0,
+    "calificacion": 7.7,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-13T22:06:10.472672",
@@ -9886,7 +10110,7 @@ const peliculas1 = [
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Paramount+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -9901,7 +10125,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/x41j9owq6hnl"
       }
-    ]
+    ],
+    "tmdb_id": 926670
   },
   {
     "id": "high-potential-detective-inesperada-2024",
@@ -9927,12 +10152,12 @@ const peliculas1 = [
     "addedDate": "2025-11-18T23:57:40.540606",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 9.0,
+    "calificacion": 8.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "temporadas": [
       {
         "temporada": 1,
@@ -10044,7 +10269,8 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 226637
   },
   {
     "id": "higuita-el-camino-del-escorpion-2023",
@@ -10066,12 +10292,12 @@ const peliculas1 = [
       "documental",
       "futbool"
     ],
-    "calificacion": 10.0,
+    "calificacion": 8.1,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "plataforma": "netflix",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -10086,7 +10312,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/9krn5phi7dt1"
       }
-    ]
+    ],
+    "tmdb_id": 1187872
   },
   {
     "tipo": "pelicula",
@@ -10112,7 +10339,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T17:01:51.430471",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 7.0,
+    "calificacion": 5.8,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -10126,7 +10353,9 @@ const peliculas1 = [
         "activa": true
       }
     ],
-    "id": "hombres-de-guerra-2024"
+    "id": "hombres-de-guerra-2024",
+    "tmdb_id": 1276825,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -10150,9 +10379,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-03T21:14:44.076562",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 1149504,
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 5.7,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -10196,7 +10425,7 @@ const peliculas1 = [
     "addedDate": "2025-11-23T23:39:03.199525",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.9,
+    "calificacion": 6.7,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -10238,7 +10467,9 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "hotel-costiera-2025"
+    "id": "hotel-costiera-2025",
+    "tmdb_id": 247662,
+    "plataforma": "Universal+ Amazon Channel"
   },
   {
     "tipo": "pelicula",
@@ -10264,7 +10495,7 @@ const peliculas1 = [
     "addedDate": "2025-11-27T20:16:29.114090",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 9.0,
+    "calificacion": 5.4,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -10285,7 +10516,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/smmdl590g2pw"
       }
     ],
-    "id": "humane-2024"
+    "id": "humane-2024",
+    "tmdb_id": 914215,
+    "plataforma": "Paramount+"
   },
   {
     "id": "icefall-2025",
@@ -10301,7 +10534,7 @@ const peliculas1 = [
     "director": "N/A",
     "reparto": [],
     "favorito": false,
-    "calificacion": 0,
+    "calificacion": 6.8,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -10320,7 +10553,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://hgplaycdn.com/e/8q823wguroik"
       }
-    ]
+    ],
+    "tmdb_id": 1242501,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -10344,7 +10579,7 @@ const peliculas1 = [
     "addedDate": "2025-11-24T15:15:22.983105",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 7.9,
+    "calificacion": 7.4,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -10365,7 +10600,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/i6fvyr53xnrr"
       }
-    ]
+    ],
+    "tmdb_id": 1317931,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -10386,7 +10623,7 @@ const peliculas1 = [
     "addedDate": "2025-11-22T19:16:58.505979",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 0.0,
+    "calificacion": 4.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -10406,7 +10643,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/3ivon0xep3aq"
       }
-    ]
+    ],
+    "tmdb_id": 1286547,
+    "plataforma": "pelicula"
   },
   {
     "id": "intensamente-2015",
@@ -10427,7 +10666,7 @@ const peliculas1 = [
     "genero": [
       "animacion"
     ],
-    "calificacion": 7.0,
+    "calificacion": 7.9,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-13T23:43:12.351471",
@@ -10435,7 +10674,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -10462,7 +10701,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/27dm5b83jlps"
       }
-    ]
+    ],
+    "tmdb_id": 150540
   },
   {
     "id": "intensamente-2-2024",
@@ -10483,7 +10723,7 @@ const peliculas1 = [
     "genero": [
       "animacion"
     ],
-    "calificacion": 7.9,
+    "calificacion": 7.5,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-13T23:50:48.850024",
@@ -10491,7 +10731,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -10518,7 +10758,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://guxhag.com/e/ti216s0gx82o"
       }
-    ]
+    ],
+    "tmdb_id": 1022789
   },
   {
     "tipo": "pelicula",
@@ -10544,14 +10785,14 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-05T01:26:51.427975",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 157336,
     "año": 2925,
-    "calificacion": 0.0,
+    "calificacion": 8.5,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -10590,13 +10831,13 @@ const peliculas1 = [
       "drama",
       "ciencia"
     ],
-    "calificacion": 7.2,
+    "calificacion": 6.5,
     "votos": 20000,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
     "es_reciente": true,
-    "plataforma": "disney",
+    "plataforma": "Disney+",
     "temporadas": [
       {
         "temporada": 1,
@@ -10634,7 +10875,8 @@ const peliculas1 = [
         ]
       }
     ],
-    "idioma": "latino"
+    "idioma": "latino",
+    "tmdb_id": 114472
   },
   {
     "tipo": "pelicula",
@@ -10660,7 +10902,7 @@ const peliculas1 = [
     "addedDate": "2025-11-23T14:10:50.769258",
     "tamaño": "N/A",
     "año": 2008,
-    "calificacion": 9.0,
+    "calificacion": 7.7,
     "votos": 90000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -10681,7 +10923,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/4pihlofyywy3"
       }
-    ]
+    ],
+    "tmdb_id": 1726,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -10707,7 +10951,7 @@ const peliculas1 = [
     "addedDate": "2025-11-23T14:13:36.225173",
     "tamaño": "N/A",
     "año": 2010,
-    "calificacion": 8.0,
+    "calificacion": 6.8,
     "votos": 8000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -10728,7 +10972,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/uxllehf5by1z"
       }
-    ]
+    ],
+    "tmdb_id": 10138,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -10754,7 +11000,7 @@ const peliculas1 = [
     "addedDate": "2025-11-23T14:27:39.642681",
     "tamaño": "N/A",
     "año": 2013,
-    "calificacion": 8.0,
+    "calificacion": 6.9,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -10775,7 +11021,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/echf8s8442gw"
       }
-    ]
+    ],
+    "tmdb_id": 68721,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -10800,14 +11048,14 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-05T01:30:38.675954",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 346364,
     "año": 2017,
-    "calificacion": 9.0,
+    "calificacion": 7.2,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -10928,7 +11176,8 @@ const peliculas1 = [
     "episodios": 8,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-12-07",
-    "id": "it-bienvenidos-a-derry-2025"
+    "id": "it-bienvenidos-a-derry-2025",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -10950,7 +11199,7 @@ const peliculas1 = [
       "comedia",
       "suspenso"
     ],
-    "calificacion": 7.9,
+    "calificacion": 6.9,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T19:30:14.546580",
@@ -10958,7 +11207,7 @@ const peliculas1 = [
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -10974,7 +11223,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/kae08c7v3pi5"
       }
-    ]
+    ],
+    "tmdb_id": 749170
   },
   {
     "id": "juego-de-gemelas-1998",
@@ -10999,12 +11249,12 @@ const peliculas1 = [
     "addedDate": "2025-11-19T01:42:27.693826",
     "tamaño": "N/A",
     "año": 1998,
-    "calificacion": 0.0,
+    "calificacion": 7.2,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -11019,7 +11269,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/9v3su8ad29g2"
       }
-    ]
+    ],
+    "tmdb_id": 9820
   },
   {
     "tipo": "pelicula",
@@ -11045,7 +11296,7 @@ const peliculas1 = [
     "addedDate": "2025-11-29T18:18:57.262286",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 6.6,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -11067,7 +11318,9 @@ const peliculas1 = [
         "tamaño": "",
         "url": "https://dintezuvio.com/embed/dfqk15gvg0xq"
       }
-    ]
+    ],
+    "tmdb_id": 604685,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -11093,7 +11346,7 @@ const peliculas1 = [
     "addedDate": "2025-11-29T19:20:43.413064",
     "tamaño": "N/A",
     "año": 2018,
-    "calificacion": 8.0,
+    "calificacion": 6.9,
     "votos": 900000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -11114,7 +11367,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/s8dqqy0atqs3"
       }
     ],
-    "id": "juego-de-ladrones-el-atraco-perfecto-2018"
+    "id": "juego-de-ladrones-el-atraco-perfecto-2018",
+    "tmdb_id": 449443,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -11138,7 +11393,7 @@ const peliculas1 = [
     "addedDate": "2025-11-24T22:58:15.093514",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 6.8,
+    "calificacion": 6.6,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -11159,7 +11414,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/vygk3a2w0tb4"
       }
-    ]
+    ],
+    "tmdb_id": 941109,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -11182,12 +11439,12 @@ const peliculas1 = [
     "addedDate": "2025-11-19T18:35:59.911364",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.9,
+    "calificacion": 6.1,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -11203,7 +11460,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://embed69.org/f/tt31425731/"
       }
-    ]
+    ],
+    "tmdb_id": 1248226
   },
   {
     "tipo": "pelicula",
@@ -11226,7 +11484,7 @@ const peliculas1 = [
       "Daisuke Namikawa",
       "Yuma Uchida"
     ],
-    "calificacion": 5.191,
+    "calificacion": 5.6,
     "idioma": "subtitulado",
     "calidad": "1080p",
     "favorito": false,
@@ -11240,7 +11498,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "jujutsu-kaisen-ejecucion-2025"
+    "id": "jujutsu-kaisen-ejecucion-2025",
+    "tmdb_id": 1539104
   },
   {
     "id": "jump-2023",
@@ -11262,12 +11521,12 @@ const peliculas1 = [
       "musica",
       "documental"
     ],
-    "calificacion": 10.0,
+    "calificacion": 7.5,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": true,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -11282,7 +11541,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/2h0z47znrbls"
       }
-    ]
+    ],
+    "tmdb_id": 1169582
   },
   {
     "id": "jurassic-world-dominion-2022",
@@ -11306,12 +11566,12 @@ const peliculas1 = [
     "addedDate": "2025-11-16T02:41:39.066345",
     "tamaño": "N/A",
     "año": 2022,
-    "calificacion": 8.2,
+    "calificacion": 6.6,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Universal+ Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -11326,7 +11586,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://goodstream.uno/video/embed/p1pxtf3hk7i0"
       }
-    ]
+    ],
+    "tmdb_id": 507086
   },
   {
     "id": "jurassic-world-renace-2025",
@@ -11347,7 +11608,7 @@ const peliculas1 = [
     "genero": [
       "ciencia ficcion"
     ],
-    "calificacion": 7.1,
+    "calificacion": 6.4,
     "votos": 23000,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -11367,7 +11628,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/8lpm34jk3nzq"
       }
-    ]
+    ],
+    "tmdb_id": 1234821
   },
   {
     "tipo": "pelicula",
@@ -11397,7 +11659,7 @@ const peliculas1 = [
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T23:36:46.414813",
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -11405,7 +11667,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "jovenes-titanes-el-contrato-de-judas-2017"
+    "id": "jovenes-titanes-el-contrato-de-judas-2017",
+    "tmdb_id": 408647
   },
   {
     "id": "ko-2025",
@@ -11428,7 +11691,7 @@ const peliculas1 = [
       "drama",
       "aventura"
     ],
-    "calificacion": 7.0,
+    "calificacion": 6.4,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T19:59:23.022516",
@@ -11436,7 +11699,7 @@ const peliculas1 = [
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -11451,7 +11714,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/nkjg1hgu322z"
       }
-    ]
+    ],
+    "tmdb_id": 1450599
   },
   {
     "tipo": "pelicula",
@@ -11475,13 +11739,13 @@ const peliculas1 = [
       "Tessyo Genda",
       "Kengo Kawanishi"
     ],
-    "calificacion": 7.9,
+    "calificacion": 8.0,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T01:56:55.340559",
-    "plataforma": "pelicula",
+    "plataforma": "Crunchyroll",
     "fuentes": [
       {
         "idioma": "latino",
@@ -11489,7 +11753,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "kaiju-no-8-mision-de-reconocimiento-2025"
+    "id": "kaiju-no-8-mision-de-reconocimiento-2025",
+    "tmdb_id": 1326106
   },
   {
     "tipo": "pelicula",
@@ -11538,7 +11803,7 @@ const peliculas1 = [
     "duracion": "165 min",
     "presupuesto": "$14,000,000",
     "ingresos": "$91,000,000",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "subtitulado",
@@ -11571,7 +11836,7 @@ const peliculas1 = [
       "Aventura",
       "Drama"
     ],
-    "calificacion": 8.1,
+    "calificacion": 7.1,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T20:04:33.234843",
@@ -11579,7 +11844,7 @@ const peliculas1 = [
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -11594,7 +11859,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/blrp509qxyqw"
       }
-    ]
+    ],
+    "tmdb_id": 1011477
   },
   {
     "id": "karol-g-manana-fue-muy-bonito-2025",
@@ -11616,12 +11882,12 @@ const peliculas1 = [
       "documental",
       "musica"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.9,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": true,
-    "plataforma": "netflix",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -11636,7 +11902,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/u1e8ai2angfv"
       }
-    ]
+    ],
+    "tmdb_id": 1469239
   },
   {
     "id": "katak-la-pequena-ballena-2023",
@@ -11658,7 +11925,7 @@ const peliculas1 = [
       "animacion",
       "aventura"
     ],
-    "calificacion": 6.1,
+    "calificacion": 6.0,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -11676,7 +11943,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://guxhag.com/e/7e0o7kdfrh93"
       }
-    ]
+    ],
+    "tmdb_id": 1052152,
+    "plataforma": "pelicula"
   },
   {
     "id": "kayara-la-princesa-inca-2025",
@@ -11698,7 +11967,7 @@ const peliculas1 = [
       "animacion",
       "aventura"
     ],
-    "calificacion": 7.7,
+    "calificacion": 7.6,
     "votos": 2000,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -11718,7 +11987,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://voe.sx/e/dnfvjy6or2vp"
       }
-    ]
+    ],
+    "tmdb_id": 666154
   },
   {
     "id": "keylor-navas-hombre-de-fe-2017-2017",
@@ -11784,7 +12054,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T16:48:18.523708",
     "tamaño": "N/A",
     "año": 2003,
-    "calificacion": 8.9,
+    "calificacion": 8.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -11805,7 +12075,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/bum616qjd24s"
       }
     ],
-    "id": "kill-bill-volume-1-2003"
+    "id": "kill-bill-volume-1-2003",
+    "tmdb_id": 24,
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -11852,7 +12124,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/gbbepjluy08j"
       }
     ],
-    "id": "kill-bill-volume-2-2004"
+    "id": "kill-bill-volume-2-2004",
+    "tmdb_id": 393,
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -11877,7 +12151,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T16:50:02.029414",
     "tamaño": "N/A",
     "año": 2011,
-    "calificacion": 7.0,
+    "calificacion": 8.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -11898,7 +12172,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/9x98ovm1q859"
       }
     ],
-    "id": "kill-bill-the-whole-bloody-affair-2011"
+    "id": "kill-bill-the-whole-bloody-affair-2011",
+    "tmdb_id": 414419,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -11979,7 +12255,7 @@ const peliculas1 = [
       "Yoshitsugu Matsuoka",
       "Nobuhiko Okamoto"
     ],
-    "calificacion": 8.639,
+    "calificacion": 8.6,
     "idioma": "japones",
     "calidad": "1080p",
     "favorito": false,
@@ -12002,7 +12278,9 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "kimetsu-no-yaiba-guardianes-de-la-noche-2019"
+    "id": "kimetsu-no-yaiba-guardianes-de-la-noche-2019",
+    "tmdb_id": 85937,
+    "plataforma": "Crunchyroll"
   },
   {
     "id": "kung-fu-panda-4-2024",
@@ -12027,12 +12305,12 @@ const peliculas1 = [
     "addedDate": "2025-11-17T15:16:19.226361",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 9.1,
+    "calificacion": 7.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -12047,7 +12325,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/wfa3hwqzfqqu"
       }
-    ]
+    ],
+    "tmdb_id": 1011985
   },
   {
     "tipo": "pelicula",
@@ -12124,9 +12403,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-01T18:24:29.713442",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 1280282,
     "año": 2025,
-    "calificacion": 8.99,
+    "calificacion": 6.7,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -12147,7 +12426,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/u2c7s8evpziz"
       }
     ],
-    "id": "la-casa-de-munecas-de-gabby-la-pelicula-2025"
+    "id": "la-casa-de-munecas-de-gabby-la-pelicula-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -12173,7 +12453,7 @@ const peliculas1 = [
       "황석정",
       "Chang Hyung-yun"
     ],
-    "calificacion": 7.089,
+    "calificacion": 7.1,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
@@ -12187,7 +12467,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "la-chica-satelite-y-el-chico-vaca-2014"
+    "id": "la-chica-satelite-y-el-chico-vaca-2014",
+    "tmdb_id": 252509
   },
   {
     "tipo": "pelicula",
@@ -12270,13 +12551,13 @@ const peliculas1 = [
       "Steve Zahn",
       "Jermaine Fowler"
     ],
-    "calificacion": 6.359,
+    "calificacion": 6.4,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T02:26:08.120768",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -12284,7 +12565,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "la-conductora-2025"
+    "id": "la-conductora-2025",
+    "tmdb_id": 1151334
   },
   {
     "tipo": "pelicula",
@@ -12307,7 +12589,7 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-05T22:16:00.558558",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 1476771,
     "año": 2025,
     "calificacion": 0.0,
     "votos": 0,
@@ -12346,12 +12628,12 @@ const peliculas1 = [
     "addedDate": "2025-11-17T15:03:08.143460",
     "tamaño": "N/A",
     "año": 2002,
-    "calificacion": 7.3,
+    "calificacion": 7.4,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -12366,7 +12648,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/sd53rw2wy2vh"
       }
-    ]
+    ],
+    "tmdb_id": 425
   },
   {
     "id": "la-era-de-hielo-2-2006",
@@ -12390,12 +12673,12 @@ const peliculas1 = [
     "addedDate": "2025-11-17T14:57:01.182008",
     "tamaño": "N/A",
     "año": 2006,
-    "calificacion": 8.1,
+    "calificacion": 6.7,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -12410,7 +12693,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/te50gvgltjk4"
       }
-    ]
+    ],
+    "tmdb_id": 950
   },
   {
     "tipo": "pelicula",
@@ -12435,9 +12719,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-01T15:42:47.511701",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 755898,
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 4.2,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -12458,7 +12742,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/qe55jncm9j2x"
       }
     ],
-    "id": "la-guerra-de-los-mundos-2025"
+    "id": "la-guerra-de-los-mundos-2025",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -12479,7 +12764,7 @@ const peliculas1 = [
     "addedDate": "2025-11-22T23:03:40.192100",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.9,
+    "calificacion": 7.3,
     "votos": 80000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -12500,7 +12785,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/a9ftn50q6ywe"
       }
-    ]
+    ],
+    "tmdb_id": 1284120
   },
   {
     "tipo": "pelicula",
@@ -12526,12 +12812,12 @@ const peliculas1 = [
     "addedDate": "2025-11-22T23:54:30.959703",
     "tamaño": "N/A",
     "año": 2014,
-    "calificacion": 8.9,
+    "calificacion": 6.4,
     "votos": 90000,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -12547,7 +12833,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/4renbzhxstnc"
       }
-    ]
+    ],
+    "tmdb_id": 177271
   },
   {
     "id": "la-maldicion-de-chucky-2013",
@@ -12568,12 +12855,12 @@ const peliculas1 = [
     "genero": [
       "terror"
     ],
-    "calificacion": 8.7,
+    "calificacion": 5.9,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -12588,7 +12875,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/827db8wg8j93"
       }
-    ]
+    ],
+    "tmdb_id": 167032
   },
   {
     "id": "la-maldicion-del-collar-2024",
@@ -12609,7 +12897,7 @@ const peliculas1 = [
     "genero": [
       "terror"
     ],
-    "calificacion": 0.0,
+    "calificacion": 5.7,
     "votos": 4000,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -12627,7 +12915,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/z2dqni5yzhsj"
       }
-    ]
+    ],
+    "tmdb_id": 1293263,
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -12657,7 +12947,7 @@ const peliculas1 = [
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T02:04:07.069057",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -12665,7 +12955,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "la-mercancia-mas-preciosa-2024"
+    "id": "la-mercancia-mas-preciosa-2024",
+    "tmdb_id": 842859
   },
   {
     "id": "la-mujer-de-la-fila-2025",
@@ -12680,7 +12971,7 @@ const peliculas1 = [
     "genero": [
       "drama"
     ],
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -12695,7 +12986,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/noe05mfxqx9b"
       }
-    ]
+    ],
+    "tmdb_id": 1193861,
+    "calificacion": 7.7
   },
   {
     "tipo": "pelicula",
@@ -12721,7 +13014,7 @@ const peliculas1 = [
     "addedDate": "2025-11-25T22:09:03.530014",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.7,
+    "calificacion": 6.2,
     "votos": 70000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -12742,7 +13035,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/0cug0zbox4tf"
       }
     ],
-    "id": "la-mujer-del-camarote-10-2025"
+    "id": "la-mujer-del-camarote-10-2025",
+    "tmdb_id": 1290879,
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -12822,13 +13117,13 @@ const peliculas1 = [
       "María Botto",
       "Unax Hayden"
     ],
-    "calificacion": 8.0,
+    "calificacion": 5.5,
     "idioma": "español",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T16:45:33.255728",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "español",
@@ -12836,7 +13131,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "la-navidad-en-sus-manos-2-2025"
+    "id": "la-navidad-en-sus-manos-2-2025",
+    "tmdb_id": 1196207
   },
   {
     "tipo": "serie",
@@ -12860,9 +13156,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-04T20:58:57.166541",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 253376,
     "año": 2025,
-    "calificacion": 7.9,
+    "calificacion": 7.1,
     "votos": 8999,
     "es_nuevo": true,
     "es_reciente": true,
@@ -12904,7 +13200,8 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "la-novia-2025"
+    "id": "la-novia-2025",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "id": "la-novia-de-chucky-1998",
@@ -12926,7 +13223,7 @@ const peliculas1 = [
       "comedia",
       "terror"
     ],
-    "calificacion": 0.0,
+    "calificacion": 6.1,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -12946,7 +13243,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/7k3wuxm576ll"
       }
-    ]
+    ],
+    "tmdb_id": 11932
   },
   {
     "id": "la-ola-2025",
@@ -12971,12 +13269,12 @@ const peliculas1 = [
     "addedDate": "2025-11-21T14:23:55.147454",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8000.0,
+    "calificacion": 4.2,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -12991,7 +13289,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/jy6l9meibgrm"
       }
-    ]
+    ],
+    "tmdb_id": 1229563
   },
   {
     "tipo": "pelicula",
@@ -13040,7 +13339,7 @@ const peliculas1 = [
     "duracion": "44 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Paramount+",
     "fuentes": [
       {
         "idioma": "español",
@@ -13075,12 +13374,12 @@ const peliculas1 = [
     "addedDate": "2025-11-16T02:57:18.971596",
     "tamaño": "N/A",
     "año": 2021,
-    "calificacion": 7.1,
+    "calificacion": 7.3,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -13095,7 +13394,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://vidhidepro.com/v/2zymrgr5eugm"
       }
-    ]
+    ],
+    "tmdb_id": 675445
   },
   {
     "tipo": "pelicula",
@@ -13120,7 +13420,7 @@ const peliculas1 = [
       "Shin-ichiro Miki",
       "犬山イヌコ"
     ],
-    "calificacion": 7.077,
+    "calificacion": 7.1,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
@@ -13128,7 +13428,8 @@ const peliculas1 = [
     "addedDate": "2025-12-07T23:39:42.978453",
     "plataforma": "pelicula",
     "fuentes": [],
-    "id": "la-pelicula-pokemon-te-elijo-a-ti-2017"
+    "id": "la-pelicula-pokemon-te-elijo-a-ti-2017",
+    "tmdb_id": 436931
   },
   {
     "id": "la-tumba-del-rey-maldito-2023",
@@ -13150,7 +13451,7 @@ const peliculas1 = [
       "accion",
       "aventura"
     ],
-    "calificacion": 6.7,
+    "calificacion": 7.0,
     "votos": 2000,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -13170,7 +13471,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/w4bush12ayrl"
       }
-    ]
+    ],
+    "tmdb_id": 1181039
   },
   {
     "tipo": "pelicula",
@@ -13188,7 +13490,7 @@ const peliculas1 = [
     ],
     "favorito": false,
     "genero": [],
-    "calificacion": 8.9,
+    "calificacion": 5.9,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T19:48:00.832951",
@@ -13196,7 +13498,7 @@ const peliculas1 = [
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -13212,7 +13514,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/r5hm0790m91q"
       }
-    ]
+    ],
+    "tmdb_id": 846422
   },
   {
     "tipo": "pelicula",
@@ -13318,7 +13621,7 @@ const peliculas1 = [
     "duracion": "74 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -13349,7 +13652,7 @@ const peliculas1 = [
       "accion",
       "ciencia ficcion"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.1,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -13370,7 +13673,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/wt1ivyt9e6vt"
       }
-    ]
+    ],
+    "tmdb_id": 594530,
+    "plataforma": "Disney+"
   },
   {
     "id": "las-aventuras-de-dog-man-2025",
@@ -13391,7 +13696,7 @@ const peliculas1 = [
     "genero": [
       "familia"
     ],
-    "calificacion": 8.1,
+    "calificacion": 7.5,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T20:40:47.781506",
@@ -13399,7 +13704,7 @@ const peliculas1 = [
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -13414,7 +13719,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/ng71pml74clu"
       }
-    ]
+    ],
+    "tmdb_id": 774370
   },
   {
     "tipo": "pelicula",
@@ -13442,14 +13748,14 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-05T01:17:53.027949",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 803796,
     "año": 2025,
-    "calificacion": 8.0,
+    "calificacion": 8.1,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -13490,9 +13796,9 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-06T01:03:11.984136",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 1396371,
     "año": 2025,
-    "calificacion": 7.9,
+    "calificacion": 4.7,
     "votos": 5600,
     "es_nuevo": true,
     "es_reciente": true,
@@ -13538,7 +13844,7 @@ const peliculas1 = [
     "addedDate": "2025-11-17T16:58:54.707852",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.1,
+    "calificacion": 4.3,
     "votos": 690000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -13558,7 +13864,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/fp85cgp0b6qj"
       }
-    ]
+    ],
+    "tmdb_id": 1488685
   },
   {
     "id": "las-ratas-una-historia-de-the-witcher-2025",
@@ -13584,12 +13891,12 @@ const peliculas1 = [
     "addedDate": "2025-11-19T16:58:45.825054",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 5.4,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -13604,7 +13911,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/2l0ud37ixk4r"
       }
-    ]
+    ],
+    "tmdb_id": 1571470
   },
   {
     "tipo": "pelicula",
@@ -13634,7 +13942,7 @@ const peliculas1 = [
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T02:38:05.354108",
-    "plataforma": "pelicula",
+    "plataforma": "Booh Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -13642,7 +13950,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "le-vourdalak-2023"
+    "id": "le-vourdalak-2023",
+    "tmdb_id": 1047223
   },
   {
     "tipo": "pelicula",
@@ -13664,13 +13973,13 @@ const peliculas1 = [
       "黃鐙輝",
       "陳慕義"
     ],
-    "calificacion": 7.6,
+    "calificacion": 7.4,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T02:36:52.825882",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -13678,7 +13987,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "left-handed-girl-2025"
+    "id": "left-handed-girl-2025",
+    "tmdb_id": 999075
   },
   {
     "id": "lefter-la-historia-de-un-maestro-del-futbol-2025",
@@ -13703,7 +14013,7 @@ const peliculas1 = [
     "addedDate": "2025-11-20T21:19:54.360509",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 6.7,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": false,
@@ -13722,7 +14032,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/w7uema14q3ar"
       }
-    ]
+    ],
+    "tmdb_id": 1386792,
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -13745,12 +14057,12 @@ const peliculas1 = [
     "addedDate": "2025-11-22T23:36:01.075094",
     "tamaño": "N/A",
     "año": 2018,
-    "calificacion": 8.9,
+    "calificacion": 6.8,
     "votos": 80000,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -13766,7 +14078,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/3g8rjvmnrpwg"
       }
-    ]
+    ],
+    "tmdb_id": 504997
   },
   {
     "id": "lego-disney-princess-villanos-unidos-2025",
@@ -13788,12 +14101,12 @@ const peliculas1 = [
       "animacion",
       "comedia"
     ],
-    "calificacion": 8.7,
+    "calificacion": 7.1,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": true,
-    "plataforma": "disney",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -13808,7 +14121,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/6d1736120fpx"
       }
-    ]
+    ],
+    "tmdb_id": 1515395
   },
   {
     "id": "lego-marvel-avengers-mision-demolicion-2024",
@@ -13830,7 +14144,7 @@ const peliculas1 = [
       "animacion",
       "comedia"
     ],
-    "calificacion": 6.8,
+    "calificacion": 6.5,
     "votos": 20000,
     "calidad": "HD",
     "addedDate": "2025-11-13T18:44:50.765747",
@@ -13838,7 +14152,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -13853,7 +14167,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/ag89b5d2blkc"
       }
-    ]
+    ],
+    "tmdb_id": 1359227
   },
   {
     "id": "lego-marvel-avengers-strange-tails-2025",
@@ -13877,12 +14192,12 @@ const peliculas1 = [
     "addedDate": "2025-11-17T22:45:11.689452",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.9,
+    "calificacion": 5.6,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "temporadas": [
       {
         "temporada": 1,
@@ -13899,7 +14214,8 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 305165
   },
   {
     "tipo": "pelicula",
@@ -13979,7 +14295,7 @@ const peliculas1 = [
     ],
     "favorito": false,
     "genero": [],
-    "calificacion": 0.0,
+    "calificacion": 6.5,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -13997,7 +14313,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/jj78egc7195g"
       }
-    ]
+    ],
+    "tmdb_id": 274862,
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -14022,12 +14340,12 @@ const peliculas1 = [
     "addedDate": "2025-11-22T23:51:37.776811",
     "tamaño": "N/A",
     "año": 2017,
-    "calificacion": 9.9,
+    "calificacion": 7.3,
     "votos": 9000,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -14043,7 +14361,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/7tlmo51z0kru"
       }
-    ]
+    ],
+    "tmdb_id": 461054
   },
   {
     "tipo": "serie",
@@ -14073,9 +14392,9 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-02T00:29:19.813463",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 289411,
     "año": 2025,
-    "calificacion": 7.0,
+    "calificacion": 6.3,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -14107,7 +14426,8 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "lego-star-wars-la-reconstruccion-de-la-galaxia---piezas-del-pasado-2025"
+    "id": "lego-star-wars-la-reconstruccion-de-la-galaxia---piezas-del-pasado-2025",
+    "plataforma": "Disney+"
   },
   {
     "id": "lightyear-2022",
@@ -14129,7 +14449,7 @@ const peliculas1 = [
       "accion",
       "aventura"
     ],
-    "calificacion": 10.0,
+    "calificacion": 6.9,
     "votos": 20000,
     "calidad": "HD",
     "addedDate": "2025-11-13T15:55:10.468575",
@@ -14137,7 +14457,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "cine",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -14158,7 +14478,8 @@ const peliculas1 = [
         "url": "https://nuuuppp.sbs/watch/23RrxECFPxRV7kz7f5zf8lZgMBUeHffz7y3jz3Lh57kz7mWIW23jz3o?h="
       }
     ],
-    "idioma": "latino"
+    "idioma": "latino",
+    "tmdb_id": 718789
   },
   {
     "id": "lilo-y-stitch-2025",
@@ -14182,12 +14503,12 @@ const peliculas1 = [
     "addedDate": "2025-11-16T02:37:22.986442",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 7.2,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -14202,7 +14523,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/an13m11owoxf"
       }
-    ]
+    ],
+    "tmdb_id": 552524
   },
   {
     "tipo": "serie",
@@ -14227,7 +14549,7 @@ const peliculas1 = [
     "addedDate": "2025-11-23T00:12:20.925823",
     "tamaño": "N/A",
     "año": 2021,
-    "calificacion": 9.8,
+    "calificacion": 8.2,
     "votos": 80000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -14304,7 +14626,9 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "loki-2021"
+    "id": "loki-2021",
+    "tmdb_id": 84958,
+    "plataforma": "Disney+"
   },
   {
     "id": "los-casi-idolos-de-bahia-colorada-2023",
@@ -14329,12 +14653,12 @@ const peliculas1 = [
     "addedDate": "2025-11-17T18:00:11.588640",
     "tamaño": "N/A",
     "año": 2023,
-    "calificacion": 0.0,
+    "calificacion": 7.8,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -14355,7 +14679,8 @@ const peliculas1 = [
         "url": "https://streamwish.to/e/wp34kl66pq3c"
       }
     ],
-    "idioma": "latino"
+    "idioma": "latino",
+    "tmdb_id": 1148969
   },
   {
     "id": "los-4-fantasticos-primeros-pasos-2025",
@@ -14377,12 +14702,12 @@ const peliculas1 = [
       "ciencia ficcion",
       "aventura"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.0,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": true,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -14397,7 +14722,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/6222isvc59q3"
       }
-    ]
+    ],
+    "tmdb_id": 617126
   },
   {
     "tipo": "serie",
@@ -14501,7 +14827,8 @@ const peliculas1 = [
     "episodios": 7,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-12-04",
-    "id": "los-abandonados-2025"
+    "id": "los-abandonados-2025",
+    "plataforma": "Netflix"
   },
   {
     "id": "los-barbaros-2025",
@@ -14522,7 +14849,7 @@ const peliculas1 = [
     "genero": [
       "drama"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.3,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T19:02:54.109384",
@@ -14545,7 +14872,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/0vs3c47g88d8"
       }
-    ]
+    ],
+    "tmdb_id": 1478178
   },
   {
     "tipo": "pelicula",
@@ -14570,13 +14898,13 @@ const peliculas1 = [
       "Ryan Anderson Lopez",
       "Emilia Clarke"
     ],
-    "calificacion": 6.043,
+    "calificacion": 6.1,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T01:41:27.032347",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -14584,7 +14912,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "los-cretinos-2025"
+    "id": "los-cretinos-2025",
+    "tmdb_id": 927254
   },
   {
     "id": "los-feos-2024",
@@ -14608,12 +14937,12 @@ const peliculas1 = [
     "addedDate": "2025-11-16T02:54:21.242000",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 0.0,
+    "calificacion": 5.8,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -14628,7 +14957,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/d792neb8kbuq"
       }
-    ]
+    ],
+    "tmdb_id": 748167
   },
   {
     "tipo": "pelicula",
@@ -14826,7 +15156,7 @@ const peliculas1 = [
     "episodios": 12,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-07-09",
-    "plataforma": "netflix",
+    "plataforma": "Netflix",
     "id": "los-gringo-hunters-2025"
   },
   {
@@ -14850,7 +15180,7 @@ const peliculas1 = [
     "addedDate": "2025-11-18T20:17:49.194228",
     "tamaño": "N/A",
     "año": 2004,
-    "calificacion": 0.0,
+    "calificacion": 7.7,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -14870,7 +15200,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/96o7e0xqjufh"
       }
-    ]
+    ],
+    "tmdb_id": 9806,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -14921,7 +15253,7 @@ const peliculas1 = [
     "duracion": "91 min",
     "presupuesto": "$74,000,000",
     "ingresos": "$1,159,457,503",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -15000,7 +15332,7 @@ const peliculas1 = [
       "terror",
       "crimen"
     ],
-    "calificacion": 6.9,
+    "calificacion": 6.7,
     "votos": 3000,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -15018,7 +15350,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "\"https://streamwish.to/e/fhcnxwdcx79k"
       }
-    ]
+    ],
+    "tmdb_id": 1696,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -15043,12 +15377,12 @@ const peliculas1 = [
     "addedDate": "2025-11-23T00:20:50.438047",
     "tamaño": "N/A",
     "año": 2021,
-    "calificacion": 8.7,
+    "calificacion": 7.2,
     "votos": 80000,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -15064,7 +15398,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/xppi6ru75877"
       }
-    ]
+    ],
+    "tmdb_id": 846214
   },
   {
     "id": "los-simpson-la-pelicula-2007",
@@ -15088,12 +15423,12 @@ const peliculas1 = [
     "addedDate": "2025-11-19T01:49:43.667741",
     "tamaño": "N/A",
     "año": 2007,
-    "calificacion": 0.0,
+    "calificacion": 7.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -15108,7 +15443,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/sq5ge1w372oy"
       }
-    ]
+    ],
+    "tmdb_id": 35
   },
   {
     "tipo": "serie",
@@ -15131,9 +15467,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-04T20:47:56.748641",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 302540,
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 6.8,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -15190,7 +15526,8 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "los-tipos-malos-malos-comienzos-2025"
+    "id": "los-tipos-malos-malos-comienzos-2025",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -15216,7 +15553,7 @@ const peliculas1 = [
     "addedDate": "2025-11-23T14:24:23.704467",
     "tamaño": "N/A",
     "año": 2012,
-    "calificacion": 0.0,
+    "calificacion": 7.9,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -15237,7 +15574,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://haxloppd.com/e/gwqms1clstit"
       }
-    ]
+    ],
+    "tmdb_id": 24428,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -15261,7 +15600,7 @@ const peliculas1 = [
       "Paul Giamatti",
       "Jake Abel"
     ],
-    "calificacion": 7.087,
+    "calificacion": 7.1,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
@@ -15275,7 +15614,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "love-mercy-2015"
+    "id": "love-mercy-2015",
+    "tmdb_id": 271714
   },
   {
     "tipo": "pelicula",
@@ -15296,7 +15636,7 @@ const peliculas1 = [
       "animacion",
       "comedia"
     ],
-    "calificacion": 7.9,
+    "calificacion": 7.8,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-13T22:56:30.459285",
@@ -15304,7 +15644,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -15320,7 +15660,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/w55yumjmddr3"
       }
-    ]
+    ],
+    "tmdb_id": 508943
   },
   {
     "tipo": "serie",
@@ -15344,9 +15685,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-04T20:39:37.148483",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 96677,
     "año": 2021,
-    "calificacion": 0.0,
+    "calificacion": 7.7,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -15453,7 +15794,8 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "lupin-2021"
+    "id": "lupin-2021",
+    "plataforma": "Netflix"
   },
   {
     "id": "m3gan-2022",
@@ -15493,7 +15835,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/icsnv0umcplg"
       }
-    ]
+    ],
+    "tmdb_id": 536554,
+    "plataforma": "Universal+ Amazon Channel"
   },
   {
     "id": "m3gan-20-2025",
@@ -15515,7 +15859,7 @@ const peliculas1 = [
       "accion",
       "ficcion"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.3,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -15534,7 +15878,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/ppqyzigj9pv5"
       }
-    ]
+    ],
+    "tmdb_id": 1071585,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -15581,7 +15927,7 @@ const peliculas1 = [
     "duracion": "143 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -15612,7 +15958,7 @@ const peliculas1 = [
     "genero": [
       "Comedia"
     ],
-    "calificacion": 10.0,
+    "calificacion": 7.8,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -15641,7 +15987,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dood.pm/e/eywlvm1hd8ao"
       }
-    ]
+    ],
+    "tmdb_id": 1086990,
+    "plataforma": "ViX Premium Amazon Channel"
   },
   {
     "tipo": "pelicula",
@@ -15656,7 +16004,7 @@ const peliculas1 = [
     "director": "N/A",
     "reparto": [],
     "favorito": false,
-    "calificacion": 0,
+    "calificacion": 5.8,
     "votos": 0,
     "calidad": "N/A",
     "tamaño": "N/A",
@@ -15686,7 +16034,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/tqld35ocun1p"
       }
-    ]
+    ],
+    "tmdb_id": 1272166,
+    "plataforma": "Netflix"
   },
   {
     "id": "malefica-2014",
@@ -15708,7 +16058,7 @@ const peliculas1 = [
       "accion",
       "aventura"
     ],
-    "calificacion": 10.0,
+    "calificacion": 7.1,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-13T15:49:39.371385",
@@ -15716,7 +16066,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "cine",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -15731,7 +16081,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dood.to/e/thwxs4yu2ig6"
       }
-    ]
+    ],
+    "tmdb_id": 102651
   },
   {
     "tipo": "serie",
@@ -15754,9 +16105,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-02T01:07:31.291648",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 239385,
     "año": 2025,
-    "calificacion": 9.9,
+    "calificacion": 8.4,
     "votos": 87000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -15818,7 +16169,8 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "manipulado-2025"
+    "id": "manipulado-2025",
+    "plataforma": "Disney+"
   },
   {
     "id": "marae-2024",
@@ -15842,12 +16194,12 @@ const peliculas1 = [
     "addedDate": "2025-11-21T18:22:02.804424",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 8.1,
+    "calificacion": 4.4,
     "votos": 80000,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Booh Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -15862,7 +16214,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/o7ngjo5jk2fr"
       }
-    ]
+    ],
+    "tmdb_id": 1134278
   },
   {
     "tipo": "pelicula",
@@ -15888,7 +16241,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T17:13:41.255292",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 8.0,
+    "calificacion": 10.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -15909,7 +16262,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/vjnodvq0wyqg"
       }
     ],
-    "id": "marco-2024"
+    "id": "marco-2024",
+    "tmdb_id": 1319933,
+    "plataforma": "pelicula"
   },
   {
     "id": "marines-2025",
@@ -15933,12 +16288,12 @@ const peliculas1 = [
     "addedDate": "2025-11-16T02:49:48.010043",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 6.0,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "documental",
+    "plataforma": "Netflix",
     "temporadas": [
       {
         "temporada": 1,
@@ -15965,7 +16320,8 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 303173
   },
   {
     "id": "martin-2024",
@@ -15991,7 +16347,7 @@ const peliculas1 = [
     "addedDate": "2025-11-20T23:57:00.813606",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 0.0,
+    "calificacion": 4.1,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -16010,7 +16366,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/zkt8w6a3ugzp"
       }
-    ]
+    ],
+    "tmdb_id": 861451,
+    "plataforma": "pelicula"
   },
   {
     "id": "marvel-zombies-2025",
@@ -16034,7 +16392,7 @@ const peliculas1 = [
     "addedDate": "2025-11-20T22:53:26.144942",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 9.9,
+    "calificacion": 7.3,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -16065,7 +16423,9 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 138505,
+    "plataforma": "Disney+"
   },
   {
     "id": "masameer-junior-2025",
@@ -16087,12 +16447,12 @@ const peliculas1 = [
       "animacion",
       "comedia"
     ],
-    "calificacion": 7.3,
+    "calificacion": 7.9,
     "votos": 2333,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": true,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -16107,7 +16467,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/y3e2zugck1vu"
       }
-    ]
+    ],
+    "tmdb_id": 1238307
   },
   {
     "id": "mascotas-al-rescate-2025",
@@ -16129,7 +16490,7 @@ const peliculas1 = [
       "animacion",
       "aventura"
     ],
-    "calificacion": 10.0,
+    "calificacion": 6.9,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -16147,7 +16508,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://hgplaycdn.com/e/q49vc9mg5x89"
       }
-    ]
+    ],
+    "tmdb_id": 1107216,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -16165,13 +16528,13 @@ const peliculas1 = [
     "reparto": [
       "Matt Rife"
     ],
-    "calificacion": 7.7,
+    "calificacion": 6.7,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T19:53:58.013057",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "subtitulado",
@@ -16179,7 +16542,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "matt-rife-unwrapped---a-christmas-crowd-work-special-2025"
+    "id": "matt-rife-unwrapped---a-christmas-crowd-work-special-2025",
+    "tmdb_id": 1581729
   },
   {
     "tipo": "serie",
@@ -16203,9 +16567,9 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-02T00:36:47.627340",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 283392,
     "año": 2025,
-    "calificacion": 8.0,
+    "calificacion": 7.9,
     "votos": 8000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -16247,7 +16611,8 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "me-late-que-si-2025"
+    "id": "me-late-que-si-2025",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -16274,7 +16639,7 @@ const peliculas1 = [
     "addedDate": "2025-11-29T19:32:00.857888",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 8.1,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -16295,7 +16660,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/suzhmtfsrml8"
       }
     ],
-    "id": "memorias-de-un-caracol-2025"
+    "id": "memorias-de-un-caracol-2025",
+    "tmdb_id": 1064486,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -16319,7 +16686,7 @@ const peliculas1 = [
     "addedDate": "2025-11-27T19:52:13.052374",
     "tamaño": "N/A",
     "año": 2023,
-    "calificacion": 7.9,
+    "calificacion": 6.2,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -16340,7 +16707,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/52rmh12yts3g"
       }
     ],
-    "id": "mente-perturbada-2023"
+    "id": "mente-perturbada-2023",
+    "tmdb_id": 1063863,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "id": "merlina-2022",
@@ -16365,7 +16734,7 @@ const peliculas1 = [
     "addedDate": "2025-11-19T00:12:17.956473",
     "tamaño": "N/A",
     "año": 2022,
-    "calificacion": 8.9,
+    "calificacion": 8.4,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -16461,7 +16830,9 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 119051,
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -16544,12 +16915,12 @@ const peliculas1 = [
     "addedDate": "2025-11-19T01:40:39.091542",
     "tamaño": "N/A",
     "año": 1990,
-    "calificacion": 7.8,
+    "calificacion": 7.5,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -16564,7 +16935,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/omklc3yz66cr"
       }
-    ]
+    ],
+    "tmdb_id": 771
   },
   {
     "tipo": "pelicula",
@@ -16588,7 +16960,7 @@ const peliculas1 = [
     "addedDate": "2025-11-22T23:32:05.416304",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 9.9,
+    "calificacion": 6.3,
     "votos": 8000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -16609,7 +16981,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/cpnkzwaxpn00"
       }
-    ]
+    ],
+    "tmdb_id": 1175267
   },
   {
     "id": "mi-villano-favorito-4-2024",
@@ -16631,12 +17004,12 @@ const peliculas1 = [
       "aventura",
       "accion"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.0,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -16651,7 +17024,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://vidhidepro.com/v/wfedfjgfubbm"
       }
-    ]
+    ],
+    "tmdb_id": 519182
   },
   {
     "tipo": "pelicula",
@@ -16675,7 +17049,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T00:45:26.001773",
     "tamaño": "N/A",
     "año": 2011,
-    "calificacion": 6.0,
+    "calificacion": 7.9,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -16696,7 +17070,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/paf3wfyanrfy"
       }
     ],
-    "id": "michael-jackson-la-vida-de-un-idolo-2011"
+    "id": "michael-jackson-la-vida-de-un-idolo-2011",
+    "tmdb_id": 78192,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -16723,7 +17099,7 @@ const peliculas1 = [
     "addedDate": "2025-11-29T21:42:56.316619",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 6.8,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -16744,7 +17120,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/cd5igxpxbeso"
       }
     ],
-    "id": "mickey-17-2025"
+    "id": "mickey-17-2025",
+    "tmdb_id": 696506,
+    "plataforma": "HBO Max"
   },
   {
     "id": "mimzy-mas-alla-de-la-imaginacion-2007",
@@ -16770,7 +17148,7 @@ const peliculas1 = [
     "addedDate": "2025-11-19T15:12:16.768305",
     "tamaño": "N/A",
     "año": 2007,
-    "calificacion": 7.7,
+    "calificacion": 6.3,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -16790,7 +17168,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/hzv4zfcyonnf"
       }
-    ]
+    ],
+    "tmdb_id": 2267
   },
   {
     "tipo": "pelicula",
@@ -16889,7 +17268,7 @@ const peliculas1 = [
     "duracion": "87 min",
     "presupuesto": "$85,000,000",
     "ingresos": "$940,203,765",
-    "plataforma": "pelicula",
+    "plataforma": "Universal+ Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -16920,14 +17299,14 @@ const peliculas1 = [
     "genero": [
       "comedia"
     ],
-    "calificacion": 8.9,
+    "calificacion": 8.2,
     "votos": 10000,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "vix",
+    "plataforma": "ViX Premium Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -16942,7 +17321,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/71iz8xepnyid"
       }
-    ]
+    ],
+    "tmdb_id": 1441782
   },
   {
     "tipo": "pelicula",
@@ -16964,7 +17344,7 @@ const peliculas1 = [
       "Christian Vazquez",
       "Michelle Rodríguez"
     ],
-    "calificacion": 7.0,
+    "calificacion": 8.2,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
@@ -16978,7 +17358,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "mirreyes-contra-godinez-un-especial-de-navidad-2025"
+    "id": "mirreyes-contra-godinez-un-especial-de-navidad-2025",
+    "tmdb_id": 1588413
   },
   {
     "tipo": "pelicula",
@@ -17001,9 +17382,9 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-06T00:55:19.181167",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 1588413,
     "año": 2025,
-    "calificacion": 8.0,
+    "calificacion": 8.2,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -17051,7 +17432,7 @@ const peliculas1 = [
     "addedDate": "2025-11-29T22:17:01.831335",
     "tamaño": "N/A",
     "año": 2018,
-    "calificacion": 8.9,
+    "calificacion": 7.4,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -17072,7 +17453,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/725t5msipx1h"
       }
     ],
-    "id": "mision-imposible-6-repercusion-2018"
+    "id": "mision-imposible-6-repercusion-2018",
+    "tmdb_id": 353081,
+    "plataforma": "Paramount+"
   },
   {
     "tipo": "pelicula",
@@ -17098,7 +17481,7 @@ const peliculas1 = [
     "addedDate": "2025-11-29T21:59:19.974939",
     "tamaño": "N/A",
     "año": 2006,
-    "calificacion": 8.9,
+    "calificacion": 6.8,
     "votos": 80000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -17119,7 +17502,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/pu98nmvejgri"
       }
     ],
-    "id": "mision-imposible-iii-2006"
+    "id": "mision-imposible-iii-2006",
+    "tmdb_id": 956,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -17145,7 +17530,7 @@ const peliculas1 = [
     "addedDate": "2025-11-29T22:02:15.683554",
     "tamaño": "N/A",
     "año": 2015,
-    "calificacion": 9.0,
+    "calificacion": 7.2,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -17166,7 +17551,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/w9ejjgfyicy4"
       }
     ],
-    "id": "mision-imposible-nacion-secreta-2015"
+    "id": "mision-imposible-nacion-secreta-2015",
+    "tmdb_id": 177677,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -17192,7 +17579,7 @@ const peliculas1 = [
     "addedDate": "2025-11-29T21:57:19.058418",
     "tamaño": "N/A",
     "año": 2011,
-    "calificacion": 8.0,
+    "calificacion": 7.1,
     "votos": 90000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -17213,7 +17600,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/dopow5ho420o"
       }
     ],
-    "id": "mision-imposible-protocolo-fantasma-mision-imposible-iv-2011"
+    "id": "mision-imposible-protocolo-fantasma-mision-imposible-iv-2011",
+    "tmdb_id": 56292,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -17239,7 +17628,7 @@ const peliculas1 = [
     "addedDate": "2025-11-29T22:19:39.246476",
     "tamaño": "N/A",
     "año": 2023,
-    "calificacion": 8.9,
+    "calificacion": 7.5,
     "votos": 90000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -17260,7 +17649,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/sbux5096pvby"
       }
     ],
-    "id": "mision-imposible---sentencia-mortal-parte-uno-2023"
+    "id": "mision-imposible---sentencia-mortal-parte-uno-2023",
+    "tmdb_id": 575264,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -17286,7 +17677,7 @@ const peliculas1 = [
     "addedDate": "2025-11-29T22:13:06.410315",
     "tamaño": "N/A",
     "año": 2000,
-    "calificacion": 9.9,
+    "calificacion": 6.1,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -17307,7 +17698,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/17tcn8faoj5s"
       }
     ],
-    "id": "mision-imposible-2-2000"
+    "id": "mision-imposible-2-2000",
+    "tmdb_id": 955,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -17352,7 +17745,7 @@ const peliculas1 = [
     "duracion": "N/A",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Looke Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -17388,7 +17781,7 @@ const peliculas1 = [
     "addedDate": "2025-11-29T22:09:30.286128",
     "tamaño": "N/A",
     "año": 1996,
-    "calificacion": 8.9,
+    "calificacion": 7.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -17409,7 +17802,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/gkuatsze2c6t"
       }
     ],
-    "id": "mission-impossible-1996"
+    "id": "mission-impossible-1996",
+    "tmdb_id": 954,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -17434,7 +17829,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T22:43:01.577311",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 7.0,
+    "calificacion": 6.4,
     "votos": 90000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -17456,7 +17851,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/iefipw29xnsp"
       }
     ],
-    "id": "misterioso-asesinato-en-la-montana-2024"
+    "id": "misterioso-asesinato-en-la-montana-2024",
+    "tmdb_id": 1210732
   },
   {
     "id": "moana-2016",
@@ -17482,12 +17878,12 @@ const peliculas1 = [
     "addedDate": "2025-11-19T01:47:37.938613",
     "tamaño": "N/A",
     "año": 2016,
-    "calificacion": 7.3,
+    "calificacion": 7.6,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -17502,7 +17898,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/ttcuhtwub65i"
       }
-    ]
+    ],
+    "tmdb_id": 277834
   },
   {
     "id": "moana-2-2024",
@@ -17527,12 +17924,12 @@ const peliculas1 = [
     "addedDate": "2025-11-19T01:02:09.633651",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 7.3,
+    "calificacion": 7.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -17547,7 +17944,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/5e7shy6ho337"
       }
-    ]
+    ],
+    "tmdb_id": 1241982
   },
   {
     "id": "monster-island-2024",
@@ -17574,7 +17972,7 @@ const peliculas1 = [
     "addedDate": "2025-11-21T18:04:45.664100",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 8.5,
+    "calificacion": 6.0,
     "votos": 8000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -17594,7 +17992,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/qtwuawbfbjnq"
       }
-    ]
+    ],
+    "tmdb_id": 1214140
   },
   {
     "id": "monstruos-sa-2001",
@@ -17619,12 +18018,12 @@ const peliculas1 = [
     "addedDate": "2025-11-19T01:12:57.891719",
     "tamaño": "N/A",
     "año": 2001,
-    "calificacion": 6.0,
+    "calificacion": 7.8,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -17639,7 +18038,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/j4adxyk552vk"
       }
-    ]
+    ],
+    "tmdb_id": 585
   },
   {
     "id": "moon-mi-amigo-panda-2025",
@@ -17664,7 +18064,7 @@ const peliculas1 = [
     "addedDate": "2025-11-20T22:37:25.625759",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 6.3,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": false,
@@ -17683,7 +18083,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/qtspccu43nza"
       }
-    ]
+    ],
+    "tmdb_id": 1178532,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -17707,7 +18109,7 @@ const peliculas1 = [
     "addedDate": "2025-11-27T21:01:20.653168",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 9.0,
+    "calificacion": 5.2,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -17728,7 +18130,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/7wpiyoco1682"
       }
     ],
-    "id": "mouseboat-massacre-2025"
+    "id": "mouseboat-massacre-2025",
+    "tmdb_id": 1353333,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -17754,7 +18158,7 @@ const peliculas1 = [
     "addedDate": "2025-11-24T23:30:18.900043",
     "tamaño": "N/A",
     "año": 2023,
-    "calificacion": 7.8,
+    "calificacion": 5.9,
     "votos": 60000000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -17775,7 +18179,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/kglch19kmrnp"
       }
-    ]
+    ],
+    "tmdb_id": 1077280,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "id": "muerte-por-un-rayo-2025",
@@ -17797,7 +18203,7 @@ const peliculas1 = [
       "animacion",
       "accion"
     ],
-    "calificacion": 10.0,
+    "calificacion": 7.3,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -17827,7 +18233,9 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 245219,
+    "plataforma": "Netflix"
   },
   {
     "id": "mufasa-el-rey-leon-2024",
@@ -17849,7 +18257,7 @@ const peliculas1 = [
       "aventura",
       "familia"
     ],
-    "calificacion": 8.9,
+    "calificacion": 7.3,
     "votos": 30000,
     "calidad": "HD",
     "addedDate": "2025-11-13T23:10:10.198982",
@@ -17857,7 +18265,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -17883,7 +18291,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/udvssz9o15an"
       }
-    ]
+    ],
+    "tmdb_id": 762509
   },
   {
     "tipo": "pelicula",
@@ -17905,7 +18314,7 @@ const peliculas1 = [
       "Kristin Scott Thomas",
       "Freida Pinto"
     ],
-    "calificacion": 7.5,
+    "calificacion": 7.2,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
@@ -17919,7 +18328,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "my-mothers-wedding-2025"
+    "id": "my-mothers-wedding-2025",
+    "tmdb_id": 985602
   },
   {
     "tipo": "pelicula",
@@ -17944,13 +18354,13 @@ const peliculas1 = [
       "Tetsuya Kakihara",
       "Inori Minase"
     ],
-    "calificacion": 6.233,
+    "calificacion": 6.2,
     "idioma": "Español",
     "calidad": "HD",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T23:26:16.523581",
-    "plataforma": "pelicula",
+    "plataforma": "Crunchyroll Amazon Channel",
     "fuentes": [
       {
         "idioma": "japones",
@@ -17958,7 +18368,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "my-next-life-as-a-villainess-all-routes-lead-to-doom-the-movie-2023"
+    "id": "my-next-life-as-a-villainess-all-routes-lead-to-doom-the-movie-2023",
+    "tmdb_id": 997086
   },
   {
     "tipo": "pelicula",
@@ -17984,7 +18395,7 @@ const peliculas1 = [
     "addedDate": "2025-11-27T19:41:18.035352",
     "tamaño": "N/A",
     "año": 2021,
-    "calificacion": 9.0,
+    "calificacion": 7.9,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -18005,7 +18416,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/1kirpz1haku3"
       }
     ],
-    "id": "nadie-2021"
+    "id": "nadie-2021",
+    "tmdb_id": 615457,
+    "plataforma": "pelicula"
   },
   {
     "id": "nadie-2-2025",
@@ -18027,7 +18440,7 @@ const peliculas1 = [
       "Accion",
       "suspenso"
     ],
-    "calificacion": 8.1,
+    "calificacion": 7.0,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T19:19:03.227792",
@@ -18050,7 +18463,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/ynz4giw2bue5"
       }
-    ]
+    ],
+    "tmdb_id": 1007734
   },
   {
     "tipo": "pelicula",
@@ -18074,7 +18488,7 @@ const peliculas1 = [
     "addedDate": "2025-11-25T21:29:15.241643",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.9,
+    "calificacion": 4.3,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -18096,7 +18510,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/ercgdfe9snnr"
       }
     ],
-    "id": "nadie-sabe-quien-soy-yo-2025"
+    "id": "nadie-sabe-quien-soy-yo-2025",
+    "tmdb_id": 1576997
   },
   {
     "tipo": "pelicula",
@@ -18122,14 +18537,14 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-02T18:29:13.292334",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 16907,
     "año": 2004,
-    "calificacion": 9.0,
+    "calificacion": 7.3,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -18171,14 +18586,14 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-02T18:43:55.210871",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 16910,
     "año": 2005,
-    "calificacion": 8.0,
+    "calificacion": 6.8,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -18220,14 +18635,14 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-02T17:59:33.368696",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 18861,
     "año": 2006,
-    "calificacion": 9.0,
+    "calificacion": 7.1,
     "votos": 7000,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -18269,14 +18684,14 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-02T18:41:59.219644",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 20982,
     "año": 2007,
-    "calificacion": 7.0,
+    "calificacion": 7.4,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -18318,14 +18733,14 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-02T18:31:21.969547",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 17581,
     "año": 2008,
-    "calificacion": 8.0,
+    "calificacion": 7.3,
     "votos": 90000,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -18370,14 +18785,14 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-02T18:33:47.680591",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 36728,
     "año": 2009,
-    "calificacion": 7.0,
+    "calificacion": 7.4,
     "votos": 70000,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -18419,14 +18834,14 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-02T18:37:38.506165",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 50723,
     "año": 2010,
-    "calificacion": 0.0,
+    "calificacion": 7.2,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -18469,14 +18884,14 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-02T18:40:03.080419",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 75624,
     "año": 2011,
-    "calificacion": 8.0,
+    "calificacion": 7.2,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -18515,7 +18930,7 @@ const peliculas1 = [
       "animacion",
       "aventura"
     ],
-    "calificacion": 0.0,
+    "calificacion": 8.1,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -18535,7 +18950,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/fp4ho8ahnmxt"
       }
-    ]
+    ],
+    "tmdb_id": 980477
   },
   {
     "tipo": "serie",
@@ -18559,7 +18975,7 @@ const peliculas1 = [
     "addedDate": "2025-11-24T21:33:03.928671",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 6.8,
+    "calificacion": 5.4,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": true,
@@ -18621,7 +19037,9 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "necaxa-2025"
+    "id": "necaxa-2025",
+    "tmdb_id": 273754,
+    "plataforma": "Disney+"
   },
   {
     "id": "ninos-grandes-2-2013",
@@ -18645,12 +19063,12 @@ const peliculas1 = [
     "addedDate": "2025-11-19T01:21:32.664297",
     "tamaño": "N/A",
     "año": 2013,
-    "calificacion": 9.5,
+    "calificacion": 6.1,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -18665,7 +19083,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/cqjbpac29wzr"
       }
-    ]
+    ],
+    "tmdb_id": 109418
   },
   {
     "tipo": "pelicula",
@@ -18686,7 +19105,7 @@ const peliculas1 = [
     "addedDate": "2025-11-22T17:35:20.259012",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 9.9,
+    "calificacion": 6.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -18706,7 +19125,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/acbga628pj49"
       }
-    ]
+    ],
+    "tmdb_id": 1265517,
+    "plataforma": "Booh Amazon Channel"
   },
   {
     "id": "no-manches-frida-2016",
@@ -18727,7 +19148,7 @@ const peliculas1 = [
     "genero": [
       "comedia"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.7,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -18745,7 +19166,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/s2jrn51bk9nl"
       }
-    ]
+    ],
+    "tmdb_id": 375794,
+    "plataforma": "Netflix"
   },
   {
     "id": "no-manches-frida-2-2019",
@@ -18766,7 +19189,7 @@ const peliculas1 = [
     "genero": [
       "comedia"
     ],
-    "calificacion": 10.0,
+    "calificacion": 7.9,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -18784,7 +19207,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "\"https://streamwish.to/e/sq9jvf4yr9gd\""
       }
-    ]
+    ],
+    "tmdb_id": 554596,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -18808,7 +19233,7 @@ const peliculas1 = [
     "addedDate": "2025-11-27T20:11:52.881612",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 9.0,
+    "calificacion": 7.9,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -18829,7 +19254,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/jz68186nzgma"
       }
     ],
-    "id": "no-tears-in-hell-2025"
+    "id": "no-tears-in-hell-2025",
+    "tmdb_id": 1512581,
+    "plataforma": "Booh Amazon Channel"
   },
   {
     "id": "noche-de-chicas-2023",
@@ -18851,7 +19278,7 @@ const peliculas1 = [
       "animacion",
       "aventura"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.0,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -18891,7 +19318,9 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 221322,
+    "plataforma": "ViX Premium Amazon Channel"
   },
   {
     "id": "norbert-2025",
@@ -18913,7 +19342,7 @@ const peliculas1 = [
       "animacion",
       "aventura"
     ],
-    "calificacion": 0.0,
+    "calificacion": 6.8,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -18931,7 +19360,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://xenolyzb.com/e/s44bnyj26f63"
       }
-    ]
+    ],
+    "tmdb_id": 1323853,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "serie",
@@ -18952,7 +19383,7 @@ const peliculas1 = [
     "addedDate": "2025-11-22T16:34:49.259013",
     "tamaño": "N/A",
     "año": 2016,
-    "calificacion": 0.0,
+    "calificacion": 8.2,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -19125,7 +19556,9 @@ const peliculas1 = [
       }
     ],
     "id": "nosotros-los-guapos-2016",
-    "idioma": "latino"
+    "idioma": "latino",
+    "tmdb_id": 67872,
+    "plataforma": "ViX Premium Amazon Channel"
   },
   {
     "id": "novocaine-sin-dolor-2025",
@@ -19148,7 +19581,7 @@ const peliculas1 = [
       "comedia",
       "suspenso"
     ],
-    "calificacion": 8.1,
+    "calificacion": 6.8,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T20:13:21.257541",
@@ -19156,7 +19589,7 @@ const peliculas1 = [
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Claro video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -19171,7 +19604,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/hjrhuta6uj2k"
       }
-    ]
+    ],
+    "tmdb_id": 1195506
   },
   {
     "id": "numero-desconocido-un-escandalo-de-ciberacoso-escolar-2025",
@@ -19192,7 +19626,7 @@ const peliculas1 = [
     "genero": [
       "documental"
     ],
-    "calificacion": 7.0,
+    "calificacion": 6.8,
     "votos": 2333,
     "calidad": "HD",
     "addedDate": "2025-11-13T01:49:24.948906",
@@ -19200,7 +19634,7 @@ const peliculas1 = [
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -19215,7 +19649,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/72ji7w2tfn5b"
       }
-    ]
+    ],
+    "tmdb_id": 1517772
   },
   {
     "tipo": "pelicula",
@@ -19296,9 +19731,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-01T18:19:36.782829",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 1033462,
     "año": 2024,
-    "calificacion": 7.0,
+    "calificacion": 6.3,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -19331,7 +19766,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/n3wxy6cw3hia"
       }
     ],
-    "id": "oficina-749-2024"
+    "id": "oficina-749-2024",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -19356,7 +19792,7 @@ const peliculas1 = [
     "addedDate": "2025-11-25T22:13:24.766827",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.9,
+    "calificacion": 6.3,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -19377,7 +19813,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/6fcp6ht968mh"
       }
     ],
-    "id": "oh-hi-2025"
+    "id": "oh-hi-2025",
+    "tmdb_id": 1339658,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -19399,15 +19837,16 @@ const peliculas1 = [
       "Rosanna Roces",
       "Nonie Buencamino"
     ],
-    "calificacion": 9.0,
+    "calificacion": 5.7,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T02:20:55.080067",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [],
-    "id": "ojala-me-lo-hubieras-dicho-2025"
+    "id": "ojala-me-lo-hubieras-dicho-2025",
+    "tmdb_id": 1576166
   },
   {
     "id": "olaf-otra-aventura-congelada-de-frozen-2017",
@@ -19429,7 +19868,7 @@ const peliculas1 = [
       "animacion",
       "aventura"
     ],
-    "calificacion": 7.9,
+    "calificacion": 6.5,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-13T23:15:57.815622",
@@ -19437,7 +19876,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -19452,7 +19891,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dood.to/e/c4hhv6et9wj8"
       }
-    ]
+    ],
+    "tmdb_id": 460793
   },
   {
     "tipo": "pelicula",
@@ -19477,7 +19917,7 @@ const peliculas1 = [
       "Nobunaga Shimazaki",
       "Kikuko Inoue"
     ],
-    "calificacion": 6.971,
+    "calificacion": 7.0,
     "idioma": "japones",
     "calidad": "1080p",
     "favorito": false,
@@ -19491,7 +19931,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "omoi-omoware-furi-furare-2020"
+    "id": "omoi-omoware-furi-furare-2020",
+    "tmdb_id": 624812
   },
   {
     "id": "one-piece-2023",
@@ -19515,12 +19956,12 @@ const peliculas1 = [
       "Ciencia ficción",
       "Fantasía"
     ],
-    "calificacion": 8.3,
+    "calificacion": 8.1,
     "votos": 1500,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "plataforma": "netflix",
+    "plataforma": "Netflix",
     "temporadas": [
       {
         "temporada": 1,
@@ -19567,7 +20008,8 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 111110
   },
   {
     "tipo": "pelicula",
@@ -19593,14 +20035,14 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-02T18:22:43.390363",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 900667,
     "año": 2022,
-    "calificacion": 8.0,
+    "calificacion": 7.2,
     "votos": 8000,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -19642,14 +20084,14 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-02T18:20:59.487117",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 176983,
     "año": 2012,
-    "calificacion": 9.0,
+    "calificacion": 7.5,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -19692,14 +20134,14 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-02T18:18:41.019894",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 374205,
     "año": 2016,
-    "calificacion": 7.0,
+    "calificacion": 7.2,
     "votos": 7000,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -19791,14 +20233,14 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-02T18:11:03.440643",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 568012,
     "año": 2019,
-    "calificacion": 7.0,
+    "calificacion": 7.8,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -19840,14 +20282,14 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-02T18:07:05.618889",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 41498,
     "año": 2009,
-    "calificacion": 7.9,
+    "calificacion": 7.4,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -19876,7 +20318,7 @@ const peliculas1 = [
     "genero": [
       "accion"
     ],
-    "calificacion": 0.0,
+    "calificacion": 6.9,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T20:46:14.428321",
@@ -19884,7 +20326,7 @@ const peliculas1 = [
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -19899,7 +20341,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/4gjr5yh2p312"
       }
-    ]
+    ],
+    "tmdb_id": 1405338
   },
   {
     "tipo": "pelicula",
@@ -19925,7 +20368,7 @@ const peliculas1 = [
     "addedDate": "2025-11-29T21:22:59.916591",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 8.9,
+    "calificacion": 6.8,
     "votos": 8000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -19946,7 +20389,9 @@ const peliculas1 = [
         "url": "https://yuguaab.com/e/dfxzldlwag58"
       }
     ],
-    "id": "paddington-aventura-en-la-selva-2024"
+    "id": "paddington-aventura-en-la-selva-2024",
+    "tmdb_id": 516729,
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -20016,12 +20461,12 @@ const peliculas1 = [
     "addedDate": "2025-11-16T02:43:36.921220",
     "tamaño": "N/A",
     "año": 2018,
-    "calificacion": 0.0,
+    "calificacion": 7.4,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -20036,7 +20481,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://goodstream.uno/video/embed/10e9hgfv89e3"
       }
-    ]
+    ],
+    "tmdb_id": 284054
   },
   {
     "tipo": "pelicula",
@@ -20061,7 +20507,7 @@ const peliculas1 = [
     "addedDate": "2025-11-28T13:35:28.875912",
     "tamaño": "N/A",
     "año": 2013,
-    "calificacion": 8.0,
+    "calificacion": 3.4,
     "votos": 8000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -20082,7 +20528,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/xnk9k1yy801i"
       }
     ],
-    "id": "paranormal-movie-2013"
+    "id": "paranormal-movie-2013",
+    "tmdb_id": 185474,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -20131,7 +20579,7 @@ const peliculas1 = [
     "duracion": "108 min",
     "presupuesto": "$8,716,125",
     "ingresos": "$2,224",
-    "plataforma": "pelicula",
+    "plataforma": "Adrenalina Pura Amazon channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -20163,7 +20611,7 @@ const peliculas1 = [
       "crimen",
       "drama"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.4,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -20239,7 +20687,9 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 279603,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -20264,14 +20714,14 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-05T01:01:11.049303",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 1507275,
     "año": 2925,
-    "calificacion": 0.0,
+    "calificacion": 6.6,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": true,
-    "plataforma": "pelicula",
+    "plataforma": "Paramount+",
     "fuentes": [],
     "id": "paw-patrol-especial-de-navidad-2925"
   },
@@ -20299,7 +20749,7 @@ const peliculas1 = [
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "plataforma": "pelicula",
+    "plataforma": "Tubi TV",
     "fuentes": [
       {
         "idioma": "subtitulado",
@@ -20325,7 +20775,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/k906clm18lfa"
       }
-    ]
+    ],
+    "tmdb_id": 1223859
   },
   {
     "tipo": "pelicula",
@@ -20354,7 +20805,7 @@ const peliculas1 = [
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T02:09:47.387308",
-    "plataforma": "pelicula",
+    "plataforma": "Looke Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -20362,7 +20813,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "pequena-osa-2023"
+    "id": "pequena-osa-2023",
+    "tmdb_id": 1133792
   },
   {
     "tipo": "pelicula",
@@ -20387,12 +20839,12 @@ const peliculas1 = [
     "addedDate": "2025-11-22T22:14:21.798865",
     "tamaño": "N/A",
     "año": 2011,
-    "calificacion": 8.8,
+    "calificacion": 6.9,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "documental",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -20408,7 +20860,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/ybqz3jp0vfpa"
       }
-    ]
+    ],
+    "tmdb_id": 82424
   },
   {
     "tipo": "serie",
@@ -20522,7 +20975,8 @@ const peliculas1 = [
     "episodios": 16,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-12-10",
-    "id": "percy-jackson-y-los-dioses-del-olimpo-2023"
+    "id": "percy-jackson-y-los-dioses-del-olimpo-2023",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -20573,7 +21027,7 @@ const peliculas1 = [
     "duracion": "90 min",
     "presupuesto": "$35,000,000",
     "ingresos": "$93,320,380",
-    "plataforma": "pelicula",
+    "plataforma": "Sony One Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -20605,12 +21059,12 @@ const peliculas1 = [
       "animacion",
       "documental"
     ],
-    "calificacion": 7.8,
+    "calificacion": 7.3,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "plataforma": "documental",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -20625,7 +21079,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/87sp3kh76uys"
       }
-    ]
+    ],
+    "tmdb_id": 1236419
   },
   {
     "tipo": "pelicula",
@@ -20652,7 +21107,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T16:26:07.839574",
     "tamaño": "N/A",
     "año": 2019,
-    "calificacion": 7.9,
+    "calificacion": 6.6,
     "votos": 70000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -20673,7 +21128,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/aeh8d00lmd7f"
       }
     ],
-    "id": "pinocho-2019"
+    "id": "pinocho-2019",
+    "tmdb_id": 413518,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -20699,7 +21156,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T16:28:30.072905",
     "tamaño": "N/A",
     "año": 2022,
-    "calificacion": 7.9,
+    "calificacion": 6.3,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -20720,7 +21177,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/e4pgj9nwo6p3"
       }
     ],
-    "id": "pinocho-2022"
+    "id": "pinocho-2022",
+    "tmdb_id": 532639,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -20747,7 +21206,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T16:30:40.346414",
     "tamaño": "N/A",
     "año": 2022,
-    "calificacion": 8.9,
+    "calificacion": 8.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -20768,7 +21227,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/rn3wfnv48ii7"
       }
     ],
-    "id": "pinocho-de-guillermo-del-toro-2922"
+    "id": "pinocho-de-guillermo-del-toro-2922",
+    "tmdb_id": 555604,
+    "plataforma": "Netflix"
   },
   {
     "id": "pitufos-2025",
@@ -20790,7 +21251,7 @@ const peliculas1 = [
       "animacion",
       "familia"
     ],
-    "calificacion": 10.0,
+    "calificacion": 5.9,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-13T16:08:29.687770",
@@ -20798,7 +21259,7 @@ const peliculas1 = [
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "cine",
+    "plataforma": "Paramount+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -20824,7 +21285,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/4tp5yqdbnxum"
       }
-    ]
+    ],
+    "tmdb_id": 936108
   },
   {
     "tipo": "pelicula",
@@ -20849,7 +21311,7 @@ const peliculas1 = [
     "addedDate": "2025-11-24T23:08:10.523120",
     "tamaño": "N/A",
     "año": 2023,
-    "calificacion": 7.8,
+    "calificacion": 7.2,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -20870,7 +21332,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://filelions.to/v/3syep64vj8c9"
       }
-    ]
+    ],
+    "tmdb_id": 1029575,
+    "plataforma": "Apple TV"
   },
   {
     "tipo": "pelicula",
@@ -20895,7 +21359,7 @@ const peliculas1 = [
     "addedDate": "2025-11-24T23:09:51.196389",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 7.8,
+    "calificacion": 6.6,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -20916,7 +21380,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/4khx40eff3rg"
       }
-    ]
+    ],
+    "tmdb_id": 1363123,
+    "plataforma": "Apple TV"
   },
   {
     "id": "pluribus-2025",
@@ -20938,7 +21404,7 @@ const peliculas1 = [
       "aventura",
       "familia"
     ],
-    "calificacion": 0.0,
+    "calificacion": 8.0,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -20958,7 +21424,9 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 225171,
+    "plataforma": "Apple TV"
   },
   {
     "id": "pokemon-detective-pikachu-2025",
@@ -20980,12 +21448,14 @@ const peliculas1 = [
       "comedia",
       "drama"
     ],
-    "calificacion": 0.0,
+    "calificacion": 6.9,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "fuentes": []
+    "fuentes": [],
+    "tmdb_id": 447404,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "id": "pokemon-los-secretos-de-la-selva-2020-2020",
@@ -21049,7 +21519,7 @@ const peliculas1 = [
       "Aventura",
       "Ciencia ficción"
     ],
-    "calificacion": 10.0,
+    "calificacion": 5.9,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -21067,7 +21537,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/yi36q6m2mh5u"
       }
-    ]
+    ],
+    "tmdb_id": 9070,
+    "plataforma": "Disney+"
   },
   {
     "id": "power-rangers-dino-fury-2021",
@@ -21088,12 +21560,12 @@ const peliculas1 = [
     "genero": [
       "accion"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.1,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "plataforma": "netflix",
+    "plataforma": "Netflix",
     "temporadas": [
       {
         "temporada": 1,
@@ -21115,7 +21587,8 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 2328
   },
   {
     "id": "power-rangers-turbo-1997",
@@ -21137,12 +21610,12 @@ const peliculas1 = [
       "accion",
       "aventura"
     ],
-    "calificacion": 0.0,
+    "calificacion": 5.7,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "plataforma": "netflix",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -21157,7 +21630,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dood.to/e/9kv48wxps75q"
       }
-    ]
+    ],
+    "tmdb_id": 6499
   },
   {
     "tipo": "pelicula",
@@ -21198,7 +21672,7 @@ const peliculas1 = [
     "duracion": "80 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -21245,7 +21719,7 @@ const peliculas1 = [
     "addedDate": "2025-12-07T15:49:18.789071",
     "tamaño": "N/A",
     "año": 2009,
-    "calificacion": 6.3,
+    "calificacion": 6.2,
     "votos": 127,
     "es_nuevo": true,
     "es_reciente": true,
@@ -21264,12 +21738,14 @@ const peliculas1 = [
     "id": "primer-escuadron-2009",
     "descargas": [
       "https://dintezuvio.com/embed/auto-23527"
-    ]
+    ],
+    "tmdb_id": 23527,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
     "titulo": "Primer Escuadrón",
-    "poster": "",
+    "poster": "https://image.tmdb.org/t/p/w500/m4zltJFwn5Xye7KjQOzNytVW6S0.jpg",
     "descripcion": "",
     "categoria": [],
     "duracion": "N/A",
@@ -21282,14 +21758,16 @@ const peliculas1 = [
     "addedDate": "2025-12-07T15:55:53.461228",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0,
+    "calificacion": 6.2,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
     "fuentes": [],
     "id": "primer-escuadron-2025",
-    "descargas": []
+    "descargas": [],
+    "tmdb_id": 23527,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "serie",
@@ -21314,7 +21792,7 @@ const peliculas1 = [
     "addedDate": "2025-11-26T19:42:46.324271",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 8.0,
+    "calificacion": 8.4,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -21411,7 +21889,9 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "profe-infiltrado-2024"
+    "id": "profe-infiltrado-2024",
+    "tmdb_id": 256580,
+    "plataforma": "ViX Premium Amazon Channel"
   },
   {
     "id": "projecto-x-2025",
@@ -21436,13 +21916,13 @@ const peliculas1 = [
     "addedDate": "2025-11-19T01:24:28.529407",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.7,
+    "calificacion": 6.9,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
     "clasificacion_edad": "+18",
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -21457,7 +21937,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/gbce1vcjh4lw"
       }
-    ]
+    ],
+    "tmdb_id": 57214
   },
   {
     "id": "putin-2025",
@@ -21481,7 +21962,7 @@ const peliculas1 = [
     "addedDate": "2025-11-17T17:25:57.337866",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 9.1,
+    "calificacion": 5.9,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -21501,7 +21982,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/zkrva7ooo68i"
       }
-    ]
+    ],
+    "tmdb_id": 1255795
   },
   {
     "tipo": "pelicula",
@@ -21552,7 +22034,7 @@ const peliculas1 = [
     "duracion": "134 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "netflix",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "subtitulado",
@@ -21586,7 +22068,7 @@ const peliculas1 = [
     "addedDate": "2025-11-27T18:54:56.922497",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.0,
+    "calificacion": 6.2,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -21608,7 +22090,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/mv1p15p23kwb"
       }
     ],
-    "id": "que-paso-ayer-3-2025"
+    "id": "que-paso-ayer-3-2025",
+    "tmdb_id": 109439,
+    "plataforma": "HBO Max"
   },
   {
     "id": "rafa-marquez-el-capitan-2024",
@@ -21629,12 +22113,12 @@ const peliculas1 = [
     "genero": [
       "documental"
     ],
-    "calificacion": 10.0,
+    "calificacion": 7.3,
     "votos": 1000,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "plataforma": "netflix",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -21649,7 +22133,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/u1amou6wv4dk"
       }
-    ]
+    ],
+    "tmdb_id": 1290627
   },
   {
     "tipo": "pelicula",
@@ -21677,12 +22162,12 @@ const peliculas1 = [
     "addedDate": "2025-11-22T23:44:51.409034",
     "tamaño": "N/A",
     "año": 2017,
-    "calificacion": 8.7,
+    "calificacion": 7.6,
     "votos": 90000,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -21709,7 +22194,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/7eup8ertrh3z"
       }
-    ]
+    ],
+    "tmdb_id": 284053
   },
   {
     "id": "ratatouille-2007",
@@ -21731,7 +22217,7 @@ const peliculas1 = [
       "animacion",
       "comedia"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.8,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-13T22:53:39.119005",
@@ -21739,7 +22225,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -21754,7 +22240,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/hvht3765gwru"
       }
-    ]
+    ],
+    "tmdb_id": 2062
   },
   {
     "id": "real-madrid-como-no-te-voy-a-querer-2025",
@@ -21775,7 +22262,7 @@ const peliculas1 = [
     "genero": [
       "documental"
     ],
-    "calificacion": 0.0,
+    "calificacion": 8.4,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -21817,7 +22304,9 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 283286,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "serie",
@@ -21927,7 +22416,8 @@ const peliculas1 = [
     "episodios": 8,
     "tipo_serie": "Scripted",
     "ultima_emision": "2025-12-11",
-    "id": "regreso-al-pueblo-2025"
+    "id": "regreso-al-pueblo-2025",
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -22024,7 +22514,7 @@ const peliculas1 = [
     "duracion": "89 min",
     "presupuesto": "$1,229,578",
     "ingresos": "$3,238,539",
-    "plataforma": "pelicula",
+    "plataforma": "DIRECTV GO",
     "fuentes": [
       {
         "idioma": "latino",
@@ -22057,7 +22547,7 @@ const peliculas1 = [
       "suspenso",
       "drama"
     ],
-    "calificacion": 7.1,
+    "calificacion": 6.3,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T19:23:19.818386",
@@ -22065,7 +22555,7 @@ const peliculas1 = [
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -22080,7 +22570,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/f7q4d886eyup"
       }
-    ]
+    ],
+    "tmdb_id": 1119878
   },
   {
     "tipo": "pelicula",
@@ -22150,13 +22641,14 @@ const peliculas1 = [
     "addedDate": "2025-11-19T01:35:26.656831",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 8.2,
+    "calificacion": 6.9,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
-    "fuentes": []
+    "plataforma": "Amazon Prime Video",
+    "fuentes": [],
+    "tmdb_id": 359410
   },
   {
     "tipo": "pelicula",
@@ -22181,7 +22673,7 @@ const peliculas1 = [
     "addedDate": "2025-11-27T20:42:58.193063",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 5.4,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -22215,7 +22707,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/cc1syru8qdpq"
       }
     ],
-    "id": "rob1n-el-poseido-2025"
+    "id": "rob1n-el-poseido-2025",
+    "tmdb_id": 1443260,
+    "plataforma": "pelicula"
   },
   {
     "id": "rockstar-duki-desde-el-fin-del-mundo-2025",
@@ -22237,12 +22731,12 @@ const peliculas1 = [
       "documental",
       "musica"
     ],
-    "calificacion": 0.0,
+    "calificacion": 8.1,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": true,
-    "plataforma": "netflix",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -22257,7 +22751,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/kz0fusg127xp"
       }
-    ]
+    ],
+    "tmdb_id": 1546933
   },
   {
     "tipo": "pelicula",
@@ -22306,7 +22801,7 @@ const peliculas1 = [
     "duracion": "101 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -22340,12 +22835,12 @@ const peliculas1 = [
     "addedDate": "2025-11-22T23:28:09.213283",
     "tamaño": "N/A",
     "año": 1996,
-    "calificacion": 8.0,
+    "calificacion": 6.8,
     "votos": 800000,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -22361,7 +22856,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/ilgpal9h50sr"
       }
-    ]
+    ],
+    "tmdb_id": 454
   },
   {
     "tipo": "serie",
@@ -22482,13 +22978,13 @@ const peliculas1 = [
     "addedDate": "2025-11-19T21:08:23.123926",
     "tamaño": "N/A",
     "año": 2013,
-    "calificacion": 8.9,
+    "calificacion": 6.3,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
     "clasificacion_edad": "+18",
-    "plataforma": "pelicula",
+    "plataforma": "Universal+ Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -22514,7 +23010,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/k7dn3qlosk0i"
       }
-    ]
+    ],
+    "tmdb_id": 134374
   },
   {
     "tipo": "pelicula",
@@ -22536,7 +23033,7 @@ const peliculas1 = [
       "Garret Dillahunt",
       "Bridget Regan"
     ],
-    "calificacion": 7.278,
+    "calificacion": 7.8,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
@@ -22550,7 +23047,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "sarahs-oil-2025"
+    "id": "sarahs-oil-2025",
+    "tmdb_id": 1325678
   },
   {
     "id": "screamboat-la-masacre-del-raton-2025",
@@ -22574,7 +23072,7 @@ const peliculas1 = [
     "addedDate": "2025-11-17T21:33:17.527643",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 5.1,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -22594,7 +23092,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/omru2zmwfwqv"
       }
-    ]
+    ],
+    "tmdb_id": 1225572
   },
   {
     "id": "seis-dias-caza-al-asesino-2024",
@@ -22633,7 +23132,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/iih4qadomf8a"
       }
-    ]
+    ],
+    "tmdb_id": 1025527,
+    "calificacion": 5.9
   },
   {
     "tipo": "pelicula",
@@ -22657,14 +23158,14 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-05T15:56:04.881370",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 1400784,
     "año": 2025,
-    "calificacion": 8.9,
+    "calificacion": 9.2,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -22728,13 +23229,13 @@ const peliculas1 = [
       "Louw Venter",
       "Diaan Lawrenson"
     ],
-    "calificacion": 5.767,
+    "calificacion": 5.8,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T23:49:59.708697",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -22742,7 +23243,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "semidulce-2-2025"
+    "id": "semidulce-2-2025",
+    "tmdb_id": 1428264
   },
   {
     "id": "setan-alas-2023",
@@ -22766,7 +23268,7 @@ const peliculas1 = [
     "addedDate": "2025-11-21T17:50:46.441508",
     "tamaño": "N/A",
     "año": 2023,
-    "calificacion": 7.9,
+    "calificacion": 5.2,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -22785,7 +23287,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/7yuvvpl1eqhs"
       }
-    ]
+    ],
+    "tmdb_id": 1066313,
+    "plataforma": "Booh Amazon Channel"
   },
   {
     "tipo": "serie",
@@ -22841,7 +23345,7 @@ const peliculas1 = [
     "episodios": 14,
     "tipo_serie": "Scripted",
     "ultima_emision": "2023-03-02",
-    "plataforma": "netflix",
+    "plataforma": "Netflix",
     "id": "sexo-vida-2021"
   },
   {
@@ -22863,7 +23367,7 @@ const peliculas1 = [
     "addedDate": "2025-11-22T19:27:40.185528",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 0.0,
+    "calificacion": 3.8,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -22883,7 +23387,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/circqimokwbq"
       }
-    ]
+    ],
+    "tmdb_id": 1233776,
+    "plataforma": "Booh Amazon Channel"
   },
   {
     "tipo": "pelicula",
@@ -22908,7 +23414,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T17:03:49.491137",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 7.9,
+    "calificacion": 6.3,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -22929,7 +23435,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/0j0yd28hqwkc"
       }
     ],
-    "id": "shadow-force-2025"
+    "id": "shadow-force-2025",
+    "tmdb_id": 757725,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "serie",
@@ -22954,7 +23462,7 @@ const peliculas1 = [
     "addedDate": "2025-11-23T13:47:55.634397",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 7.9,
+    "calificacion": 6.1,
     "votos": 8000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -23011,7 +23519,9 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "she-hulk-defensora-de-heroes-2025"
+    "id": "she-hulk-defensora-de-heroes-2025",
+    "tmdb_id": 92783,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -23060,7 +23570,7 @@ const peliculas1 = [
     "duracion": "91 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Lionsgate+ Amazon Channels",
     "fuentes": [
       {
         "idioma": "latino",
@@ -23093,9 +23603,9 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-04T20:54:10.599783",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 301625,
     "año": 2025,
-    "calificacion": 8.0,
+    "calificacion": 9.0,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -23147,7 +23657,8 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "sin-frenos-2025"
+    "id": "sin-frenos-2025",
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -23172,7 +23683,7 @@ const peliculas1 = [
       "Young Miko",
       "Chloe Bailey"
     ],
-    "calificacion": 6.1,
+    "calificacion": 6.0,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
@@ -23186,7 +23697,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "sneaks-2025"
+    "id": "sneaks-2025",
+    "tmdb_id": 1084153
   },
   {
     "id": "sorpresa-en-navidad-2020",
@@ -23217,7 +23729,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/in06xrochdkg"
       }
-    ]
+    ],
+    "tmdb_id": 764104,
+    "calificacion": 5.8
   },
   {
     "id": "soy-eddie-2025",
@@ -23243,12 +23757,12 @@ const peliculas1 = [
     "addedDate": "2025-11-21T14:56:20.877449",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.8,
+    "calificacion": 6.8,
     "votos": 7000,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -23263,7 +23777,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/8s1xrnupzgq3"
       }
-    ]
+    ],
+    "tmdb_id": 1426518
   },
   {
     "id": "soy-luna-el-ultimo-concierto-2021",
@@ -23288,12 +23803,14 @@ const peliculas1 = [
     "addedDate": "2025-11-20T22:39:46.117186",
     "tamaño": "N/A",
     "año": 2021,
-    "calificacion": 0.0,
+    "calificacion": 8.0,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": true,
-    "fuentes": []
+    "fuentes": [],
+    "tmdb_id": 779783,
+    "plataforma": "Disney+"
   },
   {
     "id": "space-ranger-2024",
@@ -23334,7 +23851,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://vidhidepro.com/v/syf1tmw570tw"
       }
-    ]
+    ],
+    "tmdb_id": 1267983
   },
   {
     "id": "spider-man-a-traves-del-spider-verso-2023",
@@ -23357,7 +23875,7 @@ const peliculas1 = [
       "accion",
       "aventura"
     ],
-    "calificacion": 10.0,
+    "calificacion": 8.3,
     "votos": 1200000,
     "calidad": "HD",
     "addedDate": "2025-11-13T18:58:04.072370",
@@ -23365,7 +23883,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -23380,7 +23898,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/kmhvjbuh398f"
       }
-    ]
+    ],
+    "tmdb_id": 569094
   },
   {
     "id": "spider-man-de-regreso-a-casa-2017",
@@ -23403,7 +23922,7 @@ const peliculas1 = [
       "aventura",
       "ciencia"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.3,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-13T19:02:41.056127",
@@ -23411,7 +23930,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -23426,7 +23945,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/5g8y91pasq13"
       }
-    ]
+    ],
+    "tmdb_id": 315635
   },
   {
     "id": "spider-man-lejos-de-casa-2019",
@@ -23457,7 +23977,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -23472,7 +23992,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/qsvbke54h7qh"
       }
-    ]
+    ],
+    "tmdb_id": 429617
   },
   {
     "id": "spider-man-lotus-2023",
@@ -23541,7 +24062,7 @@ const peliculas1 = [
       "aventura",
       "ciencia ficcion"
     ],
-    "calificacion": 10.0,
+    "calificacion": 7.9,
     "votos": 3000000,
     "calidad": "HD",
     "addedDate": "2025-11-13T18:55:53.917228",
@@ -23549,7 +24070,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -23564,7 +24085,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/5aetniduaifo"
       }
-    ]
+    ],
+    "tmdb_id": 634649
   },
   {
     "id": "spider-man-un-nuevo-universo-2018",
@@ -23586,7 +24108,7 @@ const peliculas1 = [
       "accion",
       "ficcion"
     ],
-    "calificacion": 8.5,
+    "calificacion": 8.4,
     "votos": 3000,
     "calidad": "HD",
     "addedDate": "2025-11-13T18:30:09.656370",
@@ -23594,7 +24116,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "cine",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -23615,7 +24137,8 @@ const peliculas1 = [
         "url": "https://dsvplay.com/e/qow3nm2rndat"
       }
     ],
-    "idioma": "latino"
+    "idioma": "latino",
+    "tmdb_id": 324857
   },
   {
     "id": "spinal-tap-ii-the-end-continues-2025",
@@ -23646,7 +24169,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/39h4h1myleov"
       }
-    ]
+    ],
+    "tmdb_id": 975225,
+    "calificacion": 6.4
   },
   {
     "tipo": "serie",
@@ -23674,7 +24199,7 @@ const peliculas1 = [
     "addedDate": "2025-11-29T20:31:49.252094",
     "tamaño": "N/A",
     "año": 20216,
-    "calificacion": 9.0,
+    "calificacion": 8.6,
     "votos": 90000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -23924,7 +24449,9 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "stranger-things-20216"
+    "id": "stranger-things-20216",
+    "tmdb_id": 66732,
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -23949,7 +24476,7 @@ const peliculas1 = [
     "addedDate": "2025-11-23T14:35:17.143277",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 8.8,
+    "calificacion": 5.6,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -23970,7 +24497,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/m7n8llee1v8h"
       }
-    ]
+    ],
+    "tmdb_id": 806731,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -23994,9 +24523,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-01T17:41:46.430453",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 278,
     "año": 1994,
-    "calificacion": 8.0,
+    "calificacion": 8.7,
     "votos": 700,
     "es_nuevo": false,
     "es_reciente": false,
@@ -24017,7 +24546,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/ia3jv3zo7u8k"
       }
     ],
-    "id": "sueno-de-fuga-1994"
+    "id": "sueno-de-fuga-1994",
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -24039,13 +24569,13 @@ const peliculas1 = [
       "Alfred Hsing",
       "David Paul Olsen"
     ],
-    "calificacion": 7.348,
+    "calificacion": 7.3,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T02:39:18.362926",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -24053,7 +24583,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "suenos-de-trenes-2025"
+    "id": "suenos-de-trenes-2025",
+    "tmdb_id": 1241983
   },
   {
     "id": "super-mario-bros-la-pelicula-2023",
@@ -24075,7 +24606,7 @@ const peliculas1 = [
       "drama",
       "suspenso"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.6,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -24094,7 +24625,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/6u5jto1igx1g"
       }
-    ]
+    ],
+    "tmdb_id": 502356,
+    "plataforma": "Netflix"
   },
   {
     "id": "superman-2025",
@@ -24115,12 +24648,12 @@ const peliculas1 = [
     "genero": [
       "ciencia ficcion"
     ],
-    "calificacion": 7.6,
+    "calificacion": 7.4,
     "votos": 1900,
     "calidad": "1080p",
     "tamaño": "N/A",
     "es_nuevo": true,
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -24135,7 +24668,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/mwgm8bib7dwd"
       }
-    ]
+    ],
+    "tmdb_id": 1061474
   },
   {
     "id": "tadeo-el-explorador-perdido-2-el-secreto-del-rey-midas-2017",
@@ -24159,7 +24693,7 @@ const peliculas1 = [
     "addedDate": "2025-11-16T03:09:05.614831",
     "tamaño": "N/A",
     "año": 2017,
-    "calificacion": 0.0,
+    "calificacion": 6.7,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -24179,7 +24713,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/oyj3kw0kzdc4"
       }
-    ]
+    ],
+    "tmdb_id": 452773
   },
   {
     "tipo": "pelicula",
@@ -24228,7 +24763,7 @@ const peliculas1 = [
     "duracion": "72 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -24263,7 +24798,7 @@ const peliculas1 = [
     "addedDate": "2025-11-27T19:07:25.827845",
     "tamaño": "N/A",
     "año": 2012,
-    "calificacion": 8.9,
+    "calificacion": 6.4,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -24284,7 +24819,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/wx133lp9xofb"
       }
     ],
-    "id": "ted-2012"
+    "id": "ted-2012",
+    "tmdb_id": 72105,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -24306,7 +24843,7 @@ const peliculas1 = [
     "addedDate": "2025-11-27T19:12:36.187144",
     "tamaño": "N/A",
     "año": 2015,
-    "calificacion": 0.0,
+    "calificacion": 6.3,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -24328,7 +24865,9 @@ const peliculas1 = [
         "url": "https://filelions.to/v/essoie8hgn6x"
       }
     ],
-    "id": "ted-2-2025"
+    "id": "ted-2-2025",
+    "tmdb_id": 214756,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "id": "tee-yai-nacido-para-el-crimen-2025",
@@ -24354,7 +24893,7 @@ const peliculas1 = [
     "addedDate": "2025-11-20T18:58:44.511184",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 5.0,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": false,
@@ -24373,7 +24912,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/0nap7n8kld6s"
       }
-    ]
+    ],
+    "tmdb_id": 1429738,
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -24394,7 +24935,7 @@ const peliculas1 = [
     "genero": [
       "terror"
     ],
-    "calificacion": 7,
+    "calificacion": 6.8,
     "votos": 100,
     "calidad": "1080p",
     "tamaño": "N/A",
@@ -24413,7 +24954,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://xenolyzb.com/e/s33lynk20hjn"
       }
-    ]
+    ],
+    "tmdb_id": 1197137,
+    "plataforma": "pelicula"
   },
   {
     "id": "terrazza-sentimento-del-esplendor-al-horror-2025",
@@ -24438,7 +24981,7 @@ const peliculas1 = [
     "addedDate": "2025-11-21T14:47:37.095497",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.8,
+    "calificacion": 7.0,
     "votos": 6000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -24464,7 +25007,9 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 304936,
+    "plataforma": "Netflix"
   },
   {
     "id": "terrifier-2016",
@@ -24488,13 +25033,13 @@ const peliculas1 = [
     "addedDate": "2025-11-19T00:55:06.952551",
     "tamaño": "N/A",
     "año": 2016,
-    "calificacion": 9.1,
+    "calificacion": 6.3,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
     "clasificacion_edad": "+18",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -24509,7 +25054,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/rhdhwdw4bzxp"
       }
-    ]
+    ],
+    "tmdb_id": 420634
   },
   {
     "tipo": "pelicula",
@@ -24534,7 +25080,7 @@ const peliculas1 = [
     "addedDate": "2025-11-27T19:48:09.672942",
     "tamaño": "N/A",
     "año": 2022,
-    "calificacion": 9.0,
+    "calificacion": 6.7,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -24556,7 +25102,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/1l13ewzll8fa"
       }
     ],
-    "id": "terrifier-2-2022"
+    "id": "terrifier-2-2022",
+    "tmdb_id": 663712,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -24582,7 +25130,7 @@ const peliculas1 = [
     "addedDate": "2025-11-27T19:45:15.653967",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 9.0,
+    "calificacion": 6.8,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -24604,7 +25152,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/2j9r8nrtwkhd"
       }
     ],
-    "id": "terrifier-3-2024"
+    "id": "terrifier-3-2024",
+    "tmdb_id": 1034541,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "id": "terror-en-shelby-oaks-2025",
@@ -24644,7 +25194,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/9g7vfjsbx8o8\""
       }
-    ]
+    ],
+    "tmdb_id": 937941,
+    "plataforma": "pelicula"
   },
   {
     "id": "the-amazing-spider-man-2021",
@@ -24669,12 +25221,12 @@ const peliculas1 = [
     "addedDate": "2025-11-19T01:26:27.546427",
     "tamaño": "N/A",
     "año": 2021,
-    "calificacion": 8.8,
+    "calificacion": 6.7,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -24689,7 +25241,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/4a8c5aaf5yyz"
       }
-    ]
+    ],
+    "tmdb_id": 1930
   },
   {
     "id": "the-book-2021",
@@ -24713,13 +25266,13 @@ const peliculas1 = [
     "addedDate": "2025-11-21T18:41:44.877051",
     "tamaño": "N/A",
     "año": 2021,
-    "calificacion": 8.8,
+    "calificacion": 6.5,
     "votos": 900000,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
     "clasificacion_edad": "n",
-    "plataforma": "pelicula",
+    "plataforma": "Plex",
     "fuentes": [
       {
         "idioma": "español",
@@ -24734,7 +25287,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/tq4vsmszfcr1"
       }
-    ]
+    ],
+    "tmdb_id": 853291
   },
   {
     "id": "the-boys-2019",
@@ -24758,12 +25312,12 @@ const peliculas1 = [
     "addedDate": "2025-11-19T00:24:42.710023",
     "tamaño": "N/A",
     "año": 2019,
-    "calificacion": 0.0,
+    "calificacion": 8.4,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "temporadas": [
       {
         "temporada": 1,
@@ -24945,7 +25499,8 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 76479
   },
   {
     "tipo": "pelicula",
@@ -24967,7 +25522,7 @@ const peliculas1 = [
       "suspenso",
       "terror"
     ],
-    "calificacion": 7.5,
+    "calificacion": 6.7,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T18:57:59.505516",
@@ -24975,7 +25530,7 @@ const peliculas1 = [
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Adrenalina Pura Amazon channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -24991,7 +25546,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/ntmfycaelt7n"
       }
-    ]
+    ],
+    "tmdb_id": 1081208
   },
   {
     "tipo": "pelicula",
@@ -25091,7 +25647,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/w4ens7z4b12x"
       }
-    ]
+    ],
+    "tmdb_id": 23127,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -25116,9 +25674,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-02T17:53:26.472308",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 317442,
     "año": 2014,
-    "calificacion": 9.0,
+    "calificacion": 7.5,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -25139,7 +25697,8 @@ const peliculas1 = [
         "url": "https://streamwish.to/e/xcohhb74jgyu"
       }
     ],
-    "id": "the-last-naruto-la-pelicula-2014"
+    "id": "the-last-naruto-la-pelicula-2014",
+    "plataforma": "Netflix"
   },
   {
     "id": "the-mighty-nein-2025",
@@ -25164,7 +25723,7 @@ const peliculas1 = [
     "addedDate": "2025-11-20T18:51:04.203919",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.8,
+    "calificacion": 7.9,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": false,
@@ -25190,7 +25749,9 @@ const peliculas1 = [
           }
         ]
       }
-    ]
+    ],
+    "tmdb_id": 219080,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -25215,7 +25776,7 @@ const peliculas1 = [
     "addedDate": "2025-11-29T21:32:42.235519",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 6.0,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -25236,7 +25797,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/9jmckjrb9t0l"
       }
     ],
-    "id": "the-monkey-2025"
+    "id": "the-monkey-2025",
+    "tmdb_id": 1124620,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -25260,7 +25823,7 @@ const peliculas1 = [
       "Stuart Graham",
       "George Lasha"
     ],
-    "calificacion": 5.6,
+    "calificacion": 5.7,
     "idioma": "ingles",
     "calidad": "1080p",
     "favorito": false,
@@ -25274,7 +25837,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "the-occupant-2025"
+    "id": "the-occupant-2025",
+    "tmdb_id": 1280444
   },
   {
     "tipo": "pelicula",
@@ -25300,7 +25864,7 @@ const peliculas1 = [
     "addedDate": "2025-11-22T23:24:01.153041",
     "tamaño": "N/A",
     "año": 2022,
-    "calificacion": 9.0,
+    "calificacion": 5.6,
     "votos": 80000,
     "es_nuevo": false,
     "es_reciente": false,
@@ -25321,7 +25885,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/o4a209dzi3b8"
       }
-    ]
+    ],
+    "tmdb_id": 934201
   },
   {
     "tipo": "pelicula",
@@ -25402,7 +25967,7 @@ const peliculas1 = [
       "Rob Corddry",
       "Todd Terry"
     ],
-    "calificacion": 6.219,
+    "calificacion": 6.6,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
@@ -25416,7 +25981,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "the-senior-2025"
+    "id": "the-senior-2025",
+    "tmdb_id": 1135303
   },
   {
     "tipo": "pelicula",
@@ -25440,7 +26006,7 @@ const peliculas1 = [
       "此沙",
       "文俊辉"
     ],
-    "calificacion": 6.493,
+    "calificacion": 7.0,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
@@ -25454,7 +26020,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "the-shadows-edge-2025"
+    "id": "the-shadows-edge-2025",
+    "tmdb_id": 1419406
   },
   {
     "tipo": "pelicula",
@@ -25478,9 +26045,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-06T01:16:45.041477",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 760329,
     "año": 2025,
-    "calificacion": 6.9,
+    "calificacion": 6.5,
     "votos": 7000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -25525,7 +26092,7 @@ const peliculas1 = [
       "Vaughn Armstrong",
       "Mia Ellis"
     ],
-    "calificacion": 5.0,
+    "calificacion": 5.5,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
@@ -25539,7 +26106,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "the-surrender-2025"
+    "id": "the-surrender-2025",
+    "tmdb_id": 1339206
   },
   {
     "tipo": "pelicula",
@@ -25564,12 +26132,12 @@ const peliculas1 = [
     "addedDate": "2025-11-23T14:20:05.360088",
     "tamaño": "N/A",
     "año": 2011,
-    "calificacion": 8.6,
+    "calificacion": 6.8,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "crunchyroll",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -25586,7 +26154,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/oh3q1wdb6mjl"
       }
-    ]
+    ],
+    "tmdb_id": 10195
   },
   {
     "tipo": "pelicula",
@@ -25661,7 +26230,7 @@ const peliculas1 = [
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -25677,7 +26246,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/i1wnynhu8n9n"
       }
-    ]
+    ],
+    "tmdb_id": 1241436
   },
   {
     "tipo": "pelicula",
@@ -25699,13 +26269,13 @@ const peliculas1 = [
       "Gloria Cazares",
       "Javier Cazares"
     ],
-    "calificacion": 7.333,
+    "calificacion": 6.6,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T19:51:33.212786",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -25713,7 +26283,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "todas-las-habitaciones-vacias-2025"
+    "id": "todas-las-habitaciones-vacias-2025",
+    "tmdb_id": 1525091
   },
   {
     "tipo": "serie",
@@ -25734,7 +26305,7 @@ const peliculas1 = [
       "drama",
       "comedia"
     ],
-    "calificacion": 0.0,
+    "calificacion": 4.9,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -25760,7 +26331,9 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "todo-vale-2025"
+    "id": "todo-vale-2025",
+    "tmdb_id": 258742,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -25787,9 +26360,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-02T18:25:17.150465",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 188070,
     "año": 2013,
-    "calificacion": 8.9,
+    "calificacion": 7.3,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -25839,7 +26412,7 @@ const peliculas1 = [
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-08T22:51:39.561454",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -25847,7 +26420,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "toro-salvaje-1980"
+    "id": "toro-salvaje-1980",
+    "tmdb_id": 1578
   },
   {
     "tipo": "pelicula",
@@ -25911,7 +26485,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/dqs2dg8eotkn"
       }
-    ]
+    ],
+    "tmdb_id": 862,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -25932,7 +26508,7 @@ const peliculas1 = [
       "animacion",
       "comedia"
     ],
-    "calificacion": 10.0,
+    "calificacion": 7.8,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -25952,7 +26528,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/eqfpw8h9aoos"
       }
-    ]
+    ],
+    "tmdb_id": 10193,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -25972,7 +26550,7 @@ const peliculas1 = [
     "genero": [
       "terror"
     ],
-    "calificacion": 0.0,
+    "calificacion": 7.5,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -25992,7 +26570,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/ov2vkp075d71"
       }
-    ]
+    ],
+    "tmdb_id": 301528,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -26053,7 +26633,7 @@ const peliculas1 = [
       "animacion",
       "aventura"
     ],
-    "calificacion": 10.0,
+    "calificacion": 7.2,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -26073,7 +26653,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/ix1ejprmt8s8"
       }
-    ]
+    ],
+    "tmdb_id": 213121,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -26094,7 +26676,7 @@ const peliculas1 = [
       "Aventura",
       "Ciencia ficción"
     ],
-    "calificacion": 0.0,
+    "calificacion": 6.8,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -26113,7 +26695,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/mfgc22xntftr"
       }
-    ]
+    ],
+    "tmdb_id": 1858,
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -26135,7 +26719,7 @@ const peliculas1 = [
       "ciencia",
       "ficción"
     ],
-    "calificacion": 0.0,
+    "calificacion": 6.2,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -26154,7 +26738,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/7v33wkie5hys"
       }
-    ]
+    ],
+    "tmdb_id": 38356,
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -26178,14 +26764,14 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-05T14:38:47.355460",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 1180831,
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 6.6,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -26226,12 +26812,12 @@ const peliculas1 = [
     "addedDate": "2025-11-17T17:05:52.045453",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 9.0,
+    "calificacion": 6.5,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -26246,7 +26832,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/xia1gtftil23"
       }
-    ]
+    ],
+    "tmdb_id": 533533
   },
   {
     "tipo": "pelicula",
@@ -26268,7 +26855,7 @@ const peliculas1 = [
       "historia",
       "suspenso"
     ],
-    "calificacion": 8.5,
+    "calificacion": 8.1,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -26295,7 +26882,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/ibzb3ygsqdrk"
       }
-    ]
+    ],
+    "tmdb_id": 1443940,
+    "plataforma": "pelicula"
   },
   {
     "id": "the-murky-stream-2025",
@@ -26323,7 +26912,7 @@ const peliculas1 = [
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "plataforma": "hbo max",
+    "plataforma": "HBO Max",
     "temporadas": [
       {
         "temporada": 1,
@@ -26448,7 +27037,8 @@ const peliculas1 = [
     ],
     "estado_temporada": "nueva",
     "clasificacion_edad": "18",
-    "es_reciente": false
+    "es_reciente": false,
+    "tmdb_id": 133748
   },
   {
     "tipo": "pelicula",
@@ -26472,7 +27062,7 @@ const peliculas1 = [
     "addedDate": "2025-11-22T23:15:54.456554",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 7.8,
+    "calificacion": 5.3,
     "votos": 699,
     "es_nuevo": false,
     "es_reciente": false,
@@ -26493,7 +27083,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/giwuvboa7opc"
       }
-    ]
+    ],
+    "tmdb_id": 1204883
   },
   {
     "tipo": "pelicula",
@@ -26517,7 +27108,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T22:54:56.377279",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.9,
+    "calificacion": 4.6,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
@@ -26538,7 +27129,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/ejqiz4lx9aox"
       }
     ],
-    "id": "un-guia-muy-perdido-2025"
+    "id": "un-guia-muy-perdido-2025",
+    "tmdb_id": 1191666,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -26563,7 +27156,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T01:09:51.071572",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.0,
+    "calificacion": 6.8,
     "votos": 8000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -26584,7 +27177,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/cxnbf1qvnio0"
       }
     ],
-    "id": "un-novio-dos-novias-2025"
+    "id": "un-novio-dos-novias-2025",
+    "tmdb_id": 1446358,
+    "plataforma": "Netflix"
   },
   {
     "tipo": "pelicula",
@@ -26608,12 +27203,12 @@ const peliculas1 = [
     "addedDate": "2025-11-19T01:39:06.339369",
     "tamaño": "N/A",
     "año": 2022,
-    "calificacion": 7.9,
+    "calificacion": 7.8,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -26629,7 +27224,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/mox5alnd4st5"
       }
-    ]
+    ],
+    "tmdb_id": 937278
   },
   {
     "tipo": "pelicula",
@@ -26653,7 +27249,7 @@ const peliculas1 = [
     "addedDate": "2025-11-20T19:09:16.246664",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.8,
+    "calificacion": 7.4,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": false,
@@ -26680,7 +27276,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/q6u44ootqzkb"
       }
-    ]
+    ],
+    "tmdb_id": 1054867,
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -26704,7 +27302,7 @@ const peliculas1 = [
     "addedDate": "2025-11-20T21:22:24.989016",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.9,
+    "calificacion": 6.2,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": false,
@@ -26724,7 +27322,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/g23xa39xij6b"
       }
-    ]
+    ],
+    "tmdb_id": 1425122,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -26753,7 +27353,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T22:34:24.979617",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 8.0,
+    "calificacion": 6.6,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -26775,7 +27375,8 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/icaij4ecejdc"
       }
     ],
-    "id": "una-noche-en-zoopolis-2024"
+    "id": "una-noche-en-zoopolis-2024",
+    "tmdb_id": 1205229
   },
   {
     "titulo": "Una película de Minecraft",
@@ -26902,7 +27503,7 @@ const peliculas1 = [
     "categoria": [
       "lanzamientos-recientes"
     ],
-    "plataforma": "pelicula",
+    "plataforma": "HBO Max",
     "fuentes": [
       {
         "idioma": "latino",
@@ -26934,7 +27535,7 @@ const peliculas1 = [
       "comedia",
       "suspenso"
     ],
-    "calificacion": 10.0,
+    "calificacion": 6.8,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -26953,7 +27554,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/7jdxr2dpaqa3"
       }
-    ]
+    ],
+    "tmdb_id": 1511556,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -26976,7 +27579,7 @@ const peliculas1 = [
       "Adam Jezierski",
       "Kimberley Tell"
     ],
-    "calificacion": 6.0,
+    "calificacion": 5.6,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
@@ -26990,7 +27593,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "uno-equis-dos-2025"
+    "id": "uno-equis-dos-2025",
+    "tmdb_id": 1451296
   },
   {
     "tipo": "pelicula",
@@ -27011,7 +27615,7 @@ const peliculas1 = [
     "addedDate": "2025-11-22T21:59:24.202333",
     "tamaño": "N/A",
     "año": 2011,
-    "calificacion": 0.0,
+    "calificacion": 6.9,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -27031,7 +27635,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dintezuvio.com/embed/kqwx5z8lwulu"
       }
-    ]
+    ],
+    "tmdb_id": 77887,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -27055,7 +27661,7 @@ const peliculas1 = [
     "addedDate": "2025-11-21T00:02:08.348890",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.0,
+    "calificacion": 6.7,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": false,
@@ -27075,7 +27681,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/m5ct3bdc3ahf"
       }
-    ]
+    ],
+    "tmdb_id": 1009640,
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "serie",
@@ -27098,9 +27706,9 @@ const peliculas1 = [
     "calidad": "1080p",
     "addedDate": "2025-12-02T00:44:58.862810",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 275722,
     "año": 2025,
-    "calificacion": 9.0,
+    "calificacion": 6.2,
     "votos": 80000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -27192,7 +27800,8 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "vampirina-una-vampirina-adolescente-2025"
+    "id": "vampirina-una-vampirina-adolescente-2025",
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -27216,13 +27825,13 @@ const peliculas1 = [
       "Regina King",
       "Laz Alonso"
     ],
-    "calificacion": 6.528,
+    "calificacion": 6.5,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T19:52:47.644908",
-    "plataforma": "pelicula",
+    "plataforma": "Stingray Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -27230,7 +27839,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "vaya-navidades-2007"
+    "id": "vaya-navidades-2007",
+    "tmdb_id": 15250
   },
   {
     "tipo": "pelicula",
@@ -27251,7 +27861,7 @@ const peliculas1 = [
       "animacion",
       "comedia"
     ],
-    "calificacion": 7.6,
+    "calificacion": 4.1,
     "votos": 0,
     "calidad": "HD",
     "tamaño": "N/A",
@@ -27270,7 +27880,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/yuzczjgggjmq"
       }
-    ]
+    ],
+    "tmdb_id": 1114743,
+    "plataforma": "Booh Amazon Channel"
   },
   {
     "tipo": "pelicula",
@@ -27317,7 +27929,7 @@ const peliculas1 = [
     "duracion": "118 min",
     "presupuesto": "$60,000,000",
     "ingresos": "$76,419,755",
-    "plataforma": "netflix",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -27416,7 +28028,7 @@ const peliculas1 = [
     "addedDate": "2025-11-19T17:34:44.614169",
     "tamaño": "N/A",
     "año": 2023,
-    "calificacion": 8.8,
+    "calificacion": 8.4,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -27552,7 +28164,9 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "vgly-2023"
+    "id": "vgly-2023",
+    "tmdb_id": 226241,
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -27635,13 +28249,13 @@ const peliculas1 = [
       "Aya Endo",
       "Koki Uchiyama"
     ],
-    "calificacion": 8.56,
+    "calificacion": 8.6,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T01:49:26.906461",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -27649,7 +28263,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "violet-evergarden-recuerdos-2021"
+    "id": "violet-evergarden-recuerdos-2021",
+    "tmdb_id": 1052946
   },
   {
     "tipo": "pelicula",
@@ -27674,12 +28289,12 @@ const peliculas1 = [
     "addedDate": "2025-11-21T13:40:04.559103",
     "tamaño": "N/A",
     "año": 2023,
-    "calificacion": 0.0,
+    "calificacion": 5.7,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Mercado Play",
     "fuentes": [
       {
         "idioma": "español",
@@ -27695,7 +28310,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/t0hx3k9ixr44"
       }
-    ]
+    ],
+    "tmdb_id": 835459
   },
   {
     "tipo": "pelicula",
@@ -27723,7 +28339,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/lblqgyhl96la"
       }
-    ]
+    ],
+    "tmdb_id": 1358831,
+    "calificacion": 6.3
   },
   {
     "tipo": "pelicula",
@@ -27744,7 +28362,7 @@ const peliculas1 = [
       "animacion",
       "familia"
     ],
-    "calificacion": 0.0,
+    "calificacion": 8.1,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-14T21:56:49.303821",
@@ -27752,9 +28370,10 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [],
-    "id": "walle-2008"
+    "id": "walle-2008",
+    "tmdb_id": 10681
   },
   {
     "tipo": "pelicula",
@@ -27803,7 +28422,7 @@ const peliculas1 = [
     "duracion": "173 min",
     "presupuesto": "$47,000,000",
     "ingresos": "$3,096,145",
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -27851,7 +28470,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/zj6z2uuwp1in"
       }
-    ]
+    ],
+    "tmdb_id": 769364,
+    "plataforma": "Amazon Prime Video"
   },
   {
     "tipo": "pelicula",
@@ -27877,7 +28498,7 @@ const peliculas1 = [
     "addedDate": "2025-11-30T00:06:22.849419",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 8.9,
+    "calificacion": 6.9,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -27898,7 +28519,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/1i3dmy8fmlks"
       }
     ],
-    "id": "wicked-2024"
+    "id": "wicked-2024",
+    "tmdb_id": 402431,
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "pelicula",
@@ -27921,12 +28544,12 @@ const peliculas1 = [
     "addedDate": "2025-11-16T03:01:54.213034",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 6.2,
+    "calificacion": 7.2,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -27942,7 +28565,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/czrd7mqgiey6"
       }
-    ]
+    ],
+    "tmdb_id": 404368
   },
   {
     "tipo": "pelicula",
@@ -27966,7 +28590,7 @@ const peliculas1 = [
       "Charles Dance",
       "Rasmus Hardiker"
     ],
-    "calificacion": 5.875,
+    "calificacion": 5.9,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
@@ -27985,7 +28609,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "wildcat-2025"
+    "id": "wildcat-2025",
+    "tmdb_id": 1448560
   },
   {
     "tipo": "pelicula",
@@ -28092,9 +28717,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-05T14:42:18.559874",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 1358491,
     "año": 2025,
-    "calificacion": 7.0,
+    "calificacion": 6.6,
     "votos": 8000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -28139,7 +28764,7 @@ const peliculas1 = [
     "addedDate": "2025-11-17T15:28:07.684000",
     "tamaño": "N/A",
     "año": 2024,
-    "calificacion": 0.0,
+    "calificacion": 6.0,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": false,
@@ -28160,7 +28785,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/8jkkpl9cyiug"
       }
-    ]
+    ],
+    "tmdb_id": 1268349
   },
   {
     "tipo": "pelicula",
@@ -28187,7 +28813,7 @@ const peliculas1 = [
     "addedDate": "2025-11-20T22:47:01.167332",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 6.9,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": true,
@@ -28207,7 +28833,9 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/uepgf2oq3xmd"
       }
-    ]
+    ],
+    "tmdb_id": 1243341,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -28228,7 +28856,7 @@ const peliculas1 = [
       "animacion",
       "aventura"
     ],
-    "calificacion": 8.9,
+    "calificacion": 7.8,
     "votos": 0,
     "calidad": "HD",
     "addedDate": "2025-11-13T23:01:07.553399",
@@ -28236,7 +28864,7 @@ const peliculas1 = [
     "es_nuevo": false,
     "es_reciente": false,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Disney+",
     "fuentes": [
       {
         "idioma": "latino",
@@ -28252,7 +28880,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/2km2zwze9b8k"
       }
-    ]
+    ],
+    "tmdb_id": 269149
   },
   {
     "tipo": "pelicula",
@@ -28279,9 +28908,9 @@ const peliculas1 = [
     "calidad": "HD",
     "addedDate": "2025-12-02T00:21:36.422504",
     "tamaño": "N/A",
-    "tmdb_id": null,
+    "tmdb_id": 1084242,
     "año": 2025,
-    "calificacion": 9.9,
+    "calificacion": 7.6,
     "votos": 9000,
     "es_nuevo": true,
     "es_reciente": true,
@@ -28312,7 +28941,8 @@ const peliculas1 = [
         "url": "https://waaw.to/f/MyPZJTQLKlvX"
       }
     ],
-    "id": "zootopia-2-2025"
+    "id": "zootopia-2-2025",
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -28333,12 +28963,12 @@ const peliculas1 = [
       "accion",
       "aventura"
     ],
-    "calificacion": 7.8,
+    "calificacion": 7.9,
     "votos": 4000,
     "calidad": "HD",
     "tamaño": "N/A",
     "es_nuevo": false,
-    "plataforma": "pelicula",
+    "plataforma": "Netflix",
     "fuentes": [
       {
         "idioma": "latino",
@@ -28354,7 +28984,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://streamwish.to/e/2c4hw0ad30rg"
       }
-    ]
+    ],
+    "tmdb_id": 1303162
   },
   {
     "tipo": "pelicula",
@@ -28378,7 +29009,7 @@ const peliculas1 = [
       "Léo Côté",
       "Sophie Faucher"
     ],
-    "calificacion": 6.9,
+    "calificacion": 6.7,
     "idioma": "latino",
     "calidad": "1080p",
     "favorito": false,
@@ -28392,7 +29023,8 @@ const peliculas1 = [
         "calidad": "1080p"
       }
     ],
-    "id": "hola-frida-2025"
+    "id": "hola-frida-2025",
+    "tmdb_id": 1245399
   },
   {
     "tipo": "pelicula",
@@ -28415,12 +29047,12 @@ const peliculas1 = [
     "addedDate": "2025-11-19T01:30:35.061163",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 0.0,
+    "calificacion": 8.4,
     "votos": 0,
     "es_nuevo": true,
     "es_reciente": true,
     "esta_roto": false,
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "latino",
@@ -28436,7 +29068,8 @@ const peliculas1 = [
         "servidor": "Directo",
         "url": "https://dinisglows.com/embed/fx1opps6d693"
       }
-    ]
+    ],
+    "tmdb_id": 1233620
   },
   {
     "tipo": "pelicula",
@@ -28482,7 +29115,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/pyvyuhq3fl7m"
       }
     ],
-    "id": "que-paso-ayer-2025"
+    "id": "que-paso-ayer-2025",
+    "tmdb_id": 1511681,
+    "plataforma": "pelicula"
   },
   {
     "tipo": "pelicula",
@@ -28506,7 +29141,7 @@ const peliculas1 = [
     "addedDate": "2025-11-27T18:53:16.576057",
     "tamaño": "N/A",
     "año": 2025,
-    "calificacion": 8.0,
+    "calificacion": 6.5,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": false,
@@ -28528,7 +29163,9 @@ const peliculas1 = [
         "url": "https://dintezuvio.com/embed/gg3d1oh4gstt"
       }
     ],
-    "id": "que-paso-ayer-2-2025"
+    "id": "que-paso-ayer-2-2025",
+    "tmdb_id": 45243,
+    "plataforma": "HBO Max"
   },
   {
     "tipo": "serie",
@@ -28553,7 +29190,7 @@ const peliculas1 = [
     "addedDate": "2025-11-19T17:04:42.866663",
     "tamaño": "N/A",
     "año": 2921,
-    "calificacion": 10.0,
+    "calificacion": 8.1,
     "votos": 0,
     "es_nuevo": false,
     "es_reciente": true,
@@ -28705,7 +29342,9 @@ const peliculas1 = [
         ]
       }
     ],
-    "id": "que-pasaria-si-2921"
+    "id": "que-pasaria-si-2921",
+    "tmdb_id": 91363,
+    "plataforma": "Disney+"
   },
   {
     "tipo": "pelicula",
@@ -28756,7 +29395,7 @@ const peliculas1 = [
     "duracion": "138 min",
     "presupuesto": "Desconocido",
     "ingresos": "Desconocido",
-    "plataforma": "pelicula",
+    "plataforma": "Looke Amazon Channel",
     "fuentes": [
       {
         "idioma": "latino",
@@ -28815,7 +29454,7 @@ const peliculas1 = [
     "duracion": "147 min",
     "presupuesto": "$1,960,000",
     "ingresos": "$60,447,800",
-    "plataforma": "pelicula",
+    "plataforma": "Amazon Prime Video",
     "fuentes": [
       {
         "idioma": "subtitulado",
@@ -28854,8 +29493,9 @@ const peliculas1 = [
     "favorito": false,
     "esta_roto": false,
     "addedDate": "2025-12-07T02:00:32.960321",
-    "plataforma": "pelicula",
+    "plataforma": "Looke Amazon Channel",
     "fuentes": [],
-    "id": "kong-long-fei-che-2021"
+    "id": "kong-long-fei-che-2021",
+    "tmdb_id": 1163629
   }
 ];
