@@ -9221,6 +9221,64 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Navidad en Vivo",
+    "titulo_original": "Navidad en Vivo",
+    "poster": "https://image.tmdb.org/t/p/w500/lp2mmzNQkW3UZnH8HjhyyXn8nM4.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/thbHjBn8DR8YbV27kv7jFbwz42u.jpg",
+    "descripcion": "La competencia de los trabajadores de un programa mexicano por el codiciado puesto del equipo de producción en plena temporada navideña los pondrá ansiosos por la oportunidad que podría llevarlos a la cima de sus carreras.",
+    "año": 2022,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Salvador Suárez Obregón",
+    "reparto": [
+      "Harold Azuara",
+      "Regina Pavón",
+      "Jesús Zavala",
+      "Francisco De La Reguera",
+      "Ligia Uriarte",
+      "Martín Barba",
+      "Esmeralda Soto",
+      "Yuriria del Valle",
+      "Anahí Allue",
+      "Mauricio Hernández"
+    ],
+    "calificacion": 6.8,
+    "votos": 12,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-14T23:54:39.328524",
+    "tmdb_id": "1054864",
+    "popularidad": 5.83,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "87 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "HBO Max",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://doodstream.com/e/aiirmc35c6xp",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "navidad-en-vivo-2022"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Noche de Miedo",
     "titulo_original": "Twas The Night",
     "poster": "https://image.tmdb.org/t/p/w500/rOLpMgK3CAEeCFtYg0W5axp1ktO.jpg",
