@@ -3468,6 +3468,69 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "El Sendero Azul",
+    "titulo_original": "O Último Azul",
+    "poster": "https://image.tmdb.org/t/p/w500/sY7dcqyvUKbVKwaNFOPaPgljyj0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2UXrkv2G1aXMyn3VY70krD9Anid.jpg",
+    "descripcion": "Tereza, de 77 años, ha vivido siempre en una pequeña ciudad industrial de Brasil. Un día recibe una notificación oficial del gobierno para trasladarse a una colonia remota, creada para que los jubilados pasen \"sus últimos años” y así dejar espacio a los más jóvenes para que sigan siendo plenamente productivos. Pero en lugar de aceptar este destino impuesto, Tereza se rebela y decide embarcarse en un viaje transformador por el Amazonas, para cumplir un último deseo antes de que le arrebaten su libertad. Esto marcará su vida para siempre.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "ciencia ficción",
+      "comedia"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Ciencia ficción",
+      "Comedia"
+    ],
+    "director": "Gabriel Mascaro",
+    "reparto": [
+      "Denise Weinberg",
+      "Rodrigo Santoro",
+      "Miriam Socarrás",
+      "Adanilo",
+      "Rosa Malagueta",
+      "Clarissa Pinheiro",
+      "Dimas Mendonça",
+      "Daniel Ferrat",
+      "Heitor Loris",
+      "Rafael César",
+      "Isabela Catão",
+      "Daniela Reis"
+    ],
+    "calificacion": 7.2,
+    "votos": 43,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-14T20:38:21.074705",
+    "tmdb_id": "1172265",
+    "popularidad": 2.0,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=SfnaML_GjCA",
+    "trailer_key": "SfnaML_GjCA",
+    "success": true,
+    "duracion": "87 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/f7fwlihma3ab",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-sendero-azul-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "El Señor de los Anillos",
     "titulo_original": "The Lord of the Rings",
     "poster": "https://image.tmdb.org/t/p/w500/6SHIZpuZ2cGoTGq5nbihIgy43rC.jpg",
