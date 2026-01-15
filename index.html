@@ -3698,21 +3698,29 @@
 (function() {
     'use strict';
 
+    // ============================
+    // CONFIGURACIÓN DEL SISTEMA
+    // ============================
     const CONTAINER_ID = 'recientemente-añadido';
     const MOVIES_FILE = 'peliculas/peliculas3.js';
+    const APP_NAME = '🎬 CineRealTime Pro';
     
-    // Configuración optimizada
     const CONFIG = {
-        POLLING_INTERVAL_ACTIVE: 10000,      // 10 segundos (activo)
-        POLLING_INTERVAL_IDLE: 30000,        // 30 segundos (inactivo)
-        INITIAL_LOAD_DELAY: 1000,            // 1 segundo después de DOM
-        CACHE_DURATION: 60000,               // 1 minuto de caché
+        VERSION: '3.0.0',
+        POLLING_INTERVAL_ACTIVE: 10000,
+        POLLING_INTERVAL_IDLE: 30000,
+        INITIAL_LOAD_DELAY: 800,
+        CACHE_DURATION: 60000,
         MAX_RETRIES: 3,
         RETRY_DELAY: 2000,
-        CONNECTION_TIMEOUT: 5000
+        CONNECTION_TIMEOUT: 5000,
+        NOTIFICATION_DURATION: 3000,
+        LAZY_LOAD_OFFSET: 100
     };
 
-    // Estado del sistema
+    // ============================
+    // ESTADO DE LA APLICACIÓN
+    // ============================
     const STATE = {
         lastETag: '',
         lastModified: 0,
@@ -3721,223 +3729,857 @@
         isOnline: navigator.onLine,
         retryCount: 0,
         isUpdating: false,
-        updateQueue: [],
-        connectionSpeed: 'fast'
+        connectionSpeed: 'fast',
+        totalUpdates: 0,
+        lastUpdateTime: null,
+        containerExists: false
     };
 
-    // Web Workers para procesamiento en segundo plano
+    // ============================
+    // COMPONENTES DEL SISTEMA
+    // ============================
     let fetchWorker = null;
     let diffWorker = null;
-
-    // WebSocket fallback con long polling mejorado
     let longPollTimeout = null;
+    let scrollAnimation = null;
+    let performanceMonitor = null;
 
-    // Inicializar Web Workers si están disponibles
+    // ============================
+    // INYECCIÓN DE ESTILOS
+    // ============================
+    function injectOptimizedStyles() {
+        const styles = `
+            /* ===== ESTILOS PRINCIPALES ===== */
+            #recientemente-añadido {
+                position: relative;
+                margin: 40px auto;
+                max-width: 1400px;
+                padding: 0 20px;
+            }
+
+            /* ===== CABECERA CON INDICADOR ===== */
+            .section-title-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 30px;
+                padding: 20px;
+                background: linear-gradient(135deg, rgba(20, 20, 30, 0.95), rgba(30, 30, 45, 0.95));
+                border-radius: 20px;
+                border: 1px solid rgba(229, 9, 20, 0.3);
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+                backdrop-filter: blur(10px);
+                position: relative;
+                overflow: hidden;
+            }
+
+            .section-title-container::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 3px;
+                background: linear-gradient(90deg, #e50914, #ff6b6b, #e50914);
+            }
+
+            .section-title {
+                font-size: 2.2rem;
+                font-weight: 800;
+                background: linear-gradient(45deg, #ffffff, #ff9999);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                margin: 0;
+            }
+
+            /* ===== INDICADOR EN TIEMPO REAL ===== */
+            .live-indicator {
+                display: inline-flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 0.8rem;
+                font-weight: 700;
+                color: #00ff9d;
+                background: rgba(0, 255, 157, 0.1);
+                border: 2px solid rgba(0, 255, 157, 0.3);
+                padding: 8px 16px;
+                border-radius: 25px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                position: relative;
+                animation: glow 2s infinite alternate;
+            }
+
+            @keyframes glow {
+                0% { box-shadow: 0 0 10px rgba(0, 255, 157, 0.3); }
+                100% { box-shadow: 0 0 20px rgba(0, 255, 157, 0.6); }
+            }
+
+            .pulse-dot {
+                width: 12px;
+                height: 12px;
+                background: #00ff9d;
+                border-radius: 50%;
+                animation: pulseDot 1.5s ease-in-out infinite;
+                position: relative;
+            }
+
+            @keyframes pulseDot {
+                0%, 100% { 
+                    transform: scale(1); 
+                    opacity: 1; 
+                }
+                50% { 
+                    transform: scale(1.3); 
+                    opacity: 0.8; 
+                }
+            }
+
+            .pulse-ring {
+                position: absolute;
+                width: 24px;
+                height: 24px;
+                border: 2px solid #00ff9d;
+                border-radius: 50%;
+                animation: pulseRing 2s linear infinite;
+                opacity: 0;
+            }
+
+            @keyframes pulseRing {
+                0% { 
+                    transform: scale(0.8); 
+                    opacity: 0.8; 
+                }
+                100% { 
+                    transform: scale(2); 
+                    opacity: 0; 
+                }
+            }
+
+            /* ===== INFORMACIÓN DE ESTADO ===== */
+            .status-info {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                gap: 8px;
+            }
+
+            .update-time {
+                font-family: 'Courier New', monospace;
+                background: rgba(0, 0, 0, 0.4);
+                padding: 8px 16px;
+                border-radius: 10px;
+                font-size: 0.9rem;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+
+            .connection-speed {
+                background: linear-gradient(135deg, #667eea, #764ba2);
+                color: white;
+                padding: 6px 12px;
+                border-radius: 8px;
+                font-size: 0.8rem;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+
+            /* ===== CARRUSEL DE PELÍCULAS ===== */
+            .carrusel-contenedor {
+                position: relative;
+                padding: 0 50px;
+            }
+
+            .movies-scroller {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                gap: 25px;
+                padding: 20px 0;
+                scroll-behavior: smooth;
+                transition: all 0.3s ease;
+            }
+
+            /* ===== TARJETAS DE PELÍCULAS ===== */
+            .movie-item {
+                background: linear-gradient(145deg, rgba(40, 40, 60, 0.9), rgba(25, 25, 40, 0.9));
+                border-radius: 15px;
+                overflow: hidden;
+                transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+                position: relative;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                opacity: 0;
+                animation: fadeIn 0.5s ease forwards;
+            }
+
+            @keyframes fadeIn {
+                to { opacity: 1; }
+            }
+
+            .movie-item:nth-child(1) { animation-delay: 0.1s; }
+            .movie-item:nth-child(2) { animation-delay: 0.2s; }
+            .movie-item:nth-child(3) { animation-delay: 0.3s; }
+            .movie-item:nth-child(4) { animation-delay: 0.4s; }
+            .movie-item:nth-child(5) { animation-delay: 0.5s; }
+
+            .movie-item:hover {
+                transform: translateY(-10px) scale(1.05);
+                box-shadow: 0 20px 40px rgba(229, 9, 20, 0.3);
+                border-color: rgba(229, 9, 20, 0.5);
+                z-index: 100;
+            }
+
+            .movie-link {
+                text-decoration: none;
+                color: inherit;
+                display: block;
+            }
+
+            .movie-poster {
+                position: relative;
+                aspect-ratio: 2/3;
+                overflow: hidden;
+            }
+
+            .movie-poster img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.5s ease;
+            }
+
+            .movie-item:hover .movie-poster img {
+                transform: scale(1.1);
+            }
+
+            .movie-badge {
+                position: absolute;
+                top: 15px;
+                right: 15px;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                align-items: flex-end;
+            }
+
+            .rating {
+                background: rgba(0, 0, 0, 0.8);
+                color: #ffd700;
+                padding: 6px 10px;
+                border-radius: 20px;
+                font-size: 0.85rem;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+
+            .new-tag {
+                background: linear-gradient(135deg, #ff416c, #ff4b2b);
+                color: white;
+                font-size: 0.75rem;
+                padding: 5px 10px;
+                border-radius: 12px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                animation: newPulse 2s infinite;
+            }
+
+            @keyframes newPulse {
+                0%, 100% { transform: scale(1); }
+                50% { transform: scale(1.05); }
+            }
+
+            .movie-info {
+                padding: 20px;
+            }
+
+            .movie-title {
+                font-size: 1.1rem;
+                font-weight: 600;
+                margin-bottom: 10px;
+                color: #ffffff;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                height: 2.8em;
+                line-height: 1.4em;
+            }
+
+            .movie-meta {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 0.9rem;
+                color: #a0a0a0;
+            }
+
+            .quality {
+                background: rgba(229, 9, 20, 0.2);
+                color: #ff6b6b;
+                padding: 4px 10px;
+                border-radius: 12px;
+                font-weight: 600;
+                border: 1px solid rgba(229, 9, 20, 0.3);
+            }
+
+            /* ===== BOTONES DEL CARRUSEL ===== */
+            .carrusel-btn {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background: rgba(229, 9, 20, 0.9);
+                border: none;
+                color: white;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 0.3s ease;
+                z-index: 10;
+                box-shadow: 0 5px 15px rgba(229, 9, 20, 0.3);
+            }
+
+            .carrusel-btn:hover {
+                background: #e50914;
+                transform: translateY(-50%) scale(1.1);
+                box-shadow: 0 8px 25px rgba(229, 9, 20, 0.4);
+            }
+
+            .carrusel-btn.prev {
+                left: 0;
+            }
+
+            .carrusel-btn.next {
+                right: 0;
+            }
+
+            .carrusel-btn svg {
+                width: 24px;
+                height: 24px;
+                fill: white;
+            }
+
+            /* ===== NOTIFICACIONES ===== */
+            .rt-notification {
+                position: fixed;
+                top: 30px;
+                right: 30px;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 15px 25px;
+                border-radius: 15px;
+                box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+                z-index: 10000;
+                transform: translateX(120%);
+                opacity: 0;
+                transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55), opacity 0.3s ease;
+                max-width: 350px;
+            }
+
+            .rt-notification.show {
+                transform: translateX(0);
+                opacity: 1;
+            }
+
+            .rt-content {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .rt-icon {
+                font-size: 1.5rem;
+                animation: spin 1s linear infinite;
+            }
+
+            @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+
+            .rt-text {
+                font-weight: 600;
+                font-size: 0.95rem;
+            }
+
+            .rt-time {
+                font-size: 0.85rem;
+                opacity: 0.9;
+                margin-left: auto;
+            }
+
+            /* ===== ESTADOS DE CARGA ===== */
+            .loading-state {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 60px 20px;
+                text-align: center;
+            }
+
+            .loading-spinner {
+                width: 50px;
+                height: 50px;
+                border: 4px solid rgba(229, 9, 20, 0.2);
+                border-top: 4px solid #e50914;
+                border-radius: 50%;
+                animation: spin 1s linear infinite;
+                margin-bottom: 20px;
+            }
+
+            .error-state {
+                background: rgba(229, 9, 20, 0.1);
+                border: 2px solid rgba(229, 9, 20, 0.3);
+                border-radius: 15px;
+                padding: 30px;
+                text-align: center;
+                margin: 20px 0;
+            }
+
+            .error-state i {
+                font-size: 3rem;
+                color: #e50914;
+                margin-bottom: 15px;
+            }
+
+            /* ===== RESPONSIVE ===== */
+            @media (max-width: 1200px) {
+                .movies-scroller {
+                    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+                    gap: 20px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .section-title-container {
+                    flex-direction: column;
+                    gap: 15px;
+                    text-align: center;
+                    padding: 15px;
+                }
+
+                .section-title {
+                    font-size: 1.8rem;
+                }
+
+                .status-info {
+                    align-items: center;
+                }
+
+                .carrusel-contenedor {
+                    padding: 0 40px;
+                }
+
+                .movies-scroller {
+                    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+                    gap: 15px;
+                }
+
+                .carrusel-btn {
+                    width: 40px;
+                    height: 40px;
+                }
+
+                .movie-info {
+                    padding: 15px;
+                }
+
+                .rt-notification {
+                    top: 20px;
+                    right: 20px;
+                    left: 20px;
+                    max-width: none;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .movies-scroller {
+                    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+                    gap: 12px;
+                }
+
+                .carrusel-contenedor {
+                    padding: 0 35px;
+                }
+
+                .movie-title {
+                    font-size: 1rem;
+                }
+
+                .movie-meta {
+                    font-size: 0.8rem;
+                }
+            }
+
+            /* ===== EFECTOS ESPECIALES ===== */
+            .movie-item::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 3px;
+                background: linear-gradient(90deg, transparent, #e50914, transparent);
+                transform: scaleX(0);
+                transition: transform 0.3s ease;
+            }
+
+            .movie-item:hover::before {
+                transform: scaleX(1);
+            }
+
+            .scroll-progress {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 0%;
+                height: 3px;
+                background: linear-gradient(90deg, #e50914, #ff6b6b);
+                z-index: 10001;
+                transition: width 0.3s ease;
+            }
+        `;
+        
+        const style = document.createElement('style');
+        style.textContent = styles;
+        document.head.appendChild(style);
+        
+        // Añadir barra de progreso de scroll
+        const progressBar = document.createElement('div');
+        progressBar.className = 'scroll-progress';
+        document.body.appendChild(progressBar);
+        
+        // Actualizar barra de progreso
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            progressBar.style.width = scrolled + '%';
+        });
+    }
+
+    // ============================
+    // INICIALIZACIÓN DE WORKERS
+    // ============================
     function initWorkers() {
-        if (window.Worker) {
-            // Worker para fetching
-            fetchWorker = new Worker(URL.createObjectURL(new Blob([`
-                self.onmessage = async function(e) {
-                    const { url, cacheBuster } = e.data;
-                    
-                    try {
-                        const controller = new AbortController();
-                        const timeoutId = setTimeout(() => controller.abort(), 5000);
+        try {
+            if (window.Worker) {
+                // Worker para fetching de datos
+                const fetchWorkerCode = `
+                    self.onmessage = async function(e) {
+                        const { url, cacheBuster } = e.data;
                         
-                        const response = await fetch(url + cacheBuster, {
-                            signal: controller.signal,
-                            cache: 'no-store',
-                            headers: {
-                                'X-Requested-With': 'XMLHttpRequest'
+                        try {
+                            const controller = new AbortController();
+                            const timeoutId = setTimeout(() => controller.abort(), 5000);
+                            
+                            const response = await fetch(url + cacheBuster, {
+                                signal: controller.signal,
+                                cache: 'no-store',
+                                headers: {
+                                    'X-Requested-With': 'XMLHttpRequest'
+                                }
+                            });
+                            
+                            clearTimeout(timeoutId);
+                            
+                            if (!response.ok) {
+                                throw new Error('HTTP ' + response.status);
                             }
-                        });
-                        
-                        clearTimeout(timeoutId);
-                        
-                        if (!response.ok) throw new Error('HTTP ' + response.status);
-                        
-                        const text = await response.text();
-                        const etag = response.headers.get('ETag') || '';
-                        const lastModified = response.headers.get('Last-Modified') || '';
-                        
-                        // Extraer solo el array JSON eficientemente
-                        const start = text.indexOf('[');
-                        const end = text.lastIndexOf(']') + 1;
-                        const jsonStr = text.substring(start, end);
-                        
-                        self.postMessage({
-                            success: true,
-                            data: jsonStr,
-                            etag,
-                            lastModified
-                        });
-                    } catch (error) {
-                        self.postMessage({
-                            success: false,
-                            error: error.message
-                        });
-                    }
-                };
-            `], { type: 'application/javascript' })));
-
-            // Worker para comparación de datos
-            diffWorker = new Worker(URL.createObjectURL(new Blob([`
-                function calculateHash(str) {
-                    let hash = 5381;
-                    for (let i = 0; i < str.length; i++) {
-                        hash = (hash << 5) + hash + str.charCodeAt(i);
-                    }
-                    return hash;
-                }
+                            
+                            const text = await response.text();
+                            const etag = response.headers.get('ETag') || '';
+                            const lastModified = response.headers.get('Last-Modified') || '';
+                            
+                            // Extraer array JSON
+                            const start = text.indexOf('[');
+                            const end = text.lastIndexOf(']') + 1;
+                            
+                            if (start === -1 || end === 0) {
+                                throw new Error('Formato JSON inválido');
+                            }
+                            
+                            const jsonStr = text.substring(start, end);
+                            
+                            self.postMessage({
+                                success: true,
+                                data: jsonStr,
+                                etag,
+                                lastModified,
+                                timestamp: Date.now()
+                            });
+                        } catch (error) {
+                            self.postMessage({
+                                success: false,
+                                error: error.message,
+                                timestamp: Date.now()
+                            });
+                        }
+                    };
+                `;
                 
-                function extractNewMovies(oldMovies, newMovies, count = 20) {
-                    const oldIds = new Set(oldMovies.map(m => m.id));
-                    const newItems = newMovies.filter(m => !oldIds.has(m.id));
-                    
-                    return [
-                        ...newItems,
-                        ...newMovies.slice(0, count - newItems.length)
-                    ];
-                }
+                fetchWorker = new Worker(URL.createObjectURL(new Blob([fetchWorkerCode], { type: 'application/javascript' })));
                 
-                self.onmessage = function(e) {
-                    const { oldData, newData, type } = e.data;
-                    
-                    if (type === 'hash') {
-                        const hash = calculateHash(JSON.stringify(newData));
-                        self.postMessage({ hash });
-                    } else if (type === 'diff') {
-                        const newMovies = extractNewMovies(oldData, newData);
-                        self.postMessage({ newMovies });
+                // Worker para comparación de datos
+                const diffWorkerCode = `
+                    function calculateHash(str) {
+                        let hash = 5381;
+                        for (let i = 0; i < str.length; i++) {
+                            hash = (hash << 5) + hash + str.charCodeAt(i);
+                        }
+                        return hash;
                     }
-                };
-            `], { type: 'application/javascript' })));
+                    
+                    function extractNewMovies(oldMovies, newMovies, count = 20) {
+                        const oldIds = new Set(oldMovies.map(m => m.id || m.titulo));
+                        const newItems = newMovies.filter(m => !oldIds.has(m.id || m.titulo));
+                        
+                        return [
+                            ...newItems.slice(0, 5),
+                            ...newMovies.filter(m => oldIds.has(m.id || m.titulo)).slice(0, count - Math.min(newItems.length, 5))
+                        ];
+                    }
+                    
+                    self.onmessage = function(e) {
+                        const { oldData, newData, type } = e.data;
+                        
+                        try {
+                            if (type === 'hash') {
+                                const hash = calculateHash(JSON.stringify(newData));
+                                self.postMessage({ 
+                                    success: true, 
+                                    hash,
+                                    timestamp: Date.now()
+                                });
+                            } else if (type === 'diff') {
+                                const newMovies = extractNewMovies(oldData, newData, 20);
+                                self.postMessage({ 
+                                    success: true, 
+                                    newMovies,
+                                    newCount: newMovies.length,
+                                    timestamp: Date.now()
+                                });
+                            }
+                        } catch (error) {
+                            self.postMessage({
+                                success: false,
+                                error: error.message,
+                                timestamp: Date.now()
+                            });
+                        }
+                    };
+                `;
+                
+                diffWorker = new Worker(URL.createObjectURL(new Blob([diffWorkerCode], { type: 'application/javascript' })));
+                
+                console.log('✅ Workers inicializados correctamente');
+            }
+        } catch (error) {
+            console.warn('⚠️ No se pudieron inicializar los workers:', error);
+            fetchWorker = null;
+            diffWorker = null;
         }
     }
 
-    // Sistema de caché inteligente con IndexedDB
-    const DB_NAME = 'moviesCacheDB';
-    const DB_VERSION = 1;
-    const STORE_NAME = 'movies';
+    // ============================
+    // SISTEMA DE CACHÉ
+    // ============================
+    const DB_NAME = 'moviesCacheDB_v2';
+    const DB_VERSION = 2;
+    const STORE_NAME = 'movies_cache';
 
     async function initCacheDB() {
-        return new Promise((resolve, reject) => {
+        return new Promise((resolve) => {
             if (!window.indexedDB) {
+                console.log('ℹ️ IndexedDB no disponible, usando caché en memoria');
                 resolve(null);
                 return;
             }
 
             const request = indexedDB.open(DB_NAME, DB_VERSION);
             
-            request.onerror = () => resolve(null);
-            request.onsuccess = (e) => resolve(e.target.result);
+            request.onerror = () => {
+                console.warn('⚠️ Error al abrir IndexedDB');
+                resolve(null);
+            };
+            
+            request.onsuccess = (e) => {
+                console.log('✅ Base de datos de caché inicializada');
+                resolve(e.target.result);
+            };
             
             request.onupgradeneeded = (e) => {
                 const db = e.target.result;
                 if (!db.objectStoreNames.contains(STORE_NAME)) {
-                    db.createObjectStore(STORE_NAME, { keyPath: 'id' });
+                    const store = db.createObjectStore(STORE_NAME, { keyPath: 'id' });
+                    store.createIndex('timestamp', 'timestamp', { unique: false });
+                    console.log('🔄 Store de caché creado');
                 }
             };
         });
     }
 
     async function getCachedMovies() {
-        if (!window.indexedDB || !STATE.moviesCache) return null;
-        
-        const db = await initCacheDB();
-        if (!db) return null;
+        try {
+            const db = await initCacheDB();
+            if (!db) return null;
 
-        return new Promise((resolve) => {
-            const transaction = db.transaction([STORE_NAME], 'readonly');
-            const store = transaction.objectStore(STORE_NAME);
-            const request = store.getAll();
+            return new Promise((resolve) => {
+                const transaction = db.transaction([STORE_NAME], 'readonly');
+                const store = transaction.objectStore(STORE_NAME);
+                const request = store.getAll();
 
-            request.onsuccess = () => {
-                const movies = request.result;
-                if (movies.length > 0 && (Date.now() - STATE.cacheTime) < CONFIG.CACHE_DURATION) {
-                    resolve(movies);
-                } else {
-                    resolve(null);
-                }
-            };
-            
-            request.onerror = () => resolve(null);
-        });
+                request.onsuccess = () => {
+                    const movies = request.result;
+                    if (movies.length > 0) {
+                        const sortedMovies = movies
+                            .sort((a, b) => b.timestamp - a.timestamp)
+                            .slice(0, 20)
+                            .map(m => m.data);
+                        
+                        console.log(`📦 Cargadas ${sortedMovies.length} películas desde caché`);
+                        resolve(sortedMovies);
+                    } else {
+                        resolve(null);
+                    }
+                };
+                
+                request.onerror = () => resolve(null);
+            });
+        } catch (error) {
+            console.warn('⚠️ Error al obtener caché:', error);
+            return null;
+        }
     }
 
     async function cacheMovies(movies) {
-        if (!window.indexedDB) return;
+        try {
+            const db = await initCacheDB();
+            if (!db || !movies || !Array.isArray(movies)) return;
 
-        const db = await initCacheDB();
-        if (!db) return;
-
-        const transaction = db.transaction([STORE_NAME], 'readwrite');
-        const store = transaction.objectStore(STORE_NAME);
-        
-        // Limpiar cache anterior
-        store.clear();
-        
-        // Almacenar nuevas películas
-        movies.forEach(movie => {
-            store.put({ ...movie, _cachedAt: Date.now() });
-        });
-        
-        STATE.cacheTime = Date.now();
+            const transaction = db.transaction([STORE_NAME], 'readwrite');
+            const store = transaction.objectStore(STORE_NAME);
+            
+            // Limpiar cache antiguo (más de 7 días)
+            const sevenDaysAgo = Date.now() - (7 * 24 * 60 * 60 * 1000);
+            const index = store.index('timestamp');
+            const range = IDBKeyRange.upperBound(sevenDaysAgo);
+            
+            index.openCursor(range).onsuccess = function(e) {
+                const cursor = e.target.result;
+                if (cursor) {
+                    store.delete(cursor.primaryKey);
+                    cursor.continue();
+                }
+            };
+            
+            // Guardar nuevas películas
+            movies.forEach((movie, index) => {
+                const movieData = {
+                    id: `movie_${Date.now()}_${index}`,
+                    data: movie,
+                    timestamp: Date.now(),
+                    addedDate: movie.addedDate || new Date().toISOString()
+                };
+                store.put(movieData);
+            });
+            
+            STATE.cacheTime = Date.now();
+            console.log(`💾 ${movies.length} películas guardadas en caché`);
+        } catch (error) {
+            console.warn('⚠️ Error al guardar en caché:', error);
+        }
     }
 
-    // Fetch optimizado con múltiples estrategias
+    // ============================
+    // FUNCIONES PRINCIPALES
+    // ============================
     async function fetchMoviesOptimized() {
-        // 1. Intentar desde caché rápido
+        // Intentar primero desde caché
         const cached = await getCachedMovies();
         if (cached && !STATE.isUpdating) {
             processMoviesData(cached, true);
         }
 
-        // 2. Fetch principal con prioridad
+        // Luego obtener datos frescos
         return fetchWithPriority();
     }
 
     async function fetchWithPriority() {
+        if (STATE.isUpdating) {
+            console.log('⏳ Ya hay una actualización en curso');
+            return null;
+        }
+
         STATE.isUpdating = true;
-        
+        showLoadingState(true);
+
         try {
             // Usar Worker si está disponible
             if (fetchWorker) {
-                return new Promise((resolve) => {
+                return await new Promise((resolve) => {
                     const cacheBuster = `?v=${Date.now()}&_=${performance.now()}`;
-                    
-                    fetchWorker.onmessage = (e) => {
+                    let workerTimeout = null;
+
+                    const handleWorkerResponse = (e) => {
+                        if (workerTimeout) clearTimeout(workerTimeout);
+                        
                         if (e.data.success) {
                             try {
                                 const movies = JSON.parse(e.data.data);
                                 const sorted = sortMovies(movies);
                                 resolve({ movies: sorted, etag: e.data.etag });
                             } catch (parseError) {
+                                console.error('❌ Error parsing JSON:', parseError);
                                 resolve(fetchFallback());
                             }
                         } else {
+                            console.warn('⚠️ Worker fetch failed:', e.data.error);
                             resolve(fetchFallback());
                         }
+                        
+                        fetchWorker.onmessage = null;
                     };
-                    
+
+                    fetchWorker.onmessage = handleWorkerResponse;
                     fetchWorker.postMessage({
                         url: MOVIES_FILE,
                         cacheBuster
                     });
-                    
+
                     // Timeout para el worker
-                    setTimeout(() => resolve(fetchFallback()), CONFIG.CONNECTION_TIMEOUT);
+                    workerTimeout = setTimeout(() => {
+                        fetchWorker.onmessage = null;
+                        console.log('⏱️ Worker timeout, usando fallback');
+                        resolve(fetchFallback());
+                    }, CONFIG.CONNECTION_TIMEOUT);
                 });
             } else {
                 return await fetchFallback();
             }
+        } catch (error) {
+            console.error('❌ Error en fetchWithPriority:', error);
+            return null;
         } finally {
             STATE.isUpdating = false;
+            showLoadingState(false);
         }
     }
 
     async function fetchFallback() {
-        const cacheBuster = `?v=${Date.now()}&_=${performance.now()}&priority=1`;
+        const cacheBuster = `?v=${Date.now()}&_=${performance.now()}&fallback=1`;
         
         try {
             const controller = new AbortController();
@@ -3956,7 +4598,9 @@
             
             clearTimeout(timeoutId);
             
-            if (!response.ok) throw new Error('HTTP ' + response.status);
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}`);
+            }
             
             const text = await response.text();
             const jsonMatch = text.match(/\[[\s\S]*\]/);
@@ -3966,111 +4610,164 @@
                 const sorted = sortMovies(movies);
                 const etag = response.headers.get('ETag') || '';
                 
+                console.log(`✅ ${sorted.length} películas cargadas via fallback`);
                 return { movies: sorted, etag };
+            } else {
+                throw new Error('Formato JSON no encontrado');
             }
         } catch (error) {
-            console.warn('Fetch fallback failed:', error);
+            console.error('❌ Error en fetchFallback:', error);
+            showErrorState('Error al cargar películas');
+            return null;
         }
-        
-        return null;
     }
 
     function sortMovies(movies) {
-        // Ordenar eficientemente
+        if (!Array.isArray(movies)) return [];
+        
         return movies
+            .filter(movie => movie && movie.titulo)
             .sort((a, b) => {
-                const dateA = a.addedDate ? new Date(a.addedDate) : new Date(0);
-                const dateB = b.addedDate ? new Date(b.addedDate) : new Date(0);
+                const dateA = a.addedDate ? new Date(a.addedDate).getTime() : 0;
+                const dateB = b.addedDate ? new Date(b.addedDate).getTime() : 0;
                 return dateB - dateA;
             })
-            .slice(0, 20);
+            .slice(0, 20)
+            .map(movie => ({
+                ...movie,
+                addedDate: movie.addedDate || new Date().toISOString()
+            }));
     }
 
-    // Renderizado ultra-rápido con Virtual DOM ligero
+    // ============================
+    // RENDERIZADO
+    // ============================
     function renderMovies(movies, fromCache = false) {
         const container = document.getElementById(CONTAINER_ID);
-        if (!container || !movies || movies.length === 0) return;
+        if (!container) {
+            console.error(`❌ Contenedor #${CONTAINER_ID} no encontrado`);
+            return;
+        }
         
-        // Usar requestAnimationFrame para renderizado suave
+        if (!movies || !Array.isArray(movies) || movies.length === 0) {
+            showErrorState('No hay películas disponibles');
+            return;
+        }
+
         requestAnimationFrame(() => {
-            // Comparación rápida de contenido
             const currentContent = container.innerHTML;
             const newContent = generateHTML(movies, fromCache);
             
             if (currentContent !== newContent) {
-                // Aplicar con transición optimizada
-                container.style.opacity = '0.8';
+                // Animación de transición
+                container.style.opacity = '0.7';
+                container.style.transform = 'translateY(10px)';
                 
                 requestAnimationFrame(() => {
                     container.innerHTML = newContent;
                     
                     requestAnimationFrame(() => {
                         container.style.opacity = '1';
-                        container.style.transition = 'opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1)';
+                        container.style.transform = 'translateY(0)';
+                        container.style.transition = 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)';
+                        
+                        setupCarouselControls();
                         
                         if (!fromCache) {
-                            showRealTimeNotification();
+                            showRealTimeNotification(movies.length);
                             cacheMovies(movies);
+                            STATE.totalUpdates++;
+                            STATE.lastUpdateTime = new Date();
+                            updateStatusInfo();
                         }
+                        
+                        // Inicializar lazy loading
+                        initLazyLoading();
                     });
                 });
+            } else {
+                updateStatusInfo();
             }
         });
     }
 
     function generateHTML(movies, fromCache = false) {
-        const timestamp = new Date().toLocaleTimeString([], { 
+        const timestamp = new Date().toLocaleTimeString('es-ES', { 
             hour: '2-digit', 
             minute: '2-digit',
             second: '2-digit'
         });
         
+        const dateStr = new Date().toLocaleDateString('es-ES', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+        
         return `
             <div class="section-title-container">
                 <h2 class="section-title">
-                    Añadido Recientemente 
+                    🎬 Añadido Recientemente
                     <span class="live-indicator">
                         <span class="pulse-dot"></span>
                         <span class="pulse-ring"></span>
-                        TIEMPO REAL
+                        EN VIVO
                     </span>
                 </h2>
                 <div class="status-info">
-                    <span class="update-time" data-timestamp="${Date.now()}">
-                        ${fromCache ? '🔄 CACHÉ' : '🟢 EN VIVO'} • ${timestamp}
-                    </span>
-                    <span class="connection-speed">${STATE.connectionSpeed}</span>
+                    <div class="update-time">
+                        <i class="fas fa-clock"></i>
+                        <span class="time-text">${fromCache ? '🔄 CACHÉ' : '🟢 ACTUALIZADO'}</span>
+                        <span class="time-value">${timestamp}</span>
+                    </div>
+                    <div class="connection-speed">
+                        <i class="fas fa-bolt"></i>
+                        ${STATE.connectionSpeed.toUpperCase()}
+                    </div>
                 </div>
             </div>
+            
             <div class="carrusel-contenedor">
-                <button class="carrusel-btn prev" aria-label="Anterior">
+                <button class="carrusel-btn prev" aria-label="Películas anteriores">
                     <svg width="24" height="24" viewBox="0 0 24 24">
                         <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"/>
                     </svg>
                 </button>
+                
                 <div class="movies-scroller">
-                    ${movies.map(movie => `
-                        <div class="movie-item" data-id="${movie.id}" data-added="${movie.addedDate || ''}">
-                            <a href="detalles.html?id=${movie.id}" class="movie-link">
+                    ${movies.map((movie, index) => `
+                        <div class="movie-item" data-id="${movie.id || index}" 
+                             data-added="${movie.addedDate || ''}"
+                             data-index="${index}">
+                            <a href="${movie.link || 'detalles.html?id=' + (movie.id || index)}" 
+                               class="movie-link"
+                               target="_blank"
+                               rel="noopener">
                                 <div class="movie-poster">
                                     <img 
-                                        src="${movie.poster}" 
+                                        src="${movie.poster || 'https://via.placeholder.com/200x300/2d2d2d/ffffff?text=NO+IMAGE'}" 
                                         alt="${movie.titulo}"
                                         loading="lazy"
                                         width="200"
                                         height="300"
-                                        onerror="this.src='data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 300\"><rect width=\"200\" height=\"300\" fill=\"%23222\"/></svg>'"
+                                        onerror="this.src='https://via.placeholder.com/200x300/2d2d2d/ffffff?text=ERROR'"
                                     >
                                     <div class="movie-badge">
-                                        <span class="rating">⭐ ${movie.calificacion || 'N/A'}</span>
+                                        <span class="rating">
+                                            <i class="fas fa-star"></i>
+                                            ${movie.calificacion || 'N/A'}
+                                        </span>
                                         ${movie.addedDate && Date.now() - new Date(movie.addedDate).getTime() < 3600000 ? 
-                                            '<span class="new-tag">NUEVO</span>' : ''}
+                                            '<span class="new-tag">¡NUEVO!</span>' : ''}
                                     </div>
                                 </div>
                                 <div class="movie-info">
-                                    <h3 class="movie-title">${movie.titulo}</h3>
+                                    <h3 class="movie-title" title="${movie.titulo}">
+                                        ${movie.titulo}
+                                    </h3>
                                     <div class="movie-meta">
-                                        <span>${movie.año}</span>
+                                        <span>${movie.año || 'N/A'}</span>
                                         <span class="quality">${movie.calidad || 'HD'}</span>
                                     </div>
                                 </div>
@@ -4078,72 +4775,278 @@
                         </div>
                     `).join('')}
                 </div>
-                <button class="carrusel-btn next" aria-label="Siguiente">
+                
+                <button class="carrusel-btn next" aria-label="Siguientes películas">
                     <svg width="24" height="24" viewBox="0 0 24 24">
                         <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
                     </svg>
                 </button>
             </div>
+            
+            <div class="stats-footer" style="
+                text-align: center;
+                margin-top: 20px;
+                color: #888;
+                font-size: 0.9rem;
+            ">
+                <span>🔄 ${STATE.totalUpdates} actualizaciones</span>
+                <span style="margin: 0 10px">•</span>
+                <span>🎬 ${movies.length} películas</span>
+                <span style="margin: 0 10px">•</span>
+                <span>📅 ${dateStr}</span>
+            </div>
         `;
     }
 
-    function showRealTimeNotification() {
-        // Notificación no intrusiva
+    // ============================
+    // CONTROLES DEL CARRUSEL
+    // ============================
+    function setupCarouselControls() {
+        const carrusel = document.querySelector('.carrusel-contenedor');
+        if (!carrusel) return;
+
+        const prevBtn = carrusel.querySelector('.carrusel-btn.prev');
+        const nextBtn = carrusel.querySelector('.carrusel-btn.next');
+        const scroller = carrusel.querySelector('.movies-scroller');
+
+        if (!prevBtn || !nextBtn || !scroller) return;
+
+        // Función para desplazamiento suave
+        const scrollTo = (direction) => {
+            const scrollAmount = 300;
+            const currentScroll = scroller.scrollLeft;
+            const newScroll = direction === 'next' 
+                ? currentScroll + scrollAmount
+                : currentScroll - scrollAmount;
+            
+            scroller.scrollTo({
+                left: newScroll,
+                behavior: 'smooth'
+            });
+        };
+
+        // Configurar eventos
+        prevBtn.addEventListener('click', () => scrollTo('prev'));
+        nextBtn.addEventListener('click', () => scrollTo('next'));
+
+        // Desplazamiento con rueda del ratón
+        scroller.addEventListener('wheel', (e) => {
+            if (e.deltaY !== 0) {
+                e.preventDefault();
+                scroller.scrollLeft += e.deltaY * 0.5;
+            }
+        });
+
+        // Touch/swipe para móviles
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        scroller.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+        });
+
+        scroller.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            const threshold = 50;
+            const difference = touchStartX - touchEndX;
+
+            if (Math.abs(difference) > threshold) {
+                if (difference > 0) {
+                    scrollTo('next'); // Swipe izquierda
+                } else {
+                    scrollTo('prev'); // Swipe derecha
+                }
+            }
+        }
+    }
+
+    // ============================
+    // NOTIFICACIONES Y ESTADOS
+    // ============================
+    function showRealTimeNotification(count) {
+        // Remover notificación anterior si existe
+        const existing = document.querySelector('.rt-notification');
+        if (existing) existing.remove();
+
         const notification = document.createElement('div');
         notification.className = 'rt-notification';
         notification.innerHTML = `
             <div class="rt-content">
                 <span class="rt-icon">⚡</span>
-                <span class="rt-text">Actualizado en tiempo real</span>
+                <span class="rt-text">¡${count} películas actualizadas!</span>
                 <span class="rt-time">${new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</span>
             </div>
         `;
         
         document.body.appendChild(notification);
         
-        // Animación de entrada/salida
         requestAnimationFrame(() => {
             notification.classList.add('show');
             
             setTimeout(() => {
                 notification.classList.remove('show');
-                setTimeout(() => notification.remove(), 300);
-            }, 2000);
+                setTimeout(() => {
+                    if (notification.parentNode) {
+                        notification.remove();
+                    }
+                }, 500);
+            }, CONFIG.NOTIFICATION_DURATION);
         });
     }
 
-    // Sistema de polling inteligente
+    function showLoadingState(show) {
+        const container = document.getElementById(CONTAINER_ID);
+        if (!container) return;
+
+        if (show) {
+            const loadingHTML = `
+                <div class="loading-state">
+                    <div class="loading-spinner"></div>
+                    <p style="color: #888; margin-top: 10px;">Cargando películas...</p>
+                </div>
+            `;
+            
+            if (!container.querySelector('.loading-state')) {
+                container.innerHTML = loadingHTML;
+            }
+        }
+    }
+
+    function showErrorState(message) {
+        const container = document.getElementById(CONTAINER_ID);
+        if (!container) return;
+
+        const errorHTML = `
+            <div class="error-state">
+                <i class="fas fa-exclamation-triangle"></i>
+                <h3 style="color: #ff6b6b; margin-bottom: 10px;">¡Oops!</h3>
+                <p>${message}</p>
+                <button onclick="window.MoviesRealTime.forceUpdate()" 
+                        style="
+                            background: #e50914;
+                            color: white;
+                            border: none;
+                            padding: 10px 20px;
+                            border-radius: 25px;
+                            margin-top: 15px;
+                            cursor: pointer;
+                            font-weight: 600;
+                        ">
+                    <i class="fas fa-sync-alt"></i> Reintentar
+                </button>
+            </div>
+        `;
+        
+        container.innerHTML = errorHTML;
+    }
+
+    function updateStatusInfo() {
+        const updateTime = document.querySelector('.update-time .time-value');
+        if (updateTime) {
+            const now = new Date();
+            updateTime.textContent = now.toLocaleTimeString([], {
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
+            });
+        }
+    }
+
+    // ============================
+    // LAZY LOADING
+    // ============================
+    function initLazyLoading() {
+        const images = document.querySelectorAll('.movie-poster img[loading="lazy"]');
+        if (!images.length) return;
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    img.src = img.dataset.src || img.src;
+                    observer.unobserve(img);
+                }
+            });
+        }, {
+            rootMargin: `${CONFIG.LAZY_LOAD_OFFSET}px`,
+            threshold: 0.1
+        });
+
+        images.forEach(img => {
+            if (img.dataset.src) {
+                observer.observe(img);
+            }
+        });
+    }
+
+    // ============================
+    // DETECCIÓN DE CONEXIÓN
+    // ============================
+    function detectConnectionSpeed() {
+        if (navigator.connection) {
+            const connection = navigator.connection;
+            
+            const updateSpeed = () => {
+                if (connection.effectiveType) {
+                    STATE.connectionSpeed = connection.effectiveType;
+                    
+                    const speedElement = document.querySelector('.connection-speed');
+                    if (speedElement) {
+                        speedElement.innerHTML = `
+                            <i class="fas fa-bolt"></i>
+                            ${STATE.connectionSpeed.toUpperCase()}
+                        `;
+                    }
+                }
+                
+                STATE.isOnline = navigator.onLine;
+            };
+            
+            updateSpeed();
+            connection.addEventListener('change', updateSpeed);
+        } else {
+            STATE.connectionSpeed = 'fast';
+        }
+    }
+
+    // ============================
+    // POLLING INTELIGENTE
+    // ============================
     function startIntelligentPolling() {
-        // Detectar velocidad de conexión
         detectConnectionSpeed();
         
-        // Polling adaptativo basado en múltiples factores
         const getPollingInterval = () => {
-            if (!STATE.isOnline) return 60000; // 1 minuto si offline
-            
+            if (!STATE.isOnline) return 60000;
             if (document.hidden) return CONFIG.POLLING_INTERVAL_IDLE;
             
-            // Ajustar según velocidad de conexión
             switch(STATE.connectionSpeed) {
-                case 'slow': return 30000;
-                case 'fast': return 10000;
-                case '4g': return 5000;
+                case 'slow': return 45000;
+                case '2g': return 30000;
+                case '3g': return 20000;
+                case '4g': return 15000;
                 default: return CONFIG.POLLING_INTERVAL_ACTIVE;
             }
         };
         
-        // Polling recursivo con ajuste dinámico
-        function poll() {
-            if (!STATE.isOnline || STATE.isUpdating) return;
+        async function poll() {
+            if (!STATE.isOnline || STATE.isUpdating) {
+                setTimeout(poll, 5000);
+                return;
+            }
             
-            const nextPoll = getPollingInterval();
+            const interval = getPollingInterval();
             
-            setTimeout(async () => {
-                if (!document.hidden) {
-                    await checkForUpdates();
-                }
-                poll();
-            }, nextPoll);
+            await new Promise(resolve => setTimeout(resolve, interval));
+            
+            if (!document.hidden || Math.random() < 0.3) {
+                await checkForUpdates();
+            }
+            
+            poll();
         }
         
         poll();
@@ -4154,23 +5057,24 @@
         
         try {
             const result = await fetchMoviesOptimized();
-            if (result) {
+            if (result && result.movies) {
                 processMoviesData(result.movies, false, result.etag);
                 STATE.retryCount = 0;
             }
         } catch (error) {
+            console.error('❌ Error en checkForUpdates:', error);
             STATE.retryCount++;
             
             if (STATE.retryCount <= CONFIG.MAX_RETRIES) {
-                setTimeout(() => checkForUpdates(true), CONFIG.RETRY_DELAY * STATE.retryCount);
+                const delay = CONFIG.RETRY_DELAY * Math.pow(2, STATE.retryCount - 1);
+                setTimeout(() => checkForUpdates(true), delay);
             }
         }
     }
 
     function processMoviesData(movies, fromCache = false, etag = '') {
-        if (!movies || movies.length === 0) return;
+        if (!movies || !Array.isArray(movies)) return;
         
-        // Detectar cambios rápidamente
         const moviesHash = calculateQuickHash(movies);
         
         if (moviesHash !== STATE.lastETag || fromCache) {
@@ -4180,13 +5084,18 @@
             if (!fromCache && etag) {
                 STATE.lastETag = etag;
             }
+        } else {
+            updateStatusInfo();
         }
     }
 
     function calculateQuickHash(data) {
-        // Hash ultra-rápido para comparación
         let hash = 0;
-        const str = JSON.stringify(data.slice(0, 3)); // Solo primeros 3 elementos
+        const str = JSON.stringify(data.slice(0, 5).map(m => ({
+            t: m.titulo,
+            d: m.addedDate
+        })));
+        
         for (let i = 0; i < str.length; i++) {
             hash = ((hash << 5) - hash) + str.charCodeAt(i);
             hash |= 0;
@@ -4194,352 +5103,147 @@
         return hash.toString(36);
     }
 
-    function detectConnectionSpeed() {
-        if (navigator.connection) {
-            const connection = navigator.connection;
-            STATE.connectionSpeed = connection.effectiveType || 'unknown';
-            
-            // Escuchar cambios en la conexión
-            connection.addEventListener('change', () => {
-                STATE.connectionSpeed = connection.effectiveType;
-                STATE.isOnline = navigator.onLine;
-            });
-        }
-    }
-
-    // Event listeners optimizados
+    // ============================
+    // EVENT LISTENERS
+    // ============================
     function setupEventListeners() {
-        // Online/offline detection
+        // Online/Offline
         window.addEventListener('online', () => {
             STATE.isOnline = true;
+            console.log('🌐 Conexión restablecida');
             checkForUpdates(true);
         });
         
         window.addEventListener('offline', () => {
             STATE.isOnline = false;
+            console.log('🔌 Sin conexión');
         });
         
-        // Page visibility
+        // Visibility change
         document.addEventListener('visibilitychange', () => {
             if (!document.hidden) {
-                // Verificar inmediatamente al volver
-                setTimeout(() => checkForUpdates(true), 500);
+                setTimeout(() => checkForUpdates(true), 1000);
             }
         });
         
         // Network status
-        window.addEventListener('load', () => {
-            // Usar Network Information API si está disponible
-            if (navigator.connection && navigator.connection.addEventListener) {
-                navigator.connection.addEventListener('change', detectConnectionSpeed);
-            }
+        if (navigator.connection) {
+            navigator.connection.addEventListener('change', detectConnectionSpeed);
+        }
+        
+        // Error handling global
+        window.addEventListener('error', (e) => {
+            console.error('⚠️ Error global:', e.error);
         });
         
-        // Carrusel interactivo
-        document.addEventListener('click', (e) => {
-            const carrusel = document.querySelector('.carrusel-contenedor');
-            if (!carrusel) return;
-            
-            if (e.target.closest('.carrusel-btn.prev')) {
-                const scroller = carrusel.querySelector('.movies-scroller');
-                scroller.scrollBy({ left: -300, behavior: 'smooth' });
-            } else if (e.target.closest('.carrusel-btn.next')) {
-                const scroller = carrusel.querySelector('.movies-scroller');
-                scroller.scrollBy({ left: 300, behavior: 'smooth' });
-            }
-        });
+        // Log initialization
+        console.log(`${APP_NAME} v${CONFIG.VERSION} inicializado`);
+        console.log(`📁 Archivo: ${MOVIES_FILE}`);
+        console.log(`📊 Intervalo: ${CONFIG.POLLING_INTERVAL_ACTIVE}ms (activo)`);
     }
 
-    // Inicialización
+    // ============================
+    // INICIALIZACIÓN
+    // ============================
     async function init() {
-        console.log('🚀 Iniciando sistema tiempo real ultra-rápido...');
+        console.log('🚀 Iniciando sistema de tiempo real...');
         
-        // 1. Inicializar componentes
-        initWorkers();
+        // 1. Inyectar estilos
+        injectOptimizedStyles();
+        
+        // 2. Verificar contenedor
+        const container = document.getElementById(CONTAINER_ID);
+        if (!container) {
+            console.error(`❌ No se encontró el contenedor #${CONTAINER_ID}`);
+            return;
+        }
+        
+        STATE.containerExists = true;
+        
+        // 3. Inicializar componentes
         setupEventListeners();
-        detectConnectionSpeed();
+        initWorkers();
         
-        // 2. Carga inicial desde caché (instantáneo)
+        // 4. Carga inicial desde caché
         const cachedMovies = await getCachedMovies();
         if (cachedMovies) {
             renderMovies(cachedMovies, true);
+            console.log('📦 Caché cargado correctamente');
+        } else {
+            showLoadingState(true);
         }
         
-        // 3. Carga en caliente de datos frescos
-        setTimeout(() => checkForUpdates(true), CONFIG.INITIAL_LOAD_DELAY);
+        // 5. Carga en caliente
+        setTimeout(() => {
+            checkForUpdates(true);
+            console.log('🔥 Datos frescos solicitados');
+        }, CONFIG.INITIAL_LOAD_DELAY);
         
-        // 4. Iniciar polling inteligente
+        // 6. Iniciar polling
         startIntelligentPolling();
+        console.log('🔄 Polling inteligente iniciado');
         
-        // 5. Prefetch para siguiente carga
+        // 7. Prefetch
         setTimeout(() => {
             fetch(MOVIES_FILE + '?prefetch=true', { priority: 'low' })
-                .catch(() => {}); // Ignorar errores en prefetch
+                .then(() => console.log('🔮 Prefetch completado'))
+                .catch(() => {});
         }, 3000);
-    }
-
-    // Inyectar estilos optimizados
-    function injectOptimizedStyles() {
-        const styles = `
-            .live-indicator {
-                display: inline-flex;
-                align-items: center;
-                gap: 8px;
-                font-size: 0.6em;
-                font-weight: 600;
-                color: #00ff88;
-                background: rgba(0, 255, 136, 0.1);
-                border: 1px solid rgba(0, 255, 136, 0.3);
-                padding: 4px 12px;
-                border-radius: 20px;
-                margin-left: 12px;
-                position: relative;
-                text-transform: uppercase;
-                letter-spacing: 0.5px;
-            }
-            
-            .pulse-dot {
-                width: 8px;
-                height: 8px;
-                background: #00ff88;
-                border-radius: 50%;
-                animation: pulse 1.5s ease-in-out infinite;
-            }
-            
-            .pulse-ring {
-                position: absolute;
-                width: 16px;
-                height: 16px;
-                border: 2px solid #00ff88;
-                border-radius: 50%;
-                animation: ring 2s linear infinite;
-                opacity: 0;
-            }
-            
-            @keyframes pulse {
-                0%, 100% { transform: scale(1); opacity: 1; }
-                50% { transform: scale(1.2); opacity: 0.8; }
-            }
-            
-            @keyframes ring {
-                0% { transform: scale(0.8); opacity: 0.8; }
-                100% { transform: scale(2); opacity: 0; }
-            }
-            
-            .status-info {
-                display: flex;
-                align-items: center;
-                gap: 10px;
-                font-size: 0.8em;
-                color: #888;
-            }
-            
-            .update-time {
-                font-family: 'Courier New', monospace;
-                background: #f5f5f5;
-                padding: 4px 8px;
-                border-radius: 4px;
-                font-size: 0.85em;
-            }
-            
-            .connection-speed {
-                background: #e3f2fd;
-                color: #1976d2;
-                padding: 2px 6px;
-                border-radius: 3px;
-                font-size: 0.75em;
-                font-weight: 600;
-            }
-            
-            .movies-scroller {
-                display: flex;
-                gap: 16px;
-                overflow-x: auto;
-                scroll-behavior: smooth;
-                scrollbar-width: thin;
-                scrollbar-color: #e50914 transparent;
-                padding: 8px 4px;
-            }
-            
-            .movies-scroller::-webkit-scrollbar {
-                height: 6px;
-            }
-            
-            .movies-scroller::-webkit-scrollbar-thumb {
-                background: #e50914;
-                border-radius: 3px;
-            }
-            
-            .movie-item {
-                flex: 0 0 auto;
-                width: 180px;
-                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            }
-            
-            .movie-item:hover {
-                transform: translateY(-8px) scale(1.03);
-                z-index: 10;
-            }
-            
-            .movie-poster {
-                position: relative;
-                border-radius: 8px;
-                overflow: hidden;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            }
-            
-            .movie-badge {
-                position: absolute;
-                top: 8px;
-                right: 8px;
-                display: flex;
-                flex-direction: column;
-                gap: 4px;
-                align-items: flex-end;
-            }
-            
-            .new-tag {
-                background: linear-gradient(135deg, #ff416c, #ff4b2b);
-                color: white;
-                font-size: 0.7em;
-                padding: 2px 6px;
-                border-radius: 3px;
-                font-weight: 600;
-                animation: glow 2s infinite;
-            }
-            
-            @keyframes glow {
-                0%, 100% { opacity: 1; }
-                50% { opacity: 0.7; }
-            }
-            
-            .rt-notification {
-                position: fixed;
-                top: 20px;
-                right: 20px;
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                color: white;
-                padding: 12px 20px;
-                border-radius: 10px;
-                box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);
-                z-index: 9999;
-                transform: translateX(120%) translateY(0);
-                opacity: 0;
-                transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-            }
-            
-            .rt-notification.show {
-                transform: translateX(0) translateY(0);
-                opacity: 1;
-            }
-            
-            .rt-content {
-                display: flex;
-                align-items: center;
-                gap: 10px;
-            }
-            
-            .rt-icon {
-                font-size: 1.2em;
-                animation: spin 1s linear infinite;
-            }
-            
-            @keyframes spin {
-                0% { transform: rotate(0deg); }
-                100% { transform: rotate(360deg); }
-            }
-            
-            .carrusel-btn {
-                background: rgba(229, 9, 20, 0.9);
-                border: none;
-                color: white;
-                width: 40px;
-                height: 40px;
-                border-radius: 50%;
-                cursor: pointer;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                transition: all 0.3s ease;
-                position: absolute;
-                top: 50%;
-                transform: translateY(-50%);
-                z-index: 2;
-            }
-            
-            .carrusel-btn:hover {
-                background: #e50914;
-                transform: translateY(-50%) scale(1.1);
-                box-shadow: 0 4px 15px rgba(229, 9, 20, 0.3);
-            }
-            
-            .carrusel-btn.prev {
-                left: -20px;
-            }
-            
-            .carrusel-btn.next {
-                right: -20px;
-            }
-            
-            .carrusel-btn svg {
-                fill: white;
-                width: 20px;
-                height: 20px;
-            }
-            
-            .carrusel-contenedor {
-                position: relative;
-            }
-            
-            @media (max-width: 768px) {
-                .carrusel-btn {
-                    width: 36px;
-                    height: 36px;
-                }
-                
-                .carrusel-btn.prev {
-                    left: -10px;
-                }
-                
-                .carrusel-btn.next {
-                    right: -10px;
-                }
-                
-                .movie-item {
-                    width: 150px;
-                }
-            }
-        `;
         
-        const style = document.createElement('style');
-        style.textContent = styles;
-        document.head.appendChild(style);
+        console.log('✅ Sistema inicializado correctamente');
     }
 
-    // Iniciar aplicación
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', () => {
-            injectOptimizedStyles();
-            init();
-        });
-    } else {
-        injectOptimizedStyles();
-        init();
-    }
-
-    // Exportar API pública
+    // ============================
+    // API PÚBLICA
+    // ============================
     window.MoviesRealTime = {
         forceUpdate: () => checkForUpdates(true),
+        
         getStatus: () => ({
             online: STATE.isOnline,
             speed: STATE.connectionSpeed,
             lastUpdate: STATE.lastETag,
-            cached: STATE.moviesCache ? STATE.moviesCache.length : 0
+            totalUpdates: STATE.totalUpdates,
+            isUpdating: STATE.isUpdating,
+            lastUpdateTime: STATE.lastUpdateTime,
+            version: CONFIG.VERSION
         }),
+        
         setPollingInterval: (interval) => {
-            CONFIG.POLLING_INTERVAL_ACTIVE = interval;
+            if (interval >= 5000) {
+                CONFIG.POLLING_INTERVAL_ACTIVE = interval;
+                console.log(`⚙️ Intervalo cambiado a ${interval}ms`);
+            }
+        },
+        
+        getMovies: async () => {
+            const cached = await getCachedMovies();
+            return cached || [];
+        },
+        
+        refreshCache: () => {
+            STATE.cacheTime = 0;
+            console.log('🗑️ Caché limpiado');
+        },
+        
+        debug: () => {
+            console.log('=== DEBUG INFO ===');
+            console.log('Estado:', STATE);
+            console.log('Config:', CONFIG);
+            console.log('Contenedor:', STATE.containerExists);
+            console.log('Workers:', { fetch: !!fetchWorker, diff: !!diffWorker });
         }
     };
+
+    // ============================
+    // INICIAR APLICACIÓN
+    // ============================
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+
 })();
 </script>
 </body>

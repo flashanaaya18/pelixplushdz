@@ -13148,6 +13148,65 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Welcome al Norte",
+    "titulo_original": "Welcome al Norte",
+    "poster": "https://image.tmdb.org/t/p/w500/vJl59tqLHGkhpy8GKjpP2kcMiiq.jpg",
+    "backdrop": "",
+    "descripcion": "",
+    "año": 2023,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Gustavo Loza",
+    "reparto": [
+      "Silverio Palacios",
+      "Isabel Burr",
+      "Rogelio Ojeda Gonzalez",
+      "Alfredo Gatica",
+      "Ricardo Abarca",
+      "Miguel Burra",
+      "Raquel Garza",
+      "Armando Hernández",
+      "Héctor Jiménez",
+      "Julian Nunez",
+      "Montserrat Pastrana",
+      "Amorita Rasgado"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "idioma": "ES",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-14T23:45:46.672545",
+    "tmdb_id": "1603142",
+    "popularidad": 0.25,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "113 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/eiqzg2y3ls54",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "welcome-al-norte-2023"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Y ella dijo quizás",
     "titulo_original": "She Said Maybe",
     "poster": "https://image.tmdb.org/t/p/w500/zxiL8i4fxhdFFwvfkTTahQCK7dT.jpg",
