@@ -5216,6 +5216,70 @@ const peliculas3 = [
     "plataforma": "Netflix"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "Gran Turismo",
+    "titulo_original": "Gran Turismo",
+    "poster": "https://image.tmdb.org/t/p/w500/tVj5dn15iwkMhjU2wIih1yMy5LK.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xFYpUmB01nswPgbzi8EOCT1ZYFu.jpg",
+    "descripcion": "Un adolescente jugaba a 'Gran Turismo', videojuego en el que ganó una serie de competiciones patrocinadas por Nissan, y le sirvió de trampolín para acabar convirtiéndose en un piloto de carreras profesional.",
+    "año": 2023,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "aventura",
+      "acción",
+      "drama"
+    ],
+    "generos_lista": [
+      "Aventura",
+      "Acción",
+      "Drama"
+    ],
+    "director": "Neill Blomkamp",
+    "reparto": [
+      "Archie Madekwe",
+      "David Harbour",
+      "Orlando Bloom",
+      "Djimon Hounsou",
+      "Darren Barnet",
+      "Maeve Courtier-Lilley",
+      "Geri Halliwell-Horner",
+      "Daniel Puig",
+      "Josha Stradowski",
+      "Thomas Kretschmann",
+      "Emelia Hartford",
+      "Pepe Barroso"
+    ],
+    "calificacion": 7.7,
+    "votos": 3218,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-15T16:26:37.201597",
+    "tmdb_id": "980489",
+    "popularidad": 8.12,
+    "tagline": "De jugador a corredor.",
+    "trailer": "https://www.youtube.com/watch?v=-WX29SFFRCY",
+    "trailer_key": "-WX29SFFRCY",
+    "success": true,
+    "duracion": "134 min",
+    "presupuesto": "$60,000,000",
+    "ingresos": "$121,700,000",
+    "plataforma": "Amazon Prime Video",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/zej5ycszkde1",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "gran-turismo-2023"
+  },
+  {
     "titulo": "Greyhawk",
     "titulo_original": "Chespirito: Sin querer queriendo",
     "descripcion": "La historia de Roberto Gómez Bolaños, el hombre que transformó su anhelo de hacer reír en un legado universal. Desde su infancia hasta su consagración en las décadas de los 50 a los 80, esta biografía íntima nos revela cómo un joven soñador encontró su lugar en la naciente industria televisiva, creando personajes inolvidables cargados de ternura y humor. Pero detrás del genio que hizo reír al mundo entero, hubo también un ser humano en constante búsqueda de amor y reconocimiento, dispuesto a sacrificarlo todo por permanecer en el corazón de su audiencia.",
@@ -9284,6 +9348,68 @@ const peliculas3 = [
       }
     ],
     "id": "criminales-a-la-vista-2023"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Monster High: Un viaje la mar de monstruoso",
+    "titulo_original": "Monster High: Great Scarrier Reef",
+    "poster": "https://image.tmdb.org/t/p/w500/iaMOSySHSfwZwMUQ9URqpaWoBUD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/w690FKJNicYzAuIrt2X9uJS6cf0.jpg",
+    "descripcion": "Únete a las Monster High en una nueva aventura acúatica cuando se sumergen en las profundas y cristalinas aguas azules de Great Scarrier Reef. Cuando las chicas son empujadas a la pileta escolar, se verán transportadas a un mundo de corales y flores - un salvaje mundo de fantasía debajo del agua!",
+    "año": 2016,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "familia",
+      "animación"
+    ],
+    "generos_lista": [
+      "Familia",
+      "Animación"
+    ],
+    "director": "William Lau",
+    "reparto": [
+      "Larissa Gallagher",
+      "Kate Higgins",
+      "Debi Derryberry",
+      "Salli Saffioti",
+      "America Young",
+      "Evan Smith",
+      "Lyndsy Kail",
+      "Rachel Staman",
+      "Cherami Leigh",
+      "Paula Rhodes",
+      "Piotr Michael",
+      "Erin Fitzgerald"
+    ],
+    "calificacion": 7.8,
+    "votos": 119,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-15T16:29:18.530187",
+    "tmdb_id": "382581",
+    "popularidad": 4.11,
+    "tagline": "¡No creerás lo que te espera bajo las olas!",
+    "trailer": "https://www.youtube.com/watch?v=UYznVN24r7E",
+    "trailer_key": "UYznVN24r7E",
+    "success": true,
+    "duracion": "69 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "Amazon Prime Video",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/khneliwl4tqt",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "monster-high-un-viaje-la-mar-de-monstruoso-2016"
   },
   {
     "tipo": "pelicula",

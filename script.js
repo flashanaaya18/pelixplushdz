@@ -605,6 +605,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         'accion': '🛡️Acción🛡️',
         'drama': '🍿Drama🍿',
         'terror': '👻Terror👻',
+        'crimen': '🕵️Crimen🕵️',
         'comedia': '😂Comedia😂',
         'romance': '❤️Romance❤️',
         'ciencia-ficcion': '🤖 Ciencia Ficción',
@@ -1279,7 +1280,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             if (!peliculasDeSeccion || peliculasDeSeccion.length === 0) {
                 console.log(`No hay películas para la sección: ${idSeccion}`);
-                contenedor.style.display = 'none';
+                // Solo ocultar si está vacío (para no ocultar contenido cargado por TMDB en index.html)
+                if (contenedor.children.length === 0) {
+                    contenedor.style.display = 'none';
+                }
                 continue;
             }
 

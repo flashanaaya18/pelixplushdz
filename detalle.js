@@ -207,6 +207,7 @@ async function initDetalle() {
                 if (localMatch) {
                     movie.fuentes = localMatch.fuentes;
                     movie.temporadas = localMatch.temporadas;
+                    movie.idioma = localMatch.idioma;
                 }
             }
         }
@@ -470,6 +471,10 @@ function displayMovieDetails(movie) {
     }
     if (movie.director) {
         metaHTML += `<span>Director: ${movie.director}</span>`;
+    }
+    if (movie.idioma) {
+        const idioma = String(movie.idioma).split(',').map(lang => lang.trim().charAt(0).toUpperCase() + lang.trim().slice(1)).join(', ');
+        metaHTML += `<span><i class="fas fa-language"></i> ${idioma}</span>`;
     }
     metaEl.innerHTML = metaHTML;
 
