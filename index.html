@@ -2736,6 +2736,146 @@
     <script src="script.js?v=4"></script>
     <script src="top-series.js"></script>
 
+    <!-- TMDB Categories Loader -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const TMDB_API_KEY = '9869fab7c867e72214c8628c6029ec74'; // Using the key found in the file
+            const BASE_URL = 'https://api.themoviedb.org/3';
+            const IMG_URL = 'https://image.tmdb.org/t/p/w300';
+
+            const sectionsConfig = [
+                { id: 'episodios-recientes', title: 'Episodios Recientes', endpoint: '/tv/on_the_air', type: 'tv' },
+                { id: 'lanzamientos-recientes', title: 'Estrenos de Cine', endpoint: '/movie/now_playing', type: 'movie' },
+                { id: 'series', title: 'Series Populares', endpoint: '/tv/popular', type: 'tv' },
+                { id: 'proximamente', title: 'Próximamente en Cines', endpoint: '/movie/upcoming', type: 'movie', params: '&region=US' },
+                { id: 'top-mejores-series', title: 'Series Mejor Valoradas', endpoint: '/tv/top_rated', type: 'tv' },
+                { id: 'todo-lo-nuevo-2025', title: 'Lo Nuevo 2025', endpoint: '/discover/movie', params: '&primary_release_year=2025&sort_by=popularity.desc', type: 'movie' },
+                { id: 'todo-lo-nuevo-2026', title: 'Lo Nuevo 2026', endpoint: '/discover/movie', params: '&primary_release_year=2026&sort_by=popularity.desc', type: 'movie' },
+                { id: 'accion', title: 'Acción', endpoint: '/discover/movie', params: '&with_genres=28&sort_by=popularity.desc', type: 'movie' },
+                { id: 'terror', title: 'Terror', endpoint: '/discover/movie', params: '&with_genres=27&sort_by=popularity.desc', type: 'movie' },
+                { id: 'suspenso', title: 'Suspenso', endpoint: '/discover/movie', params: '&with_genres=53&sort_by=popularity.desc', type: 'movie' },
+                { id: 'comedia', title: 'Comedia', endpoint: '/discover/movie', params: '&with_genres=35&sort_by=popularity.desc', type: 'movie' },
+                { id: 'aventura', title: 'Aventura', endpoint: '/discover/movie', params: '&with_genres=12&sort_by=popularity.desc', type: 'movie' },
+                { id: 'drama', title: 'Drama', endpoint: '/discover/movie', params: '&with_genres=18&sort_by=popularity.desc', type: 'movie' },
+                { id: 'ciencia-ficcion', title: 'Ciencia Ficción', endpoint: '/discover/movie', params: '&with_genres=878&sort_by=popularity.desc', type: 'movie' },
+                { id: 'romance', title: 'Romance', endpoint: '/discover/movie', params: '&with_genres=10749&sort_by=popularity.desc', type: 'movie' },
+                { id: 'documental', title: 'Documentales', endpoint: '/discover/movie', params: '&with_genres=99&sort_by=popularity.desc', type: 'movie' },
+                { id: 'anime', title: 'Anime', endpoint: '/discover/tv', params: '&with_genres=16&with_original_language=ja&sort_by=popularity.desc', type: 'tv' },
+                { id: 'marvel', title: 'Universo Marvel', endpoint: '/discover/movie', params: '&with_companies=420&sort_by=release_date.desc', type: 'movie' },
+                { id: 'DC', title: 'Universo DC', endpoint: '/discover/movie', params: '&with_companies=128064&sort_by=release_date.desc', type: 'movie' },
+                { id: 'senor-de-los-anillos', title: 'El Señor de los Anillos', endpoint: '/collection/119', type: 'movie', isCollection: true }
+            ];
+
+            async function fetchAndRenderSection(config) {
+                const container = document.getElementById(config.id);
+                if (!container) return;
+
+                // Evitar duplicar contenido si ya existe (por si acaso)
+                if (container.children.length > 0) return;
+
+                let url = `${BASE_URL}${config.endpoint}?api_key=${TMDB_API_KEY}&language=es-ES${config.params || ''}`;
+
+                try {
+                    const response = await fetch(url);
+                    const data = await response.json();
+                    let results = [];
+
+                    if (config.isCollection) {
+                        results = data.parts || [];
+                        // Ordenar colecciones por fecha de lanzamiento
+                        results.sort((a, b) => new Date(a.release_date) - new Date(b.release_date));
+                    } else {
+                        results = data.results || [];
+                    }
+
+                    if (results.length === 0) {
+                        container.style.display = 'none';
+                        return;
+                    }
+
+                    // Crear estructura HTML
+                    const header = document.createElement('div');
+                    header.className = 'section-title-container';
+                    header.innerHTML = `<h2 class="section-title">${config.title}</h2>`;
+
+                    const carouselContainer = document.createElement('div');
+                    carouselContainer.className = 'carrusel-contenedor';
+                    carouselContainer.style.position = 'relative';
+
+                    const btnLeft = document.createElement('button');
+                    btnLeft.className = 'carrusel-flecha izquierda';
+                    btnLeft.innerHTML = '&#10094;';
+                    btnLeft.setAttribute('aria-label', 'Anterior');
+
+                    const grid = document.createElement('div');
+                    // Usamos estilos inline para asegurar el comportamiento de carrusel horizontal
+                    grid.className = 'movie-grid';
+                    grid.style.display = 'flex';
+                    grid.style.gap = '15px';
+                    grid.style.overflowX = 'auto';
+                    grid.style.paddingBottom = '15px';
+                    grid.style.scrollBehavior = 'smooth';
+                    grid.style.scrollbarWidth = 'none'; // Firefox
+                    
+                    const btnRight = document.createElement('button');
+                    btnRight.className = 'carrusel-flecha derecha';
+                    btnRight.innerHTML = '&#10095;';
+                    btnRight.setAttribute('aria-label', 'Siguiente');
+
+                    results.forEach(item => {
+                        // Filtrar items sin imagen para mantener calidad visual
+                        if (!item.poster_path) return;
+
+                        const title = item.title || item.name;
+                        const poster = `${IMG_URL}${item.poster_path}`;
+                        const date = item.release_date || item.first_air_date || 'N/A';
+                        const year = date.split('-')[0];
+                        const rating = item.vote_average ? item.vote_average.toFixed(1) : 'N/A';
+                        const mediaType = config.type === 'movie' ? 'Película' : 'Serie';
+                        
+                        // Enlace a detalles.html pasando ID de TMDB
+                        const link = `detalles.html?tmdb=${item.id}&type=${config.type}`;
+
+                        const card = document.createElement('div');
+                        card.className = 'movie-card';
+                        card.style.flex = '0 0 160px'; // Ancho fijo para el carrusel
+                        
+                        card.innerHTML = `
+                            <a href="${link}" class="card-link" style="text-decoration:none; color:inherit;">
+                                <div class="card-head">
+                                    <img src="${poster}" alt="${title}" loading="lazy" style="width:100%; height:240px; object-fit:cover; border-radius:8px;">
+                                    <div class="rating-badge"><i class="fas fa-star"></i> ${rating}</div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title" style="font-size:0.9rem; margin:5px 0;">${title}</h3>
+                                    <div class="card-info" style="font-size:0.8rem; color:#aaa; display:flex; justify-content:space-between;">
+                                        <span>${year}</span>
+                                        <span>${mediaType}</span>
+                                    </div>
+                                </div>
+                            </a>
+                        `;
+                        grid.appendChild(card);
+                    });
+
+                    carouselContainer.append(btnLeft, grid, btnRight);
+                    container.append(header, carouselContainer);
+
+                    // Eventos de Scroll
+                    const scrollAmount = 500;
+                    btnLeft.addEventListener('click', () => grid.scrollBy({ left: -scrollAmount, behavior: 'smooth' }));
+                    btnRight.addEventListener('click', () => grid.scrollBy({ left: scrollAmount, behavior: 'smooth' }));
+
+                } catch (error) {
+                    console.error(`Error cargando sección ${config.id}:`, error);
+                }
+            }
+
+            // Iniciar carga de secciones
+            sectionsConfig.forEach(config => fetchAndRenderSection(config));
+        });
+    </script>
+
     <!-- UI Interactions - CÓDIGO CORREGIDO -->
     <script>
         // ========== SISTEMA DE ACCESO COMPLETO ==========

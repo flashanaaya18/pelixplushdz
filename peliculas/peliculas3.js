@@ -2304,6 +2304,68 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Contigo, todo",
+    "titulo_original": "All of You",
+    "poster": "https://image.tmdb.org/t/p/w500/6CsET5hb7y9eUYwcJJgZSwsN6qA.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/yGsEsHlc81Q1i9Z3yoVv394PrlG.jpg",
+    "descripcion": "Laura y Simon son amigos desde la universidad. Con los años, comprenden que lo suyo es más que amistad. ¿Pueden arriesgarlo todo por un amor que siempre ha estado ahí?",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "romance",
+      "drama"
+    ],
+    "generos_lista": [
+      "Romance",
+      "Drama"
+    ],
+    "director": "William Bridges",
+    "reparto": [
+      "Imogen Poots",
+      "Brett Goldstein",
+      "Zawe Ashton",
+      "Steven Cree",
+      "Jenna Coleman",
+      "Éva Magyar",
+      "Alara-Star Khan",
+      "Tariq Rasheed",
+      "Nadia Albina",
+      "Ieva Andrejevaitė",
+      "Rebecca Osias",
+      "Kadiesha Belgrave"
+    ],
+    "calificacion": 6.2,
+    "votos": 126,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-14T20:33:11.989874",
+    "tmdb_id": "1319965",
+    "popularidad": 3.02,
+    "tagline": "El amor no sabe de elgoritmos.",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "98 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "Apple TV",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://goodstream.one/embed-08sayi102acn.html",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "contigo-todo-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Contra Todos",
     "titulo_original": "Boy Kills World",
     "poster": "https://image.tmdb.org/t/p/w500/3Nc4gK8naRXUy9c8u74I89zWqLg.jpg",
