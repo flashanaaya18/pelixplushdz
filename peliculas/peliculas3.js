@@ -7734,6 +7734,68 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Lo mejor del mundo",
+    "titulo_original": "Lo mejor del mundo",
+    "poster": "https://image.tmdb.org/t/p/w500/eHbwA5eSmmZQH4wGdWwnU9exDA1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uzAYt3mJ0vZIf8VcQogW9PSLFAN.jpg",
+    "descripcion": "Cuando un dúo de padre e hijo se entera de que pueden no estar relacionados biológicamente, los dos se embarcan en una aventura salvaje a través de México para encontrar la verdad.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Drama"
+    ],
+    "director": "Salvador Espinosa",
+    "reparto": [
+      "Michel Brown",
+      "Martino Leonardi",
+      "Mayra Hermosillo",
+      "Fernanda Castillo",
+      "Julieta Egurrola",
+      "Angélica Vale",
+      "Erik Rubín",
+      "Arath de la Torre",
+      "Ricardo Fastlicht",
+      "Eduardo Santamarina",
+      "Ricardo O'Farrill",
+      "Morena González"
+    ],
+    "calificacion": 6.8,
+    "votos": 36,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-14T20:44:23.625637",
+    "tmdb_id": "1446943",
+    "popularidad": 0.4,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "83 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "Netflix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://supervideo.cc/e/kfeqyjc8gslu",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "lo-mejor-del-mundo-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Los 800",
     "titulo_original": "八佰",
     "poster": "https://image.tmdb.org/t/p/w500/8kwsdVNBTZyNQ8s4LFqR10fOvk1.jpg",
