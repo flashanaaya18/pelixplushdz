@@ -11331,6 +11331,68 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Sin ti no puedo",
+    "titulo_original": "Sin ti no puedo",
+    "poster": "https://image.tmdb.org/t/p/w500/fF6OT1BBCNnqXaMj8P60oksivZz.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uoirVfbzSvyXoKozFH2QnSVOUMP.jpg",
+    "descripcion": "David es un empresario de éxito que tiene una vida acomodada junto a su novio Álex, un atractivo monitor de gimnasio. Álex siempre ha querido ser padre y a menudo se plantea qué camino seguir para lograrlo... ¿Adopción? ¿Vientre de alquiler? Aunque David no quiere ni oír hablar del tema. Todo sigue su curso hasta que irrumpe en sus vidas Blanca, la hermana de David con la que rompió toda relación tras un oscuro suceso del pasado. Ahora empieza una nueva etapa y decidida a recuperar la única familia que tiene: su hermano David. Y será capaz de hacer cualquier cosa para que su hermano vuelva a aceptarla en su vida.",
+    "año": 2022,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "suspense",
+      "drama"
+    ],
+    "generos_lista": [
+      "Suspense",
+      "Drama"
+    ],
+    "director": "Chus Gutiérrez",
+    "reparto": [
+      "Mauricio Ochmann",
+      "Maite Perroni",
+      "Alfonso Bassave",
+      "Pedro Casablanc",
+      "Elena Irureta",
+      "Juan de Vera",
+      "Lucía de la Fuente",
+      "Carlos Olalla",
+      "Mercedes Hoyos",
+      "Ingrid Palomares",
+      "Rubén Ochandiano",
+      "Jorge Motos"
+    ],
+    "calificacion": 5.7,
+    "votos": 31,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-15T00:12:54.268467",
+    "tmdb_id": "921959",
+    "popularidad": 1.52,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "90 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "MovistarTV",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://doodstream.com/e/5rbbxkenstjz",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "sin-ti-no-puedo-2022"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Site",
     "titulo_original": "Site",
     "poster": "https://image.tmdb.org/t/p/w500/ynfYUQ2qIFtE2sd7YiN1XzaKOjt.jpg",
