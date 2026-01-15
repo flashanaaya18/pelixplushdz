@@ -1729,6 +1729,66 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Cassandro",
+    "titulo_original": "Cassandro",
+    "poster": "https://image.tmdb.org/t/p/w500/xDjd2n4dheT1r6qUYAVcODC293I.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/w8OpyJ7O3Uozflzxkn0J0TmowZn.jpg",
+    "descripcion": "Cuenta la historia de Saúl Armendáriz, un luchador aficionado gay de El Paso que salta a la fama mundial después de crear el personaje de Cassandro, el “Liberace de la Lucha Libre”. En el proceso, no solo le da una drástica vuelta al tradicionalmente masculino mundo de la lucha libre, sino también a su propia vida.",
+    "año": 2023,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama"
+    ],
+    "generos_lista": [
+      "Drama"
+    ],
+    "director": "Roger Ross Williams",
+    "reparto": [
+      "Gael García Bernal",
+      "Roberta Colindrez",
+      "Perla de la Rosa",
+      "Joaquín Cosío",
+      "Raúl Castillo",
+      "El Hijo del Santo",
+      "Bad Bunny",
+      "Gigántico",
+      "Yavor Vesselinov",
+      "Leonardo Alonso",
+      "Gilberto Barraza",
+      "Carmen Ledesma"
+    ],
+    "calificacion": 6.6,
+    "votos": 125,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-14T23:28:39.215539",
+    "tmdb_id": "729120",
+    "popularidad": 1.34,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=Q0iD3EAYOb4",
+    "trailer_key": "Q0iD3EAYOb4",
+    "success": true,
+    "duracion": "107 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "Amazon Prime Video",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/k941gumg7vvr",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "cassandro-2023"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Ceroboh",
     "titulo_original": "Ceroboh",
     "poster": "https://image.tmdb.org/t/p/w500/xDT1myWq9TLqEc39BwtkxvhuywC.jpg",
