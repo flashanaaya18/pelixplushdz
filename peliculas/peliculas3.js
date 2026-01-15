@@ -8910,6 +8910,66 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Mi suegra me odia",
+    "titulo_original": "Mi suegra me odia",
+    "poster": "https://image.tmdb.org/t/p/w500/Ab9iyIXRbwK2YsVwpQV2xysLztJ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/o2mij65phJKpxNxCETRvjMInvzx.jpg",
+    "descripcion": "Clara es una mujer que ha sido rechazada toda su vida por ser extremadamente ordenada y limpia. Cuando el amor de su vida la invita a conocer a su suegra, Regina, Clara hará lo imposible por ganarse su aprobación sin saber que Regina es extremadamente opuesta a ella: es acumuladora compulsiva, nudista y vegetariana extrema. Si Clara no logra conquistar a su exigente suegra en un fin de semana, perderá al único hombre que la quiere tal y cómo es.",
+    "año": 2022,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Andrés Feddersen",
+    "reparto": [
+      "Loretto Bernal",
+      "Itatí Cantoral",
+      "Jerry Velazquez",
+      "Willy Semler",
+      "Alexis de Anda",
+      "Monserrat Jerez",
+      "Alejandro Velasco",
+      "Ricardo Badillo",
+      "Rogelio Gil",
+      "Alexa Ramirez",
+      "Liliana Meza",
+      "Maria Angélica Tea"
+    ],
+    "calificacion": 5.5,
+    "votos": 19,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-14T23:56:20.087831",
+    "tmdb_id": "1049038",
+    "popularidad": 0.28,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=0H3efxTKPAg",
+    "trailer_key": "0H3efxTKPAg",
+    "success": true,
+    "duracion": "91 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "Amazon Prime Video",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/evndhxw5wfb2",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "mi-suegra-me-odia-2022"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Mil uno",
     "titulo_original": "A Thousand and One",
     "poster": "https://image.tmdb.org/t/p/w500/c943thY4bOJU59UfD257ELZe13g.jpg",
