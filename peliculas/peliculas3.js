@@ -2882,6 +2882,68 @@ const peliculas3 = [
     "id": "boda-letal-2025"
   },
   {
+    "tipo": "pelicula",
+    "titulo": "El abismo secreto",
+    "titulo_original": "The Gorge",
+    "poster": "https://image.tmdb.org/t/p/w500/3s0jkMh0YUhIeIeioH3kt2X4st4.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg",
+    "descripcion": "Mandan a dos operativos de élite a vigilar lados opuestos de un misterioso abismo y allí intiman desde la distancia, pero deberán aunar fuerzas para sobrevivir al mal que esconde el abismo.",
+    "año": 2025,
+    "categoria": [
+      "romance"
+    ],
+    "genero": [
+      "romance",
+      "ciencia ficción",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Romance",
+      "Ciencia ficción",
+      "Suspense"
+    ],
+    "director": "Scott Derrickson",
+    "reparto": [
+      "Miles Teller",
+      "Anya Taylor-Joy",
+      "Sigourney Weaver",
+      "Ṣọpẹ́ Dìrísù",
+      "William Houston",
+      "Kobna Holdbrook-Smith",
+      "James Marlowe",
+      "Julianna Kurokawa",
+      "Ruta Gedmintas",
+      "Oliver Trevena"
+    ],
+    "calificacion": 7.6,
+    "votos": 3316,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-14T18:40:04.967157",
+    "tmdb_id": "950396",
+    "popularidad": 23.09,
+    "tagline": "Entre ellos se oculta el secreto más peligroso del mundo.",
+    "trailer": "https://www.youtube.com/watch?v=VuzKAeHGuMI",
+    "trailer_key": "VuzKAeHGuMI",
+    "success": true,
+    "duracion": "127 min",
+    "presupuesto": "$70,000,000",
+    "ingresos": "Desconocido",
+    "plataforma": "Apple TV",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://ryderjet.com/embed/v9aeh0d3r14a",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-abismo-secreto-2025"
+  },
+  {
     "tipo": "serie",
     "titulo": "El Avispón Verde",
     "titulo_original": "The Green Hornet",
