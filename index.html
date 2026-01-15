@@ -3554,80 +3554,317 @@
             }
         });
 
-        // --- Auto-actualización de "Añadido Recientemente" ---
-        (function() {
-            const REFRESH_INTERVAL = 60000; // Actualizar cada 60 segundos
-            const CONTAINER_ID = 'recientemente-añadido';
-            
-            async function fetchAndParseMovies() {
-                try {
-                    // Forzamos la recarga del archivo JS para evitar caché
-                    const response = await fetch('peliculas/peliculas3.js?v=' + Date.now());
-                    const text = await response.text();
-                    
-                    // Extraemos el array JSON usando regex (busca el contenido entre corchetes)
-                    const jsonMatch = text.match(/\[.*\]/s);
-                    if (jsonMatch) {
-                        return JSON.parse(jsonMatch[0]);
-                    }
-                    return [];
-                } catch (error) {
-                    console.error('Error actualizando películas en tiempo real:', error);
-                    return [];
+        // --- Sistema de Actualización en Tiempo Real sin Servidor ---
+(function() {
+    const CONTAINER_ID = 'recientemente-añadido';
+    let lastUpdateHash = '';
+    let updateInterval = null;
+    let isVisible = true;
+    
+    // Verificar si la pestaña está visible
+    document.addEventListener('visibilitychange', () => {
+        isVisible = !document.hidden;
+        if (isVisible) {
+            checkForUpdates(); // Verificar inmediatamente al volver
+            startPolling();
+        } else {
+            stopPolling();
+        }
+    });
+    
+    // Detectar cuando el usuario está inactivo
+    let userActivityTimer;
+    document.addEventListener('mousemove', resetUserActivity);
+    document.addEventListener('keypress', resetUserActivity);
+    
+    function resetUserActivity() {
+        clearTimeout(userActivityTimer);
+        userActivityTimer = setTimeout(() => {
+            // Usuario inactivo, reducir frecuencia
+            if (updateInterval) {
+                clearInterval(updateInterval);
+                updateInterval = setInterval(checkForUpdates, 120000); // 2 minutos
+            }
+        }, 300000); // 5 minutos de inactividad
+    }
+    
+    // Calcular hash de los datos actuales
+    function calculateHash(data) {
+        const str = JSON.stringify(data);
+        let hash = 0;
+        for (let i = 0; i < str.length; i++) {
+            hash = ((hash << 5) - hash) + str.charCodeAt(i);
+            hash |= 0;
+        }
+        return hash.toString(36);
+    }
+    
+    async function fetchMovies() {
+        try {
+            // Usar cache-busting diferente cada vez
+            const cacheBuster = `v=${Date.now()}&r=${Math.random().toString(36).substr(2)}`;
+            const response = await fetch(`peliculas/peliculas3.js?${cacheBuster}`, {
+                headers: {
+                    'Cache-Control': 'no-cache, no-store, must-revalidate',
+                    'Pragma': 'no-cache',
+                    'Expires': '0'
                 }
-            }
-
-            function renderRecentlyAdded(movies) {
-                const container = document.getElementById(CONTAINER_ID);
-                if (!container) return;
-
-                // Ordenar por fecha de añadido (más reciente primero) y tomar los últimos 20
-                const sortedMovies = movies.sort((a, b) => new Date(b.addedDate) - new Date(a.addedDate)).slice(0, 20);
-
-                if (sortedMovies.length === 0) return;
-
-                let html = `
-                    <div class="section-title-container">
-                        <h2 class="section-title">Añadido Recientemente <span style="font-size:0.5em; color:#e50914; margin-left:10px; vertical-align: middle; border: 1px solid #e50914; padding: 2px 6px; border-radius: 4px; animation: pulse-red 2s infinite;">EN VIVO</span></h2>
-                    </div>
-                    <div class="carrusel-contenedor">
-                        <button class="carrusel-flecha izquierda" onclick="this.nextElementSibling.scrollBy({left: -300, behavior: 'smooth'})">&#10094;</button>
-                        <div class="movie-grid horizontal-scroll" style="display: flex; gap: 15px; overflow-x: auto; padding-bottom: 15px;">
-                `;
-
-                sortedMovies.forEach(movie => {
-                    html += `
-                        <div class="movie-card">
-                            <a href="detalles.html?id=${movie.id}" class="card-link">
-                                <div class="card-head">
-                                    <img src="${movie.poster}" alt="${movie.titulo}" loading="lazy">
-                                    <div class="rating-badge"><i class="fas fa-star"></i> ${movie.calificacion || 'N/A'}</div>
-                                </div>
-                                <div class="card-body">
-                                    <h3 class="card-title">${movie.titulo}</h3>
-                                    <div class="card-info"><span>${movie.año}</span><span>${movie.calidad || 'HD'}</span></div>
-                                </div>
-                            </a>
-                        </div>`;
-                });
-
-                html += `</div><button class="carrusel-flecha derecha" onclick="this.previousElementSibling.scrollBy({left: 300, behavior: 'smooth'})">&#10095;</button></div>`;
-                container.innerHTML = html;
-            }
-
-            // Iniciar ciclo de actualización
-            setInterval(async () => {
-                const movies = await fetchAndParseMovies();
-                if (movies.length > 0) renderRecentlyAdded(movies);
-            }, REFRESH_INTERVAL);
+            });
             
-            // Ejecutar también al cargar para asegurar datos frescos
-            setTimeout(async () => {
-                const movies = await fetchAndParseMovies();
-                if (movies.length > 0) renderRecentlyAdded(movies);
-            }, 2000);
-        })();
-    </script>
+            if (!response.ok) throw new Error('Error en la respuesta');
+            
+            const text = await response.text();
+            const jsonMatch = text.match(/\[.*\]/s);
+            
+            if (jsonMatch) {
+                const movies = JSON.parse(jsonMatch[0]);
+                return movies.sort((a, b) => new Date(b.addedDate) - new Date(a.addedDate)).slice(0, 20);
+            }
+            return null;
+        } catch (error) {
+            console.warn('Error obteniendo películas:', error);
+            return null;
+        }
+    }
+    
+    function renderMovies(movies) {
+        const container = document.getElementById(CONTAINER_ID);
+        if (!container || !movies || movies.length === 0) return;
+        
+        const currentHash = calculateHash(movies);
+        
+        // Solo actualizar si hay cambios
+        if (currentHash !== lastUpdateHash) {
+            lastUpdateHash = currentHash;
+            
+            const html = `
+                <div class="section-title-container">
+                    <h2 class="section-title">
+                        Añadido Recientemente 
+                        <span class="live-badge" id="live-badge">
+                            <span class="pulse"></span>
+                            EN VIVO
+                        </span>
+                    </h2>
+                    <div class="update-info" id="update-info">
+                        Actualizado: <span id="last-update-time">Ahora</span>
+                    </div>
+                </div>
+                <div class="carrusel-contenedor">
+                    <button class="carrusel-flecha izquierda" onclick="scrollCarousel(this, -300)">&#10094;</button>
+                    <div class="movie-grid horizontal-scroll">
+                        ${movies.map(movie => `
+                            <div class="movie-card">
+                                <a href="detalles.html?id=${movie.id}" class="card-link">
+                                    <div class="card-head">
+                                        <img src="${movie.poster}" alt="${movie.titulo}" loading="lazy">
+                                        <div class="rating-badge"><i class="fas fa-star"></i> ${movie.calificacion || 'N/A'}</div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">${movie.titulo}</h3>
+                                        <div class="card-info">
+                                            <span>${movie.año}</span>
+                                            <span>${movie.calidad || 'HD'}</span>
+                                            ${movie.addedDate ? `<span class="new-badge">NUEVO</span>` : ''}
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        `).join('')}
+                    </div>
+                    <button class="carrusel-flecha derecha" onclick="scrollCarousel(this, 300)">&#10095;</button>
+                </div>
+            `;
+            
+            // Efecto de transición suave
+            container.style.opacity = '0';
+            setTimeout(() => {
+                container.innerHTML = html;
+                container.style.opacity = '1';
+                container.style.transition = 'opacity 0.5s ease';
+                
+                // Mostrar notificación de actualización
+                showUpdateNotification();
+            }, 300);
+        }
+    }
+    
+    function showUpdateNotification() {
+        // Crear o actualizar notificación
+        let notif = document.getElementById('update-notification');
+        if (!notif) {
+            notif = document.createElement('div');
+            notif.id = 'update-notification';
+            notif.style.cssText = `
+                position: fixed;
+                top: 80px;
+                right: 20px;
+                background: #4CAF50;
+                color: white;
+                padding: 12px 20px;
+                border-radius: 5px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                z-index: 10000;
+                transform: translateX(120%);
+                transition: transform 0.3s ease;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            `;
+            document.body.appendChild(notif);
+        }
+        
+        notif.innerHTML = `
+            <i class="fas fa-sync-alt fa-spin"></i>
+            <span>Contenido actualizado</span>
+        `;
+        
+        // Animar entrada
+        setTimeout(() => {
+            notif.style.transform = 'translateX(0)';
+            
+            // Ocultar después de 3 segundos
+            setTimeout(() => {
+                notif.style.transform = 'translateX(120%)';
+            }, 3000);
+        }, 100);
+        
+        // Actualizar timestamp
+        const timeElement = document.getElementById('last-update-time');
+        if (timeElement) {
+            timeElement.textContent = new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+        }
+    }
+    
+    async function checkForUpdates() {
+        if (!isVisible) return;
+        
+        const movies = await fetchMovies();
+        if (movies) {
+            renderMovies(movies);
+        }
+    }
+    
+    function startPolling() {
+        // Frecuencia dinámica basada en actividad
+        const frequency = document.hidden ? 120000 : 30000; // 30 segundos activo, 2 minutos inactivo
+        
+        if (updateInterval) clearInterval(updateInterval);
+        
+        updateInterval = setInterval(async () => {
+            await checkForUpdates();
+        }, frequency);
+    }
+    
+    function stopPolling() {
+        if (updateInterval) {
+            clearInterval(updateInterval);
+            updateInterval = null;
+        }
+    }
+    
+    // Inicializar
+    async function init() {
+        // Carga inicial
+        const initialMovies = await fetchMovies();
+        if (initialMovies) {
+            lastUpdateHash = calculateHash(initialMovies);
+            renderMovies(initialMovies);
+        }
+        
+        // Iniciar polling
+        startPolling();
+        
+        // Verificar actualizaciones más frecuentemente cuando la página gana foco
+        window.addEventListener('focus', async () => {
+            await checkForUpdates();
+            startPolling();
+        });
+        
+        window.addEventListener('blur', stopPolling);
+        
+        resetUserActivity(); // Iniciar detección de actividad
+    }
+    
+    // Función auxiliar para el carrusel
+    window.scrollCarousel = function(button, amount) {
+        const carousel = button.parentElement.querySelector('.horizontal-scroll');
+        carousel.scrollBy({ left: amount, behavior: 'smooth' });
+    };
+    
+    // Iniciar cuando el DOM esté listo
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+    
+    // Estilos CSS para los efectos visuales
+    const styles = `
+        .live-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.5em;
+            color: #e50914;
+            margin-left: 10px;
+            vertical-align: middle;
+            border: 1px solid #e50914;
+            padding: 2px 8px;
+            border-radius: 12px;
+            background: rgba(229, 9, 20, 0.1);
+        }
+        
+        .pulse {
+            width: 8px;
+            height: 8px;
+            background: #e50914;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(0.95); opacity: 0.7; }
+            50% { transform: scale(1.1); opacity: 1; }
+            100% { transform: scale(0.95); opacity: 0.7; }
+        }
+        
+        .section-title-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .update-info {
+            font-size: 0.8em;
+            color: #666;
+        }
+        
+        .new-badge {
+            background: #4CAF50;
+            color: white;
+            font-size: 0.7em;
+            padding: 2px 6px;
+            border-radius: 3px;
+            margin-left: 5px;
+        }
+        
+        .movie-card {
+            transition: transform 0.3s ease;
+        }
+        
+        .movie-card:hover {
+            transform: translateY(-5px);
+        }
+    `;
+    
+    // Añadir estilos dinámicamente
+    const styleSheet = document.createElement('style');
+    styleSheet.textContent = styles;
+    document.head.appendChild(styleSheet);
+})();
+</script>
 </body>
 
 </html>
