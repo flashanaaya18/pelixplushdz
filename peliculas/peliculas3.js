@@ -6785,6 +6785,69 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "La chica en el sótano",
+    "titulo_original": "Girl in the Basement",
+    "poster": "https://image.tmdb.org/t/p/w500/4p6uMC8PxEHSY5hJR0KJkOt3wPk.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/vDR2h5uQNgWyx3fsEVnEOcNFibZ.jpg",
+    "descripcion": "Sara es una adolescente que está deseando cumplir 18 años para alejarse de su padre controlador, Don. Pero antes de que pudiera apagar las velas, Don la aprisiona en el sótano de su casa.",
+    "año": 2021,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "suspense",
+      "crimen",
+      "película de tv"
+    ],
+    "generos_lista": [
+      "Suspense",
+      "Crimen",
+      "Película de TV"
+    ],
+    "director": "Elisabeth Röhm",
+    "reparto": [
+      "Judd Nelson",
+      "Stefanie Scott",
+      "Joely Fisher",
+      "Braxton Bjerken",
+      "Kim Rosen",
+      "Emily Topper",
+      "Emma Myers",
+      "Jake Nuttall",
+      "Liam Pileggi",
+      "Jake Etheridge",
+      "Sydney Kowalske"
+    ],
+    "calificacion": 7.6,
+    "votos": 807,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-15T15:13:32.380195",
+    "tmdb_id": "801335",
+    "popularidad": 8.69,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "88 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "Hulu",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/j98c6rc1uow2",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "la-chica-en-el-sotano-2021"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "La educación de Polly McClusky",
     "titulo_original": "She Rides Shotgun",
     "poster": "https://image.tmdb.org/t/p/w500/1ofdDh4ZHeFczYBKGYu4JEPuBsG.jpg",
