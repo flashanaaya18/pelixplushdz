@@ -4313,6 +4313,70 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "En tiempo de brujas",
+    "titulo_original": "Season of the Witch",
+    "poster": "https://image.tmdb.org/t/p/w500/HbpdHdvHbAppdzxUaKIwAuy3CZ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9Lm94WVtV4HPxr7NWNlwkhLKSeH.jpg",
+    "descripcion": "A mediados del siglo XIV, el caballero Lavey (Nicolas Cage) escolta hasta un monasterio a una joven acusada de brujería. Los monjes aseguran que ella es la responsable de que la Peste Negra asole y destruya Europa. Lavey, escéptico, no acepta esta explicación y con un grupo de bravos guerreros emprende un viaje para demostrar la inocencia de la joven, pero el azar los conducirá a un lugar donde les esperan las fuerzas de las oscuridad...",
+    "año": 2011,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "aventura",
+      "fantasía",
+      "acción"
+    ],
+    "generos_lista": [
+      "Aventura",
+      "Fantasía",
+      "Acción"
+    ],
+    "director": "Dominic Sena",
+    "reparto": [
+      "Nicolas Cage",
+      "Ron Perlman",
+      "Ulrich Thomsen",
+      "Christopher Lee",
+      "Fernanda Dorogi",
+      "Stephen Graham",
+      "Rebekah Kennedy",
+      "Matt Devere",
+      "Robert Sheehan",
+      "Claire Foy",
+      "Stephen Campbell Moore",
+      "Rory McCann"
+    ],
+    "calificacion": 5.5,
+    "votos": 2582,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-15T15:16:34.350985",
+    "tmdb_id": "23047",
+    "popularidad": 3.49,
+    "tagline": "No todas las almas se pueden salvar.",
+    "trailer": "https://www.youtube.com/watch?v=nW7OeOd3iRM",
+    "trailer_key": "nW7OeOd3iRM",
+    "success": true,
+    "duracion": "95 min",
+    "presupuesto": "$40,000,000",
+    "ingresos": "$91,627,228",
+    "plataforma": "Amazon Prime Video",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://teomovie.web.app/iframe.html?url=https://bysedikamoum.com/e/4xnciipe8f9u",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "en-tiempo-de-brujas-2011"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Entre los vivos",
     "titulo_original": "Among the Living",
     "poster": "https://image.tmdb.org/t/p/w500/u72fbIvv5gW9qKY8XptfLHsOL9X.jpg",
