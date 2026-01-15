@@ -6300,6 +6300,70 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "La educación de Polly McClusky",
+    "titulo_original": "She Rides Shotgun",
+    "poster": "https://image.tmdb.org/t/p/w500/1ofdDh4ZHeFczYBKGYu4JEPuBsG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ytCi1wg6YHpYcFRWCO2jpzN31Kf.jpg",
+    "descripcion": "Tras salir de prisión, Nate debe proteger a su hija Polly de una peligrosa banda que ha puesto precio a sus vidas. Juntos emprenden una huida violenta y desesperada por el desierto, mientras él le enseña a sobrevivir en un mundo brutal. En el camino, padre e hija forjan un profundo vínculo marcado por la redención y el crecimiento mutuo... Adaptación de la premiada novela de Jordan Harper.",
+    "año": 2025,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "suspense",
+      "crimen"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Suspense",
+      "Crimen"
+    ],
+    "director": "Nick Rowland",
+    "reparto": [
+      "Taron Egerton",
+      "Ana Sophia Heger",
+      "Odessa A'zion",
+      "John Carroll Lynch",
+      "David Lyons",
+      "Rob Yang",
+      "Keith Jardine",
+      "Jamie Bernadette",
+      "Goldie Tom",
+      "Kiko Sanchez",
+      "Loren Anthony",
+      "Travis Hammer"
+    ],
+    "calificacion": 7.1,
+    "votos": 205,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-14T18:54:28.130637",
+    "tmdb_id": "1196573",
+    "popularidad": 20.18,
+    "tagline": "Lo único que necesita un padre es la posibilidad de luchar",
+    "trailer": "https://www.youtube.com/watch?v=xsxFOih7qAQ",
+    "trailer_key": "xsxFOih7qAQ",
+    "success": true,
+    "duracion": "120 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$23,443",
+    "plataforma": "Amazon Prime Video",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/lch90cn1gj2e",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "la-educacion-de-polly-mcclusky-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "La Empleada",
     "titulo_original": "The Housemaid",
     "poster": "https://image.tmdb.org/t/p/w500/A6S15iqfHpoit02leDfDVnpklys.jpg",
