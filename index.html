@@ -3554,315 +3554,852 @@
             }
         });
 
-        // --- Sistema de Actualización en Tiempo Real sin Servidor ---
+        // --- SISTEMA ULTRA-RÁPIDO TIEMPO REAL SIN SERVIDOR ---
 (function() {
+    'use strict';
+
     const CONTAINER_ID = 'recientemente-añadido';
-    let lastUpdateHash = '';
-    let updateInterval = null;
-    let isVisible = true;
+    const MOVIES_FILE = 'peliculas/peliculas3.js';
     
-    // Verificar si la pestaña está visible
-    document.addEventListener('visibilitychange', () => {
-        isVisible = !document.hidden;
-        if (isVisible) {
-            checkForUpdates(); // Verificar inmediatamente al volver
-            startPolling();
-        } else {
-            stopPolling();
+    // Configuración optimizada
+    const CONFIG = {
+        POLLING_INTERVAL_ACTIVE: 10000,      // 10 segundos (activo)
+        POLLING_INTERVAL_IDLE: 30000,        // 30 segundos (inactivo)
+        INITIAL_LOAD_DELAY: 1000,            // 1 segundo después de DOM
+        CACHE_DURATION: 60000,               // 1 minuto de caché
+        MAX_RETRIES: 3,
+        RETRY_DELAY: 2000,
+        CONNECTION_TIMEOUT: 5000
+    };
+
+    // Estado del sistema
+    const STATE = {
+        lastETag: '',
+        lastModified: 0,
+        moviesCache: null,
+        cacheTime: 0,
+        isOnline: navigator.onLine,
+        retryCount: 0,
+        isUpdating: false,
+        updateQueue: [],
+        connectionSpeed: 'fast'
+    };
+
+    // Web Workers para procesamiento en segundo plano
+    let fetchWorker = null;
+    let diffWorker = null;
+
+    // WebSocket fallback con long polling mejorado
+    let longPollTimeout = null;
+
+    // Inicializar Web Workers si están disponibles
+    function initWorkers() {
+        if (window.Worker) {
+            // Worker para fetching
+            fetchWorker = new Worker(URL.createObjectURL(new Blob([`
+                self.onmessage = async function(e) {
+                    const { url, cacheBuster } = e.data;
+                    
+                    try {
+                        const controller = new AbortController();
+                        const timeoutId = setTimeout(() => controller.abort(), 5000);
+                        
+                        const response = await fetch(url + cacheBuster, {
+                            signal: controller.signal,
+                            cache: 'no-store',
+                            headers: {
+                                'X-Requested-With': 'XMLHttpRequest'
+                            }
+                        });
+                        
+                        clearTimeout(timeoutId);
+                        
+                        if (!response.ok) throw new Error('HTTP ' + response.status);
+                        
+                        const text = await response.text();
+                        const etag = response.headers.get('ETag') || '';
+                        const lastModified = response.headers.get('Last-Modified') || '';
+                        
+                        // Extraer solo el array JSON eficientemente
+                        const start = text.indexOf('[');
+                        const end = text.lastIndexOf(']') + 1;
+                        const jsonStr = text.substring(start, end);
+                        
+                        self.postMessage({
+                            success: true,
+                            data: jsonStr,
+                            etag,
+                            lastModified
+                        });
+                    } catch (error) {
+                        self.postMessage({
+                            success: false,
+                            error: error.message
+                        });
+                    }
+                };
+            `], { type: 'application/javascript' })));
+
+            // Worker para comparación de datos
+            diffWorker = new Worker(URL.createObjectURL(new Blob([`
+                function calculateHash(str) {
+                    let hash = 5381;
+                    for (let i = 0; i < str.length; i++) {
+                        hash = (hash << 5) + hash + str.charCodeAt(i);
+                    }
+                    return hash;
+                }
+                
+                function extractNewMovies(oldMovies, newMovies, count = 20) {
+                    const oldIds = new Set(oldMovies.map(m => m.id));
+                    const newItems = newMovies.filter(m => !oldIds.has(m.id));
+                    
+                    return [
+                        ...newItems,
+                        ...newMovies.slice(0, count - newItems.length)
+                    ];
+                }
+                
+                self.onmessage = function(e) {
+                    const { oldData, newData, type } = e.data;
+                    
+                    if (type === 'hash') {
+                        const hash = calculateHash(JSON.stringify(newData));
+                        self.postMessage({ hash });
+                    } else if (type === 'diff') {
+                        const newMovies = extractNewMovies(oldData, newData);
+                        self.postMessage({ newMovies });
+                    }
+                };
+            `], { type: 'application/javascript' })));
         }
-    });
-    
-    // Detectar cuando el usuario está inactivo
-    let userActivityTimer;
-    document.addEventListener('mousemove', resetUserActivity);
-    document.addEventListener('keypress', resetUserActivity);
-    
-    function resetUserActivity() {
-        clearTimeout(userActivityTimer);
-        userActivityTimer = setTimeout(() => {
-            // Usuario inactivo, reducir frecuencia
-            if (updateInterval) {
-                clearInterval(updateInterval);
-                updateInterval = setInterval(checkForUpdates, 120000); // 2 minutos
-            }
-        }, 300000); // 5 minutos de inactividad
     }
-    
-    // Calcular hash de los datos actuales
-    function calculateHash(data) {
-        const str = JSON.stringify(data);
+
+    // Sistema de caché inteligente con IndexedDB
+    const DB_NAME = 'moviesCacheDB';
+    const DB_VERSION = 1;
+    const STORE_NAME = 'movies';
+
+    async function initCacheDB() {
+        return new Promise((resolve, reject) => {
+            if (!window.indexedDB) {
+                resolve(null);
+                return;
+            }
+
+            const request = indexedDB.open(DB_NAME, DB_VERSION);
+            
+            request.onerror = () => resolve(null);
+            request.onsuccess = (e) => resolve(e.target.result);
+            
+            request.onupgradeneeded = (e) => {
+                const db = e.target.result;
+                if (!db.objectStoreNames.contains(STORE_NAME)) {
+                    db.createObjectStore(STORE_NAME, { keyPath: 'id' });
+                }
+            };
+        });
+    }
+
+    async function getCachedMovies() {
+        if (!window.indexedDB || !STATE.moviesCache) return null;
+        
+        const db = await initCacheDB();
+        if (!db) return null;
+
+        return new Promise((resolve) => {
+            const transaction = db.transaction([STORE_NAME], 'readonly');
+            const store = transaction.objectStore(STORE_NAME);
+            const request = store.getAll();
+
+            request.onsuccess = () => {
+                const movies = request.result;
+                if (movies.length > 0 && (Date.now() - STATE.cacheTime) < CONFIG.CACHE_DURATION) {
+                    resolve(movies);
+                } else {
+                    resolve(null);
+                }
+            };
+            
+            request.onerror = () => resolve(null);
+        });
+    }
+
+    async function cacheMovies(movies) {
+        if (!window.indexedDB) return;
+
+        const db = await initCacheDB();
+        if (!db) return;
+
+        const transaction = db.transaction([STORE_NAME], 'readwrite');
+        const store = transaction.objectStore(STORE_NAME);
+        
+        // Limpiar cache anterior
+        store.clear();
+        
+        // Almacenar nuevas películas
+        movies.forEach(movie => {
+            store.put({ ...movie, _cachedAt: Date.now() });
+        });
+        
+        STATE.cacheTime = Date.now();
+    }
+
+    // Fetch optimizado con múltiples estrategias
+    async function fetchMoviesOptimized() {
+        // 1. Intentar desde caché rápido
+        const cached = await getCachedMovies();
+        if (cached && !STATE.isUpdating) {
+            processMoviesData(cached, true);
+        }
+
+        // 2. Fetch principal con prioridad
+        return fetchWithPriority();
+    }
+
+    async function fetchWithPriority() {
+        STATE.isUpdating = true;
+        
+        try {
+            // Usar Worker si está disponible
+            if (fetchWorker) {
+                return new Promise((resolve) => {
+                    const cacheBuster = `?v=${Date.now()}&_=${performance.now()}`;
+                    
+                    fetchWorker.onmessage = (e) => {
+                        if (e.data.success) {
+                            try {
+                                const movies = JSON.parse(e.data.data);
+                                const sorted = sortMovies(movies);
+                                resolve({ movies: sorted, etag: e.data.etag });
+                            } catch (parseError) {
+                                resolve(fetchFallback());
+                            }
+                        } else {
+                            resolve(fetchFallback());
+                        }
+                    };
+                    
+                    fetchWorker.postMessage({
+                        url: MOVIES_FILE,
+                        cacheBuster
+                    });
+                    
+                    // Timeout para el worker
+                    setTimeout(() => resolve(fetchFallback()), CONFIG.CONNECTION_TIMEOUT);
+                });
+            } else {
+                return await fetchFallback();
+            }
+        } finally {
+            STATE.isUpdating = false;
+        }
+    }
+
+    async function fetchFallback() {
+        const cacheBuster = `?v=${Date.now()}&_=${performance.now()}&priority=1`;
+        
+        try {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), CONFIG.CONNECTION_TIMEOUT);
+            
+            const response = await fetch(MOVIES_FILE + cacheBuster, {
+                signal: controller.signal,
+                cache: 'no-store',
+                priority: 'high',
+                headers: {
+                    'Cache-Control': 'no-cache',
+                    'Pragma': 'no-cache',
+                    'X-Request-Mode': 'high-speed'
+                }
+            });
+            
+            clearTimeout(timeoutId);
+            
+            if (!response.ok) throw new Error('HTTP ' + response.status);
+            
+            const text = await response.text();
+            const jsonMatch = text.match(/\[[\s\S]*\]/);
+            
+            if (jsonMatch) {
+                const movies = JSON.parse(jsonMatch[0]);
+                const sorted = sortMovies(movies);
+                const etag = response.headers.get('ETag') || '';
+                
+                return { movies: sorted, etag };
+            }
+        } catch (error) {
+            console.warn('Fetch fallback failed:', error);
+        }
+        
+        return null;
+    }
+
+    function sortMovies(movies) {
+        // Ordenar eficientemente
+        return movies
+            .sort((a, b) => {
+                const dateA = a.addedDate ? new Date(a.addedDate) : new Date(0);
+                const dateB = b.addedDate ? new Date(b.addedDate) : new Date(0);
+                return dateB - dateA;
+            })
+            .slice(0, 20);
+    }
+
+    // Renderizado ultra-rápido con Virtual DOM ligero
+    function renderMovies(movies, fromCache = false) {
+        const container = document.getElementById(CONTAINER_ID);
+        if (!container || !movies || movies.length === 0) return;
+        
+        // Usar requestAnimationFrame para renderizado suave
+        requestAnimationFrame(() => {
+            // Comparación rápida de contenido
+            const currentContent = container.innerHTML;
+            const newContent = generateHTML(movies, fromCache);
+            
+            if (currentContent !== newContent) {
+                // Aplicar con transición optimizada
+                container.style.opacity = '0.8';
+                
+                requestAnimationFrame(() => {
+                    container.innerHTML = newContent;
+                    
+                    requestAnimationFrame(() => {
+                        container.style.opacity = '1';
+                        container.style.transition = 'opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1)';
+                        
+                        if (!fromCache) {
+                            showRealTimeNotification();
+                            cacheMovies(movies);
+                        }
+                    });
+                });
+            }
+        });
+    }
+
+    function generateHTML(movies, fromCache = false) {
+        const timestamp = new Date().toLocaleTimeString([], { 
+            hour: '2-digit', 
+            minute: '2-digit',
+            second: '2-digit'
+        });
+        
+        return `
+            <div class="section-title-container">
+                <h2 class="section-title">
+                    Añadido Recientemente 
+                    <span class="live-indicator">
+                        <span class="pulse-dot"></span>
+                        <span class="pulse-ring"></span>
+                        TIEMPO REAL
+                    </span>
+                </h2>
+                <div class="status-info">
+                    <span class="update-time" data-timestamp="${Date.now()}">
+                        ${fromCache ? '🔄 CACHÉ' : '🟢 EN VIVO'} • ${timestamp}
+                    </span>
+                    <span class="connection-speed">${STATE.connectionSpeed}</span>
+                </div>
+            </div>
+            <div class="carrusel-contenedor">
+                <button class="carrusel-btn prev" aria-label="Anterior">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"/>
+                    </svg>
+                </button>
+                <div class="movies-scroller">
+                    ${movies.map(movie => `
+                        <div class="movie-item" data-id="${movie.id}" data-added="${movie.addedDate || ''}">
+                            <a href="detalles.html?id=${movie.id}" class="movie-link">
+                                <div class="movie-poster">
+                                    <img 
+                                        src="${movie.poster}" 
+                                        alt="${movie.titulo}"
+                                        loading="lazy"
+                                        width="200"
+                                        height="300"
+                                        onerror="this.src='data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 300\"><rect width=\"200\" height=\"300\" fill=\"%23222\"/></svg>'"
+                                    >
+                                    <div class="movie-badge">
+                                        <span class="rating">⭐ ${movie.calificacion || 'N/A'}</span>
+                                        ${movie.addedDate && Date.now() - new Date(movie.addedDate).getTime() < 3600000 ? 
+                                            '<span class="new-tag">NUEVO</span>' : ''}
+                                    </div>
+                                </div>
+                                <div class="movie-info">
+                                    <h3 class="movie-title">${movie.titulo}</h3>
+                                    <div class="movie-meta">
+                                        <span>${movie.año}</span>
+                                        <span class="quality">${movie.calidad || 'HD'}</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    `).join('')}
+                </div>
+                <button class="carrusel-btn next" aria-label="Siguiente">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+                    </svg>
+                </button>
+            </div>
+        `;
+    }
+
+    function showRealTimeNotification() {
+        // Notificación no intrusiva
+        const notification = document.createElement('div');
+        notification.className = 'rt-notification';
+        notification.innerHTML = `
+            <div class="rt-content">
+                <span class="rt-icon">⚡</span>
+                <span class="rt-text">Actualizado en tiempo real</span>
+                <span class="rt-time">${new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</span>
+            </div>
+        `;
+        
+        document.body.appendChild(notification);
+        
+        // Animación de entrada/salida
+        requestAnimationFrame(() => {
+            notification.classList.add('show');
+            
+            setTimeout(() => {
+                notification.classList.remove('show');
+                setTimeout(() => notification.remove(), 300);
+            }, 2000);
+        });
+    }
+
+    // Sistema de polling inteligente
+    function startIntelligentPolling() {
+        // Detectar velocidad de conexión
+        detectConnectionSpeed();
+        
+        // Polling adaptativo basado en múltiples factores
+        const getPollingInterval = () => {
+            if (!STATE.isOnline) return 60000; // 1 minuto si offline
+            
+            if (document.hidden) return CONFIG.POLLING_INTERVAL_IDLE;
+            
+            // Ajustar según velocidad de conexión
+            switch(STATE.connectionSpeed) {
+                case 'slow': return 30000;
+                case 'fast': return 10000;
+                case '4g': return 5000;
+                default: return CONFIG.POLLING_INTERVAL_ACTIVE;
+            }
+        };
+        
+        // Polling recursivo con ajuste dinámico
+        function poll() {
+            if (!STATE.isOnline || STATE.isUpdating) return;
+            
+            const nextPoll = getPollingInterval();
+            
+            setTimeout(async () => {
+                if (!document.hidden) {
+                    await checkForUpdates();
+                }
+                poll();
+            }, nextPoll);
+        }
+        
+        poll();
+    }
+
+    async function checkForUpdates(force = false) {
+        if (STATE.isUpdating && !force) return;
+        
+        try {
+            const result = await fetchMoviesOptimized();
+            if (result) {
+                processMoviesData(result.movies, false, result.etag);
+                STATE.retryCount = 0;
+            }
+        } catch (error) {
+            STATE.retryCount++;
+            
+            if (STATE.retryCount <= CONFIG.MAX_RETRIES) {
+                setTimeout(() => checkForUpdates(true), CONFIG.RETRY_DELAY * STATE.retryCount);
+            }
+        }
+    }
+
+    function processMoviesData(movies, fromCache = false, etag = '') {
+        if (!movies || movies.length === 0) return;
+        
+        // Detectar cambios rápidamente
+        const moviesHash = calculateQuickHash(movies);
+        
+        if (moviesHash !== STATE.lastETag || fromCache) {
+            STATE.lastETag = moviesHash;
+            renderMovies(movies, fromCache);
+            
+            if (!fromCache && etag) {
+                STATE.lastETag = etag;
+            }
+        }
+    }
+
+    function calculateQuickHash(data) {
+        // Hash ultra-rápido para comparación
         let hash = 0;
+        const str = JSON.stringify(data.slice(0, 3)); // Solo primeros 3 elementos
         for (let i = 0; i < str.length; i++) {
             hash = ((hash << 5) - hash) + str.charCodeAt(i);
             hash |= 0;
         }
         return hash.toString(36);
     }
-    
-    async function fetchMovies() {
-        try {
-            // Usar cache-busting diferente cada vez
-            const cacheBuster = `v=${Date.now()}&r=${Math.random().toString(36).substr(2)}`;
-            const response = await fetch(`peliculas/peliculas3.js?${cacheBuster}`, {
-                headers: {
-                    'Cache-Control': 'no-cache, no-store, must-revalidate',
-                    'Pragma': 'no-cache',
-                    'Expires': '0'
-                }
+
+    function detectConnectionSpeed() {
+        if (navigator.connection) {
+            const connection = navigator.connection;
+            STATE.connectionSpeed = connection.effectiveType || 'unknown';
+            
+            // Escuchar cambios en la conexión
+            connection.addEventListener('change', () => {
+                STATE.connectionSpeed = connection.effectiveType;
+                STATE.isOnline = navigator.onLine;
             });
-            
-            if (!response.ok) throw new Error('Error en la respuesta');
-            
-            const text = await response.text();
-            const jsonMatch = text.match(/\[.*\]/s);
-            
-            if (jsonMatch) {
-                const movies = JSON.parse(jsonMatch[0]);
-                return movies.sort((a, b) => new Date(b.addedDate) - new Date(a.addedDate)).slice(0, 20);
+        }
+    }
+
+    // Event listeners optimizados
+    function setupEventListeners() {
+        // Online/offline detection
+        window.addEventListener('online', () => {
+            STATE.isOnline = true;
+            checkForUpdates(true);
+        });
+        
+        window.addEventListener('offline', () => {
+            STATE.isOnline = false;
+        });
+        
+        // Page visibility
+        document.addEventListener('visibilitychange', () => {
+            if (!document.hidden) {
+                // Verificar inmediatamente al volver
+                setTimeout(() => checkForUpdates(true), 500);
             }
-            return null;
-        } catch (error) {
-            console.warn('Error obteniendo películas:', error);
-            return null;
-        }
-    }
-    
-    function renderMovies(movies) {
-        const container = document.getElementById(CONTAINER_ID);
-        if (!container || !movies || movies.length === 0) return;
+        });
         
-        const currentHash = calculateHash(movies);
+        // Network status
+        window.addEventListener('load', () => {
+            // Usar Network Information API si está disponible
+            if (navigator.connection && navigator.connection.addEventListener) {
+                navigator.connection.addEventListener('change', detectConnectionSpeed);
+            }
+        });
         
-        // Solo actualizar si hay cambios
-        if (currentHash !== lastUpdateHash) {
-            lastUpdateHash = currentHash;
+        // Carrusel interactivo
+        document.addEventListener('click', (e) => {
+            const carrusel = document.querySelector('.carrusel-contenedor');
+            if (!carrusel) return;
             
-            const html = `
-                <div class="section-title-container">
-                    <h2 class="section-title">
-                        Añadido Recientemente 
-                        <span class="live-badge" id="live-badge">
-                            <span class="pulse"></span>
-                            EN VIVO
-                        </span>
-                    </h2>
-                    <div class="update-info" id="update-info">
-                        Actualizado: <span id="last-update-time">Ahora</span>
-                    </div>
-                </div>
-                <div class="carrusel-contenedor">
-                    <button class="carrusel-flecha izquierda" onclick="scrollCarousel(this, -300)">&#10094;</button>
-                    <div class="movie-grid horizontal-scroll">
-                        ${movies.map(movie => `
-                            <div class="movie-card">
-                                <a href="detalles.html?id=${movie.id}" class="card-link">
-                                    <div class="card-head">
-                                        <img src="${movie.poster}" alt="${movie.titulo}" loading="lazy">
-                                        <div class="rating-badge"><i class="fas fa-star"></i> ${movie.calificacion || 'N/A'}</div>
-                                    </div>
-                                    <div class="card-body">
-                                        <h3 class="card-title">${movie.titulo}</h3>
-                                        <div class="card-info">
-                                            <span>${movie.año}</span>
-                                            <span>${movie.calidad || 'HD'}</span>
-                                            ${movie.addedDate ? `<span class="new-badge">NUEVO</span>` : ''}
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        `).join('')}
-                    </div>
-                    <button class="carrusel-flecha derecha" onclick="scrollCarousel(this, 300)">&#10095;</button>
-                </div>
-            `;
-            
-            // Efecto de transición suave
-            container.style.opacity = '0';
-            setTimeout(() => {
-                container.innerHTML = html;
-                container.style.opacity = '1';
-                container.style.transition = 'opacity 0.5s ease';
-                
-                // Mostrar notificación de actualización
-                showUpdateNotification();
-            }, 300);
-        }
+            if (e.target.closest('.carrusel-btn.prev')) {
+                const scroller = carrusel.querySelector('.movies-scroller');
+                scroller.scrollBy({ left: -300, behavior: 'smooth' });
+            } else if (e.target.closest('.carrusel-btn.next')) {
+                const scroller = carrusel.querySelector('.movies-scroller');
+                scroller.scrollBy({ left: 300, behavior: 'smooth' });
+            }
+        });
     }
-    
-    function showUpdateNotification() {
-        // Crear o actualizar notificación
-        let notif = document.getElementById('update-notification');
-        if (!notif) {
-            notif = document.createElement('div');
-            notif.id = 'update-notification';
-            notif.style.cssText = `
-                position: fixed;
-                top: 80px;
-                right: 20px;
-                background: #4CAF50;
-                color: white;
-                padding: 12px 20px;
-                border-radius: 5px;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-                z-index: 10000;
-                transform: translateX(120%);
-                transition: transform 0.3s ease;
+
+    // Inicialización
+    async function init() {
+        console.log('🚀 Iniciando sistema tiempo real ultra-rápido...');
+        
+        // 1. Inicializar componentes
+        initWorkers();
+        setupEventListeners();
+        detectConnectionSpeed();
+        
+        // 2. Carga inicial desde caché (instantáneo)
+        const cachedMovies = await getCachedMovies();
+        if (cachedMovies) {
+            renderMovies(cachedMovies, true);
+        }
+        
+        // 3. Carga en caliente de datos frescos
+        setTimeout(() => checkForUpdates(true), CONFIG.INITIAL_LOAD_DELAY);
+        
+        // 4. Iniciar polling inteligente
+        startIntelligentPolling();
+        
+        // 5. Prefetch para siguiente carga
+        setTimeout(() => {
+            fetch(MOVIES_FILE + '?prefetch=true', { priority: 'low' })
+                .catch(() => {}); // Ignorar errores en prefetch
+        }, 3000);
+    }
+
+    // Inyectar estilos optimizados
+    function injectOptimizedStyles() {
+        const styles = `
+            .live-indicator {
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+                font-size: 0.6em;
+                font-weight: 600;
+                color: #00ff88;
+                background: rgba(0, 255, 136, 0.1);
+                border: 1px solid rgba(0, 255, 136, 0.3);
+                padding: 4px 12px;
+                border-radius: 20px;
+                margin-left: 12px;
+                position: relative;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+            }
+            
+            .pulse-dot {
+                width: 8px;
+                height: 8px;
+                background: #00ff88;
+                border-radius: 50%;
+                animation: pulse 1.5s ease-in-out infinite;
+            }
+            
+            .pulse-ring {
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                border: 2px solid #00ff88;
+                border-radius: 50%;
+                animation: ring 2s linear infinite;
+                opacity: 0;
+            }
+            
+            @keyframes pulse {
+                0%, 100% { transform: scale(1); opacity: 1; }
+                50% { transform: scale(1.2); opacity: 0.8; }
+            }
+            
+            @keyframes ring {
+                0% { transform: scale(0.8); opacity: 0.8; }
+                100% { transform: scale(2); opacity: 0; }
+            }
+            
+            .status-info {
                 display: flex;
                 align-items: center;
                 gap: 10px;
-            `;
-            document.body.appendChild(notif);
-        }
-        
-        notif.innerHTML = `
-            <i class="fas fa-sync-alt fa-spin"></i>
-            <span>Contenido actualizado</span>
+                font-size: 0.8em;
+                color: #888;
+            }
+            
+            .update-time {
+                font-family: 'Courier New', monospace;
+                background: #f5f5f5;
+                padding: 4px 8px;
+                border-radius: 4px;
+                font-size: 0.85em;
+            }
+            
+            .connection-speed {
+                background: #e3f2fd;
+                color: #1976d2;
+                padding: 2px 6px;
+                border-radius: 3px;
+                font-size: 0.75em;
+                font-weight: 600;
+            }
+            
+            .movies-scroller {
+                display: flex;
+                gap: 16px;
+                overflow-x: auto;
+                scroll-behavior: smooth;
+                scrollbar-width: thin;
+                scrollbar-color: #e50914 transparent;
+                padding: 8px 4px;
+            }
+            
+            .movies-scroller::-webkit-scrollbar {
+                height: 6px;
+            }
+            
+            .movies-scroller::-webkit-scrollbar-thumb {
+                background: #e50914;
+                border-radius: 3px;
+            }
+            
+            .movie-item {
+                flex: 0 0 auto;
+                width: 180px;
+                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            }
+            
+            .movie-item:hover {
+                transform: translateY(-8px) scale(1.03);
+                z-index: 10;
+            }
+            
+            .movie-poster {
+                position: relative;
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            }
+            
+            .movie-badge {
+                position: absolute;
+                top: 8px;
+                right: 8px;
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+                align-items: flex-end;
+            }
+            
+            .new-tag {
+                background: linear-gradient(135deg, #ff416c, #ff4b2b);
+                color: white;
+                font-size: 0.7em;
+                padding: 2px 6px;
+                border-radius: 3px;
+                font-weight: 600;
+                animation: glow 2s infinite;
+            }
+            
+            @keyframes glow {
+                0%, 100% { opacity: 1; }
+                50% { opacity: 0.7; }
+            }
+            
+            .rt-notification {
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 12px 20px;
+                border-radius: 10px;
+                box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);
+                z-index: 9999;
+                transform: translateX(120%) translateY(0);
+                opacity: 0;
+                transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            }
+            
+            .rt-notification.show {
+                transform: translateX(0) translateY(0);
+                opacity: 1;
+            }
+            
+            .rt-content {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+            
+            .rt-icon {
+                font-size: 1.2em;
+                animation: spin 1s linear infinite;
+            }
+            
+            @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+            
+            .carrusel-btn {
+                background: rgba(229, 9, 20, 0.9);
+                border: none;
+                color: white;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 0.3s ease;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                z-index: 2;
+            }
+            
+            .carrusel-btn:hover {
+                background: #e50914;
+                transform: translateY(-50%) scale(1.1);
+                box-shadow: 0 4px 15px rgba(229, 9, 20, 0.3);
+            }
+            
+            .carrusel-btn.prev {
+                left: -20px;
+            }
+            
+            .carrusel-btn.next {
+                right: -20px;
+            }
+            
+            .carrusel-btn svg {
+                fill: white;
+                width: 20px;
+                height: 20px;
+            }
+            
+            .carrusel-contenedor {
+                position: relative;
+            }
+            
+            @media (max-width: 768px) {
+                .carrusel-btn {
+                    width: 36px;
+                    height: 36px;
+                }
+                
+                .carrusel-btn.prev {
+                    left: -10px;
+                }
+                
+                .carrusel-btn.next {
+                    right: -10px;
+                }
+                
+                .movie-item {
+                    width: 150px;
+                }
+            }
         `;
         
-        // Animar entrada
-        setTimeout(() => {
-            notif.style.transform = 'translateX(0)';
-            
-            // Ocultar después de 3 segundos
-            setTimeout(() => {
-                notif.style.transform = 'translateX(120%)';
-            }, 3000);
-        }, 100);
-        
-        // Actualizar timestamp
-        const timeElement = document.getElementById('last-update-time');
-        if (timeElement) {
-            timeElement.textContent = new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
-        }
+        const style = document.createElement('style');
+        style.textContent = styles;
+        document.head.appendChild(style);
     }
-    
-    async function checkForUpdates() {
-        if (!isVisible) return;
-        
-        const movies = await fetchMovies();
-        if (movies) {
-            renderMovies(movies);
-        }
-    }
-    
-    function startPolling() {
-        // Frecuencia dinámica basada en actividad
-        const frequency = document.hidden ? 120000 : 30000; // 30 segundos activo, 2 minutos inactivo
-        
-        if (updateInterval) clearInterval(updateInterval);
-        
-        updateInterval = setInterval(async () => {
-            await checkForUpdates();
-        }, frequency);
-    }
-    
-    function stopPolling() {
-        if (updateInterval) {
-            clearInterval(updateInterval);
-            updateInterval = null;
-        }
-    }
-    
-    // Inicializar
-    async function init() {
-        // Carga inicial
-        const initialMovies = await fetchMovies();
-        if (initialMovies) {
-            lastUpdateHash = calculateHash(initialMovies);
-            renderMovies(initialMovies);
-        }
-        
-        // Iniciar polling
-        startPolling();
-        
-        // Verificar actualizaciones más frecuentemente cuando la página gana foco
-        window.addEventListener('focus', async () => {
-            await checkForUpdates();
-            startPolling();
-        });
-        
-        window.addEventListener('blur', stopPolling);
-        
-        resetUserActivity(); // Iniciar detección de actividad
-    }
-    
-    // Función auxiliar para el carrusel
-    window.scrollCarousel = function(button, amount) {
-        const carousel = button.parentElement.querySelector('.horizontal-scroll');
-        carousel.scrollBy({ left: amount, behavior: 'smooth' });
-    };
-    
-    // Iniciar cuando el DOM esté listo
+
+    // Iniciar aplicación
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
+        document.addEventListener('DOMContentLoaded', () => {
+            injectOptimizedStyles();
+            init();
+        });
     } else {
+        injectOptimizedStyles();
         init();
     }
-    
-    // Estilos CSS para los efectos visuales
-    const styles = `
-        .live-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            font-size: 0.5em;
-            color: #e50914;
-            margin-left: 10px;
-            vertical-align: middle;
-            border: 1px solid #e50914;
-            padding: 2px 8px;
-            border-radius: 12px;
-            background: rgba(229, 9, 20, 0.1);
+
+    // Exportar API pública
+    window.MoviesRealTime = {
+        forceUpdate: () => checkForUpdates(true),
+        getStatus: () => ({
+            online: STATE.isOnline,
+            speed: STATE.connectionSpeed,
+            lastUpdate: STATE.lastETag,
+            cached: STATE.moviesCache ? STATE.moviesCache.length : 0
+        }),
+        setPollingInterval: (interval) => {
+            CONFIG.POLLING_INTERVAL_ACTIVE = interval;
         }
-        
-        .pulse {
-            width: 8px;
-            height: 8px;
-            background: #e50914;
-            border-radius: 50%;
-            animation: pulse 2s infinite;
-        }
-        
-        @keyframes pulse {
-            0% { transform: scale(0.95); opacity: 0.7; }
-            50% { transform: scale(1.1); opacity: 1; }
-            100% { transform: scale(0.95); opacity: 0.7; }
-        }
-        
-        .section-title-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 15px;
-        }
-        
-        .update-info {
-            font-size: 0.8em;
-            color: #666;
-        }
-        
-        .new-badge {
-            background: #4CAF50;
-            color: white;
-            font-size: 0.7em;
-            padding: 2px 6px;
-            border-radius: 3px;
-            margin-left: 5px;
-        }
-        
-        .movie-card {
-            transition: transform 0.3s ease;
-        }
-        
-        .movie-card:hover {
-            transform: translateY(-5px);
-        }
-    `;
-    
-    // Añadir estilos dinámicamente
-    const styleSheet = document.createElement('style');
-    styleSheet.textContent = styles;
-    document.head.appendChild(styleSheet);
+    };
 })();
 </script>
 </body>
