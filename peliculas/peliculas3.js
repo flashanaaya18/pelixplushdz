@@ -10233,6 +10233,65 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Pérdida Total",
+    "titulo_original": "Pérdida Total",
+    "poster": "https://image.tmdb.org/t/p/w500/qweOvbSGTTG5sTpokW09s70gh9J.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/njzZDv1JStWz6wYnwMoOJhG1H0I.jpg",
+    "descripcion": "",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Enrique Begné",
+    "reparto": [
+      "Leonardo Ortizgris",
+      "Héctor Kotsifakis",
+      "Jorge A. Jimenez",
+      "Joaquín Cosío",
+      "Alejandro Calva",
+      "Tato Alexander",
+      "Ana Sofía Gatica",
+      "Enrique Arreola",
+      "Paulo Galindo",
+      "Rodrigo Oviedo",
+      "Julieta Chichino",
+      "Olivia Duflos"
+    ],
+    "calificacion": 6.6,
+    "votos": 10,
+    "idioma": "ES",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-14T20:40:23.499569",
+    "tmdb_id": "1372586",
+    "popularidad": 1.11,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=dvfL6mNxL-E",
+    "trailer_key": "dvfL6mNxL-E",
+    "success": true,
+    "duracion": "100 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://nuuuppp.sbs/watch/kcOhSbiBojz2ssRTWmNxtOMBG3VaEqK0UKqsVVH9n7kz7k?h=",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "perdida-total-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Refugio mortal",
     "titulo_original": "Trap House",
     "poster": "https://image.tmdb.org/t/p/w500/p9zbrDpAKyj3jeemkyAoBmlo3KG.jpg",
