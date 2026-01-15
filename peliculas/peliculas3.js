@@ -4421,6 +4421,66 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Fall",
+    "titulo_original": "Fall",
+    "poster": "https://image.tmdb.org/t/p/w500/tsjVxiuGyvMC4IbI2gjmDYpcYjU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/1DBDwevWS8OhiT3wqqlW7KGPd6m.jpg",
+    "descripcion": "Para las mejores amigas Becky y Hunter, la vida trata de superar tus miedos y empujar tus límites. Sin embargo, después de subir hasta la cima de una torre de comunicaciones abandonada, se encuentran atrapadas y sin forma de bajar. A 600 metros del suelo y totalmente alejadas de la civilización, las chicas pondrán a prueba sus habilidades de escaladoras expertas y lucharán desesperadamente por sobrevivir aunque lo tengan todo en contra. ¿Lo conseguirán?",
+    "año": 2022,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "suspense"
+    ],
+    "generos_lista": [
+      "Suspense"
+    ],
+    "director": "Scott Mann",
+    "reparto": [
+      "Grace Caroline Currey",
+      "Virginia Gardner",
+      "Jeffrey Dean Morgan",
+      "Mason Gooding",
+      "Jasper Cole",
+      "Darrell Dennis",
+      "Julia Pace Mitchell",
+      "Bamm Ericsen",
+      "Evie Mann",
+      "Joseph Mann",
+      "Nick Lynes",
+      "Branden Currey"
+    ],
+    "calificacion": 7.1,
+    "votos": 4368,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-14T19:43:37.068877",
+    "tmdb_id": "985939",
+    "popularidad": 15.27,
+    "tagline": "El miedo alcanza nuevas alturas.",
+    "trailer": "https://www.youtube.com/watch?v=38Q4nBu3mHM",
+    "trailer_key": "38Q4nBu3mHM",
+    "success": true,
+    "duracion": "107 min",
+    "presupuesto": "$3,000,000",
+    "ingresos": "$17,363,261",
+    "plataforma": "MovistarTV",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://ok.ru/videoembed/6698191883001?nochat=1",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "fall-2022"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Final Recovery",
     "titulo_original": "Final Recovery",
     "poster": "https://image.tmdb.org/t/p/w500/oX4udyeV5ANslBfHXXlg4L0knUV.jpg",
