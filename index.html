@@ -3553,6 +3553,80 @@
                 return false;
             }
         });
+
+        // --- Auto-actualización de "Añadido Recientemente" ---
+        (function() {
+            const REFRESH_INTERVAL = 60000; // Actualizar cada 60 segundos
+            const CONTAINER_ID = 'recientemente-añadido';
+            
+            async function fetchAndParseMovies() {
+                try {
+                    // Forzamos la recarga del archivo JS para evitar caché
+                    const response = await fetch('peliculas/peliculas3.js?v=' + Date.now());
+                    const text = await response.text();
+                    
+                    // Extraemos el array JSON usando regex (busca el contenido entre corchetes)
+                    const jsonMatch = text.match(/\[.*\]/s);
+                    if (jsonMatch) {
+                        return JSON.parse(jsonMatch[0]);
+                    }
+                    return [];
+                } catch (error) {
+                    console.error('Error actualizando películas en tiempo real:', error);
+                    return [];
+                }
+            }
+
+            function renderRecentlyAdded(movies) {
+                const container = document.getElementById(CONTAINER_ID);
+                if (!container) return;
+
+                // Ordenar por fecha de añadido (más reciente primero) y tomar los últimos 20
+                const sortedMovies = movies.sort((a, b) => new Date(b.addedDate) - new Date(a.addedDate)).slice(0, 20);
+
+                if (sortedMovies.length === 0) return;
+
+                let html = `
+                    <div class="section-title-container">
+                        <h2 class="section-title">Añadido Recientemente <span style="font-size:0.5em; color:#e50914; margin-left:10px; vertical-align: middle; border: 1px solid #e50914; padding: 2px 6px; border-radius: 4px; animation: pulse-red 2s infinite;">EN VIVO</span></h2>
+                    </div>
+                    <div class="carrusel-contenedor">
+                        <button class="carrusel-flecha izquierda" onclick="this.nextElementSibling.scrollBy({left: -300, behavior: 'smooth'})">&#10094;</button>
+                        <div class="movie-grid horizontal-scroll" style="display: flex; gap: 15px; overflow-x: auto; padding-bottom: 15px;">
+                `;
+
+                sortedMovies.forEach(movie => {
+                    html += `
+                        <div class="movie-card">
+                            <a href="detalles.html?id=${movie.id}" class="card-link">
+                                <div class="card-head">
+                                    <img src="${movie.poster}" alt="${movie.titulo}" loading="lazy">
+                                    <div class="rating-badge"><i class="fas fa-star"></i> ${movie.calificacion || 'N/A'}</div>
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">${movie.titulo}</h3>
+                                    <div class="card-info"><span>${movie.año}</span><span>${movie.calidad || 'HD'}</span></div>
+                                </div>
+                            </a>
+                        </div>`;
+                });
+
+                html += `</div><button class="carrusel-flecha derecha" onclick="this.previousElementSibling.scrollBy({left: 300, behavior: 'smooth'})">&#10095;</button></div>`;
+                container.innerHTML = html;
+            }
+
+            // Iniciar ciclo de actualización
+            setInterval(async () => {
+                const movies = await fetchAndParseMovies();
+                if (movies.length > 0) renderRecentlyAdded(movies);
+            }, REFRESH_INTERVAL);
+            
+            // Ejecutar también al cargar para asegurar datos frescos
+            setTimeout(async () => {
+                const movies = await fetchAndParseMovies();
+                if (movies.length > 0) renderRecentlyAdded(movies);
+            }, 2000);
+        })();
     </script>
 </body>
 
