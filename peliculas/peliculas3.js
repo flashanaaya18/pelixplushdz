@@ -1201,6 +1201,70 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Black Adam",
+    "titulo_original": "Black Adam",
+    "poster": "https://image.tmdb.org/t/p/w500/moDLTCdLx38kMhN53KOTw0LdWMh.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
+    "descripcion": "Casi 5000 años después de que los dioses antiguos le concediesen sus poderes y tras ser encarcelado, Black Adam queda liberado de su tumba terrenal y está listo para hacer justicia a su manera en el mundo moderno.",
+    "año": 2022,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "aventura",
+      "ciencia ficción"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Aventura",
+      "Ciencia ficción"
+    ],
+    "director": "Jaume Collet-Serra",
+    "reparto": [
+      "Dwayne Johnson",
+      "Aldis Hodge",
+      "Noah Centineo",
+      "Sarah Shahi",
+      "Quintessa Swindell",
+      "Marwan Kenzari",
+      "Mo Amer",
+      "Bodhi Sabongui",
+      "Pierce Brosnan",
+      "James Cusati-Moyer",
+      "Jalon Christian",
+      "Benjamin Patterson"
+    ],
+    "calificacion": 6.8,
+    "votos": 6831,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-14T19:58:07.232390",
+    "tmdb_id": "436270",
+    "popularidad": 17.1,
+    "tagline": "Un poder nacido de la ira",
+    "trailer": "https://www.youtube.com/watch?v=Z4LnanvJh3I",
+    "trailer_key": "Z4LnanvJh3I",
+    "success": true,
+    "duracion": "124 min",
+    "presupuesto": "$200,000,000",
+    "ingresos": "$393,452,111",
+    "plataforma": "Amazon Prime Video",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/6y0gvxj4b324",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "black-adam-2022"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Blue Beetle",
     "titulo_original": "Blue Beetle",
     "poster": "https://image.tmdb.org/t/p/w500/tf5Mqgoj1fFIeP7Ktfn8KGrYhup.jpg",
