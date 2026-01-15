@@ -8551,6 +8551,70 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Monstruos, S.A.",
+    "titulo_original": "Monsters, Inc.",
+    "poster": "https://image.tmdb.org/t/p/w500/g3SgHEb5ej2MioGfYLrZVshF909.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/sDTnMOJ3H5wI38OxObmCtK7wfd5.jpg",
+    "descripcion": "Monsters Inc. es la mayor empresa de miedo del mundo, y James P. Sullivan es uno de sus mejores empleados. Asustar a los niños no es un trabajo fácil, ya que todos creen que los niños son tóxicos y no pueden tener contacto con ellos. Pero un día una niña se cuela sin querer en la empresa, provocando el caos.",
+    "año": 2001,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "animación",
+      "comedia",
+      "familia"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Comedia",
+      "Familia"
+    ],
+    "director": "Pete Docter",
+    "reparto": [
+      "John Goodman",
+      "Billy Crystal",
+      "Mary Gibbs",
+      "Steve Buscemi",
+      "James Coburn",
+      "Jennifer Tilly",
+      "Bob Peterson",
+      "John Ratzenberger",
+      "Frank Oz",
+      "Daniel Gerson",
+      "Steve Susskind",
+      "Bonnie Hunt"
+    ],
+    "calificacion": 7.8,
+    "votos": 19369,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-14T19:06:42.655111",
+    "tmdb_id": "585",
+    "popularidad": 18.15,
+    "tagline": "Asustamos porque nos preocupamos.",
+    "trailer": "https://www.youtube.com/watch?v=feRnlEHTCY0",
+    "trailer_key": "feRnlEHTCY0",
+    "success": true,
+    "duracion": "88 min",
+    "presupuesto": "$115,000,000",
+    "ingresos": "$579,700,000",
+    "plataforma": "Disney Plus",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/2f3bl60eo2dr",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "monstruos-sa-2001"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Noche de Miedo",
     "titulo_original": "Twas The Night",
     "poster": "https://image.tmdb.org/t/p/w500/rOLpMgK3CAEeCFtYg0W5axp1ktO.jpg",
@@ -8605,6 +8669,71 @@ const peliculas3 = [
     ],
     "id": "twas-the-night-2023",
     "plataforma": "Plex"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Noche de paz: Cazadores de demonios",
+    "titulo_original": "거룩한 밤: 데몬 헌터스",
+    "poster": "https://image.tmdb.org/t/p/w500/7MGnHpfhF8savUsrUJoI8Q7dTk9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5A01YSCPYoCOZOhh9tU7F3Htxkf.jpg",
+    "descripcion": "Un equipo de varias personas lucha contra espíritus malignos.",
+    "año": 2025,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "fantasía",
+      "terror",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Fantasía",
+      "Terror",
+      "Suspense"
+    ],
+    "director": "Lim Dae-hee",
+    "reparto": [
+      "마동석",
+      "서현",
+      "이다윗",
+      "경수진",
+      "Hyun Seung-min",
+      "최광일",
+      "류승수",
+      "전익령",
+      "송요셉",
+      "박옥출",
+      "한기중",
+      "이다일"
+    ],
+    "calificacion": 6.8,
+    "votos": 80,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-14T19:18:31.480557",
+    "tmdb_id": "793387",
+    "popularidad": 18.06,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "92 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$6,500,000",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filemoon.to/e/4e2pl6migqn7",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "noche-de-paz-cazadores-de-demonios-2025"
   },
   {
     "tipo": "pelicula",

@@ -18168,53 +18168,6 @@ const peliculas1 = [
     "id": "kill-mode-2020"
   },
   {
-    "id": "monstruos-sa-2001",
-    "tipo": "pelicula",
-    "titulo": "Monsters, Inc.",
-    "poster": "https://image.tmdb.org/t/p/w300/8hMd1BIcCwISqxOdo1G4UXCEOI.jpg",
-    "descripcion": "Para alimentar la ciudad, los monstruos tienen que asustar a los niños para que griten. Sin embargo, los niños son tóxicos para los monstruos, y después de que un niño pasa, dos monstruos se dan cuenta de que las cosas pueden no ser lo que ellos piensan.",
-    "categoria": [
-      "anime"
-    ],
-    "duracion": "N/A",
-    "director": "N/A",
-    "reparto": [
-      ""
-    ],
-    "favorito": false,
-    "genero": [
-      "animacion",
-      "comedia"
-    ],
-    "calidad": "HD",
-    "addedDate": "2025-11-19T01:12:57.891719",
-    "tamaño": "N/A",
-    "año": 2001,
-    "calificacion": 7.8,
-    "votos": 19365,
-    "es_nuevo": false,
-    "es_reciente": false,
-    "esta_roto": false,
-    "plataforma": "Disney+",
-    "fuentes": [
-      {
-        "idioma": "latino",
-        "url": "https://dinisglows.com/embed/j4adxyk552vk"
-      }
-    ],
-    "descargas": [
-      {
-        "calidad": "HD",
-        "idioma": "latino",
-        "formato": "MP4",
-        "servidor": "Directo",
-        "url": "https://dinisglows.com/embed/j4adxyk552vk"
-      }
-    ],
-    "tmdb_id": 585,
-    "backdrop": "https://image.tmdb.org/t/p/w1280/sDTnMOJ3H5wI38OxObmCtK7wfd5.jpg"
-  },
-  {
     "id": "moon-mi-amigo-panda-2025",
     "tipo": "pelicula",
     "titulo": "Moon, mi amigo panda",
