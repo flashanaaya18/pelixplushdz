@@ -8739,6 +8739,63 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Muerte en la nieve",
+    "titulo_original": "Dead of Winter",
+    "poster": "https://image.tmdb.org/t/p/w500/Ac0Lm6Pj5LT2joGfMWmmLf5hRi9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ajdB8AoHKrYlOR4yMDMZYLFyfdj.jpg",
+    "descripcion": "Una mujer, que viaja sola por el norte nevado de Minnesota, interrumpe el secuestro de una adolescente. A horas del pueblo más cercano y sin cobertura telefónica, se da cuenta de que es la única esperanza de la joven.",
+    "año": 2025,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "suspense"
+    ],
+    "generos_lista": [
+      "Suspense"
+    ],
+    "director": "Brian Kirk",
+    "reparto": [
+      "Emma Thompson",
+      "Judy Greer",
+      "Marc Menchaca",
+      "Laurel Marsden",
+      "Gaia Wise",
+      "Cúán Hosty-Blaney",
+      "Dalton Leeb",
+      "Lloyd Hutchinson",
+      "Brían F. O'Byrne",
+      "Paul Hamilton"
+    ],
+    "calificacion": 6.3,
+    "votos": 141,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-14T20:01:17.226793",
+    "tmdb_id": "1235746",
+    "popularidad": 17.02,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "97 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$1,030,111",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/2ezo1apbazv3",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "muerte-en-la-nieve-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Noche de Miedo",
     "titulo_original": "Twas The Night",
     "poster": "https://image.tmdb.org/t/p/w500/rOLpMgK3CAEeCFtYg0W5axp1ktO.jpg",
