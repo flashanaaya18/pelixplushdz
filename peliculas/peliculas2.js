@@ -9526,67 +9526,6 @@ const peliculas2 = [
   },
   {
     "tipo": "pelicula",
-    "titulo": "La Lista de Schindler",
-    "titulo_original": "Schindler's List",
-    "poster": "https://image.tmdb.org/t/p/w500/3Ho0pXsnMxpGJWqdOi0KDNdaTkT.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w1280/zb6fM1CX41D9rF9hdgclu0peUmy.jpg",
-    "descripcion": "Oskar Schindler, un hombre de enorme astucia y talento para las relaciones públicas, organiza un ambicioso plan para ganarse la simpatía de los nazis. Después de la invasión de Polonia por los alemanes, consigue, gracias a sus relaciones con los nazis, la propiedad de una fábrica de Cracovia. Allí emplea a cientos de operarios judíos, cuya explotación le hace prosperar rápidamente. Su gerente, también judío, es el verdadero director en la sombra, pues Schindler no tiene el menor conocimiento industrial.",
-    "año": 1993,
-    "categoria": [
-      "drama"
-    ],
-    "genero": [
-      "Drama",
-      "Historia",
-      "Bélica"
-    ],
-    "generos_lista": [
-      "Drama",
-      "Historia",
-      "Bélica"
-    ],
-    "director": "Steven Spielberg",
-    "reparto": [
-      "Liam Neeson",
-      "Ben Kingsley",
-      "Ralph Fiennes",
-      "Caroline Goodall",
-      "Jonathan Sagall",
-      "Embeth Davidtz",
-      "Malgorzata Gebel",
-      "שמוליק לוי",
-      "Mark Ivanir",
-      "Béatrice Macola",
-      "Andrzej Seweryn",
-      "Friedrich von Thun"
-    ],
-    "calificacion": 8.6,
-    "votos": 16984,
-    "idioma": "EN",
-    "calidad": "HD",
-    "favorito": false,
-    "esta_roto": false,
-    "addedDate": "2025-12-24T00:01:13.825247",
-    "tmdb_id": 424,
-    "popularidad": 13.68,
-    "tagline": "Quien salva una vida, salva al mundo entero.",
-    "trailer": "https://www.youtube.com/watch?v=0Z9cLiliBh0",
-    "success": true,
-    "duracion": "195 min",
-    "fuentes": [
-      {
-        "idioma": "Original",
-        "url": "https://www.youtube.com/watch?v=0Z9cLiliBh0",
-        "calidad": "HD",
-        "tipo": "trailer",
-        "activa": true
-      }
-    ],
-    "id": "la-lista-de-schindler-1993",
-    "plataforma": "HBO Max"
-  },
-  {
-    "tipo": "pelicula",
     "titulo": "La Llegada",
     "titulo_original": "Arrival",
     "poster": "https://image.tmdb.org/t/p/w500/tbVITeytclB4JKx2LxxasrCCmZx.jpg",

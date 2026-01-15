@@ -4792,6 +4792,70 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Gente que conocemos en vacaciones",
+    "titulo_original": "People We Meet on Vacation",
+    "poster": "https://image.tmdb.org/t/p/w500/9SUEbyc5OUaNkGPLK3f1w3Ryoyo.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qth56RA3rkUlhbDRDKGeMJEssdi.jpg",
+    "descripcion": "Poppy es un espíritu libre y a Alex le gusta planificarlo todo. Tras muchas vacaciones juntos, estos amigos tan diferentes se preguntan si serán la pareja perfecta.",
+    "año": 2026,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "romance",
+      "comedia",
+      "drama"
+    ],
+    "generos_lista": [
+      "Romance",
+      "Comedia",
+      "Drama"
+    ],
+    "director": "Brett Haley",
+    "reparto": [
+      "Emily Bader",
+      "Tom Blyth",
+      "Sarah Catherine Hook",
+      "Jameela Jamil",
+      "Lucien Laviscount",
+      "Lukas Gage",
+      "Miles Heizer",
+      "Alan Ruck",
+      "Molly Shannon",
+      "Tommy Do",
+      "Alice Lee",
+      "Spencer Neville"
+    ],
+    "calificacion": 7.2,
+    "votos": 183,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-14T20:04:54.724210",
+    "tmdb_id": "1034716",
+    "popularidad": 134.66,
+    "tagline": "En las vacaciones, eres libre de seguir tu corazón",
+    "trailer": "https://www.youtube.com/watch?v=BLyjtg8efbA",
+    "trailer_key": "BLyjtg8efbA",
+    "success": true,
+    "duracion": "116 min",
+    "presupuesto": "$1,000,000",
+    "ingresos": "Desconocido",
+    "plataforma": "Netflix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://minochinos.com/embed/u56ubynfp0sr",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "gente-que-conocemos-en-vacaciones-2026"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Gigantes",
     "titulo_original": "Gigantes, una Aventura extraordinaria",
     "poster": "https://image.tmdb.org/t/p/w500/g7ki03zoFRnqMVLno8kUyCQAeWP.jpg",
@@ -6644,6 +6708,70 @@ const peliculas3 = [
       }
     ],
     "id": "la-asistenta-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "La lista de Schindler",
+    "titulo_original": "Schindler's List",
+    "poster": "https://image.tmdb.org/t/p/w500/3Ho0pXsnMxpGJWqdOi0KDNdaTkT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/zb6fM1CX41D9rF9hdgclu0peUmy.jpg",
+    "descripcion": "Oskar Schindler, un hombre de enorme astucia y talento para las relaciones públicas, organiza un ambicioso plan para ganarse la simpatía de los nazis. Después de la invasión de Polonia por los alemanes, consigue, gracias a sus relaciones con los nazis, la propiedad de una fábrica de Cracovia. Allí emplea a cientos de operarios judíos, cuya explotación le hace prosperar rápidamente. Su gerente, también judío, es el verdadero director en la sombra, pues Schindler no tiene el menor conocimiento industrial.",
+    "año": 1993,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "historia",
+      "bélica"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Historia",
+      "Bélica"
+    ],
+    "director": "Steven Spielberg",
+    "reparto": [
+      "Liam Neeson",
+      "Ben Kingsley",
+      "Ralph Fiennes",
+      "Caroline Goodall",
+      "Jonathan Sagall",
+      "Embeth Davidtz",
+      "Malgorzata Gebel",
+      "שמוליק לוי",
+      "Mark Ivanir",
+      "Béatrice Macola",
+      "Andrzej Seweryn",
+      "Friedrich von Thun"
+    ],
+    "calificacion": 8.6,
+    "votos": 16986,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-14T20:03:23.957279",
+    "tmdb_id": "424",
+    "popularidad": 16.82,
+    "tagline": "Quien salva una vida, salva al mundo entero.",
+    "trailer": "https://www.youtube.com/watch?v=0Z9cLiliBh0",
+    "trailer_key": "0Z9cLiliBh0",
+    "success": true,
+    "duracion": "195 min",
+    "presupuesto": "$22,000,000",
+    "ingresos": "$321,365,567",
+    "plataforma": "HBO Max",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/yks68zl9a9b3",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "la-lista-de-schindler-1993"
   },
   {
     "tipo": "pelicula",
