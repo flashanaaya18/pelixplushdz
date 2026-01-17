@@ -107,7 +107,15 @@ const peliculas3 = [
     "duracion": "109 min",
     "presupuesto": "$63,000,000",
     "ingresos": "$2,100,000",
-    "fuentes": [],
+    "fuentes": [
+      {
+        "url": "https://goodstream.one/embed-gez9192hnnib.html",
+        "idioma": "Latino",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
     "id": "28-anos-despues-el-templo-de-los-huesos-2026"
   },
   {
@@ -3284,6 +3292,69 @@ const peliculas3 = [
     "id": "el-avispon-verde-1966",
     "duracion": "25 min",
     "plataforma": "serie"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El botín",
+    "titulo_original": "The Rip",
+    "poster": "https://image.tmdb.org/t/p/w500/28hTjQCq0ul6WUR22qRsWEeuxlj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kwNIQW7egAmI66sb0zIugMbpCfU.jpg",
+    "descripcion": "El descubrimiento de varios millones de dólares en efectivo en un zulo abandonado de Miami quiebra la confianza de un grupo de policías. Ahora, todo y todos están bajo sospecha.",
+    "año": 2026,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "acción",
+      "suspense",
+      "crimen"
+    ],
+    "generos_lista": [
+      "Acción",
+      "Suspense",
+      "Crimen"
+    ],
+    "director": "Joe Carnahan",
+    "reparto": [
+      "Matt Damon",
+      "Ben Affleck",
+      "Teyana Taylor",
+      "Sasha Calle",
+      "Kyle Chandler",
+      "Steven Yeun",
+      "Scott Adkins",
+      "Catalina Sandino Moreno",
+      "Nestor Carbonell",
+      "Дайсуке Цудзі",
+      "Jose Pablo Cantillo",
+      "Iván Amaro Bullón"
+    ],
+    "calificacion": 7.2,
+    "votos": 63,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-17T00:17:35.091492",
+    "tmdb_id": "1306368",
+    "popularidad": 28.75,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "112 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://voe.sx/e/gbf5nzbsqvea",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-botin-2026"
   },
   {
     "tipo": "pelicula",
@@ -6897,6 +6968,64 @@ const peliculas3 = [
     ],
     "id": "no-way-out-2022",
     "plataforma": "Apple TV+"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Killer Whale",
+    "titulo_original": "Killer Whale",
+    "poster": "https://image.tmdb.org/t/p/w500/xC6zdIoIHjhOIFmjNyGgtzhuhiF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/5JKCMPhxOfK2np48zAznCQZRyBV.jpg",
+    "descripcion": "",
+    "año": 2026,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "suspense",
+      "terror",
+      "acción",
+      "misterio"
+    ],
+    "generos_lista": [
+      "Suspense",
+      "Terror",
+      "Acción",
+      "Misterio"
+    ],
+    "director": "Jo-Anne Brechin",
+    "reparto": [
+      "Virginia Gardner",
+      "Melanie Jarnson",
+      "Mitchell Hope",
+      "Isaac Crawley",
+      "Scott James George"
+    ],
+    "calificacion": 4.0,
+    "votos": 4,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-17T01:02:16.347709",
+    "tmdb_id": "1412598",
+    "popularidad": 20.03,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "89 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://bysesukior.com/e/2jzhqr8cm3k4",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "killer-whale-2026"
   },
   {
     "tipo": "pelicula",
