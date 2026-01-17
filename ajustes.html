@@ -100,6 +100,46 @@
         .my-request-info span { font-size: 0.8rem; color: #aaa; }
         .request-status { position: absolute; right: 10px; top: 10px; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; background: #444; color: #ccc; }
         .request-status.pending { background: #e67e22; color: white; }
+
+        /* Estilos para el Switch de Auto-Login */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 24px;
+        }
+        .switch input { 
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 16px;
+            width: 16px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+        input:checked + .slider { background-color: #e50914; }
+        input:focus + .slider { box-shadow: 0 0 1px #e50914; }
+        input:checked + .slider:before { transform: translateX(26px); }
+        .slider.round { border-radius: 34px; }
+        .slider.round:before { border-radius: 50%; }
     </style>
 </head>
 
@@ -161,6 +201,13 @@
                         <i class="fab fa-whatsapp"></i> Renovar Suscripción
                     </button>
                 </div>
+                <div class="setting-item" style="display: flex; justify-content: space-between; align-items: center; margin-top: 15px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px;">
+                    <span><i class="fas fa-magic"></i> Inicio de Sesión Automático</span>
+                    <label class="switch">
+                        <input type="checkbox" id="auto-login-toggle">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
             </section>
 
             <!-- Sección de Pedidos VIP (Nueva) -->
@@ -195,6 +242,17 @@
                         <i class="fas fa-crown"></i> Activar Plan VIP
                     </button>
                 </div>
+            </section>
+
+            <!-- Sección Canjear Código VIP (Manual) -->
+            <section class="setting-group" id="redeem-code-section" style="border: 1px solid #333; padding: 15px; border-radius: 8px; background: rgba(255, 255, 255, 0.05); margin-top: 20px;">
+                <h2 style="color: #fff; border-bottom: 1px solid #333; padding-bottom: 10px; margin-bottom: 15px; font-size: 1.2rem;"><i class="fas fa-key"></i> Activar Código VIP</h2>
+                <p style="color: #aaa; font-size: 0.9rem; margin-bottom: 15px;">Ingresa tu código de acceso para desbloquear funciones premium al instante.</p>
+                <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                    <input type="text" id="settings-vip-code-input" class="vip-input" placeholder="Código de acceso" style="flex: 1; padding: 12px; background: #141414; border: 1px solid #444; color: white; border-radius: 8px; outline: none;">
+                    <button id="btn-redeem-code" class="validate-btn" style="width: auto; padding: 0 20px; border-radius: 8px; font-size: 0.9rem;">Validar</button>
+                </div>
+                <p id="redeem-message" style="display:none; margin-top: 10px; font-size: 0.9rem; font-weight: bold;"></p>
             </section>
 
         </div>
@@ -319,6 +377,74 @@
             } else {
                 // Si no es VIP (Gratis o sin sesión), mostrar sección gratuita
                 if(freeSection) freeSection.style.display = 'block';
+            }
+
+            // Lógica para Canjear Código VIP
+            const btnRedeem = document.getElementById('btn-redeem-code');
+            const inputRedeem = document.getElementById('settings-vip-code-input');
+            const msgRedeem = document.getElementById('redeem-message');
+
+            if (btnRedeem && inputRedeem) {
+                btnRedeem.addEventListener('click', async () => {
+                    const code = inputRedeem.value.trim();
+                    if (!code) {
+                        msgRedeem.textContent = "Por favor ingresa un código.";
+                        msgRedeem.style.color = "#e50914";
+                        msgRedeem.style.display = "block";
+                        return;
+                    }
+
+                    const originalBtnText = btnRedeem.innerHTML;
+                    btnRedeem.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
+                    btnRedeem.disabled = true;
+                    msgRedeem.style.display = "none";
+
+                    try {
+                        const response = await fetch(`codigos_vip.json?v=${new Date().getTime()}`);
+                        const users = await response.json();
+                        const user = users.find(u => u.codigo === code);
+
+                        if (user) {
+                            const startDate = new Date(user.fecha_inicio + 'T00:00:00');
+                            const diasValidez = user.dias_validez || 30;
+                            const expirationDate = new Date(startDate);
+                            expirationDate.setDate(startDate.getDate() + diasValidez);
+                            expirationDate.setHours(23, 59, 59, 999);
+                            
+                            if (new Date() > expirationDate) {
+                                msgRedeem.textContent = "⛔ Este código ha expirado.";
+                                msgRedeem.style.color = "#e50914";
+                                msgRedeem.style.display = "block";
+                                btnRedeem.innerHTML = originalBtnText;
+                                btnRedeem.disabled = false;
+                                return;
+                            }
+
+                            sessionStorage.setItem('pelix_access_granted', 'true');
+                            sessionStorage.setItem('pelix_access_type', 'vip');
+                            sessionStorage.setItem('pelix_user_name', user.nombre);
+                            sessionStorage.setItem('pelix_user_code', user.codigo);
+
+                            msgRedeem.textContent = "✅ ¡Código activado! Actualizando...";
+                            msgRedeem.style.color = "#2ecc71";
+                            msgRedeem.style.display = "block";
+                            setTimeout(() => window.location.reload(), 1000);
+                        } else {
+                            msgRedeem.textContent = "❌ Código no encontrado.";
+                            msgRedeem.style.color = "#e50914";
+                            msgRedeem.style.display = "block";
+                            btnRedeem.innerHTML = originalBtnText;
+                            btnRedeem.disabled = false;
+                        }
+                    } catch (error) {
+                        console.error(error);
+                        msgRedeem.textContent = "⚠️ Error de conexión.";
+                        msgRedeem.style.color = "#e50914";
+                        msgRedeem.style.display = "block";
+                        btnRedeem.innerHTML = originalBtnText;
+                        btnRedeem.disabled = false;
+                    }
+                });
             }
 
             // Lógica de Pedidos VIP

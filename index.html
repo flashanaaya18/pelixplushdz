@@ -3478,6 +3478,25 @@
                 const accessType = sessionStorage.getItem('pelix_access_type');
 
                 if (!accessGranted) {
+                    // Verificar inicio de sesión automático
+                    const autoCode = localStorage.getItem('pelix_vip_auto_code');
+                    if (autoCode) {
+                        console.log('Intentando inicio de sesión automático...');
+                        // Mostrar loader mientras validamos
+                        const loader = document.getElementById('page-loader');
+                        if(loader) loader.classList.add('active');
+                        
+                        validateVipCode(autoCode).then(success => {
+                            if (!success) {
+                                localStorage.removeItem('pelix_vip_auto_code'); // Código inválido o expirado
+                                if(loader) loader.classList.remove('active');
+                                showAccessModal();
+                            }
+                            // Si es exitoso, validateVipCode se encarga de ocultar modales y loaders
+                        });
+                        return;
+                    }
+
                     console.log('No hay acceso, mostrando modal...');
                     showAccessModal();
                 } else {
@@ -3561,8 +3580,8 @@
                 }
             }
 
-            async function validateVipCode() {
-                const code = vipInput ? vipInput.value.trim() : "";
+            async function validateVipCode(codeParam = null) {
+                const code = codeParam || (vipInput ? vipInput.value.trim() : "");
                 console.log('Validando código VIP:', code);
 
                 // Rate Limiting (Seguridad Anti-Bruteforce)
@@ -3572,12 +3591,12 @@
 
                 if (attempts >= 5 && (now - lastAttemptTime) < 300000) { // 5 minutos de bloqueo
                     showVipErrorMessage('⚠️ Demasiados intentos fallidos. Por seguridad, espera 5 minutos.');
-                    return;
+                    return false;
                 }
 
                 if (!code) {
                     showVipErrorMessage('Por favor, introduce un código');
-                    return;
+                    return false;
                 }
 
                 // UI Loading State (Animación de carga)
@@ -3608,7 +3627,7 @@
                             expirationDate.setDate(startDate.getDate() + diasValidez);
 
                             showVipErrorMessage(`Tu código venció el ${expirationDate.toLocaleDateString()}. Por favor renueva tu suscripción.`);
-                            return;
+                            return false;
                         }
 
                         // Código válido
@@ -3620,21 +3639,28 @@
 
                         hideAccessModal();
                         showVipBadge();
+                        
+                        // Ocultar loader si estaba activo por auto-login
+                        const loader = document.getElementById('page-loader');
+                        if(loader) loader.classList.remove('active');
 
                         // Disparar animación de bienvenida VIP
                         // Forzamos la animación al loguearse exitosamente
                         triggerWelcome('vip', user.nombre);
 
                         if (typeof window.showNotification === 'function') window.showNotification(`¡Bienvenido VIP, ${user.nombre}!`, 'success');
+                        return true;
                     } else {
                         // Incrementar intentos fallidos
                         sessionStorage.setItem('vip_attempts', attempts + 1);
                         sessionStorage.setItem('vip_last_attempt', now);
                         showVipErrorMessage('Código incorrecto o no encontrado');
+                        return false;
                     }
                 } catch (error) {
                     console.error('Error cargando base de datos:', error);
                     showVipErrorMessage('Error de conexión segura. Intenta de nuevo.');
+                    return false;
                 } finally {
                     // Restaurar UI
                     btnValidate.innerHTML = originalText;

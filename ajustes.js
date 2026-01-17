@@ -41,4 +41,29 @@ function initializeSettings() {
             window.location.href = 'index.html';
         });
     }
+
+    // Lógica para Inicio de Sesión Automático
+    const autoLoginToggle = document.getElementById('auto-login-toggle');
+    if (autoLoginToggle) {
+        // Verificar estado actual
+        if (localStorage.getItem('pelix_vip_auto_code')) {
+            autoLoginToggle.checked = true;
+        }
+
+        autoLoginToggle.addEventListener('change', function() {
+            if (this.checked) {
+                const currentCode = sessionStorage.getItem('pelix_user_code');
+                const isVip = sessionStorage.getItem('pelix_access_type') === 'vip';
+                
+                if (isVip && currentCode) {
+                    localStorage.setItem('pelix_vip_auto_code', currentCode);
+                } else {
+                    alert('Debes tener una sesión VIP activa para habilitar esta opción.');
+                    this.checked = false;
+                }
+            } else {
+                localStorage.removeItem('pelix_vip_auto_code');
+            }
+        });
+    }
 }
