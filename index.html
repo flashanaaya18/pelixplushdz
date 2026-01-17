@@ -3581,7 +3581,7 @@
             }
 
             async function validateVipCode(codeParam = null) {
-                const code = codeParam || (vipInput ? vipInput.value.trim() : "");
+                const code = (typeof codeParam === 'string') ? codeParam : (vipInput ? vipInput.value.trim() : "");
                 console.log('Validando código VIP:', code);
 
                 // Rate Limiting (Seguridad Anti-Bruteforce)

@@ -11145,6 +11145,183 @@ const peliculas3 = [
     "id": "perdida-total-2025"
   },
   {
+    "tipo": "serie",
+    "titulo": "Reacher",
+    "titulo_original": "Reacher",
+    "poster": "https://image.tmdb.org/t/p/w500/6iuVqg86hJPwTWAO1TDWKLxjgn4.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/JYgqp8g2kI3SEus9XBDSHukfBN.jpg",
+    "descripcion": "Cuando el exagente de la Policía Militar Jack Reacher es detenido por un asesinato que no ha cometido, se ve envuelto en una mortífera conspiración llena de policías corruptos, empresarios dudosos y políticos intrigantes. Armado solo con su ingenio, debe averiguar qué pasa en Margrave, Georgia. La primera temporada de Reacher se basa en Zona peligrosa, el superventas internacional de Lee Child.",
+    "año": 2022,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "action & adventure",
+      "drama",
+      "crimen"
+    ],
+    "generos_lista": [
+      "Action & Adventure",
+      "Drama",
+      "Crimen"
+    ],
+    "director": "Nick Santora",
+    "reparto": [
+      "Alan Ritchson",
+      "Maria Sten",
+      "Sonya Cassidy",
+      "Johnny Berchtold",
+      "Roberto Montesinos",
+      "Olivier Richters",
+      "Brian Tee",
+      "Anthony Michael Hall"
+    ],
+    "calificacion": 8.1,
+    "votos": 2604,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-17T02:22:37.171523",
+    "tmdb_id": "108978",
+    "popularidad": 52.38,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=vMG5TFxCnL4",
+    "trailer_key": "vMG5TFxCnL4",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/7gurstclt0fw",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/gz9h92ckrrjp",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/231t8syv8074",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/9nejldwlnvu9",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/ftweomy00pj6",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/fp6toi8eqsy5",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/f0zf1879hbtg",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/3vjs1kqhpdj0",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "nombre": "Temporada 2",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/m0d1ohnh549t",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/j3dmjyssbqr6",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/yozwbr7oan2c",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/u6b4d17tggje",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/nw6w6mvxhrhi",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/jr3cnnxgtfii",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/arp785k26h7j",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/kcwgz2r5r8a2",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 24,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2025-03-27",
+    "plataforma": "Amazon Prime Video",
+    "id": "reacher-2022"
+  },
+  {
     "tipo": "pelicula",
     "titulo": "Refugio mortal",
     "titulo_original": "Trap House",
