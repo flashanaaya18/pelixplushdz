@@ -12282,6 +12282,81 @@ const peliculas3 = [
     "plataforma": "Amazon Prime Video"
   },
   {
+    "tipo": "serie",
+    "titulo": "Star Trek: Starfleet Academy",
+    "titulo_original": "Star Trek: Starfleet Academy",
+    "poster": "https://image.tmdb.org/t/p/w500/zrFh4BaFVjiAlYaD133LVHprhNQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6350bZGwGGf0tloA2h2WjmlPWGM.jpg",
+    "descripcion": "Una nueva promoción de cadetes se entrenan bajo la atenta y exigente mirada de los mejores de la Flota Estelar. Juntos, se enfrentarán a los altibajos de la vida en la Academia: forjarán amistades inquebrantables, chocarán en explosivas rivalidades, experimentarán sus primeros amores y se adentrarán en su destino como la próxima generación de oficiales de la Flota Estelar. Cuando un nuevo y misterioso enemigo amenace tanto a la Academia como a la propia Federación, estos cadetes deberán estar a la altura del desafío o arriesgarse a perder todo por lo que acaban de empezar a luchar.",
+    "año": 2026,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "sci-fi & fantasy",
+      "action & adventure"
+    ],
+    "generos_lista": [
+      "Sci-Fi & Fantasy",
+      "Action & Adventure"
+    ],
+    "director": "Gaia Violo",
+    "reparto": [
+      "Holly Hunter",
+      "Sandro Rosta",
+      "Karim Diane",
+      "Kerrice Brooks",
+      "George Hawkins",
+      "Bella Shepard",
+      "Zoë Steiner",
+      "עודד פהר",
+      "Gina Yashere",
+      "Robert Picardo",
+      "Tig Notaro",
+      "Stephen Colbert"
+    ],
+    "calificacion": 5.1,
+    "votos": 46,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-17T01:10:34.394746",
+    "tmdb_id": "223530",
+    "popularidad": 90.21,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://goodstream.one/embed-xp5ig0b4smtg.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://goodstream.one/embed-9871iq8s56u2.html",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 10,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2026-01-15",
+    "plataforma": "Paramount Plus",
+    "id": "star-trek-starfleet-academy-2026"
+  },
+  {
     "tipo": "pelicula",
     "titulo": "Star Wars: El despertar de la fuerza",
     "titulo_original": "Star Wars: The Force Awakens",
