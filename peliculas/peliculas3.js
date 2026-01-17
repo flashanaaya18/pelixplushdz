@@ -10808,6 +10808,69 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Pillion",
+    "titulo_original": "Pillion",
+    "poster": "https://image.tmdb.org/t/p/w500/pp874TYSlt7cuDw3aCoVR4fBSjc.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rBYrtkAy9YtRuFpX1g6JbcjRT8h.jpg",
+    "descripcion": "Colin, un hombre introvertido, se queda prendado de Ray, el carismático y atractivo líder de una banda de moteros que le toma como sumiso, dinamitando su rutina y cambiándole la vida.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "romance",
+      "drama",
+      "comedia"
+    ],
+    "generos_lista": [
+      "Romance",
+      "Drama",
+      "Comedia"
+    ],
+    "director": "Harry Lighton",
+    "reparto": [
+      "Harry Melling",
+      "Alexander Skarsgård",
+      "Lesley Sharp",
+      "Douglas Hodge",
+      "Jake Shears",
+      "Mat Hill",
+      "Nick Figgis",
+      "Zoe Engerer",
+      "Jake Sharp",
+      "Jacob Carter",
+      "Christina Carty",
+      "Zamir Mesiti"
+    ],
+    "calificacion": 6.5,
+    "votos": 26,
+    "idioma": "subtitulado",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-17T03:05:26.434350",
+    "tmdb_id": "1287141",
+    "popularidad": 27.55,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=_DGg2UEqraI",
+    "trailer_key": "_DGg2UEqraI",
+    "success": true,
+    "duracion": "107 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://streamwish.to/e/idvpsm0bbtq0",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "pillion-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Piratas del Caribe: La Maldición del Perla Negra",
     "titulo_original": "Pirates of the Caribbean: The Curse of the Black Pearl",
     "poster": "https://image.tmdb.org/t/p/w500/bVG48kmXuLaZYgPfSCmhs6EYFbX.jpg",

@@ -1462,37 +1462,52 @@ function setupPipButton(videoElement) {
     }
 }
 
-function displayRecommendations(currentMovie) {
+async function displayRecommendations(currentMovie) {
     const recommendationsGrid = document.getElementById('recommendations-grid');
     if (!recommendationsGrid) return;
     recommendationsGrid.innerHTML = '';
-    // Unused in grid layout: const recommendationsSection = recommendationsGrid.closest('.detail-recommendations-section');
 
-    const currentGenres = Array.isArray(currentMovie.genero) ? currentMovie.genero : [currentMovie.genero];
-    const recommendations = peliculas.filter(movie => {
-        if (movie.id === currentMovie.id) return false;
-        const movieGenres = Array.isArray(movie.genero) ? movie.genero : [movie.genero];
-        const commonGenres = movieGenres.filter(g => currentGenres.includes(g));
-        return commonGenres.length > 0;
-    }).slice(0, 12);
+    const getGenresAsArray = (genreField) => {
+        if (!genreField) return [];
+        const genres = Array.isArray(genreField) ? genreField : String(genreField).split(',');
+        return genres.map(g => String(g).trim().toLowerCase());
+    };
+
+    const currentGenres = getGenresAsArray(currentMovie.genero);
+    const allMovies = window.peliculas || [];
+
+    if (currentGenres.length === 0 || allMovies.length === 0) {
+        recommendationsGrid.innerHTML = '<p class="no-content-message" style="grid-column: 1/-1; text-align: center; color: #888;">No hay recomendaciones disponibles.</p>';
+        return;
+    }
+
+    const recommendations = allMovies
+        .map(movie => {
+            if (movie.id === currentMovie.id) return { movie, score: -1 };
+
+            const movieGenres = getGenresAsArray(movie.genero);
+            const commonGenresCount = movieGenres.filter(g => currentGenres.includes(g)).length;
+            
+            let score = commonGenresCount * 2; // Ponderar más los géneros en común
+            if (movie.calificacion) {
+                score += (movie.calificacion / 10);
+            }
+
+            return { movie, score };
+        })
+        .filter(item => item.score > 0)
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 12)
+        .map(item => item.movie);
 
     if (recommendations.length > 0) {
         recommendations.forEach(movie => {
-            // Use global createMovieCard if available
-            let movieCard;
-            if (window.createMovieCard) {
-                movieCard = window.createMovieCard(movie);
-            } else {
-                movieCard = createLocalMovieCard(movie);
-                movieCard.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    window.location.href = `detalles.html?id=${movie.id}`;
-                });
-            }
+            const movieCard = window.createMovieCard(movie);
+            movieCard.href = `detalles.html?id=${encodeURIComponent(movie.id)}`;
+            movieCard.onclick = (e) => { e.preventDefault(); window.showPageLoader(movieCard.href); };
             recommendationsGrid.appendChild(movieCard);
         });
         
-        // Initialize carousel controls for recommendations
         setupCarruselControls('#recommendations-carousel');
     } else {
         recommendationsGrid.innerHTML = '<p class="no-content-message" style="grid-column: 1/-1; text-align: center; color: #888;">No hay recomendaciones disponibles para este título.</p>';
@@ -1548,28 +1563,38 @@ function setupCarruselControls(carruselSelector) {
     const prevBtn = carrusel.querySelector('.carrusel-flecha.izquierda');
     const nextBtn = carrusel.querySelector('.carrusel-flecha.derecha');
 
-    if (!grid || !prevBtn || !nextBtn) return;
+    if (!grid || !prevBtn || !nextBtn) {
+        console.warn('No se encontraron los controles del carrusel para:', carruselSelector);
+        return;
+    }
 
     const scrollAmount = grid.clientWidth * 0.8;
 
     prevBtn.addEventListener('click', () => {
         grid.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
     });
-
     nextBtn.addEventListener('click', () => {
         grid.scrollBy({ left: scrollAmount, behavior: 'smooth' });
     });
 
     function updateArrowVisibility() {
-        const maxScrollLeft = grid.scrollWidth - grid.clientWidth;
-        const hasScroll = grid.scrollWidth > grid.clientWidth;
-        prevBtn.style.display = hasScroll && grid.scrollLeft > 10 ? 'flex' : 'none';
-        nextBtn.style.display = hasScroll && grid.scrollLeft < maxScrollLeft - 10 ? 'flex' : 'none';
+        // Usamos un pequeño retraso para que el navegador calcule el ancho del scroll
+        setTimeout(() => {
+            const hasScroll = grid.scrollWidth > grid.clientWidth + 1; // +1 para margen de error
+            
+            if (window.innerWidth > 768) { // Solo mostrar flechas en PC
+                prevBtn.style.display = hasScroll && grid.scrollLeft > 10 ? 'flex' : 'none';
+                nextBtn.style.display = hasScroll && grid.scrollLeft < (grid.scrollWidth - grid.clientWidth - 10) ? 'flex' : 'none';
+            } else {
+                prevBtn.style.display = 'none';
+                nextBtn.style.display = 'none';
+            }
+        }, 200);
     }
 
     grid.addEventListener('scroll', updateArrowVisibility);
     window.addEventListener('resize', updateArrowVisibility);
-    setTimeout(updateArrowVisibility, 500);
+    updateArrowVisibility(); // Llamada inicial
 }
 
 /**
