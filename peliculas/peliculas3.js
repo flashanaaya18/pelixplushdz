@@ -57,6 +57,61 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "28 años después: El templo de los huesos",
+    "titulo_original": "28 Years Later: The Bone Temple",
+    "poster": "https://image.tmdb.org/t/p/w500/2DTPapravB7kVBWjm6RsqEWyNqn.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/dT1p0K1szMAUBuE2bibouDQdNb8.jpg",
+    "descripcion": "Segunda entrega de la trilogía de secuelas de 28 días después. Premisa por determinar.",
+    "año": 2026,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "suspense",
+      "ciencia ficción"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Suspense",
+      "Ciencia ficción"
+    ],
+    "director": "Nia DaCosta",
+    "reparto": [
+      "Jack O'Connell",
+      "Alfie Williams",
+      "Connor Newall",
+      "Erin Kellyman",
+      "Maura Bird",
+      "Ghazi Al Ruffai",
+      "Robert Rhodes",
+      "Emma Laird",
+      "Sam Locke",
+      "Gareth Locke",
+      "Chi Lewis-Parry",
+      "Ralph Fiennes"
+    ],
+    "calificacion": 6.5,
+    "votos": 52,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-17T00:00:19.886176",
+    "tmdb_id": "1272837",
+    "popularidad": 60.86,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=RcnPIyUI53Q",
+    "trailer_key": "RcnPIyUI53Q",
+    "success": true,
+    "duracion": "109 min",
+    "presupuesto": "$63,000,000",
+    "ingresos": "$2,100,000",
+    "fuentes": [],
+    "id": "28-anos-despues-el-templo-de-los-huesos-2026"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "A Desert",
     "titulo_original": "A Desert",
     "poster": "https://image.tmdb.org/t/p/w500/vd194U3uHmxs5rZBV2QU7HNDdEf.jpg",
