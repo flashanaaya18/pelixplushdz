@@ -11387,6 +11387,67 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Relentless",
+    "titulo_original": "Relentless",
+    "poster": "https://image.tmdb.org/t/p/w500/30CJyWxLd7axNOdpuF9L0yAfKa9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/s8tTLypYNkAAF6t2yZbiE67x3XD.jpg",
+    "descripcion": "Un hombre sin hogar ataca a una élite acomodada en un allanamiento de morada. Pero será necesario un nivel desquiciado de brutalidad para descubrir su verdadero motivo.",
+    "año": 2026,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "suspense",
+      "acción"
+    ],
+    "generos_lista": [
+      "Suspense",
+      "Acción"
+    ],
+    "director": "Tom Botchii Skowronski",
+    "reparto": [
+      "Jackie Kelly",
+      "Jeffrey Decker",
+      "Shuhei Kinoshita",
+      "Matt Stuertz",
+      "Jennifer Cozza James",
+      "Jerry L. Buxbaum",
+      "Molly Maloney",
+      "Daniel Schriefer",
+      "Jennifer Cozza James",
+      "Kathleen Swanson",
+      "Ashley Tetzlaff",
+      "Paul Calhoon"
+    ],
+    "calificacion": 5.0,
+    "votos": 1,
+    "idioma": "subtitulado",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-17T02:51:31.591519",
+    "tmdb_id": "1459276",
+    "popularidad": 2.45,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=dr64qFZ6Oow",
+    "trailer_key": "dr64qFZ6Oow",
+    "success": true,
+    "duracion": "93 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://filemoon.to/e/7nczs39opj57",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "relentless-2026"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Respira",
     "titulo_original": "Breathe",
     "poster": "https://image.tmdb.org/t/p/w500/oujEGO5eXnP8PsFRPJHZfUzlKFK.jpg",
