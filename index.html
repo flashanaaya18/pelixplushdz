@@ -581,74 +581,6 @@
             user-select: none;
         }
 
-        /* Estilos Badge VIP Brillante */
-        .vip-badge {
-            display: none;
-            align-items: center;
-            gap: 6px;
-            background: linear-gradient(45deg, #FFD700, #FDB931, #FFD700);
-            background-size: 200% auto;
-            color: #000;
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-weight: 800;
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
-            animation: vipShine 3s linear infinite;
-            margin-right: 10px;
-            white-space: nowrap;
-            cursor: default;
-        }
-
-        .vip-badge i {
-            font-size: 0.9rem;
-        }
-
-        @keyframes vipShine {
-            to {
-                background-position: 200% center;
-            }
-        }
-
-        /* Estilos Botón Servidor 2 */
-        .server-btn {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            background: linear-gradient(45deg, #00c6ff, #0072ff);
-            color: #fff;
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-weight: 800;
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            text-decoration: none;
-            box-shadow: 0 0 10px rgba(0, 114, 255, 0.4);
-            margin-right: 10px;
-            transition: all 0.3s ease;
-            white-space: nowrap;
-        }
-
-        .server-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 0 15px rgba(0, 114, 255, 0.6);
-        }
-
-        @media (max-width: 600px) {
-            .server-btn span {
-                display: none;
-            }
-            .server-btn::after {
-                content: "S2";
-                display: inline;
-            }
-            .server-btn {
-                padding: 6px 10px;
-                margin-right: 5px;
-            }
-        }
-
         /* Estilos Mejorados para Planes VIP */
         .plan-title {
             color: white;
@@ -858,22 +790,6 @@
             .access-btn {
                 padding: 12px 15px;
                 min-height: 60px;
-            }
-        }
-
-        @media (max-width: 600px) {
-            .vip-badge span {
-                display: none;
-            }
-
-            .vip-badge::after {
-                content: "VIP";
-                display: inline;
-            }
-
-            .vip-badge {
-                padding: 6px 10px;
-                margin-right: 5px;
             }
         }
 
@@ -2184,18 +2100,6 @@
         </nav>
 
         <div class="nav-actions">
-            <!-- Badge VIP (Solo visible para VIPs) -->
-            <div id="vip-badge-display" class="vip-badge">
-                <i class="fas fa-crown"></i>
-                <span>MIEMBRO VIP</span>
-            </div>
-
-            <!-- Botón Servidor 2 -->
-            <a href="https://flashanaaya18.github.io/pelixplushdz/" class="server-btn" target="_blank">
-                <i class="fas fa-server"></i>
-                <span>Servidor 2</span>
-            </a>
-
             <!-- Barra de búsqueda -->
             <div class="search-bar">
                 <form id="search-form">
@@ -2386,6 +2290,45 @@
                 </div>
                 <div id="continue-watching-grid" class="horizontal-scroll"></div>
             </section>
+
+            <!-- Random Picker Section -->
+            <section id="random-picker-section" class="content-row">
+                <div class="section-title-container" style="justify-content: center;">
+                    <h2 class="section-title" style="background: none; -webkit-text-fill-color: white; color: white; text-shadow: 0 0 10px rgba(229,9,20,0.5);">
+                        🎲 ¿No sabes qué ver?
+                    </h2>
+                </div>
+                <div class="random-picker-wrapper">
+                    <div class="random-picker-controls">
+                        <div class="random-type-filters">
+                            <button class="filter-option active" data-filter="all">Todo</button>
+                            <button class="filter-option" data-filter="pelicula">Películas</button>
+                            <button class="filter-option" data-filter="serie">Series</button>
+                        </div>
+                        <select id="random-genre-select" class="genre-select">
+                            <option value="all">🎭 Todos los géneros</option>
+                        </select>
+                    </div>
+                    <div id="random-card-container" class="random-card-container">
+                        <div class="random-card-placeholder">
+                            <i class="fas fa-question" style="font-size: 3rem; margin-bottom: 10px;"></i>
+                            <span>Descubre tu próxima historia</span>
+                        </div>
+                        <img id="random-card-img" src="" alt="Random Movie">
+                        <div id="random-card-info" class="random-card-info">
+                            <h3 id="random-card-title"></h3>
+                            <div id="random-card-details" class="random-card-details"></div>
+                            <button id="random-watch-btn" class="hero-button" style="width: 100%; justify-content: center; font-size: 0.9rem; padding: 8px;">
+                                <i class="fas fa-play"></i> Ver Ahora
+                            </button>
+                        </div>
+                    </div>
+                    <button id="btn-spin-random" class="spin-btn">
+                        <i class="fas fa-random"></i> Elegir al Azar
+                    </button>
+                </div>
+            </section>
+
             <!-- Sección de Plataformas - VERSIÓN MEJORADA -->
 <section id="platforms-section" class="content-row">
     <div class="section-title-container">
@@ -2999,6 +2942,194 @@
         #platforms-section .carrusel-flecha.derecha {
             right: 5px;
         }
+    }
+
+    /* Estilos para el Selector Aleatorio */
+    .random-picker-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 20px;
+        background: linear-gradient(180deg, rgba(255,255,255,0.02) 0%, transparent 100%);
+        border-radius: 20px;
+        margin: 0 auto;
+        max-width: 600px;
+    }
+    .random-card-container {
+        width: 200px;
+        height: 300px;
+        background: #1a1a1a;
+        border-radius: 12px;
+        border: 2px dashed #444;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+    .random-card-container.active {
+        border-style: solid;
+        border-color: #e50914;
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(229, 9, 20, 0.4);
+    }
+    .random-card-placeholder {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        color: #666;
+        gap: 10px;
+        text-align: center;
+        padding: 20px;
+    }
+    #random-card-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: none;
+    }
+    .random-card-info {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(to top, rgba(0,0,0,0.95), rgba(0,0,0,0.6));
+        padding: 20px 15px;
+        text-align: center;
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .random-card-container.finished .random-card-info {
+        transform: translateY(0);
+    }
+    .random-card-container.finished {
+        border-color: #e50914;
+        box-shadow: 0 0 25px rgba(229, 9, 20, 0.5);
+    }
+    #random-card-title {
+        color: white;
+        font-size: 1rem;
+        margin: 0;
+        font-weight: 700;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .spin-btn {
+        padding: 12px 35px;
+        font-size: 1.1rem;
+        font-weight: 700;
+        background: linear-gradient(45deg, #e50914, #ff4b2b);
+        border: none;
+        border-radius: 50px;
+        color: white;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 5px 15px rgba(229, 9, 20, 0.3);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .spin-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(229, 9, 20, 0.5);
+    }
+    .spin-btn:disabled {
+        opacity: 0.7;
+        cursor: wait;
+        transform: none;
+    }
+    @media (max-width: 768px) {
+        .random-card-container {
+            width: 160px;
+            height: 240px;
+        }
+    }
+    .random-card-details {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        margin-bottom: 12px;
+        font-size: 0.8rem;
+        color: #ddd;
+        flex-wrap: wrap;
+    }
+    .random-tag {
+        background: rgba(0, 0, 0, 0.6);
+        padding: 3px 8px;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .random-tag.highlight {
+        background: rgba(229, 9, 20, 0.8);
+        border-color: #e50914;
+        color: white;
+        font-weight: bold;
+    }
+    .random-picker-controls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .random-type-filters {
+        display: flex;
+        background: rgba(0,0,0,0.3);
+        padding: 5px;
+        border-radius: 30px;
+        gap: 5px;
+        border: 1px solid rgba(255,255,255,0.1);
+    }
+    .genre-select {
+        background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 8px 20px;
+        border-radius: 20px;
+        outline: none;
+        cursor: pointer;
+        font-family: inherit;
+        font-size: 0.9rem;
+        text-align: center;
+        transition: all 0.3s ease;
+        min-width: 200px;
+    }
+    .genre-select:hover, .genre-select:focus {
+        border-color: #e50914;
+        background: rgba(0, 0, 0, 0.8);
+        box-shadow: 0 0 10px rgba(229, 9, 20, 0.2);
+    }
+    .genre-select option {
+        background: #1a1a1a;
+        color: #fff;
+        padding: 10px;
+    }
+    .filter-option {
+        background: transparent;
+        border: none;
+        color: #aaa;
+        padding: 8px 20px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+    .filter-option.active {
+        background: #e50914;
+        color: white;
+        box-shadow: 0 2px 10px rgba(229, 9, 20, 0.3);
     }
 </style>
 
@@ -4051,6 +4182,194 @@
                 }, 1000);
             }
             startVipCountdown();
+
+            // Lógica para el Selector Aleatorio
+            const spinBtn = document.getElementById('btn-spin-random');
+            if (spinBtn) {
+                spinBtn.addEventListener('click', function() {
+                    const container = document.getElementById('random-card-container');
+                    const img = document.getElementById('random-card-img');
+                    const placeholder = document.querySelector('.random-card-placeholder');
+                    const info = document.getElementById('random-card-info');
+                    const title = document.getElementById('random-card-title');
+                    const details = document.getElementById('random-card-details');
+                    const watchBtn = document.getElementById('random-watch-btn');
+                    const filterBtns = document.querySelectorAll('.filter-option');
+                    const genreSelect = document.getElementById('random-genre-select');
+                    
+                    // Configurar filtros si no están configurados
+                    if (!this.filtersInitialized) {
+                        filterBtns.forEach(btn => {
+                            btn.addEventListener('click', () => {
+                                filterBtns.forEach(b => b.classList.remove('active'));
+                                btn.classList.add('active');
+                            });
+                        });
+                        this.filtersInitialized = true;
+                    }
+                    
+                    // Recopilar contenido
+                    let allContent = [];
+                    if (typeof peliculas !== 'undefined') allContent = allContent.concat(peliculas);
+                    if (typeof peliculas1 !== 'undefined') allContent = allContent.concat(peliculas1);
+                    if (typeof peliculas2 !== 'undefined') allContent = allContent.concat(peliculas2);
+                    if (typeof peliculas3 !== 'undefined') allContent = allContent.concat(peliculas3);
+                    if (typeof series !== 'undefined') allContent = allContent.concat(series);
+                    
+                    if (allContent.length === 0) return;
+
+                    // Poblar géneros si está vacío (solo la primera vez)
+                    if (genreSelect.options.length <= 1) {
+                        const genres = new Set();
+                        allContent.forEach(item => {
+                            if (item.genero) {
+                                const itemGenres = Array.isArray(item.genero) ? item.genero : [item.genero];
+                                itemGenres.forEach(g => genres.add(g.trim()));
+                            }
+                        });
+                        const sortedGenres = Array.from(genres).sort();
+                        sortedGenres.forEach(g => {
+                            const option = document.createElement('option');
+                            option.value = g;
+                            option.textContent = g;
+                            genreSelect.appendChild(option);
+                        });
+                    }
+
+                    // Audio Context para efectos de sonido
+                    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                    const playTick = () => {
+                        if (audioCtx.state === 'suspended') audioCtx.resume();
+                        const osc = audioCtx.createOscillator();
+                        const gain = audioCtx.createGain();
+                        osc.connect(gain);
+                        gain.connect(audioCtx.destination);
+                        osc.type = 'triangle';
+                        osc.frequency.setValueAtTime(600, audioCtx.currentTime);
+                        gain.gain.setValueAtTime(0.05, audioCtx.currentTime);
+                        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.05);
+                        osc.start();
+                        osc.stop(audioCtx.currentTime + 0.05);
+                    };
+
+                    // Aplicar filtro seleccionado
+                    const activeFilter = document.querySelector('.filter-option.active').dataset.filter;
+                    const activeGenre = genreSelect.value;
+                    
+                    let filteredContent = allContent;
+                    
+                    // Filtro por Tipo
+                    if (activeFilter !== 'all') {
+                        filteredContent = allContent.filter(item => item.tipo === activeFilter);
+                    }
+                    
+                    // Filtro por Género
+                    if (activeGenre !== 'all') {
+                        filteredContent = filteredContent.filter(item => {
+                            if (!item.genero) return false;
+                            const g = Array.isArray(item.genero) ? item.genero : [item.genero];
+                            return g.some(gen => gen.trim() === activeGenre);
+                        });
+                    }
+
+                    if (filteredContent.length === 0) filteredContent = allContent; // Fallback
+                    
+                    // Estado inicial de animación
+                    this.disabled = true;
+                    this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Buscando...';
+                    container.classList.add('active');
+                    container.classList.remove('finished');
+                    placeholder.style.display = 'none';
+                    img.style.display = 'block';
+                    info.style.display = 'none';
+                    
+                    let duration = 2000; // Duración total
+                    let intervalTime = 100;
+                    let elapsed = 0;
+                    
+                    const interval = setInterval(() => {
+                        const randomItem = filteredContent[Math.floor(Math.random() * filteredContent.length)];
+                        if (randomItem.poster && !randomItem.poster.includes('no-disponible')) {
+                            img.src = randomItem.poster;
+                            playTick(); // Sonido
+                        }
+                        
+                        elapsed += intervalTime;
+                        
+                        if (elapsed >= duration) {
+                            clearInterval(interval);
+                            
+                            // Selección final
+                            let finalItem;
+                            do {
+                                finalItem = filteredContent[Math.floor(Math.random() * filteredContent.length)];
+                            } while (!finalItem.poster || finalItem.poster.includes('no-disponible'));
+                            
+                            img.src = finalItem.poster;
+                            title.textContent = finalItem.titulo;
+                            
+                            // Construir detalles
+                            let detailsHTML = '';
+                            if (finalItem.año) {
+                                detailsHTML += `<span class="random-tag">${finalItem.año}</span>`;
+                            }
+                            if (finalItem.calificacion) {
+                                detailsHTML += `<span class="random-tag highlight">★ ${finalItem.calificacion}</span>`;
+                            }
+                            if (finalItem.genero) {
+                                const genre = Array.isArray(finalItem.genero) ? finalItem.genero[0] : finalItem.genero;
+                                detailsHTML += `<span class="random-tag">${genre}</span>`;
+                            }
+                            details.innerHTML = detailsHTML;
+                            
+                            // Configurar botón de ver
+                            let link = `detalles.html?id=${finalItem.id}`;
+                            if (finalItem.tmdb_id) link += `&tmdb=${finalItem.tmdb_id}`;
+                            if (finalItem.tipo) link += `&type=${finalItem.tipo === 'serie' ? 'tv' : 'movie'}`;
+                            
+                            watchBtn.onclick = () => window.showPageLoader(link);
+                            
+                            // Mostrar resultado
+                            container.classList.add('finished');
+                            info.style.display = 'flex';
+                            
+                            // Sonido de éxito
+                            if (audioCtx.state === 'suspended') audioCtx.resume();
+                            const osc = audioCtx.createOscillator();
+                            const gain = audioCtx.createGain();
+                            osc.connect(gain);
+                            gain.connect(audioCtx.destination);
+                            osc.type = 'sine';
+                            osc.frequency.setValueAtTime(400, audioCtx.currentTime);
+                            osc.frequency.exponentialRampToValueAtTime(800, audioCtx.currentTime + 0.2);
+                            gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
+                            gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.5);
+                            osc.start();
+                            osc.stop(audioCtx.currentTime + 0.5);
+
+                            // Efecto Confeti Simple
+                            const colors = ['#e50914', '#ffffff', '#ffd700'];
+                            for(let i=0; i<30; i++) {
+                                const confetti = document.createElement('div');
+                                confetti.style.cssText = 'position:absolute;width:8px;height:8px;left:50%;top:50%;z-index:10;transition:all 1s ease-out;pointer-events:none;';
+                                confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                                container.appendChild(confetti);
+                                
+                                setTimeout(() => {
+                                    const angle = Math.random() * 360;
+                                    const dist = 100 + Math.random() * 100;
+                                    confetti.style.transform = `translate(${Math.cos(angle) * dist}px, ${Math.sin(angle) * dist}px) rotate(${Math.random() * 360}deg)`;
+                                    confetti.style.opacity = '0';
+                                }, 10);
+                                setTimeout(() => confetti.remove(), 1000);
+                            }
+                            
+                            this.disabled = false;
+                            this.innerHTML = '<i class="fas fa-random"></i> Probar otra vez';
+                        }
+                    }, intervalTime);
+                });
+            }
         });
 
         // ========== FUNCIONES GLOBALES ==========

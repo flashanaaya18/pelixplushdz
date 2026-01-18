@@ -1511,6 +1511,68 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Blue Lock la película -episodio Nagi-",
+    "titulo_original": "劇場版ブルーロック -EPISODE 凪-",
+    "poster": "https://image.tmdb.org/t/p/w500/tT7wk65X4czBIxDjoPRMNw5JhKD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/dJwclPgKPnV7hX3OSlvSBiCmuvB.jpg",
+    "descripcion": "\"Qué fastidio\". Esa era la frase favorita de Nagi Seishiro, estudiante de segundo año de preparatoria, en su día a día. Eso fue hasta que Mikage Reo, un compañero que soñaba con ganar la Copa del Mundo, descubrió la habilidad oculta de Nagi y le animó a jugar al fútbol y compartir su extraordinario talento. Un día recibe una invitación para el misterioso Proyecto BLUE LOCK. Allí se encuentra con los mejores delanteros del país. El sueño de Nagi de convertirse en el mejor junto a Reo le llevará a un mundo desconocido. Un prodigio sólo puede formarse cuando alguien lo descubre... ahora, el increíble talento y la personalidad del delantero Nagi Seishiro revolucionarán el mundo del fútbol.",
+    "año": 2024,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "animación",
+      "acción",
+      "drama"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Acción",
+      "Drama"
+    ],
+    "director": "石川俊介",
+    "reparto": [
+      "Nobunaga Shimazaki",
+      "Yuma Uchida",
+      "Kazuyuki Okitsu",
+      "Kazuki Ura",
+      "Tasuku Kaito",
+      "Yuki Ono",
+      "Soma Saito",
+      "Koki Uchiyama",
+      "Hiroshi Kamiya",
+      "Junichi Suwabe"
+    ],
+    "calificacion": 7.4,
+    "votos": 218,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-18T01:27:31.800090",
+    "tmdb_id": "1104844",
+    "popularidad": 4.31,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=47206kBjkaI",
+    "trailer_key": "47206kBjkaI",
+    "success": true,
+    "duracion": "91 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$14,291,561",
+    "plataforma": "Crunchyroll",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/i96fh6koeadd",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "blue-lock-la-pelicula--episodio-nagi-2024"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Bob Esponja: La película",
     "titulo_original": "The SpongeBob SquarePants Movie",
     "poster": "https://image.tmdb.org/t/p/w500/CtISczftMz6g7kyk5uLxBben8b.jpg",
@@ -3784,6 +3846,127 @@ const peliculas3 = [
       }
     ],
     "id": "el-extrano-en-mi-casa-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El fantástico Halloween de Tibucán",
+    "titulo_original": "Sharkdog’s Fintastic Halloween",
+    "poster": "https://image.tmdb.org/t/p/w500/dS2VhPdFOCzqpUT7agGhAJukXso.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/n9ikn33MeCpYyHN7apLj7QgQv0V.jpg",
+    "descripcion": "La pandilla calienta motores para Halloween con la espeluznante leyenda de la niebla aterradora. Tibucán deberá salvar la tradición de truco o trato de un monstruo marino.",
+    "año": 2021,
+    "categoria": [
+      "anime"
+    ],
+    "genero": [
+      "animación",
+      "fantasía",
+      "familia"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Fantasía",
+      "Familia"
+    ],
+    "director": "Jacinth Tan Yi Ting",
+    "reparto": [
+      "Liam Mitchell",
+      "Dee Bradley Baker",
+      "Grey DeLisle",
+      "Josh McDermitt",
+      "Kari Wahlgren"
+    ],
+    "calificacion": 5.5,
+    "votos": 10,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-18T15:07:33.982231",
+    "tmdb_id": "878962",
+    "popularidad": 0.25,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "24 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "Netflix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://www.themoviedb.org/movie/878962-sharkdog-s-fintastic-halloween?language=es-MX",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-fantastico-halloween-de-tibucan-2021"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El hombre de abajo",
+    "titulo_original": "The Man in My Basement",
+    "poster": "https://image.tmdb.org/t/p/w500/1zpeH8wOrM8p2TTAmBetwhe2BIx.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xR75PgmIxhS6ChjNUKgz4krC9MR.jpg",
+    "descripcion": "Charles Blakey, un afroamericano que vive en Sag Harbor, está estancado, sin suerte y a punto de perder su casa. En ese momento, un peculiar hombre de negocios blanco con acento europeo le ofrece alquilar su sótano durante el verano.",
+    "año": 2025,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "misterio",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Misterio",
+      "Suspense"
+    ],
+    "director": "Nadia Latif",
+    "reparto": [
+      "Corey Hawkins",
+      "Willem Dafoe",
+      "Anna Diop",
+      "Jonathan Ajayi",
+      "Gershwyn Eustache Jnr",
+      "Pamela Nomvete",
+      "Tamara Lawrance",
+      "Brian Bovell",
+      "Lizzie Lomas",
+      "Mark Arnold",
+      "Kayla Meikle",
+      "Tim Dewberry"
+    ],
+    "calificacion": 5.4,
+    "votos": 47,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-18T00:52:47.058141",
+    "tmdb_id": "957121",
+    "popularidad": 2.06,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "115 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$2,942",
+    "plataforma": "Disney Plus",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://vidhidepro.com/v/yz15nng63yhj",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-hombre-de-abajo-2025"
   },
   {
     "tipo": "serie",
@@ -6246,6 +6429,124 @@ const peliculas3 = [
     "id": "herederos-por-accidente-2020",
     "plataforma": "Claro Video",
     "duracion": "30 min"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Hijack",
+    "titulo_original": "Hijack",
+    "poster": "https://image.tmdb.org/t/p/w500/vAo3QL02oOI9Xz90FILQN5vxMsQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/t5OhMJHdgzXxiwZ8iNXMMLSglUK.jpg",
+    "descripcion": "El negociador Sam Nelson va a vivir el viaje de su vida cuando un grupo de secuestradores toma el control. Sam agotará sus tácticas, pero la situación es límite.",
+    "año": 2023,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama"
+    ],
+    "generos_lista": [
+      "Drama"
+    ],
+    "director": "George Kay",
+    "reparto": [
+      "Idris Elba",
+      "Christine Adams",
+      "Albrecht Schuch",
+      "Christian Näthe",
+      "Clare-Hope Ashitey",
+      "Lisa Vicari",
+      "Dejan Bućin",
+      "Karima McAdams",
+      "Jasmine Bayes"
+    ],
+    "calificacion": 7.6,
+    "votos": 679,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-18T15:47:59.911203",
+    "tmdb_id": "198102",
+    "popularidad": 56.7,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/ffciihv78mei",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/s1g4kcmwotwr",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/yj04oqdizs7e",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/omn29cqt1a4f",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://doodstream.com/e/6v0ovymwsoak",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/wqhmbt6u4f2x",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/nbii6gar5ip9",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "nombre": "Temporada 2",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/koyc3s7ju0n2",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 15,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2026-01-14",
+    "plataforma": "Apple TV",
+    "id": "hijack-2023"
   },
   {
     "tipo": "pelicula",
@@ -8845,6 +9146,96 @@ const peliculas3 = [
   },
   {
     "tipo": "serie",
+    "titulo": "Los Chávez",
+    "titulo_original": "Los Chávez",
+    "poster": "https://image.tmdb.org/t/p/w500/zzmVxdQfkgoNKwdMSLKXrfggI2X.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/91VNbJpFoc9XL5d9DKfy9N48aAJ.jpg",
+    "descripcion": "Myriam Chávez, la esposa de Julio, sus hijos Christian, Nicole, Julio César Jr. y su nuera Frida Muñoz forman parte de la serie, la cual muestra el día a día de Julio en su casa de Tijuana, donde vive fuertemente comprometido con su salud y conviviendo con Myriam, la mujer que con paciencia y amor logró sacarlo de las adicciones.",
+    "año": 2024,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "reality"
+    ],
+    "generos_lista": [
+      "Reality"
+    ],
+    "director": "",
+    "reparto": [
+      "Julio César Chávez"
+    ],
+    "calificacion": 8.0,
+    "votos": 7,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-18T15:09:56.409597",
+    "tmdb_id": "271108",
+    "popularidad": 0.2,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "los chavez",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/9bxlr6erz0zv",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/7cb85vmbfmj0",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/kqsnz0sujun2",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/4wjtyuz9ar4k",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/v926epr2zhmv",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/gdkwbapdg3e7",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 6,
+    "tipo_serie": "Miniseries",
+    "ultima_emision": "2024-09-11",
+    "plataforma": "Disney Plus",
+    "id": "los-chavez-2024"
+  },
+  {
+    "tipo": "serie",
     "titulo": "Los días",
     "titulo_original": "THE DAYS",
     "poster": "https://image.tmdb.org/t/p/w500/og0fsHozYygCZgdmznwupk0xC4O.jpg",
@@ -9556,6 +9947,66 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Los Rechazados",
+    "titulo_original": "Los Rechazados",
+    "poster": "https://image.tmdb.org/t/p/w500/qcvb47ohemoYDUydhGXTFrq2R5u.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bchDdObh0xGxadpwbV4Ex8lRfrc.jpg",
+    "descripcion": "Un grupo de valientes enfrenta una misión secreta que podría acabar con el mundo. ¿Lograrán estos \"héroes\" evitar el desastre?",
+    "año": 2025,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Yasser Michelén",
+    "reparto": [
+      "Frank Perozo",
+      "Hony Estrella",
+      "Manolo Ozuna",
+      "Fausto Mata",
+      "Salvador Pérez",
+      "Gabi Desangles",
+      "Vicente Santos",
+      "Pepe Sierra",
+      "Santiago Matías (Alofoke)",
+      "Pedro Casals",
+      "Ariel Santana",
+      "Vitaly Sánchez"
+    ],
+    "calificacion": 7.8,
+    "votos": 10,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-18T01:23:39.854869",
+    "tmdb_id": "1417502",
+    "popularidad": 2.55,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=d8aZt43BO5c",
+    "trailer_key": "d8aZt43BO5c",
+    "success": true,
+    "duracion": "90 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "Disney Plus",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/1lhy2a7m1fze",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "los-rechazados-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Lost Horizon",
     "titulo_original": "Lost Horizon",
     "poster": "https://image.tmdb.org/t/p/w500/sBeKHgOtjDRNMHeF9oMR8gpx3k8.jpg",
@@ -9705,6 +10156,68 @@ const peliculas3 = [
     "ultima_emision": "2025-07-10",
     "id": "matabot-2025",
     "plataforma": "Apple TV+"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Match: La reina de las apps de citas",
+    "titulo_original": "Swiped",
+    "poster": "https://image.tmdb.org/t/p/w500/3Fyouhu5GY9okg794Qy0qa03p3d.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/epWGHdO6rkttobpVxo0XVdlHdo3.jpg",
+    "descripcion": "Inspirada en la historia real de Whitney Wolfe, fundadora de la plataforma de citas Bumble, donde nos muestra su ingenio y perseverancia para abrirse camino en la industria tecnológica, dominada por hombres.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "historia",
+      "drama"
+    ],
+    "generos_lista": [
+      "Historia",
+      "Drama"
+    ],
+    "director": "Rachel Lee Goldenberg",
+    "reparto": [
+      "Lily James",
+      "Ben Schnetzer",
+      "Myha'la",
+      "Jackson White",
+      "Dan Stevens",
+      "Ian Colletti",
+      "Mary Neely",
+      "Ana Yi Puig",
+      "Aidan Laprete",
+      "Pedro Correa",
+      "Pierson Fodé",
+      "Joely Fisher"
+    ],
+    "calificacion": 6.5,
+    "votos": 141,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-18T00:49:07.422309",
+    "tmdb_id": "1265344",
+    "popularidad": 2.62,
+    "tagline": "Conozca a la mujer que dio el primer paso.",
+    "trailer": "https://www.youtube.com/watch?v=La4PQU52qHU",
+    "trailer_key": "La4PQU52qHU",
+    "success": true,
+    "duracion": "110 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "Disney Plus",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://nuuuppp.sbs/watch/3Jr6YaxOCf0h3jz3qHReOQ7kz7kNbyZsRmqAKulMxjM9yo8?h=",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "match-la-reina-de-las-apps-de-citas-2025"
   },
   {
     "tipo": "pelicula",
@@ -13521,6 +14034,65 @@ const peliculas3 = [
     ],
     "id": "la-leyenda-de-beldham-2025",
     "plataforma": "pelicula"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "The Confession",
+    "titulo_original": "The Confession",
+    "poster": "https://image.tmdb.org/t/p/w500/xJCwYlJX6UfYQuUmLfWWcRP27gK.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lALfCsv7YMNrqpWzIaxjS81JKOm.jpg",
+    "descripcion": "",
+    "año": 2026,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror"
+    ],
+    "generos_lista": [
+      "Terror"
+    ],
+    "director": "Will Canon",
+    "reparto": [
+      "Italia Ricci",
+      "Scott Mechlowicz",
+      "Zachary Golinger",
+      "Terence Rosemore",
+      "Justin Matthew Smith",
+      "Allie McCulloch",
+      "Ron Fallica",
+      "Jay DeVon Johnson",
+      "Troy Rudeseal",
+      "Vince Eisenson",
+      "Craig Kolkebeck",
+      "Fleming Moore"
+    ],
+    "calificacion": 4.8,
+    "votos": 5,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-18T15:41:10.155520",
+    "tmdb_id": "1454741",
+    "popularidad": 10.56,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "87 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://voe.sx/e/su2k7brurnlx",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "the-confession-2026"
   },
   {
     "tipo": "pelicula",
