@@ -1201,6 +1201,125 @@ const peliculas3 = [
     "id": "batman-death-in-the-family-2020"
   },
   {
+    "tipo": "serie",
+    "titulo": "Beast Games",
+    "titulo_original": "Beast Games",
+    "poster": "https://image.tmdb.org/t/p/w500/gkqCQfUuJ0xzB5xyv8G4o2bdFx4.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/p1rQJ5bljPSk3LoCo5UKRkpsiSd.jpg",
+    "descripcion": "Unos increíbles 1000 concursantes compiten en desafíos físicos y mentales por una oportunidad de ganar un enorme premio en efectivo de 5 millones de dólares. Semana a semana, los concursantes utilizarán su fuerza e ingenio para permanecer en el juego, ¡con la esperanza de ser el ganador multimillonario!",
+    "año": 2024,
+    "categoria": [
+      "series"
+    ],
+    "genero": [
+      "reality"
+    ],
+    "generos_lista": [
+      "Reality"
+    ],
+    "director": "Jimmy Donaldson",
+    "reparto": [
+      "Jimmy Donaldson",
+      "Sean Klitzner"
+    ],
+    "calificacion": 7.5,
+    "votos": 180,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-17T19:37:22.230522",
+    "tmdb_id": "249522",
+    "popularidad": 26.64,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=zJttDjQ7N8w",
+    "trailer_key": "zJttDjQ7N8w",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://teomovie.web.app/iframe.html?url=https://bysedikamoum.com/e/nw4fgmfs1h2i",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/nta70gqe0ek7",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/bz57hy3e6kao",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/t44mr6v8c9yc",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/14zk2x6xf7zf",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/fls3bu8duq0m",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/hl6op03ew9tn",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/6zjlumxikzb5",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/y3hdins91wya",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/r97hxt1fwuvo",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 20,
+    "tipo_serie": "Reality",
+    "ultima_emision": "2026-01-14",
+    "plataforma": "Amazon Prime Video",
+    "id": "beast-games-2024"
+  },
+  {
     "tipo": "pelicula",
     "titulo": "Better Man: La Historia de Robbie Williams",
     "titulo_original": "Better Man",
@@ -5469,6 +5588,107 @@ const peliculas3 = [
     "plataforma": "Netflix"
   },
   {
+    "tipo": "serie",
+    "titulo": "Girl Taken",
+    "titulo_original": "Girl Taken",
+    "poster": "https://image.tmdb.org/t/p/w500/upUOfPAMhjWDPu8R31r9YvYDfum.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qW3M9pEA1WdfyingbUuhtsmLNJK.jpg",
+    "descripcion": "",
+    "año": 2026,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "crimen"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Crimen"
+    ],
+    "director": "Nessah Muthy",
+    "reparto": [
+      "Tallulah Evans",
+      "Delphi Evans",
+      "Jill Halfpenny",
+      "Alfie Allen",
+      "Vikash Bhai",
+      "Niamh Walsh",
+      "Levi Brown",
+      "Victoria Ekanoye",
+      "Holly Atkins",
+      "Kiran Krishnakumar"
+    ],
+    "calificacion": 5.7,
+    "votos": 17,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-17T19:43:23.256135",
+    "tmdb_id": "296523",
+    "popularidad": 41.46,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/fvht4m3kl9hl",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/vnyj02005wa3",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/4fmbh2pqfk2r",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://teomovie.web.app/iframe.html?url=https://bysedikamoum.com/e/gf5dwfntckw0",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/o67fnv4i04vx",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/65bzvhxadw8z",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 6,
+    "tipo_serie": "Miniseries",
+    "ultima_emision": "2026-01-08",
+    "plataforma": "Paramount Plus",
+    "id": "girl-taken-2026"
+  },
+  {
     "tipo": "pelicula",
     "titulo": "Gran Turismo",
     "titulo_original": "Gran Turismo",
@@ -7973,6 +8193,134 @@ const peliculas3 = [
   },
   {
     "tipo": "serie",
+    "titulo": "Landman: Un negocio crudo",
+    "titulo_original": "Landman",
+    "poster": "https://image.tmdb.org/t/p/w500/hGbYOuUVoxfXa96pmNLFJ9a7U5T.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/q71au2YjcwXBMZKNzNgjK7RZ3Hs.jpg",
+    "descripcion": "Ambientada en las proverbiales ciudades en auge del oeste de Texas, se trata de un drama sobre la búsqueda de la fortuna en el mundo de las plataformas petrolíferas basada en el podcast 'Boomtown', una historia de clases, con matones y multimillonarios salvajes que impulsan un boom tan grande que está cambiando nuestro clima, nuestra economía y nuestra geopolítica.",
+    "año": 2024,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama"
+    ],
+    "generos_lista": [
+      "Drama"
+    ],
+    "director": "Taylor Sheridan",
+    "reparto": [
+      "Billy Bob Thornton",
+      "Demi Moore",
+      "Andy Garcia",
+      "Ali Larter",
+      "Jacob Lofland",
+      "Michelle Randolph",
+      "Paulina Chávez",
+      "Kayla Wallace",
+      "Mark Collie",
+      "James Jordan",
+      "Sam Elliott"
+    ],
+    "calificacion": 8.0,
+    "votos": 366,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-17T19:54:13.049641",
+    "tmdb_id": "157741",
+    "popularidad": 86.02,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/i19uow9gpu5r",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/20ez6rtmqyp4",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/2us1e6kwk1mb",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/lq95cvyipeg6",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/4sazbahlqlct",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/j355f6xwzcni",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/xs5loxtab6hb",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/xdqo9fs7qq6y",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/8ajvykdn23tr",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/ncfhs04sxe1t",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 20,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2026-01-11",
+    "plataforma": "Paramount Plus",
+    "id": "landman-un-negocio-crudo-2024"
+  },
+  {
+    "tipo": "serie",
     "titulo": "Las Bravas F.C.",
     "titulo_original": "Las Bravas FC",
     "poster": "https://image.tmdb.org/t/p/w500/45gWJBV1JNbiP4nIPjb8oFYSjv.jpg",
@@ -8355,6 +8703,79 @@ const peliculas3 = [
       }
     ],
     "id": "lo-mejor-del-mundo-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "LOL Buscando Talento",
+    "titulo_original": "LOL Buscando Talento",
+    "poster": "https://image.tmdb.org/t/p/w500/70l4rLm9JHMoVncvfizfL8OT5CS.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/oMjbPt7bZuPzLP2Abnp38bLqkbf.jpg",
+    "descripcion": "",
+    "año": 2026,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia",
+      "reality"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Reality"
+    ],
+    "director": "",
+    "reparto": [
+      "Eugenio Derbez",
+      "Adal Ramones",
+      "Carlos 'Capi' Pérez",
+      "Michelle Rodríguez"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "idioma": "ES",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-17T19:24:49.953452",
+    "tmdb_id": "309714",
+    "popularidad": 1.11,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://callistanise.com/embed/otf31gqjf7qc",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://callistanise.com/embed/980nbzmz1b45",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://callistanise.com/embed/rv1524ccsuw5",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 4,
+    "tipo_serie": "Reality",
+    "plataforma": "Amazon Prime Video",
+    "id": "lol-buscando-talento-2026"
   },
   {
     "tipo": "pelicula",
