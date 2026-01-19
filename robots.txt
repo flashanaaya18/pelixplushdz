@@ -1,0 +1,5 @@
+# Permitir a todos los rastreadores web acceder a todo el contenido.
+User-agent: *
+Allow: /
+
+Sitemap: https://pelixplushdz.vercel.app/sitemap.xml

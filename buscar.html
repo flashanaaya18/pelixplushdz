@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar - Pelixplushd</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Busca y encuentra miles de películas, series y animes en el catálogo de Pelixplushd. Utiliza nuestros filtros para descubrir tu próximo contenido favorito.">
+    <meta name="keywords" content="buscar películas, buscar series, buscador, filtro, Pelixplushd">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://pelixplushdz.vercel.app/buscar.html" />
+    <link rel="icon" type="image/png" sizes="32x32" href="fondo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css?v=4">
+    <style>
+        .language-filter {
+            background: #333;
+            color: white;
+            border: 1px solid #444;
+            padding: 8px 15px;
+            border-radius: 20px;
+            outline: none;
+            font-size: 0.9rem;
+        }
+        .no-results-container {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        .no-results-title {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+        
+        .no-results-subtitle {
+            color: #aaa;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+        /* Estilos para Badges y Disponibilidad */
+        .availability-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: bold;
+            z-index: 10;
+            text-transform: uppercase;
+        }
+        .badge-available { background-color: #2ecc71; color: white; }
+        .badge-unavailable { background-color: #e74c3c; color: white; }
+        
+        .request-btn {
+            display: block;
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+            background: #e50914;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.3s;
+        }
+        .request-btn:hover { background: #b20710; }
+
+        /* Modal de Solicitud */
+        .modal-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.8);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 10000;
+        }
+        .modal-content {
+            background: #1f1f1f;
+            padding: 30px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 500px;
+            position: relative;
+            border: 1px solid #333;
+        }
+        .modal-close {
+            position: absolute;
+            top: 15px; right: 15px;
+            background: none; border: none;
+            color: #aaa; font-size: 1.2rem; cursor: pointer;
+        }
+        .modal-form input, .modal-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            background: #333;
+            border: 1px solid #444;
+            color: white;
+            border-radius: 5px;
+        }
+        .modal-form label {
+            display: block;
+            margin-bottom: 5px;
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+
+        /* Skeleton Loading */
+        .skeleton {
+            background: linear-gradient(90deg, #222 25%, #333 50%, #222 75%);
+            background-size: 200% 100%;
+            animation: skeleton-loading 1.5s infinite;
+            border-radius: 8px;
+        }
+        .skeleton-card {
+            aspect-ratio: 2/3;
+            width: 100%;
+        }
+        @keyframes skeleton-loading { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+        
+        /* Toast Notification Override */
+        .toast-notification {
+            position: fixed; bottom: 20px; right: 20px;
+            background: #333; color: white; padding: 15px 25px;
+            border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+            display: flex; align-items: center; gap: 10px;
+            transform: translateY(100px); opacity: 0; transition: all 0.3s ease;
+            z-index: 20000; border-left: 4px solid #e50914;
+        }
+        .toast-notification.show { transform: translateY(0); opacity: 1; }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar" id="main-header">
+        <a href="index.html" class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span></span>plushd</a>
+        <nav class="desktop-nav">
+            <a href="index.html">Inicio</a>
+            <a href="series.html">Series</a>
+            <a href="lanzamientos.html">Estrenos</a>
+            <a href="favoritos.html">Mi Lista</a>
+            <a href="ajustes.html">Ajustes</a>
+        </nav>
+        <div class="nav-actions">
+            <button id="hamburger-btn" class="mobile-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <aside id="side-menu" class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span>plushd</span></div>
+            <button id="close-side-menu-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <nav class="mobile-nav-links">
+            <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
+            <a href="series.html"><i class="fas fa-tv"></i> Series</a>
+            <a href="lanzamientos.html"><i class="fas fa-fire"></i> Estrenos</a>
+            <a href="favoritos.html"><i class="fas fa-heart"></i> Favoritos</a>
+            <a href="ajustes.html"><i class="fas fa-cog"></i> Ajustes</a>
+        </nav>
+    </aside>
+    <div id="menu-overlay" class="menu-overlay"></div>
+
+    <main class="content-container" style="padding-top: 100px; min-height: 80vh;">
+
+        <!-- Search Hero Section -->
+        <div class="search-hero" style="text-align: center; margin-bottom: 2rem; padding: 0 1rem;">
+            <h1 class="section-title" style="border: none; justify-content: center; margin-bottom: 1rem;">
+                <i class="fas fa-search"></i> Buscar
+            </h1>
+            <p style="color: #00aaff; margin-bottom: 1.5rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Encuentra tus películas y series favoritas
+            </p>
+
+            <div class="search-page-input-container" style="position: relative; max-width: 600px; margin: 0 auto;">
+                <input type="text" id="search-page-input" placeholder="Escribe el nombre de la película o serie..."
+                    style="width: 100%; padding: 15px 20px; border-radius: 30px; border: none; background: #222; color: white; font-size: 1.1rem; outline: none; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+                <button id="clear-search-btn"
+                    style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); color: #888; display: none;">
+                    <i class="fas fa-times-circle" style="font-size: 1.2rem;"></i>
+                </button>
+            </div>
+
+            <!-- Filtros Mejorados -->
+            <div class="search-filters"
+                style="display: flex; gap: 10px; justify-content: center; margin-top: 1.5rem; flex-wrap: wrap;">
+                <select id="type-filter" class="language-filter">
+                    <option value="multi">Todo</option>
+                    <option value="movie">Películas</option>
+                    <option value="tv">Series</option>
+                </select>
+                <select id="genre-filter" class="language-filter">
+                    <option value="all">Todos los Géneros</option>
+                    <!-- Opciones se llenan con JS -->
+                </select>
+                
+                <select id="sort-by" class="language-filter">
+                    <option value="popularity">Más Populares</option>
+                    <option value="release_date_desc">Más Recientes</option>
+                    <option value="rating_desc">Mejor Calificación</option>
+                    <option value="title_asc">A-Z</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Contenedor para los resultados -->
+        <div id="search-results-container" style="padding: 0 4%;">
+            <div id="loader" class="loader" style="display: none; text-align: center; margin: 40px 0;">
+                <i class="fas fa-spinner fa-spin" style="font-size: 3rem; color: #e50914;"></i>
+                <p style="margin-top: 15px; color: #888;">Buscando...</p>
+            </div>
+
+            <!-- Mensaje de búsqueda inicial -->
+            <div id="search-placeholder" class="no-results-container" style="display: none;">
+                <h2 class="no-results-title">
+                    <i class="fas fa-search"></i> Buscar
+                </h2>
+                <p class="no-results-subtitle">Explora nuestro catálogo</p>
+            </div>
+
+            <!-- Contenedor de resultados -->
+            <div id="movies-results-container" style="display: none;">
+                <div class="section-title-container">
+                    <h2 class="section-title">
+                        <i class="fas fa-film"></i> Resultados
+                    </h2>
+                    <span id="results-count" style="color: #00aaff; font-size: 0.9rem; font-weight: 500;"></span>
+                </div>
+                <div id="results-grid" class="movie-grid-full"></div>
+            </div>
+            
+            <div id="pagination-container" style="text-align: center; margin: 30px 0; display: none;">
+                <button id="load-more-btn" class="language-filter" style="cursor: pointer;">Cargar más resultados</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="brand logo">
+                <img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span>plushd</span>
+            </div>
+            <div class="links">
+                <a href="index.html">Inicio</a>
+                <a href="series.html">Series</a>
+            </div>
+            <div class="copyright">
+                2025 Pelixplushd
+            </div>
+        </div>
+    </footer>
+
+    <div class="bottom-nav">
+        <a href="index.html" class="nav-item"><i class="fas fa-home"></i><span>Inicio</span></a>
+        <a href="lanzamientos.html" class="nav-item"><i class="fas fa-fire"></i><span>Estrenos</span></a>
+        <a href="buscar.html" class="nav-item active"><i class="fas fa-search"></i><span>Buscar</span></a>
+        <a href="favoritos.html" class="nav-item"><i class="fas fa-heart"></i><span>Favoritos</span></a>
+        <a href="ajustes.html" class="nav-item"><i class="fas fa-cog"></i><span>Ajustes</span></a>
+    </div>
+
+    <!-- Request Content Modal -->
+    <div id="request-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close" id="close-request-modal"><i class="fas fa-times"></i></button>
+            <h2 style="color: white; margin-bottom: 20px;"><i class="fas fa-bullhorn"></i> Solicitar Contenido</h2>
+            <p style="color: #aaa; margin-bottom: 20px; font-size: 0.9rem;">Este título no está disponible actualmente. Completa el formulario y trataremos de añadirlo.</p>
+            
+            <form id="request-form" class="modal-form">
+                <input type="hidden" id="req-tmdb-id">
+                <input type="hidden" id="req-title">
+                <input type="hidden" id="req-type">
+                
+                <label>Título</label>
+                <input type="text" id="req-title-display" disabled style="opacity: 0.7;">
+                
+                <label>Tu Email</label>
+                <input type="email" id="req-email" placeholder="nombre@ejemplo.com" required>
+                
+                <label>Mensaje (Opcional)</label>
+                <textarea id="req-message" rows="3" placeholder="¿Alguna versión en específico?"></textarea>
+                
+                <button type="submit" class="request-btn">Enviar Solicitud</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="toast-container"></div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+    <script src="script.js?v=4"></script>
+    <script>
+        window.tmdbConfig = {
+            apiKey: '9869fab7c867e72214c8628c6029ec74',
+            accessToken: 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ODY5ZmFiN2M4NjdlNzIyMTRjODYyOGM2MDI5ZWM3NCIsIm5iZiI6MTc1OTI2NzMzMi43MDg5OTk5LCJzdWIiOiI2OGRjNGEwNDE1NWQwOWZjZGQyZGY0MTMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0._sxkF_bWFZtZOQU_8GcEa4x7TawgM_CB9zA43VzSiAY'
+        };
+    </script>
+    <script src="buscar.js?v=5"></script>
+
+    <script>
+        // Toggle Mobile Menu
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleBtn = document.getElementById('hamburger-btn');
+            const closeBtn = document.getElementById('close-side-menu-btn');
+            const sideMenu = document.getElementById('side-menu');
+            const overlay = document.getElementById('menu-overlay');
+
+            function toggleMenu() {
+                sideMenu.classList.toggle('active');
+                overlay.classList.toggle('active');
+            }
+
+            if (toggleBtn) toggleBtn.addEventListener('click', toggleMenu);
+            if (closeBtn) closeBtn.addEventListener('click', toggleMenu);
+            if (overlay) overlay.addEventListener('click', toggleMenu);
+        });
+    </script>
+</body>
+
+</html>

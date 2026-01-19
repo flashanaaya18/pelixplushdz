@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificaciones - Pelixplushd</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="fondo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#141414">
+    <style>
+        /* Los estilos de notificaciones están en estilos.css */
+    </style>
+</head>
+<body>
+    <!-- Navbar (similar al index.html) -->
+    <header id="main-header" class="navbar">
+        <div class="logo-container">
+            <a href="index.html" class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span></span>plushd</a>
+        </div>
+
+        <nav class="desktop-nav">
+            <a href="index.html">Inicio</a>
+            <a href="lanzamientos.html">Películas</a>
+            <a href="series.html">Series</a>
+            <a href="notificaciones.html" class="active">Notificaciones</a>
+            <a href="ajustes.html">Ajustes</a>
+        </nav>
+
+        <div class="nav-actions">
+            <div class="notifications-dropdown">
+                <button id="notifications-btn" class="notifications-btn">
+                    <i class="fas fa-bell"></i>
+                    <span id="notifications-badge" class="notifications-badge" style="display: none;">0</span>
+                </button>
+                <div id="notifications-panel" class="notifications-panel">
+                    <!-- Contenido dinámico -->
+                </div>
+            </div>
+            
+            <button id="hamburger-btn" class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="notifications-page">
+        <div class="notifications-page-header">
+            <h1>Notificaciones</h1>
+            <p>Mantente al día con nuevas películas, series y actualizaciones</p>
+        </div>
+
+        <div class="notifications-filters">
+            <button class="filter-btn active" data-filter="all">Todas</button>
+            <button class="filter-btn" data-filter="unread">No leídas</button>
+            <button class="filter-btn" data-filter="new_movie">Películas</button>
+            <button class="filter-btn" data-filter="new_series">Series</button>
+            <button class="filter-btn" data-filter="update">Actualizaciones</button>
+            <button id="mark-all-read-page" class="mark-all-read-btn">
+                <i class="fas fa-check-double"></i> Marcar todo como leído
+            </button>
+        </div>
+
+        <div id="notifications-list-page" class="notifications-list-page">
+            <!-- Las notificaciones se cargarán aquí -->
+            <div class="notifications-empty">
+                <i class="far fa-bell"></i>
+                <p>Cargando notificaciones...</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bottom Nav -->
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <i class="fas fa-home"></i>
+            <span>Inicio</span>
+        </a>
+        <a href="buscar.html" class="nav-item">
+            <i class="fas fa-search"></i>
+            <span>Buscar</span>
+        </a>
+        <a href="notificaciones.html" class="nav-item active">
+            <i class="fas fa-bell"></i>
+            <span>Notificaciones</span>
+        </a>
+        <a href="favoritos.html" class="nav-item">
+            <i class="fas fa-heart"></i>
+            <span>Favoritos</span>
+        </a>
+        <a href="ajustes.html" class="nav-item">
+            <i class="fas fa-cog"></i>
+            <span>Ajustes</span>
+        </a>
+    </nav>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+    <script src="script.js?v=4"></script>
+    <script src="notificaciones.js?v=4"></script>
+    <script>
+        // Cargar notificaciones en la página
+        document.addEventListener('DOMContentLoaded', function() {
+             // Asegurarse de que el sistema de notificaciones esté inicializado si existe
+            if (window.NotificationSystem && window.NotificationSystem.updateBadgeCount) {
+                window.NotificationSystem.updateBadgeCount();
+            }
+            loadNotificationsPage();
+            
+            // Filtros
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remover active de todos
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    // Añadir active al clickeado (excepto al de marcar todo)
+                    if (this.id === 'mark-all-read-page') {
+                        return;
+                    }
+                    this.classList.add('active');
+                    // Filtrar notificaciones
+                    filterNotifications(this.dataset.filter);
+                });
+            });
+            
+            // Marcar todo como leído
+            document.getElementById('mark-all-read-page').addEventListener('click', function() {
+                if (window.NotificationSystem && window.NotificationSystem.markAllNotificationsAsRead) {
+                    window.NotificationSystem.markAllNotificationsAsRead();
+                    loadNotificationsPage();
+                }
+            });
+        });
+        
+        function loadNotificationsPage() {
+            const notifications = getNotifications();
+            const container = document.getElementById('notifications-list-page');
+            
+            if (!notifications || notifications.length === 0) {
+                container.innerHTML = `
+                    <div class="notifications-empty">
+                        <i class="far fa-bell"></i>
+                        <p>No hay notificaciones</p>
+                        <p style="margin-top: 10px; font-size: 0.9rem; color: #666;">
+                            Te notificaremos cuando haya nuevo contenido disponible
+                        </p>
+                    </div>
+                `;
+                return;
+            }
+            
+            // Ordenar por fecha para asegurar consistencia
+            notifications.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+
+            let html = '';
+            notifications.forEach(notification => {
+                const timeAgo = getTimeAgo(notification.timestamp);
+                const typeIcon = getNotificationIcon(notification.type);
+                const typeClass = notification.type;
+                
+                html += `
+                    <div class="notification-item ${notification.read ? '' : 'unread'} ${typeClass}" data-id="${notification.id}">
+                        <div class="notification-icon">
+                            ${notification.image ? 
+                                `<img src="${notification.image}" alt="${notification.title}">` : 
+                                `<i class="${typeIcon}"></i>`
+                            }
+                        </div>
+                        <div class="notification-content">
+                            <h4 class="notification-title">${notification.title}</h4>
+                            <p class="notification-message">${notification.message}</p>
+                            <div class="notification-time">
+                                <i class="far fa-clock"></i> ${timeAgo}
+                            </div>
+                        </div>
+                        ${!notification.read ? '<div class="notification-dot"></div>' : ''}
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+            
+            // Agregar event listeners
+            document.querySelectorAll('.notification-item').forEach(item => {
+                item.addEventListener('click', function() {
+                    const id = this.dataset.id;
+                    const notification = notifications.find(n => n.id === id);
+
+                    // Solo marcar como leída si no lo estaba ya
+                    if (notification && !notification.read) {
+                        markNotificationsAsRead([id]);
+                        // Actualizar UI sin recargar todo
+                        this.classList.remove('unread');
+                        const dot = this.querySelector('.notification-dot');
+                        if (dot) dot.remove();
+                    }
+                    
+                    // Navegar si tiene link
+                    if (notification && notification.link) {
+                        window.location.href = notification.link;
+                    }
+                });
+            });
+        }
+        
+        function filterNotifications(filter) {
+            const items = document.querySelectorAll('.notification-item');
+            const container = document.getElementById('notifications-list-page');
+            let visibleCount = 0;
+            
+            items.forEach(item => {
+                let show = true;
+                
+                if (filter === 'all') {
+                    show = true;
+                } else if (filter === 'unread') {
+                    show = item.classList.contains('unread');
+                } else {
+                    show = item.classList.contains(filter);
+                }
+                
+                item.style.display = show ? 'flex' : 'none';
+                if (show) visibleCount++;
+            });
+            
+            // Manejar mensaje de "sin resultados" de forma robusta
+            let emptyMsg = container.querySelector('.notifications-empty-filter');
+            if (visibleCount === 0) {
+                if (!emptyMsg) {
+                    emptyMsg = document.createElement('div');
+                    emptyMsg.className = 'notifications-empty notifications-empty-filter';
+                    emptyMsg.innerHTML = `
+                        <div class="notifications-empty">
+                        <i class="far fa-bell-slash"></i>
+                        <p>No hay notificaciones con este filtro</p>
+                    </div>
+                `;
+                    container.appendChild(emptyMsg);
+                }
+                emptyMsg.style.display = 'block';
+            } else if (emptyMsg) {
+                emptyMsg.style.display = 'none';
+            }
+        }
+        
+        // Funciones auxiliares (duplicadas por si no están disponibles globalmente)
+        function getNotifications() {
+            try {
+                return JSON.parse(localStorage.getItem('notifications')) || [];
+            } catch (e) {
+                return [];
+            }
+        }
+        
+        function getTimeAgo(timestamp) {
+            const now = new Date();
+            const date = new Date(timestamp);
+            const seconds = Math.floor((now - date) / 1000);
+            
+            if (seconds < 60) return 'Hace unos segundos';
+            if (seconds < 3600) return `Hace ${Math.floor(seconds / 60)} minutos`;
+            if (seconds < 86400) return `Hace ${Math.floor(seconds / 3600)} horas`;
+            if (seconds < 604800) return `Hace ${Math.floor(seconds / 86400)} días`;
+            
+            return date.toLocaleDateString('es-ES', { day: 'numeric', month: 'short', year: 'numeric' });
+        }
+        
+        function getNotificationIcon(type) {
+            switch(type) {
+                case 'new_movie': return 'fas fa-film';
+                case 'new_series': return 'fas fa-tv';
+                case 'update': return 'fas fa-sync-alt';
+                case 'recommendation': return 'fas fa-star';
+                default: return 'fas fa-info-circle';
+            }
+        }
+        
+        function markNotificationsAsRead(ids) {
+            const notifications = getNotifications();
+            notifications.forEach(n => {
+                if (ids.includes(n.id)) n.read = true;
+            });
+            localStorage.setItem('notifications', JSON.stringify(notifications));
+            if (window.NotificationSystem && window.NotificationSystem.updateBadgeCount) {
+                window.NotificationSystem.updateBadgeCount();
+            }
+        }
+    </script>
+</body>
+</html>

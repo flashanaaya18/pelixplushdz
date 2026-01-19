@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Colecciones Anime VIP | Pelixplushd</title>
+    <meta name="description" content="Acceso exclusivo a colecciones completas de Anime: Naruto, Dragon Ball, One Piece y más. Zona VIP de Pelixplushd.">
+    <meta name="robots" content="noindex, nofollow">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="estilos.css?v=4">
+    <link rel="icon" type="image/png" sizes="32x32" href="fondo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fondo.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#141414">
+
+    <style>
+        /* Critical VIP Styles */
+        #app-content { display: none; opacity: 0; transition: opacity 0.4s ease-in; }
+        #vip-lock-screen {
+            display: none;
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: #000 url('https://wallpapercave.com/wp/1JSgzAQ.jpg') no-repeat center center/cover;
+            z-index: 99999;
+            align-items: center; justify-content: center;
+        }
+        .lock-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.92); backdrop-filter: blur(10px); }
+        .lock-content {
+            position: relative; z-index: 2; text-align: center; padding: 40px;
+            max-width: 550px; width: 90%;
+            border: 1px solid rgba(255,255,255,0.1); border-radius: 20px;
+            background: rgba(255,255,255,0.02); box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+        }
+        .lock-icon { font-size: 80px; margin-bottom: 25px; color: #e50914; text-shadow: 0 0 40px rgba(229,9,20,0.6); animation: float 3s infinite ease-in-out; }
+        .lock-title {
+            font-size: 2.5rem; margin-bottom: 15px; text-transform: uppercase; font-weight: 800; letter-spacing: 2px;
+            background: linear-gradient(to right, #fff, #aaa); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        .lock-desc { font-size: 1.1rem; color: #ccc; margin-bottom: 35px; line-height: 1.6; }
+        .lock-actions { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+        .lock-btn {
+            padding: 15px 35px; border-radius: 50px; cursor: pointer; font-weight: 600; transition: all 0.3s; font-size: 1rem;
+        }
+        .btn-back { border: 1px solid rgba(255,255,255,0.2); background: transparent; color: white; }
+        .btn-unlock { border: none; background: linear-gradient(135deg,#e50914,#ff4d4d); color: white; font-weight: 700; box-shadow: 0 10px 25px rgba(229,9,20,0.4); transform: scale(1.05); }
+        .btn-unlock:hover { transform: scale(1.1); box-shadow: 0 15px 30px rgba(229,9,20,0.5); }
+        .btn-back:hover { background: rgba(255,255,255,0.1); }
+        @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-15px)}}
+
+        /* Hero Optimization */
+        .anime-hero {
+            position: relative;
+            height: 50vh; min-height: 400px;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.4), #141414), url('https://wallpapercave.com/wp/1JSgzAQ.jpg') no-repeat center 20%/cover;
+            display: flex; align-items: center; justify-content: flex-start;
+            padding: 0 5%;
+            margin-bottom: -60px;
+        }
+        .anime-hero-content { max-width: 800px; z-index: 10; position: relative; }
+        .anime-hero-title { font-size: 3.5rem; font-weight: 900; margin-bottom: 10px; text-shadow: 0 2px 10px rgba(0,0,0,0.5); }
+        .anime-hero-desc { font-size: 1.2rem; color: #e0e0e0; max-width: 600px; text-shadow: 0 1px 5px rgba(0,0,0,0.5); }
+        
+        @media (max-width: 768px) {
+            .anime-hero { height: 40vh; background-position: center center; }
+            .anime-hero-title { font-size: 2.2rem; }
+        }
+    </style>
+
+    <script>
+        // Optimized VIP Access Check
+        (function() {
+            const checkAccess = () => {
+                const isVip = sessionStorage.getItem('pelix_access_type') === 'vip';
+                const appContent = document.getElementById('app-content');
+                const lockScreen = document.getElementById('vip-lock-screen');
+                
+                if (isVip) {
+                    if(lockScreen) lockScreen.remove();
+                    if(appContent) {
+                        appContent.style.display = 'block';
+                        // Small delay to allow display:block to apply before opacity transition
+                        requestAnimationFrame(() => appContent.style.opacity = '1');
+                    }
+                } else {
+                    if(appContent) appContent.remove(); // Remove content from DOM for security
+                    if(lockScreen) lockScreen.style.display = 'flex';
+                }
+            };
+            // Run immediately if DOM is ready, otherwise wait
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', checkAccess);
+            } else {
+                checkAccess();
+            }
+        })();
+    </script>
+</head>
+
+<body data-page="Animes">
+
+    <!-- VIP Lock Screen -->
+    <div id="vip-lock-screen">
+        <div class="lock-overlay"></div>
+        <div class="lock-content">
+            <div class="lock-icon">🔒</div>
+            <h1 class="lock-title">Zona VIP</h1>
+            <p class="lock-desc">Esta colección exclusiva de Anime está reservada para miembros VIP. <br>Suscríbete ahora para desbloquear el acceso total.</p>
+            <div class="lock-actions">
+                <button class="lock-btn btn-back" onclick="window.location.href='index.html'">Volver</button>
+                <button class="lock-btn btn-unlock" onclick="sessionStorage.setItem('trigger_vip_modal','true');window.location.href='index.html'">💎 Desbloquear VIP</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Application Content -->
+    <div id="app-content">
+        
+        <!-- Page Loader (Consistent with Index) -->
+        <div id="page-loader" class="page-loader">
+            <div class="loader-content">
+                <div class="loader-logo">Pelix<span>plushd</span></div>
+                <div class="loader-bar"></div>
+            </div>
+        </div>
+
+        <header id="main-header" class="navbar">
+            <div class="logo-container">
+                <a href="index.html" class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon" loading="lazy">Pelix<span></span>plushd</a>
+            </div>
+
+            <nav class="desktop-nav">
+                <a href="index.html">Inicio</a>
+                <a href="lanzamientos.html">Películas</a>
+                <a href="series.html">Series</a>
+                <a href="anime.html">Anime</a>
+                <a href="animes1.html" class="active">Colecciones VIP</a>
+                <a href="ajustes.html">Ajustes</a>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- VIP Badge -->
+                <div id="vip-badge-display" class="vip-badge" style="display:flex;">
+                    <i class="fas fa-crown"></i>
+                    <span>MIEMBRO VIP</span>
+                </div>
+
+                <!-- Notifications -->
+                <div class="notifications-dropdown">
+                    <button id="notifications-btn" class="notifications-btn">
+                        <i class="fas fa-bell"></i>
+                        <span id="notifications-badge" class="notifications-badge" style="display: none;">0</span>
+                    </button>
+                    <div id="notifications-panel" class="notifications-panel">
+                        <div class="notifications-header">
+                            <h3>Notificaciones</h3>
+                            <div class="notifications-actions">
+                                <button id="mark-all-read">Marcar todo</button>
+                                <button id="clear-notifications">Limpiar</button>
+                            </div>
+                        </div>
+                        <div id="notifications-list" class="notifications-list">
+                            <div class="notifications-empty"><i class="far fa-bell"></i><p>No hay notificaciones</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="search-bar">
+                    <form id="search-form">
+                        <input type="text" id="search-input" placeholder="Buscar..." autocomplete="off">
+                        <button type="submit" id="search-button"><i class="fas fa-search"></i></button>
+                    </form>
+                    <div id="live-search-results" class="search-results-dropdown"></div>
+                </div>
+
+                <button id="hamburger-btn" class="mobile-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </header>
+
+        <aside id="side-menu" class="mobile-menu">
+            <div class="mobile-menu-header">
+                <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon" loading="lazy">Pelix<span>plushd</span></div>
+                <button id="close-side-menu-btn" class="close-btn">&times;</button>
+            </div>
+            <nav class="mobile-nav-links">
+                <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
+                <a href="lanzamientos.html"><i class="fas fa-film"></i> Películas</a>
+                <a href="series.html"><i class="fas fa-tv"></i> Series</a>
+                <a href="animes1.html" class="active"><i class="fas fa-crown"></i> Colecciones VIP</a>
+                <a href="anime.html"><i class="fas fa-dragon"></i> Anime</a>
+                <a href="ajustes.html"><i class="fas fa-cog"></i> Ajustes</a>
+                <a href="favoritos.html"><i class="fas fa-heart"></i> Favoritos</a>
+            </nav>
+            <div class="mobile-categories">
+                <span>Categorías</span>
+                <div class="category-tags">
+                    <a href="accion.html" class="tag">Acción</a>
+                    <a href="comedia.html" class="tag">Comedia</a>
+                    <a href="drama.html" class="tag">Drama</a>
+                    <a href="terror.html" class="tag">Terror</a>
+                </div>
+            </div>
+        </aside>
+        <div id="menu-overlay" class="menu-overlay"></div>
+
+        <main>
+            <section class="anime-hero">
+                <div class="anime-hero-content">
+                    <h1 class="anime-hero-title">Colecciones Anime</h1>
+                    <p class="anime-hero-desc">Disfruta de las mejores sagas completas: Naruto, Dragon Ball, One Piece y más. Exclusivo para miembros VIP.</p>
+                </div>
+            </section>
+
+            <div class="content-container" style="position: relative; z-index: 20;">
+
+                <!-- Sección para Animes Populares -->
+                <section id="animes-populares-section" class="content-row">
+                    <div class="section-title-container">
+                        <h2 class="section-title">Animes Populares</h2>
+                    </div>
+                    <div class="carrusel-contenedor">
+                        <div id="animes-populares-grid" class="movie-grid"></div>
+                    </div>
+                </section>
+
+                <!-- Sección para Naruto -->
+                <section id="naruto-section" class="content-row">
+                    <div class="section-title-container">
+                        <h2 class="section-title">Naruto</h2>
+                    </div>
+                    <div class="carrusel-contenedor">
+                        <div id="naruto-grid" class="movie-grid"></div>
+                    </div>
+                </section>
+
+                <!-- Sección para Dragon Ball -->
+                <section id="dragon-ball-section" class="content-row">
+                    <div class="section-title-container">
+                        <h2 class="section-title">Dragon Ball</h2>
+                    </div>
+                    <div class="carrusel-contenedor">
+                        <div id="dragon-ball-grid" class="movie-grid"></div>
+                    </div>
+                </section>
+
+                <!-- Sección para One Piece -->
+                <section id="one-piece-section" class="content-row">
+                    <div class="section-title-container">
+                        <h2 class="section-title">One Piece</h2>
+                    </div>
+                    <div class="carrusel-contenedor">
+                        <div id="one-piece-grid" class="movie-grid"></div>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+
+        <footer class="main-footer">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon" loading="lazy">Pelix<span>plushd</span></div>
+                    <p>La mejor plataforma de streaming para tus películas, series y animes favoritos. Disfruta de contenido en alta calidad de forma gratuita.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Navegación</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="lanzamientos.html">Películas</a></li>
+                        <li><a href="series.html">Series</a></li>
+                        <li><a href="ajustes.html">Ajustes</a></li>
+                        <li><a href="anime.html">Anime</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacidad</a></li>
+                        <li><a href="#">Términos</a></li>
+                        <li><a href="#">DMCA</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pelixplushd. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+
+        <div class="bottom-nav">
+            <a href="index.html" class="nav-item"><i class="fas fa-home"></i><span>Inicio</span></a>
+            <a href="lanzamientos.html" class="nav-item"><i class="fas fa-film"></i><span>Cine</span></a>
+            <a href="buscar.html" class="nav-item"><i class="fas fa-search"></i><span>Buscar</span></a>
+            <a href="favoritos.html" class="nav-item"><i class="fas fa-heart"></i><span>Favoritos</span></a>
+            <a href="ajustes.html" class="nav-item"><i class="fas fa-cog"></i><span>Ajustes</span></a>
+        </div>
+
+        <!-- Modal (Standardized) -->
+        <div id="movie-modal" class="modal-overlay">
+            <div class="modal-container">
+                <button class="close-button">&times;</button>
+                <div class="modal-content-scroll">
+                    <div class="modal-video-box">
+                        <img id="modal-poster" src="" alt="" style="display:none;">
+                        <video id="modal-video" controls style="display:none;"></video>
+                        <div id="terabox-container" style="display:none;"></div>
+                    </div>
+                    <div class="modal-info">
+                        <div class="modal-header-info">
+                            <h2 id="modal-title">Título</h2>
+                            <div class="modal-actions">
+                                <button id="modal-fav-btn" class="action-btn"><i class="far fa-heart"></i></button>
+                                <div class="rating-badge"><i class="fas fa-star"></i> <span id="modal-rating-avg">0.0</span></div>
+                            </div>
+                        </div>
+                        <div id="modal-details" class="meta-tags"></div>
+                        <div class="tabs-ui">
+                            <button class="tab-btn active" data-tab="info">Info</button>
+                            <button class="tab-btn" data-tab="sources">Fuentes</button>
+                        </div>
+                        <div id="tab-info" class="tab-content active">
+                            <p id="modal-description" class="synopsis"></p>
+                        </div>
+                        <div id="tab-sources" class="tab-content">
+                            <div id="modal-source-buttons" class="sources-list"></div>
+                            <div id="modal-seasons-container" class="seasons-container"></div>
+                        </div>
+                        <div id="modal-cast" style="display:none;"></div>
+                        <div id="recommendations-tab" style="display:none;">
+                            <div id="recommendations-grid"></div>
+                        </div>
+                        <div id="rating-tab" style="display:none;">
+                            <div id="user-rating-stars"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div id="notification-container" class="toast-container"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+    <script src="script.js?v=4"></script>
+    <script src="animes1.js?v=3"></script>
+
+    <script>
+        // Sticky Header
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('main-header');
+            if (window.scrollY > 50) header.classList.add('scrolled');
+            else header.classList.remove('scrolled');
+        });
+
+        // Mobile Menu
+        const toggleBtn = document.getElementById('hamburger-btn');
+        const closeBtn = document.getElementById('close-side-menu-btn');
+        const sideMenu = document.getElementById('side-menu');
+        const overlay = document.getElementById('menu-overlay');
+        function toggleMenu() {
+            sideMenu.classList.toggle('active');
+            overlay.classList.toggle('active');
+            document.body.style.overflow = sideMenu.classList.contains('active') ? 'hidden' : '';
+        }
+        if (toggleBtn) toggleBtn.addEventListener('click', toggleMenu);
+        if (closeBtn) closeBtn.addEventListener('click', toggleMenu);
+        if (overlay) overlay.addEventListener('click', toggleMenu);
+
+        // Modal Tabs Logic
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const parent = btn.closest('.tabs-ui');
+                const container = parent.parentElement;
+                parent.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                container.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                btn.classList.add('active');
+                const tabId = btn.dataset.tab;
+                if (tabId === 'info') container.querySelector('#tab-info').classList.add('active');
+                if (tabId === 'sources') container.querySelector('#tab-sources').classList.add('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

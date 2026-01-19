@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romance - Pelixplushd</title>
+    <meta name="description" content="Las mejores películas y series de romance en Pelixplushd.">
+    <link rel="icon" type="image/png" sizes="32x32" href="fondo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="manifest" href="manifest.json">
+    <style>
+        /* Ajuste para el contenido principal sin Hero */
+        .category-header {
+            padding-top: 100px;
+            padding-bottom: 30px;
+            text-align: center;
+            background: linear-gradient(to bottom, #141414 0%, #0f0f0f 100%);
+        }
+        .category-title {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: #e50914; /* Color rojo pasión para romance */
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+        .category-subtitle {
+            color: #aaa;
+            font-size: 1.1rem;
+        }
+        .movie-grid-full {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 20px;
+            padding: 20px 5%;
+        }
+        @media (max-width: 768px) {
+            .movie-grid-full {
+                grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+                gap: 15px;
+                padding: 15px;
+            }
+            .category-title { font-size: 1.8rem; }
+            .category-header { padding-top: 80px; padding-bottom: 20px; }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Page Loader -->
+    <div id="page-loader" class="page-loader">
+        <div class="loader-content">
+            <div class="loader-logo">Pelix<span>plushd</span></div>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <header id="main-header" class="navbar">
+        <div class="logo-container">
+            <a href="index.html" class="logo"><img src="fondo.png" alt="Pelixplushd Logo" class="logo-icon">Pelix<span></span>plushd</a>
+        </div>
+
+        <nav class="desktop-nav">
+            <a href="index.html">Inicio</a>
+            <a href="lanzamientos.html">Películas</a>
+            <a href="series.html">Series</a>
+            <a href="buscar.html">Buscar</a>
+            <a href="anime.html">Anime</a>
+            <a href="romance.html" class="active">Romance</a>
+        </nav>
+
+        <div class="nav-actions">
+            <div class="search-bar">
+                <form id="search-form">
+                    <input type="text" id="search-input" placeholder="Buscar..." autocomplete="off">
+                    <button type="submit" id="search-button"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <button id="hamburger-btn" class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="side-menu" class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="logo">Pelix<span>plushd</span></div>
+            <button id="close-side-menu-btn" class="close-btn">&times;</button>
+        </div>
+        <div class="mobile-nav-links">
+            <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
+            <a href="lanzamientos.html"><i class="fas fa-film"></i> Películas</a>
+            <a href="series.html"><i class="fas fa-tv"></i> Series</a>
+            <a href="romance.html" class="active"><i class="fas fa-heart"></i> Romance</a>
+            <a href="anime.html"><i class="fas fa-dragon"></i> Anime</a>
+        </div>
+    </div>
+    <div id="menu-overlay" class="menu-overlay"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="category-header">
+            <h1 class="category-title">Romance ❤️</h1>
+            <p class="category-subtitle">Historias de amor, drama y pasión</p>
+        </div>
+
+        <!-- Controles de Vista y Filtros (Estilo Estándar) -->
+        <div class="view-controls" style="max-width: 1600px; margin: 0 auto; padding: 0 5%; margin-bottom: 20px;">
+            <div class="filter-sort-controls">
+                <div class="control-group">
+                    <label for="genre-filter"><i class="fas fa-filter"></i> Género:</label>
+                    <select id="genre-filter">
+                        <option value="all">Todos</option>
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label for="sort-by"><i class="fas fa-sort"></i> Ordenar:</label>
+                    <select id="sort-by">
+                        <option value="release_date_desc">Más Recientes</option>
+                        <option value="popularity">Más Populares</option>
+                        <option value="rating_desc">Mejor Calificados</option>
+                        <option value="title_asc">A-Z</option>
+                    </select>
+                </div>
+            </div>
+            <div class="layout-toggle">
+                <button id="grid-view-btn" class="layout-btn active" title="Vista Cuadrícula"><i class="fas fa-th"></i></button>
+                <button id="list-view-btn" class="layout-btn" title="Vista Lista"><i class="fas fa-list"></i></button>
+            </div>
+        </div>
+
+        <div id="romance-grid" class="movie-grid-full">
+            <!-- El contenido se cargará aquí vía JS -->
+            <div style="width: 100%; text-align: center; grid-column: 1/-1; color: #666;">
+                <i class="fas fa-spinner fa-spin fa-2x"></i><br>Cargando contenido romántico...
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo"><img src="fondo.png" alt="Logo" class="logo-icon">Pelix<span>plushd</span></div>
+                <p>Disfruta del mejor contenido romántico en alta calidad.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="lanzamientos.html">Películas</a></li>
+                    <li><a href="series.html">Series</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Pelixplushd. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bottom Nav (Mobile) -->
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <i class="fas fa-home"></i>
+            <span>Inicio</span>
+        </a>
+        <a href="buscar.html" class="nav-item">
+            <i class="fas fa-search"></i>
+            <span>Buscar</span>
+        </a>
+        <a href="romance.html" class="nav-item active">
+            <i class="fas fa-heart"></i>
+            <span>Romance</span>
+        </a>
+    </nav>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+    <!-- Cargamos script.js primero para tener las funciones base y datos -->
+    <script src="script.js?v=4"></script>
+    <!-- Cargamos el script específico de romance -->
+    <script src="romance.js"></script>
+</body>
+</html>
