@@ -57,6 +57,56 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "28 años después Parte 3",
+    "titulo_original": "28 Years Later Part 3",
+    "poster": "https://image.tmdb.org/t/p/w500/2loBxp99k59RT8PGmdrLssA17q5.jpg",
+    "backdrop": "",
+    "descripcion": "Tercera entrega de la trilogía de secuelas de 28 días después. Premisa por determinar.",
+    "año": 2026,
+    "categoria": [
+      "terror"
+    ],
+    "genero": [
+      "terror",
+      "suspense",
+      "ciencia ficción"
+    ],
+    "generos_lista": [
+      "Terror",
+      "Suspense",
+      "Ciencia ficción"
+    ],
+    "director": "",
+    "reparto": [],
+    "calificacion": 0.0,
+    "votos": 0,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-18T23:13:29.750156",
+    "tmdb_id": "1273002",
+    "popularidad": 8.14,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "N/A",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/x0c9u159mz03",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "28-anos-despues-parte-3-2026"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "28 años después: El templo de los huesos",
     "titulo_original": "28 Years Later: The Bone Temple",
     "poster": "https://image.tmdb.org/t/p/w500/2DTPapravB7kVBWjm6RsqEWyNqn.jpg",
@@ -2723,6 +2773,131 @@ const peliculas3 = [
             "url": "https://streamwish.to/e/i2qzhvvvhnq7",
             "calidad": "1080p",
             "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/ddueb8eynrgk",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/va33pyhkvwtf",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/15kdqjgnfdla",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/ay9oq8k9qnnr",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/ogfc8hw1hkyg",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://streamwish.to/e/1kpk39e2ee76",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://streamwish.to/e/k9pp92vt97gu",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "nombre": "Temporada 2",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://vidsrc-embed.ru/embed/tv?imdb=tt28181816&season=2&episode=1",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://vidsrc-embed.ru/embed/tv?imdb=tt28181816&season=2&episode=2",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://vidsrc-embed.ru/embed/tv?imdb=tt28181816&season=2&episode=3",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://vidsrc-embed.ru/embed/tv?imdb=tt28181816&season=2&episode=4",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://vidsrc-embed.ru/embed/tv?imdb=tt28181816&season=2&episode=5",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://vidsrc-embed.ru/embed/tv?imdb=tt28181816&season=2&episode=6",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://vidsrc-embed.ru/embed/tv?imdb=tt28181816&season=2&episode=7",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://vidsrc-embed.ru/embed/tv?imdb=tt28181816&season=2&episode=8",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://vidsrc-embed.ru/embed/tv?imdb=tt28181816&season=2&episode=9",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://vidsrc-embed.ru/embed/tv?imdb=tt28181816&season=2&episode=10",
+            "calidad": "1080p",
+            "visto": false
           }
         ]
       }
@@ -4130,6 +4305,72 @@ const peliculas3 = [
     "tipo_serie": "Serie",
     "id": "el-monstruo-de-florencia-2026",
     "plataforma": "Netflix"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "El pacto de los lobos",
+    "titulo_original": "Le Pacte des loups",
+    "poster": "https://image.tmdb.org/t/p/w500/bLFtH5CTXKNYYPYvG8TJZW1No4G.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wxijmbo9Oy5L9M9e4K1QhXVBRgm.jpg",
+    "descripcion": "Gévaudan, en la Francia del siglo XVIII. Una monstruosa criatura devora salvajemente a los habitantes del lugar. Recién llegado de América, Grégoire de Fronsac recibe el encargo del rey Luis XV de identificar y encontrar a la fiera. Sin embargo Grégorie y su misterioso hermano de sangre, un indio llamado Mani, intentarán descubrir qué hay detrás de estos sucesos...",
+    "año": 2001,
+    "categoria": [
+      "accion"
+    ],
+    "genero": [
+      "aventura",
+      "terror",
+      "acción",
+      "historia"
+    ],
+    "generos_lista": [
+      "Aventura",
+      "Terror",
+      "Acción",
+      "Historia"
+    ],
+    "director": "Christophe Gans",
+    "reparto": [
+      "Samuel Le Bihan",
+      "Vincent Cassel",
+      "Émilie Dequenne",
+      "Monica Bellucci",
+      "Jérémie Renier",
+      "Mark Dacascos",
+      "Jean Yanne",
+      "Jean-François Stévenin",
+      "Johan Leysen",
+      "Jacques Perrin",
+      "Bernard Farcy",
+      "Édith Scob"
+    ],
+    "calificacion": 6.7,
+    "votos": 1671,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-18T23:33:31.671109",
+    "tmdb_id": "6312",
+    "popularidad": 2.81,
+    "tagline": "Un Film de Christophe Gans",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "142 min",
+    "presupuesto": "$29,000,000",
+    "ingresos": "$70,800,000",
+    "plataforma": "Shadowz Amazon Channel",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://teomovie.web.app/iframe.html?url=https://hgplaycdn.com/e/6o3l7flce2jr",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-pacto-de-los-lobos-2001"
   },
   {
     "tipo": "pelicula",
@@ -11055,6 +11296,229 @@ const peliculas3 = [
     "id": "oppenheimer-2023"
   },
   {
+    "tipo": "serie",
+    "titulo": "Oríllese a la Orilla",
+    "titulo_original": "Oríllese a la Orilla",
+    "poster": "https://image.tmdb.org/t/p/w500/oN2UVP8xl58XMxmnX4SRFKDyGCt.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/pTIqnGL3NF6gq414m9SqlYnh9uM.jpg",
+    "descripcion": "Basada en la exitosa serie de Televisa, “40 y 20”, “Oríllese a la orilla” cuenta la historia de “Brayan Daniel” (Armando Hernández) y “Toña” (Michelle Rodríguez) quienes, después de perder sus trabajos, deciden entrar a estudiar en la “Academia de Policía”.",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Abel Solis",
+    "reparto": [
+      "Armando Hernández",
+      "Michelle Rodríguez"
+    ],
+    "calificacion": 7.7,
+    "votos": 37,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-18T23:54:17.841319",
+    "tmdb_id": "259017",
+    "popularidad": 2.56,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://callistanise.com/v/nljntome6eg5",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://callistanise.com/v/qmimhuivqdif",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://callistanise.com/v/or0k3q7e85db",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://callistanise.com/v/fzdkblradx69",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://callistanise.com/v/aw06dloszgf9",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://callistanise.com/v/cwdl43vrbkha",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://callistanise.com/v/dhkfec3g8fsd",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://callistanise.com/v/o3bgy6k5m1oi",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://callistanise.com/v/r2bumvb0ub3r",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://callistanise.com/v/kr6xkm862tz0",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 11,
+            "titulo": "Episodio 11",
+            "url": "https://callistanise.com/v/uac2mldkjjim",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 12,
+            "titulo": "Episodio 12",
+            "url": "https://callistanise.com/v/mskag04ya17h",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "nombre": "Temporada 2",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://callistanise.com/v/mskag04ya17h",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://callistanise.com/v/u1m5qum1cz4j",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://callistanise.com/v/u1f0z3n3syl3",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://callistanise.com/v/ql1zv549uv0s",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://callistanise.com/v/a9zz3r84bqaj",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://callistanise.com/v/yez2dx00uawb",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://callistanise.com/v/flhag1ijlf5f",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://callistanise.com/v/pk2q3o3nuhvu",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 9,
+            "titulo": "Episodio 9",
+            "url": "https://callistanise.com/v/xrznff3rqlzj",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 10,
+            "titulo": "Episodio 10",
+            "url": "https://callistanise.com/v/7sys0fs7t1jg",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 11,
+            "titulo": "Episodio 11",
+            "url": "https://callistanise.com/v/q9cofbtg54hv",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 12,
+            "titulo": "Episodio 12",
+            "url": "https://callistanise.com/v/trb12r1i66s4",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 24,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2025-12-21",
+    "plataforma": "ViX Premium Amazon Channel",
+    "id": "orillese-a-la-orilla-2024"
+  },
+  {
     "tipo": "pelicula",
     "titulo": "Oscar Shaw",
     "titulo_original": "Oscar Shaw",
@@ -12445,6 +12909,67 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Rental Family",
+    "titulo_original": "Rental Family",
+    "poster": "https://image.tmdb.org/t/p/w500/9z5dHWiX8EjZBRhJ2OzmYZGW7jS.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/c30cOCYtnydXAQBGFmdMQisy5pB.jpg",
+    "descripcion": "Ambientada en el Tokio actual, sigue a un actor estadounidense que lucha por encontrar un propósito en la vida hasta que consigue un trabajo inusual: trabajar para una agencia japonesa de \"familias de alquiler\", interpretando papeles de suplente para desconocidos. A medida que se sumerge en el mundo de sus clientes, comienza a establecer vínculos genuinos que difuminan las líneas entre la actuación y la realidad. Al enfrentarse a las complejidades morales de su trabajo, redescubre el propósito, la pertenencia y la tranquila belleza de las relaciones humanas.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "comedia",
+      "drama"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Drama"
+    ],
+    "director": "Hikari",
+    "reparto": [
+      "Brendan Fraser",
+      "Takehiro Hira",
+      "Mari Yamamoto",
+      "Shannon Mahina Gorman",
+      "柄本明",
+      "Paolo Andrea Di Pietro",
+      "尾関伸嗣",
+      "Shino Shinozaki",
+      "小松勇司",
+      "Ryoko Osada",
+      "古川がん",
+      "Risa Kameda"
+    ],
+    "calificacion": 7.9,
+    "votos": 161,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-18T23:09:55.394108",
+    "tmdb_id": "1208348",
+    "popularidad": 105.31,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=YG5skRz44_Y",
+    "trailer_key": "YG5skRz44_Y",
+    "success": true,
+    "duracion": "110 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$10,706,787",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://lauradaydo.com/e/w0i99visholi",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "rental-family-2025"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Respira",
     "titulo_original": "Breathe",
     "poster": "https://image.tmdb.org/t/p/w500/oujEGO5eXnP8PsFRPJHZfUzlKFK.jpg",
@@ -12508,6 +13033,75 @@ const peliculas3 = [
       }
     ],
     "id": "respira-2024"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Romi",
+    "titulo_original": "Romi",
+    "poster": "https://image.tmdb.org/t/p/w500/3EjcmpGFVJ9tAIVEM0mqVGTLdEH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/e1XOv2zMB4RbXgrZ8u2dGsRdqL0.jpg",
+    "descripcion": "Romina es discapacitada auditiva con implante coclear y detective privada. Trabaja mano a mano con su nueva compañera en prácticas, Nerea, y no duda en bordear la ley, ni en aprovecharse de su madre: jefa de investigación criminal de la Ertzaintza. Ésta debe hacer frente a un caso del pasado que amenaza con sacar a la luz los secretos ligados a la sordera de Romi y a la muerte de su padre.",
+    "año": 2025,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "action & adventure",
+      "misterio",
+      "drama"
+    ],
+    "generos_lista": [
+      "Action & Adventure",
+      "Misterio",
+      "Drama"
+    ],
+    "director": "Iker Azkoitia",
+    "reparto": [
+      "María Cerezuela",
+      "Natalia Millán",
+      "Edurne Azkarate",
+      "Unax Ugalde",
+      "Elena Irureta",
+      "Asier Etxeandia",
+      "Iñaki Font",
+      "Jon Olivares",
+      "Alvar Gordejuela",
+      "Mikele Urroz",
+      "Verónika Moral"
+    ],
+    "calificacion": 7.0,
+    "votos": 4,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-18T17:57:47.954774",
+    "tmdb_id": "114826",
+    "popularidad": 2.06,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/xwkpqvs20lg0",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 8,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2025-09-26",
+    "plataforma": "Amazon Prime Video",
+    "id": "romi-2025"
   },
   {
     "tipo": "pelicula",
