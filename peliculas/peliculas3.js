@@ -3840,6 +3840,74 @@ const peliculas3 = [
     "id": "el-botin-2026"
   },
   {
+    "tipo": "serie",
+    "titulo": "El caballero de los Siete Reinos",
+    "titulo_original": "A Knight of the Seven Kingdoms",
+    "poster": "https://image.tmdb.org/t/p/w500/pKWuCnx1DAjLFamTdYVRfK0cck6.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
+    "descripcion": "Un siglo antes de los acontecimientos de \"Juego de Tronos\", dos héroes improbables vagaban por Poniente: un joven e ingenuo, pero valiente caballero, Ser Duncan el Alto, y su pequeño escudero, Egg. Ambientada en una época en la que el linaje Targaryen aún ostenta el Trono de Hierro y el recuerdo del último dragón aún no ha desaparecido de la memoria viva, grandes destinos, poderosos enemigos y peligrosas hazañas aguardan a estos improbables e incomparables amigos.",
+    "año": 2026,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "sci-fi & fantasy",
+      "action & adventure"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Sci-Fi & Fantasy",
+      "Action & Adventure"
+    ],
+    "director": "George R. R. Martin",
+    "reparto": [
+      "Peter Claffey",
+      "Dexter Sol Ansell",
+      "Finn Bennett",
+      "Bertie Carvel",
+      "Tanzyn Crawford",
+      "Daniel Ings",
+      "Sam Spruell",
+      "Henry Ashton",
+      "Edward Ashley",
+      "Shaun Thomas"
+    ],
+    "calificacion": 8.0,
+    "votos": 45,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-19T19:33:01.162350",
+    "tmdb_id": "224372",
+    "popularidad": 305.95,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=oWkee4nu1Lg",
+    "trailer_key": "oWkee4nu1Lg",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://fastream.to/embed-j0s4mz41bn67.html",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 6,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2026-01-18",
+    "plataforma": "HBO Max",
+    "id": "el-caballero-de-los-siete-reinos-2026"
+  },
+  {
     "tipo": "pelicula",
     "titulo": "El cadáver de Anna Fritz",
     "titulo_original": "El cadáver de Anna Fritz",
@@ -6277,6 +6345,65 @@ const peliculas3 = [
     "plataforma": "hbo max",
     "favorito": false,
     "id": "chespirito-sin-querer-queriendo-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Guapis",
+    "titulo_original": "Mignonnes",
+    "poster": "https://image.tmdb.org/t/p/w500/5pdEsnY0OebGiJtplEwhG0bFH70.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6j2g4fEAmjJqAclzprIpvz9Gaw4.jpg",
+    "descripcion": "A los 11 años, Amy empieza a rebelarse contra las tradiciones familiares. Y es que está fascinada con un grupo de baile del colegio donde la libertad es la norma.",
+    "año": 2020,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama"
+    ],
+    "generos_lista": [
+      "Drama"
+    ],
+    "director": "Maïmouna Doucouré",
+    "reparto": [
+      "Fathia Youssouf",
+      "Medina El Aidi",
+      "Esther Gohourou",
+      "Ilanah Cami-Goursolas",
+      "Myriam Hamma",
+      "Maïmouna Gueye",
+      "Mbissine Thérèse Diop",
+      "Demba Diaw",
+      "Mamadou Samaké",
+      "Jean-Paul Castro",
+      "Bilel Chegrani",
+      "Canelle Brival"
+    ],
+    "calificacion": 5.1,
+    "votos": 454,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-19T16:34:29.658632",
+    "tmdb_id": "582885",
+    "popularidad": 7.0,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "96 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$692,459",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/n5vjar1t2cah",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "guapis-2020"
   },
   {
     "tipo": "serie",
@@ -11197,6 +11324,173 @@ const peliculas3 = [
       }
     ],
     "id": "noche-de-paz-cazadores-de-demonios-2025"
+  },
+  {
+    "tipo": "serie",
+    "titulo": "Ojitos de huevo",
+    "titulo_original": "Ojitos de huevo",
+    "poster": "https://image.tmdb.org/t/p/w500/c70GJ8dVQg0TosyaVwQYoGCZoMY.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9u6F70NmSxb5TmphXkiYVtN8PDh.jpg",
+    "descripcion": "Acompañado por su mejor amigo, que tiene parálisis cerebral, un invidente aspirante a humorista se lanza a cumplir su gran sueño... caiga quien caiga.",
+    "año": 2023,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Santiago Limón",
+    "reparto": [
+      "Alexis Arroyo",
+      "Kike Vázquez"
+    ],
+    "calificacion": 7.9,
+    "votos": 106,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-19T19:07:29.458789",
+    "tmdb_id": "237983",
+    "popularidad": 1.61,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/0a99mp7wyd1e",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/sg8qjh58u5s0",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/ddlvbtrfzdjv",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/74eqa5986xdd",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/luzl0mcqlftp",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/thpoa3nngj29",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/0hj70w7nigmq",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/kg9ttr09dfnr",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      },
+      {
+        "temporada": 2,
+        "nombre": "Temporada 2",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://streamwish.to/e/58eccmzay8my",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://streamwish.to/e/vorr65or1j9q",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://streamwish.to/e/wrsneekid9u4",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://streamwish.to/e/qau04xiv3yub",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://streamwish.to/e/7bmkt2buefec",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://streamwish.to/e/7bmkt2buefec",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 7,
+            "titulo": "Episodio 7",
+            "url": "https://streamwish.to/e/uu883qxpzwj6",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 8,
+            "titulo": "Episodio 8",
+            "url": "https://streamwish.to/e/58mx5sq5vj56",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 16,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2024-11-20",
+    "plataforma": "Netflix",
+    "id": "ojitos-de-huevo-2023"
   },
   {
     "tipo": "pelicula",

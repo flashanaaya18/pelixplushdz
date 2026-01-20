@@ -141,29 +141,106 @@ function loadEpisode(seasonNumber, episodeNumber) {
 }
 
 // --- NUEVO: Lógica para reportar contenido ---
-async function reportContent(movieId, movieTitle) {
-    if (!movieId || !movieTitle) {
-        alert('No se puede reportar: falta información del contenido.');
-        return;
-    }
+let currentReportMovie = { id: null, title: null, type: null };
 
-    const report = {
-        id: movieId,
-        titulo: movieTitle,
-        fecha: new Date().toISOString()
-    };
+function setupReportSystem(movieId, movieTitle, movieType) {
+    console.log("Configurando sistema de reportes para:", movieId, movieTitle, movieType);
+    currentReportMovie = { id: movieId, title: movieTitle, type: movieType };
+    
+    const reportBtn = document.getElementById('report-button');
+    const modal = document.getElementById('report-modal');
+    const closeBtn = document.getElementById('close-report-modal');
+    const form = document.getElementById('report-form');
 
-    try {
-        // Esta es una simulación de cómo se enviaría el reporte.
-        // En un entorno real, aquí harías una llamada a tu backend (API).
-        // Por ahora, lo guardaremos en un archivo `reports.json` si es posible,
-        // o mostraremos una alerta de éxito.
-        console.log("Reporte enviado (simulación):", report);
-        alert(`Gracias por tu ayuda. Se ha enviado un reporte para "${movieTitle}". Lo revisaremos pronto.`);
-        // Aquí iría la lógica para enviar el reporte al servidor.
-    } catch (error) {
-        console.error('Error al enviar el reporte:', error);
-        alert('Hubo un error al enviar tu reporte. Por favor, inténtalo más tarde.');
+    if (reportBtn && modal) {
+        console.log("Botón de reporte y modal encontrados. Sistema activo.");
+        // Abrir modal
+        reportBtn.onclick = () => {
+            modal.style.display = 'flex';
+            // Pre-seleccionar el tipo automáticamente si el sistema ya lo sabe
+            const typeSelect = document.getElementById('report-type');
+            if (typeSelect && currentReportMovie.type) {
+                // Normalizar: si es 'tv' o 'series' lo ponemos como 'serie'
+                const typeVal = ['serie', 'tv', 'series'].includes(currentReportMovie.type.toLowerCase()) ? 'serie' : 'pelicula';
+                typeSelect.value = typeVal;
+            }
+        };
+
+        // Cerrar modal
+        if (closeBtn) {
+            closeBtn.onclick = () => {
+                modal.style.display = 'none';
+            };
+        }
+
+        // Cerrar al hacer clic fuera
+        modal.onclick = (e) => {
+            if (e.target === modal) modal.style.display = 'none';
+        };
+
+        // Enviar formulario
+        if (form) {
+            form.onsubmit = async (e) => {
+                console.log("Intentando enviar reporte...");
+                e.preventDefault();
+                const submitBtn = form.querySelector('button[type="submit"]');
+                const originalText = submitBtn.textContent;
+                
+                try {
+                    submitBtn.textContent = 'Enviando...';
+                    submitBtn.disabled = true;
+
+                    const type = document.getElementById('report-type').value;
+                    const isLatino = document.getElementById('report-latino')?.checked ? 'Sí' : '';
+                    const isEspanol = document.getElementById('report-espanol')?.checked ? 'Sí' : '';
+                    const isSub = document.getElementById('report-sub')?.checked ? 'Sí' : '';
+                    
+                    const reason = document.getElementById('report-reason').value;
+                    const details = document.getElementById('report-details').value;
+
+                    // Asegúrate de que esta URL sea la de la "Nueva implementación" con acceso "Cualquier persona"
+                    // Si recibes error 401 en consola, es porque los permisos en Google no están en "Cualquier persona"
+                    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbykPR-zEBeJZTe5wj-NtEgIg3gWkXyZRi1OCqK4GmOdODZKvIv9wmhxvmtExCm1YOKxbw/exec"; 
+
+                    const payload = {
+                        fecha: new Date().toLocaleString(),
+                        id: currentReportMovie.id || 'ID Desconocido',
+                        titulo: currentReportMovie.title || 'Título Desconocido',
+                        tipo: type, // Usamos el valor del selector
+                        motivo: reason,
+                        detalles: details,
+                        latino: isLatino,
+                        espanol: isEspanol,
+                        subtitulado: isSub,
+                        url: window.location.href
+                    };
+
+                    // Enviar datos usando no-cors para evitar bloqueos de navegador con Google Scripts
+                    console.log("Enviando payload a Google:", payload);
+                    await fetch(SCRIPT_URL, {
+                        method: 'POST',
+                        mode: 'no-cors',
+                        cache: 'no-cache',
+                        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    alert('¡Reporte enviado! Gracias por ayudarnos a mejorar.');
+                    console.log('Solicitud enviada correctamente.');
+                    modal.style.display = 'none';
+                    form.reset();
+
+                } catch (error) {
+                    console.error('Error:', error);
+                    alert('Hubo un error al enviar el reporte. Inténtalo de nuevo.');
+                } finally {
+                    submitBtn.textContent = originalText;
+                    submitBtn.disabled = false;
+                }
+            };
+        }
+    } else {
+        console.error("Error: No se encontraron los elementos del sistema de reportes (botón o modal).");
     }
 }
 
@@ -229,11 +306,8 @@ async function initDetalle() {
                 ];
             }
 
-            const reportButton = document.getElementById('report-button');
-            if (reportButton) {
-                reportButton.dataset.movieId = movie.id;
-                reportButton.addEventListener('click', () => reportContent(movie.id, movie.titulo));
-            }
+            // Inicializar sistema de reportes
+            setupReportSystem(movie.id, movie.titulo, movie.tipo);
 
             // --- NUEVO: Lógica de Favoritos usando dataManager ---
             const favoriteBtn = document.getElementById('detail-favorite-btn');
@@ -333,13 +407,16 @@ function updateCanonicalUrl(movieId) {
 }
 
 
-
-// CORRECCIÓN: Esperar al evento 'app-ready' de script.js para asegurar
-// que todas las funciones y datos globales (como normalizeText) estén listos.
-document.addEventListener('app-ready', () => {
-    console.log("Evento 'app-ready' recibido en detalle.js. Inicializando...");
+// Inicialización robusta: Si ya hay datos, iniciar. Si no, esperar evento.
+if (window.peliculas && window.peliculas.length > 0) {
+    console.log("Datos ya disponibles. Inicializando detalle.js inmediatamente.");
     initDetalle();
-});
+} else {
+    document.addEventListener('app-ready', () => {
+        console.log("Evento 'app-ready' recibido en detalle.js. Inicializando...");
+        initDetalle();
+    });
+}
 
 // --- NUEVO: Event listener para el botón de cerrar en modo cine ---
 document.addEventListener('keydown', (e) => {
