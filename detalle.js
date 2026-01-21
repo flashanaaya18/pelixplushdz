@@ -1,4 +1,5 @@
 
+
 // Seleccionamos los elementos que acabamos de añadir en el HTML
 const episodeNavControls = document.getElementById('episode-navigation-controls');
 const prevEpisodeBtn = document.getElementById('prev-episode-btn');
@@ -146,7 +147,7 @@ let currentReportMovie = { id: null, title: null, type: null };
 function setupReportSystem(movieId, movieTitle, movieType) {
     console.log("Configurando sistema de reportes para:", movieId, movieTitle, movieType);
     currentReportMovie = { id: movieId, title: movieTitle, type: movieType };
-    
+
     const reportBtn = document.getElementById('report-button');
     const modal = document.getElementById('report-modal');
     const closeBtn = document.getElementById('close-report-modal');
@@ -185,7 +186,7 @@ function setupReportSystem(movieId, movieTitle, movieType) {
                 e.preventDefault();
                 const submitBtn = form.querySelector('button[type="submit"]');
                 const originalText = submitBtn.textContent;
-                
+
                 try {
                     submitBtn.textContent = 'Enviando...';
                     submitBtn.disabled = true;
@@ -194,13 +195,13 @@ function setupReportSystem(movieId, movieTitle, movieType) {
                     const isLatino = document.getElementById('report-latino')?.checked ? 'Sí' : '';
                     const isEspanol = document.getElementById('report-espanol')?.checked ? 'Sí' : '';
                     const isSub = document.getElementById('report-sub')?.checked ? 'Sí' : '';
-                    
+
                     const reason = document.getElementById('report-reason').value;
                     const details = document.getElementById('report-details').value;
 
                     // Asegúrate de que esta URL sea la de la "Nueva implementación" con acceso "Cualquier persona"
                     // Si recibes error 401 en consola, es porque los permisos en Google no están en "Cualquier persona"
-                    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbykPR-zEBeJZTe5wj-NtEgIg3gWkXyZRi1OCqK4GmOdODZKvIv9wmhxvmtExCm1YOKxbw/exec"; 
+                    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbykPR-zEBeJZTe5wj-NtEgIg3gWkXyZRi1OCqK4GmOdODZKvIv9wmhxvmtExCm1YOKxbw/exec";
 
                     const payload = {
                         fecha: new Date().toLocaleString(),
@@ -275,6 +276,16 @@ async function initDetalle() {
         if (movieId) {
             // Carga local
             movie = allMovies.find(m => String(m.id) === String(movieId));
+
+            // Fallback: Si no se encuentra localmente, intentar buscar en TMDB si el ID parece un ID de TMDB (numérico o prefijo tmdb-)
+            // O simplemente si falla, asumir que es un error de sincronización y tratar de buscar por ID en TMDB si es numérico puro.
+            if (!movie && (movieId.startsWith('tmdb-') || !isNaN(movieId))) {
+                console.log("No encontrado localmente, intentando TMDB con ID:", movieId);
+                const cleanId = movieId.replace('tmdb-', '');
+                // Por defecto probamos pelicula, si falla el usuario notará, pero es mejor que nada.
+                // O idealmente deberíamos saber el tipo. Asumimos movie por defecto.
+                movie = await fetchTMDBMovieDetail(cleanId, tmdbType);
+            }
         } else if (tmdbId) {
             // Carga desde TMDB (Ultra Búsqueda)
             movie = await fetchTMDBMovieDetail(tmdbId, tmdbType);
@@ -407,16 +418,36 @@ function updateCanonicalUrl(movieId) {
 }
 
 
-// Inicialización robusta: Si ya hay datos, iniciar. Si no, esperar evento.
-if (window.peliculas && window.peliculas.length > 0) {
-    console.log("Datos ya disponibles. Inicializando detalle.js inmediatamente.");
-    initDetalle();
-} else {
-    document.addEventListener('app-ready', () => {
-        console.log("Evento 'app-ready' recibido en detalle.js. Inicializando...");
+// Inicialización robusta: Verificar datos o esperar evento, con reintentos si falla.
+function tryInitDetalle(attempts = 0) {
+    if (window.peliculas && window.peliculas.length > 0) {
+        console.log("Datos disponibles. Iniciando detalle.js");
         initDetalle();
-    });
+    } else {
+        if (attempts < 5) {
+            // Reintentar en 500ms si aún no hay datos (máximo 2.5s)
+            console.log(`Esperando datos... intento ${attempts + 1}`);
+            setTimeout(() => tryInitDetalle(attempts + 1), 500);
+        } else {
+            // Fallback final: Si sigue vacío despues de esperar, intentamos init de todas formas
+            // (por si es una carga directa desde link TMDB sin necesidad de DB local completa)
+            console.warn("Tiempo de espera agotado. Forzando inicio de detalle.js");
+            initDetalle();
+        }
+    }
 }
+
+document.addEventListener('app-ready', () => {
+    console.log("Evento 'app-ready' recibido. Iniciando...");
+    // Si ya se inició por el timer, esto simplemente re-ejecutará u omitirá según lógica interna, 
+    // pero como initDetalle no tiene flag de 'iniciado', mejor verificamos si ya se renderizó algo clave?
+    // No, mejor simple: llamar a init. Init debe ser idempotente o manejarlo.
+    // Para evitar doble carga visual limpiaremos si es necesario o confiamos en que 'displayMovieDetails' reemplace contenido.
+    tryInitDetalle(100); // Force init
+});
+
+// Arrancar verificaciones
+tryInitDetalle();
 
 // --- NUEVO: Event listener para el botón de cerrar en modo cine ---
 document.addEventListener('keydown', (e) => {
@@ -1564,7 +1595,7 @@ async function displayRecommendations(currentMovie) {
 
             const movieGenres = getGenresAsArray(movie.genero);
             const commonGenresCount = movieGenres.filter(g => currentGenres.includes(g)).length;
-            
+
             let score = commonGenresCount * 2; // Ponderar más los géneros en común
             if (movie.calificacion) {
                 score += (movie.calificacion / 10);
@@ -1584,7 +1615,7 @@ async function displayRecommendations(currentMovie) {
             movieCard.onclick = (e) => { e.preventDefault(); window.showPageLoader(movieCard.href); };
             recommendationsGrid.appendChild(movieCard);
         });
-        
+
         setupCarruselControls('#recommendations-carousel');
     } else {
         recommendationsGrid.innerHTML = '<p class="no-content-message" style="grid-column: 1/-1; text-align: center; color: #888;">No hay recomendaciones disponibles para este título.</p>';
@@ -1658,7 +1689,7 @@ function setupCarruselControls(carruselSelector) {
         // Usamos un pequeño retraso para que el navegador calcule el ancho del scroll
         setTimeout(() => {
             const hasScroll = grid.scrollWidth > grid.clientWidth + 1; // +1 para margen de error
-            
+
             if (window.innerWidth > 768) { // Solo mostrar flechas en PC
                 prevBtn.style.display = hasScroll && grid.scrollLeft > 10 ? 'flex' : 'none';
                 nextBtn.style.display = hasScroll && grid.scrollLeft < (grid.scrollWidth - grid.clientWidth - 10) ? 'flex' : 'none';
@@ -1790,12 +1821,12 @@ function updateRatingUI(voteAverage, voteCount) {
     // Actualizar círculo de progreso (0 a 100)
     const percentage = (rating / 10) * 100;
     const offset = 100 - percentage;
-    
+
     // Animación del círculo
     setTimeout(() => {
         progressCircle.style.strokeDashoffset = offset;
     }, 100);
-    
+
     // Color dinámico según puntuación
     if (rating >= 7) progressCircle.style.stroke = '#2ecc71'; // Verde
     else if (rating >= 5) progressCircle.style.stroke = '#f1c40f'; // Amarillo
@@ -1806,7 +1837,7 @@ function updateRatingUI(voteAverage, voteCount) {
         let starsHtml = '';
         const fullStars = Math.floor(rating / 2);
         const hasHalfStar = (rating % 2) >= 1;
-        
+
         for (let i = 0; i < 5; i++) {
             if (i < fullStars) {
                 starsHtml += '<i class="fas fa-star"></i>';
@@ -1884,9 +1915,9 @@ function setupReviews(movieId) {
             const reviewItem = document.createElement('div');
             reviewItem.className = 'review-item';
             reviewItem.style.cssText = 'background: rgba(255,255,255,0.03); padding: 15px; border-radius: 8px; margin-bottom: 15px; border: 1px solid rgba(255,255,255,0.05);';
-            
+
             const stars = '★'.repeat(review.rating) + '☆'.repeat(5 - review.rating);
-            
+
             reviewItem.innerHTML = `
                 <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
                     <span style="font-weight: bold; color: white;">${review.user}</span>
@@ -1928,7 +1959,7 @@ function setupReviews(movieId) {
     reviewForm.addEventListener('submit', (e) => {
         e.preventDefault();
         const text = document.getElementById('review-text').value.trim();
-        
+
         if (currentRating === 0) {
             alert('Por favor, selecciona una calificación.');
             return;
@@ -1953,12 +1984,12 @@ function setupReviews(movieId) {
         // Update UI
         allReviews.unshift(newReview);
         renderReviews();
-        
+
         // Reset form
         reviewForm.reset();
         currentRating = 0;
         starInputs.forEach(s => s.style.color = '#444');
-        
-        if(window.showToast) window.showToast('Reseña publicada con éxito', 'success');
+
+        if (window.showToast) window.showToast('Reseña publicada con éxito', 'success');
     });
 }

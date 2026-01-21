@@ -4442,6 +4442,66 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "El Roomie",
+    "titulo_original": "El Roomie",
+    "poster": "https://image.tmdb.org/t/p/w500/zaRzz2BxjxIVb7ja0gSedj1Hn1E.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wxYBMcxFIJai9AaZr6XAOKZTfxY.jpg",
+    "descripcion": "Vivi es una joven escritora que se ve obligada a buscar una compañera de cuarto para pagar la hipoteca de su apartamento. Lo que no sospecha es que Roy, el supuesto socio perfecto que encontró, tiene un estilo de vida peculiar: nunca paga alquiler.",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Pedro Pablo Ibarra",
+    "reparto": [
+      "Fiona Palomo",
+      "José Eduardo Derbez",
+      "Giuseppe Gamba",
+      "Victoria Ruffo",
+      "Bárbara de Regil",
+      "Edgar Vivar",
+      "Maite Perroni",
+      "Eréndira Ibarra",
+      "Leticia Calderón",
+      "Ariadne Díaz",
+      "Ana Brenda Contreras",
+      "Ana Serradilla"
+    ],
+    "calificacion": 7.6,
+    "votos": 95,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-21T01:59:19.345456",
+    "tmdb_id": "1229913",
+    "popularidad": 4.44,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=BYGk1AL-mLY",
+    "trailer_key": "BYGk1AL-mLY",
+    "success": true,
+    "duracion": "99 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "ViX Premium Amazon Channel",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/8vxw8uq8wrg9",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-roomie-2024"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "El Sendero Azul",
     "titulo_original": "O Último Azul",
     "poster": "https://image.tmdb.org/t/p/w500/sY7dcqyvUKbVKwaNFOPaPgljyj0.jpg",
@@ -12375,6 +12435,67 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Perdidos en la noche",
+    "titulo_original": "Perdidos en la noche",
+    "poster": "https://image.tmdb.org/t/p/w500/e7dQV1OqvNQyrPViUA13DCiieLH.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kiiOR9TPAMogSCgW2YEkzOIJozS.jpg",
+    "descripcion": "Paloma, profesora y activista, protesta contra la industria minera local. Poco después, desaparece sin dejar rastro. Cinco años después, su hijo Emiliano busca al culpable. El joven de 20 años tiene un gran sentido de la justicia. Debido a la incompetencia del sistema judicial, él se toma la justicia por su mano. Una nota lo lleva a la casa de verano de la rica y excéntrica familia Aldama. El clan está encabezado por la destacada matriarca Carmen Aldama. En busca de la verdad, Emiliano se sumerge en un mundo oscuro lleno de secretos, mentiras y venganzas.",
+    "año": 2023,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "suspense",
+      "crimen"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Suspense",
+      "Crimen"
+    ],
+    "director": "Amat Escalante",
+    "reparto": [
+      "Juan Daniel Garcia Treviño",
+      "Ester Expósito",
+      "Bárbara Mori",
+      "Fernando Bonilla",
+      "Maria Fernanda Osio",
+      "Jero Medina",
+      "Mayra Hermosillo",
+      "Vicky Araico",
+      "José Antonio Becerril"
+    ],
+    "calificacion": 6.5,
+    "votos": 67,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-21T03:03:52.301349",
+    "tmdb_id": "605542",
+    "popularidad": 0.45,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "123 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "Netflix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/79wvfg3t1wsu",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "perdidos-en-la-noche-2023"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Persecución en Malta",
     "titulo_original": "Love on the Rock",
     "poster": "https://image.tmdb.org/t/p/w500/itWubFAXws34yK3h77Maxx9Di1h.jpg",
@@ -12898,6 +13019,66 @@ const peliculas3 = [
       }
     ],
     "id": "perdida-total-2025"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Radical",
+    "titulo_original": "Radical",
+    "poster": "https://image.tmdb.org/t/p/w500/eSatbygYZp8ooprBHZdb6GFZxGB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/gutU32BiBxJvJdzLv5RWC9hQhNh.jpg",
+    "descripcion": "En una ciudad fronteriza mexicana plagada de abandono, corrupción y violencia, un profesor frustrado prueba un nuevo método radical para romper la apatía de sus alumnos y desbloquear su curiosidad, su potencial... y puede que incluso su genialidad. Basada en una historia real.",
+    "año": 2023,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama"
+    ],
+    "generos_lista": [
+      "Drama"
+    ],
+    "director": "Christopher Zalla",
+    "reparto": [
+      "Eugenio Derbez",
+      "Daniel Haddad",
+      "Jennifer Trejo",
+      "Mia Fernanda Solis",
+      "Danilo Guardiola Escobar",
+      "Gilberto Barraza",
+      "Víctor Estrada",
+      "Manuel Márquez",
+      "Christian Gonzalez",
+      "Xochiquetzal Martínez",
+      "Edmundo Munoz",
+      "Enoc Leaño"
+    ],
+    "calificacion": 8.3,
+    "votos": 485,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-21T02:58:45.147116",
+    "tmdb_id": "1058694",
+    "popularidad": 1.71,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=tttHqw-kBGk",
+    "trailer_key": "tttHqw-kBGk",
+    "success": true,
+    "duracion": "127 min",
+    "presupuesto": "$10,000,000",
+    "ingresos": "$21,761,164",
+    "plataforma": "Amazon Prime Video",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://filelions.to/v/xa99xc54qn5a",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "radical-2023"
   },
   {
     "tipo": "serie",
@@ -13673,6 +13854,70 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Señora Influencer",
+    "titulo_original": "Señora Influencer",
+    "poster": "https://image.tmdb.org/t/p/w500/lOiWHv3kDbMl6ce4LBQJdc3xG2L.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/iani6lXW3h3d89MuwV6d7ULMhGq.jpg",
+    "descripcion": "De la noche a la mañana, Fátima, una mujer en sus cuarentas, se convierte en la influencer más famosa del momento. Sofi y Cami, un par de jóvenes influencers, intentarán aprovecharse de la repentina popularidad de Fátima fingiendo ser sus amigas. En la misma medida que Fátima logra tener seguidores que la aman, también atraerá a haters escondidos detrás de una pantalla, sin saber que se han burlado del perfil equivocado.",
+    "año": 2023,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "comedia",
+      "drama",
+      "suspense"
+    ],
+    "generos_lista": [
+      "Comedia",
+      "Drama",
+      "Suspense"
+    ],
+    "director": "Carlos Santos",
+    "reparto": [
+      "Mónica Huarte",
+      "Leonardo Daniel",
+      "Bárbara Lombardo",
+      "Macarena García Romero",
+      "Diana Carreiro",
+      "Mau Nieto",
+      "Daniela Peña",
+      "Memo Dorantes",
+      "Michelle Durán",
+      "Ángel Escarcega",
+      "Christian Uribe",
+      "Paola Rojas"
+    ],
+    "calificacion": 7.6,
+    "votos": 76,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-21T03:01:41.647610",
+    "tmdb_id": "1150112",
+    "popularidad": 0.63,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "99 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "$464,271",
+    "plataforma": "Amazon Prime Video",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/0c97sold8d54",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "senora-influencer-2023"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Shame: deseos culpables",
     "titulo_original": "Shame",
     "poster": "https://image.tmdb.org/t/p/w500/6dvkN1NpSFRStUzGexHp4dR0I1q.jpg",
@@ -13854,6 +14099,65 @@ const peliculas3 = [
       }
     ],
     "id": "siete-reyes-deben-morir-2023"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Signing Tony Raymond",
+    "titulo_original": "Signing Tony Raymond",
+    "poster": "https://image.tmdb.org/t/p/w500/hqdP3i97vefXDlBVp8bfepW3IPU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uU2UCjGddDc9VAfX6z8fGNK3EIZ.jpg",
+    "descripcion": "",
+    "año": 2026,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Glen Owen",
+    "reparto": [
+      "Michael Mosley",
+      "Rob Morgan",
+      "Mira Sorvino",
+      "Marshawn Lynch",
+      "Brian Bosworth",
+      "Champ Bailey",
+      "Charles Esten",
+      "Jackie Kay",
+      "Denitra Isler",
+      "Brad Carter",
+      "Irone Singleton",
+      "Michael Beasley"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-21T01:51:46.579453",
+    "tmdb_id": "1555571",
+    "popularidad": 3.2,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "111 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://fastream.to/embed-r512ie1nkc4w.html",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "signing-tony-raymond-2026"
   },
   {
     "tipo": "pelicula",

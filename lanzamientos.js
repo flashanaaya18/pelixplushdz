@@ -119,11 +119,16 @@ document.addEventListener('DOMContentLoaded', () => {
         renderLanzamientos();
     };
 
-    // --- CORRECCIÓN: INICIALIZACIÓN BASADA EN EVENTOS ---
-    // En lugar de ejecutarse inmediatamente, esperamos a que script.js
-    // nos avise que todo está listo (incluyendo dataManager).
-    document.addEventListener('app-ready', () => {
-        console.log("Evento 'app-ready' recibido en lanzamientos.js. Inicializando...");
+    // --- INICIALIZACIÓN ROBUSTA ---
+    // Verificamos si los datos ya están listos (para evitar condición de carrera si el evento ya pasó)
+    if (window.peliculas && window.peliculas.length > 0) {
+        console.log("Datos ya disponibles al cargar lanzamientos.js. Inicializando...");
         init();
-    });
+    } else {
+        // Si no, esperamos al evento estándar
+        document.addEventListener('app-ready', () => {
+            console.log("Evento 'app-ready' recibido en lanzamientos.js. Inicializando...");
+            init();
+        });
+    }
 });

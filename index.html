@@ -260,8 +260,13 @@
         }
 
         @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
         }
 
         @keyframes slideUp {
@@ -269,6 +274,7 @@
                 transform: translateY(20px);
                 opacity: 0;
             }
+
             to {
                 transform: translateY(0);
                 opacity: 1;
@@ -468,8 +474,8 @@
             font-size: 1rem;
         }
 
-        .vip-input:focus + .floating-label,
-        .vip-input:not(:placeholder-shown) + .floating-label {
+        .vip-input:focus+.floating-label,
+        .vip-input:not(:placeholder-shown)+.floating-label {
             top: 0;
             transform: translateY(-50%);
             font-size: 0.85rem;
@@ -524,9 +530,19 @@
         }
 
         @keyframes shake {
-            0%, 100% { transform: translateX(0); }
-            25% { transform: translateX(-5px); }
-            75% { transform: translateX(5px); }
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            25% {
+                transform: translateX(-5px);
+            }
+
+            75% {
+                transform: translateX(5px);
+            }
         }
 
         .back-link {
@@ -614,10 +630,10 @@
 
         /* Urgency Banner */
         .urgency-banner {
-            background: linear-gradient(90deg, 
-                rgba(229, 9, 20, 0.1), 
-                rgba(229, 9, 20, 0.3), 
-                rgba(229, 9, 20, 0.1));
+            background: linear-gradient(90deg,
+                    rgba(229, 9, 20, 0.1),
+                    rgba(229, 9, 20, 0.3),
+                    rgba(229, 9, 20, 0.1));
             border: 1px solid rgba(229, 9, 20, 0.3);
             color: #ffcccc;
             padding: 12px;
@@ -632,8 +648,15 @@
         }
 
         @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.8; }
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.8;
+            }
         }
 
         .countdown-timer {
@@ -984,51 +1007,51 @@
                 margin: 10px;
                 max-width: 100%;
             }
-            
+
             .modal-title {
                 font-size: 1.8rem;
             }
-            
+
             .access-btn {
                 padding: 15px;
             }
-            
+
             .access-icon {
                 width: 45px;
                 height: 45px;
                 font-size: 1.3rem;
             }
-            
+
             .access-info h3 {
                 font-size: 1.1rem;
             }
-            
+
             .vip-plans-grid {
                 grid-template-columns: 1fr;
                 gap: 15px;
             }
-            
+
             .vip-plan-card {
                 padding: 20px;
             }
-            
+
             .current-price {
                 font-size: 2rem;
             }
-            
+
             .plan-features li {
                 font-size: 0.85rem;
             }
-            
+
             .stepper-premium {
                 flex-direction: column;
                 gap: 15px;
             }
-            
+
             .stepper-line {
                 display: none;
             }
-            
+
             .trust-footer {
                 flex-direction: column;
                 align-items: center;
@@ -1041,37 +1064,37 @@
                 padding: 20px 15px;
                 border-radius: 16px;
             }
-            
+
             .modal-title {
                 font-size: 1.5rem;
             }
-            
+
             .modal-subtitle {
                 font-size: 0.9rem;
             }
-            
+
             .access-btn-content {
                 gap: 10px;
             }
-            
+
             .access-icon {
                 width: 40px;
                 height: 40px;
                 font-size: 1.2rem;
             }
-            
+
             .access-info h3 {
                 font-size: 1rem;
             }
-            
+
             .access-info p {
                 font-size: 0.8rem;
             }
-            
+
             .plan-title {
                 font-size: 1.3rem;
             }
-            
+
             .urgency-banner {
                 flex-direction: column;
                 text-align: center;
@@ -2303,36 +2326,52 @@
             scroll-behavior: smooth;
             -webkit-overflow-scrolling: touch;
         }
-        .platforms-scroll-container::-webkit-scrollbar { display: none; }
-        
+
+        .platforms-scroll-container::-webkit-scrollbar {
+            display: none;
+        }
+
         .platform-card {
             flex: 0 0 auto;
             width: 130px;
             height: 75px;
             border-radius: 12px;
             background: #1f1f1f;
-            border: 1px solid rgba(255,255,255,0.1);
-            display: flex; align-items: center; justify-content: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
             overflow: hidden;
             transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
             cursor: pointer;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
             position: relative;
         }
+
         .platform-card:hover {
             transform: translateY(-5px);
             border-color: #e50914;
             box-shadow: 0 8px 20px rgba(229, 9, 20, 0.25);
             background: #2a2a2a;
         }
-        .platform-card img { 
-            width: 70%; height: 70%; object-fit: contain; 
-            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+
+        .platform-card img {
+            width: 70%;
+            height: 70%;
+            object-fit: contain;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
         }
-        
+
         @media (min-width: 768px) {
-            .platforms-scroll-container { justify-content: flex-start; gap: 25px; }
-            .platform-card { width: 160px; height: 90px; }
+            .platforms-scroll-container {
+                justify-content: flex-start;
+                gap: 25px;
+            }
+
+            .platform-card {
+                width: 160px;
+                height: 90px;
+            }
         }
     </style>
     <!-- SEO: Schema.org for Website -->
@@ -2507,8 +2546,8 @@
                         <div class="vip-plan-card popular" onclick="selectPlan(this, '2 Meses', '200')">
                             <div class="plan-badge badge-popular">MÁS ELEGIDO 🔥</div>
                             <div class="plan-header">
-                                <div class="plan-icon-wrapper" style="color: var(--gold);"><i
-                                        class="fas fa-fire"></i></div>
+                                <div class="plan-icon-wrapper" style="color: var(--gold);"><i class="fas fa-fire"></i>
+                                </div>
                                 <h4 class="plan-name">Bimestral</h4>
                                 <div class="plan-price-box">
                                     <div class="current-price">$200<span>/total</span></div>
@@ -2743,8 +2782,7 @@
 
             <!-- SLIDE 1: Configura aquí tu primera película -->
             <!-- Cambia 'data-bg' por el enlace de tu imagen de fondo -->
-            <div class="hero-slide active"
-                data-bg="portadas/vengador toxico.png">
+            <div class="hero-slide active" data-bg="portadas/vengador toxico.png">
                 <div class="hero-content">
                     <h1 class="hero-title">El Vengador Tóxico</h1>
                     <p class="hero-description">Un chico ingenuo se transforma en un poderoso superhéroe después de ser
@@ -2780,8 +2818,7 @@
             </div>
 
             <!-- SLIDE 2: Configura aquí tu segunda película -->
-            <div class="hero-slide"
-                data-bg="portadas/stranger-things.png">
+            <div class="hero-slide" data-bg="portadas/stranger-things.png">
                 <div class="hero-content">
                     <h1 class="hero-title">Stranger Things</h1>
                     <p class="hero-description">.</p>
@@ -2871,10 +2908,16 @@
                 <div id="continue-watching-grid" class="horizontal-scroll"></div>
             </section>
 
+            <!-- Nueva Sección Recientemente Añadido -->
+            <section id="recientemente-añadido" class="content-row">
+                <!-- Data injected by MoviesMonitor -->
+            </section>
+
             <!-- Random Picker Section -->
             <section id="random-picker-section" class="content-row">
                 <div class="section-title-container" style="justify-content: center;">
-                    <h2 class="section-title" style="background: none; -webkit-text-fill-color: white; color: white; text-shadow: 0 0 10px rgba(229,9,20,0.5);">
+                    <h2 class="section-title"
+                        style="background: none; -webkit-text-fill-color: white; color: white; text-shadow: 0 0 10px rgba(229,9,20,0.5);">
                         🎲 ¿No sabes qué ver?
                     </h2>
                 </div>
@@ -2898,7 +2941,8 @@
                         <div id="random-card-info" class="random-card-info">
                             <h3 id="random-card-title"></h3>
                             <div id="random-card-details" class="random-card-details"></div>
-                            <button id="random-watch-btn" class="hero-button" style="width: 100%; justify-content: center; font-size: 0.9rem; padding: 8px;">
+                            <button id="random-watch-btn" class="hero-button"
+                                style="width: 100%; justify-content: center; font-size: 0.9rem; padding: 8px;">
                                 <i class="fas fa-play"></i> Ver Ahora
                             </button>
                         </div>
@@ -2910,929 +2954,985 @@
             </section>
 
             <!-- Sección de Plataformas - VERSIÓN MEJORADA -->
-<section id="platforms-section" class="content-row">
-    <div class="section-title-container">
-        <h2 class="section-title">
-            <span class="title-gradient">🎬 Plataformas de Streaming</span>
-            <div class="title-sub">Explora todas las opciones</div>
-        </h2>
-    </div>
-    
-    <div class="carrusel-contenedor" style="position: relative;">
-        <!-- Botones de navegación mejorados -->
-        <button class="carrusel-flecha izquierda" id="btn-plat-left" aria-label="Anterior plataforma">
-            <svg class="flecha-icon" viewBox="0 0 24 24">
-                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
-            </svg>
-        </button>
-        
-        <!-- Contenedor scroll con efectos visuales -->
-        <div class="platforms-scroll-container" id="platforms-scroll">
-            <!-- Gradiente de borde izquierdo -->
-            <div class="scroll-gradient scroll-gradient-left"></div>
-            
-            <!-- Tarjetas de plataformas con efectos mejorados -->
-            <div class="platform-card-wrapper" data-category="popular">
-                <div class="platform-card" title="Netflix" data-rating="4.8">
-                    <div class="platform-glow" style="background: radial-gradient(circle at center, rgba(229,9,20,0.3) 0%, transparent 70%);"></div>
-                    <div class="platform-content">
-                        <div class="platform-logo" style="background: #E50914; color: white;">N</div>
-                        <div class="platform-info">
-                            <div class="platform-name">Netflix</div>
-                            <div class="platform-badge popular">🔥 Popular</div>
+            <section id="platforms-section" class="content-row">
+                <div class="section-title-container">
+                    <h2 class="section-title">
+                        <span class="title-gradient">🎬 Plataformas de Streaming</span>
+                        <div class="title-sub">Explora todas las opciones</div>
+                    </h2>
+                </div>
+
+                <div class="carrusel-contenedor" style="position: relative;">
+                    <!-- Botones de navegación mejorados -->
+                    <button class="carrusel-flecha izquierda" id="btn-plat-left" aria-label="Anterior plataforma">
+                        <svg class="flecha-icon" viewBox="0 0 24 24">
+                            <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+                        </svg>
+                    </button>
+
+                    <!-- Contenedor scroll con efectos visuales -->
+                    <div class="platforms-scroll-container" id="platforms-scroll">
+                        <!-- Gradiente de borde izquierdo -->
+                        <div class="scroll-gradient scroll-gradient-left"></div>
+
+                        <!-- Tarjetas de plataformas con efectos mejorados -->
+                        <div class="platform-card-wrapper" data-category="popular">
+                            <div class="platform-card" title="Netflix" data-rating="4.8">
+                                <div class="platform-glow"
+                                    style="background: radial-gradient(circle at center, rgba(229,9,20,0.3) 0%, transparent 70%);">
+                                </div>
+                                <div class="platform-content">
+                                    <div class="platform-logo" style="background: #E50914; color: white;">N</div>
+                                    <div class="platform-info">
+                                        <div class="platform-name">Netflix</div>
+                                        <div class="platform-badge popular">🔥 Popular</div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
+                        <div class="platform-card-wrapper" data-category="casa">
+                            <div class="platform-card" title="Plex" data-rating="4.5">
+                                <div class="platform-glow"
+                                    style="background: radial-gradient(circle at center, rgba(229,160,13,0.3) 0%, transparent 70%);">
+                                </div>
+                                <div class="platform-content">
+                                    <div class="platform-logo" style="background: #e5a00d; color: white;">P</div>
+                                    <div class="platform-info">
+                                        <div class="platform-name">Plex</div>
+                                        <div class="platform-badge casa">🏠 Personal</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="platform-card-wrapper" data-category="popular">
+                            <div class="platform-card" title="Hulu" data-rating="4.3">
+                                <div class="platform-glow"
+                                    style="background: radial-gradient(circle at center, rgba(28,231,131,0.3) 0%, transparent 70%);">
+                                </div>
+                                <div class="platform-content">
+                                    <div class="platform-logo"
+                                        style="background: linear-gradient(135deg, #1ce783, #00e6cc); color: white;">H
+                                    </div>
+                                    <div class="platform-info">
+                                        <div class="platform-name">Hulu</div>
+                                        <div class="platform-badge popular">🔥 Popular</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="platform-card-wrapper" data-category="familia">
+                            <div class="platform-card" title="Disney+" data-rating="4.7">
+                                <div class="platform-glow"
+                                    style="background: radial-gradient(circle at center, rgba(0,29,61,0.3) 0%, transparent 70%);">
+                                </div>
+                                <div class="platform-content">
+                                    <div class="platform-logo"
+                                        style="background: linear-gradient(to bottom, #001d3d, #000); color: white;">D+
+                                    </div>
+                                    <div class="platform-info">
+                                        <div class="platform-name">Disney+</div>
+                                        <div class="platform-badge familia">👨‍👩‍👧‍👦 Familia</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="platform-card-wrapper" data-category="popular">
+                            <div class="platform-card" title="Amazon Prime Video" data-rating="4.4">
+                                <div class="platform-glow"
+                                    style="background: radial-gradient(circle at center, rgba(0,168,225,0.3) 0%, transparent 70%);">
+                                </div>
+                                <div class="platform-content">
+                                    <div class="platform-logo" style="background: #00A8E1; color: white;">P</div>
+                                    <div class="platform-info">
+                                        <div class="platform-name">Prime Video</div>
+                                        <div class="platform-badge popular">🔥 Popular</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Resto de las plataformas con la misma estructura mejorada -->
+                        <!-- Solo muestro algunas para ejemplo, pero todas tendrían la misma estructura -->
+                        <div class="platform-card-wrapper" data-category="entretenimiento">
+                            <div class="platform-card" title="HBO Max" data-rating="4.6">
+                                <div class="platform-glow"
+                                    style="background: radial-gradient(circle at center, rgba(0,0,0,0.3) 0%, transparent 70%);">
+                                </div>
+                                <div class="platform-content">
+                                    <div class="platform-logo" style="background: #000; color: white;">HBO</div>
+                                    <div class="platform-info">
+                                        <div class="platform-name">HBO Max</div>
+                                        <div class="platform-badge entretenimiento">🎭 Premium</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="platform-card-wrapper" data-category="regional">
+                            <div class="platform-card" title="Movistar+" data-rating="4.0">
+                                <div class="platform-glow"
+                                    style="background: radial-gradient(circle at center, rgba(11,39,73,0.3) 0%, transparent 70%);">
+                                </div>
+                                <div class="platform-content">
+                                    <div class="platform-logo" style="background: #0b2749; color: white;">M+</div>
+                                    <div class="platform-info">
+                                        <div class="platform-name">Movistar+</div>
+                                        <div class="platform-badge regional">🇪🇸 España</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="platform-card-wrapper" data-category="latino">
+                            <div class="platform-card" title="Vix" data-rating="4.1">
+                                <div class="platform-glow"
+                                    style="background: radial-gradient(circle at center, rgba(255,77,0,0.3) 0%, transparent 70%);">
+                                </div>
+                                <div class="platform-content">
+                                    <div class="platform-logo" style="background: #ff4d00; color: white;">V</div>
+                                    <div class="platform-info">
+                                        <div class="platform-name">Vix</div>
+                                        <div class="platform-badge latino">🌎 Latino</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Más plataformas... -->
+                        <!-- Para mantener el código manejable, solo incluyo algunas -->
+                        <div class="platform-card-wrapper" data-category="tecnologia">
+                            <div class="platform-card" title="Apple TV+" data-rating="4.5">
+                                <div class="platform-glow"
+                                    style="background: radial-gradient(circle at center, rgba(0,0,0,0.3) 0%, transparent 70%);">
+                                </div>
+                                <div class="platform-content">
+                                    <div class="platform-logo" style="background: #000; color: white;">A+</div>
+                                    <div class="platform-info">
+                                        <div class="platform-name">Apple TV+</div>
+                                        <div class="platform-badge tecnologia">💻 Apple</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gradiente de borde derecho -->
+                        <div class="scroll-gradient scroll-gradient-right"></div>
+                    </div>
+
+                    <button class="carrusel-flecha derecha" id="btn-plat-right" aria-label="Siguiente plataforma">
+                        <svg class="flecha-icon" viewBox="0 0 24 24">
+                            <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Contador de plataformas -->
+                <div class="platforms-counter">
+                    <div class="counter-bubble">
+                        <span class="counter-number">80+</span>
+                        <span class="counter-text">Plataformas Disponibles</span>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="platform-card-wrapper" data-category="casa">
-                <div class="platform-card" title="Plex" data-rating="4.5">
-                    <div class="platform-glow" style="background: radial-gradient(circle at center, rgba(229,160,13,0.3) 0%, transparent 70%);"></div>
-                    <div class="platform-content">
-                        <div class="platform-logo" style="background: #e5a00d; color: white;">P</div>
-                        <div class="platform-info">
-                            <div class="platform-name">Plex</div>
-                            <div class="platform-badge casa">🏠 Personal</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <style>
+                /* ===== ESTILOS MEJORADOS PARA LA SECCIÓN DE PLATAFORMAS ===== */
 
-            <div class="platform-card-wrapper" data-category="popular">
-                <div class="platform-card" title="Hulu" data-rating="4.3">
-                    <div class="platform-glow" style="background: radial-gradient(circle at center, rgba(28,231,131,0.3) 0%, transparent 70%);"></div>
-                    <div class="platform-content">
-                        <div class="platform-logo" style="background: linear-gradient(135deg, #1ce783, #00e6cc); color: white;">H</div>
-                        <div class="platform-info">
-                            <div class="platform-name">Hulu</div>
-                            <div class="platform-badge popular">🔥 Popular</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="platform-card-wrapper" data-category="familia">
-                <div class="platform-card" title="Disney+" data-rating="4.7">
-                    <div class="platform-glow" style="background: radial-gradient(circle at center, rgba(0,29,61,0.3) 0%, transparent 70%);"></div>
-                    <div class="platform-content">
-                        <div class="platform-logo" style="background: linear-gradient(to bottom, #001d3d, #000); color: white;">D+</div>
-                        <div class="platform-info">
-                            <div class="platform-name">Disney+</div>
-                            <div class="platform-badge familia">👨‍👩‍👧‍👦 Familia</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="platform-card-wrapper" data-category="popular">
-                <div class="platform-card" title="Amazon Prime Video" data-rating="4.4">
-                    <div class="platform-glow" style="background: radial-gradient(circle at center, rgba(0,168,225,0.3) 0%, transparent 70%);"></div>
-                    <div class="platform-content">
-                        <div class="platform-logo" style="background: #00A8E1; color: white;">P</div>
-                        <div class="platform-info">
-                            <div class="platform-name">Prime Video</div>
-                            <div class="platform-badge popular">🔥 Popular</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Resto de las plataformas con la misma estructura mejorada -->
-            <!-- Solo muestro algunas para ejemplo, pero todas tendrían la misma estructura -->
-            <div class="platform-card-wrapper" data-category="entretenimiento">
-                <div class="platform-card" title="HBO Max" data-rating="4.6">
-                    <div class="platform-glow" style="background: radial-gradient(circle at center, rgba(0,0,0,0.3) 0%, transparent 70%);"></div>
-                    <div class="platform-content">
-                        <div class="platform-logo" style="background: #000; color: white;">HBO</div>
-                        <div class="platform-info">
-                            <div class="platform-name">HBO Max</div>
-                            <div class="platform-badge entretenimiento">🎭 Premium</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                /* Solo afectar a la sección de plataformas específica */
+                #platforms-section {
+                    width: 100%;
+                    margin: 40px 0;
+                    position: relative;
+                    z-index: 1;
+                    background: transparent !important;
+                }
 
-            <div class="platform-card-wrapper" data-category="regional">
-                <div class="platform-card" title="Movistar+" data-rating="4.0">
-                    <div class="platform-glow" style="background: radial-gradient(circle at center, rgba(11,39,73,0.3) 0%, transparent 70%);"></div>
-                    <div class="platform-content">
-                        <div class="platform-logo" style="background: #0b2749; color: white;">M+</div>
-                        <div class="platform-info">
-                            <div class="platform-name">Movistar+</div>
-                            <div class="platform-badge regional">🇪🇸 España</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                /* Contenedor de la sección */
+                #platforms-section .content-row {
+                    background: transparent !important;
+                    padding: 0 !important;
+                    margin: 0 auto !important;
+                    width: 100% !important;
+                    max-width: 1400px !important;
+                }
 
-            <div class="platform-card-wrapper" data-category="latino">
-                <div class="platform-card" title="Vix" data-rating="4.1">
-                    <div class="platform-glow" style="background: radial-gradient(circle at center, rgba(255,77,0,0.3) 0%, transparent 70%);"></div>
-                    <div class="platform-content">
-                        <div class="platform-logo" style="background: #ff4d00; color: white;">V</div>
-                        <div class="platform-info">
-                            <div class="platform-name">Vix</div>
-                            <div class="platform-badge latino">🌎 Latino</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Más plataformas... -->
-            <!-- Para mantener el código manejable, solo incluyo algunas -->
-            <div class="platform-card-wrapper" data-category="tecnologia">
-                <div class="platform-card" title="Apple TV+" data-rating="4.5">
-                    <div class="platform-glow" style="background: radial-gradient(circle at center, rgba(0,0,0,0.3) 0%, transparent 70%);"></div>
-                    <div class="platform-content">
-                        <div class="platform-logo" style="background: #000; color: white;">A+</div>
-                        <div class="platform-info">
-                            <div class="platform-name">Apple TV+</div>
-                            <div class="platform-badge tecnologia">💻 Apple</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Gradiente de borde derecho -->
-            <div class="scroll-gradient scroll-gradient-right"></div>
-        </div>
-        
-        <button class="carrusel-flecha derecha" id="btn-plat-right" aria-label="Siguiente plataforma">
-            <svg class="flecha-icon" viewBox="0 0 24 24">
-                <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
-            </svg>
-        </button>
-    </div>
-    
-    <!-- Contador de plataformas -->
-    <div class="platforms-counter">
-        <div class="counter-bubble">
-            <span class="counter-number">80+</span>
-            <span class="counter-text">Plataformas Disponibles</span>
-        </div>
-    </div>
-</section>
+                /* Título de la sección - Versión mejorada */
+                #platforms-section .section-title-container {
+                    text-align: center;
+                    margin-bottom: 40px;
+                    position: relative;
+                    padding: 0 20px;
+                }
 
-<style>
-    /* ===== ESTILOS MEJORADOS PARA LA SECCIÓN DE PLATAFORMAS ===== */
+                #platforms-section .section-title {
+                    font-size: 2.5rem;
+                    font-weight: 800;
+                    color: transparent;
+                    background: linear-gradient(135deg, #ff6b6b, #ffa726, #66bb6a, #42a5f5, #ab47bc);
+                    background-size: 400% 400%;
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    animation: gradientTitle 8s ease infinite;
+                    margin-bottom: 10px;
+                    display: inline-block;
+                }
 
-    /* Solo afectar a la sección de plataformas específica */
-    #platforms-section {
-        width: 100%;
-        margin: 40px 0;
-        position: relative;
-        z-index: 1;
-        background: transparent !important;
-    }
+                @keyframes gradientTitle {
+                    0% {
+                        background-position: 0% 50%;
+                    }
 
-    /* Contenedor de la sección */
-    #platforms-section .content-row {
-        background: transparent !important;
-        padding: 0 !important;
-        margin: 0 auto !important;
-        width: 100% !important;
-        max-width: 1400px !important;
-    }
+                    50% {
+                        background-position: 100% 50%;
+                    }
 
-    /* Título de la sección - Versión mejorada */
-    #platforms-section .section-title-container {
-        text-align: center;
-        margin-bottom: 40px;
-        position: relative;
-        padding: 0 20px;
-    }
-
-    #platforms-section .section-title {
-        font-size: 2.5rem;
-        font-weight: 800;
-        color: transparent;
-        background: linear-gradient(135deg, #ff6b6b, #ffa726, #66bb6a, #42a5f5, #ab47bc);
-        background-size: 400% 400%;
-        -webkit-background-clip: text;
-        background-clip: text;
-        animation: gradientTitle 8s ease infinite;
-        margin-bottom: 10px;
-        display: inline-block;
-    }
-
-    @keyframes gradientTitle {
-        0% { background-position: 0% 50%; }
-        50% { background-position: 100% 50%; }
-        100% { background-position: 0% 50%; }
-    }
-
-    #platforms-section .title-sub {
-        font-size: 1.1rem;
-        color: #94a3b8;
-        font-weight: 500;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        margin-top: 10px;
-    }
-
-    /* Contenedor del carrusel */
-    #platforms-section .carrusel-contenedor {
-        position: relative;
-        padding: 0 60px;
-        background: linear-gradient(145deg, rgba(15, 23, 42, 0.8), rgba(30, 41, 59, 0.9));
-        border-radius: 24px;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        margin: 0 20px;
-        overflow: hidden;
-    }
-
-    /* Botones de navegación */
-    #platforms-section .carrusel-flecha {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 50px;
-        height: 50px;
-        background: rgba(229, 9, 20, 0.9);
-        border: none;
-        border-radius: 50%;
-        color: white;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: all 0.3s ease;
-        z-index: 10;
-        box-shadow: 0 5px 15px rgba(229, 9, 20, 0.3);
-    }
-
-    #platforms-section .carrusel-flecha:hover {
-        background: #e50914;
-        transform: translateY(-50%) scale(1.1);
-        box-shadow: 0 8px 25px rgba(229, 9, 20, 0.4);
-    }
-
-    #platforms-section .izquierda {
-        left: 10px;
-    }
-
-    #platforms-section .derecha {
-        right: 10px;
-    }
-
-    #platforms-section .flecha-icon {
-        width: 24px;
-        height: 24px;
-        fill: white;
-    }
-
-    /* Contenedor scroll */
-    #platforms-scroll {
-        display: flex;
-        gap: 20px;
-        overflow-x: auto;
-        scroll-behavior: smooth;
-        padding: 25px 10px;
-        scrollbar-width: none;
-        -ms-overflow-style: none;
-        position: relative;
-    }
-
-    #platforms-scroll::-webkit-scrollbar {
-        display: none;
-    }
-
-    /* Gradientes de borde */
-    .scroll-gradient {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 80px;
-        pointer-events: none;
-        z-index: 2;
-    }
-
-    .scroll-gradient-left {
-        left: 0;
-        background: linear-gradient(90deg, rgba(30, 41, 59, 0.95), transparent);
-    }
-
-    .scroll-gradient-right {
-        right: 0;
-        background: linear-gradient(270deg, rgba(30, 41, 59, 0.95), transparent);
-    }
-
-    /* Wrapper para tarjetas */
-    .platform-card-wrapper {
-        flex: 0 0 auto;
-        position: relative;
-    }
-
-    /* Tarjetas de plataformas */
-    .platform-card {
-        width: 240px;
-        height: 140px;
-        border-radius: 16px;
-        position: relative;
-        overflow: hidden;
-        cursor: pointer;
-        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        background: rgba(255, 255, 255, 0.05);
-        backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .platform-card:hover {
-        transform: translateY(-8px) scale(1.05);
-        border: 1px solid rgba(229, 9, 20, 0.5);
-        box-shadow: 0 20px 40px rgba(229, 9, 20, 0.2);
-        background: rgba(255, 255, 255, 0.1);
-    }
-
-    /* Efecto glow al hacer hover */
-    .platform-glow {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-        z-index: 1;
-    }
-
-    .platform-card:hover .platform-glow {
-        opacity: 0.6;
-    }
-
-    /* Contenido de la tarjeta */
-    .platform-content {
-        position: relative;
-        z-index: 2;
-        padding: 20px;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 15px;
-    }
-
-    .platform-logo {
-        width: 60px;
-        height: 60px;
-        border-radius: 14px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 26px;
-        font-weight: 700;
-        color: white;
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-        border: 2px solid rgba(255, 255, 255, 0.2);
-    }
-
-    .platform-info {
-        text-align: center;
-    }
-
-    .platform-name {
-        font-size: 20px;
-        font-weight: 700;
-        color: white;
-        margin-bottom: 8px;
-    }
-
-    .platform-badge {
-        display: inline-block;
-        padding: 6px 12px;
-        border-radius: 20px;
-        font-size: 11px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-        background: rgba(255, 255, 255, 0.15);
-        backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        color: white;
-    }
-
-    /* Badge específicos */
-    .platform-badge.popular {
-        background: linear-gradient(135deg, #ff6b6b, #ffa726);
-    }
-
-    .platform-badge.casa {
-        background: linear-gradient(135deg, #42a5f5, #ab47bc);
-    }
-
-    .platform-badge.familia {
-        background: linear-gradient(135deg, #66bb6a, #42a5f5);
-    }
-
-    .platform-badge.entretenimiento {
-        background: linear-gradient(135deg, #ab47bc, #7e57c2);
-    }
-
-    .platform-badge.regional {
-        background: linear-gradient(135deg, #ffa726, #ff7043);
-    }
-
-    .platform-badge.latino {
-        background: linear-gradient(135deg, #26a69a, #66bb6a);
-    }
-
-    .platform-badge.tecnologia {
-        background: linear-gradient(135deg, #5c6bc0, #42a5f5);
-    }
-
-    /* Contador de plataformas */
-    .platforms-counter {
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-    }
-
-    .counter-bubble {
-        background: linear-gradient(135deg, rgba(255, 107, 107, 0.2), rgba(102, 126, 234, 0.2));
-        backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 20px;
-        padding: 15px 30px;
-        display: flex;
-        align-items: center;
-        gap: 12px;
-    }
-
-    .counter-number {
-        font-size: 2rem;
-        font-weight: 800;
-        background: linear-gradient(135deg, #ff6b6b, #667eea);
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
-    }
-
-    .counter-text {
-        font-size: 0.95rem;
-        color: #94a3b8;
-        font-weight: 500;
-    }
-
-    /* ===== RESPONSIVE DESIGN ===== */
-
-    /* Tablets */
-    @media (max-width: 1024px) {
-        #platforms-section .section-title {
-            font-size: 2.2rem;
-        }
-        
-        #platforms-section .carrusel-contenedor {
-            padding: 0 50px;
-        }
-        
-        .platform-card {
-            width: 220px;
-            height: 130px;
-        }
-        
-        .platform-logo {
-            width: 55px;
-            height: 55px;
-            font-size: 24px;
-        }
-        
-        .platform-name {
-            font-size: 18px;
-        }
-    }
-
-    /* Móviles grandes */
-    @media (max-width: 768px) {
-        #platforms-section .section-title-container {
-            margin-bottom: 30px;
-        }
-        
-        #platforms-section .section-title {
-            font-size: 1.8rem;
-        }
-        
-        #platforms-section .title-sub {
-            font-size: 0.95rem;
-            letter-spacing: 1px;
-        }
-        
-        #platforms-section .carrusel-contenedor {
-            padding: 0 20px;
-            margin: 0 10px;
-        }
-        
-        #platforms-scroll {
-            padding: 20px 5px;
-            gap: 15px;
-        }
-        
-        .platform-card {
-            width: 180px;
-            height: 110px;
-        }
-        
-        .platform-content {
-            padding: 15px;
-            gap: 10px;
-        }
-        
-        .platform-logo {
-            width: 45px;
-            height: 45px;
-            font-size: 20px;
-        }
-        
-        .platform-name {
-            font-size: 16px;
-            margin-bottom: 6px;
-        }
-        
-        .platform-badge {
-            padding: 4px 10px;
-            font-size: 10px;
-        }
-        
-        #platforms-section .carrusel-flecha {
-            width: 40px;
-            height: 40px;
-        }
-        
-        .counter-bubble {
-            padding: 12px 20px;
-        }
-        
-        .counter-number {
-            font-size: 1.8rem;
-        }
-        
-        .counter-text {
-            font-size: 0.9rem;
-        }
-    }
-
-    /* Móviles pequeños */
-    @media (max-width: 480px) {
-        #platforms-section .section-title {
-            font-size: 1.6rem;
-        }
-        
-        #platforms-section .carrusel-contenedor {
-            padding: 0 15px;
-        }
-        
-        .platform-card {
-            width: 160px;
-            height: 100px;
-        }
-        
-        .platform-content {
-            padding: 12px;
-            gap: 8px;
-        }
-        
-        .platform-logo {
-            width: 40px;
-            height: 40px;
-            font-size: 18px;
-        }
-        
-        .platform-name {
-            font-size: 15px;
-        }
-        
-        .platform-badge {
-            padding: 3px 8px;
-            font-size: 9px;
-        }
-        
-        #platforms-section .carrusel-flecha {
-            width: 35px;
-            height: 35px;
-        }
-        
-        #platforms-section .carrusel-flecha.izquierda {
-            left: 5px;
-        }
-        
-        #platforms-section .carrusel-flecha.derecha {
-            right: 5px;
-        }
-    }
-
-    /* Estilos para el Selector Aleatorio */
-    .random-picker-wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
-        padding: 20px;
-        background: linear-gradient(180deg, rgba(255,255,255,0.02) 0%, transparent 100%);
-        border-radius: 20px;
-        margin: 0 auto;
-        max-width: 600px;
-    }
-    .random-card-container {
-        width: 200px;
-        height: 300px;
-        background: #1a1a1a;
-        border-radius: 12px;
-        border: 2px dashed #444;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        overflow: hidden;
-        transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    }
-    .random-card-container.active {
-        border-style: solid;
-        border-color: #e50914;
-        transform: scale(1.05);
-        box-shadow: 0 0 20px rgba(229, 9, 20, 0.4);
-    }
-    .random-card-placeholder {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-        color: #666;
-        gap: 10px;
-        text-align: center;
-        padding: 20px;
-    }
-    #random-card-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: none;
-    }
-    .random-card-info {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: linear-gradient(to top, rgba(0,0,0,0.95), rgba(0,0,0,0.6));
-        padding: 20px 15px;
-        text-align: center;
-        transform: translateY(100%);
-        transition: transform 0.3s ease;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-    .random-card-container.finished .random-card-info {
-        transform: translateY(0);
-    }
-    .random-card-container.finished {
-        border-color: #e50914;
-        box-shadow: 0 0 25px rgba(229, 9, 20, 0.5);
-    }
-    #random-card-title {
-        color: white;
-        font-size: 1rem;
-        margin: 0;
-        font-weight: 700;
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-    }
-    .spin-btn {
-        padding: 12px 35px;
-        font-size: 1.1rem;
-        font-weight: 700;
-        background: linear-gradient(45deg, #e50914, #ff4b2b);
-        border: none;
-        border-radius: 50px;
-        color: white;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        box-shadow: 0 5px 15px rgba(229, 9, 20, 0.3);
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
-    .spin-btn:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 8px 20px rgba(229, 9, 20, 0.5);
-    }
-    .spin-btn:disabled {
-        opacity: 0.7;
-        cursor: wait;
-        transform: none;
-    }
-    @media (max-width: 768px) {
-        .random-card-container {
-            width: 160px;
-            height: 240px;
-        }
-    }
-    .random-card-details {
-        display: flex;
-        justify-content: center;
-        gap: 8px;
-        margin-bottom: 12px;
-        font-size: 0.8rem;
-        color: #ddd;
-        flex-wrap: wrap;
-    }
-    .random-tag {
-        background: rgba(0, 0, 0, 0.6);
-        padding: 3px 8px;
-        border-radius: 4px;
-        border: 1px solid rgba(255, 255, 255, 0.2);
-    }
-    .random-tag.highlight {
-        background: rgba(229, 9, 20, 0.8);
-        border-color: #e50914;
-        color: white;
-        font-weight: bold;
-    }
-    .random-picker-controls {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .random-type-filters {
-        display: flex;
-        background: rgba(0,0,0,0.3);
-        padding: 5px;
-        border-radius: 30px;
-        gap: 5px;
-        border: 1px solid rgba(255,255,255,0.1);
-    }
-    .genre-select {
-        background: rgba(0, 0, 0, 0.6);
-        color: #fff;
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        padding: 8px 20px;
-        border-radius: 20px;
-        outline: none;
-        cursor: pointer;
-        font-family: inherit;
-        font-size: 0.9rem;
-        text-align: center;
-        transition: all 0.3s ease;
-        min-width: 200px;
-    }
-    .genre-select:hover, .genre-select:focus {
-        border-color: #e50914;
-        background: rgba(0, 0, 0, 0.8);
-        box-shadow: 0 0 10px rgba(229, 9, 20, 0.2);
-    }
-    .genre-select option {
-        background: #1a1a1a;
-        color: #fff;
-        padding: 10px;
-    }
-    .filter-option {
-        background: transparent;
-        border: none;
-        color: #aaa;
-        padding: 8px 20px;
-        border-radius: 25px;
-        cursor: pointer;
-        font-weight: 600;
-        transition: all 0.3s ease;
-    }
-    .filter-option.active {
-        background: #e50914;
-        color: white;
-        box-shadow: 0 2px 10px rgba(229, 9, 20, 0.3);
-    }
-</style>
-
-<script>
-    // Script para el carrusel interactivo
-    document.addEventListener('DOMContentLoaded', function() {
-        const scrollContainer = document.getElementById('platforms-scroll');
-        const btnLeft = document.getElementById('btn-plat-left');
-        const btnRight = document.getElementById('btn-plat-right');
-        
-        // Configuración de scroll
-        const scrollAmount = 300;
-        
-        // Event listeners para botones
-        btnLeft.addEventListener('click', () => {
-            scrollContainer.scrollBy({
-                left: -scrollAmount,
-                behavior: 'smooth'
-            });
-        });
-        
-        btnRight.addEventListener('click', () => {
-            scrollContainer.scrollBy({
-                left: scrollAmount,
-                behavior: 'smooth'
-            });
-        });
-        
-        // Efecto hover mejorado para tarjetas
-        const platformCards = document.querySelectorAll('.platform-card');
-        
-        platformCards.forEach(card => {
-            card.addEventListener('mouseenter', function() {
-                this.style.zIndex = '100';
-            });
-            
-            card.addEventListener('mouseleave', function() {
-                this.style.zIndex = '1';
-            });
-            
-            // Click para mostrar más información (simulado)
-            card.addEventListener('click', function() {
-                const platformName = this.getAttribute('title');
-                const rating = this.getAttribute('data-rating');
-                
-                // Efecto visual al hacer click
-                this.style.transform = 'translateY(-10px) scale(0.95)';
-                setTimeout(() => {
-                    this.style.transform = 'translateY(-10px) scale(1.05)';
-                }, 150);
-                
-                console.log(`Plataforma: ${platformName} ⭐ ${rating}/5`);
-            });
-        });
-        
-        // Auto-scroll opcional
-        let autoScrollInterval;
-        
-        function startAutoScroll() {
-            autoScrollInterval = setInterval(() => {
-                if (isElementInViewport(scrollContainer)) {
-                    scrollContainer.scrollBy({
-                        left: scrollAmount,
-                        behavior: 'smooth'
-                    });
-                    
-                    // Reiniciar al llegar al final
-                    if (scrollContainer.scrollLeft + scrollContainer.clientWidth >= 
-                        scrollContainer.scrollWidth - 50) {
-                        setTimeout(() => {
-                            scrollContainer.scrollTo({
-                                left: 0,
-                                behavior: 'smooth'
-                            });
-                        }, 1000);
+                    100% {
+                        background-position: 0% 50%;
                     }
                 }
-            }, 4000);
-        }
-        
-        function stopAutoScroll() {
-            clearInterval(autoScrollInterval);
-        }
-        
-        // Verificar si elemento está en viewport
-        function isElementInViewport(el) {
-            const rect = el.getBoundingClientRect();
-            return (
-                rect.top >= 0 &&
-                rect.left >= 0 &&
-                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-            );
-        }
-        
-        // Pausar auto-scroll al interactuar
-        scrollContainer.addEventListener('mouseenter', stopAutoScroll);
-        scrollContainer.addEventListener('mouseleave', startAutoScroll);
-        scrollContainer.addEventListener('touchstart', stopAutoScroll);
-        
-        // Iniciar auto-scroll
-        startAutoScroll();
-        
-        // Efecto de iluminación dinámica
-        document.addEventListener('mousemove', function(e) {
-            const cards = document.querySelectorAll('.platform-card');
-            cards.forEach(card => {
-                const rect = card.getBoundingClientRect();
-                const x = e.clientX - rect.left;
-                const y = e.clientY - rect.top;
-                
-                card.style.setProperty('--mouse-x', `${x}px`);
-                card.style.setProperty('--mouse-y', `${y}px`);
-            });
-        });
-    });
-</script>
-            
+
+                #platforms-section .title-sub {
+                    font-size: 1.1rem;
+                    color: #94a3b8;
+                    font-weight: 500;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    margin-top: 10px;
+                }
+
+                /* Contenedor del carrusel */
+                #platforms-section .carrusel-contenedor {
+                    position: relative;
+                    padding: 0 60px;
+                    background: linear-gradient(145deg, rgba(15, 23, 42, 0.8), rgba(30, 41, 59, 0.9));
+                    border-radius: 24px;
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                    margin: 0 20px;
+                    overflow: hidden;
+                }
+
+                /* Botones de navegación */
+                #platforms-section .carrusel-flecha {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    width: 50px;
+                    height: 50px;
+                    background: rgba(229, 9, 20, 0.9);
+                    border: none;
+                    border-radius: 50%;
+                    color: white;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all 0.3s ease;
+                    z-index: 10;
+                    box-shadow: 0 5px 15px rgba(229, 9, 20, 0.3);
+                }
+
+                #platforms-section .carrusel-flecha:hover {
+                    background: #e50914;
+                    transform: translateY(-50%) scale(1.1);
+                    box-shadow: 0 8px 25px rgba(229, 9, 20, 0.4);
+                }
+
+                #platforms-section .izquierda {
+                    left: 10px;
+                }
+
+                #platforms-section .derecha {
+                    right: 10px;
+                }
+
+                #platforms-section .flecha-icon {
+                    width: 24px;
+                    height: 24px;
+                    fill: white;
+                }
+
+                /* Contenedor scroll */
+                #platforms-scroll {
+                    display: flex;
+                    gap: 20px;
+                    overflow-x: auto;
+                    scroll-behavior: smooth;
+                    padding: 25px 10px;
+                    scrollbar-width: none;
+                    -ms-overflow-style: none;
+                    position: relative;
+                }
+
+                #platforms-scroll::-webkit-scrollbar {
+                    display: none;
+                }
+
+                /* Gradientes de borde */
+                .scroll-gradient {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    width: 80px;
+                    pointer-events: none;
+                    z-index: 2;
+                }
+
+                .scroll-gradient-left {
+                    left: 0;
+                    background: linear-gradient(90deg, rgba(30, 41, 59, 0.95), transparent);
+                }
+
+                .scroll-gradient-right {
+                    right: 0;
+                    background: linear-gradient(270deg, rgba(30, 41, 59, 0.95), transparent);
+                }
+
+                /* Wrapper para tarjetas */
+                .platform-card-wrapper {
+                    flex: 0 0 auto;
+                    position: relative;
+                }
+
+                /* Tarjetas de plataformas */
+                .platform-card {
+                    width: 240px;
+                    height: 140px;
+                    border-radius: 16px;
+                    position: relative;
+                    overflow: hidden;
+                    cursor: pointer;
+                    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                    background: rgba(255, 255, 255, 0.05);
+                    backdrop-filter: blur(10px);
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .platform-card:hover {
+                    transform: translateY(-8px) scale(1.05);
+                    border: 1px solid rgba(229, 9, 20, 0.5);
+                    box-shadow: 0 20px 40px rgba(229, 9, 20, 0.2);
+                    background: rgba(255, 255, 255, 0.1);
+                }
+
+                /* Efecto glow al hacer hover */
+                .platform-glow {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    opacity: 0;
+                    transition: opacity 0.3s ease;
+                    z-index: 1;
+                }
+
+                .platform-card:hover .platform-glow {
+                    opacity: 0.6;
+                }
+
+                /* Contenido de la tarjeta */
+                .platform-content {
+                    position: relative;
+                    z-index: 2;
+                    padding: 20px;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 15px;
+                }
+
+                .platform-logo {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 26px;
+                    font-weight: 700;
+                    color: white;
+                    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+                    border: 2px solid rgba(255, 255, 255, 0.2);
+                }
+
+                .platform-info {
+                    text-align: center;
+                }
+
+                .platform-name {
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: white;
+                    margin-bottom: 8px;
+                }
+
+                .platform-badge {
+                    display: inline-block;
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                    font-size: 11px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    letter-spacing: 0.5px;
+                    background: rgba(255, 255, 255, 0.15);
+                    backdrop-filter: blur(10px);
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                    color: white;
+                }
+
+                /* Badge específicos */
+                .platform-badge.popular {
+                    background: linear-gradient(135deg, #ff6b6b, #ffa726);
+                }
+
+                .platform-badge.casa {
+                    background: linear-gradient(135deg, #42a5f5, #ab47bc);
+                }
+
+                .platform-badge.familia {
+                    background: linear-gradient(135deg, #66bb6a, #42a5f5);
+                }
+
+                .platform-badge.entretenimiento {
+                    background: linear-gradient(135deg, #ab47bc, #7e57c2);
+                }
+
+                .platform-badge.regional {
+                    background: linear-gradient(135deg, #ffa726, #ff7043);
+                }
+
+                .platform-badge.latino {
+                    background: linear-gradient(135deg, #26a69a, #66bb6a);
+                }
+
+                .platform-badge.tecnologia {
+                    background: linear-gradient(135deg, #5c6bc0, #42a5f5);
+                }
+
+                /* Contador de plataformas */
+                .platforms-counter {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 30px;
+                }
+
+                .counter-bubble {
+                    background: linear-gradient(135deg, rgba(255, 107, 107, 0.2), rgba(102, 126, 234, 0.2));
+                    backdrop-filter: blur(10px);
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                    border-radius: 20px;
+                    padding: 15px 30px;
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                }
+
+                .counter-number {
+                    font-size: 2rem;
+                    font-weight: 800;
+                    background: linear-gradient(135deg, #ff6b6b, #667eea);
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    color: transparent;
+                }
+
+                .counter-text {
+                    font-size: 0.95rem;
+                    color: #94a3b8;
+                    font-weight: 500;
+                }
+
+                /* ===== RESPONSIVE DESIGN ===== */
+
+                /* Tablets */
+                @media (max-width: 1024px) {
+                    #platforms-section .section-title {
+                        font-size: 2.2rem;
+                    }
+
+                    #platforms-section .carrusel-contenedor {
+                        padding: 0 50px;
+                    }
+
+                    .platform-card {
+                        width: 220px;
+                        height: 130px;
+                    }
+
+                    .platform-logo {
+                        width: 55px;
+                        height: 55px;
+                        font-size: 24px;
+                    }
+
+                    .platform-name {
+                        font-size: 18px;
+                    }
+                }
+
+                /* Móviles grandes */
+                @media (max-width: 768px) {
+                    #platforms-section .section-title-container {
+                        margin-bottom: 30px;
+                    }
+
+                    #platforms-section .section-title {
+                        font-size: 1.8rem;
+                    }
+
+                    #platforms-section .title-sub {
+                        font-size: 0.95rem;
+                        letter-spacing: 1px;
+                    }
+
+                    #platforms-section .carrusel-contenedor {
+                        padding: 0 20px;
+                        margin: 0 10px;
+                    }
+
+                    #platforms-scroll {
+                        padding: 20px 5px;
+                        gap: 15px;
+                    }
+
+                    .platform-card {
+                        width: 180px;
+                        height: 110px;
+                    }
+
+                    .platform-content {
+                        padding: 15px;
+                        gap: 10px;
+                    }
+
+                    .platform-logo {
+                        width: 45px;
+                        height: 45px;
+                        font-size: 20px;
+                    }
+
+                    .platform-name {
+                        font-size: 16px;
+                        margin-bottom: 6px;
+                    }
+
+                    .platform-badge {
+                        padding: 4px 10px;
+                        font-size: 10px;
+                    }
+
+                    #platforms-section .carrusel-flecha {
+                        width: 40px;
+                        height: 40px;
+                    }
+
+                    .counter-bubble {
+                        padding: 12px 20px;
+                    }
+
+                    .counter-number {
+                        font-size: 1.8rem;
+                    }
+
+                    .counter-text {
+                        font-size: 0.9rem;
+                    }
+                }
+
+                /* Móviles pequeños */
+                @media (max-width: 480px) {
+                    #platforms-section .section-title {
+                        font-size: 1.6rem;
+                    }
+
+                    #platforms-section .carrusel-contenedor {
+                        padding: 0 15px;
+                    }
+
+                    .platform-card {
+                        width: 160px;
+                        height: 100px;
+                    }
+
+                    .platform-content {
+                        padding: 12px;
+                        gap: 8px;
+                    }
+
+                    .platform-logo {
+                        width: 40px;
+                        height: 40px;
+                        font-size: 18px;
+                    }
+
+                    .platform-name {
+                        font-size: 15px;
+                    }
+
+                    .platform-badge {
+                        padding: 3px 8px;
+                        font-size: 9px;
+                    }
+
+                    #platforms-section .carrusel-flecha {
+                        width: 35px;
+                        height: 35px;
+                    }
+
+                    #platforms-section .carrusel-flecha.izquierda {
+                        left: 5px;
+                    }
+
+                    #platforms-section .carrusel-flecha.derecha {
+                        right: 5px;
+                    }
+                }
+
+                /* Estilos para el Selector Aleatorio */
+                .random-picker-wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 25px;
+                    padding: 20px;
+                    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, transparent 100%);
+                    border-radius: 20px;
+                    margin: 0 auto;
+                    max-width: 600px;
+                }
+
+                .random-card-container {
+                    width: 200px;
+                    height: 300px;
+                    background: #1a1a1a;
+                    border-radius: 12px;
+                    border: 2px dashed #444;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    overflow: hidden;
+                    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+                }
+
+                .random-card-container.active {
+                    border-style: solid;
+                    border-color: #e50914;
+                    transform: scale(1.05);
+                    box-shadow: 0 0 20px rgba(229, 9, 20, 0.4);
+                }
+
+                .random-card-placeholder {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 100%;
+                    color: #666;
+                    gap: 10px;
+                    text-align: center;
+                    padding: 20px;
+                }
+
+                #random-card-img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: none;
+                }
+
+                .random-card-info {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    background: linear-gradient(to top, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.6));
+                    padding: 20px 15px;
+                    text-align: center;
+                    transform: translateY(100%);
+                    transition: transform 0.3s ease;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+
+                .random-card-container.finished .random-card-info {
+                    transform: translateY(0);
+                }
+
+                .random-card-container.finished {
+                    border-color: #e50914;
+                    box-shadow: 0 0 25px rgba(229, 9, 20, 0.5);
+                }
+
+                #random-card-title {
+                    color: white;
+                    font-size: 1rem;
+                    margin: 0;
+                    font-weight: 700;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                }
+
+                .spin-btn {
+                    padding: 12px 35px;
+                    font-size: 1.1rem;
+                    font-weight: 700;
+                    background: linear-gradient(45deg, #e50914, #ff4b2b);
+                    border: none;
+                    border-radius: 50px;
+                    color: white;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    box-shadow: 0 5px 15px rgba(229, 9, 20, 0.3);
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+
+                .spin-btn:hover {
+                    transform: translateY(-2px);
+                    box-shadow: 0 8px 20px rgba(229, 9, 20, 0.5);
+                }
+
+                .spin-btn:disabled {
+                    opacity: 0.7;
+                    cursor: wait;
+                    transform: none;
+                }
+
+                @media (max-width: 768px) {
+                    .random-card-container {
+                        width: 160px;
+                        height: 240px;
+                    }
+                }
+
+                .random-card-details {
+                    display: flex;
+                    justify-content: center;
+                    gap: 8px;
+                    margin-bottom: 12px;
+                    font-size: 0.8rem;
+                    color: #ddd;
+                    flex-wrap: wrap;
+                }
+
+                .random-tag {
+                    background: rgba(0, 0, 0, 0.6);
+                    padding: 3px 8px;
+                    border-radius: 4px;
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                }
+
+                .random-tag.highlight {
+                    background: rgba(229, 9, 20, 0.8);
+                    border-color: #e50914;
+                    color: white;
+                    font-weight: bold;
+                }
+
+                .random-picker-controls {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 15px;
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+
+                .random-type-filters {
+                    display: flex;
+                    background: rgba(0, 0, 0, 0.3);
+                    padding: 5px;
+                    border-radius: 30px;
+                    gap: 5px;
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                }
+
+                .genre-select {
+                    background: rgba(0, 0, 0, 0.6);
+                    color: #fff;
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                    padding: 8px 20px;
+                    border-radius: 20px;
+                    outline: none;
+                    cursor: pointer;
+                    font-family: inherit;
+                    font-size: 0.9rem;
+                    text-align: center;
+                    transition: all 0.3s ease;
+                    min-width: 200px;
+                }
+
+                .genre-select:hover,
+                .genre-select:focus {
+                    border-color: #e50914;
+                    background: rgba(0, 0, 0, 0.8);
+                    box-shadow: 0 0 10px rgba(229, 9, 20, 0.2);
+                }
+
+                .genre-select option {
+                    background: #1a1a1a;
+                    color: #fff;
+                    padding: 10px;
+                }
+
+                .filter-option {
+                    background: transparent;
+                    border: none;
+                    color: #aaa;
+                    padding: 8px 20px;
+                    border-radius: 25px;
+                    cursor: pointer;
+                    font-weight: 600;
+                    transition: all 0.3s ease;
+                }
+
+                .filter-option.active {
+                    background: #e50914;
+                    color: white;
+                    box-shadow: 0 2px 10px rgba(229, 9, 20, 0.3);
+                }
+            </style>
+
+            <script>
+                // Script para el carrusel interactivo
+                document.addEventListener('DOMContentLoaded', function () {
+                    const scrollContainer = document.getElementById('platforms-scroll');
+                    const btnLeft = document.getElementById('btn-plat-left');
+                    const btnRight = document.getElementById('btn-plat-right');
+
+                    // Configuración de scroll
+                    const scrollAmount = 300;
+
+                    // Event listeners para botones
+                    btnLeft.addEventListener('click', () => {
+                        scrollContainer.scrollBy({
+                            left: -scrollAmount,
+                            behavior: 'smooth'
+                        });
+                    });
+
+                    btnRight.addEventListener('click', () => {
+                        scrollContainer.scrollBy({
+                            left: scrollAmount,
+                            behavior: 'smooth'
+                        });
+                    });
+
+                    // Efecto hover mejorado para tarjetas
+                    const platformCards = document.querySelectorAll('.platform-card');
+
+                    platformCards.forEach(card => {
+                        card.addEventListener('mouseenter', function () {
+                            this.style.zIndex = '100';
+                        });
+
+                        card.addEventListener('mouseleave', function () {
+                            this.style.zIndex = '1';
+                        });
+
+                        // Click para mostrar más información (simulado)
+                        card.addEventListener('click', function () {
+                            const platformName = this.getAttribute('title');
+                            const rating = this.getAttribute('data-rating');
+
+                            // Efecto visual al hacer click
+                            this.style.transform = 'translateY(-10px) scale(0.95)';
+                            setTimeout(() => {
+                                this.style.transform = 'translateY(-10px) scale(1.05)';
+                            }, 150);
+
+                            console.log(`Plataforma: ${platformName} ⭐ ${rating}/5`);
+                        });
+                    });
+
+                    // Auto-scroll opcional
+                    let autoScrollInterval;
+
+                    function startAutoScroll() {
+                        autoScrollInterval = setInterval(() => {
+                            if (isElementInViewport(scrollContainer)) {
+                                scrollContainer.scrollBy({
+                                    left: scrollAmount,
+                                    behavior: 'smooth'
+                                });
+
+                                // Reiniciar al llegar al final
+                                if (scrollContainer.scrollLeft + scrollContainer.clientWidth >=
+                                    scrollContainer.scrollWidth - 50) {
+                                    setTimeout(() => {
+                                        scrollContainer.scrollTo({
+                                            left: 0,
+                                            behavior: 'smooth'
+                                        });
+                                    }, 1000);
+                                }
+                            }
+                        }, 4000);
+                    }
+
+                    function stopAutoScroll() {
+                        clearInterval(autoScrollInterval);
+                    }
+
+                    // Verificar si elemento está en viewport
+                    function isElementInViewport(el) {
+                        const rect = el.getBoundingClientRect();
+                        return (
+                            rect.top >= 0 &&
+                            rect.left >= 0 &&
+                            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+                        );
+                    }
+
+                    // Pausar auto-scroll al interactuar
+                    scrollContainer.addEventListener('mouseenter', stopAutoScroll);
+                    scrollContainer.addEventListener('mouseleave', startAutoScroll);
+                    scrollContainer.addEventListener('touchstart', stopAutoScroll);
+
+                    // Iniciar auto-scroll
+                    startAutoScroll();
+
+                    // Efecto de iluminación dinámica
+                    document.addEventListener('mousemove', function (e) {
+                        const cards = document.querySelectorAll('.platform-card');
+                        cards.forEach(card => {
+                            const rect = card.getBoundingClientRect();
+                            const x = e.clientX - rect.left;
+                            const y = e.clientY - rect.top;
+
+                            card.style.setProperty('--mouse-x', `${x}px`);
+                            card.style.setProperty('--mouse-y', `${y}px`);
+                        });
+                    });
+                });
+            </script>
+
             <!-- Sección de Resultados de Plataformas (Oculta por defecto) -->
             <section id="platform-results-section" class="content-row" style="display: none; scroll-margin-top: 100px;">
-                <div class="section-title-container" style="display: flex; justify-content: space-between; align-items: center;">
+                <div class="section-title-container"
+                    style="display: flex; justify-content: space-between; align-items: center;">
                     <h2 class="section-title" id="platform-results-title">Resultados</h2>
-                    <button id="close-platform-results" style="background: rgba(255,255,255,0.1); border: none; color: white; width: 36px; height: 36px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 0.3s;"><i class="fas fa-times"></i></button>
+                    <button id="close-platform-results"
+                        style="background: rgba(255,255,255,0.1); border: none; color: white; width: 36px; height: 36px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 0.3s;"><i
+                            class="fas fa-times"></i></button>
                 </div>
                 <div id="platform-results-grid" class="movie-grid-full"></div>
             </section>
@@ -3980,10 +4080,7 @@
 
     <!-- External Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
-    <script src="peliculas.js"></script>
-    <script src="peliculas1.js"></script>
-    <script src="peliculas2.js"></script>
-    <script src="peliculas3.js"></script>
+
     <script src="hover.js"></script>
     <script src="script.js?v=4"></script>
     <script src="top-series.js"></script>
@@ -4069,7 +4166,7 @@
                     grid.style.paddingBottom = '15px';
                     grid.style.scrollBehavior = 'smooth';
                     grid.style.scrollbarWidth = 'none'; // Firefox
-                    
+
                     const btnRight = document.createElement('button');
                     btnRight.className = 'carrusel-flecha derecha';
                     btnRight.innerHTML = '&#10095;';
@@ -4085,14 +4182,14 @@
                         const year = date.split('-')[0];
                         const rating = item.vote_average ? item.vote_average.toFixed(1) : 'N/A';
                         const mediaType = config.type === 'movie' ? 'Película' : 'Serie';
-                        
+
                         // Enlace a detalles.html pasando ID de TMDB
                         const link = `detalles.html?tmdb=${item.id}&type=${config.type}`;
 
                         const card = document.createElement('div');
                         card.className = 'movie-card';
                         card.style.flex = '0 0 160px'; // Ancho fijo para el carrusel
-                        
+
                         card.innerHTML = `
                             <a href="${link}" class="card-link" style="text-decoration:none; color:inherit;">
                                 <div class="card-head">
@@ -4195,12 +4292,12 @@
                         console.log('Intentando inicio de sesión automático...');
                         // Mostrar loader mientras validamos
                         const loader = document.getElementById('page-loader');
-                        if(loader) loader.classList.add('active');
-                        
+                        if (loader) loader.classList.add('active');
+
                         validateVipCode(autoCode).then(success => {
                             if (!success) {
                                 localStorage.removeItem('pelix_vip_auto_code'); // Código inválido o expirado
-                                if(loader) loader.classList.remove('active');
+                                if (loader) loader.classList.remove('active');
                                 showAccessModal();
                             }
                             // Si es exitoso, validateVipCode se encarga de ocultar modales y loaders
@@ -4232,7 +4329,7 @@
                     console.log('Modal de acceso mostrado');
                 }
             }
-            
+
             // Exponer función globalmente para usarla desde script.js
             window.openVipModal = showAccessModal;
 
@@ -4350,10 +4447,10 @@
 
                         hideAccessModal();
                         showVipBadge();
-                        
+
                         // Ocultar loader si estaba activo por auto-login
                         const loader = document.getElementById('page-loader');
-                        if(loader) loader.classList.remove('active');
+                        if (loader) loader.classList.remove('active');
 
                         // Disparar animación de bienvenida VIP
                         // Forzamos la animación al loguearse exitosamente
@@ -4766,7 +4863,7 @@
             // Lógica para el Selector Aleatorio
             const spinBtn = document.getElementById('btn-spin-random');
             if (spinBtn) {
-                spinBtn.addEventListener('click', function() {
+                spinBtn.addEventListener('click', function () {
                     const container = document.getElementById('random-card-container');
                     const img = document.getElementById('random-card-img');
                     const placeholder = document.querySelector('.random-card-placeholder');
@@ -4776,7 +4873,7 @@
                     const watchBtn = document.getElementById('random-watch-btn');
                     const filterBtns = document.querySelectorAll('.filter-option');
                     const genreSelect = document.getElementById('random-genre-select');
-                    
+
                     // Configurar filtros si no están configurados
                     if (!this.filtersInitialized) {
                         filterBtns.forEach(btn => {
@@ -4787,7 +4884,7 @@
                         });
                         this.filtersInitialized = true;
                     }
-                    
+
                     // Recopilar contenido
                     let allContent = [];
                     if (typeof peliculas !== 'undefined') allContent = allContent.concat(peliculas);
@@ -4795,7 +4892,7 @@
                     if (typeof peliculas2 !== 'undefined') allContent = allContent.concat(peliculas2);
                     if (typeof peliculas3 !== 'undefined') allContent = allContent.concat(peliculas3);
                     if (typeof series !== 'undefined') allContent = allContent.concat(series);
-                    
+
                     if (allContent.length === 0) return;
 
                     // Poblar géneros si está vacío (solo la primera vez)
@@ -4835,14 +4932,14 @@
                     // Aplicar filtro seleccionado
                     const activeFilter = document.querySelector('.filter-option.active').dataset.filter;
                     const activeGenre = genreSelect.value;
-                    
+
                     let filteredContent = allContent;
-                    
+
                     // Filtro por Tipo
                     if (activeFilter !== 'all') {
                         filteredContent = allContent.filter(item => item.tipo === activeFilter);
                     }
-                    
+
                     // Filtro por Género
                     if (activeGenre !== 'all') {
                         filteredContent = filteredContent.filter(item => {
@@ -4853,7 +4950,7 @@
                     }
 
                     if (filteredContent.length === 0) filteredContent = allContent; // Fallback
-                    
+
                     // Estado inicial de animación
                     this.disabled = true;
                     this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Buscando...';
@@ -4862,32 +4959,32 @@
                     placeholder.style.display = 'none';
                     img.style.display = 'block';
                     info.style.display = 'none';
-                    
+
                     let duration = 2000; // Duración total
                     let intervalTime = 100;
                     let elapsed = 0;
-                    
+
                     const interval = setInterval(() => {
                         const randomItem = filteredContent[Math.floor(Math.random() * filteredContent.length)];
                         if (randomItem.poster && !randomItem.poster.includes('no-disponible')) {
                             img.src = randomItem.poster;
                             playTick(); // Sonido
                         }
-                        
+
                         elapsed += intervalTime;
-                        
+
                         if (elapsed >= duration) {
                             clearInterval(interval);
-                            
+
                             // Selección final
                             let finalItem;
                             do {
                                 finalItem = filteredContent[Math.floor(Math.random() * filteredContent.length)];
                             } while (!finalItem.poster || finalItem.poster.includes('no-disponible'));
-                            
+
                             img.src = finalItem.poster;
                             title.textContent = finalItem.titulo;
-                            
+
                             // Construir detalles
                             let detailsHTML = '';
                             if (finalItem.año) {
@@ -4901,18 +4998,18 @@
                                 detailsHTML += `<span class="random-tag">${genre}</span>`;
                             }
                             details.innerHTML = detailsHTML;
-                            
+
                             // Configurar botón de ver
                             let link = `detalles.html?id=${finalItem.id}`;
                             if (finalItem.tmdb_id) link += `&tmdb=${finalItem.tmdb_id}`;
                             if (finalItem.tipo) link += `&type=${finalItem.tipo === 'serie' ? 'tv' : 'movie'}`;
-                            
+
                             watchBtn.onclick = () => window.showPageLoader(link);
-                            
+
                             // Mostrar resultado
                             container.classList.add('finished');
                             info.style.display = 'flex';
-                            
+
                             // Sonido de éxito
                             if (audioCtx.state === 'suspended') audioCtx.resume();
                             const osc = audioCtx.createOscillator();
@@ -4929,12 +5026,12 @@
 
                             // Efecto Confeti Simple
                             const colors = ['#e50914', '#ffffff', '#ffd700'];
-                            for(let i=0; i<30; i++) {
+                            for (let i = 0; i < 30; i++) {
                                 const confetti = document.createElement('div');
                                 confetti.style.cssText = 'position:absolute;width:8px;height:8px;left:50%;top:50%;z-index:10;transition:all 1s ease-out;pointer-events:none;';
                                 confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
                                 container.appendChild(confetti);
-                                
+
                                 setTimeout(() => {
                                     const angle = Math.random() * 360;
                                     const dist = 100 + Math.random() * 100;
@@ -4943,7 +5040,7 @@
                                 }, 10);
                                 setTimeout(() => confetti.remove(), 1000);
                             }
-                            
+
                             this.disabled = false;
                             this.innerHTML = '<i class="fas fa-random"></i> Probar otra vez';
                         }
@@ -5002,7 +5099,7 @@
             const platContainer = document.getElementById('platforms-scroll');
             const btnLeft = document.getElementById('btn-plat-left');
             const btnRight = document.getElementById('btn-plat-right');
-            
+
             if (platContainer && btnLeft && btnRight) {
                 const scrollAmount = 300;
                 btnLeft.addEventListener('click', () => platContainer.scrollBy({ left: -scrollAmount, behavior: 'smooth' }));
@@ -5041,7 +5138,7 @@
 
                     const grid = document.createElement('div');
                     grid.className = 'movie-grid';
-                    
+
                     const btnRight = document.createElement('button');
                     btnRight.className = 'carrusel-flecha derecha';
                     btnRight.innerHTML = '&#10095;';
@@ -5051,8 +5148,8 @@
                         if (item.media_type === 'person') return;
 
                         const title = item.title || item.name;
-                        const posterPath = item.poster_path 
-                            ? `https://image.tmdb.org/t/p/w300${item.poster_path}` 
+                        const posterPath = item.poster_path
+                            ? `https://image.tmdb.org/t/p/w300${item.poster_path}`
                             : 'https://via.placeholder.com/300x450?text=No+Image';
                         const date = item.release_date || item.first_air_date || '';
                         const year = date.split('-')[0];
@@ -5161,56 +5258,56 @@
             }
         });
 
-// --- SISTEMA ULTRA-RÁPIDO TIEMPO REAL SIN SERVIDOR ---
-(function() {
-    'use strict';
+        // --- SISTEMA ULTRA-RÁPIDO TIEMPO REAL SIN SERVIDOR ---
+        (function () {
+            'use strict';
 
-   // ============================
-// CONFIGURACIÓN DEL SISTEMA
-// ============================
-const CONTAINER_ID = 'recientemente-añadido';
-const MOVIES_FILE = 'peliculas/peliculas3.js';
-const APP_NAME = '🎬 CineRealTime Pro';
+            // ============================
+            // CONFIGURACIÓN DEL SISTEMA
+            // ============================
+            const CONTAINER_ID = 'recientemente-añadido';
+            const MOVIES_FILE = 'peliculas/peliculas3.js';
+            const APP_NAME = '🎬 CineRealTime Pro';
 
-const CONFIG = {
-    VERSION: '3.0.0',
-    CHECK_INTERVAL: 60000, // Revisar cada 1 minuto si hay cambios
-    INITIAL_LOAD_DELAY: 800,
-    CACHE_DURATION: 300000, // 5 minutos de caché
-    MAX_RETRIES: 3,
-    RETRY_DELAY: 2000,
-    CONNECTION_TIMEOUT: 5000,
-    NOTIFICATION_DURATION: 3000,
-    LAZY_LOAD_OFFSET: 100
-};
+            const CONFIG = {
+                VERSION: '3.0.0',
+                CHECK_INTERVAL: 60000, // Revisar cada 1 minuto si hay cambios
+                INITIAL_LOAD_DELAY: 800,
+                CACHE_DURATION: 300000, // 5 minutos de caché
+                MAX_RETRIES: 3,
+                RETRY_DELAY: 2000,
+                CONNECTION_TIMEOUT: 5000,
+                NOTIFICATION_DURATION: 3000,
+                LAZY_LOAD_OFFSET: 100
+            };
 
-// ============================
-// ESTADO DE LA APLICACIÓN
-// ============================
-const STATE = {
-    lastHash: '',
-    moviesCache: null,
-    cacheTime: 0,
-    isOnline: navigator.onLine,
-    retryCount: 0,
-    isChecking: false,
-    totalUpdates: 0,
-    lastUpdateTime: null,
-    containerExists: false,
-    lastFileSize: 0,
-    lastCheckTime: 0
-};
+            // ============================
+            // ESTADO DE LA APLICACIÓN
+            // ============================
+            const STATE = {
+                lastHash: '',
+                moviesCache: null,
+                cacheTime: 0,
+                isOnline: navigator.onLine,
+                retryCount: 0,
+                isChecking: false,
+                totalUpdates: 0,
+                lastUpdateTime: null,
+                containerExists: false,
+                lastFileSize: 0,
+                lastCheckTime: 0
+            };
 
-// ============================
-// COMPONENTES DEL SISTEMA
-// ============================
-let checkInterval = null;
+            // ============================
+            // COMPONENTES DEL SISTEMA
+            // ============================
+            let checkInterval = null;
 
-// ============================
-// INYECCIÓN DE ESTILOS
-// ============================
-function injectOptimizedStyles() {
-    const styles = `
+            // ============================
+            // INYECCIÓN DE ESTILOS
+            // ============================
+            function injectOptimizedStyles() {
+                const styles = `
         /* ===== ESTILOS PRINCIPALES ===== */
         #recientemente-añadido {
             position: relative;
@@ -5682,380 +5779,380 @@ function injectOptimizedStyles() {
             transition: width 0.3s ease;
         }
     `;
-    
-    const style = document.createElement('style');
-    style.textContent = styles;
-    document.head.appendChild(style);
-    
-    // Añadir barra de progreso de scroll
-    const progressBar = document.createElement('div');
-    progressBar.className = 'scroll-progress';
-    document.body.appendChild(progressBar);
-    
-    // Actualizar barra de progreso
-    window.addEventListener('scroll', () => {
-        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        const scrolled = (winScroll / height) * 100;
-        progressBar.style.width = scrolled + '%';
-    });
-}
 
-// ============================
-// SISTEMA DE CACHÉ
-// ============================
-const DB_NAME = 'moviesCacheDB_v2';
-const DB_VERSION = 2;
-const STORE_NAME = 'movies_cache';
+                const style = document.createElement('style');
+                style.textContent = styles;
+                document.head.appendChild(style);
 
-async function initCacheDB() {
-    return new Promise((resolve) => {
-        if (!window.indexedDB) {
-            console.log('ℹ️ IndexedDB no disponible, usando caché en memoria');
-            resolve(null);
-            return;
-        }
+                // Añadir barra de progreso de scroll
+                const progressBar = document.createElement('div');
+                progressBar.className = 'scroll-progress';
+                document.body.appendChild(progressBar);
 
-        const request = indexedDB.open(DB_NAME, DB_VERSION);
-        
-        request.onerror = () => {
-            console.warn('⚠️ Error al abrir IndexedDB');
-            resolve(null);
-        };
-        
-        request.onsuccess = (e) => {
-            console.log('✅ Base de datos de caché inicializada');
-            resolve(e.target.result);
-        };
-        
-        request.onupgradeneeded = (e) => {
-            const db = e.target.result;
-            if (!db.objectStoreNames.contains(STORE_NAME)) {
-                const store = db.createObjectStore(STORE_NAME, { keyPath: 'id' });
-                store.createIndex('timestamp', 'timestamp', { unique: false });
-                console.log('🔄 Store de caché creado');
-            }
-        };
-    });
-}
-
-async function getCachedMovies() {
-    try {
-        const db = await initCacheDB();
-        if (!db) return null;
-
-        return new Promise((resolve) => {
-            const transaction = db.transaction([STORE_NAME], 'readonly');
-            const store = transaction.objectStore(STORE_NAME);
-            const request = store.getAll();
-
-            request.onsuccess = () => {
-                const movies = request.result;
-                if (movies.length > 0) {
-                    const sortedMovies = movies
-                        .sort((a, b) => b.timestamp - a.timestamp)
-                        .slice(0, 20)
-                        .map(m => m.data);
-                    
-                    console.log(`📦 Cargadas ${sortedMovies.length} películas desde caché`);
-                    resolve(sortedMovies);
-                } else {
-                    resolve(null);
-                }
-            };
-            
-            request.onerror = () => resolve(null);
-        });
-    } catch (error) {
-        console.warn('⚠️ Error al obtener caché:', error);
-        return null;
-    }
-}
-
-async function cacheMovies(movies) {
-    try {
-        const db = await initCacheDB();
-        if (!db || !movies || !Array.isArray(movies)) return;
-
-        const transaction = db.transaction([STORE_NAME], 'readwrite');
-        const store = transaction.objectStore(STORE_NAME);
-        
-        // Limpiar cache antiguo (más de 7 días)
-        const sevenDaysAgo = Date.now() - (7 * 24 * 60 * 60 * 1000);
-        const index = store.index('timestamp');
-        const range = IDBKeyRange.upperBound(sevenDaysAgo);
-        
-        index.openCursor(range).onsuccess = function(e) {
-            const cursor = e.target.result;
-            if (cursor) {
-                store.delete(cursor.primaryKey);
-                cursor.continue();
-            }
-        };
-        
-        // Guardar nuevas películas
-        movies.forEach((movie, index) => {
-            const movieData = {
-                id: `movie_${Date.now()}_${index}`,
-                data: movie,
-                timestamp: Date.now(),
-                addedDate: movie.addedDate || new Date().toISOString()
-            };
-            store.put(movieData);
-        });
-        
-        STATE.cacheTime = Date.now();
-        console.log(`💾 ${movies.length} películas guardadas en caché`);
-    } catch (error) {
-        console.warn('⚠️ Error al guardar en caché:', error);
-    }
-}
-
-// ============================
-// FUNCIONES PRINCIPALES
-// ============================
-async function fetchMovies() {
-    if (STATE.isChecking) {
-        console.log('⏳ Ya hay una verificación en curso');
-        return null;
-    }
-
-    STATE.isChecking = true;
-
-    try {
-        const cacheBuster = `?v=${Date.now()}&_=${performance.now()}`;
-        const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), CONFIG.CONNECTION_TIMEOUT);
-        
-        const response = await fetch(MOVIES_FILE + cacheBuster, {
-            signal: controller.signal,
-            cache: 'no-store',
-            headers: {
-                'Cache-Control': 'no-cache',
-                'Pragma': 'no-cache'
-            }
-        });
-        
-        clearTimeout(timeoutId);
-        
-        if (!response.ok) {
-            throw new Error(`HTTP ${response.status}`);
-        }
-        
-        // Verificar si el archivo cambió
-        const contentLength = response.headers.get('content-length');
-        const fileSize = parseInt(contentLength) || 0;
-        
-        if (fileSize === STATE.lastFileSize && STATE.lastHash) {
-            console.log('📄 Archivo sin cambios');
-            STATE.isChecking = false;
-            return null;
-        }
-        
-        STATE.lastFileSize = fileSize;
-        
-        const text = await response.text();
-        const jsonMatch = text.match(/\[[\s\S]*\]/);
-        
-        if (!jsonMatch) {
-            throw new Error('Formato JSON no encontrado');
-        }
-        
-        const movies = JSON.parse(jsonMatch[0]);
-        const sorted = sortMovies(movies);
-        
-        // Calcular hash del contenido
-        const currentHash = calculateContentHash(sorted);
-        
-        if (currentHash === STATE.lastHash) {
-            console.log('🔄 Sin cambios en el contenido');
-            STATE.isChecking = false;
-            return null;
-        }
-        
-        STATE.lastHash = currentHash;
-        console.log(`✅ ${sorted.length} películas cargadas (archivo cambiado)`);
-        
-        return { movies: sorted };
-        
-    } catch (error) {
-        console.error('❌ Error al cargar películas:', error);
-        showErrorState('Error al cargar películas');
-        return null;
-    } finally {
-        STATE.isChecking = false;
-    }
-}
-
-function calculateContentHash(movies) {
-    const content = movies.map(m => ({
-        t: m.titulo,
-        y: m.año,
-        d: m.addedDate
-    })).slice(0, 10); // Solo los primeros 10 para el hash
-    
-    return JSON.stringify(content);
-}
-
-function sortMovies(movies) {
-    if (!Array.isArray(movies)) return [];
-    
-    return movies
-        .filter(movie => movie && movie.titulo)
-        .sort((a, b) => {
-            const dateA = a.addedDate ? new Date(a.addedDate).getTime() : 0;
-            const dateB = b.addedDate ? new Date(b.addedDate).getTime() : 0;
-            return dateB - dateA;
-        })
-        .slice(0, 20)
-        .map(movie => ({
-            ...movie,
-            addedDate: movie.addedDate || new Date().toISOString()
-        }));
-}
-
-// ============================
-// RENDERIZADO
-// ============================
-function renderMovies(movies, fromCache = false) {
-    const container = document.getElementById(CONTAINER_ID);
-    if (!container) {
-        console.error(`❌ Contenedor #${CONTAINER_ID} no encontrado`);
-        return;
-    }
-    
-    if (!movies || !Array.isArray(movies) || movies.length === 0) {
-        showErrorState('No hay películas disponibles');
-        return;
-    }
-
-    requestAnimationFrame(() => {
-        const currentContent = container.innerHTML;
-        const newContent = generateHTML(movies, fromCache);
-        
-        if (currentContent !== newContent) {
-            // Animación de transición
-            container.style.opacity = '0.7';
-            container.style.transform = 'translateY(10px)';
-            
-            requestAnimationFrame(() => {
-                container.innerHTML = newContent;
-                
-                requestAnimationFrame(() => {
-                    container.style.opacity = '1';
-                    container.style.transform = 'translateY(0)';
-                    container.style.transition = 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)';
-                    
-                    setupCarouselControls();
-                    setupMovieClickHandlers(); // <-- AÑADIDO PARA CLIC
-                    
-                    if (!fromCache) {
-                        showNewContentNotification(movies.length);
-                        cacheMovies(movies);
-                        STATE.totalUpdates++;
-                        STATE.lastUpdateTime = new Date();
-                        updateStatusInfo();
-                        STATE.lastCheckTime = Date.now();
-                    }
-                    
-                    // Inicializar lazy loading
-                    initLazyLoading();
+                // Actualizar barra de progreso
+                window.addEventListener('scroll', () => {
+                    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                    const scrolled = (winScroll / height) * 100;
+                    progressBar.style.width = scrolled + '%';
                 });
-            });
-        } else {
-            updateStatusInfo();
-        }
-    });
-}
-
-// ============================
-// MANEJO DE CLIC EN PELÍCULAS
-// ============================
-function setupMovieClickHandlers() {
-    const movieItems = document.querySelectorAll('.movie-item');
-    
-    movieItems.forEach((movieItem, index) => {
-        // Remover event listeners anteriores
-        movieItem.replaceWith(movieItem.cloneNode(true));
-    });
-    
-    // Seleccionar nuevamente después de clonar
-    const freshMovieItems = document.querySelectorAll('.movie-item');
-    
-    freshMovieItems.forEach((movieItem, index) => {
-        // Agregar event listeners
-        movieItem.addEventListener('click', function(e) {
-            handleMovieClick(this, e);
-        });
-        
-        // Para touch en móviles
-        movieItem.addEventListener('touchstart', function(e) {
-            this.style.transform = 'translateY(-5px) scale(1.02)';
-        });
-        
-        movieItem.addEventListener('touchend', function(e) {
-            this.style.transform = '';
-            if (!e.target.closest('.movie-badge')) {
-                handleMovieClick(this, e);
             }
-        });
-    });
-}
 
-function handleMovieClick(movieElement, event) {
-    // Prevenir comportamiento por defecto
-    event.preventDefault();
-    event.stopPropagation();
-    
-    // Encontrar el enlace dentro de la tarjeta
-    const linkElement = movieElement.querySelector('.movie-link');
-    if (!linkElement) return;
-    
-    const href = linkElement.getAttribute('href');
-    if (!href || href === '#') {
-        console.log('⚠️ Enlace no disponible para esta película');
-        return;
-    }
-    
-    console.log(`🎬 Navegando a: ${href}`);
-    
-    // Navegar a la página
-    if (href.startsWith('http')) {
-        window.open(href, '_blank');
-    } else if (window.showPageLoader) {
-        window.showPageLoader(href);
-    } else {
-        window.location.href = href;
-    }
-}
+            // ============================
+            // SISTEMA DE CACHÉ
+            // ============================
+            const DB_NAME = 'moviesCacheDB_v2';
+            const DB_VERSION = 2;
+            const STORE_NAME = 'movies_cache';
 
-function generateHTML(movies, fromCache = false) {
-    const timestamp = new Date().toLocaleTimeString('es-ES', { 
-        hour: '2-digit', 
-        minute: '2-digit'
-    });
-    
-    const dateStr = new Date().toLocaleDateString('es-ES', {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric'
-    });
-    
-    // Helper para generar enlaces si no existen
-    const getMovieLink = (movie) => {
-        if (movie.link && movie.link !== '#') return movie.link;
-        let id = movie.id;
-        if (!id) {
-            const safeTitle = (movie.titulo || '').toLowerCase()
-                .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-                .replace(/[^a-z0-9]+/g, '-')
-                .replace(/^-+|-+$/g, '');
-            id = `${safeTitle}-${movie.año || '0000'}`;
-        }
-        return `detalles.html?id=${encodeURIComponent(id)}`;
-    };
+            async function initCacheDB() {
+                return new Promise((resolve) => {
+                    if (!window.indexedDB) {
+                        console.log('ℹ️ IndexedDB no disponible, usando caché en memoria');
+                        resolve(null);
+                        return;
+                    }
 
-    return `
+                    const request = indexedDB.open(DB_NAME, DB_VERSION);
+
+                    request.onerror = () => {
+                        console.warn('⚠️ Error al abrir IndexedDB');
+                        resolve(null);
+                    };
+
+                    request.onsuccess = (e) => {
+                        console.log('✅ Base de datos de caché inicializada');
+                        resolve(e.target.result);
+                    };
+
+                    request.onupgradeneeded = (e) => {
+                        const db = e.target.result;
+                        if (!db.objectStoreNames.contains(STORE_NAME)) {
+                            const store = db.createObjectStore(STORE_NAME, { keyPath: 'id' });
+                            store.createIndex('timestamp', 'timestamp', { unique: false });
+                            console.log('🔄 Store de caché creado');
+                        }
+                    };
+                });
+            }
+
+            async function getCachedMovies() {
+                try {
+                    const db = await initCacheDB();
+                    if (!db) return null;
+
+                    return new Promise((resolve) => {
+                        const transaction = db.transaction([STORE_NAME], 'readonly');
+                        const store = transaction.objectStore(STORE_NAME);
+                        const request = store.getAll();
+
+                        request.onsuccess = () => {
+                            const movies = request.result;
+                            if (movies.length > 0) {
+                                const sortedMovies = movies
+                                    .sort((a, b) => b.timestamp - a.timestamp)
+                                    .slice(0, 20)
+                                    .map(m => m.data);
+
+                                console.log(`📦 Cargadas ${sortedMovies.length} películas desde caché`);
+                                resolve(sortedMovies);
+                            } else {
+                                resolve(null);
+                            }
+                        };
+
+                        request.onerror = () => resolve(null);
+                    });
+                } catch (error) {
+                    console.warn('⚠️ Error al obtener caché:', error);
+                    return null;
+                }
+            }
+
+            async function cacheMovies(movies) {
+                try {
+                    const db = await initCacheDB();
+                    if (!db || !movies || !Array.isArray(movies)) return;
+
+                    const transaction = db.transaction([STORE_NAME], 'readwrite');
+                    const store = transaction.objectStore(STORE_NAME);
+
+                    // Limpiar cache antiguo (más de 7 días)
+                    const sevenDaysAgo = Date.now() - (7 * 24 * 60 * 60 * 1000);
+                    const index = store.index('timestamp');
+                    const range = IDBKeyRange.upperBound(sevenDaysAgo);
+
+                    index.openCursor(range).onsuccess = function (e) {
+                        const cursor = e.target.result;
+                        if (cursor) {
+                            store.delete(cursor.primaryKey);
+                            cursor.continue();
+                        }
+                    };
+
+                    // Guardar nuevas películas
+                    movies.forEach((movie, index) => {
+                        const movieData = {
+                            id: `movie_${Date.now()}_${index}`,
+                            data: movie,
+                            timestamp: Date.now(),
+                            addedDate: movie.addedDate || new Date().toISOString()
+                        };
+                        store.put(movieData);
+                    });
+
+                    STATE.cacheTime = Date.now();
+                    console.log(`💾 ${movies.length} películas guardadas en caché`);
+                } catch (error) {
+                    console.warn('⚠️ Error al guardar en caché:', error);
+                }
+            }
+
+            // ============================
+            // FUNCIONES PRINCIPALES
+            // ============================
+            async function fetchMovies() {
+                if (STATE.isChecking) {
+                    console.log('⏳ Ya hay una verificación en curso');
+                    return null;
+                }
+
+                STATE.isChecking = true;
+
+                try {
+                    const cacheBuster = `?v=${Date.now()}&_=${performance.now()}`;
+                    const controller = new AbortController();
+                    const timeoutId = setTimeout(() => controller.abort(), CONFIG.CONNECTION_TIMEOUT);
+
+                    const response = await fetch(MOVIES_FILE + cacheBuster, {
+                        signal: controller.signal,
+                        cache: 'no-store',
+                        headers: {
+                            'Cache-Control': 'no-cache',
+                            'Pragma': 'no-cache'
+                        }
+                    });
+
+                    clearTimeout(timeoutId);
+
+                    if (!response.ok) {
+                        throw new Error(`HTTP ${response.status}`);
+                    }
+
+                    // Verificar si el archivo cambió
+                    const contentLength = response.headers.get('content-length');
+                    const fileSize = parseInt(contentLength) || 0;
+
+                    if (fileSize === STATE.lastFileSize && STATE.lastHash) {
+                        console.log('📄 Archivo sin cambios');
+                        STATE.isChecking = false;
+                        return null;
+                    }
+
+                    STATE.lastFileSize = fileSize;
+
+                    const text = await response.text();
+                    const jsonMatch = text.match(/\[[\s\S]*\]/);
+
+                    if (!jsonMatch) {
+                        throw new Error('Formato JSON no encontrado');
+                    }
+
+                    const movies = JSON.parse(jsonMatch[0]);
+                    const sorted = sortMovies(movies);
+
+                    // Calcular hash del contenido
+                    const currentHash = calculateContentHash(sorted);
+
+                    if (currentHash === STATE.lastHash) {
+                        console.log('🔄 Sin cambios en el contenido');
+                        STATE.isChecking = false;
+                        return null;
+                    }
+
+                    STATE.lastHash = currentHash;
+                    console.log(`✅ ${sorted.length} películas cargadas (archivo cambiado)`);
+
+                    return { movies: sorted };
+
+                } catch (error) {
+                    console.error('❌ Error al cargar películas:', error);
+                    showErrorState('Error al cargar películas');
+                    return null;
+                } finally {
+                    STATE.isChecking = false;
+                }
+            }
+
+            function calculateContentHash(movies) {
+                const content = movies.map(m => ({
+                    t: m.titulo,
+                    y: m.año,
+                    d: m.addedDate
+                })).slice(0, 10); // Solo los primeros 10 para el hash
+
+                return JSON.stringify(content);
+            }
+
+            function sortMovies(movies) {
+                if (!Array.isArray(movies)) return [];
+
+                return movies
+                    .filter(movie => movie && movie.titulo)
+                    .sort((a, b) => {
+                        const dateA = a.addedDate ? new Date(a.addedDate).getTime() : 0;
+                        const dateB = b.addedDate ? new Date(b.addedDate).getTime() : 0;
+                        return dateB - dateA;
+                    })
+                    .slice(0, 20)
+                    .map(movie => ({
+                        ...movie,
+                        addedDate: movie.addedDate || new Date().toISOString()
+                    }));
+            }
+
+            // ============================
+            // RENDERIZADO
+            // ============================
+            function renderMovies(movies, fromCache = false) {
+                const container = document.getElementById(CONTAINER_ID);
+                if (!container) {
+                    console.error(`❌ Contenedor #${CONTAINER_ID} no encontrado`);
+                    return;
+                }
+
+                if (!movies || !Array.isArray(movies) || movies.length === 0) {
+                    showErrorState('No hay películas disponibles');
+                    return;
+                }
+
+                requestAnimationFrame(() => {
+                    const currentContent = container.innerHTML;
+                    const newContent = generateHTML(movies, fromCache);
+
+                    if (currentContent !== newContent) {
+                        // Animación de transición
+                        container.style.opacity = '0.7';
+                        container.style.transform = 'translateY(10px)';
+
+                        requestAnimationFrame(() => {
+                            container.innerHTML = newContent;
+
+                            requestAnimationFrame(() => {
+                                container.style.opacity = '1';
+                                container.style.transform = 'translateY(0)';
+                                container.style.transition = 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)';
+
+                                setupCarouselControls();
+                                setupMovieClickHandlers(); // <-- AÑADIDO PARA CLIC
+
+                                if (!fromCache) {
+                                    showNewContentNotification(movies.length);
+                                    cacheMovies(movies);
+                                    STATE.totalUpdates++;
+                                    STATE.lastUpdateTime = new Date();
+                                    updateStatusInfo();
+                                    STATE.lastCheckTime = Date.now();
+                                }
+
+                                // Inicializar lazy loading
+                                initLazyLoading();
+                            });
+                        });
+                    } else {
+                        updateStatusInfo();
+                    }
+                });
+            }
+
+            // ============================
+            // MANEJO DE CLIC EN PELÍCULAS
+            // ============================
+            function setupMovieClickHandlers() {
+                const movieItems = document.querySelectorAll('.movie-item');
+
+                movieItems.forEach((movieItem, index) => {
+                    // Remover event listeners anteriores
+                    movieItem.replaceWith(movieItem.cloneNode(true));
+                });
+
+                // Seleccionar nuevamente después de clonar
+                const freshMovieItems = document.querySelectorAll('.movie-item');
+
+                freshMovieItems.forEach((movieItem, index) => {
+                    // Agregar event listeners
+                    movieItem.addEventListener('click', function (e) {
+                        handleMovieClick(this, e);
+                    });
+
+                    // Para touch en móviles
+                    movieItem.addEventListener('touchstart', function (e) {
+                        this.style.transform = 'translateY(-5px) scale(1.02)';
+                    });
+
+                    movieItem.addEventListener('touchend', function (e) {
+                        this.style.transform = '';
+                        if (!e.target.closest('.movie-badge')) {
+                            handleMovieClick(this, e);
+                        }
+                    });
+                });
+            }
+
+            function handleMovieClick(movieElement, event) {
+                // Prevenir comportamiento por defecto
+                event.preventDefault();
+                event.stopPropagation();
+
+                // Encontrar el enlace dentro de la tarjeta
+                const linkElement = movieElement.querySelector('.movie-link');
+                if (!linkElement) return;
+
+                const href = linkElement.getAttribute('href');
+                if (!href || href === '#') {
+                    console.log('⚠️ Enlace no disponible para esta película');
+                    return;
+                }
+
+                console.log(`🎬 Navegando a: ${href}`);
+
+                // Navegar a la página
+                if (href.startsWith('http')) {
+                    window.open(href, '_blank');
+                } else if (window.showPageLoader) {
+                    window.showPageLoader(href);
+                } else {
+                    window.location.href = href;
+                }
+            }
+
+            function generateHTML(movies, fromCache = false) {
+                const timestamp = new Date().toLocaleTimeString('es-ES', {
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+
+                const dateStr = new Date().toLocaleDateString('es-ES', {
+                    year: 'numeric',
+                    month: 'short',
+                    day: 'numeric'
+                });
+
+                // Helper para generar enlaces si no existen
+                const getMovieLink = (movie) => {
+                    if (movie.link && movie.link !== '#') return movie.link;
+                    let id = movie.id;
+                    if (!id) {
+                        const safeTitle = (movie.titulo || '').toLowerCase()
+                            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+                            .replace(/[^a-z0-9]+/g, '-')
+                            .replace(/^-+|-+$/g, '');
+                        id = `${safeTitle}-${movie.año || '0000'}`;
+                    }
+                    return `detalles.html?id=${encodeURIComponent(id)}`;
+                };
+
+                return `
         <div class="section-title-container">
             <h2 class="section-title">
                 🎬 Añadido Recientemente
@@ -6107,8 +6204,8 @@ function generateHTML(movies, fromCache = false) {
                                         <i class="fas fa-star"></i>
                                         ${movie.calificacion || 'N/A'}
                                     </span>
-                                    ${movie.addedDate && Date.now() - new Date(movie.addedDate).getTime() < 86400000 ? 
-                                        '<span class="new-tag">¡NUEVO!</span>' : ''}
+                                    ${movie.addedDate && Date.now() - new Date(movie.addedDate).getTime() < 86400000 ?
+                            '<span class="new-tag">¡NUEVO!</span>' : ''}
                                 </div>
                             </div>
                             <div class="movie-info">
@@ -6149,143 +6246,143 @@ function generateHTML(movies, fromCache = false) {
             <span>🔄 Última verificación: <span id="lastCheckTime">${timestamp}</span></span>
         </div>
     `;
-}
-
-// ============================
-// CONTROLES DEL CARRUSEL
-// ============================
-function setupCarouselControls() {
-    const container = document.getElementById(CONTAINER_ID);
-    if (!container) return;
-
-    const carrusel = container.querySelector('.carrusel-contenedor');
-    if (!carrusel) return;
-
-    const prevBtn = carrusel.querySelector('.carrusel-btn.prev');
-    const nextBtn = carrusel.querySelector('.carrusel-btn.next');
-    const scroller = carrusel.querySelector('.movies-scroller');
-
-    if (!prevBtn || !nextBtn || !scroller) return;
-
-    // Función para desplazamiento suave
-    const scrollTo = (direction) => {
-        const scrollAmount = 300;
-        const currentScroll = scroller.scrollLeft;
-        const newScroll = direction === 'next' 
-            ? currentScroll + scrollAmount
-            : currentScroll - scrollAmount;
-        
-        scroller.scrollTo({
-            left: newScroll,
-            behavior: 'smooth'
-        });
-    };
-
-    // Configurar eventos
-    prevBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        scrollTo('prev');
-    });
-    
-    nextBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        scrollTo('next');
-    });
-
-    // Desplazamiento con rueda del ratón
-    scroller.addEventListener('wheel', (e) => {
-        if (e.deltaY !== 0) {
-            e.preventDefault();
-            scroller.scrollLeft += e.deltaY * 0.5;
-        }
-    });
-
-    // Touch/swipe para móviles
-    let touchStartX = 0;
-    let touchEndX = 0;
-
-    scroller.addEventListener('touchstart', (e) => {
-        touchStartX = e.changedTouches[0].screenX;
-    });
-
-    scroller.addEventListener('touchend', (e) => {
-        touchEndX = e.changedTouches[0].screenX;
-        handleSwipe();
-    });
-
-    function handleSwipe() {
-        const threshold = 50;
-        const difference = touchStartX - touchEndX;
-
-        if (Math.abs(difference) > threshold) {
-            if (difference > 0) {
-                scrollTo('next'); // Swipe izquierda
-            } else {
-                scrollTo('prev'); // Swipe derecha
             }
-        }
-    }
-}
 
-// ============================
-// NOTIFICACIONES Y ESTADOS
-// ============================
-function showNewContentNotification(count) {
-    // Remover notificación anterior si existe
-    const existing = document.querySelector('.rt-notification');
-    if (existing) existing.remove();
+            // ============================
+            // CONTROLES DEL CARRUSEL
+            // ============================
+            function setupCarouselControls() {
+                const container = document.getElementById(CONTAINER_ID);
+                if (!container) return;
 
-    const notification = document.createElement('div');
-    notification.className = 'rt-notification';
-    notification.innerHTML = `
+                const carrusel = container.querySelector('.carrusel-contenedor');
+                if (!carrusel) return;
+
+                const prevBtn = carrusel.querySelector('.carrusel-btn.prev');
+                const nextBtn = carrusel.querySelector('.carrusel-btn.next');
+                const scroller = carrusel.querySelector('.movies-scroller');
+
+                if (!prevBtn || !nextBtn || !scroller) return;
+
+                // Función para desplazamiento suave
+                const scrollTo = (direction) => {
+                    const scrollAmount = 300;
+                    const currentScroll = scroller.scrollLeft;
+                    const newScroll = direction === 'next'
+                        ? currentScroll + scrollAmount
+                        : currentScroll - scrollAmount;
+
+                    scroller.scrollTo({
+                        left: newScroll,
+                        behavior: 'smooth'
+                    });
+                };
+
+                // Configurar eventos
+                prevBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    scrollTo('prev');
+                });
+
+                nextBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    scrollTo('next');
+                });
+
+                // Desplazamiento con rueda del ratón
+                scroller.addEventListener('wheel', (e) => {
+                    if (e.deltaY !== 0) {
+                        e.preventDefault();
+                        scroller.scrollLeft += e.deltaY * 0.5;
+                    }
+                });
+
+                // Touch/swipe para móviles
+                let touchStartX = 0;
+                let touchEndX = 0;
+
+                scroller.addEventListener('touchstart', (e) => {
+                    touchStartX = e.changedTouches[0].screenX;
+                });
+
+                scroller.addEventListener('touchend', (e) => {
+                    touchEndX = e.changedTouches[0].screenX;
+                    handleSwipe();
+                });
+
+                function handleSwipe() {
+                    const threshold = 50;
+                    const difference = touchStartX - touchEndX;
+
+                    if (Math.abs(difference) > threshold) {
+                        if (difference > 0) {
+                            scrollTo('next'); // Swipe izquierda
+                        } else {
+                            scrollTo('prev'); // Swipe derecha
+                        }
+                    }
+                }
+            }
+
+            // ============================
+            // NOTIFICACIONES Y ESTADOS
+            // ============================
+            function showNewContentNotification(count) {
+                // Remover notificación anterior si existe
+                const existing = document.querySelector('.rt-notification');
+                if (existing) existing.remove();
+
+                const notification = document.createElement('div');
+                notification.className = 'rt-notification';
+                notification.innerHTML = `
         <div class="rt-content">
             <span class="rt-icon">🎬</span>
             <span class="rt-text">¡${count} nuevas películas!</span>
-            <span class="rt-time">${new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</span>
+            <span class="rt-time">${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
         </div>
     `;
-    
-    document.body.appendChild(notification);
-    
-    requestAnimationFrame(() => {
-        notification.classList.add('show');
-        
-        setTimeout(() => {
-            notification.classList.remove('show');
-            setTimeout(() => {
-                if (notification.parentNode) {
-                    notification.remove();
-                }
-            }, 500);
-        }, CONFIG.NOTIFICATION_DURATION);
-    });
-}
 
-function showLoadingState(show) {
-    const container = document.getElementById(CONTAINER_ID);
-    if (!container) return;
+                document.body.appendChild(notification);
 
-    if (show) {
-        const loadingHTML = `
+                requestAnimationFrame(() => {
+                    notification.classList.add('show');
+
+                    setTimeout(() => {
+                        notification.classList.remove('show');
+                        setTimeout(() => {
+                            if (notification.parentNode) {
+                                notification.remove();
+                            }
+                        }, 500);
+                    }, CONFIG.NOTIFICATION_DURATION);
+                });
+            }
+
+            function showLoadingState(show) {
+                const container = document.getElementById(CONTAINER_ID);
+                if (!container) return;
+
+                if (show) {
+                    const loadingHTML = `
             <div class="loading-state">
                 <div class="loading-spinner"></div>
                 <p style="color: #888; margin-top: 10px;">Cargando películas...</p>
             </div>
         `;
-        
-        if (!container.querySelector('.loading-state')) {
-            container.innerHTML = loadingHTML;
-        }
-    }
-}
 
-function showErrorState(message) {
-    const container = document.getElementById(CONTAINER_ID);
-    if (!container) return;
+                    if (!container.querySelector('.loading-state')) {
+                        container.innerHTML = loadingHTML;
+                    }
+                }
+            }
 
-    const errorHTML = `
+            function showErrorState(message) {
+                const container = document.getElementById(CONTAINER_ID);
+                if (!container) return;
+
+                const errorHTML = `
         <div class="error-state">
             <i class="fas fa-exclamation-triangle"></i>
             <h3 style="color: #ff6b6b; margin-bottom: 10px;">¡Oops!</h3>
@@ -6305,237 +6402,237 @@ function showErrorState(message) {
             </button>
         </div>
     `;
-    
-    container.innerHTML = errorHTML;
-}
 
-function updateStatusInfo() {
-    const updateTime = document.querySelector('.update-time .time-value');
-    const checkStatus = document.querySelector('.check-status');
-    const lastCheckTime = document.getElementById('lastCheckTime');
-    
-    if (updateTime) {
-        updateTime.textContent = new Date().toLocaleTimeString([], {
-            hour: '2-digit',
-            minute: '2-digit'
-        });
-    }
-    
-    if (checkStatus) {
-        const now = new Date();
-        checkStatus.innerHTML = `
+                container.innerHTML = errorHTML;
+            }
+
+            function updateStatusInfo() {
+                const updateTime = document.querySelector('.update-time .time-value');
+                const checkStatus = document.querySelector('.check-status');
+                const lastCheckTime = document.getElementById('lastCheckTime');
+
+                if (updateTime) {
+                    updateTime.textContent = new Date().toLocaleTimeString([], {
+                        hour: '2-digit',
+                        minute: '2-digit'
+                    });
+                }
+
+                if (checkStatus) {
+                    const now = new Date();
+                    checkStatus.innerHTML = `
             <i class="fas fa-check-circle"></i>
             VERIFICADO
         `;
-    }
-    
-    if (lastCheckTime) {
-        lastCheckTime.textContent = new Date().toLocaleTimeString([], {
-            hour: '2-digit',
-            minute: '2-digit'
-        });
-    }
-}
+                }
 
-// ============================
-// LAZY LOADING
-// ============================
-function initLazyLoading() {
-    const images = document.querySelectorAll('.movie-poster img[loading="lazy"]');
-    if (!images.length) return;
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const img = entry.target;
-                img.src = img.dataset.src || img.src;
-                observer.unobserve(img);
+                if (lastCheckTime) {
+                    lastCheckTime.textContent = new Date().toLocaleTimeString([], {
+                        hour: '2-digit',
+                        minute: '2-digit'
+                    });
+                }
             }
-        });
-    }, {
-        rootMargin: `${CONFIG.LAZY_LOAD_OFFSET}px`,
-        threshold: 0.1
-    });
 
-    images.forEach(img => {
-        if (img.dataset.src) {
-            observer.observe(img);
-        }
-    });
-}
+            // ============================
+            // LAZY LOADING
+            // ============================
+            function initLazyLoading() {
+                const images = document.querySelectorAll('.movie-poster img[loading="lazy"]');
+                if (!images.length) return;
 
-// ============================
-// SISTEMA DE VERIFICACIÓN
-// ============================
-async function checkForUpdates() {
-    if (STATE.isChecking) return;
-    
-    console.log('🔍 Verificando cambios...');
-    
-    try {
-        const result = await fetchMovies();
-        if (result && result.movies) {
-            renderMovies(result.movies, false);
-            console.log('✅ Cambios detectados y aplicados');
-        } else {
-            console.log('📭 Sin cambios en el contenido');
-            updateStatusInfo();
-        }
-    } catch (error) {
-        console.error('❌ Error en verificación:', error);
-    }
-}
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            img.src = img.dataset.src || img.src;
+                            observer.unobserve(img);
+                        }
+                    });
+                }, {
+                    rootMargin: `${CONFIG.LAZY_LOAD_OFFSET}px`,
+                    threshold: 0.1
+                });
 
-function startMonitoring() {
-    // Verificar cambios periódicamente
-    checkInterval = setInterval(() => {
-        if (!document.hidden && STATE.isOnline) {
-            checkForUpdates();
-        }
-    }, CONFIG.CHECK_INTERVAL);
-    
-    console.log(`🔍 Monitoreo iniciado (intervalo: ${CONFIG.CHECK_INTERVAL}ms)`);
-}
+                images.forEach(img => {
+                    if (img.dataset.src) {
+                        observer.observe(img);
+                    }
+                });
+            }
 
-// ============================
-// EVENT LISTENERS
-// ============================
-function setupEventListeners() {
-    // Online/Offline
-    window.addEventListener('online', () => {
-        STATE.isOnline = true;
-        console.log('🌐 Conexión restablecida');
-        checkForUpdates();
-    });
-    
-    window.addEventListener('offline', () => {
-        STATE.isOnline = false;
-        console.log('🔌 Sin conexión');
-    });
-    
-    // Visibility change - verificar al volver a la pestaña
-    document.addEventListener('visibilitychange', () => {
-        if (!document.hidden && STATE.isOnline) {
-            setTimeout(() => checkForUpdates(), 1000);
-        }
-    });
-    
-    // Error handling global
-    window.addEventListener('error', (e) => {
-        console.error('⚠️ Error global:', e.error);
-    });
-    
-    // Log initialization
-    console.log(`${APP_NAME} v${CONFIG.VERSION} inicializado`);
-    console.log(`📁 Archivo: ${MOVIES_FILE}`);
-    console.log(`🔍 Verificación cada: ${CONFIG.CHECK_INTERVAL}ms`);
-}
+            // ============================
+            // SISTEMA DE VERIFICACIÓN
+            // ============================
+            async function checkForUpdates() {
+                if (STATE.isChecking) return;
 
-// ============================
-// INICIALIZACIÓN
-// ============================
-async function init() {
-    console.log('🚀 Iniciando sistema de monitoreo...');
-    
-    // 1. Inyectar estilos
-    injectOptimizedStyles();
-    
-    // 2. Verificar contenedor
-    const container = document.getElementById(CONTAINER_ID);
-    if (!container) {
-        console.error(`❌ No se encontró el contenedor #${CONTAINER_ID}`);
-        return;
-    }
-    
-    STATE.containerExists = true;
-    
-    // 3. Inicializar componentes
-    setupEventListeners();
-    
-    // 4. Carga inicial desde caché
-    showLoadingState(true);
-    
-    const cachedMovies = await getCachedMovies();
-    if (cachedMovies) {
-        renderMovies(cachedMovies, true);
-        console.log('📦 Caché cargado correctamente');
-    }
-    
-    // 5. Carga inicial del servidor
-    setTimeout(async () => {
-        const result = await fetchMovies();
-        if (result && result.movies) {
-            renderMovies(result.movies, false);
-        }
-        console.log('🔥 Datos iniciales cargados');
-    }, CONFIG.INITIAL_LOAD_DELAY);
-    
-    // 6. Iniciar monitoreo
-    startMonitoring();
-    
-    console.log('✅ Sistema inicializado correctamente');
-}
+                console.log('🔍 Verificando cambios...');
 
-// ============================
-// API PÚBLICA
-// ============================
-window.MoviesMonitor = {
-    forceCheck: () => checkForUpdates(),
-    
-    getStatus: () => ({
-        online: STATE.isOnline,
-        lastHash: STATE.lastHash,
-        lastFileSize: STATE.lastFileSize,
-        totalUpdates: STATE.totalUpdates,
-        isChecking: STATE.isChecking,
-        lastUpdateTime: STATE.lastUpdateTime,
-        lastCheckTime: STATE.lastCheckTime,
-        version: CONFIG.VERSION
-    }),
-    
-    setCheckInterval: (interval) => {
-        if (interval >= 30000) {
-            CONFIG.CHECK_INTERVAL = interval;
-            if (checkInterval) {
-                clearInterval(checkInterval);
+                try {
+                    const result = await fetchMovies();
+                    if (result && result.movies) {
+                        renderMovies(result.movies, false);
+                        console.log('✅ Cambios detectados y aplicados');
+                    } else {
+                        console.log('📭 Sin cambios en el contenido');
+                        updateStatusInfo();
+                    }
+                } catch (error) {
+                    console.error('❌ Error en verificación:', error);
+                }
+            }
+
+            function startMonitoring() {
+                // Verificar cambios periódicamente
+                checkInterval = setInterval(() => {
+                    if (!document.hidden && STATE.isOnline) {
+                        checkForUpdates();
+                    }
+                }, CONFIG.CHECK_INTERVAL);
+
+                console.log(`🔍 Monitoreo iniciado (intervalo: ${CONFIG.CHECK_INTERVAL}ms)`);
+            }
+
+            // ============================
+            // EVENT LISTENERS
+            // ============================
+            function setupEventListeners() {
+                // Online/Offline
+                window.addEventListener('online', () => {
+                    STATE.isOnline = true;
+                    console.log('🌐 Conexión restablecida');
+                    checkForUpdates();
+                });
+
+                window.addEventListener('offline', () => {
+                    STATE.isOnline = false;
+                    console.log('🔌 Sin conexión');
+                });
+
+                // Visibility change - verificar al volver a la pestaña
+                document.addEventListener('visibilitychange', () => {
+                    if (!document.hidden && STATE.isOnline) {
+                        setTimeout(() => checkForUpdates(), 1000);
+                    }
+                });
+
+                // Error handling global
+                window.addEventListener('error', (e) => {
+                    console.error('⚠️ Error global:', e.error);
+                });
+
+                // Log initialization
+                console.log(`${APP_NAME} v${CONFIG.VERSION} inicializado`);
+                console.log(`📁 Archivo: ${MOVIES_FILE}`);
+                console.log(`🔍 Verificación cada: ${CONFIG.CHECK_INTERVAL}ms`);
+            }
+
+            // ============================
+            // INICIALIZACIÓN
+            // ============================
+            async function init() {
+                console.log('🚀 Iniciando sistema de monitoreo...');
+
+                // 1. Inyectar estilos
+                injectOptimizedStyles();
+
+                // 2. Verificar contenedor
+                const container = document.getElementById(CONTAINER_ID);
+                if (!container) {
+                    console.error(`❌ No se encontró el contenedor #${CONTAINER_ID}`);
+                    return;
+                }
+
+                STATE.containerExists = true;
+
+                // 3. Inicializar componentes
+                setupEventListeners();
+
+                // 4. Carga inicial desde caché
+                showLoadingState(true);
+
+                const cachedMovies = await getCachedMovies();
+                if (cachedMovies) {
+                    renderMovies(cachedMovies, true);
+                    console.log('📦 Caché cargado correctamente');
+                }
+
+                // 5. Carga inicial del servidor
+                setTimeout(async () => {
+                    const result = await fetchMovies();
+                    if (result && result.movies) {
+                        renderMovies(result.movies, false);
+                    }
+                    console.log('🔥 Datos iniciales cargados');
+                }, CONFIG.INITIAL_LOAD_DELAY);
+
+                // 6. Iniciar monitoreo
                 startMonitoring();
+
+                console.log('✅ Sistema inicializado correctamente');
             }
-            console.log(`⚙️ Intervalo cambiado a ${interval}ms`);
-        }
-    },
-    
-    getMovies: async () => {
-        const cached = await getCachedMovies();
-        return cached || [];
-    },
-    
-    clearCache: () => {
-        STATE.cacheTime = 0;
-        STATE.lastHash = '';
-        STATE.lastFileSize = 0;
-        console.log('🗑️ Caché limpiado');
-    },
-    
-    debug: () => {
-        console.log('=== DEBUG INFO ===');
-        console.log('Estado:', STATE);
-        console.log('Config:', CONFIG);
-        console.log('Contenedor:', STATE.containerExists);
-        console.log('Última verificación:', new Date(STATE.lastCheckTime).toLocaleString());
-    }
-};
 
-// ============================
-// INICIAR APLICACIÓN
-// ============================
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-} else {
-    init();
-}
+            // ============================
+            // API PÚBLICA
+            // ============================
+            window.MoviesMonitor = {
+                forceCheck: () => checkForUpdates(),
 
-})();
-</script>
+                getStatus: () => ({
+                    online: STATE.isOnline,
+                    lastHash: STATE.lastHash,
+                    lastFileSize: STATE.lastFileSize,
+                    totalUpdates: STATE.totalUpdates,
+                    isChecking: STATE.isChecking,
+                    lastUpdateTime: STATE.lastUpdateTime,
+                    lastCheckTime: STATE.lastCheckTime,
+                    version: CONFIG.VERSION
+                }),
+
+                setCheckInterval: (interval) => {
+                    if (interval >= 30000) {
+                        CONFIG.CHECK_INTERVAL = interval;
+                        if (checkInterval) {
+                            clearInterval(checkInterval);
+                            startMonitoring();
+                        }
+                        console.log(`⚙️ Intervalo cambiado a ${interval}ms`);
+                    }
+                },
+
+                getMovies: async () => {
+                    const cached = await getCachedMovies();
+                    return cached || [];
+                },
+
+                clearCache: () => {
+                    STATE.cacheTime = 0;
+                    STATE.lastHash = '';
+                    STATE.lastFileSize = 0;
+                    console.log('🗑️ Caché limpiado');
+                },
+
+                debug: () => {
+                    console.log('=== DEBUG INFO ===');
+                    console.log('Estado:', STATE);
+                    console.log('Config:', CONFIG);
+                    console.log('Contenedor:', STATE.containerExists);
+                    console.log('Última verificación:', new Date(STATE.lastCheckTime).toLocaleString());
+                }
+            };
+
+            // ============================
+            // INICIAR APLICACIÓN
+            // ============================
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', init);
+            } else {
+                init();
+            }
+
+        })();
+    </script>
 </body>
 
 </html>
