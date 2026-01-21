@@ -4442,6 +4442,66 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "El Roomie",
+    "titulo_original": "El Roomie",
+    "poster": "https://image.tmdb.org/t/p/w500/zaRzz2BxjxIVb7ja0gSedj1Hn1E.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wxYBMcxFIJai9AaZr6XAOKZTfxY.jpg",
+    "descripcion": "Vivi es una joven escritora que se ve obligada a buscar una compañera de cuarto para pagar la hipoteca de su apartamento. Lo que no sospecha es que Roy, el supuesto socio perfecto que encontró, tiene un estilo de vida peculiar: nunca paga alquiler.",
+    "año": 2024,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Pedro Pablo Ibarra",
+    "reparto": [
+      "Fiona Palomo",
+      "José Eduardo Derbez",
+      "Giuseppe Gamba",
+      "Victoria Ruffo",
+      "Bárbara de Regil",
+      "Edgar Vivar",
+      "Maite Perroni",
+      "Eréndira Ibarra",
+      "Leticia Calderón",
+      "Ariadne Díaz",
+      "Ana Brenda Contreras",
+      "Ana Serradilla"
+    ],
+    "calificacion": 7.6,
+    "votos": 95,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-21T01:59:19.345456",
+    "tmdb_id": "1229913",
+    "popularidad": 4.44,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=BYGk1AL-mLY",
+    "trailer_key": "BYGk1AL-mLY",
+    "success": true,
+    "duracion": "99 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "ViX Premium Amazon Channel",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://streamwish.to/e/8vxw8uq8wrg9",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "el-roomie-2024"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "El Sendero Azul",
     "titulo_original": "O Último Azul",
     "poster": "https://image.tmdb.org/t/p/w500/sY7dcqyvUKbVKwaNFOPaPgljyj0.jpg",
