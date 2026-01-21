@@ -13857,6 +13857,65 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Signing Tony Raymond",
+    "titulo_original": "Signing Tony Raymond",
+    "poster": "https://image.tmdb.org/t/p/w500/hqdP3i97vefXDlBVp8bfepW3IPU.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uU2UCjGddDc9VAfX6z8fGNK3EIZ.jpg",
+    "descripcion": "",
+    "año": 2026,
+    "categoria": [
+      "comedia"
+    ],
+    "genero": [
+      "comedia"
+    ],
+    "generos_lista": [
+      "Comedia"
+    ],
+    "director": "Glen Owen",
+    "reparto": [
+      "Michael Mosley",
+      "Rob Morgan",
+      "Mira Sorvino",
+      "Marshawn Lynch",
+      "Brian Bosworth",
+      "Champ Bailey",
+      "Charles Esten",
+      "Jackie Kay",
+      "Denitra Isler",
+      "Brad Carter",
+      "Irone Singleton",
+      "Michael Beasley"
+    ],
+    "calificacion": 0.0,
+    "votos": 0,
+    "idioma": "EN",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-21T01:51:46.579453",
+    "tmdb_id": "1555571",
+    "popularidad": 3.2,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "111 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "fuentes": [
+      {
+        "idioma": "subtitulado",
+        "url": "https://fastream.to/embed-r512ie1nkc4w.html",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "signing-tony-raymond-2026"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Sigue mi voz",
     "titulo_original": "Sigue mi voz",
     "poster": "https://image.tmdb.org/t/p/w500/saNidIuqNyFSkCoW60cybQg3tL3.jpg",
