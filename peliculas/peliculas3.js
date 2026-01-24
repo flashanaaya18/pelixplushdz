@@ -4441,6 +4441,108 @@ const peliculas3 = [
     "id": "el-pacto-de-los-lobos-2001"
   },
   {
+    "tipo": "serie",
+    "titulo": "El robo",
+    "titulo_original": "Steal",
+    "poster": "https://image.tmdb.org/t/p/w500/txcrTTjG5hCo7oYl4J8hsIyBFxu.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/tSFndbpoEctuYviiSRJHjyC31V9.jpg",
+    "descripcion": "Un día normal en Lochmill Capital se ve alterado cuando unos ladrones irrumpen y obligan a punta de pistola a Zara y a su mejor amigo Luke a cumplir sus exigencias. El detective Rhys se enfrenta a una carrera contrarreloj para descubrir quién ha robafo los 4000 millones de libras y por qué.",
+    "año": 2026,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "drama",
+      "crimen",
+      "misterio"
+    ],
+    "generos_lista": [
+      "Drama",
+      "Crimen",
+      "Misterio"
+    ],
+    "director": "Sotiris Nikias",
+    "reparto": [
+      "Sophie Turner",
+      "Archie Madekwe",
+      "Jacob Fortune-Lloyd",
+      "Andrew Howard",
+      "Jonathan Slinger",
+      "Ellie James",
+      "Sarah Belcher",
+      "Thomas Larkin",
+      "Tara Summers"
+    ],
+    "calificacion": 8.6,
+    "votos": 19,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-24T01:20:17.171157",
+    "tmdb_id": "254071",
+    "popularidad": 120.33,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "temporadas": [
+      {
+        "temporada": 1,
+        "nombre": "Temporada 1",
+        "episodios": [
+          {
+            "episodio": 1,
+            "titulo": "Episodio 1",
+            "url": "https://fastream.to/embed-t4v6u681goix.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 2,
+            "titulo": "Episodio 2",
+            "url": "https://fastream.to/embed-jpnrucf6sye3.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 3,
+            "titulo": "Episodio 3",
+            "url": "https://fastream.to/embed-ngkf552xpv5u.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 4,
+            "titulo": "Episodio 4",
+            "url": "https://fastream.to/embed-44ejzpiqkkkz.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 5,
+            "titulo": "Episodio 5",
+            "url": "https://fastream.to/embed-ugmanq95zmol.html",
+            "calidad": "1080p",
+            "visto": false
+          },
+          {
+            "episodio": 6,
+            "titulo": "Episodio 6",
+            "url": "https://fastream.to/embed-tk8anaf1al8q.html",
+            "calidad": "1080p",
+            "visto": false
+          }
+        ]
+      }
+    ],
+    "episodios": 6,
+    "tipo_serie": "Scripted",
+    "ultima_emision": "2026-01-21",
+    "plataforma": "Amazon Prime Video",
+    "id": "el-robo-2026"
+  },
+  {
     "tipo": "pelicula",
     "titulo": "El Roomie",
     "titulo_original": "El Roomie",
