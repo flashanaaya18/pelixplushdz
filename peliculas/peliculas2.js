@@ -18038,4 +18038,3 @@ const peliculas2 = [
     "plataforma": "pelicula"
   }
 ];
-if(typeof peliculas2 !== 'undefined') window.peliculas2 = peliculas2;

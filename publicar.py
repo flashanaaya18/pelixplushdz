@@ -169,7 +169,7 @@ except (ImportError, ZoneInfoNotFoundError):
     TZ = None
 
 # --- Constantes ---
-BASE_DIR = r"D:\pelixplus"
+BASE_DIR = "/workspaces/pelixplushdz"
 FILES_CONFIG = [
     {'path': os.path.join(BASE_DIR, 'peliculas', 'peliculas.js'), 'var': 'peliculas'},
     {'path': os.path.join(BASE_DIR, 'peliculas', 'peliculas1.js'), 'var': 'peliculas1'},

@@ -8761,6 +8761,72 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "La princesa Kaguya del cosmos",
+    "titulo_original": "超かぐや姫！",
+    "poster": "https://image.tmdb.org/t/p/w500/vwFXqXh1LRxEYg94IyF8wAHsWOT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lqQfj9sOZ9fT3waHvUUtmbnJjwT.jpg",
+    "descripcion": "La vida de Iroha se sale de control cuando Kaguya, una despreocupada fugitiva de la Luna, se muda con ella y la convence para actuar juntas en un mundo virtual.",
+    "año": 2026,
+    "categoria": [
+      "ciencia-ficcion"
+    ],
+    "genero": [
+      "animación",
+      "música",
+      "fantasía",
+      "ciencia ficción"
+    ],
+    "generos_lista": [
+      "Animación",
+      "Música",
+      "Fantasía",
+      "Ciencia ficción"
+    ],
+    "director": "山下清悟",
+    "reparto": [
+      "Yuko Natsuyoshi",
+      "Anna Nagase",
+      "Saori Hayami",
+      "Miyu Irino",
+      "Yuma Uchida",
+      "Yoshitsugu Matsuoka",
+      "Yoshino Aoyama",
+      "Konomi Kohara",
+      "Rie Kugimiya",
+      "Natsuki Hanae",
+      "Fairouz Ai",
+      "Maaya Sakamoto"
+    ],
+    "calificacion": 9.0,
+    "votos": 2,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-01-24T01:14:07.692861",
+    "tmdb_id": "1575337",
+    "popularidad": 19.46,
+    "tagline": "",
+    "trailer": "",
+    "trailer_key": "",
+    "success": true,
+    "duracion": "143 min",
+    "presupuesto": "Desconocido",
+    "ingresos": "Desconocido",
+    "plataforma": "Netflix",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://fastream.to/embed-o3ofidyx99bc.html",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "la-princesa-kaguya-del-cosmos-2026"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "La sospecha de Sofía",
     "titulo_original": "La sospecha de Sofía",
     "poster": "https://image.tmdb.org/t/p/w500/jt6mm0nqYdn6UFEGoEEI4Xt3VMi.jpg",

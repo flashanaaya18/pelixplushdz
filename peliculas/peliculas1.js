@@ -30120,4 +30120,3 @@ const peliculas1 = [
     "backdrop": "https://image.tmdb.org/t/p/w1280/6WFWXiwe9rpaXsiuTtM351B2Il9.jpg"
   }
 ];
-if(typeof peliculas1 !== 'undefined') window.peliculas1 = peliculas1;
