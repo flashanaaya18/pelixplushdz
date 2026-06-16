@@ -1806,6 +1806,69 @@ const peliculas3 = [
   },
   {
     "tipo": "pelicula",
+    "titulo": "Buena suerte, pásalo bien, no mueras",
+    "titulo_original": "Good Luck, Have Fun, Don't Die",
+    "poster": "https://image.tmdb.org/t/p/w500/vzJkrTx01ol7FTIhzS50pms5xEG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/drRxbu2OHG0DEENptZ8wI5f0uEU.jpg",
+    "descripcion": "Un hombre que afirma venir del futuro llega a un pequeño restaurante en Los Ángeles. Su misión: reclutar a los humanos descontentos para que, en el transcurso de una noche, formen parte de una misión global: detener a una inteligencia artificial que se ha vuelto rebelde y amenaza la supervivencia del mundo.",
+    "año": 2026,
+    "categoria": [
+      "lanzamientos-recientes"
+    ],
+    "genero": [
+      "ciencia ficción",
+      "acción",
+      "comedia"
+    ],
+    "generos_lista": [
+      "Ciencia ficción",
+      "Acción",
+      "Comedia"
+    ],
+    "director": "Gore Verbinski",
+    "reparto": [
+      "Sam Rockwell",
+      "Juno Temple",
+      "Haley Lu Richardson",
+      "Michael Peña",
+      "Zazie Beetz",
+      "Asim Chaudhry",
+      "Tom Taylor",
+      "Georgia Goodman",
+      "Daniel Barnett",
+      "Artie Wilkinson-Hunt",
+      "Riccardo Drayton",
+      "Dominique Maher"
+    ],
+    "calificacion": 6.9,
+    "votos": 546,
+    "idioma": "latino",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-06-16T19:02:07.270798",
+    "tmdb_id": 1119449,
+    "popularidad": 21.73,
+    "tagline": "",
+    "trailer": "https://www.youtube.com/watch?v=ZJKakjiBZR8",
+    "trailer_key": "ZJKakjiBZR8",
+    "success": true,
+    "duracion": "134 min",
+    "presupuesto": "$20,000,000",
+    "ingresos": "$9,755,038",
+    "fuentes": [
+      {
+        "idioma": "latino",
+        "url": "https://minochinos.com/embed/sliirbcvam5i",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "buena-suerte-pasalo-bien-no-mueras-2026"
+  },
+  {
+    "tipo": "pelicula",
     "titulo": "Bull Shark 2",
     "titulo_original": "Bull Shark 2",
     "poster": "https://image.tmdb.org/t/p/w500/wn6Y3AmynoQxTGwIkHuCWB4APS4.jpg",
@@ -10999,6 +11062,67 @@ const peliculas3 = [
       }
     ],
     "id": "mi-suegra-me-odia-2022"
+  },
+  {
+    "tipo": "pelicula",
+    "titulo": "Michael",
+    "titulo_original": "Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/2uK36ujoDXOfNiJ5Yp3raVprB51.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
+    "descripcion": "El viaje de Michael Jackson más allá de la música, desde el descubrimiento de su extraordinario talento como líder de los Jackson Five hasta convertirse en una visionaria estrella cuya ambición creativa despertó un incansable afán por consagrarse como el mayor icono de la industria del entretenimiento.",
+    "año": 2026,
+    "categoria": [
+      "drama"
+    ],
+    "genero": [
+      "música",
+      "drama"
+    ],
+    "generos_lista": [
+      "Música",
+      "Drama"
+    ],
+    "director": "Antoine Fuqua",
+    "reparto": [
+      "Jaafar Jackson",
+      "Colman Domingo",
+      "Nia Long",
+      "Juliano Krue Valdi",
+      "Miles Teller",
+      "KeiLyn Durrel Jones",
+      "Kendrick Sampson",
+      "Joseph David-Jones",
+      "Rhyan Hill",
+      "Jamal Henderson",
+      "Trey Horton",
+      "Jessica Sula"
+    ],
+    "calificacion": 8.6,
+    "votos": 2445,
+    "idioma": "LATINO",
+    "calidad": "1080p",
+    "favorito": false,
+    "esta_roto": false,
+    "addedDate": "2026-06-16T19:04:53.973960",
+    "tmdb_id": "936075",
+    "popularidad": 586.05,
+    "tagline": "Descubre el origen de un Rey.",
+    "trailer": "https://www.youtube.com/watch?v=o1HQSh6zZ8s",
+    "trailer_key": "o1HQSh6zZ8s",
+    "success": true,
+    "duracion": "128 min",
+    "presupuesto": "$250,000,000",
+    "ingresos": "$934,009,960",
+    "fuentes": [
+      {
+        "idioma": "LATINO",
+        "url": "https://minochinos.com/embed/csivx267gdol",
+        "calidad": "1080p",
+        "tipo": "embed",
+        "activa": true
+      }
+    ],
+    "id": "michael-2026"
   },
   {
     "tipo": "pelicula",
